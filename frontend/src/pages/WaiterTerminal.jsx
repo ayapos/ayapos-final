@@ -1,0 +1,57 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { ArrowRight, Tablet, Wifi, Battery, Zap } from 'lucide-react';
+import { Button } from '../components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
+import { Badge } from '../components/ui/badge';
+
+const WaiterTerminal = () => {
+  return (
+    <div className="min-h-screen pt-16">
+      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <Badge className="bg-blue-500 text-white border-none mb-6">
+            Solution Mobile
+          </Badge>
+          <h1 className="text-5xl font-bold mb-6">Terminal Serveur</h1>
+          <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
+            Tablette mobile pour serveurs - Prenez les commandes directement à table
+          </p>
+          <Link to="/contact">
+            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+              Demander une démo <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </Link>
+        </div>
+      </section>
+
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              { icon: Tablet, title: 'Interface tactile', desc: 'Facile et rapide à utiliser' },
+              { icon: Wifi, title: 'Connexion WiFi', desc: 'Synchronisation en temps réel' },
+              { icon: Battery, title: 'Autonomie longue', desc: 'Batterie toute la journée' },
+              { icon: Zap, title: 'Prise de commande rapide', desc: 'Service plus efficace' }
+            ].map((item, idx) => {
+              const Icon = item.icon;
+              return (
+                <Card key={idx}>
+                  <CardHeader>
+                    <div className="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                      <Icon className="h-6 w-6 text-blue-600" />
+                    </div>
+                    <CardTitle>{item.title}</CardTitle>
+                    <p className="text-sm text-gray-600">{item.desc}</p>
+                  </CardHeader>
+                </Card>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default WaiterTerminal;
