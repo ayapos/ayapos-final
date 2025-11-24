@@ -77,17 +77,56 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navigation.map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-blue-600 ${
-                  location.pathname === item.path
-                    ? 'text-blue-600'
-                    : 'text-gray-700'
-                }`}
-              >
-                {item.name}
-              </Link>
+              item.hasDropdown ? (
+                <DropdownMenu key={item.path}>
+                  <DropdownMenuTrigger asChild>
+                    <button className="flex items-center space-x-1 text-sm font-medium transition-colors hover:text-blue-600 text-gray-700">
+                      <span>{item.name}</span>
+                      <ChevronDown className="h-4 w-4" />
+                    </button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align="start" className="w-[600px] p-6">
+                    <div className="grid grid-cols-2 gap-8">
+                      {item.dropdown.sections.map((section, idx) => (
+                        <div key={idx}>
+                          <h3 className="font-semibold text-gray-900 mb-3 pb-2 border-b">
+                            {section.title}
+                          </h3>
+                          <div className="space-y-2">
+                            {section.items.map((subItem, subIdx) => {
+                              const Icon = LucideIcons[subItem.icon];
+                              return (
+                                <Link
+                                  key={subIdx}
+                                  to={subItem.path}
+                                  className="flex items-center space-x-2 px-2 py-2 rounded hover:bg-blue-50 transition-colors group"
+                                >
+                                  {Icon && <Icon className="h-4 w-4 text-blue-600" />}
+                                  <span className="text-sm text-gray-700 group-hover:text-blue-600">
+                                    {subItem.name}
+                                  </span>
+                                </Link>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </DropdownMenuContent>
+                </DropdownMenu>
+              ) : (
+                <Link
+                  key={item.path}
+                  to={item.path}
+                  className={`text-sm font-medium transition-colors hover:text-blue-600 ${
+                    location.pathname === item.path
+                      ? 'text-blue-600'
+                      : 'text-gray-700'
+                  }`}
+                >
+                  {item.name}
+                </Link>
+              )
             ))}
           </div>
 
