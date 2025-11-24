@@ -24,6 +24,8 @@ import MobileReports from './pages/MobileReports';
 import StockManagement from './pages/StockManagement';
 import CentralizedManagement from './pages/CentralizedManagement';
 import RestaurantPOS from './pages/RestaurantPOS';
+import OrderSystemNew from './pages/OrderSystemNew';
+import WaiterTerminalNew from './pages/WaiterTerminalNew';
 
 const LoadingFallback = () => (
   <div className="flex items-center justify-center min-h-screen">
