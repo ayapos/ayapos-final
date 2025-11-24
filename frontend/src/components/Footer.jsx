@@ -1,0 +1,120 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+
+const Footer = () => {
+  const { t } = useTranslation();
+  const currentYear = new Date().getFullYear();
+
+  const footerSections = [
+    {
+      title: t('footer.products'),
+      links: [
+        { name: 'Premium POS', path: '/pos' },
+        { name: 'Tablet POS', path: '/pos' },
+        { name: 'Web POS', path: '/pos' },
+        { name: 'Mobile POS', path: '/pos' },
+        { name: 'AyaPay', path: '/ayapay' },
+      ],
+    },
+    {
+      title: t('nav.digital'),
+      links: [
+        { name: 'Self Order Kiosk', path: '/digital' },
+        { name: 'Digital Menu', path: '/digital' },
+        { name: 'Mobile App', path: '/digital' },
+        { name: 'Digital Menuboard', path: '/digital' },
+      ],
+    },
+    {
+      title: t('footer.company'),
+      links: [
+        { name: t('nav.about'), path: '/about' },
+        { name: t('nav.pricing'), path: '/pricing' },
+        { name: t('nav.contact'), path: '/contact' },
+        { name: 'Blog', path: '/blog' },
+      ],
+    },
+  ];
+
+  return (
+    <footer className="bg-gray-900 text-gray-300">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+          {/* Brand Section */}
+          <div className="lg:col-span-2">
+            <Link to="/" className="inline-block mb-4">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_44c9e62f-ed87-400a-b2ba-96fdcf0ee385/artifacts/813w235y_AYAPOS%20Logo.png" 
+                alt="AyaPos Logo" 
+                className="h-10 w-auto brightness-0 invert"
+              />
+            </Link>
+            <p className="text-sm mb-4">
+              {t('footer.tagline')}
+            </p>
+            <div className="space-y-2">
+              <div className="flex items-center space-x-2 text-sm">
+                <Phone className="h-4 w-4" />
+                <span>+41 (0) 800 123 456</span>
+              </div>
+              <div className="flex items-center space-x-2 text-sm">
+                <Mail className="h-4 w-4" />
+                <span>info@ayapos.com</span>
+              </div>
+              <div className="flex items-center space-x-2 text-sm">
+                <MapPin className="h-4 w-4" />
+                <span>Zurich, Switzerland</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Links Sections */}
+          {footerSections.map((section) => (
+            <div key={section.title}>
+              <h3 className="text-white font-semibold mb-4">{section.title}</h3>
+              <ul className="space-y-2">
+                {section.links.map((link) => (
+                  <li key={link.name}>
+                    <Link
+                      to={link.path}
+                      className="text-sm hover:text-white transition-colors"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+
+        {/* Bottom Section */}
+        <div className="mt-12 pt-8 border-t border-gray-800">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <p className="text-sm">
+              © {currentYear} AyaPos. {t('footer.rights')}.
+            </p>
+            <div className="flex space-x-6">
+              <a href="#" className="hover:text-white transition-colors">
+                <Facebook className="h-5 w-5" />
+              </a>
+              <a href="#" className="hover:text-white transition-colors">
+                <Twitter className="h-5 w-5" />
+              </a>
+              <a href="#" className="hover:text-white transition-colors">
+                <Linkedin className="h-5 w-5" />
+              </a>
+              <a href="#" className="hover:text-white transition-colors">
+                <Instagram className="h-5 w-5" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
