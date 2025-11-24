@@ -34,28 +34,52 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate API call
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitted(true);
-      toast({
-        title: "Merci pour votre demande !",
-        description: "Nous vous contacterons dans les 24 heures.",
+    try {
+      const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+      const response = await fetch(`${BACKEND_URL}/api/contacts/`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ...formData,
+          language: 'fr'
+        }),
       });
-      
-      // Reset form after 3 seconds
-      setTimeout(() => {
-        setFormData({
-          businessName: '',
-          businessType: '',
-          phone: '',
-          email: '',
-          city: '',
-          message: ''
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setIsSubmitting(false);
+        setSubmitted(true);
+        toast({
+          title: "Merci pour votre demande !",
+          description: data.message || "Nous vous contacterons dans les 24 heures.",
         });
-        setSubmitted(false);
-      }, 3000);
-    }, 1500);
+        
+        // Reset form after 3 seconds
+        setTimeout(() => {
+          setFormData({
+            businessName: '',
+            businessType: '',
+            phone: '',
+            email: '',
+            city: '',
+            message: ''
+          });
+          setSubmitted(false);
+        }, 3000);
+      } else {
+        throw new Error(data.detail || 'Erreur lors de l\'envoi');
+      }
+    } catch (error) {
+      setIsSubmitting(false);
+      toast({
+        title: "Erreur",
+        description: error.message || "Une erreur s'est produite. Veuillez réessayer.",
+        variant: "destructive"
+      });
+    }
   };
 
   return (
