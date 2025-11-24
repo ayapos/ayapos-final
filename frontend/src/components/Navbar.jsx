@@ -17,7 +17,36 @@ const Navbar = () => {
 
   const navigation = [
     { name: t('nav.home'), path: '/' },
-    { name: t('nav.pos'), path: '/pos' },
+    { 
+      name: t('nav.pos'), 
+      path: '/pos',
+      hasDropdown: true,
+      dropdown: {
+        sections: [
+          {
+            title: 'Restaurant & Café',
+            items: [
+              { name: 'Système POS Restaurant', path: '/pos', icon: 'Store' },
+              { name: 'Self-Order Kiosk', path: '/digital', icon: 'Smartphone' },
+              { name: 'Système Commande', path: '/digital', icon: 'Package' },
+              { name: 'Terminal Serveur', path: '/digital', icon: 'Tablet' },
+              { name: 'App Mobile Commande', path: '/digital', icon: 'ShoppingBag' },
+              { name: 'Serveur Robot', path: '/digital', icon: 'Bot' },
+              { name: 'Gestion Livraison', path: '/digital', icon: 'Truck' }
+            ]
+          },
+          {
+            title: 'Outils de Gestion',
+            items: [
+              { name: 'Portail Web', path: '/pos', icon: 'Globe' },
+              { name: 'Rapport Mobile', path: '/pos', icon: 'BarChart3' },
+              { name: 'Gestion Stock', path: '/pos', icon: 'Package' },
+              { name: 'Gestion Centralisée', path: '/pos', icon: 'Building2' }
+            ]
+          }
+        ]
+      }
+    },
     { name: t('nav.digital'), path: '/digital' },
     { name: t('nav.ayapay'), path: '/ayapay' },
     { name: t('nav.pricing'), path: '/pricing' },
