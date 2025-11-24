@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Home",
+    "pos": "POS Systems",
+    "digital": "Digital Solutions",
+    "ayapay": "AyaPay",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "demo": "Request a Demo"
+  },
+  "hero": {
+    "title": "Next Generation POS and Payment Solutions",
+    "subtitle": "Restaurants, cafes, hotels, markets and chain businesses - Innovative POS systems with integrated payment terminals",
+    "cta": "Discover our solutions",
+    "cta_secondary": "View pricing"
+  },
+  "features": {
+    "title": "Everything you need to succeed",
+    "pos_title": "Complete POS System",
+    "pos_desc": "Manage your sales, inventory, and reports in real-time from anywhere",
+    "payment_title": "Payment Terminals",
+    "payment_desc": "Secure and fast payment solutions for all types of transactions",
+    "digital_title": "Digital Menus",
+    "digital_desc": "QR codes, tablets and kiosks for a modern customer experience",
+    "reports_title": "Reports & Analytics",
+    "reports_desc": "Track your performance with intuitive dashboards"
+  },
+  "pos": {
+    "title": "Professional POS Systems",
+    "subtitle": "Choose the POS solution adapted to your business",
+    "premium": {
+      "name": "Premium POS",
+      "tagline": "Total control, maximum power",
+      "desc": "For restaurant chains, shopping malls and high-volume businesses",
+      "price": "€1049",
+      "period": "per month"
+    },
+    "tablet": {
+      "name": "Tablet POS",
+      "tagline": "Compact and economical",
+      "desc": "For small restaurants, cafe chains and boutique bakeries",
+      "price": "€699",
+      "period": "per month"
+    },
+    "web": {
+      "name": "Web POS",
+      "tagline": "Quick start, your own device",
+      "desc": "For new businesses, cafes and kiosks",
+      "price": "€525",
+      "period": "per month"
+    },
+    "mobile": {
+      "name": "Mobile POS",
+      "tagline": "Mobile and portable",
+      "desc": "For field sales, street vendors and events",
+      "price": "€349",
+      "period": "per month"
+    }
+  },
+  "ayapay": {
+    "title": "AyaPay - Payment Terminals",
+    "subtitle": "Professional payment solutions for all needs",
+    "hero_text": "Accept all payment methods with our next-generation terminals",
+    "terminals_title": "Our Payment Terminals",
+    "smartpos_a77": {
+      "name": "SmartPOS A77",
+      "tagline": "Compact and lightweight",
+      "desc": "Portable terminal with touchscreen and 4G connection"
+    },
+    "smartpos_a920": {
+      "name": "SmartPOS A920",
+      "tagline": "Smart and fast",
+      "desc": "Smart terminal with built-in printer and large screen"
+    },
+    "deskpos_q80": {
+      "name": "Desk POS Q80",
+      "tagline": "Fixed and practical",
+      "desc": "Countertop terminal with stand and maximum stability"
+    },
+    "softpos": {
+      "name": "Tap to Pay iPhone",
+      "tagline": "Payment without terminal",
+      "desc": "Turn your iPhone into a payment terminal"
+    },
+    "features_title": "Key features",
+    "feature_1": "Accept all cards",
+    "feature_2": "NFC contactless payments",
+    "feature_3": "WiFi and 4G connection",
+    "feature_4": "Digital and printed receipts",
+    "feature_5": "PCI-DSS security",
+    "feature_6": "Complete POS integration"
+  },
+  "pricing": {
+    "title": "Transparent Pricing",
+    "subtitle": "Choose the plan that fits your needs",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "save": "Save 20%",
+    "cta": "Get Started",
+    "features": "Included features"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Fill out the form and we'll contact you quickly",
+    "name": "Business name",
+    "type": "Business type",
+    "phone": "Phone",
+    "email": "Email",
+    "city": "City",
+    "message": "Message",
+    "submit": "Get Free Quote",
+    "success": "Thank you! We will contact you soon.",
+    "error": "An error occurred. Please try again."
+  },
+  "footer": {
+    "tagline": "Next Generation POS and Payment Solutions",
+    "rights": "All rights reserved",
+    "company": "Company",
+    "products": "Products",
+    "support": "Support"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "pos": "POS-Systeme",
+    "digital": "Digitale Lösungen",
+    "ayapay": "AyaPay",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "demo": "Demo anfordern"
+  },
+  "hero": {
+    "title": "POS- und Zahlungslösungen der nächsten Generation",
+    "subtitle": "Restaurants, Cafés, Hotels, Märkte und Kettenunternehmen - Innovative POS-Systeme mit integrierten Zahlungsterminals",
+    "cta": "Entdecken Sie unsere Lösungen",
+    "cta_secondary": "Preise ansehen"
+  },
+  "features": {
+    "title": "Alles was Sie zum Erfolg brauchen",
+    "pos_title": "Komplettes POS-System",
+    "pos_desc": "Verwalten Sie Ihre Verkäufe, Bestände und Berichte in Echtzeit von überall",
+    "payment_title": "Zahlungsterminals",
+    "payment_desc": "Sichere und schnelle Zahlungslösungen für alle Arten von Transaktionen",
+    "digital_title": "Digitale Menüs",
+    "digital_desc": "QR-Codes, Tablets und Kioske für ein modernes Kundenerlebnis",
+    "reports_title": "Berichte & Analytics",
+    "reports_desc": "Verfolgen Sie Ihre Leistung mit intuitiven Dashboards"
+  },
+  "pos": {
+    "title": "Professionelle POS-Systeme",
+    "subtitle": "Wählen Sie die POS-Lösung für Ihr Unternehmen",
+    "premium": {
+      "name": "Premium POS",
+      "tagline": "Volle Kontrolle, maximale Leistung",
+      "desc": "Für Restaurantketten, Einkaufszentren und Unternehmen mit hohem Volumen",
+      "price": "1049€",
+      "period": "pro Monat"
+    },
+    "tablet": {
+      "name": "Tablet POS",
+      "tagline": "Kompakt und wirtschaftlich",
+      "desc": "Für kleine Restaurants, Café-Ketten und Boutique-Bäckereien",
+      "price": "699€",
+      "period": "pro Monat"
+    },
+    "web": {
+      "name": "Web POS",
+      "tagline": "Schnellstart, Ihr eigenes Gerät",
+      "desc": "Für neue Unternehmen, Cafés und Kioske",
+      "price": "525€",
+      "period": "pro Monat"
+    },
+    "mobile": {
+      "name": "Mobile POS",
+      "tagline": "Mobil und tragbar",
+      "desc": "Für Außendienst, Straßenverkäufer und Veranstaltungen",
+      "price": "349€",
+      "period": "pro Monat"
+    }
+  },
+  "ayapay": {
+    "title": "AyaPay - Zahlungsterminals",
+    "subtitle": "Professionelle Zahlungslösungen für alle Bedürfnisse",
+    "hero_text": "Akzeptieren Sie alle Zahlungsmethoden mit unseren Terminals der nächsten Generation",
+    "terminals_title": "Unsere Zahlungsterminals",
+    "smartpos_a77": {
+      "name": "SmartPOS A77",
+      "tagline": "Kompakt und leicht",
+      "desc": "Tragbares Terminal mit Touchscreen und 4G-Verbindung"
+    },
+    "smartpos_a920": {
+      "name": "SmartPOS A920",
+      "tagline": "Smart und schnell",
+      "desc": "Intelligentes Terminal mit integriertem Drucker und großem Bildschirm"
+    },
+    "deskpos_q80": {
+      "name": "Desk POS Q80",
+      "tagline": "Fest und praktisch",
+      "desc": "Tischgerät mit Ständer und maximaler Stabilität"
+    },
+    "softpos": {
+      "name": "Tap to Pay iPhone",
+      "tagline": "Zahlung ohne Terminal",
+      "desc": "Verwandeln Sie Ihr iPhone in ein Zahlungsterminal"
+    },
+    "features_title": "Hauptfunktionen",
+    "feature_1": "Alle Karten akzeptieren",
+    "feature_2": "NFC-kontaktlose Zahlungen",
+    "feature_3": "WiFi- und 4G-Verbindung",
+    "feature_4": "Digitale und gedruckte Belege",
+    "feature_5": "PCI-DSS-Sicherheit",
+    "feature_6": "Vollständige POS-Integration"
+  },
+  "pricing": {
+    "title": "Transparente Preise",
+    "subtitle": "Wählen Sie den Plan, der zu Ihren Bedürfnissen passt",
+    "monthly": "Monatlich",
+    "yearly": "Jährlich",
+    "save": "20% sparen",
+    "cta": "Loslegen",
+    "features": "Enthaltene Funktionen"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Füllen Sie das Formular aus und wir kontaktieren Sie schnell",
+    "name": "Firmenname",
+    "type": "Geschäftstyp",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "city": "Stadt",
+    "message": "Nachricht",
+    "submit": "Kostenloses Angebot erhalten",
+    "success": "Vielen Dank! Wir werden Sie bald kontaktieren.",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+  },
+  "footer": {
+    "tagline": "POS- und Zahlungslösungen der nächsten Generation",
+    "rights": "Alle Rechte vorbehalten",
+    "company": "Unternehmen",
+    "products": "Produkte",
+    "support": "Support"
+  }
+}
