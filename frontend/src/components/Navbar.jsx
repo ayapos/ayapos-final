@@ -27,7 +27,7 @@ const Navbar = () => {
           {
             title: 'Restaurant & Café',
             items: [
-              { name: 'Système POS Restaurant', path: '/pos', icon: 'Store' },
+              { name: 'Système POS Restaurant', path: '/restaurant-pos', icon: 'Store' },
               { name: 'Self-Order Kiosk', path: '/self-order-kiosk', icon: 'Smartphone' },
               { name: 'Système Commande', path: '/order-system', icon: 'Package' },
               { name: 'Terminal Serveur', path: '/waiter-terminal', icon: 'Tablet' },
