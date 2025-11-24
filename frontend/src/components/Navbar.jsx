@@ -39,10 +39,10 @@ const Navbar = () => {
           {
             title: 'Outils de Gestion',
             items: [
-              { name: 'Portail Web', path: '/pos', icon: 'Globe' },
-              { name: 'Rapport Mobile', path: '/pos', icon: 'BarChart3' },
-              { name: 'Gestion Stock', path: '/pos', icon: 'Package' },
-              { name: 'Gestion Centralisée', path: '/pos', icon: 'Building2' }
+              { name: 'Portail Web', path: '/web-portal', icon: 'Globe' },
+              { name: 'Rapport Mobile', path: '/mobile-reports', icon: 'BarChart3' },
+              { name: 'Gestion Stock', path: '/stock-management', icon: 'Package' },
+              { name: 'Gestion Centralisée', path: '/centralized-management', icon: 'Building2' }
             ]
           }
         ]
