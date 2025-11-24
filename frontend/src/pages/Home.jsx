@@ -6,13 +6,34 @@ import * as LucideIcons from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { features, testimonials, posPackages } from '../data/mockData';
+import HeroCarousel from '../components/HeroCarousel';
 
 const Home = () => {
   const { t } = useTranslation();
 
+  // Hero carousel slides
+  const heroSlides = [
+    {
+      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80',
+      alt: 'POS System 1'
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&q=80',
+      alt: 'POS System 2'
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=800&q=80',
+      alt: 'POS System 3'
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1556741533-f6acd646dcec?w=800&q=80',
+      alt: 'Payment Terminal'
+    }
+  ];
+
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
+      {/* Hero Section with Carousel */}
       <section className="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 pt-24 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -65,15 +86,10 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Right Image/Visual */}
-            <div className="relative">
-              <div className="relative z-10">
-                <img
-                  src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80"
-                  alt="POS System"
-                  className="rounded-2xl shadow-2xl"
-                />
-              </div>
+            {/* Right - Carousel */}
+            <div className="relative h-[500px]">
+              <HeroCarousel slides={heroSlides} />
+              
               {/* Floating Cards */}
               <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg z-20">
                 <div className="flex items-center space-x-3">
