@@ -41,7 +41,7 @@ const Navbar = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_44c9e62f-ed87-400a-b2ba-96fdcf0ee385/artifacts/813w235y_AYAPOS%20Logo.png" 
               alt="AyaPos Logo" 
-              className="h-14 w-auto"
+              className="h-20 w-auto"
             />
           </Link>
 
