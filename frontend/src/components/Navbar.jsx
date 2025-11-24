@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, ChevronDown, Globe } from 'lucide-react';
+import * as LucideIcons from 'lucide-react';
 import { Button } from './ui/button';
 import {
   DropdownMenu,
