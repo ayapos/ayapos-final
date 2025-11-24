@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Home",
+    "pos": "Sistemi POS",
+    "digital": "Soluzioni Digitali",
+    "ayapay": "AyaPay",
+    "pricing": "Prezzi",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "demo": "Richiedi una demo"
+  },
+  "hero": {
+    "title": "Soluzioni POS e Pagamento di Nuova Generazione",
+    "subtitle": "Ristoranti, caffetterie, hotel, mercati e catene aziendali - Sistemi POS innovativi con terminali di pagamento integrati",
+    "cta": "Scopri le nostre soluzioni",
+    "cta_secondary": "Vedi i prezzi"
+  },
+  "features": {
+    "title": "Tutto ciò di cui hai bisogno per avere successo",
+    "pos_title": "Sistema POS Completo",
+    "pos_desc": "Gestisci vendite, inventario e report in tempo reale da qualsiasi luogo",
+    "payment_title": "Terminali di Pagamento",
+    "payment_desc": "Soluzioni di pagamento sicure e veloci per tutti i tipi di transazioni",
+    "digital_title": "Menu Digitali",
+    "digital_desc": "Codici QR, tablet e chioschi per un'esperienza cliente moderna",
+    "reports_title": "Report & Analytics",
+    "reports_desc": "Monitora le tue prestazioni con dashboard intuitive"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Početna",
+    "pos": "POS Sistemi",
+    "digital": "Digitalna Rešenja",
+    "ayapay": "AyaPay",
+    "pricing": "Cene",
+    "about": "O nama",
+    "contact": "Kontakt",
+    "demo": "Zatraži demo"
+  },
+  "hero": {
+    "title": "POS i Platna Rešenja Nove Generacije",
+    "subtitle": "Restorani, kafići, hoteli, marketi i poslovni lanci - Inovativni POS sistemi sa integrovanim platnim terminalima",
+    "cta": "Otkrijte naša rešenja",
+    "cta_secondary": "Pogledajte cene"
+  },
+  "features": {
+    "title": "Sve što vam je potrebno za uspeh",
+    "pos_title": "Kompletan POS Sistem",
+    "pos_desc": "Upravljajte prodajom, inventarom i izveštajima u realnom vremenu sa bilo kog mesta",
+    "payment_title": "Platni Terminali",
+    "payment_desc": "Sigurna i brza platna rešenja za sve vrste transakcija",
+    "digital_title": "Digitalni Meniji",
+    "digital_desc": "QR kodovi, tableti i kiosci za moderno korisničko iskustvo",
+    "reports_title": "Izveštaji i Analitika",
+    "reports_desc": "Pratite performanse pomoću intuitivnih kontrolnih tabli"
+  }
+}

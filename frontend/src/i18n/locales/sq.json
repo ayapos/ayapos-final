@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Ballina",
+    "pos": "Sistemet POS",
+    "digital": "Zgjidhje Digjitale",
+    "ayapay": "AyaPay",
+    "pricing": "Çmimet",
+    "about": "Rreth nesh",
+    "contact": "Kontakt",
+    "demo": "Kërkoni një demo"
+  },
+  "hero": {
+    "title": "Zgjidhje POS dhe Pagese të Gjeneratës së Re",
+    "subtitle": "Restorante, kafene, hotele, tregje dhe zinxhirë biznesi - Sisteme POS inovative me terminale pagese të integruara",
+    "cta": "Zbuloni zgjidhjet tona",
+    "cta_secondary": "Shikoni çmimet"
+  },
+  "features": {
+    "title": "Gjithçka që ju nevojitet për sukses",
+    "pos_title": "Sistem POS i Plotë",
+    "pos_desc": "Menaxhoni shitjet, inventarin dhe raportet në kohë reale nga çdo vend",
+    "payment_title": "Terminale Pagese",
+    "payment_desc": "Zgjidhje pagese të sigurta dhe të shpejta për të gjitha llojet e transaksioneve",
+    "digital_title": "Menu Digjitale",
+    "digital_desc": "Kode QR, tableta dhe kioska për një përvojë moderne klienti",
+    "reports_title": "Raporte dhe Analitikë",
+    "reports_desc": "Ndiqni performancën tuaj me panele intuitive"
+  }
+}

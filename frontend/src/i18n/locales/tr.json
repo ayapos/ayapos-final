@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "pos": "POS Sistemleri",
+    "digital": "Dijital Çözümler",
+    "ayapay": "AyaPay",
+    "pricing": "Fiyatlar",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "demo": "Demo İste"
+  },
+  "hero": {
+    "title": "Yeni Nesil POS ve Ödeme Çözümleri",
+    "subtitle": "Restoran, kafe, otel, market ve zincir işletmeler - Entegre ödeme terminalleri ile yenilikçi POS sistemleri",
+    "cta": "Çözümlerimizi Keşfedin",
+    "cta_secondary": "Fiyatları Görüntüle"
+  },
+  "features": {
+    "title": "Başarı için ihtiyacınız olan her şey",
+    "pos_title": "Tam POS Sistemi",
+    "pos_desc": "Satışlarınızı, envanterinizi ve raporlarınızı her yerden gerçek zamanlı yönetin",
+    "payment_title": "Ödeme Terminalleri",
+    "payment_desc": "Her türlü işlem için güvenli ve hızlı ödeme çözümleri",
+    "digital_title": "Dijital Menüler",
+    "digital_desc": "Modern müşteri deneyimi için QR kodlar, tabletler ve kiosklar",
+    "reports_title": "Raporlar ve Analizler",
+    "reports_desc": "Sezgisel panolarla performansınızı takip edin"
+  }
+}
