@@ -28,12 +28,12 @@ const Navbar = () => {
             title: 'Restaurant & Café',
             items: [
               { name: 'Système POS Restaurant', path: '/pos', icon: 'Store' },
-              { name: 'Self-Order Kiosk', path: '/digital', icon: 'Smartphone' },
-              { name: 'Système Commande', path: '/digital', icon: 'Package' },
-              { name: 'Terminal Serveur', path: '/digital', icon: 'Tablet' },
-              { name: 'App Mobile Commande', path: '/digital', icon: 'ShoppingBag' },
-              { name: 'Serveur Robot', path: '/digital', icon: 'Bot' },
-              { name: 'Gestion Livraison', path: '/digital', icon: 'Truck' }
+              { name: 'Self-Order Kiosk', path: '/self-order-kiosk', icon: 'Smartphone' },
+              { name: 'Système Commande', path: '/order-system', icon: 'Package' },
+              { name: 'Terminal Serveur', path: '/waiter-terminal', icon: 'Tablet' },
+              { name: 'App Mobile Commande', path: '/mobile-order-app', icon: 'ShoppingBag' },
+              { name: 'Serveur Robot', path: '/robot-waiter', icon: 'Bot' },
+              { name: 'Gestion Livraison', path: '/delivery-management', icon: 'Truck' }
             ]
           },
           {
