@@ -46,6 +46,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             
             {/* Restaurant & Cafe Solutions */}
+            <Route path="/restaurant-pos" element={<RestaurantPOS />} />
             <Route path="/self-order-kiosk" element={<SelfOrderKiosk />} />
             <Route path="/order-system" element={<OrderSystem />} />
             <Route path="/waiter-terminal" element={<WaiterTerminal />} />
