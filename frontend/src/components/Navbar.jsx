@@ -67,12 +67,17 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <img 
-              src="https://customer-assets.emergentagent.com/job_44c9e62f-ed87-400a-b2ba-96fdcf0ee385/artifacts/813w235y_AYAPOS%20Logo.png" 
-              alt="AyaPos Logo" 
-              className="h-32 w-auto"
-            />
+          <Link to="/" className="flex items-center">
+            <div className="flex items-center space-x-2">
+              <div className="bg-gradient-to-br from-blue-600 to-blue-700 p-2.5 rounded-lg">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
+                AyaPos
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
