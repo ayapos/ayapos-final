@@ -50,8 +50,8 @@ function App() {
             {/* Restaurant & Cafe Solutions */}
             <Route path="/restaurant-pos" element={<RestaurantPOS />} />
             <Route path="/self-order-kiosk" element={<SelfOrderKiosk />} />
-            <Route path="/order-system" element={<OrderSystem />} />
-            <Route path="/waiter-terminal" element={<WaiterTerminal />} />
+            <Route path="/order-system" element={<OrderSystemNew />} />
+            <Route path="/waiter-terminal" element={<WaiterTerminalNew />} />
             <Route path="/mobile-order-app" element={<MobileOrderApp />} />
             <Route path="/robot-waiter" element={<RobotWaiter />} />
             <Route path="/delivery-management" element={<DeliveryManagement />} />
