@@ -43,6 +43,20 @@ function App() {
             <Route path="/ayapay" element={<AyaPay />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/contact" element={<Contact />} />
+            
+            {/* Restaurant & Cafe Solutions */}
+            <Route path="/self-order-kiosk" element={<SelfOrderKiosk />} />
+            <Route path="/order-system" element={<OrderSystem />} />
+            <Route path="/waiter-terminal" element={<WaiterTerminal />} />
+            <Route path="/mobile-order-app" element={<MobileOrderApp />} />
+            <Route path="/robot-waiter" element={<RobotWaiter />} />
+            <Route path="/delivery-management" element={<DeliveryManagement />} />
+            
+            {/* Management Tools */}
+            <Route path="/web-portal" element={<WebPortal />} />
+            <Route path="/mobile-reports" element={<MobileReports />} />
+            <Route path="/stock-management" element={<StockManagement />} />
+            <Route path="/centralized-management" element={<CentralizedManagement />} />
           </Routes>
           <Footer />
           <Toaster />
