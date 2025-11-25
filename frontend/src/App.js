@@ -19,6 +19,7 @@ import WaiterTerminal from './pages/WaiterTerminal';
 import MobileOrderApp from './pages/MobileOrderApp';
 import RobotWaiter from './pages/RobotWaiter';
 import DeliveryManagement from './pages/DeliveryManagement';
+import DeliveryManagementComplete from './pages/DeliveryManagementComplete';
 import WebPortal from './pages/WebPortal';
 import MobileReports from './pages/MobileReports';
 import StockManagement from './pages/StockManagement';
