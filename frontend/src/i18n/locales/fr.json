@@ -1080,5 +1080,75 @@
       "subtitle": "Testez gratuitement pendant 30 jours, sans engagement",
       "button": "Démarrer l'essai gratuit"
     }
+  },
+  "hardwareDevices": {
+    "hero": {
+      "badge": "CATALOGUE MATÉRIEL",
+      "title": "Matériel et Appareils POS",
+      "subtitle": "Tous les équipements et accessoires dont vous avez besoin pour votre entreprise. Matériel professionnel de qualité supérieure."
+    },
+    "categories": {
+      "all": "Tous",
+      "pos": "Terminaux POS",
+      "kiosk": "Bornes Kiosk",
+      "printers": "Imprimantes",
+      "accessories": "Accessoires"
+    },
+    "devices": {
+      "sunmiD3Pro": "Écran tactile 15.6 pouces, Android 11, processeur haute performance",
+      "sunmiD3Mini": "Écran tactile 10.1 pouces, compact et puissant",
+      "iMinSwan": "Terminal POS Android premium avec écran tactile capacitif",
+      "iMinD3": "Solution POS complète avec imprimante intégrée",
+      "iMinD2": "Terminal compact idéal pour petits espaces",
+      "iMinD1": "Terminal POS économique avec toutes les fonctionnalités",
+      "wintecAnypos": "Borne self-service verticale 15.6 pouces",
+      "wintecSelfpos10": "Kiosk vertical pour commande rapide",
+      "wintecSelfpos70": "Grand kiosk 32 pouces pour impact visuel maximal",
+      "paxSk800": "Borne kiosk professionnelle 23.8 pouces",
+      "thermalPrinter": "Imprimante Thermique POS",
+      "thermalPrinterDesc": "Impression rapide et silencieuse, compatible tous systèmes",
+      "labelPrinter": "Imprimante Étiquettes Code-Barres",
+      "labelPrinterDesc": "Compacte et facile à utiliser pour étiquettes produits",
+      "scaleLabel": "Balance avec Imprimante Étiquettes",
+      "scaleLabelDesc": "Mesure précise et fiable avec impression code-barres",
+      "barcodeWired": "Lecteur Code-Barres Filaire",
+      "barcodeWiredDesc": "Lecteur de table professionnel pour caisse",
+      "barcodeWireless": "Lecteur Code-Barres Sans Fil",
+      "barcodeWirelessDesc": "Autonomie batterie 30 heures, portée 100m",
+      "cashDrawer": "Tiroir-Caisse Métallique",
+      "cashDrawerDesc": "Construction robuste et durable en métal renforcé",
+      "cardReader": "Lecteur de Cartes RFID",
+      "cardReaderDesc": "Plug & Play, compatible cartes sans contact",
+      "pavoN86": "Terminal de paiement mobile HD avec NFC",
+      "waiterHandheld": "Terminal Serveur Portable",
+      "waiterHandheldDesc": "Écran HD IPS 5 pouces, idéal pour prise de commande mobile",
+      "paxA920Pro": "Terminal mobile professionnel 5.5 pouces"
+    },
+    "requestQuote": "Demander un devis",
+    "features": {
+      "title": "Pourquoi choisir notre matériel ?",
+      "subtitle": "Des équipements professionnels avec service complet",
+      "quality": {
+        "title": "Qualité Premium",
+        "description": "Matériel professionnel de marques reconnues mondialement"
+      },
+      "warranty": {
+        "title": "Garantie Étendue",
+        "description": "Garantie constructeur de 2 à 5 ans selon les modèles"
+      },
+      "support": {
+        "title": "Support Technique",
+        "description": "Assistance téléphonique et sur site en cas de besoin"
+      },
+      "delivery": {
+        "title": "Livraison & Installation",
+        "description": "Livraison rapide et installation par nos techniciens"
+      }
+    },
+    "cta": {
+      "title": "Besoin de conseils pour votre équipement ?",
+      "subtitle": "Nos experts vous aident à choisir le matériel adapté à vos besoins",
+      "button": "Contactez nos experts"
+    }
   }
 }
