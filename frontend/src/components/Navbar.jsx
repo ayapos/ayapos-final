@@ -75,9 +75,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <span className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent tracking-tight">
-              AYAPOS
-            </span>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_menu-cloud-1/artifacts/99kmv9cg_AyaPosLogo.png" 
+              alt="AyaPos Logo" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
