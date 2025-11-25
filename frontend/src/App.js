@@ -34,6 +34,7 @@ import KioskPricing from './pages/KioskPricing';
 import OrderSystemPricing from './pages/OrderSystemPricing';
 import DeliveryServicePricing from './pages/DeliveryServicePricing';
 import WaiterTerminalPricing from './pages/WaiterTerminalPricing';
+import HardwareDevices from './pages/HardwareDevices';
 import WaiterTerminalNew from './pages/WaiterTerminalNew';
 import MobileOrderAppComplete from './pages/MobileOrderAppComplete';
 import RobotWaiterComplete from './pages/RobotWaiterComplete';
