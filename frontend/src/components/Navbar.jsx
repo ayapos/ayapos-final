@@ -42,7 +42,8 @@ const Navbar = () => {
               { name: 'Portail Web', path: '/web-portal', icon: 'Globe' },
               { name: 'Rapport Mobile', path: '/mobile-reports', icon: 'BarChart3' },
               { name: 'Gestion Stock', path: '/stock-management', icon: 'Package' },
-              { name: 'Gestion Centralisée', path: '/centralized-management', icon: 'Building2' }
+              { name: 'Gestion Centralisée', path: '/centralized-management', icon: 'Building2' },
+              { name: 'Matériel Appareils', path: '/hardware-devices', icon: 'Laptop' }
             ]
           }
         ]
