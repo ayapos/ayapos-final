@@ -952,5 +952,133 @@
       "subtitle": "Premier mois offert pour tester le service sans engagement",
       "button": "Commencer maintenant"
     }
+  },
+  "waiterTerminalPricing": {
+    "hero": {
+      "badge": "EXTENSION TERMINAL SERVEUR",
+      "title": "Tarifs Terminal Serveur",
+      "subtitle": "Équipez vos serveurs de tablettes pour une prise de commande mobile ultra-rapide. Augmentez l'efficacité de votre service.",
+      "trial": "Essai gratuit 30 jours"
+    },
+    "perMonth": "par mois",
+    "oneTime": "Paiement unique",
+    "recommended": "Recommandé",
+    "selectPlan": "Sélectionner ce forfait",
+    "addToCart": "Ajouter au panier",
+    "plansSection": {
+      "title": "Forfaits logiciels mensuels",
+      "subtitle": "Extension Terminal Serveur pour votre système POS AyaPos"
+    },
+    "plans": {
+      "starter": {
+        "name": "Forfait Starter",
+        "description": "Parfait pour petits restaurants",
+        "features": [
+          "Application serveur mobile",
+          "Prise de commande à table",
+          "Synchronisation temps réel",
+          "Envoi direct en cuisine",
+          "Gestion des tables basique",
+          "Paiement à table",
+          "Support par email"
+        ]
+      },
+      "professional": {
+        "name": "Forfait Professional",
+        "description": "Pour restaurants moyens/grands",
+        "features": [
+          "Toutes fonctionnalités Starter",
+          "Plan de salle interactif",
+          "Gestion des réservations",
+          "Suivi temps d'attente",
+          "Notes spéciales cuisine",
+          "Transfert de tables",
+          "Gestion des additions partagées",
+          "Rapports de performance",
+          "Support prioritaire chat"
+        ]
+      },
+      "enterprise": {
+        "name": "Forfait Enterprise",
+        "description": "Pour chaînes et grands groupes",
+        "features": [
+          "Toutes fonctionnalités Pro",
+          "Multi-restaurants/succursales",
+          "Gestion équipes serveurs",
+          "Système de caution serveurs",
+          "Analytics avancées par serveur",
+          "Suggestions ventes IA",
+          "Intégration calendrier",
+          "Mode hors ligne avancé",
+          "Formation équipe complète",
+          "API personnalisée",
+          "Support dédié 24/7"
+        ]
+      }
+    },
+    "hardwareSection": {
+      "title": "Matériel en option",
+      "subtitle": "Tablettes et accessoires professionnels disponibles à l'achat"
+    },
+    "hardware": {
+      "tablet": {
+        "name": "Tablette Professionnelle 10\"",
+        "description": "Tablette Android durcie pour usage intensif",
+        "features": [
+          "Écran 10\" antireflet et résistant",
+          "Batterie longue durée (12h)",
+          "Coque antichoc incluse",
+          "Support de ceinture ergonomique"
+        ]
+      },
+      "printer": {
+        "name": "Imprimante Portable",
+        "description": "Imprimante mobile pour addition à table",
+        "features": [
+          "Impression ticket sans fil",
+          "Batterie rechargeable",
+          "Compatible iOS et Android"
+        ]
+      }
+    },
+    "benefitsSection": {
+      "title": "Pourquoi équiper vos serveurs ?",
+      "subtitle": "Des gains concrets pour votre service"
+    },
+    "benefits": {
+      "efficiency": {
+        "title": "Service plus rapide",
+        "description": "Réduisez de 40% le temps entre la commande et l'envoi en cuisine"
+      },
+      "speed": {
+        "title": "Rotation accélérée",
+        "description": "Servez plus de couverts pendant les heures de pointe"
+      },
+      "errors": {
+        "title": "Zéro erreur",
+        "description": "Éliminez les erreurs de transcription et les oublis"
+      },
+      "management": {
+        "title": "Gestion facilitée",
+        "description": "Suivez la performance de chaque serveur en temps réel"
+      }
+    },
+    "comparison": {
+      "title": "Tableau comparatif des forfaits",
+      "feature": "Fonctionnalité",
+      "tablets": "Tablettes incluses",
+      "tables": "Nombre de tables",
+      "kitchen": "Écran cuisine",
+      "analytics": "Analytics",
+      "support": "Support client",
+      "basic": "Basique",
+      "advanced": "Avancée",
+      "complete": "Complète"
+    },
+    "cta": {
+      "title": "Prêt à moderniser votre service ?",
+      "subtitle": "Testez gratuitement pendant 30 jours, sans engagement",
+      "button": "Démarrer l'essai gratuit"
+    }
   }
 }
