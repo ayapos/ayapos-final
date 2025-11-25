@@ -66,6 +66,7 @@ function App() {
             <Route path="/order-system-pricing" element={<OrderSystemPricing />} />
             <Route path="/delivery-service-pricing" element={<DeliveryServicePricing />} />
             <Route path="/waiter-terminal" element={<WaiterTerminalNew />} />
+            <Route path="/waiter-terminal-pricing" element={<WaiterTerminalPricing />} />
             <Route path="/mobile-order-app" element={<MobileOrderAppComplete />} />
             <Route path="/robot-waiter" element={<RobotWaiterComplete />} />
             <Route path="/delivery-management" element={<DeliveryManagementComplete />} />
