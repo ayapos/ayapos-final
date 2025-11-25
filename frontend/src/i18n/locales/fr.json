@@ -208,5 +208,102 @@
       "subtitle": "Contactez-nous pour découvrir comment nos robots serveurs peuvent améliorer votre entreprise",
       "button": "Demander une démonstration"
     }
+  },
+  "deliveryManagement": {
+    "hero": {
+      "badge": "APPLICATION COURSIER",
+      "title": "Système de Gestion des Commandes Coursier",
+      "subtitle": "Planifiez les commandes, consultez les détails, acceptez facilement les paiements",
+      "cta": "Demander un devis"
+    },
+    "orderManagement": {
+      "badge": "GESTION DES COMMANDES",
+      "title": "Livrez rapidement les commandes !",
+      "subtitle": "Gestion AyaPos Coursier - Application de Suivi des Commandes"
+    },
+    "features": {
+      "orderDetails": {
+        "title": "Détails de la Commande",
+        "description": "Vous pouvez consulter les détails des commandes qui vous sont attribuées. De cette façon, vous pouvez minimiser les risques d'erreur lors de la livraison. Personne ne veut recevoir un gâteau alors qu'il attend une pizza."
+      },
+      "mapView": {
+        "title": "Voir l'emplacement sur la carte",
+        "description": "Avec l'application Coursier, vous pouvez voir l'emplacement où vous devez livrer la commande sur la carte. Vous pouvez ainsi déterminer votre itinéraire pour aller à la bonne adresse par le chemin le plus court."
+      },
+      "callCustomer": {
+        "title": "Appeler le client",
+        "description": "En cas de situation défavorable ou si vous avez des questions sur la commande, vous pouvez appeler le client et communiquer avec lui."
+      }
+    },
+    "payment": {
+      "badge": "PAIEMENTS",
+      "title": "Accepter les paiements très facilement !",
+      "subtitle": "Suivi AyaPos Coursier - Système de Gestion Restaurant",
+      "cash": {
+        "title": "Paiements en espèces",
+        "description": "Grâce à l'utilisation facile de l'application Coursier, vous pouvez accepter les paiements en espèces des commandes en un seul toucher."
+      },
+      "card": {
+        "title": "Paiements par carte de crédit",
+        "description": "Avec l'infrastructure avancée de l'application AyaPos Coursier, vous pouvez utiliser un code QR pour accepter les paiements par carte de crédit. Laissez votre client scanner le code QR et le paiement se fait en quelques secondes."
+      },
+      "security": {
+        "title": "Infrastructure 100% sécurisée",
+        "description": "Avec un certificat SSL 256 bits, toutes vos transactions et mouvements sont effectués en toute sécurité."
+      }
+    },
+    "courier": {
+      "badge": "POUR LES COURSIERS",
+      "title": "Indispensable pour les coursiers !",
+      "subtitle": "Gestion des Commandes AyaPos - Logiciel de Suivi Coursier",
+      "reports": {
+        "title": "Consulter les rapports quotidiens",
+        "description": "Avec l'application AyaPos Coursier, vous pouvez obtenir des rapports quotidiens des coursiers. Vous pouvez obtenir des informations sur le nombre de commandes, la distance totale, les durées et les paiements."
+      },
+      "status": {
+        "title": "Statuts disponible et occupé",
+        "description": "Avec l'application Coursier, vous pouvez définir le statut du coursier. Lorsque vous n'êtes pas disponible, vous pouvez sélectionner le statut 'Occupé' et informer l'entreprise."
+      },
+      "notifications": {
+        "title": "Son de notification de commande",
+        "description": "Si vous activez le son de notification via l'application, vous recevrez une notification sonore lorsqu'une commande vous est attribuée. De cette façon, vous ne manquerez pas de commandes et vous pourrez augmenter la satisfaction client."
+      }
+    },
+    "systemFeatures": {
+      "title": "Caractéristiques du Système",
+      "subtitle": "Tout ce dont vous avez besoin pour gérer efficacement vos livraisons"
+    },
+    "system": {
+      "mobile": {
+        "title": "Système de Gestion Mobile",
+        "description": "AyaPos Manager est une application de gestion mobile qui vous permet de gérer votre entreprise depuis des téléphones iPhone et Android."
+      },
+      "cloud": {
+        "title": "Infrastructure Cloud",
+        "description": "Grâce à la plateforme cloud AyaPos Manager, gérez vos produits, ventes, stocks et comptes clients depuis votre poche, accédez instantanément aux rapports consolidés de vos succursales."
+      },
+      "analytics": {
+        "title": "Rapports et Analyses Avancés",
+        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez l'état de votre entreprise en comparant vos ventes avec des analyses visuelles."
+      },
+      "accounts": {
+        "title": "Gérer les Comptes Clients",
+        "description": "Créez vos comptes clients, suivez vos créances et dettes. Gérez vos clients en examinant les mouvements de caisse qui ont eu lieu pendant la journée."
+      }
+    },
+    "tracking": {
+      "badge": "SUIVI EN TEMPS RÉEL",
+      "title": "Suivez vos livraisons en temps réel",
+      "description1": "Avec le système de suivi en temps réel d'AyaPos, vous pouvez suivre la position de vos coursiers sur une carte et surveiller l'état de toutes vos commandes.",
+      "description2": "Optimisez vos itinéraires de livraison, réduisez les temps d'attente et augmentez la satisfaction client grâce à un suivi précis et en temps réel.",
+      "feature1": "Suivi GPS en direct",
+      "feature2": "Optimisation des itinéraires",
+      "feature3": "Notifications automatiques"
+    },
+    "cta": {
+      "title": "Prêt à optimiser vos livraisons ?",
+      "subtitle": "Contactez-nous pour découvrir comment notre système de gestion des livraisons peut améliorer votre efficacité",
+      "button": "Demander une démonstration"
+    }
   }
 }
