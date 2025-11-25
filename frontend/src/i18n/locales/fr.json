@@ -650,5 +650,109 @@
       "subtitle": "Découvrez comment gérer toutes vos succursales depuis un seul endroit",
       "button": "Demander une démonstration"
     }
+  },
+  "kioskPricing": {
+    "hero": {
+      "title": "Tarifs Bornes Self-Order Kiosk",
+      "subtitle": "Choisissez la borne parfaite pour votre entreprise. Installation, configuration et formation incluses.",
+      "badge": "Livraison et installation gratuites"
+    },
+    "recommended": "Recommandé",
+    "oneTime": "Paiement unique",
+    "orderNow": "Commander maintenant",
+    "models": {
+      "small": {
+        "name": "Kiosk Compact",
+        "size": "Petite taille - Idéal pour espaces réduits",
+        "screen": "Écran tactile 15.6\"",
+        "features": [
+          "Écran tactile haute résolution 15.6\"",
+          "Processeur quad-core performant",
+          "Imprimante ticket thermique intégrée",
+          "Lecteur de carte bancaire NFC",
+          "Support mural ou sur pied",
+          "Design compact et élégant",
+          "Interface AyaPos préinstallée",
+          "Garantie 2 ans"
+        ]
+      },
+      "medium": {
+        "name": "Kiosk Standard",
+        "size": "Taille moyenne - Le plus populaire",
+        "screen": "Écran tactile 21.5\"",
+        "features": [
+          "Écran tactile Full HD 21.5\"",
+          "Processeur haute performance",
+          "Imprimante ticket haute vitesse",
+          "Lecteur carte sans contact + QR code",
+          "Support réglable en hauteur",
+          "Haut-parleurs stéréo intégrés",
+          "Éclairage LED ambiant",
+          "Interface AyaPos premium",
+          "Personnalisation couleurs",
+          "Garantie 3 ans + support prioritaire"
+        ]
+      },
+      "large": {
+        "name": "Kiosk Premium",
+        "size": "Grande taille - Maximum d'impact",
+        "screen": "Écran tactile 32\"",
+        "features": [
+          "Écran tactile 4K Ultra HD 32\"",
+          "Processeur dernière génération",
+          "Double imprimante ticket",
+          "Terminal de paiement intégré multi-cartes",
+          "Structure renforcée premium",
+          "Système audio haute fidélité",
+          "Caméra HD pour analytics",
+          "Éclairage LED RGB personnalisable",
+          "Scanner de codes-barres",
+          "Interface AyaPos enterprise",
+          "Personnalisation complète design",
+          "Garantie 5 ans + support dédié 24/7"
+        ]
+      }
+    },
+    "included": {
+      "title": "Inclus avec toutes les bornes",
+      "subtitle": "Services et garanties pour une installation sans souci"
+    },
+    "commonFeatures": {
+      "warranty": {
+        "title": "Garantie étendue",
+        "description": "De 2 à 5 ans selon le modèle avec intervention sur site"
+      },
+      "support": {
+        "title": "Support technique",
+        "description": "Assistance téléphonique et en ligne en français"
+      },
+      "installation": {
+        "title": "Installation incluse",
+        "description": "Livraison, installation et configuration par nos techniciens"
+      },
+      "software": {
+        "title": "Logiciel AyaPos",
+        "description": "Licence logiciel incluse avec mises à jour gratuites"
+      }
+    },
+    "comparison": {
+      "title": "Tableau comparatif",
+      "subtitle": "Comparez les caractéristiques techniques de nos modèles",
+      "feature": "Caractéristique",
+      "screenSize": "Taille d'écran",
+      "touchscreen": "Écran tactile",
+      "printer": "Imprimante ticket",
+      "cardReader": "Lecteur carte",
+      "speakers": "Haut-parleurs",
+      "customization": "Personnalisation",
+      "basic": "Basique",
+      "advanced": "Avancée",
+      "complete": "Complète"
+    },
+    "cta": {
+      "title": "Prêt à équiper votre restaurant ?",
+      "subtitle": "Nos experts sont là pour vous conseiller sur le meilleur modèle pour votre activité",
+      "button": "Demander un devis personnalisé"
+    }
   }
 }
