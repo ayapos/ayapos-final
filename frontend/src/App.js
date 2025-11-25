@@ -33,6 +33,7 @@ import OrderSystemNew from './pages/OrderSystemNew';
 import KioskPricing from './pages/KioskPricing';
 import OrderSystemPricing from './pages/OrderSystemPricing';
 import DeliveryServicePricing from './pages/DeliveryServicePricing';
+import WaiterTerminalPricing from './pages/WaiterTerminalPricing';
 import WaiterTerminalNew from './pages/WaiterTerminalNew';
 import MobileOrderAppComplete from './pages/MobileOrderAppComplete';
 import RobotWaiterComplete from './pages/RobotWaiterComplete';
