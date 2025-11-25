@@ -55,7 +55,7 @@ function App() {
             <Route path="/order-system" element={<OrderSystemNew />} />
             <Route path="/waiter-terminal" element={<WaiterTerminalNew />} />
             <Route path="/mobile-order-app" element={<MobileOrderAppComplete />} />
-            <Route path="/robot-waiter" element={<RobotWaiter />} />
+            <Route path="/robot-waiter" element={<RobotWaiterComplete />} />
             <Route path="/delivery-management" element={<DeliveryManagement />} />
             
             {/* Management Tools */}
