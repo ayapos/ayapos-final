@@ -305,5 +305,350 @@
       "subtitle": "Contactez-nous pour découvrir comment notre système de gestion des livraisons peut améliorer votre efficacité",
       "button": "Demander une démonstration"
     }
+  },
+  "webPortal": {
+    "hero": {
+      "badge": "PORTAIL WEB AYAPOS",
+      "title": "Système de Gestion en Ligne",
+      "subtitle": "Gérez à distance, accédez instantanément aux rapports de ventes et de stocks",
+      "cta": "Demander un devis"
+    },
+    "reportsSection": {
+      "badge": "RAPPORTS ET ANALYSES",
+      "title": "Accédez instantanément à vos rapports",
+      "subtitle": "Rapports de fin de journée, ventes, personnel, comptes clients et stocks instantanément disponibles"
+    },
+    "reports": {
+      "instant": {
+        "title": "Rapports instantanés et périodiques",
+        "description": "Le système de rapports et d'analyses en ligne AyaPos Portal présente vos données sous forme d'analyses visuelles en plus des rapports instantanés et périodiques, vous aidant à prendre les bonnes décisions et à développer votre entreprise."
+      },
+      "central": {
+        "title": "Système de rapports centralisé",
+        "description": "Grâce au système de gestion et de rapports centralisés AyaPos, vous pouvez gérer toutes vos succursales depuis un seul compte et consulter les rapports consolidés et comparatifs sur le même écran."
+      }
+    },
+    "remoteManagement": {
+      "badge": "GESTION À DISTANCE",
+      "title": "Gérez votre entreprise à distance avec AyaPos Portal",
+      "subtitle": "Gérez toutes les informations définissant votre entreprise depuis votre bureau"
+    },
+    "management": {
+      "remote": {
+        "title": "Configuration à distance, mise à jour automatique",
+        "description": "Configurez à distance toutes les informations et paramètres de votre entreprise et de vos appareils avec n'importe quel appareil connecté à Internet, mettez-les à jour quand vous le souhaitez. Ajoutez de nouveaux produits, modifiez les prix. Toutes les informations sont automatiquement transférées vers vos tablettes et appareils POS."
+      },
+      "auto": {
+        "title": "Gérez vos systèmes POS depuis un centre unique",
+        "description": "AyaPos Portal est la solution de gestion centralisée qui vous permet de gérer à distance avec un seul compte le système d'automatisation de restaurant de votre entreprise."
+      },
+      "unified": {
+        "title": "Gestion unifiée complète",
+        "description": "Incluant le système POS mobile, les menus tablettes, les terminaux serveur, ainsi que les systèmes de menu numérique, de commande mobile et de paiement mobile fonctionnant sur les smartphones de vos clients."
+      }
+    },
+    "dayEnd": {
+      "badge": "RAPPORTS DE FIN DE JOURNÉE",
+      "title": "Consultez vos rapports de fin de journée",
+      "description1": "Vous pouvez examiner combien de ventes ont été effectuées en espèces ou par carte de crédit pendant la journée, combien de vos clients ont bénéficié de réductions ou les produits retournés.",
+      "description2": "Avec le menu puissant d'AyaPos Portal, accédez aux rapports de fin de journée, vous pouvez suivre les paiements en espèces, par carte de crédit ou sur compte effectués pendant la journée.",
+      "description3": "Vos rapports sont stockés quotidiennement dans la base de données AyaPos, vous pouvez accéder instantanément à vos rapports de fin de journée de n'importe quelle date quand vous le souhaitez."
+    },
+    "settings": {
+      "badge": "PARAMÈTRES SYSTÈME",
+      "title": "Améliorez votre portail avec les paramètres système",
+      "subtitle": "Gérez mieux votre entreprise avec de nombreux paramètres",
+      "general": {
+        "title": "Paramètres généraux",
+        "description": "Depuis votre portail, vous pouvez définir la devise et la langue des produits que vous vendez. Avec les paramètres POS, vous pouvez sélectionner les types de paiement, appliquer des étiquettes de réduction. Vous pouvez également organiser les paramètres de gestion de stock via AyaPos Portal."
+      },
+      "order": {
+        "title": "Paramètres de commande",
+        "description": "Dans la section paramètres d'AyaPos Portal, vous pouvez activer vos commandes pour le paiement et la commande en ligne, définir votre montant minimum de commande et vos frais de service, organiser les informations nécessaires pour les ventes via les plateformes de livraison."
+      }
+    },
+    "featuresGrid": {
+      "title": "Caractéristiques",
+      "subtitle": "Tout ce dont vous avez besoin pour gérer votre entreprise"
+    },
+    "features": {
+      "reports": {
+        "title": "Rapports et Analyses Avancés",
+        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez la situation de votre entreprise en comparant vos ventes avec des analyses visuelles."
+      },
+      "management": {
+        "title": "Système de Gestion en Ligne",
+        "description": "Avec AyaPos Portal, vous pouvez gérer votre entreprise à distance avec n'importe quel appareil connecté à Internet. Connectez-vous à AyaPos Portal et accédez à vos informations à tout moment, de n'importe où."
+      },
+      "central": {
+        "title": "Système de Gestion Centralisée",
+        "description": "Grâce au système de gestion centralisée d'AyaPos Portal, gérez vos produits, prix, personnel et stocks depuis un centre unique, accédez aux rapports de ventes consolidés de vos succursales avec un seul compte."
+      },
+      "compatible": {
+        "title": "Compatible avec tous les Navigateurs",
+        "description": "Vous pouvez accéder rapidement à AyaPos Portal depuis des ordinateurs, tablettes ou smartphones connectés à Internet et gérer facilement vos succursales en même temps."
+      }
+    },
+    "cta": {
+      "title": "Prêt à gérer votre entreprise en ligne ?",
+      "subtitle": "Contactez-nous pour découvrir comment AyaPos Portal peut transformer votre gestion",
+      "button": "Demander une démonstration"
+    }
+  },
+  "mobileReports": {
+    "hero": {
+      "badge": "RAPPORTS MOBILES AYAPOS",
+      "title": "Application de Rapports Mobiles",
+      "subtitle": "Accédez instantanément aux rapports de ventes et aux analyses visuelles depuis votre poche",
+      "cta": "Voir les démos"
+    },
+    "summarySection": {
+      "badge": "RAPPORTS RÉSUMÉS",
+      "title": "Rapports résumés et graphiques visuels",
+      "subtitle": "Examinez les rapports résumés et les analyses visuelles concernant les produits les plus vendus, la fin de journée, l'état de la caisse et les stocks"
+    },
+    "summary": {
+      "bestSellers": {
+        "title": "Produits les plus vendus",
+        "description": "Visualisez en résumé les produits les plus vendus dans votre entreprise pendant la journée, augmentez vos ventes en organisant des campagnes et promotions sur les produits ciblés."
+      },
+      "dayEnd": {
+        "title": "Rapport de fin de journée et de caisse",
+        "description": "Accédez au résumé de vos informations de ventes et de chiffre d'affaires de fin de journée, à vos informations de paiement en espèces, devises, carte de crédit, tickets restaurant, etc. dans votre caisse."
+      },
+      "stock": {
+        "title": "Rapports de stock",
+        "description": "Examinez l'état des stocks de vos produits, semi-produits et matières premières, vérifiez vos stocks avec les entrées/sorties de stock et les comptages d'inventaire."
+      },
+      "insights": {
+        "title": "Informations résumées",
+        "description": "AyaPos Boss vous présente des informations telles que le gain moyen et le nombre de couverts réalisés par votre entreprise au cours des 7 derniers jours."
+      }
+    },
+    "productSection": {
+      "badge": "GESTION DES PRODUITS",
+      "title": "Gérez vos produits avec AyaPos Boss",
+      "subtitle": "Consultez tous les détails de vos produits depuis votre application mobile"
+    },
+    "products": {
+      "track": {
+        "title": "Suivez vos produits",
+        "description": "Depuis l'application AyaPos Boss, vous pouvez cliquer sur un produit pour voir sa photo, son nom, son prix, son code-barres, sa quantité de calories, son temps de préparation, sa description, ses sous-catégories et indiquer si le produit est disponible ou non."
+      },
+      "search": {
+        "title": "Recherche de produits",
+        "description": "Sur la page produits de l'application AyaPos Boss, vous pouvez accéder à l'écran de recherche en cliquant sur le bouton de recherche dans le coin supérieur droit. Dans cette zone, vous pouvez accéder rapidement et facilement à un produit en écrivant son nom."
+      },
+      "design": {
+        "title": "Design simple et épuré",
+        "description": "L'application AyaPos Boss a un design extrêmement simple et épuré. Pour ne pas compliquer la page des produits, elle maintient cette structure et vous offre un espace de travail plus confortable."
+      }
+    },
+    "business": {
+      "badge": "GESTION D'ENTREPRISE",
+      "title": "Gérez votre entreprise depuis votre poche avec AyaPos Boss !",
+      "description1": "Accédez à vos rapports de fin de journée, de caisse, de ventes, de comptes clients et de stocks depuis les smartphones. Comparez vos ventes périodiques avec des analyses visuelles.",
+      "description2": "AyaPos Boss vous permet d'accéder en temps réel à toutes vos ventes réalisées sur votre système POS mobile et transférées vers la plateforme cloud. Vous pouvez consulter instantanément de nombreux rapports tels que fin de journée, caisse, ventes, stocks et comptes clients.",
+      "description3": "Grâce à la plateforme cloud mobile AyaPos, vous accédez en quelques secondes aux graphiques visuels de vos ventes quotidiennes, hebdomadaires, mensuelles et annuelles. Vous pouvez analyser l'état actuel de votre entreprise en comparant vos ventes périodiques et développer votre activité en prenant les bonnes décisions."
+    },
+    "settings": {
+      "badge": "PARAMÈTRES",
+      "title": "Effectuez des modifications dans votre application avec AyaPos Boss !",
+      "account": {
+        "title": "Paramètres du compte et paramètres généraux",
+        "description": "Dans la section paramètres du compte de la page paramètres d'AyaPos Boss, vous pouvez définir votre nom d'utilisateur et votre mot de passe. Depuis les paramètres généraux, vous pouvez régler l'heure mondiale et organiser à quelle heure les rapports de fin de journée doivent être pris."
+      },
+      "pos": {
+        "title": "Paramètres POS et de langue",
+        "description": "Avec les paramètres POS, vous pouvez activer ou désactiver le service de commande et de paiement en ligne de l'appareil POS utilisé dans votre entreprise. Avec les paramètres de langue, vous pouvez utiliser votre application patron AyaPos dans différentes langues."
+      }
+    },
+    "featuresGrid": {
+      "title": "Caractéristiques",
+      "subtitle": "Tout ce dont vous avez besoin dans votre poche"
+    },
+    "features": {
+      "mobile": {
+        "title": "Système de Gestion Mobile",
+        "description": "AyaPos Boss est une application de gestion mobile qui vous permet de gérer votre entreprise depuis les téléphones iPhone et Android. Téléchargez immédiatement depuis App Store et Google Play."
+      },
+      "cloud": {
+        "title": "Infrastructure Cloud",
+        "description": "Grâce à la plateforme cloud AyaPos Boss, gérez vos produits, ventes, stocks et comptes clients depuis votre poche, accédez instantanément aux rapports consolidés de vos succursales."
+      },
+      "analytics": {
+        "title": "Rapports et Analyses Avancés",
+        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez l'état de votre entreprise en comparant vos ventes avec des analyses visuelles."
+      },
+      "accounts": {
+        "title": "Gérer les Comptes Clients",
+        "description": "Créez vos comptes clients, suivez vos créances et dettes. Gérez vos clients en examinant les mouvements de caisse effectués pendant la journée."
+      }
+    },
+    "download": {
+      "title": "Téléchargez l'application Boss mobile pour l'essayer immédiatement !",
+      "subtitle": "Disponible sur iOS et Android"
+    },
+    "cta": {
+      "title": "Prêt à gérer depuis votre mobile ?",
+      "subtitle": "Téléchargez AyaPos Boss et gérez votre entreprise de n'importe où",
+      "button": "Demander une démonstration"
+    }
+  },
+  "stockManagement": {
+    "hero": {
+      "badge": "SYSTÈME DE GESTION DES STOCKS",
+      "title": "Système de Gestion des Stocks",
+      "subtitle": "Suivez les stocks, produisez plus efficacement. Gérez les stocks de produits et de matières premières depuis un centre unique.",
+      "cta": "Demander un devis"
+    },
+    "benefitsSection": {
+      "badge": "AVANTAGES",
+      "title": "Augmentez l'efficacité, réduisez les pertes et gaspillages",
+      "subtitle": "Avec le système de gestion des stocks AyaPos"
+    },
+    "benefits": {
+      "efficiency": {
+        "title": "Production plus efficace",
+        "description": "Avec le système de gestion des stocks, vous pouvez examiner l'utilisation des matières premières et des produits et améliorer votre flux de production pour une production plus efficace."
+      },
+      "waste": {
+        "title": "Moins de pertes et gaspillages",
+        "description": "Grâce à un flux de production mieux planifié, vous pouvez minimiser les pertes et gaspillages survenant pendant la production."
+      }
+    },
+    "recipeSection": {
+      "badge": "RECETTES",
+      "title": "Planifiez vos recettes et votre flux de production",
+      "subtitle": "Préparez les stocks avec recettes de votre restaurant, café ou bar"
+    },
+    "types": {
+      "simple": {
+        "title": "Stock simple selon les besoins",
+        "description": "Pour les petites entreprises et selon les besoins, vous pouvez facilement saisir vos produits à l'unité dans le système avec une structure de stock simple et voir leur utilisation également à l'unité."
+      },
+      "recipe": {
+        "title": "Stock avancé avec recettes",
+        "description": "Avec la gestion des stocks AyaPos, vous pouvez également gérer les stocks de votre restaurant, café ou bar avec des recettes. De cette façon, vous pouvez effectuer des analyses détaillées des dépenses."
+      }
+    },
+    "centralized": {
+      "badge": "GESTION CENTRALISÉE",
+      "title": "Accédez à tout depuis un seul endroit",
+      "description1": "Avec le système de gestion des stocks AyaPos, que vous ayez une ou cent succursales. Vous pouvez tout gérer depuis un seul endroit et ne pas rencontrer de résultats inattendus avec des analyses plus larges.",
+      "stat1": "Contrôle centralisé",
+      "stat2": "Accès permanent"
+    },
+    "featuresSection": {
+      "title": "Accédez à tout depuis un seul endroit",
+      "subtitle": "Système complet de gestion des stocks"
+    },
+    "management": {
+      "movements": {
+        "title": "Suivez vos mouvements de stock",
+        "description": "Créez vos comptes clients, suivez vos créances et dettes liées à ces comptes. Examinez les mouvements de caisse effectués pendant la journée."
+      },
+      "counting": {
+        "title": "Contrôlez vos comptages de stock",
+        "description": "Suivez vos stocks de produits et de matières premières, observez vos mouvements de stock, vérifiez vos stocks avec des comptages périodiques."
+      }
+    },
+    "alert": {
+      "title": "Système d'alerte de stock",
+      "description": "Avec le système de gestion des stocks AyaPos, vous pouvez suivre les produits et matières premières en stock et voir à l'avance les stocks sur le point d'être épuisés grâce au système d'alerte.",
+      "cta": "En savoir plus"
+    },
+    "cta": {
+      "title": "Prêt à optimiser votre gestion des stocks ?",
+      "subtitle": "Contactez-nous pour découvrir comment notre système peut améliorer votre rentabilité",
+      "button": "Demander une démonstration"
+    }
+  },
+  "centralizedManagement": {
+    "hero": {
+      "badge": "SYSTÈME DE GESTION CENTRALISÉE",
+      "title": "Gestion Centralisée des Succursales",
+      "subtitle": "Contrôle, gestion et suivi de bout en bout. Suivez facilement toutes vos entreprises depuis un centre unique.",
+      "cta": "Demander un devis"
+    },
+    "quickSection": {
+      "title": "Accès rapide depuis un seul endroit",
+      "subtitle": "Toutes vos succursales sous contrôle"
+    },
+    "quick": {
+      "menus": {
+        "title": "Gérez vos menus",
+        "description": "Gérez tous les menus des succursales depuis un seul endroit. Mettez à jour les prix quand vous le souhaitez et appliquez-les à toutes les succursales."
+      },
+      "movements": {
+        "title": "Contrôlez les mouvements",
+        "description": "Examinez les mouvements quotidiens, mensuels ou sur la période choisie de vos succursales. Analysez les rapports."
+      },
+      "branches": {
+        "title": "Suivez vos succursales",
+        "description": "Que vous ayez deux ou cent succursales. Suivez toutes vos succursales depuis un centre unique. Développez votre activité."
+      }
+    },
+    "controlSection": {
+      "badge": "CONTRÔLE TOTAL",
+      "title": "Supervisez, intervenez",
+      "subtitle": "Où que vous soyez, suivez toutes vos succursales dans les moindres détails"
+    },
+    "control": {
+      "supervise": {
+        "title": "Supervisez, intervenez",
+        "description": "Où que vous soyez, suivez toutes vos succursales dans les moindres détails. Supervisez les mouvements de caisse. Examinez les rapports, ne laissez rien au hasard."
+      },
+      "update": {
+        "title": "Mettez à jour les prix en un clic",
+        "description": "Organisez rapidement les prix et détails des produits de vos succursales. Appliquez les modifications que vous effectuez à toutes vos succursales en un clic."
+      },
+      "accounts": {
+        "title": "Examinez les comptes et les caisses",
+        "description": "Examinez vos mouvements de caisse, les comptes clients enregistrés dans votre entreprise. Suivez toutes les transactions depuis un seul écran."
+      }
+    },
+    "allBranches": {
+      "badge": "TOUTES VOS SUCCURSALES",
+      "title": "Toutes vos succursales sous contrôle",
+      "subtitle": "Gestion complète depuis un seul tableau de bord"
+    },
+    "operational": {
+      "control": {
+        "title": "Contrôle de toutes les opérations",
+        "description": "Gérez toutes les opérations de vos succursales depuis un seul écran. Organisez vos menus, modifiez les plans d'aménagement, supervisez les stocks, effectuez le suivi du personnel, consultez les factures et les comptes clients."
+      },
+      "remote": {
+        "title": "Contrôlez depuis n'importe où",
+        "description": "Visualisez et organisez facilement tous les détails de vos succursales avec un ordinateur ou un téléphone disposant d'une connexion Internet. Toutes les modifications que vous effectuez sont automatiquement appliquées à vos succursales."
+      },
+      "evaluate": {
+        "title": "Évaluez vos succursales",
+        "description": "Examinez vos rapports quand vous le souhaitez. Analysez les données de vos succursales et évaluez leurs performances."
+      }
+    },
+    "reports": {
+      "badge": "RAPPORTS ET ANALYSES",
+      "title": "Rapports et analyses",
+      "subtitle": "Examinez les rapports de toutes vos succursales depuis un centre unique",
+      "instant": {
+        "title": "Rapports instantanés et périodiques",
+        "description": "Avec le système de gestion centralisée AyaPos, vous pouvez voir les rapports pour une plage de dates spécifique et les rapports d'état instantané. Vous pouvez également effectuer facilement des analyses avec des rapports visualisés."
+      },
+      "central": {
+        "title": "Système de rapports centralisé",
+        "description": "Vous pouvez accéder aux rapports de toutes les succursales depuis un centre unique et comparer vos succursales. Ainsi, vous pouvez obtenir des analyses de performance des succursales."
+      }
+    },
+    "benefits": {
+      "stat1": "Plus rapide",
+      "stat2": "Accès partout",
+      "stat3": "Visibilité totale"
+    },
+    "cta": {
+      "title": "Prêt à centraliser votre gestion ?",
+      "subtitle": "Découvrez comment gérer toutes vos succursales depuis un seul endroit",
+      "button": "Demander une démonstration"
+    }
   }
 }
