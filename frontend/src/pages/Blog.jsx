@@ -170,10 +170,10 @@ const Blog = () => {
                       <User className="w-4 h-4" />
                       {article.author}
                     </div>
-                    <button className="text-blue-600 hover:text-blue-700 font-semibold flex items-center gap-1 transition-all duration-300">
+                    <Link to={`/blog/post-${article.id}`} className="text-blue-600 hover:text-blue-700 font-semibold flex items-center gap-1 transition-all duration-300">
                       {t('blog.readMore')}
                       <ArrowRight className="w-4 h-4" />
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </article>
