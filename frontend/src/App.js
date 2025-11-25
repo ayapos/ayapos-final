@@ -62,6 +62,8 @@ function App() {
             <Route path="/self-order-kiosk" element={<SelfOrderKiosk />} />
             <Route path="/kiosk-pricing" element={<KioskPricing />} />
             <Route path="/order-system" element={<OrderSystemNew />} />
+            <Route path="/order-system-pricing" element={<OrderSystemPricing />} />
+            <Route path="/delivery-service-pricing" element={<DeliveryServicePricing />} />
             <Route path="/waiter-terminal" element={<WaiterTerminalNew />} />
             <Route path="/mobile-order-app" element={<MobileOrderAppComplete />} />
             <Route path="/robot-waiter" element={<RobotWaiterComplete />} />
