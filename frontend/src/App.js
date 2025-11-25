@@ -77,6 +77,7 @@ function App() {
             <Route path="/mobile-reports" element={<MobileReportsComplete />} />
             <Route path="/stock-management" element={<StockManagementComplete />} />
             <Route path="/centralized-management" element={<CentralizedManagementComplete />} />
+            <Route path="/hardware-devices" element={<HardwareDevices />} />
           </Routes>
           <Footer />
           <Toaster />
