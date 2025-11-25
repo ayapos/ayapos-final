@@ -1150,5 +1150,118 @@
       "subtitle": "Nos experts vous aident à choisir le matériel adapté à vos besoins",
       "button": "Contactez nos experts"
     }
+  },
+  "about": {
+    "hero": {
+      "title": "À Propos d'AyaPos",
+      "subtitle": "Nous sommes une entreprise innovante dédiée à la transformation numérique de la restauration. Notre mission : simplifier la gestion de votre établissement avec des solutions POS modernes et intuitives."
+    },
+    "stats": {
+      "clients": "Clients Satisfaits",
+      "years": "Ans d'Expérience",
+      "team": "Experts à votre Service",
+      "satisfaction": "Taux de Satisfaction"
+    },
+    "story": {
+      "title": "Notre Histoire",
+      "paragraph1": "Fondée en 2010, AyaPos est née de la volonté de moderniser le secteur de la restauration. Nous avons débuté avec une vision simple : créer des outils technologiques accessibles à tous les restaurateurs, quelle que soit la taille de leur établissement.",
+      "paragraph2": "Au fil des années, nous avons développé une suite complète de solutions POS qui combinent innovation, simplicité d'utilisation et fiabilité. Nos systèmes équipent aujourd'hui plus de 5000 restaurants, cafés, bars et établissements dans toute la France et en Europe.",
+      "paragraph3": "Notre équipe passionnée travaille chaque jour pour améliorer nos produits et accompagner nos clients dans leur réussite. Nous croyons que la technologie doit être au service de l'humain, et non l'inverse."
+    },
+    "valuesSection": {
+      "title": "Nos Valeurs",
+      "subtitle": "Ce qui guide notre action au quotidien"
+    },
+    "values": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous investissons continuellement dans la R&D pour vous offrir les technologies les plus avancées"
+      },
+      "customer": {
+        "title": "Écoute Client",
+        "description": "Vos besoins sont au cœur de nos développements. Nous écoutons et agissons"
+      },
+      "quality": {
+        "title": "Qualité",
+        "description": "Matériel premium, logiciels robustes et support technique d'excellence"
+      },
+      "efficiency": {
+        "title": "Efficacité",
+        "description": "Des solutions pensées pour gagner du temps et augmenter votre rentabilité"
+      }
+    },
+    "timeline": {
+      "title": "Notre Parcours",
+      "subtitle": "Les grandes étapes de notre développement",
+      "2010": {
+        "title": "Création d'AyaPos",
+        "description": "Lancement de notre premier système POS pour restaurants avec 50 clients la première année"
+      },
+      "2015": {
+        "title": "Expansion Nationale",
+        "description": "Ouverture de 5 bureaux régionaux et lancement de l'application mobile pour serveurs"
+      },
+      "2020": {
+        "title": "Innovation Cloud",
+        "description": "Migration complète vers le cloud et lancement des bornes self-service nouvelle génération"
+      },
+      "2024": {
+        "title": "Intelligence Artificielle",
+        "description": "Intégration de l'IA pour les prévisions de ventes et la gestion optimisée des stocks"
+      }
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Accompagner les restaurateurs dans leur transformation digitale en leur fournissant des outils simples, puissants et abordables. Nous voulons que chaque établissement, du petit café au grand restaurant, puisse bénéficier des mêmes technologies que les grandes chaînes.",
+      "badge1": "Innovation Continue",
+      "badge2": "Support Dédié",
+      "badge3": "Communauté Active"
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Blog AyaPos",
+      "subtitle": "Actualités, conseils et tendances de la restauration moderne"
+    },
+    "categories": {
+      "all": "Tous les articles",
+      "news": "Actualités",
+      "tips": "Conseils",
+      "technology": "Technologie",
+      "success": "Success Stories"
+    },
+    "readMore": "Lire la suite",
+    "articles": {
+      "article1": {
+        "title": "AyaPos lance sa nouvelle gamme de bornes self-service",
+        "excerpt": "Découvrez nos nouvelles bornes kiosk avec écran 32 pouces et interface ultra-intuitive. Une révolution pour l'expérience client dans la restauration rapide."
+      },
+      "article2": {
+        "title": "10 Conseils pour optimiser votre service en période de pointe",
+        "excerpt": "Comment gérer l'affluence aux heures de rush ? Nos experts partagent leurs meilleures pratiques pour maintenir un service de qualité même quand c'est bondé."
+      },
+      "article3": {
+        "title": "L'Intelligence Artificielle au service de la restauration",
+        "excerpt": "Comment l'IA peut vous aider à prévoir vos ventes, optimiser vos stocks et personnaliser l'expérience client. Découvrez les nouvelles fonctionnalités AyaPos."
+      },
+      "article4": {
+        "title": "Success Story : Le Bistrot Moderne triple son chiffre d'affaires",
+        "excerpt": "Rencontre avec Jean Dupont qui a transformé son restaurant traditionnel en établissement moderne grâce aux solutions AyaPos. Témoignage inspirant."
+      },
+      "article5": {
+        "title": "Réduire le gaspillage alimentaire grâce à la technologie",
+        "excerpt": "Notre système de gestion des stocks intelligent vous aide à réduire vos pertes de 40%. Découvrez comment optimiser vos achats et limiter le gaspillage."
+      },
+      "article6": {
+        "title": "QR Code et commande en ligne : les nouvelles attentes des clients",
+        "excerpt": "Les habitudes de consommation évoluent. 73% des clients préfèrent commander via QR code. Comment s'adapter à ces nouvelles tendances ?"
+      }
+    },
+    "newsletter": {
+      "title": "Restez Informé",
+      "subtitle": "Recevez nos derniers articles et conseils directement dans votre boîte mail",
+      "placeholder": "Votre adresse email",
+      "button": "S'abonner"
+    }
   }
 }
