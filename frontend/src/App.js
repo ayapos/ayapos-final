@@ -80,6 +80,10 @@ function App() {
             <Route path="/stock-management" element={<StockManagementComplete />} />
             <Route path="/centralized-management" element={<CentralizedManagementComplete />} />
             <Route path="/hardware-devices" element={<HardwareDevices />} />
+            
+            {/* About & Blog */}
+            <Route path="/about" element={<About />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
           <Footer />
           <Toaster />
