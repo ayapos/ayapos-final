@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { 
   ArrowRight, Check, Smartphone, CreditCard, Bell, Heart,
   ShoppingCart, Users, Star, TrendingUp, Globe, Zap,
-  Gift, Lock, Cloud, Settings, MessageCircle, BarChart3
+  Gift, Lock, Cloud, Settings, MessageCircle, BarChart3, Shield
 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
