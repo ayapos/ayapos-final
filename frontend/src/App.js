@@ -57,7 +57,7 @@ function App() {
             <Route path="/waiter-terminal" element={<WaiterTerminalNew />} />
             <Route path="/mobile-order-app" element={<MobileOrderAppComplete />} />
             <Route path="/robot-waiter" element={<RobotWaiterComplete />} />
-            <Route path="/delivery-management" element={<DeliveryManagement />} />
+            <Route path="/delivery-management" element={<DeliveryManagementComplete />} />
             
             {/* Management Tools */}
             <Route path="/web-portal" element={<WebPortal />} />
