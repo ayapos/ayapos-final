@@ -754,5 +754,203 @@
       "subtitle": "Nos experts sont là pour vous conseiller sur le meilleur modèle pour votre activité",
       "button": "Demander un devis personnalisé"
     }
+  },
+  "orderSystemPricing": {
+    "hero": {
+      "badge": "EXTENSION SYSTÈME DE COMMANDE",
+      "title": "Tarifs Système de Commande en Ligne",
+      "subtitle": "Ajoutez le module de commande en ligne à votre système POS existant. Augmentez vos ventes de 40% en moyenne.",
+      "trial": "14 jours d'essai gratuit inclus"
+    },
+    "perMonth": "par mois",
+    "recommended": "Recommandé",
+    "selectPlan": "Sélectionner ce forfait",
+    "plansSection": {
+      "title": "Choisissez votre forfait",
+      "subtitle": "Extension qui s'intègre parfaitement à votre système POS AyaPos"
+    },
+    "plans": {
+      "basic": {
+        "name": "Forfait Essentiel",
+        "description": "Pour petits restaurants et cafés",
+        "features": [
+          "Jusqu'à 200 commandes/mois",
+          "Site web de commande responsive",
+          "Menu numérique personnalisable",
+          "Notifications par email",
+          "Paiement en ligne sécurisé",
+          "Intégration POS automatique",
+          "Support par email"
+        ]
+      },
+      "standard": {
+        "name": "Forfait Business",
+        "description": "Idéal pour restaurants moyens",
+        "features": [
+          "Jusqu'à 1000 commandes/mois",
+          "Application mobile dédiée",
+          "Menu avec photos HD illimitées",
+          "SMS + Email notifications",
+          "Programme de fidélité intégré",
+          "Code promo et réductions",
+          "Statistiques avancées",
+          "Support prioritaire",
+          "0% commission sur ventes"
+        ]
+      },
+      "premium": {
+        "name": "Forfait Enterprise",
+        "description": "Pour chaînes et franchises",
+        "features": [
+          "Commandes illimitées",
+          "Applications iOS et Android",
+          "Multi-restaurants / succursales",
+          "API personnalisée",
+          "Chatbot IA intégré",
+          "Marketing automation",
+          "A/B testing menu",
+          "Analytics prédictives",
+          "Gestionnaire de compte dédié",
+          "SLA 99.9% garanti",
+          "Formation équipe incluse"
+        ]
+      }
+    },
+    "benefitsSection": {
+      "title": "Pourquoi ajouter le système de commande ?",
+      "subtitle": "Des avantages mesurables pour votre entreprise"
+    },
+    "benefits": {
+      "sales": {
+        "title": "Augmentez vos ventes",
+        "description": "+40% de revenus en moyenne grâce aux commandes en ligne 24/7"
+      },
+      "customers": {
+        "title": "Fidélisez vos clients",
+        "description": "Programme de fidélité et historique des commandes automatique"
+      },
+      "automation": {
+        "title": "Automatisation complète",
+        "description": "Les commandes arrivent directement dans votre système POS"
+      },
+      "integration": {
+        "title": "Intégration parfaite",
+        "description": "S'intègre nativement avec votre système POS AyaPos existant"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "q1": {
+        "question": "Comment fonctionne l'intégration avec mon POS ?",
+        "answer": "Le système de commande s'intègre automatiquement à votre POS AyaPos. Les commandes en ligne apparaissent instantanément sur votre écran de cuisine, comme les commandes sur place."
+      },
+      "q2": {
+        "question": "Puis-je changer de forfait plus tard ?",
+        "answer": "Oui, vous pouvez upgrader ou downgrader votre forfait à tout moment. Les changements prennent effet immédiatement."
+      },
+      "q3": {
+        "question": "Y a-t-il des frais d'installation ?",
+        "answer": "Non, l'installation et la configuration sont incluses dans tous les forfaits. Notre équipe vous accompagne pour la mise en place."
+      }
+    },
+    "cta": {
+      "title": "Prêt à booster vos ventes en ligne ?",
+      "subtitle": "Commencez votre essai gratuit de 14 jours, sans carte bancaire",
+      "button": "Démarrer l'essai gratuit"
+    }
+  },
+  "deliveryServicePricing": {
+    "hero": {
+      "badge": "EXTENSION SERVICE DE LIVRAISON",
+      "title": "Tarifs Service de Livraison",
+      "subtitle": "Ajoutez le module de gestion des livraisons à votre système POS. Gérez vos coursiers et optimisez vos tournées.",
+      "trial": "Premier mois offert"
+    },
+    "perMonth": "par mois",
+    "recommended": "Recommandé",
+    "selectPlan": "Sélectionner ce forfait",
+    "plansSection": {
+      "title": "Choisissez votre forfait",
+      "subtitle": "Extension de gestion des livraisons pour votre système POS AyaPos"
+    },
+    "plans": {
+      "starter": {
+        "name": "Forfait Starter",
+        "description": "Pour démarrer vos livraisons",
+        "features": [
+          "Jusqu'à 200 livraisons/mois",
+          "2 coursiers maximum",
+          "Suivi GPS en temps réel",
+          "Notifications clients SMS",
+          "Calcul automatique des distances",
+          "Support par email"
+        ]
+      },
+      "business": {
+        "name": "Forfait Business",
+        "description": "Pour service de livraison actif",
+        "features": [
+          "Jusqu'à 1000 livraisons/mois",
+          "10 coursiers maximum",
+          "Optimisation des tournées IA",
+          "Application coursier dédiée",
+          "Système de notation clients",
+          "Rapports de performance",
+          "Paiement coursiers intégré",
+          "Support téléphone + chat"
+        ]
+      },
+      "enterprise": {
+        "name": "Forfait Enterprise",
+        "description": "Pour flottes importantes",
+        "features": [
+          "Livraisons illimitées",
+          "Coursiers illimités",
+          "Dispatching intelligent",
+          "Zone de livraison multiple",
+          "Intégration Uber Eats/Deliveroo",
+          "Prévisions de demande IA",
+          "API complète",
+          "Tableau de bord manager",
+          "Formation équipe",
+          "Support dédié 24/7"
+        ]
+      }
+    },
+    "benefitsSection": {
+      "title": "Pourquoi ajouter le service de livraison ?",
+      "subtitle": "Des outils professionnels pour gérer vos livraisons"
+    },
+    "benefits": {
+      "speed": {
+        "title": "Livraisons plus rapides",
+        "description": "Optimisation automatique des itinéraires pour réduire les délais"
+      },
+      "satisfaction": {
+        "title": "Clients satisfaits",
+        "description": "Suivi en temps réel et notifications automatiques"
+      },
+      "revenue": {
+        "title": "Revenus optimisés",
+        "description": "Réduisez vos coûts de livraison de 30% en moyenne"
+      },
+      "reliability": {
+        "title": "Fiabilité maximale",
+        "description": "Moins d'erreurs, plus de contrôle sur vos livraisons"
+      }
+    },
+    "comparison": {
+      "title": "Tableau comparatif des forfaits",
+      "feature": "Fonctionnalité",
+      "orders": "Livraisons incluses",
+      "tracking": "Suivi GPS",
+      "couriers": "Nombre de coursiers",
+      "support": "Support client"
+    },
+    "cta": {
+      "title": "Prêt à optimiser vos livraisons ?",
+      "subtitle": "Premier mois offert pour tester le service sans engagement",
+      "button": "Commencer maintenant"
+    }
   }
 }
