@@ -119,5 +119,94 @@
     "company": "Entreprise",
     "products": "Produits",
     "support": "Support"
+  },
+  "robotWaiter": {
+    "hero": {
+      "badge": "SOLUTIONS DE SERVICE NOUVELLE GÉNÉRATION",
+      "title": "Système de Serveur Robot",
+      "subtitle": "Système de serveur robot nouvelle génération pour les entreprises innovantes et pionnières",
+      "cta": "Demander un devis"
+    },
+    "benefits": {
+      "mainTitle": "Serveurs robots pour des clients satisfaits",
+      "mainSubtitle": "Les serveurs robots allègent la charge de travail de votre entreprise et permettent au personnel de fournir un service plus efficace",
+      "experience": {
+        "title": "Expérience unique",
+        "description": "Offrez à vos clients un nouveau concept rafraîchissant auquel ils ne sont pas habitués. Impressionnez vos clients avec des fonctionnalités interactives créant une expérience futuriste et unique."
+      },
+      "contactless": {
+        "title": "Livraison de commandes sans contact",
+        "description": "Grâce au système de distribution de plateaux par robot serveur AyaPos, nous accordons désormais plus d'attention aux règles d'hygiène. Laissez les robots serveurs apporter les commandes à la table."
+      },
+      "profitability": {
+        "title": "Augmentez la rentabilité",
+        "description": "Augmentez la rentabilité de votre entreprise grâce aux systèmes de serveurs robots. En livrant les commandes de vos clients rapidement et sans erreur, vous augmentez également le volume d'affaires de votre entreprise."
+      },
+      "efficiency": {
+        "title": "Service efficace",
+        "description": "Prolongez les heures d'ouverture de votre entreprise grâce aux serveurs robots et servez plus de clients tout en réduisant les erreurs de service."
+      }
+    },
+    "navigation": {
+      "badge": "TECHNOLOGIE AUTONOME",
+      "title": "Système de Navigation Autonome",
+      "description1": "Les systèmes de serveurs robots utilisent des systèmes de navigation autonome pour garantir que vos serveurs robots effectuent des livraisons sûres et sans erreur aux tables des clients.",
+      "description2": "Les serveurs robots détectent les obstacles dans votre entreprise grâce à des capteurs et à la technologie radar laser, prévenant ainsi les collisions. Offrez un service plus sûr et sans erreur dans votre entreprise en assurant la sécurité de vos clients.",
+      "cta": "En savoir plus"
+    },
+    "profitability": {
+      "badge": "RENTABILITÉ ACCRUE",
+      "title": "Augmentez la rentabilité",
+      "description1": "Augmentez la rentabilité de votre entreprise grâce aux systèmes de serveurs robots. En livrant les commandes de vos clients rapidement et sans erreur, vous augmentez également le volume d'affaires de votre entreprise.",
+      "description2": "Grâce aux serveurs robots, prolongez les heures d'ouverture de votre entreprise et servez plus de clients.",
+      "stat1": "Réduction des coûts de personnel",
+      "stat2": "Service disponible"
+    },
+    "delivery": {
+      "title": "Système de Livraison Automatique",
+      "subtitle": "Augmentez la satisfaction et la fidélité des clients de votre entreprise",
+      "speed": {
+        "title": "Livraison rapide et efficace",
+        "description": "Livrez les commandes rapidement et efficacement aux clients avec des systèmes de livraison automatiques sur plateaux, augmentant la satisfaction client et le volume d'affaires de votre entreprise."
+      },
+      "accuracy": {
+        "title": "Moins d'erreurs",
+        "description": "Réduisez les erreurs de livraison en livrant les commandes aux bonnes tables et protégez la réputation de votre entreprise tout en offrant un service de meilleure qualité."
+      }
+    },
+    "technicalFeatures": {
+      "title": "Caractéristiques Techniques",
+      "subtitle": "Technologie de pointe pour un service optimal"
+    },
+    "features": {
+      "navigation": {
+        "title": "Système de Navigation",
+        "description": "Les robots serveurs AyaPos sont équipés de lasers et de capteurs pour éviter les obstacles dans l'entreprise."
+      },
+      "capacity": {
+        "title": "Capacité de Transport",
+        "description": "Les dispositifs de livraison de plateaux AyaPos ont une capacité de transport totale de 40 kg, soit 10 kg par niveau."
+      },
+      "battery": {
+        "title": "Autonomie de Batterie Durable",
+        "description": "Les robots serveurs AyaPos fonctionnent de manière continue pendant 12 à 15 heures par jour."
+      },
+      "speedLimit": {
+        "title": "Limite de Vitesse Intelligente",
+        "description": "Les robots serveurs intelligents ajustent leur vitesse en fonction de l'inclinaison du sol grâce à une fonction de limite de vitesse améliorée."
+      }
+    },
+    "gallery": {
+      "title": "Découvrez nos Robots Serveurs",
+      "subtitle": "Voyez comment nos robots peuvent transformer votre service",
+      "image1": "Robot serveur en action",
+      "image2": "Livraison automatique de plateaux",
+      "image3": "Service client amélioré"
+    },
+    "cta": {
+      "title": "Prêt à révolutionner votre service ?",
+      "subtitle": "Contactez-nous pour découvrir comment nos robots serveurs peuvent améliorer votre entreprise",
+      "button": "Demander une démonstration"
+    }
   }
 }
