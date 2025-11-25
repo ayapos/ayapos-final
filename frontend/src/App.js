@@ -30,6 +30,7 @@ import CentralizedManagement from './pages/CentralizedManagement';
 import CentralizedManagementComplete from './pages/CentralizedManagementComplete';
 import RestaurantPOS from './pages/RestaurantPOS';
 import OrderSystemNew from './pages/OrderSystemNew';
+import KioskPricing from './pages/KioskPricing';
 import WaiterTerminalNew from './pages/WaiterTerminalNew';
 import MobileOrderAppComplete from './pages/MobileOrderAppComplete';
 import RobotWaiterComplete from './pages/RobotWaiterComplete';
