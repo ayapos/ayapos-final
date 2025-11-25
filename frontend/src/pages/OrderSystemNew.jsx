@@ -200,11 +200,11 @@ const OrderSystemNew = () => {
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </a>
-                <a href="#pricing">
+                <Link to="/order-system-pricing">
                   <Button size="lg" variant="outline" className="w-full sm:w-auto border-blue-600 text-blue-600 hover:bg-blue-50">
                     Voir les tarifs
                   </Button>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="relative">
