@@ -78,7 +78,7 @@ const Navbar = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_menu-cloud-1/artifacts/99kmv9cg_AyaPosLogo.png" 
               alt="AyaPos Logo" 
-              className="h-12 w-auto"
+              className="h-36 w-auto"
             />
           </Link>
 
