@@ -64,10 +64,10 @@ function App() {
             <Route path="/delivery-management" element={<DeliveryManagementComplete />} />
             
             {/* Management Tools */}
-            <Route path="/web-portal" element={<WebPortal />} />
-            <Route path="/mobile-reports" element={<MobileReports />} />
-            <Route path="/stock-management" element={<StockManagement />} />
-            <Route path="/centralized-management" element={<CentralizedManagement />} />
+            <Route path="/web-portal" element={<WebPortalComplete />} />
+            <Route path="/mobile-reports" element={<MobileReportsComplete />} />
+            <Route path="/stock-management" element={<StockManagementComplete />} />
+            <Route path="/centralized-management" element={<CentralizedManagementComplete />} />
           </Routes>
           <Footer />
           <Toaster />
