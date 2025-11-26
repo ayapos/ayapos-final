@@ -59,6 +59,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Suspense fallback={<LoadingFallback />}>
+          <ScrollToTop />
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
