@@ -52,6 +52,7 @@ const Navbar = () => {
     },
     { name: t('nav.digital'), path: '/digital' },
     { name: t('nav.ayapay'), path: '/ayapay' },
+    { name: 'Développement IT', path: '/it-services' },
     { name: t('nav.pricing'), path: '/pricing' },
     { name: t('nav.contact'), path: '/contact' },
   ];
