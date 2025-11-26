@@ -87,19 +87,23 @@ const Pricing = () => {
                   )}
 
                   {/* Image du forfait */}
-                  <div className="relative h-40 w-full overflow-hidden">
-                    <img 
-                      src={posImages[pkg.id]} 
-                      alt={pkg.name}
-                      className="w-full h-full object-cover"
-                      loading="eager"
-                      crossOrigin="anonymous"
-                      onError={(e) => {
-                        e.target.style.display = 'none';
-                        e.target.parentElement.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
-                      }}
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20"></div>
+                  <div 
+                    className="relative h-40 w-full overflow-hidden flex items-center justify-center"
+                    style={{ background: posGradients[pkg.id] }}
+                  >
+                    {pkg.id === 'pos-mobile' ? (
+                      <img 
+                        src={posImages[pkg.id]} 
+                        alt={pkg.name}
+                        className="w-full h-full object-contain p-4"
+                        loading="eager"
+                      />
+                    ) : (
+                      <div className="text-white text-center">
+                        <div className="text-4xl mb-2">💼</div>
+                        <p className="text-sm font-semibold opacity-90">{pkg.name}</p>
+                      </div>
+                    )}
                   </div>
 
                   <CardHeader className="text-center pb-8">
