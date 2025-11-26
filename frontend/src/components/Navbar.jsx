@@ -13,7 +13,7 @@ import {
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState(null);
   const { t, i18n } = useTranslation();
   const location = useLocation();
 
