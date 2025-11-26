@@ -79,7 +79,7 @@ const CallbackPopup = () => {
     <div className="fixed inset-0 z-50 pointer-events-none">
       {/* Popup - positioned at right side */}
       <div className={`absolute right-0 top-1/2 -translate-y-1/2 pointer-events-auto ${isClosing ? 'animate-slideOutRight' : 'animate-slideInRight'}`}>
-      <div className="relative bg-white rounded-l-2xl shadow-2xl max-w-md w-full overflow-hidden mr-0">
+        <div className="relative bg-white rounded-l-2xl shadow-2xl max-w-md w-full overflow-hidden"
         {/* Close button */}
         <button
           onClick={handleClose}
