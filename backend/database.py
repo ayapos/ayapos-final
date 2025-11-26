@@ -24,8 +24,13 @@ def get_database():
     
     return _database
 
+class DatabaseProxy:
+    """Lazy database proxy that initializes on first access"""
+    def __getattr__(self, name):
+        return getattr(get_database(), name)
+
 # Create a db instance for easy import
-db = get_database()
+db = DatabaseProxy()
 
 def close_database():
     """
