@@ -44,6 +44,8 @@ import WaiterTerminalNew from './pages/WaiterTerminalNew';
 import MobileOrderAppComplete from './pages/MobileOrderAppComplete';
 import RobotWaiterComplete from './pages/RobotWaiterComplete';
 import LogoPreview from './pages/LogoPreview';
+import TermsConditions from './pages/TermsConditions';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 const LoadingFallback = () => (
   <div className="flex items-center justify-center min-h-screen">
