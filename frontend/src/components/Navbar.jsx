@@ -101,11 +101,15 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             {navigation.map((item) => (
               item.hasDropdown ? (
-                <DropdownMenu key={item.path} open={dropdownOpen} onOpenChange={setDropdownOpen}>
+                <DropdownMenu 
+                  key={item.path} 
+                  open={openDropdown === item.path} 
+                  onOpenChange={(isOpen) => setOpenDropdown(isOpen ? item.path : null)}
+                >
                   <DropdownMenuTrigger asChild>
                     <button 
                       className="flex items-center space-x-1 text-sm font-medium transition-colors hover:text-blue-600 text-gray-700"
-                      onMouseEnter={() => setDropdownOpen(true)}
+                      onMouseEnter={() => setOpenDropdown(item.path)}
                     >
                       <span>{item.name}</span>
                       <ChevronDown className="h-4 w-4" />
@@ -114,7 +118,7 @@ const Navbar = () => {
                   <DropdownMenuContent 
                     align="start" 
                     className="w-[600px] p-6"
-                    onMouseLeave={() => setDropdownOpen(false)}
+                    onMouseLeave={() => setOpenDropdown(null)}
                   >
                     <div className="grid grid-cols-2 gap-8">
                       {item.dropdown.sections.map((section, idx) => (
