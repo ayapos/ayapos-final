@@ -54,19 +54,12 @@ const Pricing = () => {
               const price = calculatePrice(pkg.price);
               const savings = pkg.price - price;
 
-              // Images et couleurs pour chaque forfait POS
+              // Images pour chaque forfait POS
               const posImages = {
-                'pos-premium': 'https://customer-assets.emergentagent.com/job_menu-cloud-1/artifacts/qqtnr4jm_image.png',
-                'pos-tablet': 'https://customer-assets.emergentagent.com/job_menu-cloud-1/artifacts/qqtnr4jm_image.png',
-                'pos-web': 'https://customer-assets.emergentagent.com/job_menu-cloud-1/artifacts/qqtnr4jm_image.png',
-                'pos-mobile': 'https://customer-assets.emergentagent.com/job_menu-cloud-1/artifacts/qqtnr4jm_image.png'
-              };
-              
-              const posGradients = {
-                'pos-premium': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-                'pos-tablet': 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-                'pos-web': 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-                'pos-mobile': 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)'
+                'pos-premium': 'https://cdn.pixabay.com/photo/2017/03/29/04/47/high-tech-2184965_1280.jpg',
+                'pos-tablet': 'https://cdn.pixabay.com/photo/2016/11/29/08/41/apple-1868496_1280.jpg',
+                'pos-web': 'https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593357_1280.jpg',
+                'pos-mobile': '/mobile-pos.png'
               };
 
               return (
