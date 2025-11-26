@@ -24,6 +24,9 @@ def get_database():
     
     return _database
 
+# Create a db instance for easy import
+db = get_database()
+
 def close_database():
     """
     Close the database connection.
