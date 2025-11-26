@@ -89,6 +89,9 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/post-1" element={<BlogPost1 />} />
             <Route path="/blog/post-2" element={<BlogPost2 />} />
+            
+            {/* Logo Preview */}
+            <Route path="/logo-preview" element={<LogoPreview />} />
           </Routes>
           <Footer />
           <Toaster />
