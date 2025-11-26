@@ -66,11 +66,11 @@ const AyaPay = () => {
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
-                <Link to="/pricing">
+                <a href="#ayapay-pricing">
                   <Button size="lg" variant="outline" className="border-white text-white hover:bg-blue-800 w-full sm:w-auto">
                     Voir les tarifs
                   </Button>
-                </Link>
+                </a>
               </div>
             </div>
             <div className="relative">
