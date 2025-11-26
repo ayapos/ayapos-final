@@ -95,6 +95,7 @@ function App() {
             <Route path="/logo-preview" element={<LogoPreview />} />
           </Routes>
           <Footer />
+          <CallbackPopup />
           <Toaster />
         </Suspense>
       </BrowserRouter>
