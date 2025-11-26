@@ -4,6 +4,12 @@ from typing import Dict
 import aiosmtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from dotenv import load_dotenv
+from pathlib import Path
+
+# Load environment variables
+ROOT_DIR = Path(__file__).parent.parent
+load_dotenv(ROOT_DIR / '.env')
 
 logger = logging.getLogger(__name__)
 
@@ -13,7 +19,7 @@ EMAIL_PORT = int(os.environ.get('EMAIL_PORT', '587'))
 EMAIL_USER = os.environ.get('EMAIL_USER', '')
 EMAIL_PASSWORD = os.environ.get('EMAIL_PASSWORD', '')
 EMAIL_FROM = os.environ.get('EMAIL_FROM', EMAIL_USER)
-EMAIL_TO = os.environ.get('EMAIL_TO', 'contact@ayapos.com')
+EMAIL_TO = os.environ.get('EMAIL_TO', 'emrah@ayapos.com')
 
 async def send_contact_notification(contact_data: Dict, contact_id: str):
     """
