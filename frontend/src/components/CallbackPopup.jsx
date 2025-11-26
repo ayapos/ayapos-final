@@ -76,15 +76,10 @@ const CallbackPopup = () => {
   if (!isVisible) return null;
 
   return (
-    <div className={`fixed inset-0 z-50 flex items-center justify-center p-4 ${isClosing ? 'animate-fadeOut' : 'animate-fadeIn'}`}>
-      {/* Backdrop */}
-      <div 
-        className="absolute inset-0 bg-black/50 backdrop-blur-sm"
-        onClick={handleClose}
-      />
-      
-      {/* Popup */}
-      <div className={`relative bg-white rounded-2xl shadow-2xl max-w-md w-full overflow-hidden ${isClosing ? 'animate-slideDown' : 'animate-slideUp'}`}>
+    <div className="fixed inset-0 z-50 pointer-events-none">
+      {/* Popup - positioned at right side */}
+      <div className={`absolute right-0 top-1/2 -translate-y-1/2 pointer-events-auto ${isClosing ? 'animate-slideOutRight' : 'animate-slideInRight'}`}>
+      <div className="relative bg-white rounded-l-2xl shadow-2xl max-w-md w-full overflow-hidden mr-0">
         {/* Close button */}
         <button
           onClick={handleClose}
