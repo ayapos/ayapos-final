@@ -6,7 +6,7 @@ import logging
 from pathlib import Path
 
 # Import routes
-from routes import contacts
+from routes import contacts, callbacks
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
