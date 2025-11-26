@@ -96,9 +96,20 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-sm">
-              © {currentYear} AyaPos. {t('footer.rights')}.
-            </p>
+            <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
+              <p className="text-sm">
+                © {currentYear} AyaPos. {t('footer.rights')}.
+              </p>
+              <div className="flex space-x-4 text-sm">
+                <Link to="/terms-conditions" className="hover:text-white transition-colors">
+                  Conditions Générales
+                </Link>
+                <span className="text-gray-600">•</span>
+                <Link to="/privacy-policy" className="hover:text-white transition-colors">
+                  Politique de Confidentialité
+                </Link>
+              </div>
+            </div>
             <div className="flex space-x-6">
               <a href="#" className="hover:text-white transition-colors">
                 <Facebook className="h-5 w-5" />
