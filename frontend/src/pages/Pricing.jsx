@@ -54,22 +54,40 @@ const Pricing = () => {
               const price = calculatePrice(pkg.price);
               const savings = pkg.price - price;
 
+              // Images pour chaque forfait POS
+              const posImages = {
+                'pos-premium': 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=300&fit=crop',
+                'pos-tablet': 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&h=300&fit=crop',
+                'pos-web': 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=300&fit=crop',
+                'pos-mobile': 'https://customer-assets.emergentagent.com/job_menu-cloud-1/artifacts/qqtnr4jm_image.png'
+              };
+
               return (
                 <Card
                   key={pkg.id}
-                  className={`relative flex flex-col ${
+                  className={`relative flex flex-col overflow-hidden ${
                     pkg.recommended
                       ? 'border-blue-600 border-2 shadow-2xl'
                       : 'border-gray-200'
                   }`}
                 >
                   {pkg.recommended && (
-                    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10">
                       <Badge className="bg-blue-600 text-white px-4 py-1">
                         Le plus populaire
                       </Badge>
                     </div>
                   )}
+
+                  {/* Image du forfait */}
+                  <div className="relative h-40 w-full overflow-hidden bg-gray-100">
+                    <img 
+                      src={posImages[pkg.id]} 
+                      alt={pkg.name}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                  </div>
 
                   <CardHeader className="text-center pb-8">
                     <CardTitle className="text-2xl mb-2">{pkg.name}</CardTitle>
