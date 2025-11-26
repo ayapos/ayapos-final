@@ -80,23 +80,14 @@ const Pricing = () => {
                   )}
 
                   {/* Image du forfait */}
-                  <div 
-                    className="relative h-40 w-full overflow-hidden flex items-center justify-center"
-                    style={{ background: posGradients[pkg.id] }}
-                  >
-                    {pkg.id === 'pos-mobile' ? (
-                      <img 
-                        src={posImages[pkg.id]} 
-                        alt={pkg.name}
-                        className="w-full h-full object-contain p-4"
-                        loading="eager"
-                      />
-                    ) : (
-                      <div className="text-white text-center">
-                        <div className="text-4xl mb-2">💼</div>
-                        <p className="text-sm font-semibold opacity-90">{pkg.name}</p>
-                      </div>
-                    )}
+                  <div className="relative h-48 w-full overflow-hidden bg-gray-900">
+                    <img 
+                      src={posImages[pkg.id]} 
+                      alt={pkg.name}
+                      className="w-full h-full object-cover"
+                      loading="eager"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                   </div>
 
                   <CardHeader className="text-center pb-8">
