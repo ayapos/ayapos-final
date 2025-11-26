@@ -56,9 +56,9 @@ const Pricing = () => {
 
               // Images pour chaque forfait POS
               const posImages = {
-                'pos-premium': 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=300&fit=crop',
-                'pos-tablet': 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&h=300&fit=crop',
-                'pos-web': 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=300&fit=crop',
+                'pos-premium': 'https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=600&h=300',
+                'pos-tablet': 'https://images.pexels.com/photos/5632381/pexels-photo-5632381.jpeg?auto=compress&cs=tinysrgb&w=600&h=300',
+                'pos-web': 'https://images.pexels.com/photos/4065891/pexels-photo-4065891.jpeg?auto=compress&cs=tinysrgb&w=600&h=300',
                 'pos-mobile': 'https://customer-assets.emergentagent.com/job_menu-cloud-1/artifacts/qqtnr4jm_image.png'
               };
 
