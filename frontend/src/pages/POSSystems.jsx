@@ -28,26 +28,45 @@ const POSSystems = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
-            {posPackages.map((pkg, index) => (
+            {posPackages.map((pkg, index) => {
+              // Image URLs pour chaque type de POS
+              const posImages = {
+                'pos-premium': 'https://images.unsplash.com/photo-1693632376342-96ccd26632f1?w=800&h=400&fit=crop',
+                'pos-tablet': 'https://images.unsplash.com/photo-1747930117871-df71e977ac0c?w=800&h=400&fit=crop',
+                'pos-web': 'https://images.unsplash.com/photo-1718279602896-6df6c34f61e5?w=800&h=400&fit=crop',
+                'pos-mobile': 'https://images.unsplash.com/photo-1726065235203-4368c41c6f19?w=800&h=400&fit=crop'
+              };
+
+              return (
               <Card key={pkg.id} className={`relative overflow-hidden ${
                 pkg.recommended 
                   ? 'border-blue-600 border-2 shadow-2xl' 
                   : 'border-gray-200 hover:shadow-xl'
               } transition-all`}>
                 {pkg.recommended && (
-                  <div className="absolute top-0 right-0">
+                  <div className="absolute top-0 right-0 z-10">
                     <Badge className="bg-blue-600 text-white rounded-none rounded-bl-lg px-4 py-2">
                       Le plus populaire
                     </Badge>
                   </div>
                 )}
                 {pkg.discount && (
-                  <div className="absolute top-0 left-0">
+                  <div className="absolute top-0 left-0 z-10">
                     <Badge className="bg-green-600 text-white rounded-none rounded-br-lg px-4 py-2">
                       -{pkg.discount}%
                     </Badge>
                   </div>
                 )}
+
+                {/* Image du POS */}
+                <div className="relative h-48 w-full overflow-hidden bg-gray-100">
+                  <img 
+                    src={posImages[pkg.id]} 
+                    alt={pkg.name}
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                </div>
 
                 <CardHeader className="space-y-4 pb-8">
                   <div>
