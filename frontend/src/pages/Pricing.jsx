@@ -54,12 +54,12 @@ const Pricing = () => {
               const price = calculatePrice(pkg.price);
               const savings = pkg.price - price;
 
-              // Images pour chaque forfait POS
+              // Images pour chaque forfait POS (utilisez votre propre image pour chacun)
               const posImages = {
-                'pos-premium': 'https://cdn.pixabay.com/photo/2017/03/29/04/47/high-tech-2184965_1280.jpg',
-                'pos-tablet': 'https://cdn.pixabay.com/photo/2016/11/29/08/41/apple-1868496_1280.jpg',
-                'pos-web': 'https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593357_1280.jpg',
-                'pos-mobile': '/mobile-pos.png'
+                'pos-premium': '/mobile-pos.png',  // Remplacez par votre image Premium POS
+                'pos-tablet': '/mobile-pos.png',   // Remplacez par votre image Tablet POS
+                'pos-web': '/mobile-pos.png',      // Remplacez par votre image Web POS
+                'pos-mobile': '/mobile-pos.png'    // Votre image Mobile POS
               };
 
               return (
