@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './i18n/config';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import CallbackPopup from './components/CallbackPopup';
 import { Toaster } from './components/ui/toaster';
 
 // Pages
