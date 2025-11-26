@@ -193,32 +193,24 @@ const CallbackPopup = () => {
       </div>
 
       <style jsx>{`
-        @keyframes fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
-        }
-        @keyframes fadeOut {
-          from { opacity: 1; }
-          to { opacity: 0; }
-        }
-        @keyframes slideUp {
+        @keyframes slideInRight {
           from {
             opacity: 0;
-            transform: translateY(50px);
+            transform: translateX(100%);
           }
           to {
             opacity: 1;
-            transform: translateY(0);
+            transform: translateX(0);
           }
         }
-        @keyframes slideDown {
+        @keyframes slideOutRight {
           from {
             opacity: 1;
-            transform: translateY(0);
+            transform: translateX(0);
           }
           to {
             opacity: 0;
-            transform: translateY(50px);
+            transform: translateX(100%);
           }
         }
         @keyframes slideInLeft {
@@ -236,14 +228,13 @@ const CallbackPopup = () => {
           25% { transform: translateX(-10px); }
           75% { transform: translateX(10px); }
         }
-        .animate-fadeIn { animation: fadeIn 0.3s ease-out; }
-        .animate-fadeOut { animation: fadeOut 0.3s ease-out; }
-        .animate-slideUp { animation: slideUp 0.4s ease-out; }
-        .animate-slideDown { animation: slideDown 0.3s ease-out; }
+        .animate-slideInRight { animation: slideInRight 0.5s ease-out; }
+        .animate-slideOutRight { animation: slideOutRight 0.4s ease-out; }
         .animate-slideInLeft { animation: slideInLeft 0.5s ease-out; }
         .animate-shake { animation: shake 0.5s ease-in-out; }
         .delay-100 { animation-delay: 0.1s; }
       `}</style>
+      </div>
     </div>
   );
 };
