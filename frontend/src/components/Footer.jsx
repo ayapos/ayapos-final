@@ -11,20 +11,20 @@ const Footer = () => {
     {
       title: t('footer.products'),
       links: [
-        { name: 'Premium POS', path: '/pos' },
-        { name: 'Tablet POS', path: '/pos' },
-        { name: 'Web POS', path: '/pos' },
-        { name: 'Mobile POS', path: '/pos' },
+        { name: 'Premium POS', path: '/restaurant-pos' },
+        { name: 'Tablet POS', path: '/restaurant-pos' },
+        { name: 'Web POS', path: '/web-portal' },
+        { name: 'Mobile POS', path: '/mobile-reports' },
         { name: 'AyaPay', path: '/ayapay' },
       ],
     },
     {
       title: t('nav.digital'),
       links: [
-        { name: 'Self Order Kiosk', path: '/digital' },
-        { name: 'Digital Menu', path: '/digital' },
-        { name: 'Mobile App', path: '/digital' },
-        { name: 'Digital Menuboard', path: '/digital' },
+        { name: 'Self Order Kiosk', path: '/self-order-kiosk' },
+        { name: 'Digital Menu', path: '/mobile-order-app' },
+        { name: 'Mobile App', path: '/mobile-order-app' },
+        { name: 'Digital Menuboard', path: '/self-order-kiosk' },
       ],
     },
     {
