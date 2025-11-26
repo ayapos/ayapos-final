@@ -80,13 +80,19 @@ const Pricing = () => {
                   )}
 
                   {/* Image du forfait */}
-                  <div className="relative h-40 w-full overflow-hidden bg-gray-100">
+                  <div className="relative h-40 w-full overflow-hidden">
                     <img 
                       src={posImages[pkg.id]} 
                       alt={pkg.name}
                       className="w-full h-full object-cover"
+                      loading="eager"
+                      crossOrigin="anonymous"
+                      onError={(e) => {
+                        e.target.style.display = 'none';
+                        e.target.parentElement.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+                      }}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                    <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20"></div>
                   </div>
 
                   <CardHeader className="text-center pb-8">
