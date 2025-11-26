@@ -5,6 +5,7 @@ import './i18n/config';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import CallbackPopup from './components/CallbackPopup';
+import ScrollToTop from './components/ScrollToTop';
 import { Toaster } from './components/ui/toaster';
 
 // Pages
