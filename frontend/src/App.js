@@ -93,6 +93,10 @@ function App() {
             <Route path="/blog/post-1" element={<BlogPost1 />} />
             <Route path="/blog/post-2" element={<BlogPost2 />} />
             
+            {/* Legal Pages */}
+            <Route path="/terms-conditions" element={<TermsConditions />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            
             {/* Logo Preview */}
             <Route path="/logo-preview" element={<LogoPreview />} />
           </Routes>
