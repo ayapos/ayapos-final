@@ -54,12 +54,19 @@ const Pricing = () => {
               const price = calculatePrice(pkg.price);
               const savings = pkg.price - price;
 
-              // Images pour chaque forfait POS
+              // Images et couleurs pour chaque forfait POS
               const posImages = {
-                'pos-premium': 'https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=600&h=300',
-                'pos-tablet': 'https://images.pexels.com/photos/5632381/pexels-photo-5632381.jpeg?auto=compress&cs=tinysrgb&w=600&h=300',
-                'pos-web': 'https://images.pexels.com/photos/4065891/pexels-photo-4065891.jpeg?auto=compress&cs=tinysrgb&w=600&h=300',
+                'pos-premium': 'https://customer-assets.emergentagent.com/job_menu-cloud-1/artifacts/qqtnr4jm_image.png',
+                'pos-tablet': 'https://customer-assets.emergentagent.com/job_menu-cloud-1/artifacts/qqtnr4jm_image.png',
+                'pos-web': 'https://customer-assets.emergentagent.com/job_menu-cloud-1/artifacts/qqtnr4jm_image.png',
                 'pos-mobile': 'https://customer-assets.emergentagent.com/job_menu-cloud-1/artifacts/qqtnr4jm_image.png'
+              };
+              
+              const posGradients = {
+                'pos-premium': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                'pos-tablet': 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+                'pos-web': 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+                'pos-mobile': 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)'
               };
 
               return (
