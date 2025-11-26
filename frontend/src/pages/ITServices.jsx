@@ -263,7 +263,7 @@ const ITServices = () => {
       </section>
 
       {/* Portfolio Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white">
+      <section id="portfolio" className="py-20 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <Badge className="bg-white/20 text-white border-white/30 mb-4 backdrop-blur-sm">
