@@ -48,6 +48,8 @@ app.include_router(api_router)
 
 # Include contacts router
 app.include_router(contacts.router)
+# Include callbacks router
+app.include_router(callbacks.router)
 
 # Add CORS middleware
 app.add_middleware(
