@@ -331,6 +331,21 @@ frontend:
           agent: "testing"
           comment: "✅ Content synchronization verified successfully (100% success rate). All 6 pages now display restored database content: AyaPay='💳 Solutions de Paiement AyaPay', Digital='💡 Solutions Digitales Innovantes', Kiosk Pricing='💰 Tarifs Kiosque de Commande', Order System Pricing='💰 Tarifs Système de Commande', Waiter Terminal Pricing='💰 Tarifs Terminal Serveur', Delivery Service Pricing='💰 Tarifs Service de Livraison'. All pages have hero titles with emojis, subtitles, images, and features sections. CMS integration fully functional - synchronized content appears correctly on public website. No JavaScript console errors detected."
 
+  - task: "AI Agent Integration in Admin Panel"
+    implemented: true
+    working: false
+    file: "/app/frontend/src/components/admin/AIAssistant.jsx"
+    stuck_count: 1
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "Integrated AI Agent in admin panel with purple floating button, chat interface, and natural language content modification capabilities"
+        - working: false
+          agent: "testing"
+          comment: "❌ AI Agent partially working but has critical issues. FOUND: Purple floating AI button in bottom right corner with 'AI' badge as expected. FOUND: Button is clickable and triggers API calls to /api/ai-assistant/chat. ISSUE: Chat window does not open properly after clicking button. ISSUE: Backend API returns error message '❌ Désolé, je rencontre un problème technique. Veuillez réessayer dans quelques instants.' ISSUE: Backend logs show 'Erreur lors de la récupération de la clé: No module named emergentintegrations' - LLM key retrieval failing. RESULT: UI components implemented correctly but LLM integration broken. Admin login working with emrah@ayapos.com/Arden2018@. Screenshots captured showing button presence and click attempts."
+
 metadata:
   created_by: "testing_agent"
   version: "2.3"
