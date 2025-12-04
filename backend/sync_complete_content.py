@@ -109,7 +109,7 @@ async def sync_complete_content():
                         "Rapports avancés",
                         "API d'intégration"
                     ],
-                    "highlight": true,
+                    "highlight": True,
                     "badge": "Recommandé"
                 },
                 {
