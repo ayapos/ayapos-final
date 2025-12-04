@@ -294,7 +294,7 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Restaurant POS page and ProductsManager testing completed successfully"
+    - "Improved admin handlers with compact modals testing completed successfully"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
