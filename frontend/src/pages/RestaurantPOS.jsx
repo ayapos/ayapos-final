@@ -449,13 +449,18 @@ const RestaurantPOS = () => {
         </div>
       </section>
 
-      {/* Features Grid */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Features Grid - CENTRÉ et COLORÉ */}
+      <section className="py-20 bg-gradient-to-b from-white to-orange-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Fonctionnalités</h2>
+            <h2 className="text-5xl font-extrabold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent mb-6">
+              ✨ Fonctionnalités Puissantes
+            </h2>
+            <p className="text-2xl text-gray-700 max-w-3xl mx-auto">
+              Tout ce dont vous avez besoin pour gérer votre restaurant
+            </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => {
               const Icon = feature.icon;
               return (
