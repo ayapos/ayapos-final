@@ -86,7 +86,7 @@ const Pricing = () => {
           {/* En-tête descriptive */}
           <div className="text-center mb-16">
             <h2 className="text-5xl font-extrabold text-gray-900 mb-6">
-              💳 Plans Tarifaires pour Votre Système POS
+              Plans Tarifaires pour Votre Système POS
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Choisissez le plan qui correspond parfaitement aux besoins de votre entreprise. 
