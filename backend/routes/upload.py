@@ -85,6 +85,55 @@ async def upload_image(
             detail="Erreur lors du téléchargement du fichier"
         )
 
+@router.post("")
+async def upload_image_simple(
+    file: UploadFile = File(...),
+    email: str = Depends(verify_token)
+):
+    """
+    Upload an image file - endpoint sans suffix (protected)
+    """
+    try:
+        # Read file content to get size
+        contents = await file.read()
+        file_size = len(contents)
+        
+        # Validate file
+        validate_image(file.filename, file_size)
+        
+        # Generate unique filename
+        file_ext = Path(file.filename).suffix.lower()
+        unique_filename = f"{uuid.uuid4()}{file_ext}"
+        file_path = UPLOAD_DIR / unique_filename
+        
+        # Save file
+        with open(file_path, "wb") as f:
+            f.write(contents)
+        
+        # Return URL path (relative to public folder)
+        file_url = f"/uploads/{unique_filename}"
+        
+        logger.info(f"File uploaded: {unique_filename} by {email}")
+        
+        return JSONResponse(
+            status_code=status.HTTP_200_OK,
+            content={
+                "success": True,
+                "message": "Image téléchargée avec succès",
+                "url": file_url,
+                "filename": unique_filename
+            }
+        )
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error uploading file: {str(e)}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="Erreur lors du téléchargement du fichier"
+        )
+
 @router.post("/images")
 async def upload_multiple_images(
     files: List[UploadFile] = File(...),
