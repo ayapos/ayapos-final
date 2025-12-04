@@ -472,7 +472,10 @@ const AdminComplete = () => {
           <div className="flex gap-3">
             <Button 
               variant="outline" 
-              onClick={() => window.open(`/${selectedPage === 'home' ? '' : selectedPage}`, '_blank')}
+              onClick={() => {
+                const url = selectedPage === 'home' ? '/' : `/${selectedPage}`;
+                window.open(url, '_blank');
+              }}
             >
               <Eye className="h-4 w-4 mr-2" />
               Voir le Site
