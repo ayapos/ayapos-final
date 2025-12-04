@@ -110,7 +110,11 @@ const Pricing = () => {
               return (
                 <Card
                   key={pkg.id}
-                  className={`relative flex flex-col overflow-hidden hover:scale-105 transition-transform duration-300 ${\n                    pkg.recommended || pkg.highlighted\n                      ? 'border-4 border-yellow-400 shadow-2xl ring-4 ring-yellow-200'\n                      : 'border-2 border-gray-200 shadow-lg'\n                  }`}
+                  className={`relative flex flex-col overflow-hidden hover:scale-105 transition-transform duration-300 ${
+                    pkg.recommended || pkg.highlighted
+                      ? 'border-4 border-yellow-400 shadow-2xl ring-4 ring-yellow-200'
+                      : 'border-2 border-gray-200 shadow-lg'
+                  }`}
                 >
                   {(pkg.recommended || pkg.highlighted) && (
                     <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
