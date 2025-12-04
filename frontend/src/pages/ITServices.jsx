@@ -280,7 +280,7 @@ const ITServices = () => {
                       {service.features.map((feature, idx) => (
                         <li key={idx} className="flex items-start space-x-2">
                           <Check className="h-5 w-5 text-green-500 flex-shrink-0 mt-0.5" />
-                          <span className="text-sm text-gray-700">{feature}</span>
+                          <span className="text-sm text-gray-700">{typeof feature === 'string' ? feature : (feature.text || '')}</span>
                         </li>
                       ))}
                     </ul>
