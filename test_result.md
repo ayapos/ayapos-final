@@ -219,7 +219,11 @@ metadata:
 
 test_plan:
   current_focus:
-    - "All admin system testing completed successfully"
+    - "Hero/Carousel Admin Management"
+    - "Homepage Hero Carousel Display"
+    - "POSSystems Page CMS Integration"
+    - "Contact Page CMS Integration"
+    - "Pricing Page CMS Integration"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -229,3 +233,5 @@ agent_communication:
       message: "Starting comprehensive testing of AyaPos admin system. Will test authentication, dashboard navigation, content editing, section management, and data persistence using provided credentials (emrah@ayapos.com / Arden2018@)."
     - agent: "testing"
       message: "✅ COMPREHENSIVE ADMIN SYSTEM TESTING COMPLETED - All 11 test scenarios passed (100% success rate). AyaPos admin system is fully functional: Authentication (login/logout), dashboard navigation (8 pages), content editing, section management (add/delete), data persistence, protected routes, and public site login button all working correctly. System ready for production use."
+    - agent: "main"
+      message: "User requests testing of CMS connection between admin and public site: Hero/Carousel admin functionality, homepage carousel display, and three newly connected pages (POSSystems, Contact, Pricing). Need to verify no JavaScript errors and proper content display."
