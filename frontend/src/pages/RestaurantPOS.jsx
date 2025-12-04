@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { 
   ArrowRight, Check, Cloud, Store, Smartphone, Wifi, 
   Package, Users, BarChart3, Globe, Settings, Lock,
-  CreditCard, Printer, Shield, Zap, TrendingUp, Star
+  CreditCard, Printer, Shield, Zap, TrendingUp, Star, Loader2
 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
@@ -14,10 +14,26 @@ import { Textarea } from '../components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../components/ui/accordion';
 import { useToast } from '../hooks/use-toast';
+import { usePageContent } from '../hooks/usePageContent';
+import { useProducts } from '../hooks/useProducts';
 
 const RestaurantPOS = () => {
   const { t } = useTranslation();
   const { toast } = useToast();
+  const { getContentValue, loading } = usePageContent('restaurant-pos');
+  const { products } = useProducts();
+  
+  const restaurantProducts = products.filter(p => 
+    p.category === 'POS' || p.name.toLowerCase().includes('restaurant')
+  );
+
+  if (loading) {
+    return (
+      <div className="min-h-screen pt-16 flex items-center justify-center">
+        <Loader2 className="h-12 w-12 animate-spin text-blue-600" />
+      </div>
+    );
+  }
   
   const [formData, setFormData] = useState({
     businessName: '',
