@@ -242,9 +242,9 @@ const Navbar = () => {
                   </button>
                 ))}
               </div>
-              <Link to="/contact" onClick={() => setIsOpen(false)}>
+              <Link to="/admin/login" onClick={() => setIsOpen(false)}>
                 <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
-                  {t('nav.demo')}
+                  Login
                 </Button>
               </Link>
             </div>
