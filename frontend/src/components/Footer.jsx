@@ -97,17 +97,17 @@ const Footer = () => {
           </div>
 
           {/* Links Sections */}
-          {footerSections.map((section) => (
-            <div key={section.title}>
+          {footerSections.map((section, idx) => (
+            <div key={section.title || idx}>
               <h3 className="text-white font-semibold mb-4">{section.title}</h3>
               <ul className="space-y-2">
-                {section.links.map((link) => (
-                  <li key={link.name}>
+                {section.links && section.links.map((link, linkIdx) => (
+                  <li key={link.label || link.name || linkIdx}>
                     <Link
-                      to={link.path}
+                      to={link.url || link.path}
                       className="text-sm hover:text-white transition-colors"
                     >
-                      {link.name}
+                      {link.label || link.name}
                     </Link>
                   </li>
                 ))}
