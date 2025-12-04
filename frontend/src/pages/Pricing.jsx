@@ -83,6 +83,21 @@ const Pricing = () => {
       {/* Pricing Cards - CENTR\u00c9 */}
       <section className="py-20 bg-gradient-to-b from-white via-blue-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* En-tête descriptive */}
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-extrabold text-gray-900 mb-6">
+              💳 Plans Tarifaires pour Votre Système POS
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Choisissez le plan qui correspond parfaitement aux besoins de votre entreprise. 
+              De la petite boutique à la grande chaîne, nous avons la solution idéale pour vous.
+            </p>
+            <div className="mt-8 inline-flex items-center space-x-2 bg-green-100 text-green-800 px-6 py-3 rounded-full">
+              <span className="text-2xl">🎉</span>
+              <span className="font-semibold">Essai gratuit de 14 jours • Sans carte bancaire</span>
+            </div>
+          </div>
+          
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {pricingPlans.map((pkg) => {
               const price = calculatePrice(pkg.price);
