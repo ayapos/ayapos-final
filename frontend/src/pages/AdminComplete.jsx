@@ -569,29 +569,168 @@ const AdminComplete = () => {
               </CardContent>
             </Card>
 
+            {/* SECTIONS PERSONNALISÉES */}
+            {Object.entries(pageData.sections || {}).map(([sectionKey, sectionData]) => (
+              <Card key={sectionKey}>
+                <CardHeader className="bg-gradient-to-r from-yellow-50 to-amber-50">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <CardTitle className="text-2xl capitalize">
+                        📋 {sectionKey.replace(/_/g, ' ')}
+                      </CardTitle>
+                      <CardDescription>Section personnalisée avec éléments multiples</CardDescription>
+                    </div>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => {
+                        const newSections = { ...pageData.sections };
+                        delete newSections[sectionKey];
+                        setPageData(prev => ({ ...prev, sections: newSections }));
+                      }}
+                    >
+                      <Trash2 className="h-4 w-4 mr-2" />
+                      Supprimer Section
+                    </Button>
+                  </div>
+                </CardHeader>
+                <CardContent className="space-y-4 pt-6">
+                  <div>
+                    <Label className="font-semibold">Titre de la Section</Label>
+                    <Input
+                      value={sectionData.title || ''}
+                      onChange={(e) => updateSectionTitle(sectionKey, e.target.value)}
+                      placeholder="Titre de cette section"
+                      className="mt-1"
+                    />
+                  </div>
+                  
+                  <Separator className="my-4" />
+                  
+                  <div className="space-y-3">
+                    <Label className="font-semibold">Éléments de la section</Label>
+                    {sectionData.items?.map((item, index) => (
+                      <Card key={index} className="border">
+                        <CardContent className="pt-4 space-y-3">
+                          <div className="flex items-center justify-between mb-2">
+                            <Label className="text-xs text-gray-500">Élément #{index + 1}</Label>
+                            <Button
+                              size="sm"
+                              variant="ghost"
+                              onClick={() => removeSectionItem(sectionKey, index)}
+                            >
+                              <Trash2 className="h-3 w-3" />
+                            </Button>
+                          </div>
+                          
+                          <div className="grid md:grid-cols-3 gap-3">
+                            <div>
+                              <Label className="text-xs">Icône Emoji</Label>
+                              <Input
+                                value={item.icon || ''}
+                                onChange={(e) => updateSectionItem(sectionKey, index, 'icon', e.target.value)}
+                                placeholder="Ex: 🔄 ✨ 💡"
+                                className="h-9 text-center text-lg"
+                              />
+                            </div>
+                            <div className="md:col-span-2">
+                              <Label className="text-xs">Titre</Label>
+                              <Input
+                                value={item.title || ''}
+                                onChange={(e) => updateSectionItem(sectionKey, index, 'title', e.target.value)}
+                                placeholder="Titre de l'élément"
+                                className="h-9"
+                              />
+                            </div>
+                          </div>
+                          
+                          <div>
+                            <Label className="text-xs">Description</Label>
+                            <Textarea
+                              value={item.description || ''}
+                              onChange={(e) => updateSectionItem(sectionKey, index, 'description', e.target.value)}
+                              placeholder="Description détaillée"
+                              rows={2}
+                            />
+                          </div>
+                          
+                          {item.image !== undefined && (
+                            <div>
+                              <Label className="text-xs">Image (optionnelle)</Label>
+                              {item.image && (
+                                <img 
+                                  src={item.image} 
+                                  alt={item.title}
+                                  className="w-full h-32 object-cover rounded border mt-1"
+                                />
+                              )}
+                              <Input
+                                value={item.image || ''}
+                                onChange={(e) => updateSectionItem(sectionKey, index, 'image', e.target.value)}
+                                placeholder="URL de l'image"
+                                className="mt-1"
+                              />
+                            </div>
+                          )}
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
+                  
+                  <Button
+                    onClick={() => addSectionItem(sectionKey)}
+                    variant="outline"
+                    className="w-full"
+                  >
+                    <Plus className="h-4 w-4 mr-2" />
+                    Ajouter un Élément
+                  </Button>
+                </CardContent>
+              </Card>
+            ))}
+
+            {/* Bouton pour ajouter une nouvelle section */}
+            <Card className="border-dashed border-2">
+              <CardContent className="pt-6">
+                <Button
+                  onClick={() => {
+                    const sectionName = prompt('Nom de la nouvelle section (ex: pricing, testimonials):');
+                    if (sectionName) {
+                      addCustomSection(sectionName);
+                    }
+                  }}
+                  variant="outline"
+                  className="w-full h-16"
+                >
+                  <Plus className="h-5 w-5 mr-2" />
+                  ➕ Ajouter une Nouvelle Section Personnalisée
+                </Button>
+              </CardContent>
+            </Card>
+
             {/* SECTION CTA */}
             <Card>
               <CardHeader className="bg-gradient-to-r from-orange-50 to-red-50">
-                <CardTitle className="text-2xl">🚀 Call-to-Action</CardTitle>
+                <CardTitle className="text-2xl">🚀 Call-to-Action Final</CardTitle>
                 <CardDescription>Message final pour inciter à l'action</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4 pt-6">
                 <div>
-                  <Label>Titre CTA</Label>
+                  <Label className="font-semibold">Titre CTA</Label>
                   <Input
                     value={pageData.cta_title || ''}
                     onChange={(e) => updateField('cta_title', e.target.value)}
-                    placeholder="Ex: Prêt à commencer ?"
-                    className="mt-2"
+                    placeholder="Ex: AYAPOS SYSTÈMES POS NOUVELLE GÉNÉRATION"
+                    className="mt-2 text-lg"
                   />
                 </div>
                 
                 <div>
-                  <Label>Sous-titre CTA</Label>
+                  <Label className="font-semibold">Sous-titre CTA</Label>
                   <Input
                     value={pageData.cta_subtitle || ''}
                     onChange={(e) => updateField('cta_subtitle', e.target.value)}
-                    placeholder="Ex: Contactez-nous dès maintenant"
+                    placeholder="Ex: Ayez toujours une longueur d'avance!"
                     className="mt-2"
                   />
                 </div>
