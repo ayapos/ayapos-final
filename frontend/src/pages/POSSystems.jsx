@@ -126,10 +126,12 @@ const POSSystems = () => {
                   <div className="space-y-1">
                     <p className="font-semibold text-gray-900 mb-4">Fonctionnalités incluses :</p>
                     <div className="space-y-3">
-                      {pkg.features.map((feature, idx) => (
+                      {pkg.features && pkg.features.map((feature, idx) => (
                         <div key={idx} className="flex items-start space-x-3">
                           <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                          <span className="text-sm text-gray-700">{feature}</span>
+                          <span className="text-sm text-gray-700">
+                            {typeof feature === 'string' ? feature : (feature.text || '')}
+                          </span>
                         </div>
                       ))}
                     </div>
