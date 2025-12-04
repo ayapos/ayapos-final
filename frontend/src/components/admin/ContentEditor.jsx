@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useAuth } from '../../context/AuthContext';
-import { Save, Upload, Loader2, CheckCircle2, AlertCircle, FileText, Image as ImageIcon } from 'lucide-react';
+import { Save, Upload, Loader2, FileText } from 'lucide-react';
 import { Button } from '../ui/button';
 
 const API_URL = process.env.REACT_APP_BACKEND_URL;
@@ -15,13 +15,13 @@ const ContentEditor = ({ selectedPage, setSelectedPage }) => {
   const [message, setMessage] = useState({ type: '', text: '' });
 
   const pages = [
-    { id: 'home', name: '🏠 Accueil', color: 'from-blue-500 to-blue-600' },
-    { id: 'pricing', name: '💰 Tarifs', color: 'from-green-500 to-green-600' },
-    { id: 'about', name: 'ℹ️ À propos', color: 'from-purple-500 to-purple-600' },
-    { id: 'contact', name: '📞 Contact', color: 'from-orange-500 to-orange-600' },
-    { id: 'pos-systems', name: '🖥️ Systèmes POS', color: 'from-indigo-500 to-indigo-600' },
-    { id: 'restaurant-pos', name: '🍽️ Restaurant POS', color: 'from-red-500 to-red-600' },
-    { id: 'ayapay', name: '💳 AyaPay', color: 'from-pink-500 to-pink-600' },
+    { id: 'home', name: 'Accueil' },
+    { id: 'pricing', name: 'Tarifs' },
+    { id: 'about', name: 'À propos' },
+    { id: 'contact', name: 'Contact' },
+    { id: 'pos-systems', name: 'Systèmes POS' },
+    { id: 'restaurant-pos', name: 'Restaurant POS' },
+    { id: 'ayapay', name: 'AyaPay' },
   ];
 
   useEffect(() => { loadAllContent(); }, []);
@@ -52,9 +52,9 @@ const ContentEditor = ({ selectedPage, setSelectedPage }) => {
         { page: selectedPage, sections: currentSections },
         { headers: getAuthHeaders() }
       );
-      showMessage('success', '✅ Sauvegardé!');
+      showMessage('success', 'Sauvegardé!');
     } catch (error) {
-      showMessage('error', '❌ Erreur');
+      showMessage('error', 'Erreur');
     } finally { setSaving(false); }
   };
 
@@ -75,10 +75,10 @@ const ContentEditor = ({ selectedPage, setSelectedPage }) => {
       });
       if (response.data.success) {
         updateSectionValue(sectionIndex, response.data.url);
-        showMessage('success', '✅ Image téléchargée!');
+        showMessage('success', 'Image téléchargée!');
       }
     } catch (error) {
-      showMessage('error', '❌ Erreur upload');
+      showMessage('error', 'Erreur upload');
     } finally { setUploading(false); }
   };
 
@@ -88,39 +88,32 @@ const ContentEditor = ({ selectedPage, setSelectedPage }) => {
   };
 
   const currentSections = content[selectedPage] || [];
-  const currentPage = pages.find(p => p.id === selectedPage);
 
   if (loading) return <div className="flex items-center justify-center py-20"><Loader2 className="h-12 w-12 animate-spin text-blue-600" /></div>;
 
   return (
-    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl shadow-lg overflow-hidden">
+    <div className="bg-white rounded-lg shadow-sm">
       {message.text && (
-        <div className={`${message.type === 'success' ? 'bg-green-500' : 'bg-red-500'} text-white px-6 py-4 flex items-center space-x-3 font-semibold`}>
-          {message.type === 'success' ? <CheckCircle2 className="h-6 w-6" /> : <AlertCircle className="h-6 w-6" />}
-          <span className="text-lg">{message.text}</span>
+        <div className={`${message.type === 'success' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'} px-4 py-3 mb-4 rounded`}>
+          {message.text}
         </div>
       )}
 
-      {/* Header avec gradient coloré */}
-      <div className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 px-8 py-6">
-        <h2 className="text-3xl font-bold text-white flex items-center">
-          <FileText className="h-8 w-8 mr-3" />
-          Éditeur de Contenu
-        </h2>
-        <p className="text-blue-100 mt-2 text-lg">Modifiez le contenu de vos pages en temps réel</p>
+      <div className="border-b px-6 py-4">
+        <h2 className="text-xl font-semibold">Éditeur de Contenu</h2>
       </div>
 
-      {/* Tabs colorés */}
-      <div className="bg-white border-b-4 border-blue-200 px-6 py-4 overflow-x-auto">
-        <div className="flex space-x-3">
+      {/* Tabs simples */}
+      <div className="border-b px-6 py-3">
+        <div className="flex space-x-2 overflow-x-auto">
           {pages.map((page) => (
             <button
               key={page.id}
               onClick={() => setSelectedPage(page.id)}
-              className={`px-6 py-3 rounded-lg font-semibold text-lg transition-all transform hover:scale-105 whitespace-nowrap ${
+              className={`px-4 py-2 rounded whitespace-nowrap ${
                 selectedPage === page.id
-                  ? `bg-gradient-to-r ${page.color} text-white shadow-lg`
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               }`}
             >
               {page.name}
@@ -130,23 +123,17 @@ const ContentEditor = ({ selectedPage, setSelectedPage }) => {
       </div>
 
       {/* Content Area - CENTRÉ */}
-      <div className="p-8">
+      <div className="p-6">
         {currentSections.length === 0 ? (
-          <div className="text-center py-16">
-            <FileText className="h-20 w-20 mx-auto text-gray-300 mb-4" />
-            <p className="text-gray-500 text-xl">Aucun contenu pour cette page</p>
+          <div className="text-center py-16 text-gray-500">
+            <FileText className="h-16 w-16 mx-auto mb-4 text-gray-300" />
+            <p>Aucun contenu pour cette page</p>
           </div>
         ) : (
           <div className="max-w-4xl mx-auto space-y-6">
-            <div className={`bg-gradient-to-r ${currentPage?.color || 'from-blue-500 to-blue-600'} rounded-xl p-6 text-white mb-8`}>
-              <h3 className="text-2xl font-bold mb-2">{currentPage?.name}</h3>
-              <p className="text-blue-100">Modifiez les champs ci-dessous pour changer le contenu de la page</p>
-            </div>
-
             {currentSections.map((section, index) => (
-              <div key={index} className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow p-6 border-l-4 border-blue-500">
-                <label className="block text-lg font-bold text-gray-800 mb-3 flex items-center">
-                  {section.type === 'image' ? <ImageIcon className="h-5 w-5 mr-2 text-blue-600" /> : <FileText className="h-5 w-5 mr-2 text-blue-600" />}
+              <div key={index} className="bg-gray-50 rounded-lg p-6">
+                <label className="block text-sm font-medium text-gray-700 mb-2">
                   {section.label}
                 </label>
                 
@@ -155,21 +142,18 @@ const ContentEditor = ({ selectedPage, setSelectedPage }) => {
                     value={section.value || ''}
                     onChange={(e) => updateSectionValue(index, e.target.value)}
                     rows={5}
-                    className="w-full px-4 py-3 border-2 border-blue-200 rounded-lg focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-gray-700 text-lg"
-                    placeholder="Entrez le contenu ici..."
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
                 ) : section.type === 'image' ? (
                   <div className="space-y-3">
                     {section.value && (
-                      <div className="relative rounded-lg overflow-hidden border-4 border-blue-200">
-                        <img src={section.value} alt={section.label} className="w-full h-48 object-cover" />
-                      </div>
+                      <img src={section.value} alt={section.label} className="w-full h-48 object-cover rounded" />
                     )}
                     <input
                       type="text"
                       value={section.value || ''}
                       onChange={(e) => updateSectionValue(index, e.target.value)}
-                      className="w-full px-4 py-3 border-2 border-blue-200 rounded-lg focus:border-blue-500 text-gray-700 text-lg"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md"
                       placeholder="URL de l'image..."
                     />
                     <input
@@ -179,12 +163,9 @@ const ContentEditor = ({ selectedPage, setSelectedPage }) => {
                       className="hidden"
                       id={`file-${index}`}
                     />
-                    <label
-                      htmlFor={`file-${index}`}
-                      className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-600 hover:to-blue-700 cursor-pointer font-semibold"
-                    >
-                      {uploading ? <Loader2 className="h-5 w-5 animate-spin mr-2" /> : <Upload className="h-5 w-5 mr-2" />}
-                      Télécharger Image
+                    <label htmlFor={`file-${index}`} className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 cursor-pointer">
+                      {uploading ? <Loader2 className="h-4 w-4 animate-spin mr-2" /> : <Upload className="h-4 w-4 mr-2" />}
+                      Télécharger
                     </label>
                   </div>
                 ) : (
@@ -192,8 +173,7 @@ const ContentEditor = ({ selectedPage, setSelectedPage }) => {
                     type="text"
                     value={section.value || ''}
                     onChange={(e) => updateSectionValue(index, e.target.value)}
-                    className="w-full px-4 py-3 border-2 border-blue-200 rounded-lg focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-gray-700 text-lg"
-                    placeholder="Entrez le texte ici..."
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
                 )}
               </div>
@@ -202,20 +182,19 @@ const ContentEditor = ({ selectedPage, setSelectedPage }) => {
         )}
       </div>
 
-      {/* Bouton Sauvegarder fixe en bas */}
+      {/* Bouton Sauvegarder */}
       {currentSections.length > 0 && (
-        <div className="sticky bottom-0 bg-gradient-to-r from-green-500 to-green-600 px-8 py-6 shadow-lg">
-          <div className="max-w-4xl mx-auto flex justify-center">
+        <div className="border-t px-6 py-4">
+          <div className="max-w-4xl mx-auto">
             <Button
               onClick={saveContent}
               disabled={saving}
-              className="bg-white text-green-600 hover:bg-green-50 px-12 py-4 text-xl font-bold rounded-xl shadow-xl transform hover:scale-105 transition-all"
-              size="lg"
+              className="bg-blue-600 hover:bg-blue-700 text-white"
             >
               {saving ? (
-                <><Loader2 className="h-6 w-6 animate-spin mr-3" />Sauvegarde...</>
+                <><Loader2 className="h-4 w-4 animate-spin mr-2" />Sauvegarde...</>
               ) : (
-                <><Save className="h-6 w-6 mr-3" />💾 Sauvegarder les Modifications</>
+                <><Save className="h-4 w-4 mr-2" />Sauvegarder</>
               )}
             </Button>
           </div>
