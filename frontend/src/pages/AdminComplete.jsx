@@ -372,7 +372,7 @@ const AdminComplete = () => {
   const loadCarouselSlides = async () => {
     setLoadingCarousel(true);
     try {
-      const response = await axios.get(`${API_URL}/api/hero-slides/`);
+      const response = await axios.get(`${API_URL}/api/hero/`);
       if (response.data.success) {
         setCarouselSlides(response.data.slides || []);
       }
