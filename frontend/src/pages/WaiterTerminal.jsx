@@ -66,29 +66,69 @@ const WaiterTerminal = () => {
         </div>
       </section>
 
+      {/* Features Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { icon: Tablet, title: 'Interface tactile', desc: 'Facile et rapide à utiliser' },
-              { icon: Wifi, title: 'Connexion WiFi', desc: 'Synchronisation en temps réel' },
-              { icon: Battery, title: 'Autonomie longue', desc: 'Batterie toute la journée' },
-              { icon: Zap, title: 'Prise de commande rapide', desc: 'Service plus efficace' }
-            ].map((item, idx) => {
-              const Icon = item.icon;
+            {displayFeatures.map((feature, idx) => {
+              const Icon = iconMap[feature.icon] || Tablet;
               return (
                 <Card key={idx}>
                   <CardHeader>
                     <div className="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                       <Icon className="h-6 w-6 text-blue-600" />
                     </div>
-                    <CardTitle>{item.title}</CardTitle>
-                    <p className="text-sm text-gray-600">{item.desc}</p>
+                    <CardTitle>{feature.title}</CardTitle>
+                    <p className="text-sm text-gray-600">{feature.description}</p>
                   </CardHeader>
                 </Card>
               );
             })}
           </div>
+        </div>
+      </section>
+      
+      {/* Benefits Section with Images */}
+      {benefits.length > 0 && (
+        <section className="py-20 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid md:grid-cols-3 gap-8">
+              {benefits.map((benefit, index) => (
+                <Card key={index} className="overflow-hidden">
+                  {benefit.image && (
+                    <img 
+                      src={benefit.image} 
+                      alt={benefit.title}
+                      className="w-full h-48 object-cover"
+                    />
+                  )}
+                  <CardHeader>
+                    <CardTitle className="text-xl">{benefit.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-gray-600">{benefit.description}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+      
+      {/* CTA Section */}
+      <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold mb-6">
+            {pageContent.cta_title || 'MODERNISEZ VOTRE SERVICE EN SALLE'}
+          </h2>
+          <p className="text-xl text-blue-100 mb-8">
+            {pageContent.cta_subtitle || 'Essai gratuit 30 jours - Sans engagement'}
+          </p>
+          <Link to="/contact">
+            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+              Contactez-nous
+            </Button>
+          </Link>
         </div>
       </section>
     </div>
