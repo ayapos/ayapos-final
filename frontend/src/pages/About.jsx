@@ -16,7 +16,7 @@ const About = () => {
       try {
         const response = await axios.get(`${API_URL}/api/team/`);
         if (response.data.success) {
-          setTeam(response.data.team.sort((a, b) => a.order - b.order).slice(0, 6));
+          setTeam(response.data.members.sort((a, b) => a.order - b.order).slice(0, 6));
         }
       } catch (error) {
         console.error('Error fetching team:', error);
