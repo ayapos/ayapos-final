@@ -404,11 +404,12 @@ const RestaurantPOS = () => {
       )}
 
       {/* Online Orders Section */}
+      {onlineOrders.length > 0 && (
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Gérez vos commandes en ligne sur un seul écran!
+              {pageContent.sections?.online_orders?.title || 'Gérez vos commandes en ligne sur un seul écran!'}
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -434,6 +435,7 @@ const RestaurantPOS = () => {
           </div>
         </div>
       </section>
+      )}
 
       {/* Reports Section */}
       <section className="py-20 bg-gray-50">
