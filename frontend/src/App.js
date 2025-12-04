@@ -106,13 +106,26 @@ function App() {
             <Route path="/terms-conditions" element={<TermsConditions />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             
+            {/* Admin Routes */}
+            <Route path="/admin/login" element={<AdminLogin />} />
+            <Route path="/admin/dashboard" element={<AdminDashboard />} />
+            
             {/* Logo Preview */}
             <Route path="/logo-preview" element={<LogoPreview />} />
           </Routes>
-          <Footer />
-          <CallbackPopup />
+          <Routes>
+            <Route path="/admin/*" element={null} />
+            <Route path="*" element={
+              <>
+                <Navbar />
+                <Footer />
+                <CallbackPopup />
+              </>
+            } />
+          </Routes>
           <Toaster />
-        </Suspense>
+          </Suspense>
+        </AuthProvider>
       </BrowserRouter>
     </div>
   );
