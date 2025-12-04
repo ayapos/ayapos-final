@@ -151,65 +151,65 @@ backend:
           comment: "✅ Image upload functionality present and accessible in admin interface. Upload button and image preview functionality working correctly."
 
 frontend:
-  - task: "Admin Login Page"
+  - task: "Hero/Carousel Admin Management"
     implemented: true
-    working: true
-    file: "/app/frontend/src/pages/AdminLogin.jsx"
+    working: "NA"
+    file: "/app/frontend/src/components/admin/HeroManager.jsx"
     stuck_count: 0
     priority: "high"
-    needs_retesting: false
+    needs_retesting: true
     status_history:
         - working: "NA"
           agent: "main"
-          comment: "Admin login form with email/password authentication implemented"
-        - working: true
-          agent: "testing"
-          comment: "✅ Admin login page working perfectly. Clean UI with AyaPos branding, email/password fields, proper validation, error handling for wrong credentials, and successful authentication with redirect to dashboard."
+          comment: "Hero/Carousel management in admin dashboard - user reports this was already corrected"
 
-  - task: "Admin Dashboard"
+  - task: "Homepage Hero Carousel Display"
     implemented: true
-    working: true
-    file: "/app/frontend/src/pages/AdminDashboard.jsx"
+    working: "NA"
+    file: "/app/frontend/src/pages/Home.jsx"
     stuck_count: 0
     priority: "high"
-    needs_retesting: false
+    needs_retesting: true
     status_history:
         - working: "NA"
           agent: "main"
-          comment: "Complete admin dashboard with page navigation, content editing, and section management"
-        - working: true
-          agent: "testing"
-          comment: "✅ Admin dashboard fully functional. All 8 pages accessible via sidebar (Accueil, Tarifs, AyaPay, Services IT, Contact, CGV, Confidentialité, Popup Rappel). Content editing works: modified 'Titre Principal' field, added new section with test data, deleted sections. All changes persist after page reload."
+          comment: "Homepage carousel integration with CMS data from admin"
 
-  - task: "Authentication Context"
+  - task: "POSSystems Page CMS Integration"
     implemented: true
-    working: true
-    file: "/app/frontend/src/context/AuthContext.jsx"
+    working: "NA"
+    file: "/app/frontend/src/pages/POSSystemsDynamic.jsx"
     stuck_count: 0
     priority: "high"
-    needs_retesting: false
+    needs_retesting: true
     status_history:
         - working: "NA"
           agent: "main"
-          comment: "Authentication context for managing login state and token handling"
-        - working: true
-          agent: "testing"
-          comment: "✅ Authentication context working perfectly. Token persistence across page reloads, proper logout functionality, protected route security (dashboard redirects to login when not authenticated), and user email display in header."
+          comment: "POSSystems page connected to CMS - needs testing for package display and functionality"
 
-  - task: "Public Site Login Button"
+  - task: "Contact Page CMS Integration"
     implemented: true
-    working: true
-    file: "/app/frontend/src/components/Navbar.jsx"
+    working: "NA"
+    file: "/app/frontend/src/pages/Contact.jsx"
     stuck_count: 0
-    priority: "medium"
-    needs_retesting: false
+    priority: "high"
+    needs_retesting: true
     status_history:
         - working: "NA"
           agent: "main"
-          comment: "Login button added to public site navbar for admin access"
-        - working: true
-          agent: "testing"
-          comment: "✅ Login button successfully added to public site navbar. Button visible in top-right corner, properly styled, and correctly links to /admin/login page."
+          comment: "Contact page connected to CMS - needs testing for form functionality and contact info display"
+
+  - task: "Pricing Page CMS Integration"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Pricing.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "Pricing page connected to CMS - needs testing for pricing plans display and monthly/yearly toggle"
 
 metadata:
   created_by: "testing_agent"
