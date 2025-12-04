@@ -606,6 +606,7 @@ const RestaurantPOS = () => {
       )}
 
       {/* FAQ Section */}
+      {faqs.length > 0 && (
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -615,7 +616,7 @@ const RestaurantPOS = () => {
           </div>
           <Accordion type="single" collapsible className="space-y-4">
             {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="bg-white border rounded-lg px-6">
+              <AccordionItem key={faq.id || index} value={`item-${index}`} className="bg-white border rounded-lg px-6">
                 <AccordionTrigger className="text-left font-semibold">
                   {faq.question}
                 </AccordionTrigger>
@@ -627,6 +628,7 @@ const RestaurantPOS = () => {
           </Accordion>
         </div>
       </section>
+      )}
 
       {/* Contact Form Section */}
       <section id="contact" className="py-20 bg-white">
