@@ -108,9 +108,24 @@ const Blog = () => {
     }
   ];
 
+  // Use articles from DB if available, otherwise use fallback
+  const displayArticles = blogPosts.length > 0 
+    ? blogPosts.map(post => ({
+        id: post.id,
+        category: post.category,
+        title: post.title,
+        excerpt: post.excerpt,
+        image: post.image,
+        date: new Date(post.publishedAt || post.createdAt).toLocaleDateString('fr-FR'),
+        author: post.author,
+        readTime: '5 min',
+        slug: post.slug
+      }))
+    : articles;
+
   const filteredArticles = selectedCategory === 'all' 
-    ? articles 
-    : articles.filter(article => article.category === selectedCategory);
+    ? displayArticles 
+    : displayArticles.filter(article => article.category === selectedCategory);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
