@@ -19,10 +19,13 @@ class FAQItem(BaseModel):
     active: bool = True
 
 @router.get("/")
-async def get_all_faq():
+async def get_all_faq(category: Optional[str] = None):
     try:
-        faq = await db.faq.find({}, {"_id": 0}).to_list(1000)
-        return {"success": True, "faq": faq}
+        query = {}
+        if category:
+            query["category"] = category
+        faqs = await db.faq.find(query, {"_id": 0}).to_list(1000)
+        return {"success": True, "faqs": faqs}
     except Exception as e:
         logger.error(f"Error fetching FAQ: {str(e)}")
         raise HTTPException(status_code=500, detail="Erreur lors de la récupération de la FAQ")
