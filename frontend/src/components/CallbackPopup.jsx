@@ -104,17 +104,17 @@ const CallbackPopup = () => {
         ) : (
           <>
             {/* Header */}
-            <div className="bg-gradient-to-br from-indigo-700 via-indigo-600 to-indigo-800 p-8 text-white">
-              <h2 className="text-2xl font-bold mb-2 animate-fadeIn">
+            <div className="bg-gradient-to-br from-indigo-700 via-indigo-600 to-indigo-800 p-4 text-white">
+              <h2 className="text-lg font-bold mb-1 animate-fadeIn">
                 Recevez une offre avantageuse
               </h2>
-              <p className="text-indigo-100 text-sm animate-fadeIn delay-100">
-                Ou laissez votre numéro de téléphone et nous vous appellerons aujourd'hui
+              <p className="text-indigo-100 text-xs animate-fadeIn delay-100">
+                Laissez votre numéro et nous vous appellerons
               </p>
             </div>
 
             {/* Form */}
-            <form onSubmit={handleSubmit} className="p-8 space-y-6">
+            <form onSubmit={handleSubmit} className="p-4 space-y-3">
               <div className="space-y-4">
                 <div className="animate-slideInLeft">
                   <input
