@@ -413,14 +413,14 @@ const AdminComplete = () => {
         if (slide.id) {
           // Update
           await axios.put(
-            `${API_URL}/api/hero-slides/${slide.id}`,
+            `${API_URL}/api/hero/${slide.id}`,
             slide,
             { headers: { Authorization: `Bearer ${token}` } }
           );
         } else {
           // Create
           await axios.post(
-            `${API_URL}/api/hero-slides/`,
+            `${API_URL}/api/hero/`,
             { ...slide, order: i },
             { headers: { Authorization: `Bearer ${token}` } }
           );
