@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Send, CheckCircle, Phone, Mail, MapPin } from 'lucide-react';
+import { Send, CheckCircle, Phone, Mail, MapPin, Loader2 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
 import { Textarea } from '../components/ui/textarea';
@@ -8,10 +8,14 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../co
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
 import { useToast } from '../hooks/use-toast';
 import { businessTypes } from '../data/mockData';
+import { usePageContent } from '../hooks/usePageContent';
+import { useCompanyInfo } from '../hooks/useCompanyInfo';
 
 const Contact = () => {
   const { t } = useTranslation();
   const { toast } = useToast();
+  const { getContentValue, loading: contentLoading } = usePageContent('contact');
+  const { companyInfo, loading: companyLoading } = useCompanyInfo();
   const [formData, setFormData] = useState({
     businessName: '',
     businessType: '',
