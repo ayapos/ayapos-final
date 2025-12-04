@@ -116,9 +116,24 @@ const PricingManager = () => {
       </div>
 
       <div className="p-6">
-        {editingPlan ? (
-          <div className="border border-gray-300 rounded-lg p-6 space-y-4">
-            <h3 className="text-lg font-semibold">Éditer le Plan</h3>
+        {/* Always show existing plans list */}
+        {!editingPlan && plans.length === 0 ? (
+          <div className="text-center py-12 text-gray-500">
+            <DollarSign className="h-12 w-12 mx-auto mb-4 text-gray-400" />
+            <p>Aucun plan de tarification.</p>
+            <p className="text-sm mt-2">Cliquez sur "Nouveau Plan" pour commencer.</p>
+          </div>
+        ) : (
+          <div className="space-y-6">
+            {/* Editing Form */}
+            {editingPlan && (
+              <div className="border-2 border-blue-500 bg-blue-50 rounded-lg p-6 space-y-4">
+                <div className="flex justify-between items-center">
+                  <h3 className="text-lg font-semibold text-blue-900">
+                    {editingPlan.id ? '✏️ Modifier le Plan' : '➕ Créer un Nouveau Plan'}
+                  </h3>
+                  <Button onClick={() => setEditingPlan(null)} variant="ghost" size="sm">✕</Button>
+                </div>
             
             <div className="grid grid-cols-2 gap-4">
               <div>
