@@ -144,9 +144,10 @@ const AdminComplete = () => {
     formData.append('file', file);
     
     try {
-      const token = localStorage.getItem('adminToken');
+      const token = localStorage.getItem('admin_token');
       console.log('🔄 Upload de l\'image:', file.name);
       console.log('📍 API URL:', API_URL);
+      console.log('🔑 Token présent:', !!token);
       
       const response = await axios.post(`${API_URL}/api/upload`, formData, {
         headers: {
