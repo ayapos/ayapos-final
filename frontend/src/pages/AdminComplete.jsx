@@ -577,6 +577,8 @@ const AdminComplete = () => {
                                 
                                 try {
                                   const token = localStorage.getItem('adminToken');
+                                  console.log('🔄 Upload benefit image:', file.name);
+                                  
                                   const response = await axios.post(`${API_URL}/api/upload`, formData, {
                                     headers: {
                                       'Content-Type': 'multipart/form-data',
@@ -584,18 +586,26 @@ const AdminComplete = () => {
                                     }
                                   });
                                   
+                                  console.log('✅ Upload response:', response.data);
+                                  
                                   if (response.data.success) {
                                     updateArrayItem('benefits', index, 'image', response.data.url);
                                     toast({
                                       title: "✅ Image uploadée",
-                                      description: "L'image du bénéfice a été téléchargée",
+                                      description: `Image du bénéfice #${index + 1} téléchargée`,
                                     });
+                                    
+                                    // Sauvegarder automatiquement
+                                    setTimeout(() => {
+                                      savePageData();
+                                    }, 500);
                                   }
                                 } catch (error) {
-                                  console.error('Erreur upload:', error);
+                                  console.error('❌ Erreur upload benefit:', error);
+                                  const errorMsg = error.response?.data?.detail || error.message || 'Erreur inconnue';
                                   toast({
-                                    title: "Erreur",
-                                    description: "Impossible de télécharger l'image",
+                                    title: "Erreur d'upload",
+                                    description: errorMsg,
                                     variant: "destructive"
                                   });
                                 }
