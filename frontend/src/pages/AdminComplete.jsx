@@ -578,8 +578,9 @@ const AdminComplete = () => {
                                 formData.append('file', file);
                                 
                                 try {
-                                  const token = localStorage.getItem('adminToken');
+                                  const token = localStorage.getItem('admin_token');
                                   console.log('🔄 Upload benefit image:', file.name);
+                                  console.log('🔑 Token présent:', !!token);
                                   
                                   const response = await axios.post(`${API_URL}/api/upload`, formData, {
                                     headers: {
