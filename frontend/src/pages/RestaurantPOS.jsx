@@ -68,16 +68,49 @@ const RestaurantPOS = () => {
 
   return (
     <div className="min-h-screen pt-16 bg-gradient-to-b from-blue-50 via-white to-gray-50">
-      {/* Hero Section - CENTRÉ avec couleurs */}
-      <section className="bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 py-24">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-6xl font-extrabold text-white mb-6 drop-shadow-lg">
-              {pageContent.hero_title || 'Système POS Restaurant Complet'}
-            </h1>
-            <p className="text-2xl text-blue-50 max-w-3xl mx-auto leading-relaxed mb-8">
-              {pageContent.hero_subtitle || 'Solution tout-en-un pour gérer votre restaurant avec efficacité'}
-            </p>
+      {/* Hero Section - MODERNE SPLIT DESIGN */}
+      <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
+          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse delay-700"></div>
+        </div>
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Content */}
+            <div className="space-y-8 animate-fade-in">
+              {/* Badge */}
+              <div className="inline-flex items-center px-4 py-2 bg-blue-500/20 border border-blue-400/30 backdrop-blur-sm rounded-full">
+                <Star className="h-4 w-4 text-yellow-400 mr-2" />
+                <span className="text-blue-100 text-sm font-medium">Solution POS #1 en Suisse</span>
+              </div>
+
+              {/* Title */}
+              <h1 className="text-5xl lg:text-6xl xl:text-7xl font-extrabold text-white leading-tight">
+                {pageContent.hero_title || 'Système POS Restaurant Complet'}
+              </h1>
+
+              {/* Subtitle */}
+              <p className="text-xl lg:text-2xl text-blue-100 leading-relaxed">
+                {pageContent.hero_subtitle || 'Solution tout-en-un pour gérer votre restaurant avec efficacité'}
+              </p>
+
+              {/* Stats Row */}
+              <div className="grid grid-cols-3 gap-6 pt-4">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-white">5000+</div>
+                  <div className="text-sm text-blue-200">Restaurants</div>
+                </div>
+                <div className="text-center border-x border-blue-400/30">
+                  <div className="text-3xl font-bold text-white">99%</div>
+                  <div className="text-sm text-blue-200">Satisfaction</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-white">24/7</div>
+                  <div className="text-sm text-blue-200">Support</div>
+                </div>
+              </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="#pricing">
                 <Button size="lg" className="bg-white text-orange-600 hover:bg-orange-50 font-bold px-8 py-4">
