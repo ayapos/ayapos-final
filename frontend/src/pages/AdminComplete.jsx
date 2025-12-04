@@ -245,6 +245,76 @@ const AdminComplete = () => {
     </div>
   );
 
+  const updateSectionItem = (sectionName, index, field, value) => {
+    setPageData(prev => ({
+      ...prev,
+      sections: {
+        ...prev.sections,
+        [sectionName]: {
+          ...prev.sections?.[sectionName],
+          items: prev.sections?.[sectionName]?.items?.map((item, i) =>
+            i === index ? { ...item, [field]: value } : item
+          ) || []
+        }
+      }
+    }));
+  };
+
+  const updateSectionTitle = (sectionName, value) => {
+    setPageData(prev => ({
+      ...prev,
+      sections: {
+        ...prev.sections,
+        [sectionName]: {
+          ...prev.sections?.[sectionName],
+          title: value
+        }
+      }
+    }));
+  };
+
+  const addSectionItem = (sectionName) => {
+    setPageData(prev => ({
+      ...prev,
+      sections: {
+        ...prev.sections,
+        [sectionName]: {
+          ...prev.sections?.[sectionName],
+          items: [
+            ...(prev.sections?.[sectionName]?.items || []),
+            { icon: '⭐', title: '', description: '' }
+          ]
+        }
+      }
+    }));
+  };
+
+  const removeSectionItem = (sectionName, index) => {
+    setPageData(prev => ({
+      ...prev,
+      sections: {
+        ...prev.sections,
+        [sectionName]: {
+          ...prev.sections?.[sectionName],
+          items: prev.sections?.[sectionName]?.items?.filter((_, i) => i !== index) || []
+        }
+      }
+    }));
+  };
+
+  const addCustomSection = (sectionName) => {
+    setPageData(prev => ({
+      ...prev,
+      sections: {
+        ...prev.sections,
+        [sectionName]: {
+          title: 'Nouvelle Section',
+          items: []
+        }
+      }
+    }));
+  };
+
   const renderEditor = () => {
     const currentPageInfo = allPages.find(p => p.slug === selectedPage);
     
@@ -265,7 +335,7 @@ const AdminComplete = () => {
         <div className="bg-white border-b px-8 py-6 flex items-center justify-between sticky top-0 z-10 shadow-sm">
           <div>
             <h2 className="text-3xl font-bold text-gray-900">{currentPageInfo?.name}</h2>
-            <p className="text-gray-600 mt-1">Modifiez tous les contenus et images de cette page</p>
+            <p className="text-gray-600 mt-1">✏️ Modifiez TOUT : Photos, Textes, Sections</p>
           </div>
           <div className="flex gap-3">
             <Button 
@@ -279,10 +349,10 @@ const AdminComplete = () => {
               onClick={savePageData} 
               disabled={saving}
               size="lg"
-              className="px-8"
+              className="px-8 bg-green-600 hover:bg-green-700"
             >
               <Save className="h-5 w-5 mr-2" />
-              {saving ? 'Sauvegarde...' : 'Sauvegarder'}
+              {saving ? 'Publication...' : '💾 Sauvegarder et Publier'}
             </Button>
           </div>
         </div>
