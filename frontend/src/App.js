@@ -27,7 +27,7 @@ import WebPortal from './pages/WebPortalDynamic';
 import WebPortalComplete from './pages/WebPortalComplete';
 import MobileReports from './pages/MobileReportsDynamic';
 import MobileReportsComplete from './pages/MobileReportsComplete';
-import StockManagement from './pages/StockManagement';
+import StockManagement from './pages/StockManagementDynamic';
 import StockManagementComplete from './pages/StockManagementComplete';
 import CentralizedManagement from './pages/CentralizedManagement';
 import CentralizedManagementComplete from './pages/CentralizedManagementComplete';
