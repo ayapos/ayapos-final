@@ -14,13 +14,49 @@ import {
   Sparkles,
   Cpu,
   Layout,
-  Palette
+  Palette,
+  Loader2
 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
+import { usePageContent } from '../hooks/usePageContent';
+import axios from 'axios';
+
+const API_URL = process.env.REACT_APP_BACKEND_URL;
 
 const ITServices = () => {
+  const { getContentValue, loading } = usePageContent('it-services');
+  const [servicesFromDB, setServicesFromDB] = React.useState([]);
+  const [portfolioFromDB, setPortfolioFromDB] = React.useState([]);
+
+  React.useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [servicesRes, portfolioRes] = await Promise.all([
+          axios.get(`${API_URL}/api/services/`),
+          axios.get(`${API_URL}/api/portfolio/`)
+        ]);
+        if (servicesRes.data.success) {
+          setServicesFromDB(servicesRes.data.services.filter(s => s.active));
+        }
+        if (portfolioRes.data.success) {
+          setPortfolioFromDB(portfolioRes.data.projects.filter(p => p.featured).slice(0, 6));
+        }
+      } catch (error) {
+        console.error('Error fetching IT services data:', error);
+      }
+    };
+    fetchData();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className=\"min-h-screen pt-16 flex items-center justify-center\">
+        <Loader2 className=\"h-12 w-12 animate-spin text-blue-600\" />
+      </div>
+    );
+  }
   const services = [
     {
       icon: Globe,
