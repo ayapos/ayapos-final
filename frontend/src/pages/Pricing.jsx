@@ -119,10 +119,13 @@ const Pricing = () => {
                   {/* Image du forfait */}
                   <div className="relative h-48 w-full overflow-hidden bg-gray-900">
                     <img 
-                      src={posImages[pkg.id]} 
+                      src={planImage} 
                       alt={pkg.name}
                       className="w-full h-full object-cover"
                       loading="eager"
+                      onError={(e) => {
+                        e.target.src = 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600';
+                      }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                   </div>
