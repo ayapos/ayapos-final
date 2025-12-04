@@ -22,8 +22,11 @@ import { useTestimonials } from '../hooks/useTestimonials';
 const RestaurantPOS = () => {
   const { t } = useTranslation();
   const { toast } = useToast();
-  const { getContentValue, loading } = usePageContent('restaurant-pos');
-  const { products } = useProducts();
+  const { content, loading: contentLoading } = usePageContent('restaurant-pos');
+  const { products, loading: productsLoading } = useProducts();
+  const { faqs, loading: faqsLoading } = useFAQ('restaurant-pos');
+  const { testimonials, loading: testimonialsLoading } = useTestimonials();
+  
   const [formData, setFormData] = useState({
     businessName: '',
     businessType: '',
@@ -36,6 +39,8 @@ const RestaurantPOS = () => {
     p.category === 'POS' || p.name.toLowerCase().includes('restaurant')
   );
 
+  const loading = contentLoading || productsLoading || faqsLoading || testimonialsLoading;
+
   if (loading) {
     return (
       <div className="min-h-screen pt-16 flex items-center justify-center">
@@ -43,6 +48,15 @@ const RestaurantPOS = () => {
       </div>
     );
   }
+  
+  // Utiliser le contenu de la base de données ou fallback sur les valeurs par défaut
+  const pageContent = content || {};
+  const features = pageContent.features || [];
+  const benefits = pageContent.benefits || [];
+  const tableManagement = pageContent.sections?.table_management?.items || [];
+  const onlineOrders = pageContent.sections?.online_orders?.items || [];
+  const reports = pageContent.sections?.reports?.items || [];
+  const pricingPlans = restaurantProducts.filter(p => p.category === 'POS') || [];
 
   const handleSubmit = async (e) => {
     e.preventDefault();
