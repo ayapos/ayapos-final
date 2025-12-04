@@ -30,6 +30,11 @@ import TestimonialsManager from '../components/admin/TestimonialsManager';
 import PortfolioManager from '../components/admin/PortfolioManager';
 import FAQManager from '../components/admin/FAQManager';
 import SettingsManager from '../components/admin/SettingsManager';
+import ProductsManager from '../components/admin/ProductsManager';
+import BlogManager from '../components/admin/BlogManager';
+import HeroManager from '../components/admin/HeroManager';
+import TeamManager from '../components/admin/TeamManager';
+import NavigationManager from '../components/admin/NavigationManager';
 
 const API_URL = process.env.REACT_APP_BACKEND_URL;
 
