@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import CallbackPopup from './components/CallbackPopup';
 import ScrollToTop from './components/ScrollToTop';
 import { Toaster } from './components/ui/toaster';
+import { AuthProvider } from './context/AuthContext';
 
 // Pages
 import Home from './pages/Home';
