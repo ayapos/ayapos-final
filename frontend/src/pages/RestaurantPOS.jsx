@@ -111,11 +111,18 @@ const RestaurantPOS = () => {
                   <div className="text-sm text-blue-200">Support</div>
                 </div>
               </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+              {/* CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <a href="#contact">
+                <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50 font-bold px-8 py-6 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 group">
+                  Demander une démo gratuite
+                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </a>
               <a href="#pricing">
-                <Button size="lg" className="bg-white text-orange-600 hover:bg-orange-50 font-bold px-8 py-4">
+                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white/10 font-bold px-8 py-6 text-lg backdrop-blur-sm">
                   Voir les tarifs
-                  <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </a>
               <a href="#contact">
