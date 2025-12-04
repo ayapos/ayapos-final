@@ -345,7 +345,7 @@ const PricingManager = () => {
                     </Button>
                   </div>
                 </div>
-              ))
+              ))}
                 </div>
               </div>
             )}
