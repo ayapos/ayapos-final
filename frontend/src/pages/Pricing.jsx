@@ -1,16 +1,42 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Check, ArrowRight, CreditCard, Shield } from 'lucide-react';
+import { Check, ArrowRight, CreditCard, Shield, Loader2 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
 import { Tabs, TabsList, TabsTrigger } from '../components/ui/tabs';
 import { posPackages } from '../data/mockData';
+import { usePageContent } from '../hooks/usePageContent';
+import axios from 'axios';
+
+const API_URL = process.env.REACT_APP_BACKEND_URL;
 
 const Pricing = () => {
   const { t } = useTranslation();
   const [billingPeriod, setBillingPeriod] = useState('monthly');
+  const { getContentValue, loading: contentLoading } = usePageContent('pricing');
+  const [pricingPlans, setPricingPlans] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchPricingPlans = async () => {
+      try {
+        const response = await axios.get(`${API_URL}/api/pricing/`);
+        if (response.data.success && response.data.plans.length > 0) {
+          setPricingPlans(response.data.plans.filter(p => p.active));
+        } else {
+          setPricingPlans(posPackages);
+        }
+      } catch (error) {
+        console.error('Error fetching pricing plans:', error);
+        setPricingPlans(posPackages);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchPricingPlans();
+  }, []);
 
   const calculatePrice = (price) => {
     if (billingPeriod === 'yearly') {
