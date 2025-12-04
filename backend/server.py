@@ -60,6 +60,11 @@ app.include_router(services.router)
 app.include_router(faq.router)
 app.include_router(settings.router)
 app.include_router(leads.router)
+app.include_router(products.router)
+app.include_router(blog.router)
+app.include_router(hero.router)
+app.include_router(team.router)
+app.include_router(navigation.router)
 
 # Add CORS middleware
 app.add_middleware(
