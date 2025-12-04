@@ -472,6 +472,7 @@ const RestaurantPOS = () => {
       )}
 
       {/* Features Grid - CENTRÉ et COLORÉ */}
+      {features.length > 0 && (
       <section className="py-20 bg-gradient-to-b from-white to-orange-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -484,7 +485,8 @@ const RestaurantPOS = () => {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => {
-              const Icon = feature.icon;
+              const iconMap = { Cloud, Store, Smartphone, Wifi, Package, Users, BarChart3, Globe };
+              const Icon = iconMap[feature.icon] || Cloud;
               const colors = [
                 'from-orange-500 to-red-500',
                 'from-blue-500 to-indigo-500',
@@ -511,6 +513,7 @@ const RestaurantPOS = () => {
           </div>
         </div>
       </section>
+      )}
 
       {/* Pricing Section */}
       <section id="pricing" className="py-20 bg-gray-50">
