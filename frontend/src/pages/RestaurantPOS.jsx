@@ -322,8 +322,6 @@ const RestaurantPOS = () => {
                 </Button>
               </a>
             </div>
-          </div>
-          </div>
         </div>
       </section>
 
