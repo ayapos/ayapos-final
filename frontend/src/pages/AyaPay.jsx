@@ -72,10 +72,10 @@ const AyaPay = () => {
                 Solutions de paiement professionnelles
               </Badge>
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-                {t('ayapay.title')}
+                {getContentValue('ayapay-title', t('ayapay.title'))}
               </h1>
               <p className="text-xl text-blue-100">
-                {t('ayapay.hero_text')}
+                {getContentValue('ayapay-subtitle', t('ayapay.hero_text'))}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact">
