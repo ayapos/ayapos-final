@@ -188,9 +188,9 @@ const Navbar = () => {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            <Link to="/contact">
+            <Link to="/admin/login">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-                {t('nav.demo')}
+                Login
               </Button>
             </Link>
           </div>
