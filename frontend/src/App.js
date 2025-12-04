@@ -17,7 +17,7 @@ import AyaPay from './pages/AyaPay';
 import Pricing from './pages/Pricing';
 import Contact from './pages/Contact';
 import SelfOrderKiosk from './pages/SelfOrderKioskDynamic';
-import OrderSystem from './pages/OrderSystem';
+import OrderSystem from './pages/OrderSystemDynamic';
 import WaiterTerminal from './pages/WaiterTerminal';
 import MobileOrderApp from './pages/MobileOrderApp';
 import RobotWaiter from './pages/RobotWaiter';
