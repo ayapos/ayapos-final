@@ -51,7 +51,11 @@ async def get_page_content(page_name: str):
     Get content for a specific page (public endpoint)
     """
     try:
-        content = await db.content.find_one({"page": page_name}, {"_id": 0})
+        # Try to find by 'slug' first (new format), then by 'page' (old format)
+        content = await db.content.find_one({"slug": page_name}, {"_id": 0})
+        
+        if not content:
+            content = await db.content.find_one({"page": page_name}, {"_id": 0})
         
         if not content:
             # Return default structure if page doesn't exist yet
