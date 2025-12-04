@@ -49,7 +49,18 @@ const HeroManager = () => {
               <div className="col-span-2"><label className="block text-sm font-medium mb-1">Titre</label><input type="text" value={editing.title} onChange={(e)=>setEditing({...editing,title:e.target.value})} className="w-full px-3 py-2 border rounded-lg" /></div>
               <div className="col-span-2"><label className="block text-sm font-medium mb-1">Sous-titre</label><input type="text" value={editing.subtitle||''} onChange={(e)=>setEditing({...editing,subtitle:e.target.value})} className="w-full px-3 py-2 border rounded-lg" /></div>
               <div className="col-span-2"><label className="block text-sm font-medium mb-1">Description</label><textarea value={editing.description||''} onChange={(e)=>setEditing({...editing,description:e.target.value})} rows={3} className="w-full px-3 py-2 border rounded-lg" /></div>
-              <div className="col-span-2"><label className="block text-sm font-medium mb-1">Image URL</label><input type="text" value={editing.image} onChange={(e)=>setEditing({...editing,image:e.target.value})} className="w-full px-3 py-2 border rounded-lg" placeholder="/images/hero-1.jpg" /></div>
+              <div className="col-span-2">
+                <label className="block text-sm font-medium mb-1">Image</label>
+                {editing.image && (
+                  <div className="mb-3 relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden">
+                    <img src={editing.image} alt="Preview" className="w-full h-full object-cover" onError={(e)=>{e.target.src='https://via.placeholder.com/800x400?text=Image';}} />
+                    <div className="absolute top-2 right-2 bg-black bg-opacity-50 text-white px-2 py-1 rounded text-xs">Aperçu</div>
+                  </div>
+                )}
+                <input type="file" accept="image/*" onChange={async(e)=>{const f=e.target.files[0];if(f){try{const formData=new FormData();formData.append('file',f);const response=await axios.post(`${API_URL}/api/upload/image`,formData,{headers:{...getAuthHeaders(),'Content-Type':'multipart/form-data'}});if(response.data.success){setEditing({...editing,image:response.data.url});}}catch(err){console.error(err);}}}} className="hidden" id="hero-upload" />
+                <label htmlFor="hero-upload" className="cursor-pointer flex items-center justify-center space-x-2 w-full px-6 py-4 border-2 border-dashed border-blue-300 rounded-lg hover:bg-blue-50 bg-blue-50"><Upload className="h-6 w-6 text-blue-600" /><span className="text-blue-600 font-medium">Télécharger une photo</span></label>
+                <details className="text-sm mt-2"><summary className="cursor-pointer text-gray-600">Ou URL manuelle</summary><input type="text" value={editing.image} onChange={(e)=>setEditing({...editing,image:e.target.value})} className="w-full px-3 py-2 border rounded-lg mt-2" placeholder="https://exemple.com/image.jpg" /></details>
+              </div>
               <div><label className="block text-sm font-medium mb-1">Texte Bouton</label><input type="text" value={editing.buttonText||''} onChange={(e)=>setEditing({...editing,buttonText:e.target.value})} className="w-full px-3 py-2 border rounded-lg" placeholder="En savoir plus" /></div>
               <div><label className="block text-sm font-medium mb-1">Lien Bouton</label><input type="text" value={editing.buttonLink||''} onChange={(e)=>setEditing({...editing,buttonLink:e.target.value})} className="w-full px-3 py-2 border rounded-lg" placeholder="/contact" /></div>
               <div className="flex items-center"><input type="checkbox" checked={editing.active} onChange={(e)=>setEditing({...editing,active:e.target.checked})} className="h-4 w-4 mr-2" /><label>Slide actif</label></div>
