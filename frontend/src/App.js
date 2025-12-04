@@ -21,7 +21,7 @@ import OrderSystem from './pages/OrderSystemDynamic';
 import WaiterTerminal from './pages/WaiterTerminal';
 import MobileOrderApp from './pages/MobileOrderAppDynamic';
 import RobotWaiter from './pages/RobotWaiterDynamic';
-import DeliveryManagement from './pages/DeliveryManagement';
+import DeliveryManagement from './pages/DeliveryManagementDynamic';
 import DeliveryManagementComplete from './pages/DeliveryManagementComplete';
 import WebPortal from './pages/WebPortal';
 import WebPortalComplete from './pages/WebPortalComplete';
