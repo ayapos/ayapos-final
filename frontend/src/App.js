@@ -49,6 +49,8 @@ import LogoPreview from './pages/LogoPreview';
 import TermsConditions from './pages/TermsConditions';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import ITServices from './pages/ITServices';
+import AdminLogin from './pages/AdminLogin';
+import AdminDashboard from './pages/AdminDashboard';
 
 const LoadingFallback = () => (
   <div className="flex items-center justify-center min-h-screen">
