@@ -1,9 +1,37 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { CheckCircle, Target, Users, Award, TrendingUp, Globe, Shield, Zap } from 'lucide-react';
+import { CheckCircle, Target, Users, Award, TrendingUp, Globe, Shield, Zap, Loader2 } from 'lucide-react';
+import { usePageContent } from '../hooks/usePageContent';
+import axios from 'axios';
+
+const API_URL = process.env.REACT_APP_BACKEND_URL;
 
 const About = () => {
   const { t } = useTranslation();
+  const { getContentValue, loading } = usePageContent('about');
+  const [team, setTeam] = React.useState([]);
+
+  React.useEffect(() => {
+    const fetchTeam = async () => {
+      try {
+        const response = await axios.get(`${API_URL}/api/team/`);
+        if (response.data.success) {
+          setTeam(response.data.team.sort((a, b) => a.order - b.order).slice(0, 6));
+        }
+      } catch (error) {
+        console.error('Error fetching team:', error);
+      }
+    };
+    fetchTeam();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen pt-16 flex items-center justify-center">
+        <Loader2 className="h-12 w-12 animate-spin text-blue-600" />
+      </div>
+    );
+  }
 
   const values = [
     {
