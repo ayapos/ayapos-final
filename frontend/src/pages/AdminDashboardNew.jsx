@@ -16,7 +16,8 @@ import {
   Briefcase,
   HelpCircle,
   Settings,
-  Users
+  Users,
+  Package
 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 
