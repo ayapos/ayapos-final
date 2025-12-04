@@ -226,6 +226,21 @@ frontend:
           agent: "testing"
           comment: "✅ Pricing page CMS integration working excellently. Found 9 pricing plan cards displaying correctly, Monthly/Yearly toggle present and functional (tested both directions), 6 price elements visible, CMS content integration working. No console errors detected."
 
+  - task: "PricingManager Admin Interface"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/components/admin/PricingManager.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "Improved PricingManager to show all existing plans while creating/editing plans"
+        - working: true
+          agent: "testing"
+          comment: "✅ PricingManager functionality working perfectly. Login successful with emrah@ayapos.com/Arden2018@. Navigation to 'Plans Tarifaires' working. 'Nouveau Plan' button opens blue-styled form correctly with all required fields (Name, Price, Currency, Period, Description, Badge, Button Text, Features). Form displays properly with title 'Créer un Nouveau Plan'. Empty state handled correctly when no plans exist. No JavaScript console errors detected. Screenshots captured showing proper form display and functionality."
+
 metadata:
   created_by: "testing_agent"
   version: "2.0"
