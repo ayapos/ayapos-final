@@ -259,10 +259,10 @@ const Contact = () => {
             <div className="space-y-8">
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Nous sommes là pour vous aider
+                  {getContentValue('contact-title', 'Nous sommes là pour vous aider')}
                 </h2>
                 <p className="text-gray-600 text-lg mb-8">
-                  Notre équipe d'experts est disponible pour répondre à toutes vos questions et vous accompagner dans votre projet.
+                  {getContentValue('contact-description', 'Notre équipe d\'experts est disponible pour répondre à toutes vos questions et vous accompagner dans votre projet.')}
                 </p>
               </div>
 
@@ -275,13 +275,13 @@ const Contact = () => {
                       </div>
                       <div>
                         <CardTitle className="text-lg">Téléphone</CardTitle>
-                        <CardDescription className="text-base">+41 (0) 800 123 456</CardDescription>
+                        <CardDescription className="text-base">{companyInfo.phone || '+41 (0) 800 123 456'}</CardDescription>
                       </div>
                     </div>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-gray-600">
-                      Lundi - Vendredi: 9h00 - 18h00
+                      {getContentValue('phone-hours', 'Lundi - Vendredi: 9h00 - 18h00')}
                     </p>
                   </CardContent>
                 </Card>
@@ -294,13 +294,13 @@ const Contact = () => {
                       </div>
                       <div>
                         <CardTitle className="text-lg">Email</CardTitle>
-                        <CardDescription className="text-base">contact@ayapos.com</CardDescription>
+                        <CardDescription className="text-base">{companyInfo.email || 'contact@ayapos.com'}</CardDescription>
                       </div>
                     </div>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-gray-600">
-                      Réponse sous 24 heures
+                      {getContentValue('email-note', 'Réponse sous 24 heures')}
                     </p>
                   </CardContent>
                 </Card>
@@ -314,8 +314,8 @@ const Contact = () => {
                       <div>
                         <CardTitle className="text-lg">Adresse</CardTitle>
                         <CardDescription className="text-base">
-                          Bahnhofstrasse 100<br />
-                          8001 Zurich, Switzerland
+                          {companyInfo.address || 'Bahnhofstrasse 100'}<br />
+                          {companyInfo.city || '8001 Zurich'}, {companyInfo.country || 'Switzerland'}
                         </CardDescription>
                       </div>
                     </div>
