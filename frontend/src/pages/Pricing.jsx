@@ -99,49 +99,40 @@ const Pricing = () => {
               // Use plan image if available, otherwise fallback
               const planImage = pkg.image || posImages[pkg.id] || 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600';
 
+              const cardColors = [
+                'from-blue-500 to-indigo-600',
+                'from-purple-500 to-pink-600',
+                'from-orange-500 to-red-600',
+                'from-green-500 to-teal-600'
+              ];
+              const bgGradient = cardColors[pricingPlans.indexOf(pkg) % cardColors.length];
+
               return (
                 <Card
                   key={pkg.id}
-                  className={`relative flex flex-col overflow-hidden ${
-                    pkg.recommended
-                      ? 'border-blue-600 border-2 shadow-2xl'
-                      : 'border-gray-200'
-                  }`}
+                  className={`relative flex flex-col overflow-hidden hover:scale-105 transition-transform duration-300 ${\n                    pkg.recommended || pkg.highlighted\n                      ? 'border-4 border-yellow-400 shadow-2xl ring-4 ring-yellow-200'\n                      : 'border-2 border-gray-200 shadow-lg'\n                  }`}
                 >
-                  {pkg.recommended && (
-                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10">
-                      <Badge className="bg-blue-600 text-white px-4 py-1">
-                        Le plus populaire
+                  {(pkg.recommended || pkg.highlighted) && (
+                    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
+                      <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-6 py-2 text-lg font-bold shadow-lg">
+                        ⭐ {pkg.badge || 'Le plus populaire'}
                       </Badge>
                     </div>
                   )}
 
-                  {/* Image du forfait */}
-                  <div className="relative h-48 w-full overflow-hidden bg-gray-900">
-                    <img 
-                      src={planImage} 
-                      alt={pkg.name}
-                      className="w-full h-full object-cover"
-                      loading="eager"
-                      onError={(e) => {
-                        e.target.src = 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600';
-                      }}
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                  {/* Header color\u00e9 avec d\u00e9grad\u00e9 */}
+                  <div className={`bg-gradient-to-r ${bgGradient} p-8 text-center`}>
+                    <CardTitle className="text-3xl font-extrabold text-white mb-3">{pkg.name}</CardTitle>
+                    <p className="text-blue-50 text-lg">{pkg.description}</p>
                   </div>
 
-                  <CardHeader className="text-center pb-8">
-                    <CardTitle className="text-2xl mb-2">{pkg.name}</CardTitle>
-                    <CardDescription className="text-base mb-4">
-                      {pkg.tagline}
-                    </CardDescription>
-
+                  <CardHeader className="text-center pb-6 pt-8 bg-white">
                     <div className="space-y-2">
                       <div className="flex items-baseline justify-center">
-                        <span className="text-5xl font-bold text-gray-900">
-                          €{price}
+                        <span className="text-6xl font-extrabold bg-gradient-to-r ${bgGradient} bg-clip-text text-transparent">
+                          {price}
                         </span>
-                        <span className="text-gray-600 ml-2">/mois</span>
+                        <span className="text-2xl text-gray-600 ml-2">{pkg.currency}/mois</span>
                       </div>
                       {billingPeriod === 'yearly' && savings > 0 && (
                         <p className="text-sm text-green-600 font-medium">
