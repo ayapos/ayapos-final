@@ -12,7 +12,7 @@ from datetime import datetime
 from typing import Dict, Any, Optional
 
 # Backend URL from frontend environment
-BACKEND_URL = "https://content-command-hub.preview.emergentagent.com"
+BACKEND_URL = "https://content-bridge-20.preview.emergentagent.com"
 
 class AyaPosAPITester:
     def __init__(self, base_url: str):
