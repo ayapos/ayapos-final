@@ -133,7 +133,7 @@ const Pricing = () => {
                   <CardHeader className="text-center pb-6 pt-8 bg-white">
                     <div className="space-y-2">
                       <div className="flex items-baseline justify-center">
-                        <span className="text-6xl font-extrabold bg-gradient-to-r ${bgGradient} bg-clip-text text-transparent">
+                        <span className={`text-6xl font-extrabold bg-gradient-to-r ${bgGradient} bg-clip-text text-transparent`}>
                           {price}
                         </span>
                         <span className="text-2xl text-gray-600 ml-2">{pkg.currency}/mois</span>
