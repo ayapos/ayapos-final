@@ -358,8 +358,97 @@ const AdminComplete = () => {
     }));
   };
 
+  // États pour le carrousel
+  const [carouselSlides, setCarouselSlides] = useState([]);
+  const [loadingCarousel, setLoadingCarousel] = useState(false);
+  
+  // Charger les slides du carrousel pour la page d'accueil
+  useEffect(() => {
+    if (selectedPage === 'home') {
+      loadCarouselSlides();
+    }
+  }, [selectedPage]);
+  
+  const loadCarouselSlides = async () => {
+    setLoadingCarousel(true);
+    try {
+      const response = await axios.get(`${API_URL}/api/hero-slides/`);
+      if (response.data.success) {
+        setCarouselSlides(response.data.slides || []);
+      }
+    } catch (error) {
+      console.error('Erreur chargement carrousel:', error);
+    } finally {
+      setLoadingCarousel(false);
+    }
+  };
+  
+  const updateCarouselSlide = (index, field, value) => {
+    setCarouselSlides(prev => prev.map((slide, i) => 
+      i === index ? { ...slide, [field]: value } : slide
+    ));
+  };
+  
+  const addCarouselSlide = () => {
+    setCarouselSlides(prev => [...prev, {
+      title: 'Nouveau Slide',
+      subtitle: 'Description du slide',
+      image: '',
+      order: prev.length
+    }]);
+  };
+  
+  const removeCarouselSlide = (index) => {
+    setCarouselSlides(prev => prev.filter((_, i) => i !== index));
+  };
+  
+  const saveCarouselSlides = async () => {
+    setSaving(true);
+    try {
+      const token = localStorage.getItem('admin_token');
+      
+      // Sauvegarder chaque slide
+      for (let i = 0; i < carouselSlides.length; i++) {
+        const slide = carouselSlides[i];
+        if (slide.id) {
+          // Update
+          await axios.put(
+            `${API_URL}/api/hero-slides/${slide.id}`,
+            slide,
+            { headers: { Authorization: `Bearer ${token}` } }
+          );
+        } else {
+          // Create
+          await axios.post(
+            `${API_URL}/api/hero-slides/`,
+            { ...slide, order: i },
+            { headers: { Authorization: `Bearer ${token}` } }
+          );
+        }
+      }
+      
+      toast({
+        title: "✅ Carrousel sauvegardé !",
+        description: `${carouselSlides.length} slides mis à jour`,
+      });
+      
+      // Recharger
+      loadCarouselSlides();
+    } catch (error) {
+      console.error('❌ Erreur sauvegarde carrousel:', error);
+      toast({
+        title: "Erreur",
+        description: "Impossible de sauvegarder le carrousel",
+        variant: "destructive"
+      });
+    } finally {
+      setSaving(false);
+    }
+  };
+
   const renderEditor = () => {
     const currentPageInfo = allPages.find(p => p.slug === selectedPage);
+    const isHomePage = selectedPage === 'home';
     
     if (loading) {
       return (
@@ -383,7 +472,7 @@ const AdminComplete = () => {
           <div className="flex gap-3">
             <Button 
               variant="outline" 
-              onClick={() => window.open(`/${selectedPage}`, '_blank')}
+              onClick={() => window.open(`/${selectedPage === 'home' ? '' : selectedPage}`, '_blank')}
             >
               <Eye className="h-4 w-4 mr-2" />
               Voir le Site
@@ -403,6 +492,154 @@ const AdminComplete = () => {
         {/* Contenu scrollable */}
         <ScrollArea className="flex-1">
           <div className="p-8 space-y-8">
+            
+            {/* SECTION CARROUSEL (uniquement pour la page d'accueil) */}
+            {isHomePage && (
+              <Card>
+                <CardHeader className="bg-gradient-to-r from-purple-50 to-pink-50">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <CardTitle className="text-2xl">🎠 Carrousel Hero (Page d'Accueil)</CardTitle>
+                      <CardDescription>Gérez les slides du carrousel de la page d'accueil</CardDescription>
+                    </div>
+                    <Button onClick={saveCarouselSlides} disabled={saving} variant="outline">
+                      <Save className="h-4 w-4 mr-2" />
+                      Sauvegarder Carrousel
+                    </Button>
+                  </div>
+                </CardHeader>
+                <CardContent className="space-y-6 pt-6">
+                  {loadingCarousel ? (
+                    <div className="text-center py-8">
+                      <Loader2 className="h-8 w-8 animate-spin text-blue-600 mx-auto" />
+                    </div>
+                  ) : (
+                    <>
+                      {carouselSlides.map((slide, index) => (
+                        <Card key={index} className="border-2">
+                          <CardHeader className="pb-3 bg-gray-50">
+                            <div className="flex items-center justify-between">
+                              <CardTitle className="text-lg">Slide #{index + 1}</CardTitle>
+                              <Button
+                                size="sm"
+                                variant="destructive"
+                                onClick={() => removeCarouselSlide(index)}
+                              >
+                                <Trash2 className="h-4 w-4" />
+                              </Button>
+                            </div>
+                          </CardHeader>
+                          <CardContent className="space-y-4 pt-4">
+                            <div>
+                              <Label className="font-semibold">Titre</Label>
+                              <Input
+                                value={slide.title || ''}
+                                onChange={(e) => updateCarouselSlide(index, 'title', e.target.value)}
+                                placeholder="Titre du slide"
+                                className="mt-1"
+                              />
+                            </div>
+                            
+                            <div>
+                              <Label className="font-semibold">Sous-titre</Label>
+                              <Textarea
+                                value={slide.subtitle || ''}
+                                onChange={(e) => updateCarouselSlide(index, 'subtitle', e.target.value)}
+                                placeholder="Description du slide"
+                                rows={2}
+                                className="mt-1"
+                              />
+                            </div>
+                            
+                            <div>
+                              <Label className="font-semibold">Image</Label>
+                              {slide.image && (
+                                <div className="relative mt-2">
+                                  <img 
+                                    src={slide.image} 
+                                    alt={slide.title}
+                                    className="w-full h-48 object-cover rounded border"
+                                  />
+                                  <Button
+                                    size="sm"
+                                    variant="destructive"
+                                    className="absolute top-2 right-2"
+                                    onClick={() => updateCarouselSlide(index, 'image', '')}
+                                  >
+                                    <Trash2 className="h-4 w-4" />
+                                  </Button>
+                                </div>
+                              )}
+                              <div className="flex gap-2 mt-2">
+                                <Input
+                                  value={slide.image || ''}
+                                  onChange={(e) => updateCarouselSlide(index, 'image', e.target.value)}
+                                  placeholder="URL de l'image"
+                                />
+                                <Button 
+                                  variant="outline"
+                                  onClick={() => document.getElementById(`carousel-upload-${index}`).click()}
+                                >
+                                  <Upload className="h-4 w-4 mr-2" />
+                                  Upload
+                                </Button>
+                                <input
+                                  id={`carousel-upload-${index}`}
+                                  type="file"
+                                  accept="image/*"
+                                  className="hidden"
+                                  onChange={async (e) => {
+                                    if (e.target.files[0]) {
+                                      const file = e.target.files[0];
+                                      const formData = new FormData();
+                                      formData.append('file', file);
+                                      
+                                      try {
+                                        const token = localStorage.getItem('admin_token');
+                                        const response = await axios.post(`${API_URL}/api/upload`, formData, {
+                                          headers: {
+                                            'Content-Type': 'multipart/form-data',
+                                            Authorization: `Bearer ${token}`
+                                          }
+                                        });
+                                        
+                                        if (response.data.success) {
+                                          updateCarouselSlide(index, 'image', response.data.url);
+                                          toast({
+                                            title: "✅ Image uploadée",
+                                            description: `Image du slide #${index + 1} téléchargée`,
+                                          });
+                                        }
+                                      } catch (error) {
+                                        console.error('❌ Erreur upload carrousel:', error);
+                                        toast({
+                                          title: "Erreur d'upload",
+                                          description: error.response?.data?.detail || error.message,
+                                          variant: "destructive"
+                                        });
+                                      }
+                                    }
+                                  }}
+                                />
+                              </div>
+                            </div>
+                          </CardContent>
+                        </Card>
+                      ))}
+                      
+                      <Button
+                        onClick={addCarouselSlide}
+                        variant="outline"
+                        className="w-full"
+                      >
+                        <Plus className="h-4 w-4 mr-2" />
+                        Ajouter un Slide
+                      </Button>
+                    </>
+                  )}
+                </CardContent>
+              </Card>
+            )}
             {/* SECTION HERO */}
             <Card>
               <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
