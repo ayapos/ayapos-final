@@ -522,33 +522,70 @@ const AdminComplete = () => {
                       <div>
                         <Label>Image</Label>
                         {benefit.image && (
-                          <img 
-                            src={benefit.image} 
-                            alt={benefit.title}
-                            className="w-full h-40 object-cover rounded border mt-2"
-                          />
+                          <div className="relative mt-2">
+                            <img 
+                              src={benefit.image} 
+                              alt={benefit.title}
+                              className="w-full h-40 object-cover rounded border"
+                            />
+                            <Button
+                              size="sm"
+                              variant="destructive"
+                              className="absolute top-2 right-2"
+                              onClick={() => updateArrayItem('benefits', index, 'image', '')}
+                            >
+                              <Trash2 className="h-4 w-4" />
+                            </Button>
+                          </div>
                         )}
                         <div className="flex gap-2 mt-2">
                           <Input
                             value={benefit.image || ''}
                             onChange={(e) => updateArrayItem('benefits', index, 'image', e.target.value)}
-                            placeholder="URL de l'image"
+                            placeholder="URL de l'image ou uploadez"
                           />
                           <Button 
                             variant="outline"
-                            onClick={() => document.getElementById(`benefit-${index}`).click()}
+                            onClick={() => document.getElementById(`benefit-upload-${index}`).click()}
                           >
-                            <Upload className="h-4 w-4" />
+                            <Upload className="h-4 w-4 mr-2" />
+                            Upload
                           </Button>
                           <input
-                            id={`benefit-${index}`}
+                            id={`benefit-upload-${index}`}
                             type="file"
                             accept="image/*"
                             className="hidden"
-                            onChange={(e) => {
+                            onChange={async (e) => {
                               if (e.target.files[0]) {
-                                // Upload logic
-                                console.log('Upload benefit image', index);
+                                const file = e.target.files[0];
+                                const formData = new FormData();
+                                formData.append('file', file);
+                                
+                                try {
+                                  const token = localStorage.getItem('adminToken');
+                                  const response = await axios.post(`${API_URL}/api/upload`, formData, {
+                                    headers: {
+                                      'Content-Type': 'multipart/form-data',
+                                      Authorization: `Bearer ${token}`
+                                    }
+                                  });
+                                  
+                                  if (response.data.success) {
+                                    updateArrayItem('benefits', index, 'image', response.data.url);
+                                    toast({
+                                      title: "✅ Image uploadée",
+                                      description: "L'image du bénéfice a été téléchargée",
+                                    });
+                                  }
+                                } catch (error) {
+                                  console.error('Erreur upload:', error);
+                                  toast({
+                                    title: "Erreur",
+                                    description: "Impossible de télécharger l'image",
+                                    variant: "destructive"
+                                  });
+                                }
                               }
                             }}
                           />
