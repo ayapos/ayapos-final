@@ -270,8 +270,8 @@ const PricingManager = () => {
               </Button>
               <Button onClick={() => setEditingPlan(null)} variant="outline">Annuler</Button>
             </div>
-              </div>
-            )}
+          </div>
+        )}
 
             {/* Existing Plans List - Always Visible */}
             {plans.length > 0 && (
