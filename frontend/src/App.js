@@ -29,7 +29,7 @@ import MobileReports from './pages/MobileReportsDynamic';
 import MobileReportsComplete from './pages/MobileReportsComplete';
 import StockManagement from './pages/StockManagementDynamic';
 import StockManagementComplete from './pages/StockManagementComplete';
-import CentralizedManagement from './pages/CentralizedManagement';
+import CentralizedManagement from './pages/CentralizedManagementDynamic';
 import CentralizedManagementComplete from './pages/CentralizedManagementComplete';
 import RestaurantPOS from './pages/RestaurantPOS';
 import OrderSystemNew from './pages/OrderSystemNew';
