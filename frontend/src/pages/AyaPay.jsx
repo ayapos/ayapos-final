@@ -1,14 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { CreditCard, Shield, Wifi, Smartphone, Check, ArrowRight, Zap } from 'lucide-react';
+import { CreditCard, Shield, Wifi, Smartphone, Check, ArrowRight, Zap, Loader2 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
 import { ayapayTerminals } from '../data/mockData';
+import { usePageContent } from '../hooks/usePageContent';
+import { useProducts } from '../hooks/useProducts';
 
 const AyaPay = () => {
   const { t } = useTranslation();
+  const { getContentValue, loading } = usePageContent('ayapay');
+  const { products } = useProducts();
+  
+  // Utiliser les produits de catégorie "Payment" ou "AyaPay" depuis la DB
+  const ayapayTerminalsFromDB = products.filter(p => 
+    p.category === 'Payment' || p.category === 'AyaPay' || p.name.toLowerCase().includes('ayapay')
+  );
+  const displayTerminals = ayapayTerminalsFromDB.length > 0 ? ayapayTerminalsFromDB : ayapayTerminals;
+
+  if (loading) {
+    return (
+      <div className="min-h-screen pt-16 flex items-center justify-center">
+        <Loader2 className="h-12 w-12 animate-spin text-blue-600" />
+      </div>
+    );
+  }
 
   const paymentFeatures = [
     {
