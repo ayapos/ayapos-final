@@ -1,14 +1,34 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Check, ArrowRight } from 'lucide-react';
+import { Check, ArrowRight, Loader2 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
 import { posPackages } from '../data/mockData';
+import { usePageContent } from '../hooks/usePageContent';
+import { useProducts } from '../hooks/useProducts';
 
 const POSSystems = () => {
   const { t } = useTranslation();
+  const { getContentValue, loading: contentLoading } = usePageContent('pos-systems');
+  const { products, loading: productsLoading } = useProducts();
+
+  // Filter POS products from database
+  const posProductsFromDB = products.filter(p => 
+    p.category && p.category.toLowerCase().includes('pos')
+  );
+
+  // Use database products if available, otherwise fallback to mock data
+  const displayPackages = posProductsFromDB.length > 0 ? posProductsFromDB : posPackages;
+
+  if (contentLoading || productsLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <Loader2 className="h-12 w-12 animate-spin text-blue-600" />
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen pt-16">
