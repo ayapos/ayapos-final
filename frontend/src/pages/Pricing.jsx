@@ -80,10 +80,10 @@ const Pricing = () => {
         </div>
       </section>
 
-      {/* Pricing Cards */}
-      <section className="py-20 bg-gradient-to-b from-white to-blue-50">
+      {/* Pricing Cards - CENTR\u00c9 */}
+      <section className="py-20 bg-gradient-to-b from-white via-blue-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {pricingPlans.map((pkg) => {
               const price = calculatePrice(pkg.price);
               const savings = pkg.price - price;
