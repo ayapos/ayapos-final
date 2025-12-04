@@ -97,10 +97,10 @@ const About = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              {t('about.hero.title')}
+              {getContentValue('about-title', t('about.hero.title'))}
             </h1>
             <p className="text-xl text-blue-100 leading-relaxed">
-              {t('about.hero.subtitle')}
+              {getContentValue('about-subtitle', t('about.hero.subtitle'))}
             </p>
           </div>
         </div>
