@@ -134,18 +134,33 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex space-x-6">
-              <a href="#" className="hover:text-white transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:text-white transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:text-white transition-colors">
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:text-white transition-colors">
-                <Instagram className="h-5 w-5" />
-              </a>
+              {(companyInfo?.socialMedia?.facebook || footerData?.socialLinks?.facebook) && (
+                <a href={companyInfo?.socialMedia?.facebook || footerData?.socialLinks?.facebook} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  <Facebook className="h-5 w-5" />
+                </a>
+              )}
+              {(companyInfo?.socialMedia?.twitter || footerData?.socialLinks?.twitter) && (
+                <a href={companyInfo?.socialMedia?.twitter || footerData?.socialLinks?.twitter} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  <Twitter className="h-5 w-5" />
+                </a>
+              )}
+              {(companyInfo?.socialMedia?.linkedin || footerData?.socialLinks?.linkedin) && (
+                <a href={companyInfo?.socialMedia?.linkedin || footerData?.socialLinks?.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  <Linkedin className="h-5 w-5" />
+                </a>
+              )}
+              {(companyInfo?.socialMedia?.instagram || footerData?.socialLinks?.instagram) && (
+                <a href={companyInfo?.socialMedia?.instagram || footerData?.socialLinks?.instagram} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  <Instagram className="h-5 w-5" />
+                </a>
+              )}
+              {/* Show default icons if no social links configured */}
+              {!companyInfo?.socialMedia?.facebook && !footerData?.socialLinks?.facebook && (
+                <a href="#" className="hover:text-white transition-colors"><Facebook className="h-5 w-5" /></a>
+              )}
+              {!companyInfo?.socialMedia?.linkedin && !footerData?.socialLinks?.linkedin && (
+                <a href="#" className="hover:text-white transition-colors"><Linkedin className="h-5 w-5" /></a>
+              )}
             </div>
           </div>
         </div>
