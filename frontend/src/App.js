@@ -23,7 +23,7 @@ import MobileOrderApp from './pages/MobileOrderAppDynamic';
 import RobotWaiter from './pages/RobotWaiterDynamic';
 import DeliveryManagement from './pages/DeliveryManagementDynamic';
 import DeliveryManagementComplete from './pages/DeliveryManagementComplete';
-import WebPortal from './pages/WebPortal';
+import WebPortal from './pages/WebPortalDynamic';
 import WebPortalComplete from './pages/WebPortalComplete';
 import MobileReports from './pages/MobileReports';
 import MobileReportsComplete from './pages/MobileReportsComplete';
