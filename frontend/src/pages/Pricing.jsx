@@ -173,10 +173,12 @@ const Pricing = () => {
                         {t('pricing.features')} :
                       </p>
                       <div className="space-y-2">
-                        {pkg.features.map((feature, idx) => (
+                        {pkg.features && pkg.features.map((feature, idx) => (
                           <div key={idx} className="flex items-start space-x-2">
                             <Check className="h-4 w-4 text-blue-600 flex-shrink-0 mt-0.5" />
-                            <span className="text-sm text-gray-700">{feature}</span>
+                            <span className="text-sm text-gray-700">
+                              {typeof feature === 'string' ? feature : (feature.text || '')}
+                            </span>
                           </div>
                         ))}
                       </div>
