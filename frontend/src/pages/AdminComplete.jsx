@@ -211,7 +211,8 @@ const AdminComplete = () => {
   };
 
   const handleLogout = () => {
-    localStorage.removeItem('adminToken');
+    localStorage.removeItem('admin_token');
+    localStorage.removeItem('admin_email');
     navigate('/admin/login');
   };
 
