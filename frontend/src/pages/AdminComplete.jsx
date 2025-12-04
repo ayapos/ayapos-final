@@ -145,6 +145,9 @@ const AdminComplete = () => {
     
     try {
       const token = localStorage.getItem('adminToken');
+      console.log('🔄 Upload de l\'image:', file.name);
+      console.log('📍 API URL:', API_URL);
+      
       const response = await axios.post(`${API_URL}/api/upload`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
@@ -152,18 +155,28 @@ const AdminComplete = () => {
         }
       });
       
+      console.log('✅ Réponse upload:', response.data);
+      
       if (response.data.success) {
         updateField(fieldPath, response.data.url);
         toast({
           title: "✅ Image uploadée",
-          description: "L'image a été téléchargée avec succès",
+          description: `Image ${file.name} téléchargée avec succès`,
         });
+        
+        // Sauvegarder automatiquement après upload
+        setTimeout(() => {
+          savePageData();
+        }, 500);
+      } else {
+        throw new Error('Upload échoué');
       }
     } catch (error) {
-      console.error('Erreur upload:', error);
+      console.error('❌ Erreur upload complète:', error);
+      const errorMsg = error.response?.data?.detail || error.message || 'Erreur inconnue';
       toast({
-        title: "Erreur",
-        description: "Impossible de télécharger l'image",
+        title: "Erreur d'upload",
+        description: `Impossible de télécharger: ${errorMsg}`,
         variant: "destructive"
       });
     }
