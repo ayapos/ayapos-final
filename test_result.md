@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Test the complete flow between admin CMS and public site: Hero/Carousel admin functionality, homepage carousel display, and three newly connected pages (POSSystems, Contact, Pricing) with console error checking"
+user_problem_statement: "Test the improved PricingManager functionality to verify users can see all existing plans while creating or editing a plan. Verify form display, existing plans visibility, and no JavaScript errors."
 
 backend:
   - task: "Admin Authentication API"
