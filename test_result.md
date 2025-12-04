@@ -286,10 +286,25 @@ frontend:
           agent: "testing"
           comment: "✅ All improved admin handlers working excellently. Login successful with emrah@ayapos.com/Arden2018@. Blog section shows '📝 Tous les Articles (2)' with 2 articles and images as expected. Compact modal functionality confirmed - edit modals are properly sized (not full screen) with background content visible through overlay. Grid view layout working perfectly for better content visibility. All content permanently displayed as requested. Screenshots captured showing: 1) Blog section with articles and images, 2) Compact edit modal with background overlay, 3) Proper grid layouts. Minor: Some React runtime errors in console but core functionality unaffected. All major improvements successfully implemented."
 
+  - task: "Admin Panel Carousel Endpoint Fix"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/pages/AdminComplete.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "Fixed carousel endpoint from /api/hero-slides/ to /api/hero/ in AdminComplete.jsx to properly load existing carousel data"
+        - working: true
+          agent: "testing"
+          comment: "✅ Carousel endpoint fix verified working perfectly. Admin panel data loading test completed successfully: Page d'Accueil shows pre-filled fields (Page Title, Hero Title, Hero Subtitle, Hero Image) and Carousel Hero section with 3 slides including 'Test Slide - Agent E1'. Restaurant POS displays pre-filled hero data, features, benefits, and 3 custom sections (table_management, online_orders, reports). Self-Order Kiosk data loading working correctly. Navigation between pages (AyaPay, Contact, À Propos) functional with data persistence. Carousel endpoint /api/hero/ now correctly loads existing data from database. No JavaScript console errors detected."
+
 metadata:
   created_by: "testing_agent"
-  version: "2.0"
-  test_sequence: 2
+  version: "2.1"
+  test_sequence: 3
   run_ui: true
 
 test_plan:
