@@ -68,10 +68,10 @@ const Home = () => {
                 </span>
               </div>
               <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
-                {t('hero.title')}
+                {getContentValue('hero-title', t('hero.title'))}
               </h1>
               <p className="text-xl text-gray-600">
-                {t('hero.subtitle')}
+                {getContentValue('hero-subtitle', t('hero.subtitle'))}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/pos">
