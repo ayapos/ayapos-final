@@ -16,6 +16,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '..
 import { useToast } from '../hooks/use-toast';
 import { usePageContent } from '../hooks/usePageContent';
 import { useProducts } from '../hooks/useProducts';
+import { useFAQ } from '../hooks/useFAQ';
+import { useTestimonials } from '../hooks/useTestimonials';
 
 const RestaurantPOS = () => {
   const { t } = useTranslation();
