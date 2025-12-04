@@ -1,11 +1,41 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Calendar, User, ArrowRight, Clock, Tag } from 'lucide-react';
+import { Calendar, User, ArrowRight, Clock, Tag, Loader2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
+
+const API_URL = process.env.REACT_APP_BACKEND_URL;
 
 const Blog = () => {
   const { t } = useTranslation();
   const [selectedCategory, setSelectedCategory] = useState('all');
+  const [blogPosts, setBlogPosts] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchBlogPosts = async () => {
+      try {
+        const response = await axios.get(`${API_URL}/api/blog/posts`);
+        if (response.data.success) {
+          const publishedPosts = response.data.posts.filter(p => p.published);
+          setBlogPosts(publishedPosts);
+        }
+      } catch (error) {
+        console.error('Error fetching blog posts:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchBlogPosts();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen pt-16 flex items-center justify-center">
+        <Loader2 className="h-12 w-12 animate-spin text-blue-600" />
+      </div>
+    );
+  }
 
   const categories = [
     { id: 'all', name: t('blog.categories.all') },
