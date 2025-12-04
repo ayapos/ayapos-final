@@ -87,8 +87,20 @@ const ContentEditor = ({ selectedPage, setSelectedPage }) => {
         headers: { ...getAuthHeaders(), 'Content-Type': 'multipart/form-data' }
       });
       if (response.data.success) {
-        updateSectionValue(sectionIndex, response.data.url);
-        showMessage('success', 'Image téléchargée!');
+        // Mettre à jour l'image dans le state
+        const newContent = { ...content };
+        if (!newContent[selectedPage]) newContent[selectedPage] = [];
+        newContent[selectedPage][sectionIndex] = { ...newContent[selectedPage][sectionIndex], value: response.data.url };
+        setContent(newContent);
+        
+        // Sauvegarder automatiquement dans la base de données
+        const currentSections = newContent[selectedPage];
+        await axios.post(`${API_URL}/api/content/`, 
+          { page: selectedPage, sections: currentSections },
+          { headers: getAuthHeaders() }
+        );
+        
+        showMessage('success', '✅ Image téléchargée et sauvegardée!');
       }
     } catch (error) {
       showMessage('error', 'Erreur upload');
