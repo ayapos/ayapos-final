@@ -306,30 +306,23 @@ const RestaurantPOS = () => {
             <h1 className="text-6xl font-extrabold text-white mb-6 drop-shadow-lg">
               🍽️ Système POS Restaurant Complet
             </h1>
-            <p className="text-2xl text-orange-50 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-2xl text-orange-50 max-w-3xl mx-auto leading-relaxed mb-8">
               Solution tout-en-un pour gérer votre restaurant avec efficacité
             </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a href="#pricing">
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white w-full sm:w-auto">
-                    Voir les tarifs
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </a>
-                <a href="#contact">
-                  <Button size="lg" variant="outline" className="w-full sm:w-auto border-blue-600 text-blue-600 hover:bg-blue-50">
-                    Demander une démo
-                  </Button>
-                </a>
-              </div>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="#pricing">
+                <Button size="lg" className="bg-white text-orange-600 hover:bg-orange-50 font-bold px-8 py-4">
+                  Voir les tarifs
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </a>
+              <a href="#contact">
+                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-orange-600 font-bold px-8 py-4">
+                  Demander une démo
+                </Button>
+              </a>
             </div>
-            <div className="relative">
-              <img
-                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80"
-                alt="Système POS Restaurant"
-                className="rounded-2xl shadow-2xl"
-              />
-            </div>
+          </div>
           </div>
         </div>
       </section>
