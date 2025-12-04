@@ -67,15 +67,15 @@ const RestaurantPOS = () => {
   };
 
   return (
-    <div className="min-h-screen pt-16 bg-gradient-to-b from-orange-50 via-white to-blue-50">
+    <div className="min-h-screen pt-16 bg-gradient-to-b from-blue-50 via-white to-gray-50">
       {/* Hero Section - CENTRÉ avec couleurs */}
-      <section className="bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 py-24">
+      <section className="bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 py-24">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-6xl font-extrabold text-white mb-6 drop-shadow-lg">
               {pageContent.hero_title || '🍽️ Système POS Restaurant Complet'}
             </h1>
-            <p className="text-2xl text-orange-50 max-w-3xl mx-auto leading-relaxed mb-8">
+            <p className="text-2xl text-blue-50 max-w-3xl mx-auto leading-relaxed mb-8">
               {pageContent.hero_subtitle || 'Solution tout-en-un pour gérer votre restaurant avec efficacité'}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
