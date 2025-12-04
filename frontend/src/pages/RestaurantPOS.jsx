@@ -463,16 +463,25 @@ const RestaurantPOS = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => {
               const Icon = feature.icon;
+              const colors = [
+                'from-orange-500 to-red-500',
+                'from-blue-500 to-indigo-500',
+                'from-purple-500 to-pink-500',
+                'from-green-500 to-teal-500',
+                'from-yellow-500 to-orange-500',
+                'from-red-500 to-pink-500',
+              ];
+              const bgColor = colors[index % colors.length];
               return (
-                <Card key={index} className="text-center hover:shadow-lg transition-shadow">
+                <Card key={index} className="hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-gray-100 overflow-hidden">
+                  <div className={`bg-gradient-to-r ${bgColor} p-6 text-center`}>
+                    <Icon className="h-16 w-16 text-white mx-auto drop-shadow-lg" />
+                  </div>
                   <CardHeader>
-                    <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Icon className="h-8 w-8 text-blue-600" />
-                    </div>
-                    <CardTitle className="text-lg">{feature.title}</CardTitle>
+                    <CardTitle className="text-xl font-bold text-gray-800">{feature.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-gray-600">{feature.description}</p>
+                    <p className="text-gray-600 leading-relaxed">{feature.description}</p>
                   </CardContent>
                 </Card>
               );
