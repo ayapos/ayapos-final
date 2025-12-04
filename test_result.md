@@ -354,8 +354,9 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Content Synchronization Database Integration testing completed successfully - all 6 pages restored"
-  stuck_tasks: []
+    - "AI Agent Integration in Admin Panel - LLM integration needs fixing"
+  stuck_tasks:
+    - "AI Agent Integration in Admin Panel - Backend LLM key retrieval failing"
   test_all: false
   test_priority: "high_first"
 
