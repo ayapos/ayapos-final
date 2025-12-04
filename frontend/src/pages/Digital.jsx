@@ -1,13 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Smartphone, QrCode, Monitor, ShoppingBag, Check, ArrowRight } from 'lucide-react';
+import { Smartphone, QrCode, Monitor, ShoppingBag, Check, ArrowRight, Loader2 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
+import { usePageContent } from '../hooks/usePageContent';
 
 const Digital = () => {
   const { t } = useTranslation();
+  const { getContentValue, loading } = usePageContent('digital');
+
+  if (loading) {
+    return (
+      <div className="min-h-screen pt-16 flex items-center justify-center">
+        <Loader2 className="h-12 w-12 animate-spin text-blue-600" />
+      </div>
+    );
+  }
 
   const digitalSolutions = [
     {
