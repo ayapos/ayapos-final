@@ -1,35 +1,58 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, Check } from 'lucide-react';
+import { ArrowRight, Check, Loader2 } from 'lucide-react';
 import * as LucideIcons from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { features, testimonials, posPackages } from '../data/mockData';
 import HeroCarousel from '../components/HeroCarousel';
+import { useHeroSlides } from '../hooks/useHeroSlides';
+import { usePageContent } from '../hooks/usePageContent';
+import { useProducts } from '../hooks/useProducts';
+import { useTestimonials } from '../hooks/useTestimonials';
 
 const Home = () => {
   const { t } = useTranslation();
+  const { slides: heroSlidesFromDB, loading: slidesLoading } = useHeroSlides();
+  const { getContentValue, loading: contentLoading } = usePageContent('home');
+  const { products, loading: productsLoading } = useProducts();
+  const { testimonials: testimonialsFromDB, loading: testimonialsLoading } = useTestimonials();
 
-  // Hero carousel slides
-  const heroSlides = [
-    {
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80',
-      alt: 'POS System 1'
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&q=80',
-      alt: 'POS System 2'
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=800&q=80',
-      alt: 'POS System 3'
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1556741533-f6acd646dcec?w=800&q=80',
-      alt: 'Payment Terminal'
-    }
-  ];
+  // Use slides from database if available, otherwise fallback to default
+  const heroSlides = heroSlidesFromDB && heroSlidesFromDB.length > 0 
+    ? heroSlidesFromDB.map(slide => ({ image: slide.image, alt: slide.title }))
+    : [
+        {
+          image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80',
+          alt: 'POS System 1'
+        },
+        {
+          image: 'https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&q=80',
+          alt: 'POS System 2'
+        },
+        {
+          image: 'https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=800&q=80',
+          alt: 'POS System 3'
+        },
+        {
+          image: 'https://images.unsplash.com/photo-1556741533-f6acd646dcec?w=800&q=80',
+          alt: 'Payment Terminal'
+        }
+      ];
+  
+  // Use testimonials from database if available
+  const displayTestimonials = testimonialsFromDB && testimonialsFromDB.length > 0 
+    ? testimonialsFromDB.slice(0, 3)
+    : testimonials;
+
+  if (slidesLoading || contentLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <Loader2 className="h-12 w-12 animate-spin text-blue-600" />
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen">
