@@ -72,40 +72,60 @@ IMPORTANT :
 
 Réponds à la demande de l'utilisateur de manière claire et actionnable."""
 
-        # Appeler l'API Emergent LLM (qui utilise OpenAI en backend)
-        async with httpx.AsyncClient(timeout=30.0) as client:
-            response = await client.post(
-                "https://llm.emergentagent.com/chat",
-                headers={
-                    "Authorization": f"Bearer {llm_key}",
-                    "Content-Type": "application/json"
-                },
-                json={
-                    "model": "gpt-4o-mini",
-                    "messages": [
-                        {"role": "system", "content": system_prompt},
-                        {"role": "user", "content": request.message}
-                    ],
-                    "temperature": 0.7,
-                    "max_tokens": 500
-                }
+        # Utiliser emergentintegrations pour appeler l'API
+        try:
+            from emergentintegrations import chat_completion
+            
+            result = chat_completion(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": request.message}
+                ],
+                temperature=0.7,
+                max_tokens=500
             )
             
-            if response.status_code != 200:
-                error_detail = response.json()
-                print(f"Erreur API OpenAI: {error_detail}")
-                return ChatResponse(
-                    message="❌ Désolé, je rencontre un problème technique. Veuillez réessayer dans quelques instants.",
-                    contentUpdated=False
-                )
-            
-            result = response.json()
             ai_message = result["choices"][0]["message"]["content"]
             
             return ChatResponse(
                 message=ai_message,
                 contentUpdated=False
             )
+        except Exception as integ_error:
+            print(f"Erreur emergentintegrations: {integ_error}")
+            # Fallback: essayer avec l'API OpenAI directement si la clé ressemble à une clé OpenAI
+            if llm_key.startswith("sk-proj-") or llm_key.startswith("sk-") and not llm_key.startswith("sk-emergent"):
+                async with httpx.AsyncClient(timeout=30.0) as client:
+                    response = await client.post(
+                        "https://api.openai.com/v1/chat/completions",
+                        headers={
+                            "Authorization": f"Bearer {llm_key}",
+                            "Content-Type": "application/json"
+                        },
+                        json={
+                            "model": "gpt-4o-mini",
+                            "messages": [
+                                {"role": "system", "content": system_prompt},
+                                {"role": "user", "content": request.message}
+                            ],
+                            "temperature": 0.7,
+                            "max_tokens": 500
+                        }
+                    )
+                    
+                    if response.status_code != 200:
+                        raise Exception(f"OpenAI API error: {response.status_code}")
+                    
+                    result = response.json()
+                    ai_message = result["choices"][0]["message"]["content"]
+                    
+                    return ChatResponse(
+                        message=ai_message,
+                        contentUpdated=False
+                    )
+            else:
+                raise integ_error
     
     except httpx.TimeoutException:
         return ChatResponse(
@@ -115,6 +135,6 @@ Réponds à la demande de l'utilisateur de manière claire et actionnable."""
     except Exception as e:
         print(f"Erreur dans chat_with_ai: {str(e)}")
         return ChatResponse(
-            message=f"❌ Une erreur est survenue : {str(e)}",
+            message=f"❌ Désolé, une erreur technique est survenue. L'agent AI nécessite une configuration supplémentaire.",
             contentUpdated=False
         )
