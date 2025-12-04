@@ -11,7 +11,7 @@ import { AuthProvider } from './context/AuthContext';
 
 // Pages
 import Home from './pages/Home';
-import POSSystems from './pages/POSSystems';
+import POSSystems from './pages/POSSystemsDynamic';
 import Digital from './pages/Digital';
 import AyaPay from './pages/AyaPay';
 import Pricing from './pages/Pricing';
