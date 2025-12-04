@@ -249,7 +249,7 @@ metadata:
 
 test_plan:
   current_focus:
-    - "All CMS integration testing completed successfully"
+    - "PricingManager admin interface testing completed successfully"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
