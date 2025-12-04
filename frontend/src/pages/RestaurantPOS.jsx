@@ -573,6 +573,7 @@ const RestaurantPOS = () => {
       </section>
 
       {/* Testimonials */}
+      {testimonials.length > 0 && (
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -585,7 +586,7 @@ const RestaurantPOS = () => {
               <Card key={index}>
                 <CardHeader>
                   <div className="flex items-center space-x-1 mb-2">
-                    {[...Array(testimonial.rating)].map((_, i) => (
+                    {[...Array(testimonial.rating || 5)].map((_, i) => (
                       <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                     ))}
                   </div>
@@ -602,6 +603,7 @@ const RestaurantPOS = () => {
           </div>
         </div>
       </section>
+      )}
 
       {/* FAQ Section */}
       <section className="py-20 bg-gray-50">
