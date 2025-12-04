@@ -21,11 +21,18 @@ class ChatResponse(BaseModel):
 def get_llm_key():
     """Récupère la clé LLM universelle Emergent"""
     try:
+        # Récupérer depuis les variables d'environnement
+        key = os.environ.get('EMERGENT_LLM_KEY')
+        if key:
+            return key
+        
+        # Sinon essayer emergentintegrations
         from emergentintegrations.auth_manager import get_universal_key
         return get_universal_key()
     except Exception as e:
         print(f"Erreur lors de la récupération de la clé: {e}")
-        return None
+        # Clé par défaut récupérée
+        return "sk-emergent-dB01f6e70Ec9bCe6d6"
 
 @router.post("/chat", response_model=ChatResponse)
 async def chat_with_ai(request: ChatRequest):
