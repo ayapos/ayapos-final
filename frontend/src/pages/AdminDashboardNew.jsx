@@ -53,16 +53,40 @@ const AdminDashboardNew = () => {
       component: ContentEditor
     },
     { 
+      id: 'products', 
+      name: 'Produits/Terminaux', 
+      icon: DollarSign,
+      component: ProductsManager
+    },
+    { 
       id: 'pricing', 
-      name: 'Tarifs', 
+      name: 'Plans Tarifaires', 
       icon: DollarSign,
       component: PricingManager
+    },
+    { 
+      id: 'hero', 
+      name: 'Hero/Carousel', 
+      icon: Home,
+      component: HeroManager
+    },
+    { 
+      id: 'blog', 
+      name: 'Blog', 
+      icon: FileText,
+      component: BlogManager
     },
     { 
       id: 'company', 
       name: 'Entreprise', 
       icon: Building2,
       component: CompanyInfo
+    },
+    { 
+      id: 'team', 
+      name: 'Équipe', 
+      icon: Users,
+      component: TeamManager
     },
     { 
       id: 'leads', 
@@ -93,6 +117,12 @@ const AdminDashboardNew = () => {
       name: 'FAQ', 
       icon: HelpCircle,
       component: FAQManager
+    },
+    { 
+      id: 'navigation', 
+      name: 'Navigation/Footer', 
+      icon: Settings,
+      component: NavigationManager
     },
     { 
       id: 'settings', 
