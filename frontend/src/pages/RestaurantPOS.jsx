@@ -22,6 +22,13 @@ const RestaurantPOS = () => {
   const { toast } = useToast();
   const { getContentValue, loading } = usePageContent('restaurant-pos');
   const { products } = useProducts();
+  const [formData, setFormData] = useState({
+    businessName: '',
+    businessType: '',
+    phone: '',
+    email: '',
+    city: ''
+  });
   
   const restaurantProducts = products.filter(p => 
     p.category === 'POS' || p.name.toLowerCase().includes('restaurant')
@@ -34,14 +41,6 @@ const RestaurantPOS = () => {
       </div>
     );
   }
-  
-  const [formData, setFormData] = useState({
-    businessName: '',
-    businessType: '',
-    phone: '',
-    email: '',
-    city: ''
-  });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
