@@ -99,7 +99,7 @@ const RestaurantPOS = () => {
               {/* Stats Row */}
               <div className="grid grid-cols-3 gap-6 pt-4">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-white">5000+</div>
+                  <div className="text-3xl font-bold text-white">700+</div>
                   <div className="text-sm text-blue-200">Restaurants</div>
                 </div>
                 <div className="text-center border-x border-blue-400/30">
