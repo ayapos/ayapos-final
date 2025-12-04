@@ -25,7 +25,7 @@ class TeamMember(BaseModel):
 async def get_team():
     try:
         team = await db.team.find({}, {"_id": 0}).to_list(1000)
-        return {"success": True, "team": team}
+        return {"success": True, "members": team}
     except Exception as e:
         raise HTTPException(status_code=500, detail="Erreur")
 
