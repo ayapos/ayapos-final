@@ -52,8 +52,8 @@ const ITServices = () => {
 
   if (loading) {
     return (
-      <div className=\"min-h-screen pt-16 flex items-center justify-center\">
-        <Loader2 className=\"h-12 w-12 animate-spin text-blue-600\" />
+      <div className="min-h-screen pt-16 flex items-center justify-center">
+        <Loader2 className="h-12 w-12 animate-spin text-blue-600" />
       </div>
     );
   }
