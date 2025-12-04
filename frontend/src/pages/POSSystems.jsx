@@ -48,8 +48,8 @@ const POSSystems = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
-            {posPackages.map((pkg, index) => {
-              // Image URLs pour chaque type de POS
+            {displayPackages.map((pkg, index) => {
+              // Image URLs pour chaque type de POS (fallback)
               const posImages = {
                 'pos-premium': 'https://images.unsplash.com/photo-1693632376342-96ccd26632f1?w=800&h=400&fit=crop',
                 'pos-tablet': 'https://images.unsplash.com/photo-1747930117871-df71e977ac0c?w=800&h=400&fit=crop',
@@ -57,13 +57,16 @@ const POSSystems = () => {
                 'pos-mobile': 'https://images.unsplash.com/photo-1726065235203-4368c41c6f19?w=800&h=400&fit=crop'
               };
 
+              // Use product image if available, otherwise fallback
+              const imageUrl = pkg.image || posImages[pkg.id] || 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800';
+
               return (
               <Card key={pkg.id} className={`relative overflow-hidden ${
-                pkg.recommended 
+                pkg.recommended || pkg.featured
                   ? 'border-blue-600 border-2 shadow-2xl' 
                   : 'border-gray-200 hover:shadow-xl'
               } transition-all`}>
-                {pkg.recommended && (
+                {(pkg.recommended || pkg.featured) && (
                   <div className="absolute top-0 right-0 z-10">
                     <Badge className="bg-blue-600 text-white rounded-none rounded-bl-lg px-4 py-2">
                       Le plus populaire
@@ -81,9 +84,12 @@ const POSSystems = () => {
                 {/* Image du POS */}
                 <div className="relative h-48 w-full overflow-hidden bg-gray-100">
                   <img 
-                    src={posImages[pkg.id]} 
+                    src={imageUrl} 
                     alt={pkg.name}
                     className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                    onError={(e) => {
+                      e.target.src = 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800';
+                    }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                 </div>
@@ -91,7 +97,7 @@ const POSSystems = () => {
                 <CardHeader className="space-y-4 pb-8">
                   <div>
                     <CardTitle className="text-3xl mb-2">{pkg.name}</CardTitle>
-                    <CardDescription className="text-base">{pkg.tagline}</CardDescription>
+                    <CardDescription className="text-base">{pkg.tagline || pkg.description?.substring(0, 100)}</CardDescription>
                   </div>
 
                   <div className="flex items-baseline">
