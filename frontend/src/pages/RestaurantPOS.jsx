@@ -370,11 +370,12 @@ const RestaurantPOS = () => {
       </section>
 
       {/* Table Management Section */}
+      {tableManagement.length > 0 && (
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Gérez les commandes, additions et tables!
+              {pageContent.sections?.table_management?.title || 'Gérez les commandes, additions et tables!'}
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -400,6 +401,7 @@ const RestaurantPOS = () => {
           </div>
         </div>
       </section>
+      )}
 
       {/* Online Orders Section */}
       <section className="py-20 bg-white">
