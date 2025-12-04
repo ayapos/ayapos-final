@@ -62,10 +62,10 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Suspense fallback={<LoadingFallback />}>
-          <ScrollToTop />
-          <Navbar />
-          <Routes>
+        <AuthProvider>
+          <Suspense fallback={<LoadingFallback />}>
+            <ScrollToTop />
+            <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/pos" element={<POSSystems />} />
             <Route path="/digital" element={<Digital />} />
