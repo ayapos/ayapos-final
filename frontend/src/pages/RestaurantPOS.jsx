@@ -226,10 +226,10 @@ const RestaurantPOS = () => {
 
       {/* Features Grid - CENTRÉ et COLORÉ */}
       {features.length > 0 && (
-      <section className="py-20 bg-gradient-to-b from-white to-orange-50">
+      <section className="py-20 bg-gradient-to-b from-white to-blue-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-extrabold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent mb-6">
+            <h2 className="text-5xl font-extrabold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent mb-6">
               ✨ Fonctionnalités Puissantes
             </h2>
             <p className="text-2xl text-gray-700 max-w-3xl mx-auto">
@@ -241,12 +241,12 @@ const RestaurantPOS = () => {
               const iconMap = { Cloud, Store, Smartphone, Wifi, Package, Users, BarChart3, Globe };
               const Icon = iconMap[feature.icon] || Cloud;
               const colors = [
-                'from-orange-500 to-red-500',
-                'from-blue-500 to-indigo-500',
-                'from-purple-500 to-pink-500',
-                'from-green-500 to-teal-500',
-                'from-yellow-500 to-orange-500',
-                'from-red-500 to-pink-500',
+                'from-blue-500 to-blue-600',
+                'from-blue-600 to-blue-700',
+                'from-blue-500 to-indigo-600',
+                'from-indigo-600 to-blue-600',
+                'from-blue-400 to-blue-600',
+                'from-blue-700 to-blue-800',
               ];
               const bgColor = colors[index % colors.length];
               return (
