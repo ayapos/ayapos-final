@@ -298,21 +298,17 @@ const RestaurantPOS = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-16">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-50 via-white to-blue-50 py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <Badge className="bg-blue-600 text-white">
-                SYSTÈME POS RESTAURANT AYAPOS
-              </Badge>
-              <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
-                Programme d'Additions Restaurant, Système POS Restaurant
-              </h1>
-              <p className="text-xl text-gray-600">
-                Système POS cloud nouvelle génération et programme d'additions pour restaurants, cafés et chaînes d'entreprises
-              </p>
+    <div className="min-h-screen pt-16 bg-gradient-to-b from-orange-50 via-white to-blue-50">
+      {/* Hero Section - CENTRÉ avec couleurs */}
+      <section className="bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 py-24">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-6xl font-extrabold text-white mb-6 drop-shadow-lg">
+              🍽️ Système POS Restaurant Complet
+            </h1>
+            <p className="text-2xl text-orange-50 max-w-3xl mx-auto leading-relaxed">
+              Solution tout-en-un pour gérer votre restaurant avec efficacité
+            </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href="#pricing">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white w-full sm:w-auto">
