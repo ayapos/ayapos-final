@@ -68,14 +68,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <Link to="/" className="inline-block mb-4">
-              <div className="flex items-center space-x-2">
-                <div className="bg-white p-2 rounded-lg">
-                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <span className="text-xl font-bold text-white">AyaPos</span>
-              </div>
+              <span className="text-2xl font-bold text-white">AyaPos</span>
             </Link>
             <p className="text-sm mb-4">
               {t('footer.tagline')}
