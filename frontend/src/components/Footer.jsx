@@ -83,15 +83,15 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-sm">
                 <Phone className="h-4 w-4" />
-                <span>+41 (0) 800 123 456</span>
+                <span>{companyInfo?.phone || '+41 (0) 800 123 456'}</span>
               </div>
               <div className="flex items-center space-x-2 text-sm">
                 <Mail className="h-4 w-4" />
-                <span>info@ayapos.com</span>
+                <span>{companyInfo?.email || 'info@ayapos.com'}</span>
               </div>
               <div className="flex items-center space-x-2 text-sm">
                 <MapPin className="h-4 w-4" />
-                <span>Zurich, Switzerland</span>
+                <span>{companyInfo?.city && companyInfo?.country ? `${companyInfo.city}, ${companyInfo.country}` : 'Zurich, Switzerland'}</span>
               </div>
             </div>
           </div>
