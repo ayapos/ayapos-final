@@ -320,10 +320,10 @@ const RestaurantPOS = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-6xl font-extrabold text-white mb-6 drop-shadow-lg">
-              🍽️ Système POS Restaurant Complet
+              {pageContent.hero_title || '🍽️ Système POS Restaurant Complet'}
             </h1>
             <p className="text-2xl text-orange-50 max-w-3xl mx-auto leading-relaxed mb-8">
-              Solution tout-en-un pour gérer votre restaurant avec efficacité
+              {pageContent.hero_subtitle || 'Solution tout-en-un pour gérer votre restaurant avec efficacité'}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="#pricing">
