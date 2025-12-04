@@ -315,6 +315,41 @@ const AdminDashboardPro = () => {
   const renderPageEditor = () => {
     const currentPage = sitePages.find(p => p.slug === activePageEditor);
     
+    // Si c'est la page Restaurant POS, utiliser l'éditeur complet
+    if (activePageEditor === 'restaurant-pos') {
+      return (
+        <div className="space-y-6">
+          <div className="flex items-center justify-between sticky top-0 z-20 bg-gray-50 py-4 -mx-8 px-8">
+            <div>
+              <h2 className="text-3xl font-bold mb-2">Éditer : {currentPage?.name}</h2>
+              <p className="text-gray-600">Modifiez TOUT le contenu de cette page</p>
+            </div>
+            <div className="flex space-x-3">
+              <Button variant="outline" onClick={() => window.open(`/${activePageEditor}`, '_blank')}>
+                <Eye className="h-4 w-4 mr-2" />
+                Voir le Site
+              </Button>
+            </div>
+          </div>
+          
+          {loading ? (
+            <div className="flex items-center justify-center py-12">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+            </div>
+          ) : (
+            <RestaurantPOSEditor 
+              pageData={pageData}
+              setPageData={setPageData}
+              onSave={savePageData}
+              onUploadImage={handleImageUpload}
+              saving={saving}
+            />
+          )}
+        </div>
+      );
+    }
+    
+    // Pour les autres pages, garder l'ancien éditeur pour l'instant
     return (
       <div className="space-y-6">
         <div className="flex items-center justify-between">
