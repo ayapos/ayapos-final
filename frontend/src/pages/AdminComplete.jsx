@@ -116,7 +116,7 @@ const AdminComplete = () => {
   const savePageData = async () => {
     setSaving(true);
     try {
-      const token = localStorage.getItem('adminToken');
+      const token = localStorage.getItem('admin_token');
       await axios.put(
         `${API_URL}/api/content/${selectedPage}`,
         { content: pageData },
