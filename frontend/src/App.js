@@ -15,7 +15,7 @@ import POSSystems from './pages/POSSystems';
 import Digital from './pages/Digital';
 import AyaPay from './pages/AyaPay';
 import Pricing from './pages/Pricing';
-import Contact from './pages/ContactDynamic';
+import Contact from './pages/Contact';
 import SelfOrderKiosk from './pages/SelfOrderKiosk';
 import OrderSystem from './pages/OrderSystem';
 import WaiterTerminal from './pages/WaiterTerminal';
