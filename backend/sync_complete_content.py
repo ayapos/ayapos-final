@@ -93,7 +93,7 @@ async def sync_complete_content():
                         "Support email",
                         "Rapports basiques"
                     ],
-                    "highlight": false
+                    "highlight": False
                 },
                 {
                     "name": "Business",
@@ -127,7 +127,7 @@ async def sync_complete_content():
                         "Intégration ERP",
                         "Formation sur site"
                     ],
-                    "highlight": false
+                    "highlight": False
                 }
             ],
             "benefits": [
