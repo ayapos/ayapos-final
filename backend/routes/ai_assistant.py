@@ -72,10 +72,10 @@ IMPORTANT :
 
 Réponds à la demande de l'utilisateur de manière claire et actionnable."""
 
-        # Appeler l'API OpenAI avec la clé Emergent
+        # Appeler l'API Emergent LLM (qui utilise OpenAI en backend)
         async with httpx.AsyncClient(timeout=30.0) as client:
             response = await client.post(
-                "https://api.openai.com/v1/chat/completions",
+                "https://llm.emergentagent.com/chat",
                 headers={
                     "Authorization": f"Bearer {llm_key}",
                     "Content-Type": "application/json"
