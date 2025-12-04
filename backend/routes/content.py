@@ -72,26 +72,32 @@ async def get_page_content(page_name: str):
 @router.put("/{page_name}")
 async def update_page_content(
     page_name: str,
-    content_update: ContentUpdate,
+    content_data: Dict[str, Any],
     email: str = Depends(verify_token)
 ):
     """
-    Update content for a specific page (protected endpoint)
+    Update content for a specific page (protected endpoint) - NOUVEAU FORMAT FLEXIBLE
+    Accepte n'importe quelle structure de contenu
     """
     try:
-        updated_content = {
-            "page": page_name,
-            "sections": [section.dict() for section in content_update.sections],
-            "updatedAt": datetime.utcnow()
-        }
+        # Si le format contient "content", l'extraire
+        if "content" in content_data:
+            content_to_save = content_data["content"]
+        else:
+            content_to_save = content_data
         
+        # Ajouter le slug et la date de mise à jour
+        content_to_save["slug"] = page_name
+        content_to_save["updatedAt"] = datetime.utcnow().isoformat()
+        
+        # Mise à jour dans la base de données
         result = await db.content.update_one(
-            {"page": page_name},
-            {"$set": updated_content},
+            {"slug": page_name},
+            {"$set": content_to_save},
             upsert=True
         )
         
-        logger.info(f"Content updated for page {page_name} by {email}")
+        logger.info(f"Content updated for page {page_name} by {email} - {result.modified_count} docs modified")
         
         return {
             "success": True,
@@ -100,9 +106,10 @@ async def update_page_content(
         }
     except Exception as e:
         logger.error(f"Error updating content for {page_name}: {str(e)}")
+        logger.exception(e)
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Erreur lors de la mise à jour du contenu de {page_name}"
+            detail=f"Erreur lors de la mise à jour: {str(e)}"
         )
 
 async def initialize_default_content():
