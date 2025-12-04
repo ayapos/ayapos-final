@@ -438,11 +438,12 @@ const RestaurantPOS = () => {
       )}
 
       {/* Reports Section */}
+      {reports.length > 0 && (
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Rapports avancés et analyses
+              {pageContent.sections?.reports?.title || 'Rapports avancés et analyses'}
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -468,6 +469,7 @@ const RestaurantPOS = () => {
           </div>
         </div>
       </section>
+      )}
 
       {/* Features Grid - CENTRÉ et COLORÉ */}
       <section className="py-20 bg-gradient-to-b from-white to-orange-50">
