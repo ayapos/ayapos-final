@@ -301,6 +301,21 @@ frontend:
           agent: "testing"
           comment: "✅ Carousel endpoint fix verified working perfectly. Admin panel data loading test completed successfully: Page d'Accueil shows pre-filled fields (Page Title, Hero Title, Hero Subtitle, Hero Image) and Carousel Hero section with 3 slides including 'Test Slide - Agent E1'. Restaurant POS displays pre-filled hero data, features, benefits, and 3 custom sections (table_management, online_orders, reports). Self-Order Kiosk data loading working correctly. Navigation between pages (AyaPay, Contact, À Propos) functional with data persistence. Carousel endpoint /api/hero/ now correctly loads existing data from database. No JavaScript console errors detected."
 
+  - task: "Dynamic Pages Template Conversion"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/pages/DynamicPageTemplate.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "Converted 13 static pages to use DynamicPageTemplate for database-driven content: /ayapay, /about, /pricing, /contact, /it-services, /terms-conditions, /privacy-policy, /kiosk-pricing, /order-system-pricing, /waiter-terminal, /waiter-terminal-pricing, /delivery-service-pricing, /digital"
+        - working: true
+          agent: "testing"
+          comment: "✅ All 13 converted dynamic pages tested successfully (100% pass rate). Results: 9 pages have custom content from database (AyaPay: '💳 Solutions de Paiement AyaPay', About: '👥 À Propos d'AyaPos', Pricing: 'Transparent Pricing', Contact: '📞 Contactez-Nous', IT Services: '💻 Services IT Professionnels', Terms: '📋 Conditions Générales d'Utilisation', Privacy: '🔒 Politique de Confidentialité', Waiter Terminal: 'Terminal Serveur - Prise de Commande Mobile', Digital: '💡 Solutions Digitales Innovantes'), 4 pages use default template content (Kiosk Pricing, Order System Pricing, Waiter Terminal Pricing, Delivery Service Pricing show 'Titre de la page'). All pages load without JavaScript errors, have Navbar/Footer, proper hero sections, and functional navigation. CTA buttons redirect correctly to /contact. Pricing page displays 3 pricing cards with 'Choisir' buttons. DynamicPageTemplate conversion fully functional."
+
 metadata:
   created_by: "testing_agent"
   version: "2.1"
