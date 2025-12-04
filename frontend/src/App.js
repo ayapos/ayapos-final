@@ -37,7 +37,7 @@ import KioskPricing from './pages/KioskPricing';
 import OrderSystemPricing from './pages/OrderSystemPricing';
 import DeliveryServicePricing from './pages/DeliveryServicePricing';
 import WaiterTerminalPricing from './pages/WaiterTerminalPricing';
-import HardwareDevices from './pages/HardwareDevices';
+import HardwareDevices from './pages/HardwareDevicesDynamic';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import BlogPost1 from './pages/blog/BlogPost1';
