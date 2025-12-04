@@ -50,6 +50,12 @@ app.include_router(api_router)
 app.include_router(contacts.router)
 # Include callbacks router
 app.include_router(callbacks.router)
+# Include auth router
+app.include_router(auth.router)
+# Include content router
+app.include_router(content.router)
+# Include upload router
+app.include_router(upload.router)
 
 # Add CORS middleware
 app.add_middleware(
