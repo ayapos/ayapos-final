@@ -125,11 +125,59 @@ const RestaurantPOS = () => {
                   Voir les tarifs
                 </Button>
               </a>
-              <a href="#contact">
-                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-orange-600 font-bold px-8 py-4">
-                  Demander une démo
-                </Button>
-              </a>
+              </div>
+
+              {/* Trust Badges */}
+              <div className="flex items-center gap-6 pt-6">
+                <div className="flex items-center gap-2">
+                  <Shield className="h-5 w-5 text-blue-300" />
+                  <span className="text-sm text-blue-200">Sécurisé & Certifié</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Zap className="h-5 w-5 text-yellow-400" />
+                  <span className="text-sm text-blue-200">Installation en 24h</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Content - Image/Mockup */}
+            <div className="relative lg:block hidden">
+              <div className="relative z-10">
+                {/* Main Image with Glow Effect */}
+                <div className="relative">
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-400 rounded-2xl blur-3xl opacity-30 animate-pulse"></div>
+                  <img
+                    src={pageContent.hero_image || "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&q=80"}
+                    alt="POS Restaurant"
+                    className="relative rounded-2xl shadow-2xl border-4 border-white/20 backdrop-blur"
+                  />
+                </div>
+                
+                {/* Floating Stats Cards */}
+                <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-2xl p-4 animate-float">
+                  <div className="flex items-center gap-3">
+                    <div className="bg-green-500 rounded-full p-2">
+                      <Check className="h-5 w-5 text-white" />
+                    </div>
+                    <div>
+                      <div className="text-sm font-bold text-gray-900">+127%</div>
+                      <div className="text-xs text-gray-600">Efficacité</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="absolute -top-6 -right-6 bg-white rounded-xl shadow-2xl p-4 animate-float delay-300">
+                  <div className="flex items-center gap-3">
+                    <div className="bg-blue-600 rounded-full p-2">
+                      <TrendingUp className="h-5 w-5 text-white" />
+                    </div>
+                    <div>
+                      <div className="text-sm font-bold text-gray-900">+43%</div>
+                      <div className="text-xs text-gray-600">Revenus</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
