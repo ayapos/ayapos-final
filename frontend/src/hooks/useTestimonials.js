@@ -13,8 +13,7 @@ export const useTestimonials = () => {
       try {
         const response = await axios.get(`${API_URL}/api/testimonials/`);
         if (response.data.success) {
-          const sorted = response.data.testimonials.sort((a, b) => a.order - b.order);
-          setTestimonials(sorted);
+          setTestimonials(response.data.testimonials);
         }
       } catch (err) {
         console.error('Error fetching testimonials:', err);
