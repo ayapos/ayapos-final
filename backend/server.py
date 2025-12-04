@@ -46,16 +46,20 @@ async def health_check():
 # Include the general router
 app.include_router(api_router)
 
-# Include contacts router
+# Include all routers
 app.include_router(contacts.router)
-# Include callbacks router
 app.include_router(callbacks.router)
-# Include auth router
 app.include_router(auth.router)
-# Include content router
 app.include_router(content.router)
-# Include upload router
 app.include_router(upload.router)
+app.include_router(pricing.router)
+app.include_router(company.router)
+app.include_router(testimonials.router)
+app.include_router(portfolio.router)
+app.include_router(services.router)
+app.include_router(faq.router)
+app.include_router(settings.router)
+app.include_router(leads.router)
 
 # Add CORS middleware
 app.add_middleware(
