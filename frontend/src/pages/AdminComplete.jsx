@@ -1170,6 +1170,15 @@ const AdminComplete = () => {
       <div className="flex-1 overflow-hidden">
         {renderEditor()}
       </div>
+
+      {/* AI Assistant - Floating */}
+      <AIAssistant 
+        currentPage={allPages.find(p => p.slug === selectedPage)}
+        onContentUpdate={() => {
+          // Recharger le contenu après modification par l'AI
+          loadPageData();
+        }}
+      />
     </div>
   );
 };
