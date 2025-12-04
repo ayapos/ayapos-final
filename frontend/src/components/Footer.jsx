@@ -1,11 +1,31 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { useCompanyInfo } from '../hooks/useCompanyInfo';
+import axios from 'axios';
+
+const API_URL = process.env.REACT_APP_BACKEND_URL;
 
 const Footer = () => {
   const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
+  const { companyInfo } = useCompanyInfo();
+  const [footerData, setFooterData] = useState(null);
+
+  useEffect(() => {
+    const fetchFooter = async () => {
+      try {
+        const response = await axios.get(`${API_URL}/api/navigation/footer`);
+        if (response.data.success && response.data.footer) {
+          setFooterData(response.data.footer);
+        }
+      } catch (error) {
+        console.error('Error fetching footer:', error);
+      }
+    };
+    fetchFooter();
+  }, []);
 
   const footerSections = [
     {
