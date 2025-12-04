@@ -22,6 +22,19 @@ const ContentEditor = ({ selectedPage, setSelectedPage }) => {
     { id: 'pos-systems', name: 'Systèmes POS' },
     { id: 'restaurant-pos', name: 'Restaurant POS' },
     { id: 'ayapay', name: 'AyaPay' },
+    // 12 nouvelles pages produits
+    { id: 'pos-restaurant', name: '🍽️ POS Restaurant' },
+    { id: 'self-order-kiosk', name: '🖥️ Self-Order Kiosk' },
+    { id: 'systeme-commande', name: '📱 Système Commande' },
+    { id: 'terminal-serveur', name: '📲 Terminal Serveur' },
+    { id: 'app-mobile-commande', name: '📱 App Mobile' },
+    { id: 'serveur-robot', name: '🤖 Serveur Robot' },
+    { id: 'gestion-livraison', name: '🚚 Gestion Livraison' },
+    { id: 'portail-web', name: '🌐 Portail Web' },
+    { id: 'rapport-mobile', name: '📊 Rapport Mobile' },
+    { id: 'gestion-stock', name: '📦 Gestion Stock' },
+    { id: 'gestion-centralisee', name: '🏢 Gestion Centralisée' },
+    { id: 'materiel-appareils', name: '🖨️ Matériel' },
   ];
 
   useEffect(() => { loadAllContent(); }, []);
