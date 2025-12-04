@@ -46,7 +46,7 @@ const FAQManager = () => {
       )}
       <div className="border-b px-6 py-4 flex justify-between items-center">
         <h2 className="text-xl font-semibold flex items-center"><HelpCircle className="h-6 w-6 mr-2" />FAQ</h2>
-        <Button onClick={() => setEditing({question:'',answer:'',category:'',active:true,order:faqs.length})} className="bg-blue-600"><Plus className="h-4 w-4 mr-2" />Nouvelle Question</Button>
+        <Button onClick={() => setEditing({question:'',answer:'',category:'',active:true,order:(faqs || []).length})} className="bg-blue-600"><Plus className="h-4 w-4 mr-2" />Nouvelle Question</Button>
       </div>
       
       <div className="p-6">
