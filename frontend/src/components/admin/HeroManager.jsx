@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useAuth } from '../../context/AuthContext';
-import { Image, Plus, Save, Trash2, Loader2 } from 'lucide-react';
+import { Image, Plus, Save, Trash2, Loader2, Upload } from 'lucide-react';
 import { Button } from '../ui/button';
 
 const API_URL = process.env.REACT_APP_BACKEND_URL;
