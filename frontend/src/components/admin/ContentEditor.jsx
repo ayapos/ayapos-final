@@ -238,26 +238,59 @@ const ContentEditor = ({ selectedPage, setSelectedPage }) => {
                 <label className="block text-sm font-medium text-gray-700 mb-1">Contenu</label>
                 {section.type === 'image' ? (
                   <div className="space-y-3">
+                    {/* Preview de l'image */}
+                    {section.value && (
+                      <div className="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden border-2 border-gray-300">
+                        <img
+                          src={section.value}
+                          alt={section.label}
+                          className="w-full h-full object-cover"
+                          onError={(e) => {
+                            e.target.src = 'https://via.placeholder.com/400x300?text=Image+non+disponible';
+                          }}
+                        />
+                        <div className="absolute top-2 right-2 bg-black bg-opacity-50 text-white px-2 py-1 rounded text-xs">
+                          Aperçu
+                        </div>
+                      </div>
+                    )}
+                    
+                    {/* Upload button GROS et visible */}
                     <input
-                      type="text"
-                      value={section.value}
-                      onChange={(e) => updateSectionValue(section.id, e.target.value)}
-                      placeholder="/images/example.jpg"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+                      type="file"
+                      accept="image/*"
+                      onChange={(e) => { const file = e.target.files[0]; if (file) handleImageUpload(section.id, file); }}
+                      className="hidden"
+                      id={`upload-${section.id}`}
                     />
-                    <div className="flex items-center space-x-3">
+                    <label 
+                      htmlFor={`upload-${section.id}`} 
+                      className="cursor-pointer flex items-center justify-center space-x-2 w-full px-6 py-4 border-2 border-dashed border-blue-300 rounded-lg hover:bg-blue-50 hover:border-blue-500 transition-all bg-blue-50"
+                    >
+                      {uploading ? (
+                        <>
+                          <Loader2 className="h-6 w-6 animate-spin text-blue-600" />
+                          <span className="text-blue-600 font-medium">Téléchargement...</span>
+                        </>
+                      ) : (
+                        <>
+                          <Upload className="h-6 w-6 text-blue-600" />
+                          <span className="text-blue-600 font-medium">Cliquez pour télécharger une photo</span>
+                        </>
+                      )}
+                    </label>
+                    
+                    {/* URL manuelle (optionnel) */}
+                    <details className="text-sm">
+                      <summary className="cursor-pointer text-gray-600 hover:text-gray-900">Ou entrer une URL manuellement</summary>
                       <input
-                        type="file"
-                        accept="image/*"
-                        onChange={(e) => { const file = e.target.files[0]; if (file) handleImageUpload(section.id, file); }}
-                        className="hidden"
-                        id={`upload-${section.id}`}
+                        type="text"
+                        value={section.value}
+                        onChange={(e) => updateSectionValue(section.id, e.target.value)}
+                        placeholder="https://exemple.com/image.jpg"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 mt-2"
                       />
-                      <label htmlFor={`upload-${section.id}`} className="cursor-pointer inline-flex items-center space-x-2 px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50">
-                        {uploading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Upload className="h-4 w-4" />}
-                        <span>Télécharger une image</span>
-                      </label>
-                    </div>
+                    </details>
                   </div>
                 ) : (
                   <textarea
