@@ -132,6 +132,7 @@ const Navbar = () => {
                                   key={subIdx}
                                   to={subItem.path}
                                   className="flex items-center space-x-2 px-2 py-2 rounded hover:bg-blue-50 transition-colors group"
+                                  onClick={() => setOpenDropdown(null)}
                                 >
                                   {Icon && <Icon className="h-4 w-4 text-blue-600" />}
                                   <span className="text-sm text-gray-700 group-hover:text-blue-600">
