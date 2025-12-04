@@ -516,6 +516,7 @@ const RestaurantPOS = () => {
       )}
 
       {/* Pricing Section */}
+      {pricingPlans.length > 0 && (
       <section id="pricing" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -528,7 +529,7 @@ const RestaurantPOS = () => {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {pricingPlans.map((plan, index) => (
-              <Card key={index} className={`relative ${plan.recommended ? 'border-blue-600 border-2 shadow-2xl' : ''}`}>
+              <Card key={plan.id || index} className={`relative ${plan.recommended ? 'border-blue-600 border-2 shadow-2xl' : ''}`}>
                 {plan.recommended && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                     <Badge className="bg-blue-600 text-white">Recommandé</Badge>
@@ -558,10 +559,10 @@ const RestaurantPOS = () => {
                   </a>
                   <div className="space-y-2">
                     <p className="font-semibold text-sm">Fonctionnalités:</p>
-                    {plan.features.map((feature, idx) => (
+                    {plan.features && plan.features.map((feature, idx) => (
                       <div key={idx} className="flex items-start space-x-2">
                         <Check className="h-4 w-4 text-blue-600 flex-shrink-0 mt-0.5" />
-                        <span className="text-xs text-gray-600">{feature}</span>
+                        <span className="text-xs text-gray-600">{typeof feature === 'string' ? feature : (feature.text || '')}</span>
                       </div>
                     ))}
                   </div>
@@ -571,6 +572,7 @@ const RestaurantPOS = () => {
           </div>
         </div>
       </section>
+      )}
 
       {/* Testimonials */}
       {testimonials.length > 0 && (
