@@ -36,10 +36,10 @@ const POSSystems = () => {
       <section className="bg-gradient-to-br from-blue-50 via-white to-blue-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            {t('pos.title')}
+            {getContentValue('hero-title', t('pos.title'))}
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {t('pos.subtitle')}
+            {getContentValue('hero-subtitle', t('pos.subtitle'))}
           </p>
         </div>
       </section>
