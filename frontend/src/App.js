@@ -25,7 +25,7 @@ import DeliveryManagement from './pages/DeliveryManagementDynamic';
 import DeliveryManagementComplete from './pages/DeliveryManagementComplete';
 import WebPortal from './pages/WebPortalDynamic';
 import WebPortalComplete from './pages/WebPortalComplete';
-import MobileReports from './pages/MobileReports';
+import MobileReports from './pages/MobileReportsDynamic';
 import MobileReportsComplete from './pages/MobileReportsComplete';
 import StockManagement from './pages/StockManagement';
 import StockManagementComplete from './pages/StockManagementComplete';
