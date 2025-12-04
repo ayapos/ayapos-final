@@ -15,6 +15,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs'
 import { Badge } from '../components/ui/badge';
 import { useToast } from '../hooks/use-toast';
 import { Separator } from '../components/ui/separator';
+import RestaurantPOSEditor from '../components/admin/RestaurantPOSEditor';
 
 const API_URL = process.env.REACT_APP_BACKEND_URL;
 
