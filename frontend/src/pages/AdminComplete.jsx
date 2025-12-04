@@ -117,23 +117,51 @@ const AdminComplete = () => {
     setSaving(true);
     try {
       const token = localStorage.getItem('admin_token');
-      await axios.put(
+      
+      if (!token) {
+        throw new Error('Token manquant - veuillez vous reconnecter');
+      }
+      
+      console.log('💾 Sauvegarde de:', selectedPage);
+      console.log('📦 Données:', Object.keys(pageData));
+      
+      const response = await axios.put(
         `${API_URL}/api/content/${selectedPage}`,
         { content: pageData },
         { headers: { Authorization: `Bearer ${token}` } }
       );
+      
+      console.log('✅ Réponse sauvegarde:', response.data);
       
       toast({
         title: "✅ Sauvegardé !",
         description: `La page "${allPages.find(p => p.slug === selectedPage)?.name}" a été mise à jour.`,
       });
     } catch (error) {
-      console.error('Erreur sauvegarde:', error);
-      toast({
-        title: "Erreur",
-        description: "Impossible de sauvegarder les modifications",
-        variant: "destructive"
-      });
+      console.error('❌ Erreur sauvegarde complète:', error);
+      
+      // Si erreur 401, token expiré
+      if (error.response?.status === 401) {
+        toast({
+          title: "⚠️ Session expirée",
+          description: "Veuillez vous reconnecter",
+          variant: "destructive"
+        });
+        
+        // Rediriger vers login après 2 secondes
+        setTimeout(() => {
+          localStorage.removeItem('admin_token');
+          localStorage.removeItem('admin_email');
+          navigate('/admin/login');
+        }, 2000);
+      } else {
+        const errorMsg = error.response?.data?.detail || error.message || 'Erreur inconnue';
+        toast({
+          title: "❌ Erreur de sauvegarde",
+          description: errorMsg,
+          variant: "destructive"
+        });
+      }
     } finally {
       setSaving(false);
     }
