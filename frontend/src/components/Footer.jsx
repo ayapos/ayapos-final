@@ -27,36 +27,39 @@ const Footer = () => {
     fetchFooter();
   }, []);
 
-  const footerSections = [
-    {
-      title: t('footer.products'),
-      links: [
-        { name: 'Premium POS', path: '/restaurant-pos' },
-        { name: 'Tablet POS', path: '/restaurant-pos' },
-        { name: 'Web POS', path: '/web-portal' },
-        { name: 'Mobile POS', path: '/mobile-reports' },
-        { name: 'AyaPay', path: '/ayapay' },
-      ],
-    },
-    {
-      title: t('nav.digital'),
-      links: [
-        { name: 'Self Order Kiosk', path: '/self-order-kiosk' },
-        { name: 'Digital Menu', path: '/mobile-order-app' },
-        { name: 'Mobile App', path: '/mobile-order-app' },
-        { name: 'Digital Menuboard', path: '/self-order-kiosk' },
-      ],
-    },
-    {
-      title: t('footer.company'),
-      links: [
-        { name: t('nav.about'), path: '/about' },
-        { name: t('nav.pricing'), path: '/pricing' },
-        { name: t('nav.contact'), path: '/contact' },
-        { name: 'Blog', path: '/blog' },
-      ],
-    },
-  ];
+  // Use footer data from database if available, otherwise use default
+  const footerSections = footerData && footerData.columns && footerData.columns.length > 0 
+    ? footerData.columns 
+    : [
+      {
+        title: t('footer.products'),
+        links: [
+          { label: 'Premium POS', url: '/restaurant-pos' },
+          { label: 'Tablet POS', url: '/restaurant-pos' },
+          { label: 'Web POS', url: '/web-portal' },
+          { label: 'Mobile POS', url: '/mobile-reports' },
+          { label: 'AyaPay', url: '/ayapay' },
+        ],
+      },
+      {
+        title: t('nav.digital'),
+        links: [
+          { label: 'Self Order Kiosk', url: '/self-order-kiosk' },
+          { label: 'Digital Menu', url: '/mobile-order-app' },
+          { label: 'Mobile App', url: '/mobile-order-app' },
+          { label: 'Digital Menuboard', url: '/self-order-kiosk' },
+        ],
+      },
+      {
+        title: t('footer.company'),
+        links: [
+          { label: t('nav.about'), url: '/about' },
+          { label: t('nav.pricing'), url: '/pricing' },
+          { label: t('nav.contact'), url: '/contact' },
+          { label: 'Blog', url: '/blog' },
+        ],
+      },
+    ];
 
   return (
     <footer className="bg-gray-900 text-gray-300">
