@@ -20,7 +20,7 @@ import SelfOrderKiosk from './pages/SelfOrderKioskDynamic';
 import OrderSystem from './pages/OrderSystemDynamic';
 import WaiterTerminal from './pages/WaiterTerminal';
 import MobileOrderApp from './pages/MobileOrderAppDynamic';
-import RobotWaiter from './pages/RobotWaiter';
+import RobotWaiter from './pages/RobotWaiterDynamic';
 import DeliveryManagement from './pages/DeliveryManagement';
 import DeliveryManagementComplete from './pages/DeliveryManagementComplete';
 import WebPortal from './pages/WebPortal';
