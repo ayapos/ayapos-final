@@ -727,10 +727,10 @@ const RestaurantPOS = () => {
       <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">
-            AYAPOS SYSTÈMES POS NOUVELLE GÉNÉRATION
+            {pageContent.cta_title || 'AYAPOS SYSTÈMES POS NOUVELLE GÉNÉRATION'}
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Ayez toujours une longueur d'avance!
+            {pageContent.cta_subtitle || 'Ayez toujours une longueur d\'avance!'}
           </p>
           <Link to="/contact">
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
