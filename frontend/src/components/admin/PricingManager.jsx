@@ -264,23 +264,23 @@ const PricingManager = () => {
               </div>
             </div>
 
-            <div className="flex space-x-3 pt-4 border-t">
+            <div className="flex space-x-3 pt-4 border-t border-blue-200">
               <Button onClick={() => savePlan(editingPlan)} disabled={saving} className="bg-blue-600 hover:bg-blue-700">
                 {saving ? <><Loader2 className="h-4 w-4 animate-spin mr-2" />Sauvegarde...</> : <><Save className="h-4 w-4 mr-2" />Sauvegarder</>}
               </Button>
               <Button onClick={() => setEditingPlan(null)} variant="outline">Annuler</Button>
             </div>
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {plans.length === 0 ? (
-              <div className="col-span-3 text-center py-12 text-gray-500">
-                <DollarSign className="h-12 w-12 mx-auto mb-4 text-gray-400" />
-                <p>Aucun plan de tarification.</p>
-                <p className="text-sm mt-2">Cliquez sur \"Nouveau Plan\" pour commencer.</p>
               </div>
-            ) : (
-              plans.map((plan) => (
+            )}
+
+            {/* Existing Plans List - Always Visible */}
+            {plans.length > 0 && (
+              <div>
+                <h3 className="text-lg font-semibold mb-4 text-gray-900">
+                  📋 Tous les Plans ({plans.length})
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {plans.map((plan) => (
                 <div key={plan.id} className={`border-2 rounded-lg p-6 ${plan.highlighted ? 'border-blue-500 shadow-lg' : 'border-gray-200'}`}>
                   {plan.badge && (
                     <div className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold mb-4">
