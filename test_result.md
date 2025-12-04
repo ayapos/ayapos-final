@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Test the complete AyaPos administration system including authentication, navigation, content editing, section management, and data persistence"
+user_problem_statement: "Test the complete flow between admin CMS and public site: Hero/Carousel admin functionality, homepage carousel display, and three newly connected pages (POSSystems, Contact, Pricing) with console error checking"
 
 backend:
   - task: "Admin Authentication API"
