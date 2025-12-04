@@ -84,17 +84,20 @@ const Pricing = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {posPackages.map((pkg) => {
+            {pricingPlans.map((pkg) => {
               const price = calculatePrice(pkg.price);
               const savings = pkg.price - price;
 
-              // Images pour chaque forfait POS
+              // Images pour chaque forfait POS (fallback)
               const posImages = {
                 'pos-premium': 'https://images.pexels.com/photos/12935078/pexels-photo-12935078.jpeg?auto=compress&cs=tinysrgb&w=600&h=300',
                 'pos-tablet': 'https://images.unsplash.com/photo-1742238896849-303d74d8a8de?w=600&h=300&fit=crop&q=80',
                 'pos-web': 'https://images.unsplash.com/photo-1663704413984-ffc91bc84cee?w=600&h=300&fit=crop&q=80',
                 'pos-mobile': 'https://images.unsplash.com/photo-1508938255445-041651dfe0c3?w=600&h=300&fit=crop&q=80'
               };
+
+              // Use plan image if available, otherwise fallback
+              const planImage = pkg.image || posImages[pkg.id] || 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600';
 
               return (
                 <Card
