@@ -1,4 +1,4 @@
-# 📘 Guide d'Administration AyaPos
+# 📘 Guide d'Administration AyaPos - Version Complète
 
 ## 🔐 Accès au Panneau d'Administration
 
@@ -11,19 +11,90 @@
 
 ---
 
-## 🎨 Gestion du Contenu
+## 📊 Sections Disponibles
 
-### Pages Disponibles
-Le panneau d'administration vous permet de gérer le contenu de toutes les pages du site :
+Le nouveau panneau d'administration inclut **9 sections complètes** :
 
-- 🏠 **Accueil** - Page d'accueil du site
-- 💰 **Tarifs** - Page de tarification
-- 💳 **AyaPay** - Page des solutions de paiement
-- 💻 **Services IT** - Page des services de développement
-- 📧 **Contact** - Page de contact
-- 📄 **CGV** - Conditions Générales de Vente
-- 🔒 **Confidentialité** - Politique de confidentialité
-- 🔔 **Popup Rappel** - Contenu du popup de rappel
+### 1. 📄 **Contenu Pages**
+Gérez le contenu textuel de toutes les pages :
+- 🏠 Accueil
+- 💰 Tarifs  
+- 💳 AyaPay
+- 💻 Services IT
+- 📧 Contact
+- 📄 CGV
+- 🔒 Confidentialité
+- 🔔 Popup Rappel
+
+### 2. 💰 **Tarifs (Pricing)**
+Créez et gérez vos plans de tarification :
+- Nom du plan (Basic, Premium, Enterprise)
+- Prix, devise (CHF, EUR, USD) et période (mois/an)
+- Liste des fonctionnalités incluses/exclues
+- Badges personnalisés (Populaire, Recommandé)
+- Plan mis en avant
+- Images pour chaque plan
+
+### 3. 🏢 **Entreprise (Informations)**
+Gérez les informations de votre entreprise :
+- Coordonnées (nom, email, téléphone)
+- Adresse complète (ville, code postal, pays)
+- Slogan et description
+- Heures d'ouverture
+- Logo et favicon
+- Réseaux sociaux (Facebook, LinkedIn, Twitter, Instagram)
+
+### 4. 👥 **Leads & Contacts**
+Visualisez et gérez tous vos leads :
+- Liste complète des contacts du formulaire
+- Liste des demandes de rappel (popup)
+- Filtres par statut (nouveau, contacté, converti, archivé)
+- Changement de statut en un clic
+- Export des données
+- Suppression de leads
+
+### 5. 💼 **Services**
+Gérez votre catalogue de services :
+- Nom et description du service
+- Catégorie
+- Prix ou "Sur devis"
+- Icône et image
+- Fonctionnalités incluses
+- Statut actif/inactif
+
+### 6. 💬 **Témoignages**
+Ajoutez les avis de vos clients :
+- Nom et entreprise du client
+- Poste/fonction
+- Note (1 à 5 étoiles)
+- Commentaire
+- Photo du client
+- Témoignages mis en avant
+
+### 7. 🎨 **Portfolio**
+Présentez vos projets réalisés :
+- Titre et description du projet
+- Catégorie
+- Client et date de réalisation
+- Images (galerie)
+- Technologies utilisées
+- Lien vers le projet
+- Projets mis en avant
+
+### 8. ❓ **FAQ**
+Créez votre base de connaissances :
+- Question et réponse
+- Catégories (Général, Technique, Tarifs, etc.)
+- Ordre d'affichage
+- Statut actif/inactif
+
+### 9. ⚙️ **Paramètres**
+Configurez le comportement du site :
+- **Popup** : activer/désactiver, délai d'apparition
+- **Cookies** : bandeau de consentement
+- **Maintenance** : mode maintenance du site
+- **SEO** : titre, description et mots-clés meta
+- **Analytics** : code de suivi (Google Analytics, etc.)
 
 ### Édition de Contenu
 
