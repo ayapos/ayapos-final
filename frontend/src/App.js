@@ -10,7 +10,7 @@ import { Toaster } from './components/ui/toaster';
 import { AuthProvider } from './context/AuthContext';
 
 // Pages
-import Home from './pages/HomeDynamic';
+import Home from './pages/Home';
 import POSSystems from './pages/POSSystems';
 import Digital from './pages/Digital';
 import AyaPay from './pages/AyaPay';
