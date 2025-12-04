@@ -1,11 +1,41 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Tablet, Wifi, Battery, Zap } from 'lucide-react';
+import { ArrowRight, Tablet, Wifi, Battery, Zap, Smartphone, Check, Users, Clock, Loader2 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
+import { usePageContent } from '../hooks/usePageContent';
 
 const WaiterTerminal = () => {
+  const { content, loading } = usePageContent('waiter-terminal');
+  
+  if (loading) {
+    return (
+      <div className="min-h-screen pt-16 flex items-center justify-center">
+        <Loader2 className="h-12 w-12 animate-spin text-blue-600" />
+      </div>
+    );
+  }
+  
+  const pageContent = content || {};
+  const features = pageContent.features || [];
+  const benefits = pageContent.benefits || [];
+  
+  // Icônes par défaut si pas de features
+  const defaultFeatures = [
+    { icon: 'Tablet', title: 'Interface tactile', description: 'Facile et rapide à utiliser' },
+    { icon: 'Wifi', title: 'Connexion WiFi', description: 'Synchronisation en temps réel' },
+    { icon: 'Battery', title: 'Autonomie longue', description: 'Batterie toute la journée' },
+    { icon: 'Zap', title: 'Prise de commande rapide', description: 'Service plus efficace' }
+  ];
+  
+  const displayFeatures = features.length > 0 ? features : defaultFeatures;
+  
+  const iconMap = { 
+    Tablet, Wifi, Battery, Zap, Smartphone, Check, Users, Clock,
+    ArrowRight 
+  };
+  
   return (
     <div className="min-h-screen pt-16">
       <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-24">
@@ -13,12 +43,23 @@ const WaiterTerminal = () => {
           <Badge className="bg-blue-500 text-white border-none mb-6">
             Solution Mobile
           </Badge>
-          <h1 className="text-5xl font-bold mb-6">Terminal Serveur</h1>
+          <h1 className="text-5xl font-bold mb-6">
+            {pageContent.hero_title || 'Terminal Serveur'}
+          </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
-            Tablette mobile pour serveurs - Prenez les commandes directement à table
+            {pageContent.hero_subtitle || 'Tablette mobile pour serveurs - Prenez les commandes directement à table'}
           </p>
+          {pageContent.hero_image && (
+            <div className="max-w-4xl mx-auto mt-8">
+              <img 
+                src={pageContent.hero_image} 
+                alt="Terminal Serveur"
+                className="rounded-lg shadow-2xl w-full"
+              />
+            </div>
+          )}
           <Link to="/contact">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 mt-8">
               Demander une démo <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </Link>
