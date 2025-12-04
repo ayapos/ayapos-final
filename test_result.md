@@ -309,7 +309,7 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Improved admin handlers with compact modals testing completed successfully"
+    - "Admin panel carousel endpoint fix and data loading testing completed successfully"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
