@@ -281,32 +281,73 @@ const PricingManager = () => {
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {plans.map((plan) => (
-                <div key={plan.id} className={`border-2 rounded-lg p-6 ${plan.highlighted ? 'border-blue-500 shadow-lg' : 'border-gray-200'}`}>
+                <div 
+                  key={plan.id} 
+                  className={`relative border-2 rounded-lg p-6 transition-all ${
+                    editingPlan?.id === plan.id 
+                      ? 'border-blue-500 bg-blue-50 shadow-lg ring-2 ring-blue-200' 
+                      : plan.highlighted 
+                      ? 'border-blue-500 shadow-lg' 
+                      : 'border-gray-200 hover:border-blue-300'
+                  }`}
+                >
+                  {editingPlan?.id === plan.id && (
+                    <div className="absolute -top-3 right-4 bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                      ✏️ En cours d'édition
+                    </div>
+                  )}
+                  
                   {plan.badge && (
                     <div className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold mb-4">
                       {plan.badge}
                     </div>
                   )}
+                  
                   <h3 className="text-xl font-bold mb-2">{plan.name}</h3>
-                  <div className="text-3xl font-bold mb-2">
+                  
+                  <div className="text-3xl font-bold mb-2 text-blue-600">
                     {plan.price} {plan.currency}
                     <span className="text-sm font-normal text-gray-600">/{plan.period}</span>
                   </div>
-                  <p className="text-gray-600 text-sm mb-4">{plan.description}</p>
-                  <ul className="space-y-2 mb-6">
-                    {plan.features?.map((feature, idx) => (
-                      <li key={idx} className={`flex items-center text-sm ${feature.included ? 'text-gray-700' : 'text-gray-400 line-through'}`}>
-                        <span className="mr-2">{feature.included ? '✓' : '✗'}</span>
-                        {feature.text}
-                      </li>
-                    ))}
+                  
+                  <p className="text-gray-600 text-sm mb-4 min-h-[40px]">{plan.description || 'Aucune description'}</p>
+                  
+                  <ul className="space-y-2 mb-6 min-h-[80px]">
+                    {plan.features && plan.features.length > 0 ? (
+                      plan.features.slice(0, 4).map((feature, idx) => (
+                        <li key={idx} className={`flex items-center text-sm ${feature.included ? 'text-gray-700' : 'text-gray-400 line-through'}`}>
+                          <span className="mr-2">{feature.included ? '✓' : '✗'}</span>
+                          {feature.text}
+                        </li>
+                      ))
+                    ) : (
+                      <li className="text-sm text-gray-400">Aucune fonctionnalité</li>
+                    )}
+                    {plan.features && plan.features.length > 4 && (
+                      <li className="text-sm text-gray-500">+ {plan.features.length - 4} autres...</li>
+                    )}
                   </ul>
+                  
                   <div className="flex space-x-2">
-                    <Button onClick={() => setEditingPlan(plan)} variant="outline" className="flex-1">Éditer</Button>
-                    <Button onClick={() => deletePlan(plan.id)} variant="ghost" className="text-red-600"><Trash2 className="h-4 w-4" /></Button>
+                    <Button 
+                      onClick={() => setEditingPlan(plan)} 
+                      variant={editingPlan?.id === plan.id ? "default" : "outline"} 
+                      className={`flex-1 ${editingPlan?.id === plan.id ? 'bg-blue-600' : ''}`}
+                    >
+                      {editingPlan?.id === plan.id ? 'Édition en cours...' : 'Éditer'}
+                    </Button>
+                    <Button 
+                      onClick={() => deletePlan(plan.id)} 
+                      variant="ghost" 
+                      className="text-red-600 hover:bg-red-50"
+                    >
+                      <Trash2 className="h-4 w-4" />
+                    </Button>
                   </div>
                 </div>
               ))
+                </div>
+              </div>
             )}
           </div>
         )}
