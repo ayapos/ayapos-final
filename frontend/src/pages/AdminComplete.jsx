@@ -659,8 +659,16 @@ const AdminComplete = () => {
                 </CardContent>
               </Card>
             )}
-            {/* SECTION HERO */}
-            <Card>
+
+            {/* ÉDITEUR DYNAMIQUE - S'adapte automatiquement à la structure des données */}
+            {Object.keys(pageData).length > 0 ? (
+              <DynamicEditor 
+                data={pageData} 
+                onUpdate={handleUpdateData}
+                onImageUpload={handleImageUpload}
+              />
+            ) : (
+              <Card>
               <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
                 <CardTitle className="text-2xl flex items-center gap-2">
                   <ImageIcon className="h-6 w-6" />
