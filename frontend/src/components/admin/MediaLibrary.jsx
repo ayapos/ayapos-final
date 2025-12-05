@@ -66,7 +66,7 @@ const MediaLibrary = () => {
         const formData = new FormData();
         formData.append('file', file);
 
-        await axios.post(`${API_URL}/api/upload`, formData, {
+        await axios.post(`${API_URL}/api/upload/image`, formData, {
           headers: {
             Authorization: `Bearer ${token}`,
             'Content-Type': 'multipart/form-data'
