@@ -237,7 +237,7 @@ const AIAssistantModern = ({ currentPage, onContentUpdate }) => {
               <button
                 onClick={handleSend}
                 disabled={!input.trim() || isLoading}
-                className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-3.5 rounded-2xl hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed flex-shrink-0"
+                className="bg-gradient-to-r from-blue-700 to-blue-800 text-white p-3.5 rounded-2xl hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed flex-shrink-0"
               >
                 <Send className="h-5 w-5" />
               </button>
