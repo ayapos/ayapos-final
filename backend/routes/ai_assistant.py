@@ -74,57 +74,29 @@ Réponds à la demande de l'utilisateur de manière claire et actionnable."""
 
         # Utiliser emergentintegrations correctement
         try:
-            from emergentintegrations.openai_wrapper import chat_completion_request
+            from emergentintegrations.llm.chat import LlmChat, UserMessage
             
-            # Appel avec emergentintegrations
-            response_data = await chat_completion_request(
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": request.message}
-                ],
-                model="gpt-4o-mini",
-                temperature=0.7,
-                max_tokens=500
+            # Créer une instance de chat
+            chat = LlmChat(
+                api_key=llm_key,
+                session_id=f"admin-{request.currentPage}",
+                system_message=system_prompt
             )
             
-            # Extraire le message de la réponse
-            if response_data and "choices" in response_data:
-                ai_message = response_data["choices"][0]["message"]["content"]
-                return ChatResponse(
-                    message=ai_message,
-                    contentUpdated=False
-                )
-            else:
-                raise Exception("Format de réponse invalide")
-                
-        except ImportError as import_err:
-            print(f"Erreur import emergentintegrations: {import_err}")
-            # Utiliser litellm comme fallback
-            try:
-                import litellm
-                
-                response = await litellm.acompletion(
-                    model="gpt-4o-mini",
-                    messages=[
-                        {"role": "system", "content": system_prompt},
-                        {"role": "user", "content": request.message}
-                    ],
-                    api_key=llm_key,
-                    temperature=0.7,
-                    max_tokens=500
-                )
-                
-                ai_message = response.choices[0].message.content
-                return ChatResponse(
-                    message=ai_message,
-                    contentUpdated=False
-                )
-            except Exception as litellm_error:
-                print(f"Erreur litellm: {litellm_error}")
-                raise litellm_error
+            # Envoyer le message
+            ai_message = await chat.send_message(
+                user_message=UserMessage(text=request.message)
+            )
+            
+            return ChatResponse(
+                message=ai_message,
+                contentUpdated=False
+            )
                 
         except Exception as e:
-            print(f"Erreur chat completion: {str(e)}")
+            print(f"Erreur chat AI: {str(e)}")
+            import traceback
+            traceback.print_exc()
             raise e
     
     except httpx.TimeoutException:
