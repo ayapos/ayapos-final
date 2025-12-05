@@ -193,7 +193,7 @@ const AIAssistantModern = ({ currentPage, onContentUpdate }) => {
                 
                 {message.role === 'user' && (
                   <div className="flex-shrink-0">
-                    <div className="bg-gradient-to-br from-blue-600 to-indigo-600 text-white p-2.5 rounded-2xl shadow-lg">
+                    <div className="bg-gradient-to-br from-blue-700 to-blue-800 text-white p-2.5 rounded-2xl shadow-lg">
                       <User className="h-5 w-5" />
                     </div>
                   </div>
