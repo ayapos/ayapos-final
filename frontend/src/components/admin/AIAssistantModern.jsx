@@ -121,11 +121,11 @@ const AIAssistantModern = ({ currentPage, onContentUpdate }) => {
       {/* Chat Window - Design Moderne Style Messenger */}
       {isOpen && !isMinimized && (
         <div 
-          className="fixed bottom-8 right-8 w-[420px] h-[650px] bg-white rounded-3xl shadow-2xl flex flex-col overflow-hidden border border-gray-100"
+          className="fixed bottom-8 left-1/2 transform -translate-x-1/2 w-[480px] h-[650px] bg-white rounded-3xl shadow-2xl flex flex-col overflow-hidden border border-gray-100"
           style={{ zIndex: 10000 }}
         >
           {/* Header avec gradient */}
-          <div className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 p-6 relative overflow-hidden">
+          <div className="bg-gradient-to-r from-blue-700 to-blue-800 p-6 relative overflow-hidden">
             {/* Animated background */}
             <div className="absolute inset-0 opacity-20">
               <div className="absolute top-0 left-0 w-40 h-40 bg-white rounded-full blur-3xl animate-pulse"></div>
