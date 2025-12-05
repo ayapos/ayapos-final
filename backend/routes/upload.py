@@ -186,6 +186,7 @@ async def upload_multiple_images(
     
     uploaded_files = []
     errors = []
+    db = await get_db()
     
     for file in files:
         try:
@@ -206,6 +207,19 @@ async def upload_multiple_images(
                 f.write(contents)
             
             file_url = f"/uploads/{unique_filename}"
+            
+            # Save metadata to MongoDB
+            upload_doc = {
+                "filename": file.filename,
+                "unique_filename": unique_filename,
+                "url": file_url,
+                "path": str(file_path),
+                "size": file_size,
+                "uploadedBy": email,
+                "uploadedAt": datetime.now(timezone.utc).isoformat()
+            }
+            await db.uploads.insert_one(upload_doc)
+            
             uploaded_files.append({
                 "original_name": file.filename,
                 "filename": unique_filename,
