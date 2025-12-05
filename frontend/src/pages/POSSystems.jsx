@@ -58,7 +58,7 @@ const POSSystems = () => {
               };
 
               // Use product image if available, otherwise fallback
-              const imageUrl = pkg.image || posImages[pkg.id] || 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800';
+              const imageUrl = pkg.image || posImages[pkg.id] || 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=800';
 
               return (
               <Card key={pkg.id} className={`relative overflow-hidden ${
@@ -88,7 +88,7 @@ const POSSystems = () => {
                     alt={pkg.name}
                     className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                     onError={(e) => {
-                      e.target.src = 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800';
+                      e.target.src = 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=800';
                     }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>

@@ -84,7 +84,7 @@ const WebPortalComplete = () => {
             <div className="relative">
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop" 
+                  src="https://images.unsplash.com/photo-1759752394755-1241472b589d?w=800&h=600&fit=crop" 
                   alt="Web Portal"
                   className="w-full h-auto"
                 />

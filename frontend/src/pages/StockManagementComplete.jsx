@@ -74,7 +74,7 @@ const StockManagementComplete = () => {
             <div className="relative">
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop" 
+                  src="https://images.unsplash.com/photo-1740914994657-f1cdffdc418e?w=800&h=600&fit=crop" 
                   alt="Stock Management"
                   className="w-full h-auto"
                 />
@@ -272,7 +272,7 @@ const StockManagementComplete = () => {
               </div>
               <div className="hidden md:block">
                 <img 
-                  src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-1740914994657-f1cdffdc418e?w=600&h=400&fit=crop"
                   alt="Alert System"
                   className="rounded-2xl shadow-2xl"
                 />

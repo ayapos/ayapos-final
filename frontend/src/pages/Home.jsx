@@ -24,19 +24,19 @@ const Home = () => {
     ? heroSlidesFromDB.map(slide => ({ image: slide.image, alt: slide.title }))
     : [
         {
-          image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80',
+          image: 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=800&q=80',
           alt: 'POS System 1'
         },
         {
-          image: 'https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&q=80',
+          image: 'https://images.unsplash.com/photo-1728044849321-4cbffc50cc1d?w=800&q=80',
           alt: 'POS System 2'
         },
         {
-          image: 'https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=800&q=80',
+          image: 'https://images.unsplash.com/photo-1629248242732-592ecc9cc00f?w=800&q=80',
           alt: 'POS System 3'
         },
         {
-          image: 'https://images.unsplash.com/photo-1556741533-f6acd646dcec?w=800&q=80',
+          image: 'https://images.unsplash.com/photo-1609951734391-b79a50460c6c?w=800&q=80',
           alt: 'Payment Terminal'
         }
       ];

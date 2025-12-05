@@ -35,17 +35,17 @@ const OrderSystemNew = () => {
     {
       title: 'Gérez toutes vos commandes sur un seul écran',
       description: 'Centralisez la gestion de toutes vos commandes: sur place, à emporter, livraison, et commandes en ligne depuis les plateformes de livraison.',
-      image: 'https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1629248242732-592ecc9cc00f?w=800&q=80'
     },
     {
       title: 'Intégrations avec les plateformes de livraison',
       description: 'Connectez-vous automatiquement avec Uber Eats, Deliveroo, Just Eat et autres plateformes. Toutes vos commandes apparaissent sur le même écran.',
-      image: 'https://images.unsplash.com/photo-1556741533-f6acd646dcec?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1609951734391-b79a50460c6c?w=800&q=80'
     },
     {
       title: 'Optimisez la préparation et réduisez les erreurs',
       description: 'Système de tickets cuisine (KDS) pour une préparation optimale. Notifications automatiques et suivi en temps réel de chaque commande.',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=800&q=80'
     }
   ];
 
@@ -209,7 +209,7 @@ const OrderSystemNew = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=800&q=80"
+                src="https://images.unsplash.com/photo-1629248242732-592ecc9cc00f?w=800&q=80"
                 alt="Système de Commande"
                 className="rounded-2xl shadow-2xl"
               />

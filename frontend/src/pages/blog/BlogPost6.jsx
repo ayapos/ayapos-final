@@ -39,7 +39,7 @@ const BlogPost6 = () => {
       <section className="container mx-auto px-4 -mt-12">
         <div className="max-w-5xl mx-auto">
           <img 
-            src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=1200&h=600&fit=crop"
+            src="https://images.unsplash.com/photo-1629248242732-592ecc9cc00f?w=1200&h=600&fit=crop"
             alt="QR Code Restaurant"
             className="w-full h-96 object-cover rounded-2xl shadow-2xl"
           />

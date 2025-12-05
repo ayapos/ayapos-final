@@ -96,7 +96,7 @@ const MobileReportsComplete = () => {
             <div className="relative">
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop" 
+                  src="https://images.unsplash.com/photo-1759752394755-1241472b589d?w=800&h=600&fit=crop" 
                   alt="Mobile Reports"
                   className="w-full h-auto"
                 />

@@ -20,21 +20,21 @@ const HardwareDevices = () => {
       category: 'pos',
       name: 'Sunmi D3 Pro Android POS',
       screen: '15.6"',
-      image: 'https://images.unsplash.com/photo-1556742111-a301076d9d18?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1728044849321-4cbffc50cc1d?w=400&h=300&fit=crop',
       description: t('hardwareDevices.devices.sunmiD3Pro')
     },
     {
       category: 'pos',
       name: 'Sunmi D3 Mini Android POS',
       screen: '10.1"',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=400&h=300&fit=crop',
       description: t('hardwareDevices.devices.sunmiD3Mini')
     },
     {
       category: 'pos',
       name: 'iMin Swan 1 Android POS',
       screen: '15.6"',
-      image: 'https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1629248242732-592ecc9cc00f?w=400&h=300&fit=crop',
       description: t('hardwareDevices.devices.iMinSwan')
     },
     {
@@ -48,7 +48,7 @@ const HardwareDevices = () => {
       category: 'pos',
       name: 'iMin D2 Android POS',
       screen: '10.1"',
-      image: 'https://images.unsplash.com/photo-1556740772-1a741367b93e?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1726056652582-7c9d202d4018?w=400&h=300&fit=crop',
       description: t('hardwareDevices.devices.iMinD2')
     },
     {
@@ -69,7 +69,7 @@ const HardwareDevices = () => {
       category: 'kiosk',
       name: 'Wintec SelfPOS 10 Kiosk',
       screen: '15.6"',
-      image: 'https://images.unsplash.com/photo-1556742111-a301076d9d18?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1728044849321-4cbffc50cc1d?w=400&h=300&fit=crop',
       description: t('hardwareDevices.devices.wintecSelfpos10')
     },
     {
@@ -83,7 +83,7 @@ const HardwareDevices = () => {
       category: 'kiosk',
       name: 'PAX SK800 Kiosk',
       screen: '23.8"',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=400&h=300&fit=crop',
       description: t('hardwareDevices.devices.paxSk800')
     },
     {
@@ -139,7 +139,7 @@ const HardwareDevices = () => {
       category: 'pos',
       name: 'PAVO N86 POS Terminal',
       screen: '5.0"',
-      image: 'https://images.unsplash.com/photo-1556742111-a301076d9d18?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1728044849321-4cbffc50cc1d?w=400&h=300&fit=crop',
       description: t('hardwareDevices.devices.pavoN86')
     },
     {
@@ -153,7 +153,7 @@ const HardwareDevices = () => {
       category: 'pos',
       name: 'PAX A920 Pro',
       screen: '5.5"',
-      image: 'https://images.unsplash.com/photo-1556740772-1a741367b93e?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1726056652582-7c9d202d4018?w=400&h=300&fit=crop',
       description: t('hardwareDevices.devices.paxA920Pro')
     }
   ];

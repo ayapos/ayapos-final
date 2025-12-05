@@ -35,17 +35,17 @@ const WaiterTerminalNew = () => {
     {
       title: 'Prenez les commandes directement à table',
       description: 'Vos serveurs prennent les commandes sur tablette ou smartphone, directement auprès des clients. Les commandes arrivent instantanément en cuisine.',
-      image: 'https://images.unsplash.com/photo-1556741533-f6acd646dcec?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1609951734391-b79a50460c6c?w=800&q=80'
     },
     {
       title: 'Service plus rapide, clients plus satisfaits',
       description: 'Réduisez le temps de prise de commande de 40%. Vos serveurs passent plus de temps avec les clients et moins de temps à aller-retour vers le POS.',
-      image: 'https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1629248242732-592ecc9cc00f?w=800&q=80'
     },
     {
       title: 'Synchronisation en temps réel avec la cuisine',
       description: 'Les commandes sont immédiatement transmises à la cuisine et au bar. Suivi en temps réel de l\'état de chaque plat.',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=800&q=80'
     }
   ];
 
@@ -243,7 +243,7 @@ const WaiterTerminalNew = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1556741533-f6acd646dcec?w=800&q=80"
+                src="https://images.unsplash.com/photo-1609951734391-b79a50460c6c?w=800&q=80"
                 alt="Terminal Serveur"
                 className="rounded-2xl shadow-2xl"
               />

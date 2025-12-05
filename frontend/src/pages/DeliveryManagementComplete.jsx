@@ -159,7 +159,7 @@ const DeliveryManagementComplete = () => {
 
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=600&fit=crop"
+              src="https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=1200&h=600&fit=crop"
               alt="Order Tracking"
               className="w-full h-auto"
             />
@@ -185,7 +185,7 @@ const DeliveryManagementComplete = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&h=600&fit=crop"
+                src="https://images.unsplash.com/photo-1728044849321-4cbffc50cc1d?w=800&h=600&fit=crop"
                 alt="Payment Methods"
                 className="rounded-2xl shadow-2xl"
               />
@@ -250,7 +250,7 @@ const DeliveryManagementComplete = () => {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop"
+                src="https://images.unsplash.com/photo-1593929976216-f746e488aa45?w=800&h=600&fit=crop"
                 alt="Courier Management"
                 className="rounded-2xl shadow-2xl"
               />

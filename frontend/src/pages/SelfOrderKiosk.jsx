@@ -34,17 +34,17 @@ const SelfOrderKiosk = () => {
     {
       title: 'Augmentez vos ventes avec le Self-Order Kiosk',
       description: 'Les bornes de commande self-service augmentent le panier moyen de 25% grâce aux suggestions intelligentes de produits complémentaires.',
-      image: 'https://images.unsplash.com/photo-1556742400-b5a5f5d92bb4?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1764795849694-34b3316b3de4?w=800&q=80'
     },
     {
       title: 'Réduisez les files d\'attente et le temps d\'attente',
       description: 'Les clients passent leurs commandes rapidement via l\'interface tactile intuitive, réduisant les files d\'attente de 60%.',
-      image: 'https://images.unsplash.com/photo-1556741533-f6acd646dcec?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1609951734391-b79a50460c6c?w=800&q=80'
     },
     {
       title: 'Libérez votre personnel pour un meilleur service',
       description: 'Vos employés peuvent se concentrer sur la préparation des commandes et le service client plutôt que sur la prise de commandes.',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=800&q=80'
     }
   ];
 
@@ -214,7 +214,7 @@ const SelfOrderKiosk = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1556742400-b5a5f5d92bb4?w=800&q=80"
+                src="https://images.unsplash.com/photo-1764795849694-34b3316b3de4?w=800&q=80"
                 alt="Self-Order Kiosk"
                 className="rounded-2xl shadow-2xl"
               />
