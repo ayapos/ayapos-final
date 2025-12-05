@@ -253,7 +253,7 @@ const AIAssistantModern = ({ currentPage, onContentUpdate }) => {
       {isOpen && isMinimized && (
         <div 
           onClick={() => setIsMinimized(false)}
-          className="fixed bottom-8 right-8 bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-4 rounded-2xl shadow-2xl cursor-pointer hover:scale-105 transition-transform"
+          className="fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-blue-700 to-blue-800 text-white p-4 rounded-2xl shadow-2xl cursor-pointer hover:scale-105 transition-transform"
           style={{ zIndex: 10000 }}
         >
           <div className="flex items-center gap-3">
