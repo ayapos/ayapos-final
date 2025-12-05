@@ -181,7 +181,7 @@ const AIAssistantModern = ({ currentPage, onContentUpdate }) => {
                 <div
                   className={`max-w-[75%] rounded-3xl px-5 py-3 shadow-sm ${
                     message.role === 'user'
-                      ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-br-md'
+                      ? 'bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-br-md'
                       : 'bg-white text-gray-800 rounded-bl-md border border-gray-100'
                   }`}
                 >
