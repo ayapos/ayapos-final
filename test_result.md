@@ -372,9 +372,9 @@ metadata:
 
 test_plan:
   current_focus:
-    - "AI Agent Integration in Admin Panel - LLM integration needs fixing"
+    - "AI Agent Integration in Admin Panel - Frontend React state management issue"
   stuck_tasks:
-    - "AI Agent Integration in Admin Panel - Backend LLM key retrieval failing"
+    - "AI Agent Integration in Admin Panel - Chat window not opening on button click"
   test_all: false
   test_priority: "high_first"
 
