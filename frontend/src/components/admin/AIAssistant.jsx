@@ -4,6 +4,11 @@ import axios from 'axios';
 
 const AIAssistant = ({ currentPage, onContentUpdate }) => {
   const [isOpen, setIsOpen] = useState(false);
+  
+  // Debug: Log quand le composant se monte
+  useEffect(() => {
+    console.log("AIAssistant monté, isOpen:", isOpen);
+  }, [isOpen]);
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
