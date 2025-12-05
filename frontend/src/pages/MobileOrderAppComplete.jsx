@@ -424,7 +424,7 @@ const MobileOrderAppComplete = () => {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80"
+                src="https://images.unsplash.com/photo-1556742208-999815fca738?w=800&q=80"
                 alt="Paiement sécurisé"
                 className="rounded-2xl shadow-2xl"
               />
