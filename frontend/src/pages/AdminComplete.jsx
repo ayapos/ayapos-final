@@ -452,18 +452,21 @@ const AdminComplete = () => {
 
   const renderEditor = () => {
     const currentPageInfo = allPages.find(p => p.slug === selectedPage);
-    const isHomePage = selectedPage === 'home';
     
     if (loading) {
       return (
         <div className="flex items-center justify-center h-full">
           <div className="text-center">
-            <div className="animate-spin rounded-full h-16 w-16 border-b-4 border-blue-600 mx-auto mb-4"></div>
+            <Loader2 className="animate-spin rounded-full h-16 w-16 border-b-4 border-blue-600 mx-auto mb-4" />
             <p className="text-gray-600">Chargement de la page...</p>
           </div>
         </div>
       );
     }
+
+    const handleUpdateData = (newData) => {
+      setPageData(newData);
+    };
 
     return (
       <div className="h-full flex flex-col">
@@ -471,7 +474,7 @@ const AdminComplete = () => {
         <div className="bg-white border-b px-8 py-6 flex items-center justify-between sticky top-0 z-10 shadow-sm">
           <div>
             <h2 className="text-3xl font-bold text-gray-900">{currentPageInfo?.name}</h2>
-            <p className="text-gray-600 mt-1">✏️ Modifiez TOUT : Photos, Textes, Sections</p>
+            <p className="text-gray-600 mt-1">✏️ Éditeur intelligent - modifiez tout le contenu de la page</p>
           </div>
           <div className="flex gap-3">
             <Button 
@@ -490,8 +493,17 @@ const AdminComplete = () => {
               size="lg"
               className="px-8 bg-green-600 hover:bg-green-700"
             >
-              <Save className="h-5 w-5 mr-2" />
-              {saving ? 'Publication...' : '💾 Sauvegarder et Publier'}
+              {saving ? (
+                <>
+                  <Loader2 className="h-5 w-5 mr-2 animate-spin" />
+                  Publication...
+                </>
+              ) : (
+                <>
+                  <Save className="h-5 w-5 mr-2" />
+                  💾 Sauvegarder et Publier
+                </>
+              )}
             </Button>
           </div>
         </div>
