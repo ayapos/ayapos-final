@@ -72,60 +72,60 @@ IMPORTANT :
 
 Réponds à la demande de l'utilisateur de manière claire et actionnable."""
 
-        # Utiliser emergentintegrations pour appeler l'API
+        # Utiliser emergentintegrations correctement
         try:
-            from emergentintegrations import chat_completion
+            from emergentintegrations.openai_wrapper import chat_completion_request
             
-            result = chat_completion(
-                model="gpt-4o-mini",
+            # Appel avec emergentintegrations
+            response_data = await chat_completion_request(
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": request.message}
                 ],
+                model="gpt-4o-mini",
                 temperature=0.7,
                 max_tokens=500
             )
             
-            ai_message = result["choices"][0]["message"]["content"]
-            
-            return ChatResponse(
-                message=ai_message,
-                contentUpdated=False
-            )
-        except Exception as integ_error:
-            print(f"Erreur emergentintegrations: {integ_error}")
-            # Fallback: essayer avec l'API OpenAI directement si la clé ressemble à une clé OpenAI
-            if llm_key.startswith("sk-proj-") or llm_key.startswith("sk-") and not llm_key.startswith("sk-emergent"):
-                async with httpx.AsyncClient(timeout=30.0) as client:
-                    response = await client.post(
-                        "https://api.openai.com/v1/chat/completions",
-                        headers={
-                            "Authorization": f"Bearer {llm_key}",
-                            "Content-Type": "application/json"
-                        },
-                        json={
-                            "model": "gpt-4o-mini",
-                            "messages": [
-                                {"role": "system", "content": system_prompt},
-                                {"role": "user", "content": request.message}
-                            ],
-                            "temperature": 0.7,
-                            "max_tokens": 500
-                        }
-                    )
-                    
-                    if response.status_code != 200:
-                        raise Exception(f"OpenAI API error: {response.status_code}")
-                    
-                    result = response.json()
-                    ai_message = result["choices"][0]["message"]["content"]
-                    
-                    return ChatResponse(
-                        message=ai_message,
-                        contentUpdated=False
-                    )
+            # Extraire le message de la réponse
+            if response_data and "choices" in response_data:
+                ai_message = response_data["choices"][0]["message"]["content"]
+                return ChatResponse(
+                    message=ai_message,
+                    contentUpdated=False
+                )
             else:
-                raise integ_error
+                raise Exception("Format de réponse invalide")
+                
+        except ImportError as import_err:
+            print(f"Erreur import emergentintegrations: {import_err}")
+            # Utiliser litellm comme fallback
+            try:
+                import litellm
+                
+                response = await litellm.acompletion(
+                    model="gpt-4o-mini",
+                    messages=[
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": request.message}
+                    ],
+                    api_key=llm_key,
+                    temperature=0.7,
+                    max_tokens=500
+                )
+                
+                ai_message = response.choices[0].message.content
+                return ChatResponse(
+                    message=ai_message,
+                    contentUpdated=False
+                )
+            except Exception as litellm_error:
+                print(f"Erreur litellm: {litellm_error}")
+                raise litellm_error
+                
+        except Exception as e:
+            print(f"Erreur chat completion: {str(e)}")
+            raise e
     
     except httpx.TimeoutException:
         return ChatResponse(
