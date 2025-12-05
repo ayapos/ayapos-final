@@ -155,7 +155,7 @@ const CallbackPopup = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-4 rounded-lg transition-all transform hover:scale-105 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl"
+                className="w-full bg-blue-700 hover:bg-blue-800 text-white font-bold py-4 rounded-lg transition-all transform hover:scale-105 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl"
               >
                 {isSubmitting ? (
                   <span className="flex items-center justify-center">
