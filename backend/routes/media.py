@@ -20,6 +20,7 @@ async def get_db():
 async def get_all_images():
     """Récupérer toutes les images de la bibliothèque"""
     try:
+        db = await get_db()
         # Récupérer toutes les images uploadées
         images_cursor = db.uploads.find({}).sort("uploadedAt", -1)
         images = await images_cursor.to_list(length=1000)
