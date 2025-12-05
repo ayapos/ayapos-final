@@ -1070,7 +1070,7 @@ const AdminComplete = () => {
             <Card>
               <CardHeader className="bg-gradient-to-r from-orange-50 to-red-50">
                 <CardTitle className="text-2xl">🚀 Call-to-Action Final</CardTitle>
-                <CardDescription>Message final pour inciter à l'action</CardDescription>
+                <CardDescription>Message final pour inciter à l&apos;action</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4 pt-6">
                 <div>
