@@ -314,24 +314,60 @@ const DynamicEditor = ({ data, onUpdate, onImageUpload }) => {
     if (key.toLowerCase().includes('image') || key.toLowerCase().includes('photo') ||
         (typeof value === 'string' && (value.startsWith('http') || value.startsWith('/')) && 
          (value.includes('.jpg') || value.includes('.png') || value.includes('.webp') || value.includes('.jpeg')))) {
+      const fullPath = `${arrayPath}.${index}.${key}`;
       return (
         <div key={key} className="space-y-2">
           <Label className="text-sm font-semibold text-gray-700">{formatLabel(key)}</Label>
           {value && (
-            <img 
-              src={value} 
-              alt={formatLabel(key)}
-              className="w-full h-32 object-cover rounded-lg border"
-              onError={(e) => {
-                e.target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Crect fill="%23ddd" width="200" height="200"/%3E%3Ctext fill="%23999" x="50%25" y="50%25" dominant-baseline="middle" text-anchor="middle"%3EImage%3C/text%3E%3C/svg%3E';
-              }}
-            />
+            <div className="relative">
+              <img 
+                src={value} 
+                alt={formatLabel(key)}
+                className="w-full h-32 object-cover rounded-lg border"
+                onError={(e) => {
+                  e.target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Crect fill="%23ddd" width="200" height="200"/%3E%3Ctext fill="%23999" x="50%25" y="50%25" dominant-baseline="middle" text-anchor="middle"%3EImage%3C/text%3E%3C/svg%3E';
+                }}
+              />
+              <Button
+                size="sm"
+                variant="destructive"
+                className="absolute top-2 right-2"
+                onClick={() => updateArrayItem(arrayPath, index, key, '')}
+              >
+                <Trash2 className="h-4 w-4" />
+              </Button>
+            </div>
           )}
-          <Input
-            value={value || ''}
-            onChange={(e) => updateArrayItem(arrayPath, index, key, e.target.value)}
-            placeholder="URL de l'image"
-          />
+          <div className="flex gap-2">
+            <Input
+              value={value || ''}
+              onChange={(e) => updateArrayItem(arrayPath, index, key, e.target.value)}
+              placeholder="URL de l'image"
+            />
+            {onImageUpload && (
+              <>
+                <Button 
+                  variant="outline"
+                  onClick={() => document.getElementById(`upload-${fullPath.replace(/\./g, '-')}`).click()}
+                >
+                  <Upload className="h-4 w-4 mr-2" />
+                  Upload
+                </Button>
+                <input
+                  id={`upload-${fullPath.replace(/\./g, '-')}`}
+                  type="file"
+                  accept="image/*"
+                  className="hidden"
+                  onChange={(e) => {
+                    if (e.target.files && e.target.files[0]) {
+                      onImageUpload(e.target.files[0], fullPath);
+                      e.target.value = '';
+                    }
+                  }}
+                />
+              </>
+            )}
+          </div>
         </div>
       );
     }
