@@ -1,17 +1,23 @@
-from fastapi import APIRouter, HTTPException, Depends
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import List, Optional
 from datetime import datetime
 from bson import ObjectId
+from motor.motor_asyncio import AsyncIOMotorClient
 import os
 
 router = APIRouter(prefix="/api/media", tags=["media"])
 
-# Dépendance pour obtenir la DB (à importer depuis server.py)
-from server import get_database
+# Connexion MongoDB
+MONGO_URL = os.environ.get('MONGO_URL', 'mongodb://localhost:27017')
+
+async def get_db():
+    """Obtenir la connexion à la base de données"""
+    client = AsyncIOMotorClient(MONGO_URL)
+    return client.test_database
 
 @router.get("/images")
-async def get_all_images(db=Depends(get_database)):
+async def get_all_images():
     """Récupérer toutes les images de la bibliothèque"""
     try:
         # Récupérer toutes les images uploadées
