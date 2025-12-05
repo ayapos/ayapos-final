@@ -159,7 +159,7 @@ const DeliveryManagementComplete = () => {
 
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=1200&h=600&fit=crop"
+              src="https://images.unsplash.com/photo-1598769398698-bab7f1b4cadd-10a1a75cff83?w=1200&h=600&fit=crop"
               alt="Order Tracking"
               className="w-full h-auto"
             />

@@ -35,7 +35,7 @@ const WaiterTerminalNew = () => {
     {
       title: 'Prenez les commandes directement à table',
       description: 'Vos serveurs prennent les commandes sur tablette ou smartphone, directement auprès des clients. Les commandes arrivent instantanément en cuisine.',
-      image: 'https://images.unsplash.com/photo-1609951734391-b79a50460c6c?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1563207153-f403bf289096-b79a50460c6c?w=800&q=80'
     },
     {
       title: 'Service plus rapide, clients plus satisfaits',
@@ -243,7 +243,7 @@ const WaiterTerminalNew = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1609951734391-b79a50460c6c?w=800&q=80"
+                src="https://images.unsplash.com/photo-1563207153-f403bf289096-b79a50460c6c?w=800&q=80"
                 alt="Terminal Serveur"
                 className="rounded-2xl shadow-2xl"
               />

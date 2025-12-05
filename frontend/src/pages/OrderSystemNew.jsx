@@ -35,7 +35,7 @@ const OrderSystemNew = () => {
     {
       title: 'Gérez toutes vos commandes sur un seul écran',
       description: 'Centralisez la gestion de toutes vos commandes: sur place, à emporter, livraison, et commandes en ligne depuis les plateformes de livraison.',
-      image: 'https://images.unsplash.com/photo-1629248242732-592ecc9cc00f?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5-592ecc9cc00f?w=800&q=80'
     },
     {
       title: 'Intégrations avec les plateformes de livraison',
@@ -209,7 +209,7 @@ const OrderSystemNew = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1629248242732-592ecc9cc00f?w=800&q=80"
+                src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5-592ecc9cc00f?w=800&q=80"
                 alt="Système de Commande"
                 className="rounded-2xl shadow-2xl"
               />

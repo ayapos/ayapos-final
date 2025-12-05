@@ -119,11 +119,11 @@ const AyaPay = () => {
               <Card key={terminal.id} className="overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8">
                   <img
-                    src={terminal.image || 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=400&q=80'}
+                    src={terminal.image || 'https://images.unsplash.com/photo-1608286022625-bc07f7a21154-10a1a75cff83?w=400&q=80'}
                     alt={terminal.name}
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                     onError={(e) => {
-                      e.target.src = 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=400&q=80';
+                      e.target.src = 'https://images.unsplash.com/photo-1608286022625-bc07f7a21154-10a1a75cff83?w=400&q=80';
                     }}
                   />
                 </div>

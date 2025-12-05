@@ -56,7 +56,7 @@ const KioskPricing = () => {
       price: '3 499CHF',
       color: 'purple',
       icon: <Tv className="w-16 h-16" />,
-      image: 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=600&h=800&fit=crop',
+      image: 'https://images.unsplash.com/photo-1556742031-c6961e8560b0-10a1a75cff83?w=600&h=800&fit=crop',
       features: [
         t('kioskPricing.models.large.features.0'),
         t('kioskPricing.models.large.features.1'),

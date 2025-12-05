@@ -20,14 +20,14 @@ const HardwareDevices = () => {
       category: 'pos',
       name: 'Sunmi D3 Pro Android POS',
       screen: '15.6"',
-      image: 'https://images.unsplash.com/photo-1728044849321-4cbffc50cc1d?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1739989934256-99e15bee9906-4cbffc50cc1d?w=400&h=300&fit=crop',
       description: t('hardwareDevices.devices.sunmiD3Pro')
     },
     {
       category: 'pos',
       name: 'Sunmi D3 Mini Android POS',
       screen: '10.1"',
-      image: 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1726607288637-a646ddd3814a-10a1a75cff83?w=400&h=300&fit=crop',
       description: t('hardwareDevices.devices.sunmiD3Mini')
     },
     {
@@ -69,7 +69,7 @@ const HardwareDevices = () => {
       category: 'kiosk',
       name: 'Wintec SelfPOS 10 Kiosk',
       screen: '15.6"',
-      image: 'https://images.unsplash.com/photo-1728044849321-4cbffc50cc1d?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1739989934256-99e15bee9906-4cbffc50cc1d?w=400&h=300&fit=crop',
       description: t('hardwareDevices.devices.wintecSelfpos10')
     },
     {
@@ -83,7 +83,7 @@ const HardwareDevices = () => {
       category: 'kiosk',
       name: 'PAX SK800 Kiosk',
       screen: '23.8"',
-      image: 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1726607288637-a646ddd3814a-10a1a75cff83?w=400&h=300&fit=crop',
       description: t('hardwareDevices.devices.paxSk800')
     },
     {
@@ -139,7 +139,7 @@ const HardwareDevices = () => {
       category: 'pos',
       name: 'PAVO N86 POS Terminal',
       screen: '5.0"',
-      image: 'https://images.unsplash.com/photo-1728044849321-4cbffc50cc1d?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1739989934256-99e15bee9906-4cbffc50cc1d?w=400&h=300&fit=crop',
       description: t('hardwareDevices.devices.pavoN86')
     },
     {

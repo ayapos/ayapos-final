@@ -24,7 +24,7 @@ const Home = () => {
     ? heroSlidesFromDB.map(slide => ({ image: slide.image, alt: slide.title }))
     : [
         {
-          image: 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=800&q=80',
+          image: 'https://images.unsplash.com/photo-1693632376342-96ccd26632f1-10a1a75cff83?w=800&q=80',
           alt: 'POS System 1'
         },
         {
