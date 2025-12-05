@@ -230,7 +230,7 @@ const Pricing = () => {
                 
                 <div className="space-y-2">
                   <div className="flex items-baseline justify-center">
-                    <span className="text-4xl font-bold text-gray-900">€29</span>
+                    <span className="text-4xl font-bold text-gray-900">CHF 29</span>
                     <span className="text-gray-600 ml-2">/mois</span>
                   </div>
                   <p className="text-sm text-gray-600">+ frais de transaction</p>
@@ -305,7 +305,7 @@ const Pricing = () => {
                 
                 <div className="space-y-2">
                   <div className="flex items-baseline justify-center">
-                    <span className="text-4xl font-bold text-gray-900">€79</span>
+                    <span className="text-4xl font-bold text-gray-900">CHF 79</span>
                     <span className="text-gray-600 ml-2">/mois</span>
                   </div>
                   <p className="text-sm text-gray-600">+ frais de transaction</p>
