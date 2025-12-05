@@ -209,18 +209,47 @@ const Navbar = () => {
         <div className="md:hidden bg-white border-t border-gray-200">
           <div className="px-4 py-3 space-y-3">
             {navigation.map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                onClick={() => setIsOpen(false)}
-                className={`block px-3 py-2 rounded-md text-base font-medium ${
-                  location.pathname === item.path
-                    ? 'bg-blue-50 text-blue-600'
-                    : 'text-gray-700 hover:bg-gray-50'
-                }`}
-              >
-                {item.name}
-              </Link>
+              item.hasDropdown ? (
+                <div key={item.path} className="space-y-2">
+                  <div className="px-3 py-2 font-semibold text-gray-900 text-sm border-b border-gray-200">
+                    {item.name}
+                  </div>
+                  {item.dropdown.sections.map((section, idx) => (
+                    <div key={idx} className="pl-4 space-y-1">
+                      <div className="text-xs font-medium text-gray-500 mb-1">
+                        {section.title}
+                      </div>
+                      {section.items.map((subItem, subIdx) => {
+                        const Icon = LucideIcons[subItem.icon];
+                        return (
+                          <Link
+                            key={subIdx}
+                            to={subItem.path}
+                            onClick={() => setIsOpen(false)}
+                            className="flex items-center space-x-2 px-3 py-2 rounded-md text-sm hover:bg-blue-50"
+                          >
+                            {Icon && <Icon className="h-4 w-4 text-blue-600" />}
+                            <span className="text-gray-700">{subItem.name}</span>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <Link
+                  key={item.path}
+                  to={item.path}
+                  onClick={() => setIsOpen(false)}
+                  className={`block px-3 py-2 rounded-md text-base font-medium ${
+                    location.pathname === item.path
+                      ? 'bg-blue-50 text-blue-600'
+                      : 'text-gray-700 hover:bg-gray-50'
+                  }`}
+                >
+                  {item.name}
+                </Link>
+              )
             ))}
             <div className="pt-3 border-t border-gray-200">
               <div className="flex items-center space-x-2 mb-3">
