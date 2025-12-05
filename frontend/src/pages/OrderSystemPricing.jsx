@@ -9,7 +9,7 @@ const OrderSystemPricing = () => {
   const plans = [
     {
       name: t('orderSystemPricing.plans.basic.name'),
-      price: '49€',
+      price: '49CHF',
       period: t('orderSystemPricing.perMonth'),
       color: 'blue',
       icon: <Package className="w-12 h-12" />,
@@ -27,7 +27,7 @@ const OrderSystemPricing = () => {
     },
     {
       name: t('orderSystemPricing.plans.standard.name'),
-      price: '99€',
+      price: '99CHF',
       period: t('orderSystemPricing.perMonth'),
       color: 'green',
       icon: <Smartphone className="w-12 h-12" />,
@@ -47,7 +47,7 @@ const OrderSystemPricing = () => {
     },
     {
       name: t('orderSystemPricing.plans.premium.name'),
-      price: '199€',
+      price: '199CHF',
       period: t('orderSystemPricing.perMonth'),
       color: 'purple',
       icon: <Globe className="w-12 h-12" />,

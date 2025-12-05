@@ -9,7 +9,7 @@ const DeliveryServicePricing = () => {
   const plans = [
     {
       name: t('deliveryServicePricing.plans.starter.name'),
-      price: '39€',
+      price: '39CHF',
       period: t('deliveryServicePricing.perMonth'),
       color: 'blue',
       icon: <Package className="w-12 h-12" />,
@@ -26,7 +26,7 @@ const DeliveryServicePricing = () => {
     },
     {
       name: t('deliveryServicePricing.plans.business.name'),
-      price: '79€',
+      price: '79CHF',
       period: t('deliveryServicePricing.perMonth'),
       color: 'green',
       icon: <Truck className="w-12 h-12" />,
@@ -45,7 +45,7 @@ const DeliveryServicePricing = () => {
     },
     {
       name: t('deliveryServicePricing.plans.enterprise.name'),
-      price: '149€',
+      price: '149CHF',
       period: t('deliveryServicePricing.perMonth'),
       color: 'purple',
       icon: <MapPin className="w-12 h-12" />,

@@ -9,7 +9,7 @@ const WaiterTerminalPricing = () => {
   const plans = [
     {
       name: t('waiterTerminalPricing.plans.starter.name'),
-      price: '59€',
+      price: '59CHF',
       period: t('waiterTerminalPricing.perMonth'),
       color: 'blue',
       icon: <Tablet className="w-12 h-12" />,
@@ -28,7 +28,7 @@ const WaiterTerminalPricing = () => {
     },
     {
       name: t('waiterTerminalPricing.plans.professional.name'),
-      price: '119€',
+      price: '119CHF',
       period: t('waiterTerminalPricing.perMonth'),
       color: 'green',
       icon: <Users className="w-12 h-12" />,
@@ -49,7 +49,7 @@ const WaiterTerminalPricing = () => {
     },
     {
       name: t('waiterTerminalPricing.plans.enterprise.name'),
-      price: '219€',
+      price: '219CHF',
       period: t('waiterTerminalPricing.perMonth'),
       color: 'purple',
       icon: <Zap className="w-12 h-12" />,
@@ -98,7 +98,7 @@ const WaiterTerminalPricing = () => {
   const hardwareOptions = [
     {
       name: t('waiterTerminalPricing.hardware.tablet.name'),
-      price: '399€',
+      price: '399CHF',
       description: t('waiterTerminalPricing.hardware.tablet.description'),
       features: [
         t('waiterTerminalPricing.hardware.tablet.features.0'),
@@ -109,7 +109,7 @@ const WaiterTerminalPricing = () => {
     },
     {
       name: t('waiterTerminalPricing.hardware.printer.name'),
-      price: '249€',
+      price: '249CHF',
       description: t('waiterTerminalPricing.hardware.printer.description'),
       features: [
         t('waiterTerminalPricing.hardware.printer.features.0'),
