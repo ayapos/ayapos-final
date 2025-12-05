@@ -468,6 +468,8 @@ const AdminComplete = () => {
       setPageData(newData);
     };
 
+    const isHomePage = selectedPage === 'home';
+
     return (
       <div className="h-full flex flex-col">
         {/* Header fixe */}
