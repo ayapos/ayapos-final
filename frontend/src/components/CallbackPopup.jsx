@@ -83,9 +83,9 @@ const CallbackPopup = () => {
         {/* Close button - Plus visible avec fond et bordure */}
         <button
           onClick={handleClose}
-          className="absolute top-4 right-4 z-10 p-2 rounded-full bg-white hover:bg-gray-100 transition-all shadow-lg border-2 border-gray-200 hover:border-gray-300"
+          className="absolute top-2 right-2 z-10 p-1.5 rounded-full bg-white hover:bg-gray-100 transition-all shadow-md border border-gray-300 hover:border-gray-400"
         >
-          <X className="w-6 h-6 text-gray-800 font-bold" />
+          <X className="w-4 h-4 text-gray-800 font-bold" />
         </button>
 
         {isSuccess ? (
