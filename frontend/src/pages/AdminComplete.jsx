@@ -520,8 +520,8 @@ const AdminComplete = () => {
                 <CardHeader className="bg-gradient-to-r from-purple-50 to-pink-50">
                   <div className="flex items-center justify-between">
                     <div>
-                      <CardTitle className="text-2xl">🎠 Carrousel Hero (Page d'Accueil)</CardTitle>
-                      <CardDescription>Gérez les slides du carrousel de la page d'accueil</CardDescription>
+                      <CardTitle className="text-2xl">🎠 Carrousel Hero (Page d&apos;Accueil)</CardTitle>
+                      <CardDescription>Gérez les slides du carrousel de la page d&apos;accueil</CardDescription>
                     </div>
                     <Button onClick={saveCarouselSlides} disabled={saving} variant="outline">
                       <Save className="h-4 w-4 mr-2" />
