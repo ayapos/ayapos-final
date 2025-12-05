@@ -70,9 +70,10 @@ async def delete_image(image_id: str):
         raise HTTPException(status_code=500, detail=str(e))
 
 @router.get("/stats")
-async def get_media_stats(db=Depends(get_database)):
+async def get_media_stats():
     """Statistiques de la bibliothèque média"""
     try:
+        db = await get_db()
         total_images = await db.uploads.count_documents({})
         
         # Calculer la taille totale
