@@ -6,11 +6,21 @@ import logging
 import uuid
 from pathlib import Path
 import shutil
+from datetime import datetime, timezone
+from motor.motor_asyncio import AsyncIOMotorClient
 from routes.auth import verify_token
 
 logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/upload", tags=["File Upload"])
+
+# MongoDB connection
+MONGO_URL = os.environ.get('MONGO_URL', 'mongodb://localhost:27017')
+
+async def get_db():
+    """Get database connection"""
+    client = AsyncIOMotorClient(MONGO_URL)
+    return client.test_database
 
 # Upload directory
 UPLOAD_DIR = Path("/app/frontend/public/uploads")
