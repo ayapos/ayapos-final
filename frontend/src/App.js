@@ -13,7 +13,7 @@ import { AuthProvider } from './context/AuthContext';
 import Home from './pages/Home';
 import POSSystems from './pages/POSSystemsDynamic';
 import Digital from './pages/DigitalComplete';
-import AyaPay from './pages/AyaPay';
+import AyaPay from './pages/AyaPayComplete';
 import Pricing from './pages/Pricing';
 import Contact from './pages/Contact';
 import SelfOrderKiosk from './pages/SelfOrderKioskComplete';
