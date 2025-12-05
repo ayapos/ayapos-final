@@ -268,6 +268,7 @@ const MobileOrderAppComplete = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80"
+                onError={(e) => e.target.src = 'https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=800&q=80'}
                 alt="Application Mobile"
                 className="rounded-2xl shadow-2xl"
               />
