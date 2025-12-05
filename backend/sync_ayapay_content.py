@@ -138,7 +138,7 @@ async def sync_ayapay_content():
             {
                 "name": "Business",
                 "price": "79",
-                "currency": "€",
+                "currency": "CHF ",
                 "period": "mois",
                 "description": "Pour les entreprises en croissance",
                 "features": [
