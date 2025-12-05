@@ -1168,9 +1168,49 @@ const AdminComplete = () => {
         </div>
       </div>
 
-      {/* CONTENU PRINCIPAL - Éditeur */}
-      <div className="flex-1 overflow-hidden">
-        {renderEditor()}
+      {/* CONTENU PRINCIPAL - Avec Onglets */}
+      <div className="flex-1 overflow-hidden flex flex-col">
+        {/* Onglets */}
+        <div className="bg-white border-b border-gray-200 px-6">
+          <div className="flex gap-6">
+            <button
+              onClick={() => setActiveTab('editor')}
+              className={`py-4 px-2 border-b-2 font-medium text-sm transition-colors ${
+                activeTab === 'editor'
+                  ? 'border-blue-600 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              <span className="flex items-center gap-2">
+                <LayoutDashboard className="h-4 w-4" />
+                Éditeur de Pages
+              </span>
+            </button>
+            
+            <button
+              onClick={() => setActiveTab('photos')}
+              className={`py-4 px-2 border-b-2 font-medium text-sm transition-colors ${
+                activeTab === 'photos'
+                  ? 'border-blue-600 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              <span className="flex items-center gap-2">
+                <ImageIcon className="h-4 w-4" />
+                Bibliothèque Photos
+              </span>
+            </button>
+          </div>
+        </div>
+
+        {/* Contenu de l'onglet actif */}
+        <div className="flex-1 overflow-auto">
+          {activeTab === 'editor' ? (
+            renderEditor()
+          ) : (
+            <MediaLibrary />
+          )}
+        </div>
       </div>
 
       {/* AI Assistant - Floating */}
