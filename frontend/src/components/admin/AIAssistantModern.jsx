@@ -103,7 +103,7 @@ const AIAssistantModern = ({ currentPage, onContentUpdate }) => {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full blur-xl opacity-60 group-hover:opacity-80 transition-opacity"></div>
             
             {/* Main button */}
-            <div className="relative bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-5 rounded-full shadow-2xl group-hover:scale-110 transition-all duration-300">
+            <div className="relative bg-gradient-to-r from-blue-700 to-blue-800 text-white p-5 rounded-full shadow-2xl group-hover:scale-110 transition-all duration-300">
               <Sparkles className="h-7 w-7 animate-pulse" />
             </div>
             
