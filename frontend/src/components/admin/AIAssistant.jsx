@@ -89,8 +89,12 @@ const AIAssistant = ({ currentPage, onContentUpdate }) => {
       {/* Floating Button */}
       {!isOpen && (
         <button
-          onClick={() => setIsOpen(true)}
-          className="fixed bottom-6 right-6 bg-gradient-to-r from-purple-600 to-blue-600 text-white p-4 rounded-full shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-110 z-50 group"
+          onClick={() => {
+            console.log("AI Button clicked, opening chat...");
+            setIsOpen(true);
+          }}
+          className="fixed bottom-6 right-6 bg-gradient-to-r from-purple-600 to-blue-600 text-white p-4 rounded-full shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-110 z-[9999] group"
+          style={{ zIndex: 9999 }}
         >
           <Sparkles className="h-6 w-6 group-hover:rotate-12 transition-transform" />
           <div className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center animate-pulse">
