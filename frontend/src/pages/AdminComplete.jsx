@@ -16,6 +16,7 @@ import { Label } from '../components/ui/label';
 import { Separator } from '../components/ui/separator';
 import { ScrollArea } from '../components/ui/scroll-area';
 import AIAssistant from '../components/admin/AIAssistantModern';
+import MediaLibrary from '../components/admin/MediaLibrary';
 
 const API_URL = process.env.REACT_APP_BACKEND_URL;
 
