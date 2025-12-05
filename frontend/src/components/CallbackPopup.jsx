@@ -104,11 +104,11 @@ const CallbackPopup = () => {
         ) : (
           <>
             {/* Header */}
-            <div className="bg-gradient-to-br from-indigo-700 via-indigo-600 to-indigo-800 p-4 text-white">
+            <div className="bg-gradient-to-br from-blue-700 via-blue-800 to-blue-900 p-4 text-white">
               <h2 className="text-lg font-bold mb-1 animate-fadeIn">
                 Recevez une offre avantageuse
               </h2>
-              <p className="text-indigo-100 text-xs animate-fadeIn delay-100">
+              <p className="text-blue-100 text-xs animate-fadeIn delay-100">
                 Laissez votre numéro et nous vous appellerons
               </p>
             </div>
