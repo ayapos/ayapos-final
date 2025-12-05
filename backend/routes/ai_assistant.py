@@ -137,7 +137,11 @@ Détails : {request.context}
 - Cible : restaurateurs, commerçants, PME
 - Focus : efficacité, ROI, facilité d'utilisation
 
-Maintenant, analyse la demande de l'utilisateur et réponds de manière EXPERTE et ULTRA-DÉTAILLÉE :"""
+Maintenant, analyse la demande de l'utilisateur et réponds de manière EXPERTE et ULTRA-DÉTAILLÉE :
+
+📄 CONTENU ACTUEL DE LA PAGE (si disponible) :
+{request.pageContent if request.pageContent else "Aucun contenu fourni - demande à l'utilisateur de sélectionner une page dans l'admin"}
+"""
 
         # Utiliser emergentintegrations correctement
         try:
