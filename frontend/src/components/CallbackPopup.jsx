@@ -182,8 +182,8 @@ const CallbackPopup = () => {
             {/* Agent Avatar */}
             <div className="absolute bottom-0 right-0 transform translate-x-1/4 translate-y-1/4">
               <div className="relative">
-                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-indigo-600 to-indigo-800 flex items-center justify-center text-white text-3xl font-bold shadow-xl border-4 border-white">
-                  EA
+                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-700 to-blue-900 flex items-center justify-center text-white text-3xl font-bold shadow-xl border-4 border-white">
+                  AP
                 </div>
                 <div className="absolute bottom-2 right-2 w-5 h-5 bg-green-500 rounded-full border-2 border-white animate-pulse" />
               </div>
