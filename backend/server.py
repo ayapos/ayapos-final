@@ -66,6 +66,7 @@ app.include_router(hero.router)
 app.include_router(team.router)
 app.include_router(navigation.router)
 app.include_router(ai_assistant.router)
+app.include_router(media.router)
 
 # Add CORS middleware
 app.add_middleware(
