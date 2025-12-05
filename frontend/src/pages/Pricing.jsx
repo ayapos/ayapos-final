@@ -155,7 +155,7 @@ const Pricing = () => {
                       </div>
                       {billingPeriod === 'yearly' && savings > 0 && (
                         <p className="text-sm text-green-600 font-medium">
-                          Économisez €{savings}/mois
+                          Économisez CHF {savings}/mois
                         </p>
                       )}
                     </div>
