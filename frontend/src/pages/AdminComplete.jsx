@@ -711,6 +711,7 @@ const AdminComplete = () => {
                 {renderImageField('Image Hero', 'hero_image', pageData.hero_image)}
               </CardContent>
             </Card>
+            )}
 
             {/* SECTION FEATURES */}
             <Card>
