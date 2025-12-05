@@ -11,6 +11,7 @@ class ChatRequest(BaseModel):
     message: str
     currentPage: str
     context: Optional[Dict[str, Any]] = None
+    pageContent: Optional[Dict[str, Any]] = None
 
 class ChatResponse(BaseModel):
     message: str
