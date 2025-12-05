@@ -178,10 +178,10 @@ const AdminComplete = () => {
     try {
       const token = localStorage.getItem('admin_token');
       console.log('🔄 Upload de l\'image:', file.name);
-      console.log('📍 API URL:', API_URL);
+      console.log('📍 Field Path:', fieldPath);
       console.log('🔑 Token présent:', !!token);
       
-      const response = await axios.post(`${API_URL}/api/upload`, formData, {
+      const response = await axios.post(`${API_URL}/api/upload/image`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
           Authorization: `Bearer ${token}`
@@ -191,7 +191,18 @@ const AdminComplete = () => {
       console.log('✅ Réponse upload:', response.data);
       
       if (response.data.success) {
-        updateField(fieldPath, response.data.url);
+        // Mettre à jour le champ avec le chemin complet (ex: "solutions.0.image")
+        const keys = fieldPath.split('.');
+        const newData = JSON.parse(JSON.stringify(pageData));
+        
+        let current = newData;
+        for (let i = 0; i < keys.length - 1; i++) {
+          current = current[keys[i]];
+        }
+        current[keys[keys.length - 1]] = response.data.url;
+        
+        setPageData(newData);
+        
         toast({
           title: "✅ Image uploadée",
           description: `Image ${file.name} téléchargée avec succès`,
