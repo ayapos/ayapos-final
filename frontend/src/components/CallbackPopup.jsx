@@ -80,12 +80,12 @@ const CallbackPopup = () => {
       {/* Popup - positioned at right side */}
       <div className={`absolute right-0 top-1/2 -translate-y-1/2 pointer-events-auto ${isClosing ? 'animate-slideOutRight' : 'animate-slideInRight'}`}>
         <div className="relative bg-white rounded-l-2xl shadow-2xl max-w-xs w-full overflow-hidden">
-        {/* Close button */}
+        {/* Close button - Plus visible avec fond et bordure */}
         <button
           onClick={handleClose}
-          className="absolute top-4 right-4 z-10 p-2 rounded-full hover:bg-gray-100 transition-colors"
+          className="absolute top-4 right-4 z-10 p-2 rounded-full bg-white hover:bg-gray-100 transition-all shadow-lg border-2 border-gray-200 hover:border-gray-300"
         >
-          <X className="w-5 h-5 text-gray-600" />
+          <X className="w-6 h-6 text-gray-800 font-bold" />
         </button>
 
         {isSuccess ? (
