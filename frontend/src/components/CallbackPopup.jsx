@@ -124,7 +124,7 @@ const CallbackPopup = () => {
                     onChange={handleChange}
                     placeholder="Nom de l'entreprise"
                     required
-                    className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-600 focus:border-transparent transition-all"
+                    className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
                   />
                 </div>
 
@@ -137,7 +137,7 @@ const CallbackPopup = () => {
                       onChange={handleChange}
                       placeholder="Numéro de téléphone"
                       required
-                      className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-600 focus:border-transparent transition-all"
+                      className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
                     />
                     <div className="absolute right-3 top-1/2 -translate-y-1/2">
                       <Phone className="w-5 h-5 text-gray-400" />
