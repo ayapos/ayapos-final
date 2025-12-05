@@ -335,7 +335,7 @@ frontend:
     implemented: true
     working: false
     file: "/app/frontend/src/components/admin/AIAssistant.jsx"
-    stuck_count: 1
+    stuck_count: 2
     priority: "high"
     needs_retesting: false
     status_history:
@@ -345,6 +345,9 @@ frontend:
         - working: false
           agent: "testing"
           comment: "❌ AI Agent partially working but has critical issues. FOUND: Purple floating AI button in bottom right corner with 'AI' badge as expected. FOUND: Button is clickable and triggers API calls to /api/ai-assistant/chat. ISSUE: Chat window does not open properly after clicking button. ISSUE: Backend API returns error message '❌ Désolé, je rencontre un problème technique. Veuillez réessayer dans quelques instants.' ISSUE: Backend logs show 'Erreur lors de la récupération de la clé: No module named emergentintegrations' - LLM key retrieval failing. RESULT: UI components implemented correctly but LLM integration broken. Admin login working with emrah@ayapos.com/Arden2018@. Screenshots captured showing button presence and click attempts."
+        - working: false
+          agent: "testing"
+          comment: "❌ COMPREHENSIVE AI TESTING COMPLETED - CRITICAL UI ISSUE IDENTIFIED. BACKEND WORKING: ✅ Authentication API working (emrah@ayapos.com/Arden2018@), ✅ AI assistant endpoint /api/ai-assistant/chat responding correctly in French ('Bien sûr, je suis là pour ça ! Comment puis-je vous aider...'), ✅ LLM integration functional via direct API test. FRONTEND ISSUES: ✅ Purple AI button visible in bottom-right (x=1840, y=1000), ✅ Button clickable with force=true, ❌ CRITICAL: Chat window (AIAssistant component) does NOT open when button clicked - React state not updating properly. ❌ No console errors or network requests triggered on button click. DIAGNOSIS: Frontend React component state management issue - isOpen state not changing from false to true when button clicked. Backend AI functionality is working perfectly, but frontend UI interaction is broken."
 
 metadata:
   created_by: "testing_agent"
