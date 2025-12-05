@@ -15,7 +15,7 @@ import { useToast } from '../hooks/use-toast';
 import { Label } from '../components/ui/label';
 import { Separator } from '../components/ui/separator';
 import { ScrollArea } from '../components/ui/scroll-area';
-import AIAssistant from '../components/admin/AIAssistant';
+import AIAssistant from '../components/admin/AIAssistantModern';
 
 const API_URL = process.env.REACT_APP_BACKEND_URL;
 
