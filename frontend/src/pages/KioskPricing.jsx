@@ -34,7 +34,7 @@ const KioskPricing = () => {
       price: '2 299CHF',
       color: 'green',
       icon: <Monitor className="w-16 h-16" />,
-      image: 'https://images.unsplash.com/photo-1609951734391-b79a50460c6c?w=600&h=800&fit=crop',
+      image: 'https://images.unsplash.com/photo-1609951734391?w=600&h=800&fit=crop',
       features: [
         t('kioskPricing.models.medium.features.0'),
         t('kioskPricing.models.medium.features.1'),
@@ -56,7 +56,7 @@ const KioskPricing = () => {
       price: '3 499CHF',
       color: 'purple',
       icon: <Tv className="w-16 h-16" />,
-      image: 'https://images.unsplash.com/photo-1556742031-c6961e8560b0-10a1a75cff83?w=600&h=800&fit=crop',
+      image: 'https://images.unsplash.com/photo-1556742031-c6961e8560b0?w=600&h=800&fit=crop',
       features: [
         t('kioskPricing.models.large.features.0'),
         t('kioskPricing.models.large.features.1'),

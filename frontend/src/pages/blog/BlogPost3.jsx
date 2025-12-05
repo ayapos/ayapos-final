@@ -39,7 +39,7 @@ const BlogPost3 = () => {
       <section className="container mx-auto px-4 -mt-12">
         <div className="max-w-5xl mx-auto">
           <img 
-            src="https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=1200&h=600&fit=crop"
+            src="https://images.unsplash.com/photo-1728044849280?w=1200&h=600&fit=crop"
             alt="Intelligence Artificielle"
             className="w-full h-96 object-cover rounded-2xl shadow-2xl"
           />

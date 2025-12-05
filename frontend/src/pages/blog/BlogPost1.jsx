@@ -198,14 +198,14 @@ const BlogPost1 = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Articles similaires</h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Link to="/blog/post-2" className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
-              <img src="https://images.unsplash.com/photo-1728044849321-4cbffc50cc1d?w=400&h=200&fit=crop" alt="Article" className="w-full h-48 object-cover" />
+              <img src="https://images.unsplash.com/photo-1728044849321?w=400&h=200&fit=crop" alt="Article" className="w-full h-48 object-cover" />
               <div className="p-6">
                 <h3 className="font-bold text-gray-900 mb-2">10 Conseils pour optimiser votre service</h3>
                 <p className="text-gray-600 text-sm">Comment gérer l'affluence aux heures de rush...</p>
               </div>
             </Link>
             <Link to="/blog/post-3" className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
-              <img src="https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=400&h=200&fit=crop" alt="Article" className="w-full h-48 object-cover" />
+              <img src="https://images.unsplash.com/photo-1728044849280?w=400&h=200&fit=crop" alt="Article" className="w-full h-48 object-cover" />
               <div className="p-6">
                 <h3 className="font-bold text-gray-900 mb-2">L'IA au service de la restauration</h3>
                 <p className="text-gray-600 text-sm">Comment l'IA peut optimiser vos opérations...</p>

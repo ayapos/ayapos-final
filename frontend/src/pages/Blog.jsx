@@ -61,7 +61,7 @@ const Blog = () => {
       category: 'tips',
       title: t('blog.articles.article2.title'),
       excerpt: t('blog.articles.article2.excerpt'),
-      image: 'https://images.unsplash.com/photo-1728044849321-4cbffc50cc1d?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1728044849321?w=800&h=500&fit=crop',
       date: '10 Nov 2024',
       author: 'Pierre Martin',
       readTime: '7 min'
@@ -71,7 +71,7 @@ const Blog = () => {
       category: 'technology',
       title: t('blog.articles.article3.title'),
       excerpt: t('blog.articles.article3.excerpt'),
-      image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4-10a1a75cff83?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop',
       date: '5 Nov 2024',
       author: 'Sophie Laurent',
       readTime: '6 min'

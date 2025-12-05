@@ -40,12 +40,12 @@ const OrderSystemNew = () => {
     {
       title: 'Intégrations avec les plateformes de livraison',
       description: 'Connectez-vous automatiquement avec Uber Eats, Deliveroo, Just Eat et autres plateformes. Toutes vos commandes apparaissent sur le même écran.',
-      image: 'https://images.unsplash.com/photo-1609951734391-b79a50460c6c?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1609951734391?w=800&q=80'
     },
     {
       title: 'Optimisez la préparation et réduisez les erreurs',
       description: 'Système de tickets cuisine (KDS) pour une préparation optimale. Notifications automatiques et suivi en temps réel de chaque commande.',
-      image: 'https://images.unsplash.com/photo-1728044849280-10a1a75cff83?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1728044849280?w=800&q=80'
     }
   ];
 

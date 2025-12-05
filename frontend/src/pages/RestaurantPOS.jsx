@@ -147,7 +147,7 @@ const RestaurantPOS = () => {
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-400 rounded-2xl blur-3xl opacity-30 animate-pulse"></div>
                   <img
-                    src={pageContent.hero_image || "https://images.unsplash.com/photo-1726065235203-4368c41c6f19-4cbffc50cc1d?w=800&q=80"}
+                    src={pageContent.hero_image || "https://images.unsplash.com/photo-1726065235203-4368c41c6f19?w=800&q=80"}
                     alt="POS Restaurant"
                     className="relative rounded-2xl shadow-2xl border-4 border-white/20 backdrop-blur"
                   />

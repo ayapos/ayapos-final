@@ -112,7 +112,7 @@ const Pricing = () => {
               };
 
               // Use plan image if available, otherwise fallback
-              const planImage = pkg.image || posImages[pkg.id] || 'https://images.unsplash.com/photo-1726056652582-7c9d202d4018-10a1a75cff83?w=600';
+              const planImage = pkg.image || posImages[pkg.id] || 'https://images.unsplash.com/photo-1726056652582-7c9d202d4018?w=600';
 
               const cardColors = [
                 'from-blue-500 to-indigo-600',

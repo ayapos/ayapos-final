@@ -40,12 +40,12 @@ const MobileOrderAppComplete = () => {
     {
       title: 'Soyez toujours accessible',
       description: 'Avec l\'application mobile facilement téléchargeable sur smartphones et tablettes, vos clients peuvent toujours vous joindre et consulter vos produits. Créez ainsi la fidélité client.',
-      image: 'https://images.unsplash.com/photo-1661246625079-b6a5c6802c46-4cbffc50cc1d?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1661246625079-b6a5c6802c46?w=800&q=80'
     },
     {
       title: 'Vos clients commandent facilement',
       description: 'Grâce à l\'interface conviviale et rapide à comprendre, vos clients peuvent rapidement sélectionner les produits qu\'ils souhaitent et commander facilement en quelques clics.',
-      image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3-10a1a75cff83?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80'
     }
   ];
 
