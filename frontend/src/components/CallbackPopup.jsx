@@ -172,7 +172,7 @@ const CallbackPopup = () => {
 
               <p className="text-xs text-gray-500 text-center">
                 Vous trouverez des informations sur le traitement de vos données personnelles dans notre{' '}
-                <a href="/privacy-policy" className="text-indigo-600 hover:underline">
+                <a href="/privacy-policy" className="text-blue-600 hover:underline">
                   déclaration de protection des données
                 </a>
                 .
