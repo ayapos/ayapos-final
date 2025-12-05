@@ -28,6 +28,7 @@ const AdminComplete = () => {
   const [loading, setLoading] = useState(false);
   const [saving, setSaving] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
+  const [activeTab, setActiveTab] = useState('editor'); // 'editor' ou 'photos'
 
   // Liste COMPLÈTE de toutes les pages du site
   const allPages = [
