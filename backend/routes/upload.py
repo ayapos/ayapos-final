@@ -74,6 +74,19 @@ async def upload_image(
         # Return URL path (relative to public folder)
         file_url = f"/uploads/{unique_filename}"
         
+        # Save metadata to MongoDB
+        db = await get_db()
+        upload_doc = {
+            "filename": file.filename,
+            "unique_filename": unique_filename,
+            "url": file_url,
+            "path": str(file_path),
+            "size": file_size,
+            "uploadedBy": email,
+            "uploadedAt": datetime.now(timezone.utc).isoformat()
+        }
+        await db.uploads.insert_one(upload_doc)
+        
         logger.info(f"File uploaded: {unique_filename} by {email}")
         
         return JSONResponse(
