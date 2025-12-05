@@ -407,6 +407,8 @@ test_plan:
     - "AI Agent Integration in Admin Panel - Chat window not opening on button click"
   test_all: false
   test_priority: "high_first"
+  completed_tests:
+    - "Solutions Digitales Image Upload Functionality - PASSED"
 
 agent_communication:
     - agent: "testing"
