@@ -5,7 +5,7 @@ import {
   LayoutDashboard, LogOut, Save, Eye, Upload, Trash2, Plus, Search,
   Home, Utensils, CreditCard, Monitor, Smartphone, DollarSign, Info, 
   Phone, Code, Package, ShoppingCart, Truck, Settings, BarChart3,
-  FileText, Shield, Image as ImageIcon, ChevronRight
+  FileText, Shield, Image as ImageIcon, ChevronRight, Loader2
 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
