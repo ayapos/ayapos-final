@@ -38,9 +38,10 @@ async def get_all_images():
         raise HTTPException(status_code=500, detail=str(e))
 
 @router.delete("/images/{image_id}")
-async def delete_image(image_id: str, db=Depends(get_database)):
+async def delete_image(image_id: str):
     """Supprimer une image de la bibliothèque"""
     try:
+        db = await get_db()
         # Récupérer l'image
         image = await db.uploads.find_one({"_id": ObjectId(image_id)})
         
