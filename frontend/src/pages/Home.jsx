@@ -211,9 +211,9 @@ const Home = () => {
                       <span className="text-gray-600 ml-2">/mois</span>
                     </div>
                   </div>
-                  <Link to="/pos">
+                  <Link to="/contact">
                     <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
-                      En savoir plus
+                      Nous contacter
                     </Button>
                   </Link>
                 </CardContent>
