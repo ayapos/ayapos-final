@@ -74,7 +74,7 @@ const Home = () => {
                 {getContentValue('hero-subtitle', t('hero.subtitle'))}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/pos">
+                <Link to="/contact">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white w-full sm:w-auto">
                     {t('hero.cta')}
                     <ArrowRight className="ml-2 h-5 w-5" />
