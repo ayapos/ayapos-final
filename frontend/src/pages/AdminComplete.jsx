@@ -630,6 +630,8 @@ const AdminComplete = () => {
                                       
                                       try {
                                         const token = localStorage.getItem('admin_token');
+                                        console.log('🔄 Upload carrousel - Slide #', index + 1);
+                                        
                                         const response = await axios.post(`${API_URL}/api/upload/image`, formData, {
                                           headers: {
                                             'Content-Type': 'multipart/form-data',
@@ -638,15 +640,57 @@ const AdminComplete = () => {
                                         });
                                         
                                         if (response.data.success) {
-                                          updateCarouselSlide(index, 'image', response.data.url);
+                                          console.log('✅ Image uploadée:', response.data.url);
+                                          
+                                          // Mettre à jour l'état ET récupérer les nouvelles données
+                                          const updatedSlides = updateCarouselSlide(index, 'image', response.data.url);
+                                          
                                           toast({
                                             title: "✅ Image uploadée",
                                             description: `Image du slide #${index + 1} téléchargée`,
                                           });
                                           
-                                          // Auto-save après upload
-                                          setTimeout(() => {
-                                            saveCarouselSlides();
+                                          // Auto-save avec les nouvelles données immédiatement
+                                          setTimeout(async () => {
+                                            setSaving(true);
+                                            try {
+                                              const token = localStorage.getItem('admin_token');
+                                              const slideToSave = updatedSlides[index];
+                                              
+                                              console.log('💾 Sauvegarde auto du slide:', slideToSave.id || 'nouveau');
+                                              
+                                              if (slideToSave.id) {
+                                                await axios.put(
+                                                  `${API_URL}/api/hero/${slideToSave.id}`,
+                                                  slideToSave,
+                                                  { headers: { Authorization: `Bearer ${token}` } }
+                                                );
+                                              } else {
+                                                await axios.post(
+                                                  `${API_URL}/api/hero/`,
+                                                  { ...slideToSave, order: index },
+                                                  { headers: { Authorization: `Bearer ${token}` } }
+                                                );
+                                              }
+                                              
+                                              console.log('✅ Carrousel sauvegardé automatiquement');
+                                              toast({
+                                                title: "✅ Sauvegardé",
+                                                description: "L'image a été enregistrée automatiquement",
+                                              });
+                                              
+                                              // Recharger pour sync
+                                              loadCarouselSlides();
+                                            } catch (error) {
+                                              console.error('❌ Erreur sauvegarde auto:', error);
+                                              toast({
+                                                title: "⚠️ Attention",
+                                                description: "L'image est uploadée mais non sauvegardée. Cliquez sur 'Sauvegarder Carrousel'",
+                                                variant: "destructive"
+                                              });
+                                            } finally {
+                                              setSaving(false);
+                                            }
                                           }, 500);
                                         }
                                       } catch (error) {
