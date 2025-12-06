@@ -101,7 +101,7 @@ const POSSystems = () => {
                   </div>
 
                   <div className="flex items-baseline">
-                    <span className="text-5xl font-bold text-gray-900">€{pkg.price}</span>
+                    <span className="text-5xl font-bold text-gray-900">CHF {pkg.price}</span>
                     <span className="text-gray-600 ml-2 text-lg">/mois</span>
                   </div>
 

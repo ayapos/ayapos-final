@@ -207,7 +207,7 @@ const Home = () => {
                 <CardContent>
                   <div className="mb-6">
                     <div className="flex items-baseline">
-                      <span className="text-4xl font-bold text-gray-900">€{pkg.price}</span>
+                      <span className="text-4xl font-bold text-gray-900">CHF {pkg.price}</span>
                       <span className="text-gray-600 ml-2">/mois</span>
                     </div>
                   </div>

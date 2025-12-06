@@ -71,7 +71,7 @@ const BlogPost4 = () => {
           </div>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            "Je voyais des clients partir après 10 minutes d'attente. Je perdais facilement 15-20 couverts par service. Et à la fin du mois, je jetais pour 2000€ de nourriture périmée."
+            "Je voyais des clients partir après 10 minutes d'attente. Je perdais facilement 15-20 couverts par service. Et à la fin du mois, je jetais pour 2000CHF  de nourriture périmée."
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">La décision de passer à AyaPos</h2>
@@ -98,7 +98,7 @@ const BlogPost4 = () => {
           <div className="bg-orange-50 border-l-4 border-orange-600 p-6 my-8">
             <p className="text-lg font-semibold text-orange-900 mb-2">💡 Point clé</p>
             <p className="text-orange-800">
-              Jean a démarré avec le forfait Business à 99€/mois. L'investissement en matériel (5200€) a été amorti en moins de 3 mois grâce aux gains de productivité.
+              Jean a démarré avec le forfait Business à 99CHF /mois. L'investissement en matériel (5200CHF ) a été amorti en moins de 3 mois grâce aux gains de productivité.
             </p>
           </div>
 
@@ -165,7 +165,7 @@ const BlogPost4 = () => {
               <span className="text-2xl">📈</span>
               <div>
                 <strong className="text-gray-900">Chiffre d'affaires :</strong>
-                <span className="text-gray-700"> Passé de 18 000€/mois à 54 000€/mois</span>
+                <span className="text-gray-700"> Passé de 18 000CHF /mois à 54 000CHF /mois</span>
               </div>
             </li>
             <li className="flex items-start gap-3">

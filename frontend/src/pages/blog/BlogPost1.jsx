@@ -166,7 +166,7 @@ const BlogPost1 = () => {
             </ol>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              Nos bornes sont également disponibles en location avec option d'achat, à partir de 99€/mois.
+              Nos bornes sont également disponibles en location avec option d'achat, à partir de 99CHF /mois.
             </p>
 
             <div className="border-t border-gray-200 pt-8 mt-12">

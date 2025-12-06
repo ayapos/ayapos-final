@@ -271,7 +271,7 @@ const AyaPay = () => {
                       <div className="text-3xl font-bold text-gray-900">{tier.price}</div>
                     ) : (
                       <div className="flex items-baseline">
-                        <span className="text-4xl font-bold text-gray-900">€{tier.price}</span>
+                        <span className="text-4xl font-bold text-gray-900">CHF {tier.price}</span>
                         <span className="text-gray-600 ml-2">/mois</span>
                       </div>
                     )}

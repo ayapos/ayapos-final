@@ -79,7 +79,7 @@ const BlogPost3 = () => {
             <li>Les préférences des clients similaires</li>
           </ul>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Résultat : un taux d'acceptation des suggestions de 35% contre 8% pour les suggestions aléatoires classiques. Cela représente une augmentation moyenne du panier de 4,50€ par commande.
+            Résultat : un taux d'acceptation des suggestions de 35% contre 8% pour les suggestions aléatoires classiques. Cela représente une augmentation moyenne du panier de 4,50CHF  par commande.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Optimisation dynamique des prix</h2>
@@ -185,7 +185,7 @@ const BlogPost3 = () => {
             Si vous utilisez déjà AyaPos, l'IA est incluse dans tous les forfaits Business et Enterprise. Activez-la simplement depuis votre portail web.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Si vous êtes sur le forfait Essentiel, upgrader vers Business coûte seulement 50€/mois supplémentaires et vous donne accès à toutes les fonctionnalités IA.
+            Si vous êtes sur le forfait Essentiel, upgrader vers Business coûte seulement 50CHF /mois supplémentaires et vous donne accès à toutes les fonctionnalités IA.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
             Pour les nouveaux clients, nous offrons une formation complète de 2 heures pour vous apprendre à tirer le maximum de l'IA AyaPos.

@@ -386,7 +386,7 @@ const RestaurantPOS = () => {
                   <CardDescription>{plan.tagline}</CardDescription>
                   <div className="mt-4">
                     <div className="flex items-baseline">
-                      <span className="text-4xl font-bold">€{plan.price}</span>
+                      <span className="text-4xl font-bold">CHF {plan.price}</span>
                       <span className="text-gray-600 ml-2">/mois</span>
                     </div>
                   </div>

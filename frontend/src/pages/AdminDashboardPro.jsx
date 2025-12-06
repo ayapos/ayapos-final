@@ -549,7 +549,7 @@ const AdminDashboardPro = () => {
               </div>
               <CardDescription className="mb-4">{product.description?.substring(0, 100)}...</CardDescription>
               <div className="flex items-center justify-between">
-                <span className="text-2xl font-bold text-blue-600">€{product.price}</span>
+                <span className="text-2xl font-bold text-blue-600">CHF {product.price}</span>
                 <div className="flex space-x-2">
                   <Button size="sm" variant="outline">
                     <Edit className="h-4 w-4" />

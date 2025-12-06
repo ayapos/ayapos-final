@@ -54,7 +54,7 @@ const BlogPost5 = () => {
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Le vrai coût du gaspillage</h2>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Prenons un restaurant moyen avec 15 000€ d'achats alimentaires mensuels. Un taux de gaspillage de 18% représente 2 700€ jetés à la poubelle chaque mois, soit 32 400€ par an !
+            Prenons un restaurant moyen avec 15 000CHF  d'achats alimentaires mensuels. Un taux de gaspillage de 18% représente 2 700CHF  jetés à la poubelle chaque mois, soit 32 400CHF  par an !
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
             Mais ce n'est pas tout. Il faut aussi comptabiliser le coût d'élimination des déchets, l'impact environnemental (émissions CO2), et le temps perdu par votre personnel à gérer ces surplus.
@@ -63,7 +63,7 @@ const BlogPost5 = () => {
           <div className="bg-green-50 border-l-4 border-green-600 p-6 my-8">
             <p className="text-lg font-semibold text-green-900 mb-2">💰 Impact réel</p>
             <p className="text-green-800">
-              Un restaurant utilisant AyaPos avec gestion intelligente des stocks réduit son gaspillage de 40% en moyenne, soit une économie de 12 960€ par an pour notre exemple.
+              Un restaurant utilisant AyaPos avec gestion intelligente des stocks réduit son gaspillage de 40% en moyenne, soit une économie de 12 960CHF  par an pour notre exemple.
             </p>
           </div>
 
@@ -176,7 +176,7 @@ const BlogPost5 = () => {
 
           <div className="bg-gray-50 p-6 rounded-xl mb-6">
             <p className="text-gray-700 italic mb-4">
-              "Grâce à AyaPos, nous avons réduit notre gaspillage de 52%. Ça représente 1800€ économisés chaque mois. Et nos clients apprécient notre démarche écologique, c'est devenu un argument de vente."
+              "Grâce à AyaPos, nous avons réduit notre gaspillage de 52%. Ça représente 1800CHF  économisés chaque mois. Et nos clients apprécient notre démarche écologique, c'est devenu un argument de vente."
             </p>
             <p className="text-gray-900 font-semibold">— Claire Martin, Restaurant Bio & Local, Nantes</p>
           </div>
@@ -194,7 +194,7 @@ const BlogPost5 = () => {
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Comment commencer ?</h2>
           <p className="text-gray-700 leading-relaxed mb-6">
-            La gestion anti-gaspillage est incluse dans tous les forfaits AyaPos Business et Enterprise. Si vous êtes sur le forfait Essentiel, l'upgrade coûte 50€/mois et s'amortit dès le premier mois.
+            La gestion anti-gaspillage est incluse dans tous les forfaits AyaPos Business et Enterprise. Si vous êtes sur le forfait Essentiel, l'upgrade coûte 50CHF /mois et s'amortit dès le premier mois.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
             Nos experts peuvent faire un audit gratuit de votre établissement et vous montrer précisément combien vous pourriez économiser. La plupart de nos clients récupèrent leur investissement en moins de 2 mois.

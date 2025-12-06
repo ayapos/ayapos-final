@@ -120,7 +120,7 @@ const BlogPost6 = () => {
           <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-8 rounded-2xl my-12">
             <h3 className="text-2xl font-bold mb-4">Activez le système QR Code AyaPos</h3>
             <p className="text-indigo-100 mb-4">
-              Inclus dans tous les forfaits à partir de 49€/mois. Installation en 1 heure, QR codes personnalisés fournis.
+              Inclus dans tous les forfaits à partir de 49CHF /mois. Installation en 1 heure, QR codes personnalisés fournis.
             </p>
             <Link to="/order-system-pricing">
               <button className="bg-white text-indigo-600 px-8 py-4 rounded-lg font-semibold hover:bg-indigo-50 transition-all duration-300">
@@ -219,7 +219,7 @@ const BlogPost6 = () => {
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Comment démarrer ?</h2>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Le système de commande QR Code AyaPos est inclus dans tous nos forfaits dès 49€/mois :
+            Le système de commande QR Code AyaPos est inclus dans tous nos forfaits dès 49CHF /mois :
           </p>
           <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
             <li>Menu digital responsive illimité</li>
