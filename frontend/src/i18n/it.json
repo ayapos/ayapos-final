@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "home": "Home",
+    "solutions": "Soluzioni",
+    "pricing": "Prezzi",
+    "about": "Chi siamo",
+    "contact": "Contatto"
+  },
+  "hero": {
+    "cta": "Richiedi una demo",
+    "cta_secondary": "Vedi i prezzi"
+  },
+  "common": {
+    "learn_more": "Scopri di più",
+    "contact_us": "Contattaci",
+    "get_started": "Inizia",
+    "request_demo": "Richiedi una demo",
+    "month": "mese",
+    "year": "anno"
+  }
+}
