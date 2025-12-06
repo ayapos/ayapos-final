@@ -201,6 +201,7 @@ const AdminComplete = () => {
         }
         current[keys[keys.length - 1]] = response.data.url;
         
+        console.log('📦 Nouvelles données après upload:', { fieldPath, url: response.data.url });
         setPageData(newData);
         
         toast({
@@ -208,9 +209,37 @@ const AdminComplete = () => {
           description: `Image ${file.name} téléchargée avec succès`,
         });
         
-        // Sauvegarder automatiquement après upload
-        setTimeout(() => {
-          savePageData();
+        // Sauvegarder automatiquement après upload avec les nouvelles données
+        setTimeout(async () => {
+          setSaving(true);
+          try {
+            const token = localStorage.getItem('admin_token');
+            
+            console.log('💾 Auto-sauvegarde après upload image');
+            console.log('📦 Données à sauvegarder:', Object.keys(newData));
+            
+            const saveResponse = await axios.put(
+              `${API_URL}/api/content/${selectedPage}`,
+              { content: newData },
+              { headers: { Authorization: `Bearer ${token}` } }
+            );
+            
+            console.log('✅ Auto-sauvegarde réussie:', saveResponse.data);
+            
+            toast({
+              title: "✅ Sauvegardé automatiquement",
+              description: "L'image a été enregistrée dans la base de données",
+            });
+          } catch (error) {
+            console.error('❌ Erreur auto-sauvegarde:', error);
+            toast({
+              title: "⚠️ Image uploadée mais non sauvegardée",
+              description: "Veuillez cliquer sur 'Sauvegarder et Publier' pour enregistrer",
+              variant: "destructive"
+            });
+          } finally {
+            setSaving(false);
+          }
         }, 500);
       } else {
         throw new Error('Upload échoué');
