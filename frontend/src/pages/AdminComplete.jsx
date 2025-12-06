@@ -399,9 +399,11 @@ const AdminComplete = () => {
   };
   
   const updateCarouselSlide = (index, field, value) => {
-    setCarouselSlides(prev => prev.map((slide, i) => 
+    const updatedSlides = carouselSlides.map((slide, i) => 
       i === index ? { ...slide, [field]: value } : slide
-    ));
+    );
+    setCarouselSlides(updatedSlides);
+    return updatedSlides; // Retourner les nouvelles données pour un usage immédiat
   };
   
   const addCarouselSlide = () => {
