@@ -439,6 +439,10 @@ async def main():
         await tester.test_data_persistence()
         await tester.test_error_handling()
         
+        # Test mobile-order-app specific functionality
+        await tester.test_mobile_order_app_content()
+        await tester.test_mobile_order_app_images_count()
+        
         # Print summary
         passed, failed = tester.print_summary()
         
