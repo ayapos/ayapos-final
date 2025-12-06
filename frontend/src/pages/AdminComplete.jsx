@@ -641,6 +641,11 @@ const AdminComplete = () => {
                                             title: "✅ Image uploadée",
                                             description: `Image du slide #${index + 1} téléchargée`,
                                           });
+                                          
+                                          // Auto-save après upload
+                                          setTimeout(() => {
+                                            saveCarouselSlides();
+                                          }, 500);
                                         }
                                       } catch (error) {
                                         console.error('❌ Erreur upload carrousel:', error);
