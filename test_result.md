@@ -442,6 +442,7 @@ test_plan:
   test_priority: "high_first"
   completed_tests:
     - "Solutions Digitales Image Upload Functionality - PASSED"
+    - "Homepage Carousel End-to-End Upload and Display Test - PASSED"
 
 agent_communication:
     - agent: "testing"
