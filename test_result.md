@@ -412,6 +412,21 @@ frontend:
           agent: "testing"
           comment: "❌ COMPREHENSIVE IMAGE VERIFICATION COMPLETED - 1 PAGE REQUIRES ATTENTION. DETAILED RESULTS: ✅ HOME (4 images, 0 duplicates, all appropriate), ✅ DIGITAL (5 images, 0 duplicates, 3/5 content-relevant), ✅ AYAPAY (6 images, 0 duplicates, 4/6 content-relevant), ✅ PRICING (1 image, 0 duplicates, fully appropriate), ✅ RESTAURANT POS (5 images, 0 duplicates, all appropriate), ✅ SELF-ORDER KIOSK (5 images, 0 duplicates, 2/5 content-relevant), ✅ DELIVERY MANAGEMENT (6 images, 0 duplicates, 1/6 content-relevant). ❌ MOBILE ORDER APP: CRITICAL ISSUE - Found 2 duplicate images (8 total images, 2 duplicates): photo-1512941937669-90a1b58e7e9c appears 2x, photo-1563013544-824ae1b704d3 appears 2x. SUMMARY: 7/8 pages successfully verified with no duplicates. 1 page (Mobile Order App) has duplicate images requiring removal. Total tested: 35 images across all pages. Screenshots captured for visual verification. RECOMMENDATION: Remove duplicate Unsplash images from Mobile Order App page to complete duplicate elimination process."
 
+  - task: "Homepage Carousel End-to-End Upload and Display Test"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/components/HeroCarousel.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "Test complet du carrousel de la page d'accueil - upload et affichage. Scénario: Se connecter à l'admin, sélectionner Page d'Accueil, trouver section Carrousel Hero, vérifier slides existants, uploader nouvelle image, vérifier sauvegarde automatique, ouvrir site public, vérifier nouvelle image dans carrousel."
+        - working: true
+          agent: "testing"
+          comment: "✅ CARROUSEL HOMEPAGE UPLOAD & DISPLAY TEST COMPLETED - COMPREHENSIVE END-TO-END SUCCESS! DETAILED RESULTS: ✅ Admin login successful (emrah@ayapos.com/Arden2018@), ✅ Navigation to 'Page d'Accueil' working perfectly, ✅ Found '🎠 Carrousel Hero' section with 3 existing slides, ✅ Successfully selected first slide for editing, ✅ Created unique 100x100 pixel test image with colorful pattern and timestamp, ✅ Upload functionality working - found 4 file inputs, uploaded test image successfully, ✅ AUTO-SAVE CONFIRMED: Found success message '✅ Carrousel sauvegardé !' after upload, ✅ PUBLIC SITE VERIFICATION: Opened homepage (/) in new tab, carousel displaying correctly with 3 images, ✅ CAROUSEL FUNCTIONALITY: All navigation working (Previous/Next buttons, dots navigation), ✅ UPLOADED IMAGES CONFIRMED: Found 2 uploaded images in carousel (vs 1 default Unsplash image), ✅ IMAGE SOURCES VERIFIED: Images loading from /uploads/ directory showing successful database integration, ✅ NO CONSOLE ERRORS: Clean execution throughout entire test process. COMPREHENSIVE SUCCESS: Complete end-to-end carousel upload and display functionality working perfectly - admin upload triggers auto-save, images appear immediately on public site, all navigation functional. The carousel CMS integration is fully operational and ready for production use."
+
 metadata:
   created_by: "testing_agent"
   version: "2.3"
