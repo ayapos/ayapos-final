@@ -2,13 +2,20 @@
   "nav": {
     "home": "Startseite",
     "solutions": "Lösungen",
+    "restaurant": "Restaurant",
+    "payment": "Zahlung",
+    "digital": "Digital",
+    "pos": "Kassensystem",
     "pricing": "Preise",
     "about": "Über uns",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "blog": "Blog",
+    "services_it": "IT-Dienste"
   },
   "hero": {
     "cta": "Demo anfordern",
-    "cta_secondary": "Preise ansehen"
+    "cta_secondary": "Preise ansehen",
+    "discover": "Entdecken"
   },
   "common": {
     "learn_more": "Mehr erfahren",
@@ -16,6 +23,83 @@
     "get_started": "Loslegen",
     "request_demo": "Demo anfordern",
     "month": "Monat",
-    "year": "Jahr"
+    "year": "Jahr",
+    "chf": "CHF",
+    "features": "Funktionen",
+    "benefits": "Vorteile",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "read_more": "Weiterlesen",
+    "see_details": "Details anzeigen",
+    "all_features": "Alle Funktionen",
+    "try_free": "Kostenlos testen",
+    "from": "Ab",
+    "per_month": "pro Monat",
+    "per_year": "pro Jahr"
+  },
+  "home": {
+    "title": "Transformieren Sie Ihr Geschäft mit AyaPos",
+    "subtitle": "Komplette Kassensystem-, Zahlungsterminal- und Verwaltungslösungen für Restaurants und Geschäfte",
+    "ready_to_start": "BEREIT ZU STARTEN?",
+    "contact_demo": "Kontaktieren Sie uns für eine kostenlose Demonstration"
+  },
+  "restaurant_pos": {
+    "title": "Komplettes Restaurant-Kassensystem",
+    "subtitle": "All-in-One-Lösung für effiziente Verwaltung",
+    "cta_title": "AYAPOS KASSENSYSTEME DER NEUEN GENERATION",
+    "cta_subtitle": "Bleiben Sie immer einen Schritt voraus!"
+  },
+  "order_system": {
+    "title": "Online-Bestellsystem",
+    "subtitle": "Verwalten Sie alle Ihre Online-Bestellungen von einer einzigen Plattform aus",
+    "cta_title": "STEIGERN SIE IHRE ONLINE-VERKÄUFE",
+    "cta_subtitle": "Erhöhen Sie Ihren Umsatz um durchschnittlich 35%"
+  },
+  "waiter_terminal": {
+    "title": "Mobiles Kellner-Terminal",
+    "subtitle": "Nehmen Sie Bestellungen direkt am Tisch auf",
+    "cta_title": "MODERNISIEREN SIE IHREN SERVICE",
+    "cta_subtitle": "Reduzieren Sie Fehler und erhöhen Sie die Kundenzufriedenheit"
+  },
+  "ayapay": {
+    "title": "AyaPay - Zahlungslösungen",
+    "subtitle": "Zahlungsterminals der neuen Generation",
+    "cta_title": "VEREINFACHEN SIE IHRE ZAHLUNGEN",
+    "cta_subtitle": "Akzeptieren Sie alle Zahlungsmittel"
+  },
+  "digital": {
+    "title": "Digitale Lösungen",
+    "subtitle": "Digitalisieren Sie Ihr Restaurant mit unseren innovativen Lösungen",
+    "cta_title": "TRANSFORMIEREN SIE IHR RESTAURANT",
+    "cta_subtitle": "Erhöhen Sie Ihre Effizienz und Einnahmen"
+  },
+  "pricing": {
+    "title": "Preise",
+    "subtitle": "Wählen Sie die Lösung, die Ihren Bedürfnissen entspricht",
+    "monthly": "Monatlich",
+    "yearly": "Jährlich",
+    "popular": "Beliebt",
+    "enterprise": "Unternehmen",
+    "custom_pricing": "Individuelle Preisgestaltung"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Unser Team steht Ihnen zur Verfügung",
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "message": "Nachricht",
+    "send": "Senden",
+    "address": "Adresse",
+    "hours": "Öffnungszeiten"
+  },
+  "footer": {
+    "solutions": "Lösungen",
+    "company": "Unternehmen",
+    "support": "Support",
+    "legal": "Rechtliche Hinweise",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "privacy": "Datenschutzrichtlinie",
+    "all_rights_reserved": "Alle Rechte vorbehalten"
   }
 }

@@ -2,13 +2,20 @@
   "nav": {
     "home": "Accueil",
     "solutions": "Solutions",
+    "restaurant": "Restaurant",
+    "payment": "Paiement",
+    "digital": "Digital",
+    "pos": "POS",
     "pricing": "Tarifs",
     "about": "À propos",
-    "contact": "Contact"
+    "contact": "Contact",
+    "blog": "Blog",
+    "services_it": "Services IT"
   },
   "hero": {
     "cta": "Demander une démo",
-    "cta_secondary": "Voir les tarifs"
+    "cta_secondary": "Voir les tarifs",
+    "discover": "Découvrir"
   },
   "common": {
     "learn_more": "En savoir plus",
@@ -16,6 +23,83 @@
     "get_started": "Commencer",
     "request_demo": "Demander une démo",
     "month": "mois",
-    "year": "an"
+    "year": "an",
+    "chf": "CHF",
+    "features": "Fonctionnalités",
+    "benefits": "Avantages",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "read_more": "Lire la suite",
+    "see_details": "Voir les détails",
+    "all_features": "Toutes les fonctionnalités",
+    "try_free": "Essayer gratuitement",
+    "from": "À partir de",
+    "per_month": "par mois",
+    "per_year": "par an"
+  },
+  "home": {
+    "title": "Transformez Votre Business avec AyaPos",
+    "subtitle": "Solutions complètes de point de vente, terminaux de paiement et gestion pour restaurants et commerces",
+    "ready_to_start": "PRÊT À DÉMARRER ?",
+    "contact_demo": "Contactez-nous pour une démonstration gratuite"
+  },
+  "restaurant_pos": {
+    "title": "Système POS Restaurant Complet",
+    "subtitle": "Solution tout-en-un pour gérer avec efficacité",
+    "cta_title": "AYAPOS SYSTÈMES POS NOUVELLE GÉNÉRATION",
+    "cta_subtitle": "Ayez toujours une longueur d'avance!"
+  },
+  "order_system": {
+    "title": "Système de Commande en Ligne",
+    "subtitle": "Gérez toutes vos commandes en ligne depuis une seule plateforme",
+    "cta_title": "BOOSTEZ VOS VENTES EN LIGNE",
+    "cta_subtitle": "Augmentez votre chiffre d'affaires de 35% en moyenne"
+  },
+  "waiter_terminal": {
+    "title": "Terminal Serveur Mobile",
+    "subtitle": "Prenez les commandes directement à table",
+    "cta_title": "MODERNISEZ VOTRE SERVICE",
+    "cta_subtitle": "Réduisez les erreurs et augmentez la satisfaction client"
+  },
+  "ayapay": {
+    "title": "AyaPay - Solutions de Paiement",
+    "subtitle": "Terminaux de paiement nouvelle génération",
+    "cta_title": "SIMPLIFIEZ VOS PAIEMENTS",
+    "cta_subtitle": "Acceptez tous les moyens de paiement"
+  },
+  "digital": {
+    "title": "Solutions Digitales",
+    "subtitle": "Digitalisez votre restaurant avec nos solutions innovantes",
+    "cta_title": "TRANSFORMEZ VOTRE RESTAURANT",
+    "cta_subtitle": "Augmentez votre efficacité et vos revenus"
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "subtitle": "Choisissez la solution adaptée à vos besoins",
+    "monthly": "Mensuel",
+    "yearly": "Annuel",
+    "popular": "Populaire",
+    "enterprise": "Entreprise",
+    "custom_pricing": "Tarif sur mesure"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Notre équipe est à votre disposition",
+    "name": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "message": "Message",
+    "send": "Envoyer",
+    "address": "Adresse",
+    "hours": "Horaires d'ouverture"
+  },
+  "footer": {
+    "solutions": "Solutions",
+    "company": "Entreprise",
+    "support": "Support",
+    "legal": "Mentions légales",
+    "terms": "Conditions générales",
+    "privacy": "Politique de confidentialité",
+    "all_rights_reserved": "Tous droits réservés"
   }
 }

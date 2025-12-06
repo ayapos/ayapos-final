@@ -2,13 +2,20 @@
   "nav": {
     "home": "Home",
     "solutions": "Solutions",
+    "restaurant": "Restaurant",
+    "payment": "Payment",
+    "digital": "Digital",
+    "pos": "POS",
     "pricing": "Pricing",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "blog": "Blog",
+    "services_it": "IT Services"
   },
   "hero": {
     "cta": "Request a demo",
-    "cta_secondary": "View pricing"
+    "cta_secondary": "View pricing",
+    "discover": "Discover"
   },
   "common": {
     "learn_more": "Learn more",
@@ -16,6 +23,83 @@
     "get_started": "Get started",
     "request_demo": "Request a demo",
     "month": "month",
-    "year": "year"
+    "year": "year",
+    "chf": "CHF",
+    "features": "Features",
+    "benefits": "Benefits",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "read_more": "Read more",
+    "see_details": "See details",
+    "all_features": "All features",
+    "try_free": "Try free",
+    "from": "From",
+    "per_month": "per month",
+    "per_year": "per year"
+  },
+  "home": {
+    "title": "Transform Your Business with AyaPos",
+    "subtitle": "Complete point of sale, payment terminal and management solutions for restaurants and businesses",
+    "ready_to_start": "READY TO START?",
+    "contact_demo": "Contact us for a free demonstration"
+  },
+  "restaurant_pos": {
+    "title": "Complete Restaurant POS System",
+    "subtitle": "All-in-one solution for efficient management",
+    "cta_title": "AYAPOS NEW GENERATION POS SYSTEMS",
+    "cta_subtitle": "Always stay one step ahead!"
+  },
+  "order_system": {
+    "title": "Online Ordering System",
+    "subtitle": "Manage all your online orders from a single platform",
+    "cta_title": "BOOST YOUR ONLINE SALES",
+    "cta_subtitle": "Increase your revenue by 35% on average"
+  },
+  "waiter_terminal": {
+    "title": "Mobile Waiter Terminal",
+    "subtitle": "Take orders directly at the table",
+    "cta_title": "MODERNIZE YOUR SERVICE",
+    "cta_subtitle": "Reduce errors and increase customer satisfaction"
+  },
+  "ayapay": {
+    "title": "AyaPay - Payment Solutions",
+    "subtitle": "New generation payment terminals",
+    "cta_title": "SIMPLIFY YOUR PAYMENTS",
+    "cta_subtitle": "Accept all payment methods"
+  },
+  "digital": {
+    "title": "Digital Solutions",
+    "subtitle": "Digitize your restaurant with our innovative solutions",
+    "cta_title": "TRANSFORM YOUR RESTAURANT",
+    "cta_subtitle": "Increase your efficiency and revenue"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Choose the solution that fits your needs",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "popular": "Popular",
+    "enterprise": "Enterprise",
+    "custom_pricing": "Custom pricing"
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Our team is at your disposal",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send",
+    "address": "Address",
+    "hours": "Opening hours"
+  },
+  "footer": {
+    "solutions": "Solutions",
+    "company": "Company",
+    "support": "Support",
+    "legal": "Legal",
+    "terms": "Terms and conditions",
+    "privacy": "Privacy policy",
+    "all_rights_reserved": "All rights reserved"
   }
 }
