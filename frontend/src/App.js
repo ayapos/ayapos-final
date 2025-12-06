@@ -42,7 +42,7 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import BlogPost1 from './pages/blog/BlogPost1';
 import BlogPost2 from './pages/blog/BlogPost2';
-import WaiterTerminalNew from './pages/WaiterTerminalNew';
+import WaiterTerminalNew from './pages/WaiterTerminalComplete';
 import MobileOrderAppComplete from './pages/MobileOrderAppComplete';
 import RobotWaiterComplete from './pages/RobotWaiterComplete';
 import LogoPreview from './pages/LogoPreview';
