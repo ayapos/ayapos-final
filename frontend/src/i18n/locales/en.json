@@ -7,16 +7,16 @@
     "pricing": "Pricing",
     "about": "About",
     "contact": "Contact",
-    "demo": "Request a Demo"
+    "demo": "Request a demo"
   },
   "hero": {
     "title": "Next Generation POS and Payment Solutions",
-    "subtitle": "Restaurants, cafés, hotels, markets, and enterprise chains - Innovative POS systems with integrated payment terminals",
-    "cta": "Discover Our Solutions",
-    "cta_secondary": "See Pricing"
+    "subtitle": "Restaurants, cafes, hotels, markets, and business chains - Innovative POS systems with integrated payment terminals",
+    "cta": "Discover our solutions",
+    "cta_secondary": "See pricing"
   },
   "features": {
-    "title": "Everything You Need to Succeed",
+    "title": "Everything you need to succeed",
     "pos_title": "Complete POS System",
     "pos_desc": "Manage your sales, inventory, and reports in real-time from anywhere",
     "payment_title": "Payment Terminals",
@@ -28,18 +28,18 @@
   },
   "pos": {
     "title": "Professional POS Systems",
-    "subtitle": "Choose the POS solution that fits your business",
+    "subtitle": "Choose the POS solution that suits your business",
     "premium": {
       "name": "Premium POS",
       "tagline": "Total control, maximum power",
-      "desc": "For restaurant chains, shopping malls, and high-volume businesses",
+      "desc": "For restaurant chains, shopping centers, and high-volume businesses",
       "price": "€1049",
       "period": "per month"
     },
     "tablet": {
       "name": "Tablet POS",
       "tagline": "Compact and economical",
-      "desc": "For small restaurants, coffee chains, and boutique pastry shops",
+      "desc": "For small restaurants, café chains, and pastry shops",
       "price": "€699",
       "period": "per month"
     },
@@ -66,7 +66,7 @@
     "smartpos_a77": {
       "name": "SmartPOS A77",
       "tagline": "Compact and lightweight",
-      "desc": "Portable terminal with touchscreen and 4G connection"
+      "desc": "Portable terminal with touchscreen and 4G connectivity"
     },
     "smartpos_a920": {
       "name": "SmartPOS A920",
@@ -75,21 +75,21 @@
     },
     "deskpos_q80": {
       "name": "Desk POS Q80",
-      "tagline": "Fixed and convenient",
+      "tagline": "Fixed and practical",
       "desc": "Counter terminal with maximum support and stability"
     },
     "softpos": {
       "name": "Tap to Pay iPhone",
       "tagline": "Payment without terminal",
-      "desc": "Turn your iPhone into a payment terminal"
+      "desc": "Transform your iPhone into a payment terminal"
     },
     "features_title": "Key Features",
     "feature_1": "Acceptance of all cards",
     "feature_2": "NFC contactless payments",
-    "feature_3": "WiFi and 4G connection",
+    "feature_3": "WiFi and 4G connectivity",
     "feature_4": "Digital and printed receipts",
     "feature_5": "PCI-DSS security",
-    "feature_6": "Complete POS integration"
+    "feature_6": "Full POS integration"
   },
   "pricing": {
     "title": "Transparent Pricing",
@@ -122,25 +122,25 @@
   },
   "robotWaiter": {
     "hero": {
-      "badge": "NEXT-GENERATION SERVICE SOLUTIONS",
+      "badge": "NEXT GENERATION SERVICE SOLUTIONS",
       "title": "Robot Server System",
-      "subtitle": "Next-generation robot serving system for innovative and pioneering businesses",
+      "subtitle": "Next generation robot server system for innovative and pioneering businesses",
       "cta": "Request a Quote"
     },
     "benefits": {
-      "mainTitle": "Robot Servers for Satisfied Customers",
-      "mainSubtitle": "Robot servers lighten your business's workload and allow staff to provide more efficient service",
+      "mainTitle": "Robot servers for satisfied customers",
+      "mainSubtitle": "Robot servers lighten the workload of your business and allow staff to provide more efficient service",
       "experience": {
         "title": "Unique Experience",
-        "description": "Offer your customers a refreshing new concept they are not accustomed to. Impress your customers with interactive features creating a futuristic and unique experience."
+        "description": "Offer your customers a refreshing new concept they are not used to. Impress your customers with interactive features creating a futuristic and unique experience."
       },
       "contactless": {
         "title": "Contactless Order Delivery",
-        "description": "With the tray distribution system by AyaPos robot servers, we now place greater emphasis on hygiene rules. Let the robot servers bring orders to the table."
+        "description": "With AyaPos server robot tray distribution system, we now pay more attention to hygiene rules. Let the robot servers bring orders to the table."
       },
       "profitability": {
         "title": "Increase Profitability",
-        "description": "Boost your business's profitability with robot server systems. By delivering your customers' orders quickly and accurately, you also increase your business's revenue."
+        "description": "Increase your business profitability with robot server systems. By delivering your customers' orders quickly and accurately, you also increase your business volume."
       },
       "efficiency": {
         "title": "Efficient Service",
@@ -150,28 +150,28 @@
     "navigation": {
       "badge": "AUTONOMOUS TECHNOLOGY",
       "title": "Autonomous Navigation System",
-      "description1": "Robot server systems use autonomous navigation systems to ensure that your robot servers make safe and error-free deliveries to customer tables.",
-      "description2": "Robot servers detect obstacles in your establishment using sensors and laser radar technology, preventing collisions. Provide safer and error-free service in your business while ensuring the safety of your customers.",
+      "description1": "Robot server systems use autonomous navigation systems to ensure your robot servers make safe and error-free deliveries to customer tables.",
+      "description2": "Robot servers detect obstacles in your business using sensors and laser radar technology, preventing collisions. Provide safer and error-free service in your business while ensuring the safety of your customers.",
       "cta": "Learn More"
     },
     "profitability": {
       "badge": "INCREASED PROFITABILITY",
       "title": "Increase Profitability",
-      "description1": "Boost your business’s profitability with robot server systems. By delivering your customers' orders quickly and accurately, you also enhance your business’s revenue.",
+      "description1": "Increase your business profitability with robot server systems. By delivering your customers' orders quickly and accurately, you also increase your business volume.",
       "description2": "With robot servers, extend your business hours and serve more customers.",
       "stat1": "Reduction in Labor Costs",
-      "stat2": "Service Available"
+      "stat2": "Available Service"
     },
     "delivery": {
-      "title": "Automated Delivery System",
-      "subtitle": "Increase customer satisfaction and loyalty in your business",
+      "title": "Automatic Delivery System",
+      "subtitle": "Increase the satisfaction and loyalty of your business customers",
       "speed": {
         "title": "Fast and Efficient Delivery",
-        "description": "Deliver orders quickly and efficiently to customers with automated delivery systems on trays, increasing customer satisfaction and your business volume."
+        "description": "Deliver orders quickly and efficiently to customers with automatic tray delivery systems, increasing customer satisfaction and your business volume."
       },
       "accuracy": {
         "title": "Fewer Errors",
-        "description": "Reduce delivery errors by ensuring orders are delivered to the correct tables and protect your business's reputation while providing better quality service."
+        "description": "Reduce delivery errors by delivering orders to the correct tables and protect your business reputation while providing better service quality."
       }
     },
     "technicalFeatures": {
@@ -181,318 +181,318 @@
     "features": {
       "navigation": {
         "title": "Navigation System",
-        "description": "AyaPos robot servers are equipped with lasers and sensors to avoid obstacles within the establishment."
+        "description": "AyaPos robot servers are equipped with lasers and sensors to avoid obstacles in the business."
       },
       "capacity": {
         "title": "Transport Capacity",
-        "description": "The AyaPos tray delivery devices have a total transport capacity of 40 kg, or 10 kg per level."
+        "description": "AyaPos tray delivery devices have a total transport capacity of 40 kg, or 10 kg per level."
       },
       "battery": {
         "title": "Sustainable Battery Life",
-        "description": "AyaPos robot servers operate continuously for 12 to 15 hours per day."
+        "description": "AyaPos robot servers operate continuously for 12 to 15 hours a day."
       },
       "speedLimit": {
         "title": "Smart Speed Limit",
-        "description": "Intelligent robot servers adjust their speed according to the angle of the ground with an enhanced speed limit feature."
+        "description": "Intelligent robot servers adjust their speed based on ground slope due to an enhanced speed limit feature."
       }
     },
     "gallery": {
       "title": "Discover Our Robot Servers",
       "subtitle": "See how our robots can transform your service",
       "image1": "Robot server in action",
-      "image2": "Automated tray delivery",
-      "image3": "Enhanced customer service"
+      "image2": "Automatic tray delivery",
+      "image3": "Improved customer service"
     },
     "cta": {
-      "title": "Ready to Revolutionize Your Service?",
+      "title": "Ready to revolutionize your service?",
       "subtitle": "Contact us to discover how our robot servers can enhance your business",
       "button": "Request a Demonstration"
     }
   },
   "deliveryManagement": {
     "hero": {
-      "badge": "APPLICATION COURSIER",
-      "title": "Système de Gestion des Commandes Coursier",
-      "subtitle": "Planifiez les commandes, consultez les détails, acceptez facilement les paiements",
-      "cta": "Demander un devis"
+      "badge": "COURIER APPLICATION",
+      "title": "Courier Order Management System",
+      "subtitle": "Schedule orders, view details, easily accept payments",
+      "cta": "Request a Quote"
     },
     "orderManagement": {
-      "badge": "GESTION DES COMMANDES",
-      "title": "Livrez rapidement les commandes !",
-      "subtitle": "Gestion AyaPos Coursier - Application de Suivi des Commandes"
+      "badge": "ORDER MANAGEMENT",
+      "title": "Deliver Orders Quickly!",
+      "subtitle": "AyaPos Courier Management - Order Tracking Application"
     },
     "features": {
       "orderDetails": {
-        "title": "Détails de la Commande",
-        "description": "Vous pouvez consulter les détails des commandes qui vous sont attribuées. De cette façon, vous pouvez minimiser les risques d'erreur lors de la livraison. Personne ne veut recevoir un gâteau alors qu'il attend une pizza."
+        "title": "Order Details",
+        "description": "You can view the details of the orders assigned to you. This way, you can minimize the risk of errors during delivery. No one wants to receive a cake while waiting for a pizza."
       },
       "mapView": {
-        "title": "Voir l'emplacement sur la carte",
-        "description": "Avec l'application Coursier, vous pouvez voir l'emplacement où vous devez livrer la commande sur la carte. Vous pouvez ainsi déterminer votre itinéraire pour aller à la bonne adresse par le chemin le plus court."
+        "title": "View Location on Map",
+        "description": "With the Courier app, you can see the location where you need to deliver the order on the map. This allows you to determine your route to the correct address by the shortest path."
       },
       "callCustomer": {
-        "title": "Appeler le client",
-        "description": "En cas de situation défavorable ou si vous avez des questions sur la commande, vous pouvez appeler le client et communiquer avec lui."
+        "title": "Call Customer",
+        "description": "In case of an unfavorable situation or if you have questions about the order, you can call the customer and communicate with them."
       }
     },
     "payment": {
-      "badge": "PAIEMENTS",
-      "title": "Accepter les paiements très facilement !",
-      "subtitle": "Suivi AyaPos Coursier - Système de Gestion Restaurant",
+      "badge": "PAYMENTS",
+      "title": "Easily Accept Payments!",
+      "subtitle": "AyaPos Courier Tracking - Restaurant Management System",
       "cash": {
-        "title": "Paiements en espèces",
-        "description": "Grâce à l'utilisation facile de l'application Coursier, vous pouvez accepter les paiements en espèces des commandes en un seul toucher."
+        "title": "Cash Payments",
+        "description": "With the easy-to-use Courier app, you can accept cash payments for orders with just one touch."
       },
       "card": {
-        "title": "Paiements par carte de crédit",
-        "description": "Avec l'infrastructure avancée de l'application AyaPos Coursier, vous pouvez utiliser un code QR pour accepter les paiements par carte de crédit. Laissez votre client scanner le code QR et le paiement se fait en quelques secondes."
+        "title": "Credit Card Payments",
+        "description": "With the advanced infrastructure of the AyaPos Courier app, you can use a QR code to accept credit card payments. Let your customer scan the QR code and the payment is done in seconds."
       },
       "security": {
-        "title": "Infrastructure 100% sécurisée",
-        "description": "Avec un certificat SSL 256 bits, toutes vos transactions et mouvements sont effectués en toute sécurité."
+        "title": "100% Secure Infrastructure",
+        "description": "With a 256-bit SSL certificate, all your transactions and movements are conducted securely."
       }
     },
     "courier": {
-      "badge": "POUR LES COURSIERS",
-      "title": "Indispensable pour les coursiers !",
-      "subtitle": "Gestion des Commandes AyaPos - Logiciel de Suivi Coursier",
+      "badge": "FOR COURIERS",
+      "title": "Essential for Couriers!",
+      "subtitle": "AyaPos Order Management - Courier Tracking Software",
       "reports": {
-        "title": "Consulter les rapports quotidiens",
-        "description": "Avec l'application AyaPos Coursier, vous pouvez obtenir des rapports quotidiens des coursiers. Vous pouvez obtenir des informations sur le nombre de commandes, la distance totale, les durées et les paiements."
+        "title": "View Daily Reports",
+        "description": "With the AyaPos Courier app, you can get daily reports from couriers. You can obtain information on the number of orders, total distance, durations, and payments."
       },
       "status": {
-        "title": "Statuts disponible et occupé",
-        "description": "Avec l'application Coursier, vous pouvez définir le statut du coursier. Lorsque vous n'êtes pas disponible, vous pouvez sélectionner le statut 'Occupé' et informer l'entreprise."
+        "title": "Available and Busy Status",
+        "description": "With the Courier app, you can set the courier status. When you are not available, you can select the 'Busy' status and inform the company."
       },
       "notifications": {
-        "title": "Son de notification de commande",
-        "description": "Si vous activez le son de notification via l'application, vous recevrez une notification sonore lorsqu'une commande vous est attribuée. De cette façon, vous ne manquerez pas de commandes et vous pourrez augmenter la satisfaction client."
+        "title": "Order Notification Sound",
+        "description": "If you enable notification sound via the app, you will receive an audible notification when an order is assigned to you. This way, you won't miss any orders and can increase customer satisfaction."
       }
     },
     "systemFeatures": {
-      "title": "Caractéristiques du Système",
-      "subtitle": "Tout ce dont vous avez besoin pour gérer efficacement vos livraisons"
+      "title": "System Features",
+      "subtitle": "Everything you need to manage your deliveries efficiently"
     },
     "system": {
       "mobile": {
-        "title": "Système de Gestion Mobile",
-        "description": "AyaPos Manager est une application de gestion mobile qui vous permet de gérer votre entreprise depuis des téléphones iPhone et Android."
+        "title": "Mobile Management System",
+        "description": "AyaPos Manager is a mobile management application that allows you to manage your business from iPhone and Android phones."
       },
       "cloud": {
-        "title": "Infrastructure Cloud",
-        "description": "Grâce à la plateforme cloud AyaPos Manager, gérez vos produits, ventes, stocks et comptes clients depuis votre poche, accédez instantanément aux rapports consolidés de vos succursales."
+        "title": "Cloud Infrastructure",
+        "description": "With the AyaPos Manager cloud platform, manage your products, sales, inventory, and customer accounts from your pocket, instantly access consolidated reports from your branches."
       },
       "analytics": {
-        "title": "Rapports et Analyses Avancés",
-        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez l'état de votre entreprise en comparant vos ventes avec des analyses visuelles."
+        "title": "Advanced Reports and Analytics",
+        "description": "Review your end-of-day reports, sales, inventory, and customer accounts in real-time. Improve your business status by comparing your sales with visual analytics."
       },
       "accounts": {
-        "title": "Gérer les Comptes Clients",
-        "description": "Créez vos comptes clients, suivez vos créances et dettes. Gérez vos clients en examinant les mouvements de caisse qui ont eu lieu pendant la journée."
+        "title": "Manage Customer Accounts",
+        "description": "Create your customer accounts, track your receivables and payables. Manage your customers by reviewing the cash movements that occurred during the day."
       }
     },
     "tracking": {
-      "badge": "SUIVI EN TEMPS RÉEL",
-      "title": "Suivez vos livraisons en temps réel",
-      "description1": "Avec le système de suivi en temps réel d'AyaPos, vous pouvez suivre la position de vos coursiers sur une carte et surveiller l'état de toutes vos commandes.",
-      "description2": "Optimisez vos itinéraires de livraison, réduisez les temps d'attente et augmentez la satisfaction client grâce à un suivi précis et en temps réel.",
-      "feature1": "Suivi GPS en direct",
-      "feature2": "Optimisation des itinéraires",
-      "feature3": "Notifications automatiques"
+      "badge": "REAL-TIME TRACKING",
+      "title": "Track Your Deliveries in Real-Time",
+      "description1": "With AyaPos's real-time tracking system, you can follow your couriers' location on a map and monitor the status of all your orders.",
+      "description2": "Optimize your delivery routes, reduce waiting times, and increase customer satisfaction with accurate and real-time tracking.",
+      "feature1": "Live GPS Tracking",
+      "feature2": "Route Optimization",
+      "feature3": "Automatic Notifications"
     },
     "cta": {
-      "title": "Prêt à optimiser vos livraisons ?",
-      "subtitle": "Contactez-nous pour découvrir comment notre système de gestion des livraisons peut améliorer votre efficacité",
-      "button": "Demander une démonstration"
+      "title": "Ready to Optimize Your Deliveries?",
+      "subtitle": "Contact us to discover how our delivery management system can enhance your efficiency",
+      "button": "Request a Demonstration"
     }
   },
   "webPortal": {
     "hero": {
-      "badge": "PORTAIL WEB AYAPOS",
-      "title": "Système de Gestion en Ligne",
-      "subtitle": "Gérez à distance, accédez instantanément aux rapports de ventes et de stocks",
-      "cta": "Demander un devis"
+      "badge": "AYAPOS WEB PORTAL",
+      "title": "Online Management System",
+      "subtitle": "Manage remotely, instantly access sales and inventory reports",
+      "cta": "Request a Quote"
     },
     "reportsSection": {
-      "badge": "RAPPORTS ET ANALYSES",
-      "title": "Accédez instantanément à vos rapports",
-      "subtitle": "Rapports de fin de journée, ventes, personnel, comptes clients et stocks instantanément disponibles"
+      "badge": "REPORTS AND ANALYTICS",
+      "title": "Instantly access your reports",
+      "subtitle": "End-of-day reports, sales, staff, customer accounts, and inventory instantly available"
     },
     "reports": {
       "instant": {
-        "title": "Rapports instantanés et périodiques",
-        "description": "Le système de rapports et d'analyses en ligne AyaPos Portal présente vos données sous forme d'analyses visuelles en plus des rapports instantanés et périodiques, vous aidant à prendre les bonnes décisions et à développer votre entreprise."
+        "title": "Instant and Periodic Reports",
+        "description": "The AyaPos Portal reporting and analytics system presents your data in the form of visual analyses in addition to instant and periodic reports, helping you make the right decisions and grow your business."
       },
       "central": {
-        "title": "Système de rapports centralisé",
-        "description": "Grâce au système de gestion et de rapports centralisés AyaPos, vous pouvez gérer toutes vos succursales depuis un seul compte et consulter les rapports consolidés et comparatifs sur le même écran."
+        "title": "Centralized Reporting System",
+        "description": "With the AyaPos centralized management and reporting system, you can manage all your branches from a single account and view consolidated and comparative reports on the same screen."
       }
     },
     "remoteManagement": {
-      "badge": "GESTION À DISTANCE",
-      "title": "Gérez votre entreprise à distance avec AyaPos Portal",
-      "subtitle": "Gérez toutes les informations définissant votre entreprise depuis votre bureau"
+      "badge": "REMOTE MANAGEMENT",
+      "title": "Manage your business remotely with AyaPos Portal",
+      "subtitle": "Manage all the information defining your business from your office"
     },
     "management": {
       "remote": {
-        "title": "Configuration à distance, mise à jour automatique",
-        "description": "Configurez à distance toutes les informations et paramètres de votre entreprise et de vos appareils avec n'importe quel appareil connecté à Internet, mettez-les à jour quand vous le souhaitez. Ajoutez de nouveaux produits, modifiez les prix. Toutes les informations sont automatiquement transférées vers vos tablettes et appareils POS."
+        "title": "Remote Setup, Automatic Updates",
+        "description": "Set up all information and settings for your business and devices remotely with any internet-connected device, updating them whenever you want. Add new products, change prices. All information is automatically transferred to your tablets and POS devices."
       },
       "auto": {
-        "title": "Gérez vos systèmes POS depuis un centre unique",
-        "description": "AyaPos Portal est la solution de gestion centralisée qui vous permet de gérer à distance avec un seul compte le système d'automatisation de restaurant de votre entreprise."
+        "title": "Manage your POS systems from a single center",
+        "description": "AyaPos Portal is the centralized management solution that allows you to remotely manage your restaurant automation system with a single account."
       },
       "unified": {
-        "title": "Gestion unifiée complète",
-        "description": "Incluant le système POS mobile, les menus tablettes, les terminaux serveur, ainsi que les systèmes de menu numérique, de commande mobile et de paiement mobile fonctionnant sur les smartphones de vos clients."
+        "title": "Complete Unified Management",
+        "description": "Including the mobile POS system, tablet menus, server terminals, as well as digital menu, mobile ordering, and mobile payment systems operating on your customers' smartphones."
       }
     },
     "dayEnd": {
-      "badge": "RAPPORTS DE FIN DE JOURNÉE",
-      "title": "Consultez vos rapports de fin de journée",
-      "description1": "Vous pouvez examiner combien de ventes ont été effectuées en espèces ou par carte de crédit pendant la journée, combien de vos clients ont bénéficié de réductions ou les produits retournés.",
-      "description2": "Avec le menu puissant d'AyaPos Portal, accédez aux rapports de fin de journée, vous pouvez suivre les paiements en espèces, par carte de crédit ou sur compte effectués pendant la journée.",
-      "description3": "Vos rapports sont stockés quotidiennement dans la base de données AyaPos, vous pouvez accéder instantanément à vos rapports de fin de journée de n'importe quelle date quand vous le souhaitez."
+      "badge": "END OF DAY REPORTS",
+      "title": "Review your end-of-day reports",
+      "description1": "You can examine how many sales were made in cash or by credit card during the day, how many of your customers received discounts, or the products returned.",
+      "description2": "With AyaPos Portal's powerful menu, access end-of-day reports, you can track cash, credit card, or account payments made during the day.",
+      "description3": "Your reports are stored daily in the AyaPos database, you can instantly access your end-of-day reports from any date whenever you want."
     },
     "settings": {
-      "badge": "PARAMÈTRES SYSTÈME",
-      "title": "Améliorez votre portail avec les paramètres système",
-      "subtitle": "Gérez mieux votre entreprise avec de nombreux paramètres",
+      "badge": "SYSTEM SETTINGS",
+      "title": "Enhance your portal with system settings",
+      "subtitle": "Better manage your business with numerous settings",
       "general": {
-        "title": "Paramètres généraux",
-        "description": "Depuis votre portail, vous pouvez définir la devise et la langue des produits que vous vendez. Avec les paramètres POS, vous pouvez sélectionner les types de paiement, appliquer des étiquettes de réduction. Vous pouvez également organiser les paramètres de gestion de stock via AyaPos Portal."
+        "title": "General Settings",
+        "description": "From your portal, you can set the currency and language of the products you sell. With the POS settings, you can select payment types, apply discount labels. You can also organize stock management settings via AyaPos Portal."
       },
       "order": {
-        "title": "Paramètres de commande",
-        "description": "Dans la section paramètres d'AyaPos Portal, vous pouvez activer vos commandes pour le paiement et la commande en ligne, définir votre montant minimum de commande et vos frais de service, organiser les informations nécessaires pour les ventes via les plateformes de livraison."
+        "title": "Order Settings",
+        "description": "In the AyaPos Portal settings section, you can enable your orders for online payment and ordering, set your minimum order amount and service fees, and organize necessary information for sales via delivery platforms."
       }
     },
     "featuresGrid": {
-      "title": "Caractéristiques",
-      "subtitle": "Tout ce dont vous avez besoin pour gérer votre entreprise"
+      "title": "Features",
+      "subtitle": "Everything you need to manage your business"
     },
     "features": {
       "reports": {
-        "title": "Rapports et Analyses Avancés",
-        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez la situation de votre entreprise en comparant vos ventes avec des analyses visuelles."
+        "title": "Advanced Reports and Analytics",
+        "description": "Review your end-of-day, sales, inventory, and customer account reports in real-time. Improve your business condition by comparing your sales with visual analytics."
       },
       "management": {
-        "title": "Système de Gestion en Ligne",
-        "description": "Avec AyaPos Portal, vous pouvez gérer votre entreprise à distance avec n'importe quel appareil connecté à Internet. Connectez-vous à AyaPos Portal et accédez à vos informations à tout moment, de n'importe où."
+        "title": "Online Management System",
+        "description": "With AyaPos Portal, you can manage your business remotely with any internet-connected device. Log in to AyaPos Portal and access your information anytime, from anywhere."
       },
       "central": {
-        "title": "Système de Gestion Centralisée",
-        "description": "Grâce au système de gestion centralisée d'AyaPos Portal, gérez vos produits, prix, personnel et stocks depuis un centre unique, accédez aux rapports de ventes consolidés de vos succursales avec un seul compte."
+        "title": "Centralized Management System",
+        "description": "With the AyaPos Portal centralized management system, manage your products, prices, staff, and inventory from a single center, access consolidated sales reports from your branches with a single account."
       },
       "compatible": {
-        "title": "Compatible avec tous les Navigateurs",
-        "description": "Vous pouvez accéder rapidement à AyaPos Portal depuis des ordinateurs, tablettes ou smartphones connectés à Internet et gérer facilement vos succursales en même temps."
+        "title": "Compatible with All Browsers",
+        "description": "You can quickly access AyaPos Portal from internet-connected computers, tablets, or smartphones and easily manage your branches at the same time."
       }
     },
     "cta": {
-      "title": "Prêt à gérer votre entreprise en ligne ?",
-      "subtitle": "Contactez-nous pour découvrir comment AyaPos Portal peut transformer votre gestion",
-      "button": "Demander une démonstration"
+      "title": "Ready to manage your business online?",
+      "subtitle": "Contact us to find out how AyaPos Portal can transform your management",
+      "button": "Request a Demonstration"
     }
   },
   "mobileReports": {
     "hero": {
-      "badge": "RAPPORTS MOBILES AYAPOS",
-      "title": "Application de Rapports Mobiles",
-      "subtitle": "Accédez instantanément aux rapports de ventes et aux analyses visuelles depuis votre poche",
-      "cta": "Voir les démos"
+      "badge": "AYAPOS MOBILE REPORTS",
+      "title": "Mobile Reports Application",
+      "subtitle": "Instantly access sales reports and visual analytics from your pocket",
+      "cta": "View Demos"
     },
     "summarySection": {
-      "badge": "RAPPORTS RÉSUMÉS",
-      "title": "Rapports résumés et graphiques visuels",
-      "subtitle": "Examinez les rapports résumés et les analyses visuelles concernant les produits les plus vendus, la fin de journée, l'état de la caisse et les stocks"
+      "badge": "SUMMARY REPORTS",
+      "title": "Summary Reports and Visual Charts",
+      "subtitle": "Review summary reports and visual analyses regarding best-selling products, end of day, cash status, and inventory"
     },
     "summary": {
       "bestSellers": {
-        "title": "Produits les plus vendus",
-        "description": "Visualisez en résumé les produits les plus vendus dans votre entreprise pendant la journée, augmentez vos ventes en organisant des campagnes et promotions sur les produits ciblés."
+        "title": "Best-Selling Products",
+        "description": "View a summary of the best-selling products in your business during the day, increase your sales by organizing campaigns and promotions on targeted products."
       },
       "dayEnd": {
-        "title": "Rapport de fin de journée et de caisse",
-        "description": "Accédez au résumé de vos informations de ventes et de chiffre d'affaires de fin de journée, à vos informations de paiement en espèces, devises, carte de crédit, tickets restaurant, etc. dans votre caisse."
+        "title": "End of Day and Cash Report",
+        "description": "Access the summary of your sales and revenue information for the end of day, your cash payment, currency, credit card, meal vouchers, etc. in your cash register."
       },
       "stock": {
-        "title": "Rapports de stock",
-        "description": "Examinez l'état des stocks de vos produits, semi-produits et matières premières, vérifiez vos stocks avec les entrées/sorties de stock et les comptages d'inventaire."
+        "title": "Inventory Reports",
+        "description": "Review the stock status of your products, semi-finished products, and raw materials, check your inventory with stock in/out and inventory counts."
       },
       "insights": {
-        "title": "Informations résumées",
-        "description": "AyaPos Boss vous présente des informations telles que le gain moyen et le nombre de couverts réalisés par votre entreprise au cours des 7 derniers jours."
+        "title": "Summarized Insights",
+        "description": "AyaPos Boss presents information such as average earnings and the number of covers achieved by your business over the last 7 days."
       }
     },
     "productSection": {
-      "badge": "GESTION DES PRODUITS",
-      "title": "Gérez vos produits avec AyaPos Boss",
-      "subtitle": "Consultez tous les détails de vos produits depuis votre application mobile"
+      "badge": "PRODUCT MANAGEMENT",
+      "title": "Manage your products with AyaPos Boss",
+      "subtitle": "View all the details of your products from your mobile app"
     },
     "products": {
       "track": {
-        "title": "Suivez vos produits",
-        "description": "Depuis l'application AyaPos Boss, vous pouvez cliquer sur un produit pour voir sa photo, son nom, son prix, son code-barres, sa quantité de calories, son temps de préparation, sa description, ses sous-catégories et indiquer si le produit est disponible ou non."
+        "title": "Track Your Products",
+        "description": "From the AyaPos Boss app, you can click on a product to see its photo, name, price, barcode, calorie count, preparation time, description, subcategories, and indicate whether the product is available or not."
       },
       "search": {
-        "title": "Recherche de produits",
-        "description": "Sur la page produits de l'application AyaPos Boss, vous pouvez accéder à l'écran de recherche en cliquant sur le bouton de recherche dans le coin supérieur droit. Dans cette zone, vous pouvez accéder rapidement et facilement à un produit en écrivant son nom."
+        "title": "Product Search",
+        "description": "On the products page of the AyaPos Boss app, you can access the search screen by clicking the search button in the top right corner. In this area, you can quickly and easily access a product by typing its name."
       },
       "design": {
-        "title": "Design simple et épuré",
-        "description": "L'application AyaPos Boss a un design extrêmement simple et épuré. Pour ne pas compliquer la page des produits, elle maintient cette structure et vous offre un espace de travail plus confortable."
+        "title": "Simple and Clean Design",
+        "description": "The AyaPos Boss app features an extremely simple and clean design. To avoid complicating the product page, it maintains this structure and offers you a more comfortable workspace."
       }
     },
     "business": {
-      "badge": "GESTION D'ENTREPRISE",
-      "title": "Gérez votre entreprise depuis votre poche avec AyaPos Boss !",
-      "description1": "Accédez à vos rapports de fin de journée, de caisse, de ventes, de comptes clients et de stocks depuis les smartphones. Comparez vos ventes périodiques avec des analyses visuelles.",
-      "description2": "AyaPos Boss vous permet d'accéder en temps réel à toutes vos ventes réalisées sur votre système POS mobile et transférées vers la plateforme cloud. Vous pouvez consulter instantanément de nombreux rapports tels que fin de journée, caisse, ventes, stocks et comptes clients.",
-      "description3": "Grâce à la plateforme cloud mobile AyaPos, vous accédez en quelques secondes aux graphiques visuels de vos ventes quotidiennes, hebdomadaires, mensuelles et annuelles. Vous pouvez analyser l'état actuel de votre entreprise en comparant vos ventes périodiques et développer votre activité en prenant les bonnes décisions."
+      "badge": "BUSINESS MANAGEMENT",
+      "title": "Manage your business from your pocket with AyaPos Boss!",
+      "description1": "Access your end-of-day, cash, sales, customer accounts, and inventory reports from smartphones. Compare your periodic sales with visual analytics.",
+      "description2": "AyaPos Boss allows you to access in real-time all your sales made on your mobile POS system and transferred to the cloud platform. You can instantly view numerous reports such as end of day, cash, sales, inventory, and customer accounts.",
+      "description3": "With the AyaPos mobile cloud platform, access visual charts of your daily, weekly, monthly, and yearly sales in seconds. You can analyze your business's current state by comparing your periodic sales and grow your business by making the right decisions."
     },
     "settings": {
-      "badge": "PARAMÈTRES",
-      "title": "Effectuez des modifications dans votre application avec AyaPos Boss !",
+      "badge": "SETTINGS",
+      "title": "Make changes in your app with AyaPos Boss!",
       "account": {
-        "title": "Paramètres du compte et paramètres généraux",
-        "description": "Dans la section paramètres du compte de la page paramètres d'AyaPos Boss, vous pouvez définir votre nom d'utilisateur et votre mot de passe. Depuis les paramètres généraux, vous pouvez régler l'heure mondiale et organiser à quelle heure les rapports de fin de journée doivent être pris."
+        "title": "Account Settings and General Settings",
+        "description": "In the account settings section on the AyaPos Boss settings page, you can set your username and password. From the general settings, you can adjust the global time and organize when end-of-day reports should be taken."
       },
       "pos": {
-        "title": "Paramètres POS et de langue",
-        "description": "Avec les paramètres POS, vous pouvez activer ou désactiver le service de commande et de paiement en ligne de l'appareil POS utilisé dans votre entreprise. Avec les paramètres de langue, vous pouvez utiliser votre application patron AyaPos dans différentes langues."
+        "title": "POS and Language Settings",
+        "description": "With POS settings, you can enable or disable online ordering and payment service for the POS device used in your business. With language settings, you can use your AyaPos manager app in multiple languages."
       }
     },
     "featuresGrid": {
-      "title": "Caractéristiques",
-      "subtitle": "Tout ce dont vous avez besoin dans votre poche"
+      "title": "Features",
+      "subtitle": "Everything you need in your pocket"
     },
     "features": {
       "mobile": {
-        "title": "Système de Gestion Mobile",
-        "description": "AyaPos Boss est une application de gestion mobile qui vous permet de gérer votre entreprise depuis les téléphones iPhone et Android. Téléchargez immédiatement depuis App Store et Google Play."
+        "title": "Mobile Management System",
+        "description": "AyaPos Boss is a mobile management application that allows you to manage your business from iPhone and Android phones. Download immediately from the App Store and Google Play."
       },
       "cloud": {
-        "title": "Infrastructure Cloud",
-        "description": "Grâce à la plateforme cloud AyaPos Boss, gérez vos produits, ventes, stocks et comptes clients depuis votre poche, accédez instantanément aux rapports consolidés de vos succursales."
+        "title": "Cloud Infrastructure",
+        "description": "With the AyaPos Boss cloud platform, manage your products, sales, inventory, and customer accounts from your pocket, instantly access consolidated reports from your branches."
       },
       "analytics": {
-        "title": "Rapports et Analyses Avancés",
-        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez l'état de votre entreprise en comparant vos ventes avec des analyses visuelles."
+        "title": "Advanced Reports and Analytics",
+        "description": "Review your end-of-day, sales, inventory, and customer accounts reports in real-time. Improve your business status by comparing your sales with visual analytics."
       },
       "accounts": {
-        "title": "Gérer les Comptes Clients",
-        "description": "Créez vos comptes clients, suivez vos créances et dettes. Gérez vos clients en examinant les mouvements de caisse effectués pendant la journée."
+        "title": "Manage Customer Accounts",
+        "description": "Create your customer accounts, track your receivables and payables. Manage your customers by reviewing the cash movements made during the day."
       }
     },
     "download": {
-      "title": "Téléchargez l'application Boss mobile pour l'essayer immédiatement !",
-      "subtitle": "Disponible sur iOS et Android"
+      "title": "Download the Boss mobile app to try it immediately!",
+      "subtitle": "Available on iOS and Android"
     },
     "cta": {
-      "title": "Prêt à gérer depuis votre mobile ?",
-      "subtitle": "Téléchargez AyaPos Boss et gérez votre entreprise de n'importe où",
-      "button": "Demander une démonstration"
+      "title": "Ready to manage from your mobile?",
+      "subtitle": "Download AyaPos Boss and manage your business from anywhere",
+      "button": "Request a Demonstration"
     }
   },
   "stockManagement": {
@@ -509,58 +509,58 @@
     },
     "benefits": {
       "efficiency": {
-        "title": "More efficient production",
+        "title": "More Efficient Production",
         "description": "With the inventory management system, you can examine the use of raw materials and products and improve your production flow for more efficient production."
       },
       "waste": {
-        "title": "Less loss and waste",
-        "description": "Thanks to a better-planned production flow, you can minimize losses and waste occurring during production."
+        "title": "Less Losses and Waste",
+        "description": "With a better-planned production flow, you can minimize losses and waste occurring during production."
       }
     },
     "recipeSection": {
       "badge": "RECIPES",
       "title": "Plan your recipes and production flow",
-      "subtitle": "Prepare stocks with recipes from your restaurant, café, or bar"
+      "subtitle": "Prepare inventory with recipes from your restaurant, café, or bar"
     },
     "types": {
       "simple": {
-        "title": "Simple stock as needed",
-        "description": "For small businesses and as needed, you can easily enter your products individually into the system with a simple stock structure and also see their usage individually."
+        "title": "Simple Stock as Needed",
+        "description": "For small businesses and as needed, you can easily enter your products by unit into the system with a simple stock structure and see their usage also by the unit."
       },
       "recipe": {
-        "title": "Advanced stock with recipes",
-        "description": "With AyaPos inventory management, you can also manage the stocks of your restaurant, café, or bar with recipes. This way, you can perform detailed analyses of expenses."
+        "title": "Advanced Stock with Recipes",
+        "description": "With AyaPos inventory management, you can also manage the stocks of your restaurant, café, or bar with recipes. This way, you can perform detailed expense analyses."
       }
     },
     "centralized": {
       "badge": "CENTRALIZED MANAGEMENT",
-      "title": "Access everything from one place",
-      "description1": "With the AyaPos inventory management system, whether you have one or a hundred branches. You can manage everything from one place and avoid unexpected results with broader analyses.",
-      "stat1": "Centralized control",
-      "stat2": "Permanent access"
+      "title": "Access Everything from One Place",
+      "description1": "With the AyaPos inventory management system, whether you have one or one hundred branches, you can manage everything from one location without encountering unexpected results with broader analyses.",
+      "stat1": "Centralized Control",
+      "stat2": "Permanent Access"
     },
     "featuresSection": {
-      "title": "Access everything from one place",
-      "subtitle": "Complete inventory management system"
+      "title": "Access Everything from One Place",
+      "subtitle": "Complete Inventory Management System"
     },
     "management": {
       "movements": {
-        "title": "Track your stock movements",
-        "description": "Create customer accounts, track your receivables and payables related to these accounts. Review the cash movements made during the day."
+        "title": "Track Your Stock Movements",
+        "description": "Create your customer accounts, track receivables and payables related to those accounts. Review cash movements made during the day."
       },
       "counting": {
-        "title": "Control your stock counts",
-        "description": "Monitor your product and raw material stocks, observe your stock movements, and verify your stocks with periodic counts."
+        "title": "Control Your Stock Counts",
+        "description": "Track your inventory of products and raw materials, observe your stock movements, and verify your stocks with periodic counts."
       }
     },
     "alert": {
-      "title": "Stock alert system",
-      "description": "With the AyaPos inventory management system, you can track products and raw materials in stock and see in advance which stocks are running low thanks to the alert system.",
-      "cta": "Learn more"
+      "title": "Stock Alert System",
+      "description": "With the AyaPos inventory management system, you can track products and raw materials in stock and see in advance the stocks that are about to run out thanks to the alert system.",
+      "cta": "Learn More"
     },
     "cta": {
-      "title": "Ready to optimize your stock management?",
-      "subtitle": "Contact us to discover how our system can improve your profitability",
+      "title": "Ready to Optimize Your Inventory Management?",
+      "subtitle": "Contact us to find out how our system can improve your profitability",
       "button": "Request a Demonstration"
     }
   },
@@ -572,81 +572,81 @@
       "cta": "Request a Quote"
     },
     "quickSection": {
-      "title": "Quick access from one place",
+      "title": "Quick Access from One Place",
       "subtitle": "All your branches under control"
     },
     "quick": {
       "menus": {
-        "title": "Manage your menus",
-        "description": "Manage all branch menus from one place. Update prices whenever you wish and apply them to all branches."
+        "title": "Manage Your Menus",
+        "description": "Manage all branch menus from one location. Update prices whenever you want and apply them to all branches."
       },
       "movements": {
-        "title": "Control the movements",
-        "description": "Examine daily, monthly, or chosen period movements of your branches. Analyze reports."
+        "title": "Control Movements",
+        "description": "Review the daily, monthly, or chosen period movements of your branches. Analyze the reports."
       },
       "branches": {
-        "title": "Track your branches",
-        "description": "Whether you have two or a hundred branches. Monitor all your branches from a single center. Grow your business."
+        "title": "Track Your Branches",
+        "description": "Whether you have two or one hundred branches, monitor all your branches from a single center. Grow your business."
       }
     },
     "controlSection": {
       "badge": "TOTAL CONTROL",
-      "title": "Supervise, intervene",
-      "subtitle": "Wherever you are, monitor all your branches in detail"
+      "title": "Supervise, Intervene",
+      "subtitle": "Wherever you are, track all your branches in detail"
     },
     "control": {
       "supervise": {
-        "title": "Supervise, intervene",
-        "description": "Wherever you are, track all your branches in detail. Supervise cash movements. Review reports, leaving nothing to chance."
+        "title": "Supervise, Intervene",
+        "description": "Wherever you are, follow all your branches in detail. Supervise cash movements. Review reports, leave nothing to chance."
       },
       "update": {
-        "title": "Update prices with one click",
-        "description": "Quickly organize prices and product details of your branches. Apply the changes you make to all your branches with one click."
+        "title": "Update Prices with One Click",
+        "description": "Quickly organize the prices and details of your branches' products. Apply the changes you make to all your branches with one click."
       },
       "accounts": {
-        "title": "Review accounts and cash registers",
-        "description": "Examine your cash movements, the customer accounts registered in your business. Track all transactions from a single screen."
+        "title": "Review Accounts and Cash Registers",
+        "description": "Examine your cash movements, the customer accounts recorded in your business. Track all transactions from a single screen."
       }
     },
     "allBranches": {
       "badge": "ALL YOUR BRANCHES",
-      "title": "All your branches under control",
+      "title": "All Your Branches Under Control",
       "subtitle": "Complete management from a single dashboard"
     },
     "operational": {
       "control": {
-        "title": "Control of all operations",
-        "description": "Manage all operations of your branches from a single screen. Organize your menus, modify layout plans, supervise stocks, track staff, consult invoices and customer accounts."
+        "title": "Control All Operations",
+        "description": "Manage all operations of your branches from a single screen. Organize your menus, modify layout plans, supervise stock, track staff, check invoices and customer accounts."
       },
       "remote": {
-        "title": "Control from anywhere",
-        "description": "View and effortlessly organize all details of your branches with a computer or phone that has an Internet connection. All changes you make are automatically applied to your branches."
+        "title": "Control from Anywhere",
+        "description": "Easily view and organize all details of your branches with a computer or phone with an Internet connection. All changes you make are automatically applied to your branches."
       },
       "evaluate": {
-        "title": "Evaluate your branches",
-        "description": "Review your reports whenever you wish. Analyze the data of your branches and assess their performance."
+        "title": "Evaluate Your Branches",
+        "description": "Review your reports whenever you want. Analyze the data of your branches and evaluate their performance."
       }
     },
     "reports": {
-      "badge": "REPORTS AND ANALYSIS",
-      "title": "Reports and analyses",
-      "subtitle": "Examine reports from all your branches from a single center",
+      "badge": "REPORTS AND ANALYSES",
+      "title": "Reports and Analyses",
+      "subtitle": "Review reports of all your branches from a single center",
       "instant": {
-        "title": "Instant and periodic reports",
-        "description": "With the AyaPos centralized management system, you can view reports for a specific date range and instant status reports. You can also easily perform analyses with visualized reports."
+        "title": "Instant and Periodic Reports",
+        "description": "With the AyaPos centralized management system, you can see reports for a specific date range and instant status reports. You can also easily perform analyses with visual reports."
       },
       "central": {
-        "title": "Centralized reporting system",
-        "description": "You can access reports from all branches from a single center and compare your branches. This way, you can obtain performance analyses of the branches."
+        "title": "Centralized Reporting System",
+        "description": "You can access reports for all branches from a single center and compare your branches. Thus, you can obtain performance analyses of the branches."
       }
     },
     "benefits": {
       "stat1": "Faster",
-      "stat2": "Access everywhere",
-      "stat3": "Complete visibility"
+      "stat2": "Access Anywhere",
+      "stat3": "Total Visibility"
     },
     "cta": {
-      "title": "Ready to centralize your management?",
+      "title": "Ready to Centralize Your Management?",
       "subtitle": "Discover how to manage all your branches from one place",
       "button": "Request a Demonstration"
     }
@@ -654,7 +654,7 @@
   "kioskPricing": {
     "hero": {
       "title": "Self-Order Kiosk Pricing",
-      "subtitle": "Choose the perfect kiosk for your business. Installation, configuration, and training included.",
+      "subtitle": "Choose the perfect kiosk for your business. Installation, setup, and training included.",
       "badge": "Free delivery and installation"
     },
     "recommended": "Recommended",
@@ -663,28 +663,28 @@
     "models": {
       "small": {
         "name": "Compact Kiosk",
-        "size": "Small size - Ideal for limited spaces",
-        "screen": "15.6\" Touchscreen",
+        "size": "Small size - Ideal for tight spaces",
+        "screen": "15.6\" touchscreen",
         "features": [
           "15.6\" high-resolution touchscreen",
-          "High-performance quad-core processor",
-          "Built-in thermal ticket printer",
+          "Powerful quad-core processor",
+          "Built-in thermal receipt printer",
           "NFC card reader",
-          "Wall or stand support",
+          "Wall-mount or stand",
           "Compact and elegant design",
-          "Preinstalled AyaPos interface",
+          "Pre-installed AyaPos interface",
           "2-year warranty"
         ]
       },
       "medium": {
         "name": "Standard Kiosk",
-        "size": "Medium size - Most popular",
-        "screen": "21.5\" Touchscreen",
+        "size": "Medium size - The most popular",
+        "screen": "21.5\" touchscreen",
         "features": [
           "21.5\" Full HD touchscreen",
           "High-performance processor",
-          "High-speed ticket printer",
-          "Contactless card reader + QR code",
+          "High-speed receipt printer",
+          "Contactless + QR code card reader",
           "Height-adjustable stand",
           "Built-in stereo speakers",
           "Ambient LED lighting",
@@ -696,11 +696,11 @@
       "large": {
         "name": "Premium Kiosk",
         "size": "Large size - Maximum impact",
-        "screen": "32\" Touchscreen",
+        "screen": "32\" touchscreen",
         "features": [
           "32\" 4K Ultra HD touchscreen",
           "Next-generation processor",
-          "Dual ticket printer",
+          "Dual receipt printers",
           "Integrated multi-card payment terminal",
           "Premium reinforced structure",
           "High-fidelity audio system",
@@ -708,27 +708,27 @@
           "Customizable RGB LED lighting",
           "Barcode scanner",
           "Enterprise AyaPos interface",
-          "Full design customization",
+          "Complete design customization",
           "5-year warranty + dedicated 24/7 support"
         ]
       }
     },
     "included": {
       "title": "Included with all kiosks",
-      "subtitle": "Services and guarantees for worry-free installation"
+      "subtitle": "Services and warranties for hassle-free installation"
     },
     "commonFeatures": {
       "warranty": {
-        "title": "Extended warranty",
-        "description": "From 2 to 5 years depending on the model with on-site intervention"
+        "title": "Extended Warranty",
+        "description": "From 2 to 5 years depending on the model with onsite intervention"
       },
       "support": {
-        "title": "Technical support",
+        "title": "Technical Support",
         "description": "Phone and online assistance in French"
       },
       "installation": {
-        "title": "Installation included",
-        "description": "Delivery, installation, and configuration by our technicians"
+        "title": "Installation Included",
+        "description": "Delivery, installation, and setup by our technicians"
       },
       "software": {
         "title": "AyaPos Software",
@@ -736,13 +736,13 @@
       }
     },
     "comparison": {
-      "title": "Comparison Chart",
+      "title": "Comparison Table",
       "subtitle": "Compare the technical features of our models",
       "feature": "Feature",
-      "screenSize": "Screen size",
+      "screenSize": "Screen Size",
       "touchscreen": "Touchscreen",
-      "printer": "Ticket printer",
-      "cardReader": "Card reader",
+      "printer": "Receipt Printer",
+      "cardReader": "Card Reader",
       "speakers": "Speakers",
       "customization": "Customization",
       "basic": "Basic",
@@ -750,21 +750,21 @@
       "complete": "Complete"
     },
     "cta": {
-      "title": "Ready to equip your restaurant?",
+      "title": "Ready to Equip Your Restaurant?",
       "subtitle": "Our experts are here to advise you on the best model for your business",
-      "button": "Request a personalized quote"
+      "button": "Request a Custom Quote"
     }
   },
   "orderSystemPricing": {
     "hero": {
       "badge": "ORDER SYSTEM EXTENSION",
       "title": "Online Order System Pricing",
-      "subtitle": "Add the online ordering module to your existing POS system. Increase your sales by 40% on average.",
+      "subtitle": "Add the online ordering module to your existing POS system. Increase your sales by an average of 40%.",
       "trial": "14-day free trial included"
     },
     "perMonth": "per month",
     "recommended": "Recommended",
-    "selectPlan": "Select this plan",
+    "selectPlan": "Select this Plan",
     "plansSection": {
       "title": "Choose Your Plan",
       "subtitle": "Extension that perfectly integrates with your AyaPos POS system"
@@ -775,7 +775,7 @@
         "description": "For small restaurants and cafés",
         "features": [
           "Up to 200 orders/month",
-          "Responsive order website",
+          "Responsive ordering website",
           "Customizable digital menu",
           "Email notifications",
           "Secure online payment",
@@ -785,7 +785,7 @@
       },
       "standard": {
         "name": "Business Plan",
-        "description": "Ideal for medium restaurants",
+        "description": "Ideal for medium-sized restaurants",
         "features": [
           "Up to 1000 orders/month",
           "Dedicated mobile app",
@@ -804,11 +804,11 @@
         "features": [
           "Unlimited orders",
           "iOS and Android applications",
-          "Multi-restaurant/branches",
+          "Multi-restaurants/branches",
           "Custom API",
           "Integrated AI chatbot",
           "Marketing automation",
-          "A/B testing menu",
+          "Menu A/B testing",
           "Predictive analytics",
           "Dedicated account manager",
           "99.9% SLA guaranteed",
@@ -817,46 +817,46 @@
       }
     },
     "benefitsSection": {
-      "title": "Why add the order system?",
+      "title": "Why Add the Ordering System?",
       "subtitle": "Measurable benefits for your business"
     },
     "benefits": {
       "sales": {
-        "title": "Increase your sales",
+        "title": "Increase Your Sales",
         "description": "+40% revenue on average through 24/7 online orders"
       },
       "customers": {
-        "title": "Retain your customers",
+        "title": "Retain Your Customers",
         "description": "Loyalty program and automatic order history"
       },
       "automation": {
-        "title": "Complete automation",
-        "description": "Orders arrive directly into your POS system"
+        "title": "Complete Automation",
+        "description": "Orders go directly into your POS system"
       },
       "integration": {
-        "title": "Perfect integration",
+        "title": "Perfect Integration",
         "description": "Natively integrates with your existing AyaPos POS system"
       }
     },
     "faq": {
       "title": "Frequently Asked Questions",
       "q1": {
-        "question": "How does integration with my POS work?",
+        "question": "How does the integration with my POS work?",
         "answer": "The ordering system automatically integrates with your AyaPos POS. Online orders appear instantly on your kitchen screen, just like in-person orders."
       },
       "q2": {
-        "question": "Can I change plans later?",
+        "question": "Can I change my plan later?",
         "answer": "Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately."
       },
       "q3": {
         "question": "Are there installation fees?",
-        "answer": "No, installation and setup are included in all plans. Our team assists you with the setup."
+        "answer": "No, installation and setup are included in all plans. Our team will assist you with the setup."
       }
     },
     "cta": {
-      "title": "Ready to boost your online sales?",
+      "title": "Ready to Boost Your Online Sales?",
       "subtitle": "Start your 14-day free trial, no credit card required",
-      "button": "Start the free trial"
+      "button": "Start Free Trial"
     }
   },
   "deliveryServicePricing": {
@@ -868,7 +868,7 @@
     },
     "perMonth": "per month",
     "recommended": "Recommended",
-    "selectPlan": "Select this plan",
+    "selectPlan": "Select this Plan",
     "plansSection": {
       "title": "Choose Your Plan",
       "subtitle": "Delivery management extension for your AyaPos POS system"
@@ -879,9 +879,9 @@
         "description": "To start your deliveries",
         "features": [
           "Up to 200 deliveries/month",
-          "2 couriers maximum",
+          "Up to 2 couriers",
           "Real-time GPS tracking",
-          "SMS notifications for customers",
+          "SMS client notifications",
           "Automatic distance calculation",
           "Email support"
         ]
@@ -891,12 +891,12 @@
         "description": "For active delivery service",
         "features": [
           "Up to 1000 deliveries/month",
-          "10 couriers maximum",
+          "Up to 10 couriers",
           "AI route optimization",
           "Dedicated courier app",
           "Customer rating system",
           "Performance reports",
-          "Integrated courier payment",
+          "Integrated courier payments",
           "Phone + chat support"
         ]
       },
@@ -908,7 +908,7 @@
           "Unlimited couriers",
           "Intelligent dispatching",
           "Multiple delivery zones",
-          "Integration with Uber Eats/Deliveroo",
+          "Uber Eats/Deliveroo integration",
           "AI demand forecasting",
           "Complete API",
           "Manager dashboard",
@@ -918,56 +918,56 @@
       }
     },
     "benefitsSection": {
-      "title": "Why add the delivery service?",
+      "title": "Why Add the Delivery Service?",
       "subtitle": "Professional tools to manage your deliveries"
     },
     "benefits": {
       "speed": {
-        "title": "Faster deliveries",
-        "description": "Automatic route optimization to reduce delays"
+        "title": "Faster Deliveries",
+        "description": "Automatic route optimization to reduce delivery times"
       },
       "satisfaction": {
-        "title": "Satisfied customers",
+        "title": "Satisfied Customers",
         "description": "Real-time tracking and automatic notifications"
       },
       "revenue": {
-        "title": "Optimized revenues",
+        "title": "Optimized Revenue",
         "description": "Reduce your delivery costs by an average of 30%"
       },
       "reliability": {
-        "title": "Maximum reliability",
+        "title": "Maximum Reliability",
         "description": "Fewer errors, more control over your deliveries"
       }
     },
     "comparison": {
-      "title": "Plan comparison chart",
+      "title": "Plan Comparison Table",
       "feature": "Feature",
-      "orders": "Included deliveries",
-      "tracking": "GPS tracking",
-      "couriers": "Number of couriers",
-      "support": "Customer support"
+      "orders": "Included Deliveries",
+      "tracking": "GPS Tracking",
+      "couriers": "Number of Couriers",
+      "support": "Customer Support"
     },
     "cta": {
-      "title": "Ready to optimize your deliveries?",
-      "subtitle": "First month free to test the service without obligation",
-      "button": "Start now"
+      "title": "Ready to Optimize Your Deliveries?",
+      "subtitle": "First month free to test the service with no commitment",
+      "button": "Start Now"
     }
   },
   "waiterTerminalPricing": {
     "hero": {
       "badge": "WAITER TERMINAL EXTENSION",
       "title": "Waiter Terminal Pricing",
-      "subtitle": "Equip your servers with tablets for ultra-fast mobile ordering. Increase the efficiency of your service.",
+      "subtitle": "Equip your servers with tablets for ultra-fast mobile ordering. Increase your service efficiency.",
       "trial": "30-day free trial"
     },
     "perMonth": "per month",
     "oneTime": "One-time payment",
     "recommended": "Recommended",
-    "selectPlan": "Select this plan",
+    "selectPlan": "Select this Plan",
     "addToCart": "Add to Cart",
     "plansSection": {
       "title": "Monthly Software Plans",
-      "subtitle": "Waiter Terminal Extension for your AyaPos POS system"
+      "subtitle": "Waiter Terminal extension for your AyaPos POS system"
     },
     "plans": {
       "starter": {
@@ -977,9 +977,9 @@
           "Mobile server application",
           "Table ordering",
           "Real-time synchronization",
-          "Direct send to kitchen",
+          "Direct sending to kitchen",
           "Basic table management",
-          "Payment at table",
+          "Table payment",
           "Email support"
         ]
       },
@@ -992,8 +992,8 @@
           "Reservation management",
           "Wait time tracking",
           "Special notes for kitchen",
-          "Table transfers",
-          "Shared check management",
+          "Table transfer",
+          "Management of shared bills",
           "Performance reports",
           "Priority chat support"
         ]
@@ -1002,11 +1002,11 @@
         "name": "Enterprise Plan",
         "description": "For chains and large groups",
         "features": [
-          "All Professional features",
+          "All Pro features",
           "Multi-restaurants/branches",
           "Server team management",
           "Server deposit system",
-          "Advanced server analytics",
+          "Advanced analytics by server",
           "AI sales suggestions",
           "Calendar integration",
           "Advanced offline mode",
@@ -1027,13 +1027,13 @@
         "features": [
           "10\" anti-glare and durable screen",
           "Long battery life (12h)",
-          "Shock-resistant case included",
+          "Shockproof case included",
           "Ergonomic belt support"
         ]
       },
       "printer": {
         "name": "Portable Printer",
-        "description": "Mobile printer for table checks",
+        "description": "Mobile printer for table bills",
         "features": [
           "Wireless ticket printing",
           "Rechargeable battery",
@@ -1042,50 +1042,50 @@
       }
     },
     "benefitsSection": {
-      "title": "Why equip your servers?",
+      "title": "Why Equip Your Servers?",
       "subtitle": "Concrete gains for your service"
     },
     "benefits": {
       "efficiency": {
-        "title": "Faster service",
-        "description": "Reduce time between order and kitchen send by 40%"
+        "title": "Faster Service",
+        "description": "Reduce the time between order and sending to kitchen by 40%"
       },
       "speed": {
-        "title": "Accelerated turnover",
+        "title": "Accelerated Turnover",
         "description": "Serve more covers during peak hours"
       },
       "errors": {
-        "title": "Zero errors",
-        "description": "Eliminate transcription errors and omissions"
+        "title": "Zero Errors",
+        "description": "Eliminate transcription errors and oversights"
       },
       "management": {
-        "title": "Easier management",
-        "description": "Track the performance of each server in real-time"
+        "title": "Easier Management",
+        "description": "Track the performance of each server in real time"
       }
     },
     "comparison": {
-      "title": "Plan comparison chart",
+      "title": "Plan Comparison Table",
       "feature": "Feature",
-      "tablets": "Included tablets",
-      "tables": "Number of tables",
-      "kitchen": "Kitchen screen",
+      "tablets": "Included Tablets",
+      "tables": "Number of Tables",
+      "kitchen": "Kitchen Screen",
       "analytics": "Analytics",
-      "support": "Customer support",
+      "support": "Customer Support",
       "basic": "Basic",
       "advanced": "Advanced",
       "complete": "Complete"
     },
     "cta": {
-      "title": "Ready to modernize your service?",
-      "subtitle": "Try for free for 30 days, no obligation",
-      "button": "Start the free trial"
+      "title": "Ready to Modernize Your Service?",
+      "subtitle": "Test for free for 30 days, no commitment",
+      "button": "Start Free Trial"
     }
   },
   "hardwareDevices": {
     "hero": {
-      "badge": "EQUIPMENT CATALOG",
-      "title": "POS Equipment and Devices",
-      "subtitle": "All the equipment and accessories you need for your business. High-quality professional hardware."
+      "badge": "HARDWARE CATALOG",
+      "title": "Hardware and POS Devices",
+      "subtitle": "All the equipment and accessories you need for your business. Professional quality hardware."
     },
     "categories": {
       "all": "All",
@@ -1095,50 +1095,50 @@
       "accessories": "Accessories"
     },
     "devices": {
-      "sunmiD3Pro": "15.6-inch touchscreen, Android 11, high-performance processor",
-      "sunmiD3Mini": "10.1-inch touchscreen, compact and powerful",
+      "sunmiD3Pro": "15.6 inch touchscreen, Android 11, high-performance processor",
+      "sunmiD3Mini": "10.1 inch touchscreen, compact and powerful",
       "iMinSwan": "Premium Android POS terminal with capacitive touchscreen",
       "iMinD3": "Complete POS solution with built-in printer",
       "iMinD2": "Compact terminal ideal for small spaces",
       "iMinD1": "Economical POS terminal with all features",
-      "wintecAnypos": "15.6-inch vertical self-service kiosk",
-      "wintecSelfpos10": "Vertical kiosk for quick ordering",
-      "wintecSelfpos70": "Large 32-inch kiosk for maximum visual impact",
-      "paxSk800": "Professional 23.8-inch kiosk",
+      "wintecAnypos": "15.6 inch vertical self-service kiosk",
+      "wintecSelfpos10": "Vertical kiosk for quick orders",
+      "wintecSelfpos70": "Large 32 inch kiosk for maximum visual impact",
+      "paxSk800": "Professional 23.8 inch kiosk",
       "thermalPrinter": "POS Thermal Printer",
       "thermalPrinterDesc": "Fast and silent printing, compatible with all systems",
       "labelPrinter": "Barcode Label Printer",
-      "labelPrinterDesc": "Compact and easy to use for product labeling",
+      "labelPrinterDesc": "Compact and easy to use for product labels",
       "scaleLabel": "Scale with Label Printer",
-      "scaleLabelDesc": "Accurate and reliable measurement with barcode printing",
-      "barcodeWired": "Wired Barcode Reader",
-      "barcodeWiredDesc": "Professional countertop reader for cash register",
-      "barcodeWireless": "Wireless Barcode Reader",
-      "barcodeWirelessDesc": "30 hours battery life, 100m range",
+      "scaleLabelDesc": "Accurate and reliable measurements with barcode printing",
+      "barcodeWired": "Wired Barcode Scanner",
+      "barcodeWiredDesc": "Professional desktop scanner for cash register",
+      "barcodeWireless": "Wireless Barcode Scanner",
+      "barcodeWirelessDesc": "30-hour battery life, 100m range",
       "cashDrawer": "Metal Cash Drawer",
       "cashDrawerDesc": "Robust and durable construction in reinforced metal",
       "cardReader": "RFID Card Reader",
       "cardReaderDesc": "Plug & Play, compatible with contactless cards",
       "pavoN86": "HD mobile payment terminal with NFC",
       "waiterHandheld": "Portable Server Terminal",
-      "waiterHandheldDesc": "5-inch HD IPS screen, ideal for mobile ordering",
-      "paxA920Pro": "Professional 5.5-inch mobile terminal"
+      "waiterHandheldDesc": "5 inch HD IPS screen, ideal for mobile ordering",
+      "paxA920Pro": "Professional 5.5 inch mobile terminal"
     },
     "requestQuote": "Request a Quote",
     "features": {
-      "title": "Why choose our hardware?",
+      "title": "Why Choose Our Hardware?",
       "subtitle": "Professional equipment with complete service",
       "quality": {
         "title": "Premium Quality",
-        "description": "Professional hardware from globally recognized brands"
+        "description": "Professional equipment from globally recognized brands"
       },
       "warranty": {
         "title": "Extended Warranty",
-        "description": "Manufacturer's warranty of 2 to 5 years depending on the models"
+        "description": "Manufacturer warranty from 2 to 5 years depending on models"
       },
       "support": {
         "title": "Technical Support",
-        "description": "Phone assistance and on-site support when needed"
+        "description": "Phone assistance and onsite support if needed"
       },
       "delivery": {
         "title": "Delivery & Installation",
@@ -1146,15 +1146,15 @@
       }
     },
     "cta": {
-      "title": "Need advice for your equipment?",
+      "title": "Need Advice for Your Equipment?",
       "subtitle": "Our experts help you choose the right hardware for your needs",
-      "button": "Contact our experts"
+      "button": "Contact Our Experts"
     }
   },
   "about": {
     "hero": {
       "title": "About AyaPos",
-      "subtitle": "We are an innovative company dedicated to the digital transformation of the restaurant industry. Our mission: to simplify the management of your establishment with modern and intuitive POS solutions."
+      "subtitle": "We are an innovative company dedicated to the digital transformation of the restaurant industry. Our mission: simplify the management of your establishment with modern and intuitive POS solutions."
     },
     "stats": {
       "clients": "Satisfied Clients",
@@ -1164,13 +1164,13 @@
     },
     "story": {
       "title": "Our Story",
-      "paragraph1": "Founded in 2010, AyaPos was created to modernize the restaurant sector. We started with a simple vision: to create technological tools accessible to all restaurateurs, regardless of the size of their establishment.",
-      "paragraph2": "Over the years, we have developed a comprehensive suite of POS solutions that combine innovation, ease of use, and reliability. Our systems now equip more than 5000 restaurants, cafés, bars, and establishments across France and Europe.",
-      "paragraph3": "Our passionate team works every day to improve our products and support our clients in their success. We believe that technology should serve humanity, not the other way around."
+      "paragraph1": "Founded in 2010, AyaPos was born out of the desire to modernize the restaurant industry. We started with a simple vision: to create technological tools accessible to all restaurateurs, regardless of their establishment's size.",
+      "paragraph2": "Over the years, we have developed a complete suite of POS solutions that combine innovation, ease of use, and reliability. Our systems now equip more than 5000 restaurants, cafés, bars, and establishments across France and Europe.",
+      "paragraph3": "Our passionate team works every day to improve our products and support our clients in their success. We believe technology should serve humanity, not the other way around."
     },
     "valuesSection": {
       "title": "Our Values",
-      "subtitle": "What guides our actions daily"
+      "subtitle": "What guides our daily actions"
     },
     "values": {
       "innovation": {
@@ -1178,12 +1178,12 @@
         "description": "We continuously invest in R&D to provide you with the most advanced technologies"
       },
       "customer": {
-        "title": "Customer Listening",
+        "title": "Customer Focus",
         "description": "Your needs are at the heart of our developments. We listen and act"
       },
       "quality": {
         "title": "Quality",
-        "description": "Premium hardware, robust software, and excellent technical support"
+        "description": "Premium equipment, robust software, and excellent technical support"
       },
       "efficiency": {
         "title": "Efficiency",
@@ -1192,7 +1192,7 @@
     },
     "timeline": {
       "title": "Our Journey",
-      "subtitle": "The major milestones of our development",
+      "subtitle": "The key milestones in our development",
       "2010": {
         "title": "Creation of AyaPos",
         "description": "Launch of our first POS system for restaurants with 50 clients in the first year"
@@ -1203,7 +1203,7 @@
       },
       "2020": {
         "title": "Cloud Innovation",
-        "description": "Complete migration to cloud and launch of next-generation self-service kiosks"
+        "description": "Complete migration to the cloud and launch of the next-generation self-service kiosks"
       },
       "2024": {
         "title": "Artificial Intelligence",
@@ -1212,7 +1212,7 @@
     },
     "mission": {
       "title": "Our Mission",
-      "description": "To accompany restaurateurs in their digital transformation by providing simple, powerful, and affordable tools. We want every establishment, from the small café to the large restaurant, to benefit from the same technologies as large chains.",
+      "description": "To assist restaurateurs in their digital transformation by providing simple, powerful, and affordable tools. We want every establishment, from the small café to the large restaurant, to benefit from the same technologies as large chains.",
       "badge1": "Continuous Innovation",
       "badge2": "Dedicated Support",
       "badge3": "Active Community"
@@ -1233,24 +1233,24 @@
     "readMore": "Read More",
     "articles": {
       "article1": {
-        "title": "AyaPos launches its new range of self-service kiosks",
-        "excerpt": "Discover our new kiosks with a 32-inch screen and ultra-intuitive interface. A revolution for the customer experience in fast food."
+        "title": "AyaPos Launches Its New Range of Self-Service Kiosks",
+        "excerpt": "Discover our new kiosks with a 32-inch screen and ultra-intuitive interface. A revolution for customer experience in fast food."
       },
       "article2": {
         "title": "10 Tips to Optimize Your Service During Peak Times",
-        "excerpt": "How to manage crowds during rush hours? Our experts share their best practices to maintain quality service even when it's busy."
+        "excerpt": "How to manage the rush hour crowd? Our experts share their best practices for maintaining quality service even when it’s crowded."
       },
       "article3": {
-        "title": "Artificial Intelligence in the Restaurant Industry",
-        "excerpt": "How AI can help you forecast sales, optimize your inventory, and personalize the customer experience. Discover the new features of AyaPos."
+        "title": "Artificial Intelligence at the Service of Dining",
+        "excerpt": "How AI can help you forecast your sales, optimize your inventory, and personalize the customer experience. Discover the new features of AyaPos."
       },
       "article4": {
         "title": "Success Story: Le Bistrot Moderne Triples Its Revenue",
-        "excerpt": "Meet Jean Dupont, who transformed his traditional restaurant into a modern establishment thanks to AyaPos solutions. An inspiring testimony."
+        "excerpt": "Meet Jean Dupont who transformed his traditional restaurant into a modern establishment thanks to AyaPos solutions. An inspiring testimony."
       },
       "article5": {
         "title": "Reducing Food Waste Through Technology",
-        "excerpt": "Our intelligent inventory management system helps you reduce your losses by 40%. Discover how to optimize your purchasing and limit waste."
+        "excerpt": "Our intelligent inventory management system helps you reduce losses by 40%. Discover how to optimize your purchases and limit waste."
       },
       "article6": {
         "title": "QR Code and Online Ordering: The New Customer Expectations",
