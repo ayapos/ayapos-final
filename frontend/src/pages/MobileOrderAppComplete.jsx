@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   ArrowRight, Check, Smartphone, CreditCard, Bell, Heart,
@@ -12,9 +12,14 @@ import { Input } from '../components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../components/ui/accordion';
 import { useToast } from '../hooks/use-toast';
+import axios from 'axios';
+
+const API_URL = process.env.REACT_APP_BACKEND_URL;
 
 const MobileOrderAppComplete = () => {
   const { toast } = useToast();
+  const [content, setContent] = useState(null);
+  const [loading, setLoading] = useState(true);
   const [formData, setFormData] = useState({
     businessName: '',
     businessType: '',
@@ -22,6 +27,22 @@ const MobileOrderAppComplete = () => {
     email: '',
     city: ''
   });
+
+  useEffect(() => {
+    const loadContent = async () => {
+      try {
+        const response = await axios.get(`${API_URL}/api/content/mobile-order-app`);
+        if (response.data.success) {
+          setContent(response.data.content);
+        }
+      } catch (error) {
+        console.error('Erreur chargement contenu:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadContent();
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -31,7 +52,8 @@ const MobileOrderAppComplete = () => {
     });
   };
 
-  const mainBenefits = [
+  // Fallback data si le contenu n'est pas chargé
+  const defaultBenefits = [
     {
       title: 'Vendez depuis n\'importe où',
       description: 'Avec l\'application mobile AyaPos, supprimez les frontières de votre entreprise. Acceptez des commandes depuis n\'importe où avec des smartphones et tablettes. Augmentez vos ventes et votre notoriété.',
@@ -48,6 +70,8 @@ const MobileOrderAppComplete = () => {
       image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80'
     }
   ];
+
+  const mainBenefits = content?.benefits || defaultBenefits;
 
   const visualFeatures = [
     {
