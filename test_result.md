@@ -458,6 +458,7 @@ test_plan:
   completed_tests:
     - "Solutions Digitales Image Upload Functionality - PASSED"
     - "Homepage Carousel End-to-End Upload and Display Test - PASSED"
+    - "CMS Image Upload Bug Fixes Testing - PASSED"
 
 agent_communication:
     - agent: "testing"
