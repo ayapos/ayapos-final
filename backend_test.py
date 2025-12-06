@@ -278,6 +278,121 @@ class AyaPosAPITester:
         except Exception as e:
             self.log_test("Data Persistence Check", False, f"Request failed: {str(e)}")
     
+    async def test_mobile_order_app_content(self):
+        """Test mobile-order-app content API endpoint"""
+        print("🔍 Testing Mobile Order App Content API...")
+        
+        try:
+            async with self.session.get(f"{self.base_url}/api/content/mobile-order-app") as response:
+                data = await response.json()
+                
+                if response.status == 200 and data.get("success") is True:
+                    content = data.get("content", {})
+                    benefits = content.get("benefits", [])
+                    
+                    # Check if we have the expected 3 benefits
+                    if len(benefits) >= 3:
+                        # Verify each benefit has required fields
+                        all_benefits_valid = True
+                        benefit_details = []
+                        
+                        for i, benefit in enumerate(benefits[:3]):  # Check first 3 benefits
+                            title = benefit.get("title", "NO TITLE")
+                            image = benefit.get("image", "NO IMAGE")
+                            description = benefit.get("description", "")
+                            
+                            benefit_details.append(f"Benefit {i+1}: {title[:30]}...")
+                            
+                            if not title or title == "NO TITLE" or not image or image == "NO IMAGE":
+                                all_benefits_valid = False
+                        
+                        if all_benefits_valid:
+                            self.log_test(
+                                "GET /api/content/mobile-order-app - Benefits content", 
+                                True, 
+                                f"Status: {response.status}, Found {len(benefits)} benefits with valid data. " + "; ".join(benefit_details)
+                            )
+                        else:
+                            self.log_test(
+                                "GET /api/content/mobile-order-app - Benefits content", 
+                                False, 
+                                f"Some benefits missing required fields (title/image)", 
+                                benefits
+                            )
+                    else:
+                        self.log_test(
+                            "GET /api/content/mobile-order-app - Benefits content", 
+                            False, 
+                            f"Expected at least 3 benefits, found {len(benefits)}", 
+                            content
+                        )
+                else:
+                    self.log_test(
+                        "GET /api/content/mobile-order-app - Benefits content", 
+                        False, 
+                        f"Unexpected response: {response.status}", 
+                        data
+                    )
+        except Exception as e:
+            self.log_test("GET /api/content/mobile-order-app - Benefits content", False, f"Request failed: {str(e)}")
+    
+    async def test_mobile_order_app_images_count(self):
+        """Test that mobile-order-app page has 4 images total (1 hero + 3 benefits)"""
+        print("🔍 Testing Mobile Order App Images Count...")
+        
+        try:
+            async with self.session.get(f"{self.base_url}/api/content/mobile-order-app") as response:
+                data = await response.json()
+                
+                if response.status == 200 and data.get("success") is True:
+                    content = data.get("content", {})
+                    
+                    # Count images
+                    total_images = 0
+                    image_sources = []
+                    
+                    # Check for hero image
+                    hero_image = content.get("hero_image") or content.get("heroImage")
+                    if hero_image:
+                        total_images += 1
+                        image_sources.append("hero_image")
+                    
+                    # Check benefits images
+                    benefits = content.get("benefits", [])
+                    benefits_with_images = 0
+                    for benefit in benefits:
+                        if benefit.get("image"):
+                            benefits_with_images += 1
+                            total_images += 1
+                    
+                    if benefits_with_images > 0:
+                        image_sources.append(f"{benefits_with_images} benefit images")
+                    
+                    # Expected: 1 hero + 3 benefits = 4 total images
+                    expected_total = 4
+                    if total_images >= expected_total:
+                        self.log_test(
+                            "Mobile Order App - Total images count", 
+                            True, 
+                            f"Found {total_images} images (expected {expected_total}+). Sources: {', '.join(image_sources)}"
+                        )
+                    else:
+                        self.log_test(
+                            "Mobile Order App - Total images count", 
+                            False, 
+                            f"Found only {total_images} images, expected {expected_total}. Sources: {', '.join(image_sources)}", 
+                            content
+                        )
+                else:
+                    self.log_test(
+                        "Mobile Order App - Total images count", 
+                        False, 
+                        f"Failed to get content: {response.status}", 
+                        data
+                    )
+        except Exception as e:
+            self.log_test("Mobile Order App - Total images count", False, f"Request failed: {str(e)}")
+    
     def print_summary(self):
         """Print test summary"""
         print("=" * 60)
