@@ -197,11 +197,11 @@ const Home = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {posPackages.map((pkg) => (
+            {displayPackages.map((pkg) => (
               <Card key={pkg.id} className={`relative ${
-                pkg.recommended ? 'border-blue-600 border-2 shadow-xl' : 'border-gray-200'
+                pkg.featured ? 'border-blue-600 border-2 shadow-xl' : 'border-gray-200'
               }`}>
-                {pkg.recommended && (
+                {pkg.featured && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                     <span className="bg-blue-600 text-white text-sm font-medium px-4 py-1 rounded-full">
                       Recommandé
@@ -210,7 +210,7 @@ const Home = () => {
                 )}
                 <CardHeader>
                   <CardTitle className="text-2xl">{pkg.name}</CardTitle>
-                  <CardDescription>{pkg.tagline}</CardDescription>
+                  <CardDescription>{pkg.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="mb-6">
