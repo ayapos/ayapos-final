@@ -19,6 +19,7 @@ const Pricing = () => {
   const [pricingPlans, setPricingPlans] = useState([]);
   const [loading, setLoading] = useState(true);
   const [terminals, setTerminals] = useState([]);
+  const [posProducts, setPosProducts] = useState([]);
 
   useEffect(() => {
     const fetchPricingPlans = async () => {
