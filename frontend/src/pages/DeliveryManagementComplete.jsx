@@ -141,7 +141,7 @@ const DeliveryManagementComplete = () => {
             <div className="relative">
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1526470498-9ae0538c34a7?w=800&h=600&fit=crop" 
+                  src={content?.hero_image || "https://images.unsplash.com/photo-1526470498-9ae0538c34a7?w=800&h=600&fit=crop"} 
                   alt="Delivery Management"
                   className="w-full h-auto"
                 />
