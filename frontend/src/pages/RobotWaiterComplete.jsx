@@ -326,36 +326,56 @@ const RobotWaiterComplete = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="relative group overflow-hidden rounded-2xl shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1561144257-e32e7a75ff0d?w=600&h=400&fit=crop"
-                alt="Robot Waiter 1"
-                className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                <p className="text-white p-6 font-semibold">{t('robotWaiter.gallery.image1')}</p>
-              </div>
-            </div>
-            <div className="relative group overflow-hidden rounded-2xl shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1581092583537-20d51876f1e6?w=600&h=400&fit=crop"
-                alt="Robot Waiter 2"
-                className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                <p className="text-white p-6 font-semibold">{t('robotWaiter.gallery.image2')}</p>
-              </div>
-            </div>
-            <div className="relative group overflow-hidden rounded-2xl shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&h=400&fit=crop"
-                alt="Robot Waiter 3"
-                className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                <p className="text-white p-6 font-semibold">{t('robotWaiter.gallery.image3')}</p>
-              </div>
-            </div>
+            {content?.robot_showcase && content.robot_showcase.length > 0 ? (
+              content.robot_showcase.map((robot, index) => (
+                <div key={index} className="relative group overflow-hidden rounded-2xl shadow-lg">
+                  <img 
+                    src={robot.image}
+                    alt={robot.title}
+                    className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <div className="text-white p-6">
+                      <p className="font-bold text-lg">{robot.title}</p>
+                      <p className="text-sm text-gray-200">{robot.description}</p>
+                    </div>
+                  </div>
+                </div>
+              ))
+            ) : (
+              <>
+                <div className="relative group overflow-hidden rounded-2xl shadow-lg">
+                  <img 
+                    src="https://images.unsplash.com/photo-1561144257-e32e7a75ff0d?w=600&h=400&fit=crop"
+                    alt="Robot Waiter 1"
+                    className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <p className="text-white p-6 font-semibold">{t('robotWaiter.gallery.image1')}</p>
+                  </div>
+                </div>
+                <div className="relative group overflow-hidden rounded-2xl shadow-lg">
+                  <img 
+                    src="https://images.unsplash.com/photo-1581092583537-20d51876f1e6?w=600&h=400&fit=crop"
+                    alt="Robot Waiter 2"
+                    className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <p className="text-white p-6 font-semibold">{t('robotWaiter.gallery.image2')}</p>
+                  </div>
+                </div>
+                <div className="relative group overflow-hidden rounded-2xl shadow-lg">
+                  <img 
+                    src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&h=400&fit=crop"
+                    alt="Robot Waiter 3"
+                    className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <p className="text-white p-6 font-semibold">{t('robotWaiter.gallery.image3')}</p>
+                  </div>
+                </div>
+              </>
+            )}
           </div>
         </div>
       </section>
