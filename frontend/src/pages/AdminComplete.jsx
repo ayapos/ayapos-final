@@ -511,6 +511,84 @@ const AdminComplete = () => {
     }
   };
 
+  // Fonctions pour gérer le popup promotionnel
+  const loadPopupConfig = async () => {
+    setLoadingPopup(true);
+    try {
+      const response = await axios.get(`${API_URL}/api/popup/config`);
+      if (response.data.success) {
+        setPopupConfig(response.data.config);
+      }
+    } catch (error) {
+      console.error('Erreur chargement popup config:', error);
+    } finally {
+      setLoadingPopup(false);
+    }
+  };
+
+  const updatePopupField = (field, value) => {
+    setPopupConfig(prev => ({ ...prev, [field]: value }));
+  };
+
+  const savePopupConfig = async () => {
+    setSaving(true);
+    try {
+      const token = localStorage.getItem('admin_token');
+      const response = await axios.put(
+        `${API_URL}/api/popup/config`,
+        popupConfig,
+        { headers: { Authorization: `Bearer ${token}` } }
+      );
+      
+      if (response.data.success) {
+        toast({
+          title: "✅ Popup sauvegardé !",
+          description: "La configuration du popup a été mise à jour",
+        });
+        loadPopupConfig(); // Recharger
+      }
+    } catch (error) {
+      console.error('❌ Erreur sauvegarde popup:', error);
+      toast({
+        title: "Erreur",
+        description: "Impossible de sauvegarder le popup",
+        variant: "destructive"
+      });
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  const handlePopupImageUpload = async (file) => {
+    try {
+      const formData = new FormData();
+      formData.append('file', file);
+      
+      const token = localStorage.getItem('admin_token');
+      const response = await axios.post(`${API_URL}/api/upload/image`, formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+          Authorization: `Bearer ${token}`
+        }
+      });
+      
+      if (response.data.success) {
+        updatePopupField('image', response.data.url);
+        toast({
+          title: "✅ Image uploadée",
+          description: `Image du popup téléchargée avec succès`,
+        });
+      }
+    } catch (error) {
+      console.error('❌ Erreur upload image popup:', error);
+      toast({
+        title: "Erreur d'upload",
+        description: "Impossible de télécharger l'image",
+        variant: "destructive"
+      });
+    }
+  };
+
   const renderEditor = () => {
     const currentPageInfo = allPages.find(p => p.slug === selectedPage);
     
