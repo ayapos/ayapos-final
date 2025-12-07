@@ -18,42 +18,42 @@
   "features": {
     "title": "Tutto ciò di cui hai bisogno per avere successo",
     "pos_title": "Sistema POS Completo",
-    "pos_desc": "Gestisci le tue vendite, scorte e report in tempo reale da qualsiasi luogo",
+    "pos_desc": "Gestisci le tue vendite, stock e report in tempo reale da qualsiasi luogo",
     "payment_title": "Terminali di Pagamento",
     "payment_desc": "Soluzioni di pagamento sicure e rapide per tutti i tipi di transazioni",
     "digital_title": "Menu Digitali",
     "digital_desc": "QR code, tablet e chioschi per un'esperienza cliente moderna",
     "reports_title": "Report & Analytics",
-    "reports_desc": "Monitora le tue performance con dashboard intuitive"
+    "reports_desc": "Segui le tue performance con dashboard intuitive"
   },
   "pos": {
     "title": "Sistemi POS Professionali",
-    "subtitle": "Scegli la soluzione POS adatta alla tua impresa",
+    "subtitle": "Scegli la soluzione POS adatta alla tua azienda",
     "premium": {
       "name": "Premium POS",
       "tagline": "Controllo totale, potenza massima",
-      "desc": "Per le catene di ristoranti, centri commerciali e aziende ad alto volume",
+      "desc": "Per catene di ristoranti, centri commerciali e aziende ad alto volume",
       "price": "1049€",
       "period": "al mese"
     },
     "tablet": {
       "name": "Tablet POS",
       "tagline": "Compatto ed economico",
-      "desc": "Per i piccoli ristoranti, catene di caffè e pasticcerie",
+      "desc": "Per piccoli ristoranti, catene di caffè e pasticcerie",
       "price": "699€",
       "period": "al mese"
     },
     "web": {
       "name": "Web POS",
-      "tagline": "Avvio rapido, il tuo dispositivo personale",
-      "desc": "Per le nuove imprese, caffè e chioschi",
+      "tagline": "Avvio rapido, il tuo dispositivo",
+      "desc": "Per nuove aziende, caffè e chioschi",
       "price": "525€",
       "period": "al mese"
     },
     "mobile": {
       "name": "Mobile POS",
       "tagline": "Mobile e portatile",
-      "desc": "Per le vendite sul campo, venditori ambulanti ed eventi",
+      "desc": "Per vendite sul campo, venditori ambulanti ed eventi",
       "price": "349€",
       "period": "al mese"
     }
@@ -61,12 +61,12 @@
   "ayapay": {
     "title": "AyaPay - Terminali di Pagamento",
     "subtitle": "Soluzioni di pagamento professionali per tutte le esigenze",
-    "hero_text": "Accetta tutti i metodi di pagamento con i nostri terminali di nuova generazione",
+    "hero_text": "Accettate tutti i metodi di pagamento con i nostri terminali di nuova generazione",
     "terminals_title": "I Nostri Terminali di Pagamento",
     "smartpos_a77": {
       "name": "SmartPOS A77",
       "tagline": "Compatto e leggero",
-      "desc": "Terminale portatile con schermo tattile e connessione 4G"
+      "desc": "Terminale portatile con schermo touch e connessione 4G"
     },
     "smartpos_a920": {
       "name": "SmartPOS A920",
@@ -76,14 +76,14 @@
     "deskpos_q80": {
       "name": "Desk POS Q80",
       "tagline": "Fisso e pratico",
-      "desc": "Terminale da bancone con supporto e massima stabilità"
+      "desc": "Terminale da banco con supporto e massima stabilità"
     },
     "softpos": {
       "name": "Tap to Pay iPhone",
       "tagline": "Pagamento senza terminale",
       "desc": "Trasforma il tuo iPhone in un terminale di pagamento"
     },
-    "features_title": "Funzionalità principali",
+    "features_title": "Caratteristiche principali",
     "feature_1": "Accettazione di tutte le carte",
     "feature_2": "Pagamenti senza contatto NFC",
     "feature_3": "Connessione WiFi e 4G",
@@ -96,7 +96,7 @@
     "subtitle": "Scegli il piano adatto alle tue esigenze",
     "monthly": "Mensile",
     "yearly": "Annuale",
-    "save": "Risparmia il 20%",
+    "save": "Risparmia 20%",
     "cta": "Iniziare",
     "features": "Funzionalità incluse"
   },
@@ -109,7 +109,7 @@
     "email": "Email",
     "city": "Città",
     "message": "Messaggio",
-    "submit": "Richiedi un preventivo gratuito",
+    "submit": "Ottieni un preventivo gratuito",
     "success": "Grazie! Ti contatteremo presto.",
     "error": "Si è verificato un errore. Per favore riprova."
   },
@@ -129,29 +129,29 @@
     },
     "benefits": {
       "mainTitle": "Camerieri robot per clienti soddisfatti",
-      "mainSubtitle": "I camerieri robot alleviano il carico di lavoro della tua azienda e consentono al personale di fornire un servizio più efficiente",
+      "mainSubtitle": "I camerieri robot alleggeriscono il carico di lavoro della tua azienda e consentono al personale di fornire un servizio più efficiente",
       "experience": {
         "title": "Esperienza unica",
         "description": "Offri ai tuoi clienti un nuovo concetto rinfrescante a cui non sono abituati. Impressiona i tuoi clienti con funzionalità interattive che creano un'esperienza futuristica e unica."
       },
       "contactless": {
         "title": "Consegna di ordini senza contatto",
-        "description": "Grazie al sistema di distribuzione vassoi tramite il robot cameriere AyaPos, prestiamo ora maggiore attenzione alle regole igieniche. Lascia che i robot camerieri portino gli ordini al tavolo."
+        "description": "Grazie al sistema di distribuzione dei vassoi tramite il cameriere robot AyaPos, prestiamo ora maggiore attenzione alle norme igieniche. Lascia che i camerieri robot portino gli ordini al tavolo."
       },
       "profitability": {
         "title": "Aumenta la redditività",
         "description": "Aumenta la redditività della tua azienda grazie ai sistemi di camerieri robot. Consegnando rapidamente e senza errori gli ordini dei tuoi clienti, aumenti anche il volume d'affari della tua azienda."
       },
       "efficiency": {
-        "title": "Servizio efficiente",
-        "description": "Prolungate l'orario di apertura della vostra azienda grazie ai camerieri robot e servite più clienti riducendo al contempo gli errori nel servizio."
+        "title": "Servizio efficace",
+        "description": "Prolunga l'orario di apertura della tua azienda grazie ai camerieri robot e servi più clienti riducendo gli errori di servizio."
       }
     },
     "navigation": {
       "badge": "TECNOLOGIA AUTONOMA",
       "title": "Sistema di Navigazione Autonoma",
-      "description1": "I sistemi di camerieri robot utilizzano sistemi di navigazione autonoma per garantire che i vostri camerieri robot effettuino consegne sicure e senza errori ai tavoli dei clienti.",
-      "description2": "I camerieri robot rilevano gli ostacoli nella tua azienda grazie a sensori e tecnologia radar laser, prevenendo così le collisioni. Offri un servizio più sicuro e senza errori nella tua azienda garantendo la sicurezza dei tuoi clienti.",
+      "description1": "I sistemi di camerieri robot utilizzano sistemi di navigazione autonoma per garantire che i tuoi camerieri robot effettuino consegne sicure e senza errori ai tavoli dei clienti.",
+      "description2": "I camerieri robot rilevano gli ostacoli nella tua azienda grazie a sensori e tecnologia radar laser, prevenendo così collisioni. Offri un servizio più sicuro e senza errori nella tua azienda garantendo la sicurezza dei tuoi clienti.",
       "cta": "Scopri di più"
     },
     "profitability": {
@@ -164,10 +164,10 @@
     },
     "delivery": {
       "title": "Sistema di Consegna Automatica",
-      "subtitle": "Aumenta la soddisfazione e la fedeltà dei tuoi clienti",
+      "subtitle": "Aumenta la soddisfazione e la fedeltà dei clienti della tua azienda",
       "speed": {
         "title": "Consegna rapida ed efficace",
-        "description": "Consegna rapidamente ed efficacemente gli ordini ai clienti con sistemi di consegna automatica su vassoi, aumentando la soddisfazione del cliente e il volume d'affari della tua azienda."
+        "description": "Consegna gli ordini rapidamente ed efficacemente ai clienti con sistemi di consegna automatica su vassoi, aumentando la soddisfazione del cliente e il volume d'affari della tua azienda."
       },
       "accuracy": {
         "title": "Meno errori",
@@ -181,7 +181,7 @@
     "features": {
       "navigation": {
         "title": "Sistema di Navigazione",
-        "description": "I robot camerieri AyaPos sono dotati di laser e sensori per evitare ostacoli nell'azienda."
+        "description": "I camerieri robot AyaPos sono dotati di laser e sensori per evitare ostacoli all'interno dell'azienda."
       },
       "capacity": {
         "title": "Capacità di Trasporto",
@@ -189,23 +189,23 @@
       },
       "battery": {
         "title": "Autonomia della Batteria Duratura",
-        "description": "I robot camerieri AyaPos funzionano continuamente per 12-15 ore al giorno."
+        "description": "I camerieri robot AyaPos funzionano ininterrottamente per 12-15 ore al giorno."
       },
       "speedLimit": {
         "title": "Limite di Velocità Intelligente",
-        "description": "I robot camerieri intelligenti regolano la loro velocità in base all'inclinazione del terreno grazie a una funzione di limite di velocità migliorata."
+        "description": "I camerieri robot intelligenti regolano la loro velocità in base all'inclinazione del pavimento grazie a una funzione di limite di velocità avanzata."
       }
     },
     "gallery": {
-      "title": "Scopri i nostri Robot Camerieri",
-      "subtitle": "Guarda come i nostri robot possono trasformare il tuo servizio",
+      "title": "Scopri i nostri Camerieri Robot",
+      "subtitle": "Scopri come i nostri robot possono trasformare il tuo servizio",
       "image1": "Cameriere robot in azione",
       "image2": "Consegna automatica di vassoi",
       "image3": "Servizio clienti migliorato"
     },
     "cta": {
       "title": "Pronto a rivoluzionare il tuo servizio?",
-      "subtitle": "Contattaci per scoprire come i nostri robot camerieri possono migliorare la tua azienda",
+      "subtitle": "Contattaci per scoprire come i nostri camerieri robot possono migliorare la tua azienda",
       "button": "Richiedi una dimostrazione"
     }
   },
@@ -218,17 +218,17 @@
     },
     "orderManagement": {
       "badge": "GESTIONE DEGLI ORDINI",
-      "title": "Consegna rapida degli ordini!",
-      "subtitle": "Gestione AyaPos Courier - Applicazione di Monitoraggio degli Ordini"
+      "title": "Consegnare rapidamente gli ordini!",
+      "subtitle": "Gestione AyaPos Courier - App di Tracciamento Ordini"
     },
     "features": {
       "orderDetails": {
         "title": "Dettagli dell'Ordine",
-        "description": "Puoi consultare i dettagli degli ordini a te assegnati. In questo modo, puoi ridurre al minimo il rischio di errore durante la consegna. Nessuno vuole ricevere una torta mentre aspetta una pizza."
+        "description": "Puoi consultare i dettagli degli ordini a te assegnati. In questo modo, puoi minimizzare i rischi di errore durante la consegna. Nessuno vuole ricevere una torta mentre aspetta una pizza."
       },
       "mapView": {
-        "title": "Vedi la posizione sulla mappa",
-        "description": "Con l'app Courier, puoi vedere la posizione in cui devi consegnare l'ordine sulla mappa. Puoi così determinare il tuo percorso per arrivare all'indirizzo corretto nel percorso più breve."
+        "title": "Visualizza la posizione sulla mappa",
+        "description": "Con l'app Courier, puoi vedere la posizione in cui devi consegnare l'ordine sulla mappa. Puoi così determinare il tuo percorso per andare all'indirizzo giusto nel modo più breve."
       },
       "callCustomer": {
         "title": "Chiama il cliente",
@@ -237,36 +237,36 @@
     },
     "payment": {
       "badge": "PAGAMENTI",
-      "title": "Accetta pagamenti molto facilmente!",
-      "subtitle": "Monitoraggio AyaPos Courier - Sistema di Gestione Ristoranti",
+      "title": "Accetta i pagamenti molto facilmente!",
+      "subtitle": "Tracciamento AyaPos Courier - Sistema di Gestione Ristorante",
       "cash": {
         "title": "Pagamenti in contante",
         "description": "Grazie all'uso semplice dell'app Courier, puoi accettare i pagamenti in contante degli ordini con un solo tocco."
       },
       "card": {
         "title": "Pagamenti con carta di credito",
-        "description": "Con l'infrastruttura avanzata dell'app AyaPos Courier, puoi utilizzare un codice QR per accettare i pagamenti con carta di credito. Lascia che il tuo cliente scansiona il codice QR e il pagamento si completa in pochi secondi."
+        "description": "Con l'infrastruttura avanzata dell'app AyaPos Courier, puoi utilizzare un codice QR per accettare i pagamenti con carta di credito. Lascia che il tuo cliente scansiona il codice QR e il pagamento viene effettuato in pochi secondi."
       },
       "security": {
         "title": "Infrastruttura 100% sicura",
-        "description": "Con un certificato SSL a 256 bit, tutte le tue transazioni e movimenti sono effettuati in sicurezza."
+        "description": "Con un certificato SSL a 256 bit, tutte le tue transazioni e movimenti vengono effettuati in tutta sicurezza."
       }
     },
     "courier": {
       "badge": "PER I COURIER",
       "title": "Indispensabile per i corrieri!",
-      "subtitle": "Gestione degli Ordini AyaPos - Software di Monitoraggio Courier",
+      "subtitle": "Gestione degli Ordini AyaPos - Software di Tracciamento Courier",
       "reports": {
-        "title": "Consulta i rapporti giornalieri",
-        "description": "Con l'app AyaPos Courier, puoi ottenere rapporti giornalieri dei corrieri. Puoi ottenere informazioni sul numero di ordini, la distanza totale, i tempi e i pagamenti."
+        "title": "Consulta i rapporti quotidiani",
+        "description": "Con l'app AyaPos Courier, puoi ottenere rapporti quotidiani dei corrieri. Puoi ottenere informazioni sul numero di ordini, la distanza totale, le durate e i pagamenti."
       },
       "status": {
         "title": "Stati disponibile e occupato",
-        "description": "Con l'app Courier, puoi impostare lo stato del corriere. Quando non sei disponibile, puoi selezionare lo stato 'Occupato' e informare l'azienda."
+        "description": "Con l'app Courier, puoi definire lo stato del corriere. Quando non sei disponibile, puoi selezionare lo stato 'Occupato' e informare l'azienda."
       },
       "notifications": {
         "title": "Suono di notifica dell'ordine",
-        "description": "Se attivi il suono di notifica tramite l'app, riceverai una notifica sonora quando un ordine ti viene assegnato. In questo modo, non ti perderai ordini e potrai aumentare la soddisfazione del cliente."
+        "description": "Se attivi il suono di notifica tramite l'app, riceverai una notifica sonora quando un ordine ti viene assegnato. In questo modo, non perderai ordini e potrai aumentare la soddisfazione dei clienti."
       }
     },
     "systemFeatures": {
@@ -276,28 +276,28 @@
     "system": {
       "mobile": {
         "title": "Sistema di Gestione Mobile",
-        "description": "AyaPos Manager è un'applicazione di gestione mobile che ti consente di gestire la tua azienda da telefoni iPhone e Android."
+        "description": "AyaPos Manager è un'app di gestione mobile che ti consente di gestire la tua azienda da telefoni iPhone e Android."
       },
       "cloud": {
         "title": "Infrastruttura Cloud",
         "description": "Grazie alla piattaforma cloud AyaPos Manager, gestisci i tuoi prodotti, vendite, scorte e conti clienti dalla tua tasca, accedi istantaneamente ai rapporti consolidati delle tue filiali."
       },
       "analytics": {
-        "title": "Report e Analisi Avanzati",
-        "description": "Esamina i tuoi report di fine giornata, vendite, scorte e conti clienti in tempo reale. Migliora lo stato della tua azienda confrontando le tue vendite con analisi visive."
+        "title": "Rapporti e Analisi Avanzate",
+        "description": "Esamina i tuoi rapporti di fine giornata, vendite, scorte e conti clienti in tempo reale. Migliora la situazione della tua azienda confrontando le tue vendite con analisi visive."
       },
       "accounts": {
-        "title": "Gestisci i Conti Clienti",
-        "description": "Crea i tuoi conti clienti, segui i tuoi crediti e debiti. Gestisci i tuoi clienti esaminando i movimenti di cassa che si sono verificati durante la giornata."
+        "title": "Gestire i Conti Clienti",
+        "description": "Crea i tuoi conti clienti, segui i tuoi crediti e debiti. Gestisci i tuoi clienti esaminando i movimenti di cassa avvenuti durante la giornata."
       }
     },
     "tracking": {
-      "badge": "MONITORAGGIO IN TEMPO REALE",
-      "title": "Monitora le tue consegne in tempo reale",
-      "description1": "Con il sistema di monitoraggio in tempo reale di AyaPos, puoi seguire la posizione dei tuoi corrieri su una mappa e monitorare lo stato di tutti i tuoi ordini.",
-      "description2": "Ottimizza i tuoi percorsi di consegna, riduci i tempi di attesa e aumenta la soddisfazione del cliente grazie a un monitoraggio preciso e in tempo reale.",
-      "feature1": "Monitoraggio GPS in diretta",
-      "feature2": "Ottimizzazione dei percorsi",
+      "badge": "TRACCIAMENTO IN TEMPO REALE",
+      "title": "Segui le tue consegne in tempo reale",
+      "description1": "Con il sistema di tracciamento in tempo reale di AyaPos, puoi seguire la posizione dei tuoi corrieri su una mappa e monitorare lo stato di tutti i tuoi ordini.",
+      "description2": "Ottimizza i tuoi itinerari di consegna, riduci i tempi di attesa e aumenta la soddisfazione dei clienti grazie a un tracciamento preciso e in tempo reale.",
+      "feature1": "Tracciamento GPS in tempo reale",
+      "feature2": "Ottimizzazione degli itinerari",
       "feature3": "Notifiche automatiche"
     },
     "cta": {
@@ -308,258 +308,258 @@
   },
   "webPortal": {
     "hero": {
-      "badge": "PORTAIL WEB AYAPOS",
-      "title": "Système de Gestion en Ligne",
-      "subtitle": "Gérez à distance, accédez instantanément aux rapports de ventes et de stocks",
-      "cta": "Demander un devis"
+      "badge": "PORTALE WEB AYAPOS",
+      "title": "Sistema di Gestione Online",
+      "subtitle": "Gestisci da remoto, accedi istantaneamente ai report di vendite e scorte",
+      "cta": "Richiedi un preventivo"
     },
     "reportsSection": {
-      "badge": "RAPPORTS ET ANALYSES",
-      "title": "Accédez instantanément à vos rapports",
-      "subtitle": "Rapports de fin de journée, ventes, personnel, comptes clients et stocks instantanément disponibles"
+      "badge": "REPORT E ANALISI",
+      "title": "Accedi istantaneamente ai tuoi report",
+      "subtitle": "Report di fine giornata, vendite, personale, conti clienti e scorte disponibili immediatamente"
     },
     "reports": {
       "instant": {
-        "title": "Rapports instantanés et périodiques",
-        "description": "Le système de rapports et d'analyses en ligne AyaPos Portal présente vos données sous forme d'analyses visuelles en plus des rapports instantanés et périodiques, vous aidant à prendre les bonnes décisions et à développer votre entreprise."
+        "title": "Report istantanei e periodici",
+        "description": "Il sistema di report e analisi online AyaPos Portal presenta i tuoi dati in forma di analisi visiva oltre ai report istantanei e periodici, aiutandoti a prendere le decisioni giuste e far crescere la tua azienda."
       },
       "central": {
-        "title": "Système de rapports centralisé",
-        "description": "Grâce au système de gestion et de rapports centralisés AyaPos, vous pouvez gérer toutes vos succursales depuis un seul compte et consulter les rapports consolidés et comparatifs sur le même écran."
+        "title": "Sistema di report centralizzato",
+        "description": "Grazie al sistema di gestione e report centralizzati di AyaPos, puoi gestire tutte le tue filiali da un unico account e consultare i report consolidati e comparativi sulla stessa schermata."
       }
     },
     "remoteManagement": {
-      "badge": "GESTION À DISTANCE",
-      "title": "Gérez votre entreprise à distance avec AyaPos Portal",
-      "subtitle": "Gérez toutes les informations définissant votre entreprise depuis votre bureau"
+      "badge": "GESTIONE REMOTA",
+      "title": "Gestisci la tua azienda da remoto con AyaPos Portal",
+      "subtitle": "Gestisci tutte le informazioni che definiscono la tua azienda dal tuo ufficio"
     },
     "management": {
       "remote": {
-        "title": "Configuration à distance, mise à jour automatique",
-        "description": "Configurez à distance toutes les informations et paramètres de votre entreprise et de vos appareils avec n'importe quel appareil connecté à Internet, mettez-les à jour quand vous le souhaitez. Ajoutez de nouveaux produits, modifiez les prix. Toutes les informations sont automatiquement transférées vers vos tablettes et appareils POS."
+        "title": "Configurazione remota, aggiornamento automatico",
+        "description": "Configura da remoto tutte le informazioni e i parametri della tua azienda e dei tuoi dispositivi con qualsiasi dispositivo connesso a Internet, aggiornali quando vuoi. Aggiungi nuovi prodotti, modifica i prezzi. Tutte le informazioni vengono trasferite automaticamente ai tuoi tablet e dispositivi POS."
       },
       "auto": {
-        "title": "Gérez vos systèmes POS depuis un centre unique",
-        "description": "AyaPos Portal est la solution de gestion centralisée qui vous permet de gérer à distance avec un seul compte le système d'automatisation de restaurant de votre entreprise."
+        "title": "Gestisci i tuoi sistemi POS da un centro unico",
+        "description": "AyaPos Portal è la soluzione di gestione centralizzata che ti consente di gestire da remoto con un unico account il sistema di automazione dei ristoranti della tua azienda."
       },
       "unified": {
-        "title": "Gestion unifiée complète",
-        "description": "Incluant le système POS mobile, les menus tablettes, les terminaux serveur, ainsi que les systèmes de menu numérique, de commande mobile et de paiement mobile fonctionnant sur les smartphones de vos clients."
+        "title": "Gestione unificata completa",
+        "description": "Include il sistema POS mobile, i menu per tablet, i terminali per camerieri, così come i sistemi di menu digitale, di ordinazione mobile e di pagamento mobile che funzionano sugli smartphone dei tuoi clienti."
       }
     },
     "dayEnd": {
-      "badge": "RAPPORTS DE FIN DE JOURNÉE",
-      "title": "Consultez vos rapports de fin de journée",
-      "description1": "Vous pouvez examiner combien de ventes ont été effectuées en espèces ou par carte de crédit pendant la journée, combien de vos clients ont bénéficié de réductions ou les produits retournés.",
-      "description2": "Avec le menu puissant d'AyaPos Portal, accédez aux rapports de fin de journée, vous pouvez suivre les paiements en espèces, par carte de crédit ou sur compte effectués pendant la journée.",
-      "description3": "Vos rapports sont stockés quotidiennement dans la base de données AyaPos, vous pouvez accéder instantanément à vos rapports de fin de journée de n'importe quelle date quand vous le souhaitez."
+      "badge": "REPORT DI FINE GIORNATA",
+      "title": "Consulta i tuoi report di fine giornata",
+      "description1": "Puoi esaminare quante vendite sono state effettuate in contante o con carta di credito durante la giornata, quanti dei tuoi clienti hanno beneficiato di sconti o i prodotti restituiti.",
+      "description2": "Con il potente menu di AyaPos Portal, accedi ai report di fine giornata, puoi tenere traccia dei pagamenti in contante, con carta di credito o a credito effettuati durante la giornata.",
+      "description3": "I tuoi report vengono archiviati quotidianamente nel database di AyaPos, puoi accedere istantaneamente ai tuoi report di fine giornata di qualsiasi data quando lo desideri."
     },
     "settings": {
-      "badge": "PARAMÈTRES SYSTÈME",
-      "title": "Améliorez votre portail avec les paramètres système",
-      "subtitle": "Gérez mieux votre entreprise avec de nombreux paramètres",
+      "badge": "IMPOSTAZIONI DI SISTEMA",
+      "title": "Migliora il tuo portale con le impostazioni di sistema",
+      "subtitle": "Gestisci meglio la tua azienda con molte impostazioni",
       "general": {
-        "title": "Paramètres généraux",
-        "description": "Depuis votre portail, vous pouvez définir la devise et la langue des produits que vous vendez. Avec les paramètres POS, vous pouvez sélectionner les types de paiement, appliquer des étiquettes de réduction. Vous pouvez également organiser les paramètres de gestion de stock via AyaPos Portal."
+        "title": "Impostazioni generali",
+        "description": "Dal tuo portale, puoi impostare la valuta e la lingua dei prodotti che vendi. Con le impostazioni POS, puoi selezionare i tipi di pagamento, applicare etichette di sconto. Puoi anche organizzare le impostazioni di gestione delle scorte tramite AyaPos Portal."
       },
       "order": {
-        "title": "Paramètres de commande",
-        "description": "Dans la section paramètres d'AyaPos Portal, vous pouvez activer vos commandes pour le paiement et la commande en ligne, définir votre montant minimum de commande et vos frais de service, organiser les informations nécessaires pour les ventes via les plateformes de livraison."
+        "title": "Impostazioni degli ordini",
+        "description": "Nella sezione impostazioni di AyaPos Portal, puoi attivare i tuoi ordini per il pagamento e l'ordinazione online, impostare il tuo importo minimo d'ordine e le tue spese di servizio, organizzare le informazioni necessarie per le vendite tramite le piattaforme di consegna."
       }
     },
     "featuresGrid": {
-      "title": "Caractéristiques",
-      "subtitle": "Tout ce dont vous avez besoin pour gérer votre entreprise"
+      "title": "Caratteristiche",
+      "subtitle": "Tutto ciò di cui hai bisogno per gestire la tua azienda"
     },
     "features": {
       "reports": {
-        "title": "Rapports et Analyses Avancés",
-        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez la situation de votre entreprise en comparant vos ventes avec des analyses visuelles."
+        "title": "Report e Analisi Avanzati",
+        "description": "Esamina i tuoi report di fine giornata, di vendite, di scorte e di conti clienti in tempo reale. Migliora la situazione della tua azienda confrontando le tue vendite con analisi visive."
       },
       "management": {
-        "title": "Système de Gestion en Ligne",
-        "description": "Avec AyaPos Portal, vous pouvez gérer votre entreprise à distance avec n'importe quel appareil connecté à Internet. Connectez-vous à AyaPos Portal et accédez à vos informations à tout moment, de n'importe où."
+        "title": "Sistema di Gestione Online",
+        "description": "Con AyaPos Portal, puoi gestire la tua azienda a distanza con qualsiasi dispositivo connesso a Internet. Accedi a AyaPos Portal e consulta le tue informazioni in qualsiasi momento, da qualsiasi luogo."
       },
       "central": {
-        "title": "Système de Gestion Centralisée",
-        "description": "Grâce au système de gestion centralisée d'AyaPos Portal, gérez vos produits, prix, personnel et stocks depuis un centre unique, accédez aux rapports de ventes consolidés de vos succursales avec un seul compte."
+        "title": "Sistema di Gestione Centralizzata",
+        "description": "Grazie al sistema di gestione centralizzata di AyaPos Portal, gestisci i tuoi prodotti, prezzi, personale e scorte da un centro unico, accedi ai report di vendite consolidati delle tue filiali con un unico account."
       },
       "compatible": {
-        "title": "Compatible avec tous les Navigateurs",
-        "description": "Vous pouvez accéder rapidement à AyaPos Portal depuis des ordinateurs, tablettes ou smartphones connectés à Internet et gérer facilement vos succursales en même temps."
+        "title": "Compatibile con tutti i Browser",
+        "description": "Puoi accedere rapidamente a AyaPos Portal da computer, tablet o smartphone connessi a Internet e gestire facilmente le tue filiali contemporaneamente."
       }
     },
     "cta": {
-      "title": "Prêt à gérer votre entreprise en ligne ?",
-      "subtitle": "Contactez-nous pour découvrir comment AyaPos Portal peut transformer votre gestion",
-      "button": "Demander une démonstration"
+      "title": "Pronto a gestire la tua azienda online?",
+      "subtitle": "Contattaci per scoprire come AyaPos Portal può trasformare la tua gestione",
+      "button": "Richiedi una dimostrazione"
     }
   },
   "mobileReports": {
     "hero": {
-      "badge": "RAPPORTS MOBILES AYAPOS",
-      "title": "Application de Rapports Mobiles",
-      "subtitle": "Accédez instantanément aux rapports de ventes et aux analyses visuelles depuis votre poche",
-      "cta": "Voir les démos"
+      "badge": "REPORT MOBILI AYAPOS",
+      "title": "Applicazione di Report Mobili",
+      "subtitle": "Accedi istantaneamente ai report di vendite e alle analisi visive dalla tua tasca",
+      "cta": "Guarda le demo"
     },
     "summarySection": {
-      "badge": "RAPPORTS RÉSUMÉS",
-      "title": "Rapports résumés et graphiques visuels",
-      "subtitle": "Examinez les rapports résumés et les analyses visuelles concernant les produits les plus vendus, la fin de journée, l'état de la caisse et les stocks"
+      "badge": "REPORT RIASSUNTIVI",
+      "title": "Report riassuntivi e grafici visivi",
+      "subtitle": "Esamina i report riassuntivi e le analisi visive riguardanti i prodotti più venduti, la fine di giornata, lo stato della cassa e le scorte"
     },
     "summary": {
       "bestSellers": {
-        "title": "Produits les plus vendus",
-        "description": "Visualisez en résumé les produits les plus vendus dans votre entreprise pendant la journée, augmentez vos ventes en organisant des campagnes et promotions sur les produits ciblés."
+        "title": "Prodotti più venduti",
+        "description": "Visualizza in sintesi i prodotti più venduti nella tua azienda durante la giornata, aumenta le tue vendite organizzando campagne e promozioni sui prodotti mirati."
       },
       "dayEnd": {
-        "title": "Rapport de fin de journée et de caisse",
-        "description": "Accédez au résumé de vos informations de ventes et de chiffre d'affaires de fin de journée, à vos informations de paiement en espèces, devises, carte de crédit, tickets restaurant, etc. dans votre caisse."
+        "title": "Report di fine giornata e di cassa",
+        "description": "Accedi al riassunto delle tue informazioni di vendite e fatturato di fine giornata, alle tue informazioni sui pagamenti in contante, valute, carta di credito, buoni pasto, ecc. nella tua cassa."
       },
       "stock": {
-        "title": "Rapports de stock",
-        "description": "Examinez l'état des stocks de vos produits, semi-produits et matières premières, vérifiez vos stocks avec les entrées/sorties de stock et les comptages d'inventaire."
+        "title": "Report di stock",
+        "description": "Esamina lo stato delle scorte dei tuoi prodotti, semilavorati e materie prime, verifica le tue scorte con le entrate/uscite di stock e i conteggi di inventario."
       },
       "insights": {
-        "title": "Informations résumées",
-        "description": "AyaPos Boss vous présente des informations telles que le gain moyen et le nombre de couverts réalisés par votre entreprise au cours des 7 derniers jours."
+        "title": "Informazioni riassuntive",
+        "description": "AyaPos Boss ti presenta informazioni come il guadagno medio e il numero di coperti realizzati dalla tua azienda negli ultimi 7 giorni."
       }
     },
     "productSection": {
-      "badge": "GESTION DES PRODUITS",
-      "title": "Gérez vos produits avec AyaPos Boss",
-      "subtitle": "Consultez tous les détails de vos produits depuis votre application mobile"
+      "badge": "GESTIONE DEI PRODOTTI",
+      "title": "Gestisci i tuoi prodotti con AyaPos Boss",
+      "subtitle": "Consulta tutti i dettagli dei tuoi prodotti dalla tua applicazione mobile"
     },
     "products": {
       "track": {
-        "title": "Suivez vos produits",
-        "description": "Depuis l'application AyaPos Boss, vous pouvez cliquer sur un produit pour voir sa photo, son nom, son prix, son code-barres, sa quantité de calories, son temps de préparation, sa description, ses sous-catégories et indiquer si le produit est disponible ou non."
+        "title": "Segui i tuoi prodotti",
+        "description": "Dall'app AyaPos Boss, puoi fare clic su un prodotto per vedere la sua foto, il suo nome, il suo prezzo, il suo codice a barre, la sua quantità di calorie, il suo tempo di preparazione, la sua descrizione, le sue sottocategorie e indicare se il prodotto è disponibile o meno."
       },
       "search": {
-        "title": "Recherche de produits",
-        "description": "Sur la page produits de l'application AyaPos Boss, vous pouvez accéder à l'écran de recherche en cliquant sur le bouton de recherche dans le coin supérieur droit. Dans cette zone, vous pouvez accéder rapidement et facilement à un produit en écrivant son nom."
+        "title": "Ricerca di prodotti",
+        "description": "Nella pagina prodotti dell'app AyaPos Boss, puoi accedere alla schermata di ricerca facendo clic sul pulsante di ricerca nell'angolo in alto a destra. In quest'area, puoi accedere rapidamente e facilmente a un prodotto scrivendo il suo nome."
       },
       "design": {
-        "title": "Design simple et épuré",
-        "description": "L'application AyaPos Boss a un design extrêmement simple et épuré. Pour ne pas compliquer la page des produits, elle maintient cette structure et vous offre un espace de travail plus confortable."
+        "title": "Design semplice e pulito",
+        "description": "L'app AyaPos Boss ha un design estremamente semplice e pulito. Per non complicare la pagina dei prodotti, mantiene questa struttura e ti offre uno spazio di lavoro più confortevole."
       }
     },
     "business": {
-      "badge": "GESTION D'ENTREPRISE",
-      "title": "Gérez votre entreprise depuis votre poche avec AyaPos Boss !",
-      "description1": "Accédez à vos rapports de fin de journée, de caisse, de ventes, de comptes clients et de stocks depuis les smartphones. Comparez vos ventes périodiques avec des analyses visuelles.",
-      "description2": "AyaPos Boss vous permet d'accéder en temps réel à toutes vos ventes réalisées sur votre système POS mobile et transférées vers la plateforme cloud. Vous pouvez consulter instantanément de nombreux rapports tels que fin de journée, caisse, ventes, stocks et comptes clients.",
-      "description3": "Grâce à la plateforme cloud mobile AyaPos, vous accédez en quelques secondes aux graphiques visuels de vos ventes quotidiennes, hebdomadaires, mensuelles et annuelles. Vous pouvez analyser l'état actuel de votre entreprise en comparant vos ventes périodiques et développer votre activité en prenant les bonnes décisions."
+      "badge": "GESTIONE D'AZIENDA",
+      "title": "Gestisci la tua azienda dalla tua tasca con AyaPos Boss!",
+      "description1": "Accedi ai tuoi report di fine giornata, di cassa, di vendite, di conti clienti e di scorte dai smartphone. Confronta le tue vendite periodiche con analisi visive.",
+      "description2": "AyaPos Boss ti consente di accedere in tempo reale a tutte le tue vendite realizzate sul tuo sistema POS mobile e trasferite sulla piattaforma cloud. Puoi consultare istantaneamente numerosi report come fine giornata, cassa, vendite, scorte e conti clienti.",
+      "description3": "Grazie alla piattaforma cloud mobile AyaPos, accedi in pochi secondi ai grafici visivi delle tue vendite quotidiane, settimanali, mensili e annuali. Puoi analizzare lo stato attuale della tua azienda confrontando le tue vendite periodiche e far crescere la tua attività prendendo le decisioni giuste."
     },
     "settings": {
-      "badge": "PARAMÈTRES",
-      "title": "Effectuez des modifications dans votre application avec AyaPos Boss !",
+      "badge": "IMPOSTAZIONI",
+      "title": "Effettua modifiche nella tua applicazione con AyaPos Boss!",
       "account": {
-        "title": "Paramètres du compte et paramètres généraux",
-        "description": "Dans la section paramètres du compte de la page paramètres d'AyaPos Boss, vous pouvez définir votre nom d'utilisateur et votre mot de passe. Depuis les paramètres généraux, vous pouvez régler l'heure mondiale et organiser à quelle heure les rapports de fin de journée doivent être pris."
+        "title": "Impostazioni dell'account e impostazioni generali",
+        "description": "Nella sezione impostazioni dell'account della pagina impostazioni di AyaPos Boss, puoi impostare il tuo nome utente e la tua password. Dalle impostazioni generali, puoi regolare l'ora mondiale e organizzare a che ora i report di fine giornata devono essere presi."
       },
       "pos": {
-        "title": "Paramètres POS et de langue",
-        "description": "Avec les paramètres POS, vous pouvez activer ou désactiver le service de commande et de paiement en ligne de l'appareil POS utilisé dans votre entreprise. Avec les paramètres de langue, vous pouvez utiliser votre application patron AyaPos dans différentes langues."
+        "title": "Impostazioni POS e di lingua",
+        "description": "Con le impostazioni POS, puoi attivare o disattivare il servizio di ordinazione e pagamento online del dispositivo POS utilizzato nella tua azienda. Con le impostazioni di lingua, puoi utilizzare la tua applicazione AyaPos Boss in diverse lingue."
       }
     },
     "featuresGrid": {
-      "title": "Caractéristiques",
-      "subtitle": "Tout ce dont vous avez besoin dans votre poche"
+      "title": "Caratteristiche",
+      "subtitle": "Tutto ciò di cui hai bisogno nella tua tasca"
     },
     "features": {
       "mobile": {
-        "title": "Système de Gestion Mobile",
-        "description": "AyaPos Boss est une application de gestion mobile qui vous permet de gérer votre entreprise depuis les téléphones iPhone et Android. Téléchargez immédiatement depuis App Store et Google Play."
+        "title": "Sistema di Gestione Mobile",
+        "description": "AyaPos Boss è un'app di gestione mobile che ti consente di gestire la tua azienda dai telefoni iPhone e Android. Scarica immediatamente da App Store e Google Play."
       },
       "cloud": {
-        "title": "Infrastructure Cloud",
-        "description": "Grâce à la plateforme cloud AyaPos Boss, gérez vos produits, ventes, stocks et comptes clients depuis votre poche, accédez instantanément aux rapports consolidés de vos succursales."
+        "title": "Infrastruttura Cloud",
+        "description": "Grazie alla piattaforma cloud AyaPos Boss, gestisci i tuoi prodotti, vendite, scorte e conti clienti dalla tua tasca, accedi istantaneamente ai report consolidati delle tue filiali."
       },
       "analytics": {
-        "title": "Rapports et Analyses Avancés",
-        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez l'état de votre entreprise en comparant vos ventes avec des analyses visuelles."
+        "title": "Report e Analisi Avanzati",
+        "description": "Esamina i tuoi report di fine giornata, di vendite, di scorte e di conti clienti in tempo reale. Migliora la situazione della tua azienda confrontando le tue vendite con analisi visive."
       },
       "accounts": {
-        "title": "Gérer les Comptes Clients",
-        "description": "Créez vos comptes clients, suivez vos créances et dettes. Gérez vos clients en examinant les mouvements de caisse effectués pendant la journée."
+        "title": "Gestire i Conti Clienti",
+        "description": "Crea i tuoi conti clienti, segui i tuoi crediti e debiti. Gestisci i tuoi clienti esaminando i movimenti di cassa effettuati durante la giornata."
       }
     },
     "download": {
-      "title": "Téléchargez l'application Boss mobile pour l'essayer immédiatement !",
-      "subtitle": "Disponible sur iOS et Android"
+      "title": "Scarica l'app Boss mobile per provarla subito!",
+      "subtitle": "Disponibile su iOS e Android"
     },
     "cta": {
-      "title": "Prêt à gérer depuis votre mobile ?",
-      "subtitle": "Téléchargez AyaPos Boss et gérez votre entreprise de n'importe où",
-      "button": "Demander une démonstration"
+      "title": "Pronto a gestire dal tuo mobile?",
+      "subtitle": "Scarica AyaPos Boss e gestisci la tua azienda da qualsiasi luogo",
+      "button": "Richiedi una dimostrazione"
     }
   },
   "stockManagement": {
     "hero": {
-      "badge": "SISTEMA DI GESTIONE DEI RIFIUTI",
-      "title": "Sistema di Gestione dei Rifiuti",
-      "subtitle": "Segui i rifiuti, produci in modo più efficiente. Gestisci i rifiuti di prodotti e materie prime da un unico centro.",
+      "badge": "SISTEMA DI GESTIONE DEGLI STOCK",
+      "title": "Sistema di Gestione degli Stock",
+      "subtitle": "Segui gli stock, produci in modo più efficiente. Gestisci gli stock di prodotti e materie prime da un centro unico.",
       "cta": "Richiedi un preventivo"
     },
     "benefitsSection": {
       "badge": "VANTAGGI",
-      "title": "Aumenta l'efficienza, riduci perdite e sprechi",
-      "subtitle": "Con il sistema di gestione dei rifiuti AyaPos"
+      "title": "Aumenta l'efficienza, riduci le perdite e gli sprechi",
+      "subtitle": "Con il sistema di gestione degli stock AyaPos"
     },
     "benefits": {
       "efficiency": {
-        "title": "Produzione più efficiente",
-        "description": "Con il sistema di gestione dei rifiuti, puoi esaminare l'uso delle materie prime e dei prodotti e migliorare il tuo flusso di produzione per una produzione più efficiente."
+        "title": "Produzione più efficace",
+        "description": "Con il sistema di gestione degli stock, puoi esaminare l'uso delle materie prime e dei prodotti e migliorare il tuo flusso di produzione per una produzione più efficace."
       },
       "waste": {
         "title": "Meno perdite e sprechi",
-        "description": "Grazie a un flusso di produzione meglio pianificato, puoi minimizzare le perdite e gli sprechi che si verificano durante la produzione."
+        "description": "Grazie a un flusso di produzione meglio pianificato, puoi ridurre al minimo le perdite e gli sprechi che si verificano durante la produzione."
       }
     },
     "recipeSection": {
       "badge": "RICETTE",
       "title": "Pianifica le tue ricette e il tuo flusso di produzione",
-      "subtitle": "Preparati i rifiuti con le ricette del tuo ristorante, caffè o bar"
+      "subtitle": "Prepara gli stock con le ricette del tuo ristorante, caffè o bar"
     },
     "types": {
       "simple": {
-        "title": "Rifiuti semplici secondo necessità",
-        "description": "Per le piccole imprese e secondo le esigenze, puoi facilmente inserire i tuoi prodotti a pezzo nel sistema con una struttura di rifiuti semplice e vedere il loro utilizzo anche a pezzo."
+        "title": "Stock semplice in base alle necessità",
+        "description": "Per le piccole imprese e in base alle necessità, puoi facilmente inserire i tuoi prodotti a unità nel sistema con una struttura di stock semplice e vedere il loro utilizzo anche a unità."
       },
       "recipe": {
-        "title": "Rifiuti avanzati con ricette",
-        "description": "Con la gestione dei rifiuti AyaPos, puoi anche gestire i rifiuti del tuo ristorante, caffè o bar con ricette. In questo modo, puoi effettuare analisi dettagliate delle spese."
+        "title": "Stock avanzato con ricette",
+        "description": "Con la gestione degli stock AyaPos, puoi anche gestire gli stock del tuo ristorante, caffè o bar con le ricette. In questo modo, puoi eseguire analisi dettagliate delle spese."
       }
     },
     "centralized": {
       "badge": "GESTIONE CENTRALIZZATA",
-      "title": "Accedi a tutto da un unico posto",
-      "description1": "Con il sistema di gestione dei rifiuti AyaPos, che tu abbia una o cento filiali. Puoi gestire tutto da un unico posto e non incontrare risultati inaspettati con analisi più ampie.",
+      "title": "Accedi a tutto da un unico luogo",
+      "description1": "Con il sistema di gestione degli stock AyaPos, che tu abbia una o cento filiali. Puoi gestire tutto da un unico luogo e non incontrare risultati inaspettati con analisi più ampie.",
       "stat1": "Controllo centralizzato",
       "stat2": "Accesso permanente"
     },
     "featuresSection": {
-      "title": "Accedi a tutto da un unico posto",
-      "subtitle": "Sistema completo di gestione dei rifiuti"
+      "title": "Accedi a tutto da un unico luogo",
+      "subtitle": "Sistema completo di gestione degli stock"
     },
     "management": {
       "movements": {
-        "title": "Segui i tuoi movimenti di rifiuti",
-        "description": "Crea i tuoi conti clienti, segui i tuoi crediti e debiti relativi a questi conti. Esamina i movimenti della cassa effettuati durante la giornata."
+        "title": "Segui i tuoi movimenti di stock",
+        "description": "Crea i tuoi conti clienti, segui i tuoi crediti e debiti legati a questi conti. Esamina i movimenti di cassa effettuati durante la giornata."
       },
       "counting": {
-        "title": "Controlla i tuoi conteggi di rifiuti",
-        "description": "Segui i tuoi rifiuti di prodotti e materie prime, osserva i tuoi movimenti di rifiuti, controlla i tuoi rifiuti con conteggi periodici."
+        "title": "Controlla i tuoi conteggi di stock",
+        "description": "Segui i tuoi stock di prodotti e materie prime, osserva i tuoi movimenti di stock, verifica i tuoi stock con conteggi periodici."
       }
     },
     "alert": {
-      "title": "Sistema di allerta per i rifiuti",
-      "description": "Con il sistema di gestione dei rifiuti AyaPos, puoi seguire i prodotti e le materie prime in rifiuto e vedere in anticipo i rifiuti sul punto di esaurirsi grazie al sistema di allerta.",
+      "title": "Sistema di allerta stock",
+      "description": "Con il sistema di gestione degli stock AyaPos, puoi seguire i prodotti e le materie prime in stock e vedere in anticipo quali stock stanno per esaurirsi grazie al sistema di allerta.",
       "cta": "Scopri di più"
     },
     "cta": {
-      "title": "Pronto a ottimizzare la tua gestione dei rifiuti?",
+      "title": "Pronto a ottimizzare la tua gestione degli stock?",
       "subtitle": "Contattaci per scoprire come il nostro sistema può migliorare la tua redditività",
       "button": "Richiedi una dimostrazione"
     }
@@ -568,17 +568,17 @@
     "hero": {
       "badge": "SISTEMA DI GESTIONE CENTRALIZZATA",
       "title": "Gestione Centralizzata delle Filiali",
-      "subtitle": "Controllo, gestione e monitoraggio completo. Segui facilmente tutte le tue aziende da un centro unico.",
+      "subtitle": "Controllo, gestione e monitoraggio di fine corsa. Segui facilmente tutte le tue aziende da un centro unico.",
       "cta": "Richiedi un preventivo"
     },
     "quickSection": {
-      "title": "Accesso rapido da un unico posto",
+      "title": "Accesso rapido da un unico luogo",
       "subtitle": "Tutte le tue filiali sotto controllo"
     },
     "quick": {
       "menus": {
         "title": "Gestisci i tuoi menu",
-        "description": "Gestisci tutti i menu delle filiali da un unico posto. Aggiorna i prezzi quando vuoi e applicali a tutte le filiali."
+        "description": "Gestisci tutti i menu delle filiali da un unico luogo. Aggiorna i prezzi quando vuoi e applicali a tutte le filiali."
       },
       "movements": {
         "title": "Controlla i movimenti",
@@ -590,18 +590,18 @@
       }
     },
     "controlSection": {
-      "badge": "CONTROLLO TOTALE",
+      "badge": "CONTROLLI TOTALI",
       "title": "Supervisiona, intervieni",
       "subtitle": "Dove tu sia, segui tutte le tue filiali nei minimi dettagli"
     },
     "control": {
       "supervise": {
         "title": "Supervisiona, intervieni",
-        "description": "Dove tu sia, segui tutte le tue filiali nei minimi dettagli. Supervisiona i movimenti della cassa. Esamina i report, non lasciare nulla al caso."
+        "description": "Dove tu sia, segui tutte le tue filiali nei minimi dettagli. Supervisiona i movimenti di cassa. Esamina i report e non lasciare nulla al caso."
       },
       "update": {
         "title": "Aggiorna i prezzi con un clic",
-        "description": "Organizza rapidamente i prezzi e i dettagli dei prodotti delle tue filiali. Applica le modifiche che esegui a tutte le tue filiali con un clic."
+        "description": "Organizza rapidamente i prezzi e i dettagli dei prodotti delle tue filiali. Applica le modifiche che effettui a tutte le tue filiali con un clic."
       },
       "accounts": {
         "title": "Esamina i conti e le casse",
@@ -616,11 +616,11 @@
     "operational": {
       "control": {
         "title": "Controllo di tutte le operazioni",
-        "description": "Gestisci tutte le operazioni delle tue filiali da un'unica schermata. Organizza i tuoi menu, modifica i piani di layout, supervisiona i rifiuti, segui il personale, consulta le fatture e i conti clienti."
+        "description": "Gestisci tutte le operazioni delle tue filiali da un'unica schermata. Organizza i tuoi menu, modifica i piani di disposizione, supervisiona gli stock, segui il personale, consulta le fatture e i conti clienti."
       },
       "remote": {
         "title": "Controlla da qualsiasi luogo",
-        "description": "Visualizza e organizza facilmente tutti i dettagli delle tue filiali con un computer o un telefono dotato di connessione Internet. Tutte le modifiche che esegui vengono applicate automaticamente alle tue filiali."
+        "description": "Visualizza e organizza facilmente tutti i dettagli delle tue filiali con un computer o un telefono connesso a Internet. Tutte le modifiche che effettui vengono applicate automaticamente alle tue filiali."
       },
       "evaluate": {
         "title": "Valuta le tue filiali",
@@ -633,7 +633,7 @@
       "subtitle": "Esamina i report di tutte le tue filiali da un centro unico",
       "instant": {
         "title": "Report istantanei e periodici",
-        "description": "Con il sistema di gestione centralizzata AyaPos, puoi vedere i report per un intervallo di date specifico e i report di stato istantaneo. Puoi anche effettuare facilmente analisi con report visualizzati."
+        "description": "Con il sistema di gestione centralizzata AyaPos, puoi vedere i report per un intervallo di date specifico e i report di stato istantaneo. Puoi anche eseguire facilmente analisi con report visualizzati."
       },
       "central": {
         "title": "Sistema di report centralizzato",
@@ -641,19 +641,19 @@
       }
     },
     "benefits": {
-      "stat1": "Più veloce",
+      "stat1": "Più velocità",
       "stat2": "Accesso ovunque",
       "stat3": "Visibilità totale"
     },
     "cta": {
       "title": "Pronto a centralizzare la tua gestione?",
-      "subtitle": "Scopri come gestire tutte le tue filiali da un'unica posizione",
+      "subtitle": "Scopri come gestire tutte le tue filiali da un unico luogo",
       "button": "Richiedi una dimostrazione"
     }
   },
   "kioskPricing": {
     "hero": {
-      "title": "Tariffe Chioschi Self-Order",
+      "title": "Tariffe Chioschi Self-Order Kiosk",
       "subtitle": "Scegli il chiosco perfetto per la tua azienda. Installazione, configurazione e formazione inclusi.",
       "badge": "Consegna e installazione gratuite"
     },
@@ -662,29 +662,29 @@
     "orderNow": "Ordina ora",
     "models": {
       "small": {
-        "name": "Chiosco Compatto",
-        "size": "Dimensioni ridotte - Ideale per spazi ridotti",
+        "name": "Kiosk Compatto",
+        "size": "Dimensioni ridotte - Ideale per spazi limitati",
         "screen": "Schermo touch 15.6\"",
         "features": [
           "Schermo touch ad alta risoluzione 15.6\"",
-          "Processore quad-core performante",
-          "Stampante per scontrini termica integrata",
+          "Processore quad-core potente",
+          "Stampante per ricevute termica integrata",
           "Lettore di carte NFC",
-          "Supporto a muro o a piede",
+          "Supporto a muro o su piedistallo",
           "Design compatto ed elegante",
           "Interfaccia AyaPos preinstallata",
           "Garanzia di 2 anni"
         ]
       },
       "medium": {
-        "name": "Chiosco Standard",
+        "name": "Kiosk Standard",
         "size": "Dimensioni medie - Il più popolare",
         "screen": "Schermo touch 21.5\"",
         "features": [
           "Schermo touch Full HD 21.5\"",
           "Processore ad alte prestazioni",
-          "Stampante per scontrini ad alta velocità",
-          "Lettore carte senza contatto + QR code",
+          "Stampante per ricevute ad alta velocità",
+          "Lettore di carte contactless + QR code",
           "Supporto regolabile in altezza",
           "Altoparlanti stereo integrati",
           "Illuminazione LED ambientale",
@@ -694,17 +694,17 @@
         ]
       },
       "large": {
-        "name": "Chiosco Premium",
-        "size": "Dimensioni grandi - Massimo impatto",
+        "name": "Kiosk Premium",
+        "size": "Grande dimensione - Massimo impatto",
         "screen": "Schermo touch 32\"",
         "features": [
           "Schermo touch 4K Ultra HD 32\"",
           "Processore di ultima generazione",
-          "Doppia stampante per scontrini",
+          "Doppia stampante per ricevute",
           "Terminale di pagamento integrato multi-carte",
           "Struttura rinforzata premium",
           "Sistema audio ad alta fedeltà",
-          "Camera HD per analytics",
+          "Camera HD per analisi",
           "Illuminazione LED RGB personalizzabile",
           "Scanner di codici a barre",
           "Interfaccia AyaPos enterprise",
@@ -739,10 +739,10 @@
       "title": "Tabella comparativa",
       "subtitle": "Confronta le caratteristiche tecniche dei nostri modelli",
       "feature": "Caratteristica",
-      "screenSize": "Dimensione schermo",
+      "screenSize": "Dimensione dello schermo",
       "touchscreen": "Schermo touch",
-      "printer": "Stampante scontrini",
-      "cardReader": "Lettore carte",
+      "printer": "Stampante per ricevute",
+      "cardReader": "Lettore di carte",
       "speakers": "Altoparlanti",
       "customization": "Personalizzazione",
       "basic": "Base",
@@ -750,8 +750,8 @@
       "complete": "Completa"
     },
     "cta": {
-      "title": "Pronto a equipaggiare il tuo ristorante?",
-      "subtitle": "I nostri esperti sono qui per consigliarti sul miglior modello per la tua attività",
+      "title": "Pronto a dotare il tuo ristorante?",
+      "subtitle": "I nostri esperti sono qui per consigliarti il miglior modello per la tua attività",
       "button": "Richiedi un preventivo personalizzato"
     }
   },
@@ -759,15 +759,15 @@
     "hero": {
       "badge": "ESTENSIONE SISTEMA DI ORDINI",
       "title": "Tariffe Sistema di Ordine Online",
-      "subtitle": "Aggiungi il modulo di ordine online al tuo sistema POS esistente. Aumenta le tue vendite del 40% in media.",
-      "trial": "Inclusi 14 giorni di prova gratuita"
+      "subtitle": "Aggiungi il modulo di ordine online al tuo sistema POS esistente. Aumenta le tue vendite in media del 40%.",
+      "trial": "14 giorni di prova gratuita inclusi"
     },
     "perMonth": "al mese",
     "recommended": "Consigliato",
     "selectPlan": "Seleziona questo piano",
     "plansSection": {
       "title": "Scegli il tuo piano",
-      "subtitle": "Estensione che si integra perfettamente con il tuo sistema POS AyaPos"
+      "subtitle": "Estensione che si integra perfettamente al tuo sistema POS AyaPos"
     },
     "plans": {
       "basic": {
@@ -778,7 +778,7 @@
           "Sito web per ordini responsive",
           "Menu digitale personalizzabile",
           "Notifiche via email",
-          "Pagamenti online sicuri",
+          "Pagamento online sicuro",
           "Integrazione POS automatica",
           "Supporto via email"
         ]
@@ -790,44 +790,44 @@
           "Fino a 1000 ordini/mese",
           "Applicazione mobile dedicata",
           "Menu con foto HD illimitate",
-          "Notifiche SMS + Email",
+          "Notifiche via SMS + Email",
           "Programma di fidelizzazione integrato",
-          "Codice promo e sconti",
-          "Statistiche avanzate",
+          "Codice promozionale e sconti",
+          "Statistica avanzata",
           "Supporto prioritario",
           "0% commissione sulle vendite"
         ]
       },
       "premium": {
         "name": "Piano Enterprise",
-        "description": "Per catene e franchising",
+        "description": "Per catene e franchise",
         "features": [
           "Ordini illimitati",
           "Applicazioni iOS e Android",
           "Multi-ristoranti / filiali",
-          "API personalizzata",
+          "API personalizzabile",
           "Chatbot IA integrato",
           "Automazione marketing",
           "Test A/B menu",
-          "Analytics predittive",
-          "Manager dedicato",
-          "SLA 99.9% garantito",
+          "Analisi predittive",
+          "Gestore account dedicato",
+          "SLA garantita al 99.9%",
           "Formazione del team inclusa"
         ]
       }
     },
     "benefitsSection": {
-      "title": "Perché aggiungere il sistema di ordinazione?",
+      "title": "Perché aggiungere il sistema d'ordine?",
       "subtitle": "Vantaggi misurabili per la tua azienda"
     },
     "benefits": {
       "sales": {
         "title": "Aumenta le tue vendite",
-        "description": "+40% di entrate in media grazie agli ordini online 24/7"
+        "description": "+40% di fatturato in media grazie agli ordini online 24/7"
       },
       "customers": {
         "title": "Fidelizza i tuoi clienti",
-        "description": "Programma di fidelizzazione e storico degli ordini automatico"
+        "description": "Programma di fidelità e storico ordini automatico"
       },
       "automation": {
         "title": "Automazione completa",
@@ -842,15 +842,15 @@
       "title": "Domande frequenti",
       "q1": {
         "question": "Come funziona l'integrazione con il mio POS?",
-        "answer": "Il sistema di ordinazione si integra automaticamente con il tuo POS AyaPos. Gli ordini online appaiono istantaneamente sul tuo schermo di cucina, come gli ordini in loco."
+        "answer": "Il sistema di ordini si integra automaticamente con il tuo POS AyaPos. Gli ordini online appaiono istantaneamente sullo schermo della cucina, proprio come gli ordini in loco."
       },
       "q2": {
         "question": "Posso cambiare piano in seguito?",
-        "answer": "Sì, puoi aggiornare o abbassare il tuo piano in qualsiasi momento. Le modifiche avranno effetto immediato."
+        "answer": "Sì, puoi passare a un piano superiore o inferiore in qualsiasi momento. Le modifiche avranno effetto immediato."
       },
       "q3": {
-        "question": "Ci sono costi di installazione?",
-        "answer": "No, l'installazione e la configurazione sono inclusi in tutti i piani. Il nostro team ti assisterà per l'implementazione."
+        "question": "Ci sono costi per l'installazione?",
+        "answer": "No, l'installazione e la configurazione sono incluse in tutti i piani. Il nostro team ti assisterà per la messa in opera."
       }
     },
     "cta": {
@@ -864,7 +864,7 @@
       "badge": "ESTENSIONE SERVIZIO DI CONSEGNA",
       "title": "Tariffe Servizio di Consegna",
       "subtitle": "Aggiungi il modulo di gestione delle consegne al tuo sistema POS. Gestisci i tuoi corrieri e ottimizza i tuoi percorsi.",
-      "trial": "Primo mese gratuito"
+      "trial": "Primo mese offerto"
     },
     "perMonth": "al mese",
     "recommended": "Consigliato",
@@ -880,8 +880,8 @@
         "features": [
           "Fino a 200 consegne/mese",
           "Massimo 2 corrieri",
-          "Monitoraggio GPS in tempo reale",
-          "Notifiche SMS ai clienti",
+          "Tracciamento GPS in tempo reale",
+          "Notifiche SMS per i clienti",
           "Calcolo automatico delle distanze",
           "Supporto via email"
         ]
@@ -892,12 +892,12 @@
         "features": [
           "Fino a 1000 consegne/mese",
           "Massimo 10 corrieri",
-          "Ottimizzazione dei percorsi con IA",
-          "Applicazione dedicata per i corrieri",
+          "Ottimizzazione dei percorsi IA",
+          "Applicazione per corrieri dedicata",
           "Sistema di valutazione clienti",
           "Report sulle performance",
-          "Pagamento ai corrieri integrato",
-          "Supporto telefonico + chat"
+          "Pagamento corrieri integrato",
+          "Supporto telefonico e chat"
         ]
       },
       "enterprise": {
@@ -909,9 +909,9 @@
           "Dispatching intelligente",
           "Zone di consegna multiple",
           "Integrazione con Uber Eats/Deliveroo",
-          "Previsioni della domanda con IA",
+          "Previsioni di domanda IA",
           "API completa",
-          "Dashboard per il manager",
+          "Dashboard per manager",
           "Formazione per il team",
           "Supporto dedicato 24/7"
         ]
@@ -928,36 +928,36 @@
       },
       "satisfaction": {
         "title": "Clienti soddisfatti",
-        "description": "Monitoraggio in tempo reale e notifiche automatiche"
+        "description": "Tracciamento in tempo reale e notifiche automatiche"
       },
       "revenue": {
-        "title": "Entrate ottimizzate",
-        "description": "Riduci i costi di consegna del 30% in media"
+        "title": "Ricavi ottimizzati",
+        "description": "Riduci i tuoi costi di consegna in media del 30%"
       },
       "reliability": {
         "title": "Massima affidabilità",
-        "description": "Meno errori, maggiore controllo sulle tue consegne"
+        "description": "Meno errori, più controllo sulle tue consegne"
       }
     },
     "comparison": {
       "title": "Tabella comparativa dei piani",
       "feature": "Funzionalità",
       "orders": "Consegne incluse",
-      "tracking": "Monitoraggio GPS",
+      "tracking": "Tracciamento GPS",
       "couriers": "Numero di corrieri",
       "support": "Supporto clienti"
     },
     "cta": {
       "title": "Pronto a ottimizzare le tue consegne?",
-      "subtitle": "Primo mese gratuito per testare il servizio senza impegno",
+      "subtitle": "Primo mese offerto per testare il servizio senza impegno",
       "button": "Inizia ora"
     }
   },
   "waiterTerminalPricing": {
     "hero": {
       "badge": "ESTENSIONE TERMINAL CAMERIERE",
-      "title": "Tariffe Terminal Camere",
-      "subtitle": "Fornisci ai tuoi camerieri tablet per un'ordinazione mobile ultra-rapida. Aumenta l'efficienza del tuo servizio.",
+      "title": "Tariffe Terminal Cameriere",
+      "subtitle": "Fornisci ai tuoi camerieri tablet per una presa d'ordine mobile ultra-rapida. Aumenta l'efficienza del tuo servizio.",
       "trial": "Prova gratuita di 30 giorni"
     },
     "perMonth": "al mese",
@@ -967,7 +967,7 @@
     "addToCart": "Aggiungi al carrello",
     "plansSection": {
       "title": "Piani software mensili",
-      "subtitle": "Estensione Terminal Camere per il tuo sistema POS AyaPos"
+      "subtitle": "Estensione Terminal Cameriere per il tuo sistema POS AyaPos"
     },
     "plans": {
       "starter": {
@@ -975,10 +975,10 @@
         "description": "Perfetto per piccoli ristoranti",
         "features": [
           "Applicazione per camerieri mobile",
-          "Ordinazioni a tavolo",
+          "Presa d'ordine a tavolo",
           "Sincronizzazione in tempo reale",
           "Invio diretto in cucina",
-          "Gestione tavoli base",
+          "Gestione tavoli di base",
           "Pagamento a tavolo",
           "Supporto via email"
         ]
@@ -987,13 +987,13 @@
         "name": "Piano Professional",
         "description": "Per ristoranti medi/grandi",
         "features": [
-          "Tutte le funzionalità di Starter",
-          "Piano sala interattivo",
+          "Tutte le funzionalità Starter",
+          "Piano di sala interattivo",
           "Gestione delle prenotazioni",
           "Monitoraggio dei tempi di attesa",
           "Note speciali per la cucina",
           "Trasferimento di tavoli",
-          "Gestione delle ricevute condivise",
+          "Gestione dei conti condivisi",
           "Report sulle performance",
           "Supporto prioritario chat"
         ]
@@ -1002,15 +1002,15 @@
         "name": "Piano Enterprise",
         "description": "Per catene e grandi gruppi",
         "features": [
-          "Tutte le funzionalità di Pro",
+          "Tutte le funzionalità Pro",
           "Multi-ristoranti/filiali",
-          "Gestione team camerieri",
-          "Sistema di cauzione camerieri",
-          "Analytics avanzate per camerieri",
-          "Suggerimenti sulle vendite con IA",
-          "Integrazione calendario",
+          "Gestione dei team di camerieri",
+          "Sistema di cauzione per i camerieri",
+          "Analisi avanzate per camerieri",
+          "Suggerimenti per le vendite IA",
+          "Integrazione con il calendario",
           "Modalità offline avanzata",
-          "Formazione completa per il team",
+          "Formazione completa del team",
           "API personalizzata",
           "Supporto dedicato 24/7"
         ]
@@ -1023,9 +1023,9 @@
     "hardware": {
       "tablet": {
         "name": "Tablet Professionale 10\"",
-        "description": "Tablet Android robusto per uso intensivo",
+        "description": "Tablet Android rinforzato per uso intensivo",
         "features": [
-          "Schermo 10\" anti-riflesso e resistente",
+          "Schermo da 10\" antiriflesso e resistente",
           "Batteria a lunga durata (12h)",
           "Custodia antiurto inclusa",
           "Supporto ergonomico per cintura"
@@ -1033,22 +1033,22 @@
       },
       "printer": {
         "name": "Stampante Portatile",
-        "description": "Stampante mobile per ricevute a tavolo",
+        "description": "Stampante mobile per conto a tavolo",
         "features": [
-          "Stampa scontrini senza fili",
+          "Stampa ricevute senza fili",
           "Batteria ricaricabile",
           "Compatibile con iOS e Android"
         ]
       }
     },
     "benefitsSection": {
-      "title": "Perché equipaggiare i tuoi camerieri?",
-      "subtitle": "Vantaggi concreti per il tuo servizio"
+      "title": "Perché dotare i tuoi camerieri?",
+      "subtitle": "Guadagni concreti per il tuo servizio"
     },
     "benefits": {
       "efficiency": {
-        "title": "Servizio più veloce",
-        "description": "Riduci del 40% il tempo tra l'ordinazione e l'invio in cucina"
+        "title": "Servizio più rapido",
+        "description": "Riduci del 40% il tempo tra l'ordine e l'invio in cucina"
       },
       "speed": {
         "title": "Rotazione accelerata",
@@ -1059,7 +1059,7 @@
         "description": "Elimina gli errori di trascrizione e le dimenticanze"
       },
       "management": {
-        "title": "Gestione facilitata",
+        "title": "Gestione semplificata",
         "description": "Segui le performance di ogni cameriere in tempo reale"
       }
     },
@@ -1069,23 +1069,23 @@
       "tablets": "Tablet inclusi",
       "tables": "Numero di tavoli",
       "kitchen": "Schermo cucina",
-      "analytics": "Analytics",
-      "support": "Supporto clienti",
+      "analytics": "Analisi",
+      "support": "Supporto cliente",
       "basic": "Base",
       "advanced": "Avanzata",
       "complete": "Completa"
     },
     "cta": {
       "title": "Pronto a modernizzare il tuo servizio?",
-      "subtitle": "Prova gratuita di 30 giorni, senza impegno",
+      "subtitle": "Prova gratuitamente per 30 giorni, senza impegno",
       "button": "Inizia la prova gratuita"
     }
   },
   "hardwareDevices": {
     "hero": {
-      "badge": "CATALOGO HARDWARE",
-      "title": "Hardware e Dispositivi POS",
-      "subtitle": "Tutti gli equipaggiamenti e accessori di cui hai bisogno per la tua attività. Hardware professionale di alta qualità."
+      "badge": "CATEGORIA MATERIALE",
+      "title": "Materiale e Dispositivi POS",
+      "subtitle": "Tutti gli attrezzature e accessori di cui hai bisogno per la tua azienda. Materiale professionale di alta qualità."
     },
     "categories": {
       "all": "Tutti",
@@ -1099,38 +1099,38 @@
       "sunmiD3Mini": "Schermo touch da 10.1 pollici, compatto e potente",
       "iMinSwan": "Terminale POS Android premium con schermo touch capacitivo",
       "iMinD3": "Soluzione POS completa con stampante integrata",
-      "iMinD2": "Terminale compatto ideale per spazi piccoli",
+      "iMinD2": "Terminale compatto ideale per spazi ridotti",
       "iMinD1": "Terminale POS economico con tutte le funzionalità",
       "wintecAnypos": "Chiosco self-service verticale da 15.6 pollici",
-      "wintecSelfpos10": "Chiosco verticale per ordinazioni rapide",
-      "wintecSelfpos70": "Grande chiosco da 32 pollici per massima visibilità",
+      "wintecSelfpos10": "Kiosk verticale per ordinazioni veloci",
+      "wintecSelfpos70": "Grande kiosk da 32 pollici per massimo impatto visivo",
       "paxSk800": "Chiosco professionale da 23.8 pollici",
       "thermalPrinter": "Stampante Termica POS",
       "thermalPrinterDesc": "Stampa rapida e silenziosa, compatibile con tutti i sistemi",
       "labelPrinter": "Stampante Etichette Codice a Barre",
-      "labelPrinterDesc": "Compatta e facile da utilizzare per etichette prodotti",
+      "labelPrinterDesc": "Compatta e facile da usare per etichette prodotti",
       "scaleLabel": "Bilancia con Stampante Etichette",
       "scaleLabelDesc": "Misurazione precisa e affidabile con stampa codice a barre",
-      "barcodeWired": "Lettore Codice a Barre Wired",
+      "barcodeWired": "Lettore Codice a Barre Filo",
       "barcodeWiredDesc": "Lettore professionale da tavolo per registratore di cassa",
-      "barcodeWireless": "Lettore Codice a Barre Wireless",
-      "barcodeWirelessDesc": "Autonomia batteria 30 ore, portata 100m",
-      "cashDrawer": "Cassetto Contante Metallico",
+      "barcodeWireless": "Lettore Codice a Barre Senza Fili",
+      "barcodeWirelessDesc": "Autonomia batteria di 30 ore, portata di 100m",
+      "cashDrawer": "Cassetto-Cassa Metallico",
       "cashDrawerDesc": "Costruzione robusta e durevole in metallo rinforzato",
       "cardReader": "Lettore di Carte RFID",
-      "cardReaderDesc": "Plug & Play, compatibile con carte senza contatto",
+      "cardReaderDesc": "Plug & Play, compatibile con carte contactless",
       "pavoN86": "Terminale di pagamento mobile HD con NFC",
       "waiterHandheld": "Terminale Cameriere Portatile",
-      "waiterHandheldDesc": "Schermo HD IPS da 5 pollici, ideale per ordinazioni mobili",
+      "waiterHandheldDesc": "Schermo HD IPS da 5 pollici, ideale per presa d'ordine mobile",
       "paxA920Pro": "Terminale mobile professionale da 5.5 pollici"
     },
     "requestQuote": "Richiedi un preventivo",
     "features": {
-      "title": "Perché scegliere il nostro hardware?",
+      "title": "Perché scegliere il nostro materiale?",
       "subtitle": "Attrezzature professionali con servizio completo",
       "quality": {
         "title": "Qualità Premium",
-        "description": "Hardware professionale di marchi riconosciuti a livello mondiale"
+        "description": "Materiale professionale di marchi riconosciuti a livello mondiale"
       },
       "warranty": {
         "title": "Garanzia Estesa",
@@ -1138,7 +1138,7 @@
       },
       "support": {
         "title": "Supporto Tecnico",
-        "description": "Assistenza telefonica e on-site se necessario"
+        "description": "Assistenza telefonica e in loco in caso di necessità"
       },
       "delivery": {
         "title": "Consegna & Installazione",
@@ -1146,36 +1146,36 @@
       }
     },
     "cta": {
-      "title": "Hai bisogno di consigli per il tuo equipaggiamento?",
-      "subtitle": "I nostri esperti ti aiutano a scegliere l'hardware adatto alle tue esigenze",
+      "title": "Hai bisogno di consigli per la tua attrezzatura?",
+      "subtitle": "I nostri esperti ti aiutano a scegliere il materiale adatto alle tue esigenze",
       "button": "Contatta i nostri esperti"
     }
   },
   "about": {
     "hero": {
-      "title": "Chi Siamo",
-      "subtitle": "Siamo un'azienda innovativa dedicata alla trasformazione digitale della ristorazione. La nostra missione: semplificare la gestione del tuo locale con soluzioni POS moderne e intuitive."
+      "title": "A Proposito di AyaPos",
+      "subtitle": "Siamo un'azienda innovativa dedicata alla trasformazione digitale della ristorazione. La nostra missione: semplificare la gestione del tuo stabilimento con soluzioni POS moderne e intuitive."
     },
     "stats": {
       "clients": "Clienti Soddisfatti",
       "years": "Anni di Esperienza",
-      "team": "Esperti al Tuo Servizio",
+      "team": "Esperti al tuo Servizio",
       "satisfaction": "Tasso di Soddisfazione"
     },
     "story": {
       "title": "La Nostra Storia",
-      "paragraph1": "Fondata nel 2010, AyaPos è nata dal desiderio di modernizzare il settore della ristorazione. Abbiamo iniziato con una visione semplice: creare strumenti tecnologici accessibili a tutti i ristoratori, indipendentemente dalla grandezza del loro locale.",
-      "paragraph2": "Nel corso degli anni, abbiamo sviluppato un'ampia suite di soluzioni POS che combinano innovazione, facilità d'uso e affidabilità. I nostri sistemi oggi equipaggiano più di 5000 ristoranti, caffè, bar e locali in tutta la Francia e in Europa.",
-      "paragraph3": "Il nostro team appassionato lavora ogni giorno per migliorare i nostri prodotti e accompagnare i nostri clienti nel loro successo. Crediamo che la tecnologia debba servire l'uomo, e non il contrario."
+      "paragraph1": "Fondata nel 2010, AyaPos è nata dalla volontà di modernizzare il settore della ristorazione. Abbiamo iniziato con una visione semplice: creare strumenti tecnologici accessibili a tutti i ristoratori, indipendentemente dalla grandezza del loro stabilimento.",
+      "paragraph2": "Negli anni abbiamo sviluppato una suite completa di soluzioni POS che combinano innovazione, facilità d'uso e affidabilità. I nostri sistemi equipaggiano oggi più di 5000 ristoranti, caffè, bar e stabilimenti in tutta la Francia e in Europa.",
+      "paragraph3": "Il nostro team appassionato lavora ogni giorno per migliorare i nostri prodotti e accompagnare i nostri clienti nel loro successo. Crediamo che la tecnologia debba essere al servizio dell'uomo, e non il contrario."
     },
     "valuesSection": {
       "title": "I Nostri Valori",
-      "subtitle": "Ciò che guida le nostre azioni quotidiane"
+      "subtitle": "Ciò che guida la nostra azione quotidiana"
     },
     "values": {
       "innovation": {
         "title": "Innovazione",
-        "description": "Investiamo continuamente in R&D per offrirti le tecnologie più avanzate"
+        "description": "Investiamo continuamente nella R&S per offrirti le tecnologie più avanzate"
       },
       "customer": {
         "title": "Ascolto del Cliente",
@@ -1183,7 +1183,7 @@
       },
       "quality": {
         "title": "Qualità",
-        "description": "Hardware premium, software robusti e supporto tecnico d'eccellenza"
+        "description": "Materiale premium, software robusti e supporto tecnico di eccellenza"
       },
       "efficiency": {
         "title": "Efficienza",
@@ -1191,28 +1191,28 @@
       }
     },
     "timeline": {
-      "title": "Il nostro Percorso",
-      "subtitle": "Le tappe fondamentali del nostro sviluppo",
+      "title": "Il Nostro Percorso",
+      "subtitle": "Le grandi tappe del nostro sviluppo",
       "2010": {
-        "title": "Fondazione di AyaPos",
+        "title": "Creazione di AyaPos",
         "description": "Lancio del nostro primo sistema POS per ristoranti con 50 clienti nel primo anno"
       },
       "2015": {
         "title": "Espansione Nazionale",
-        "description": "Apertura di 5 uffici regionali e lancio dell'app mobile per i camerieri"
+        "description": "Apertura di 5 uffici regionali e lancio dell'applicazione mobile per camerieri"
       },
       "2020": {
-        "title": "Innovazione nel Cloud",
+        "title": "Innovazione Cloud",
         "description": "Migrazione completa verso il cloud e lancio dei chioschi self-service di nuova generazione"
       },
       "2024": {
         "title": "Intelligenza Artificiale",
-        "description": "Integrazione dell'IA per previsioni di vendita e gestione ottimizzata dell'inventario"
+        "description": "Integrazione dell'IA per le previsioni di vendita e la gestione ottimizzata degli stock"
       }
     },
     "mission": {
       "title": "La Nostra Missione",
-      "description": "Accompagnare i ristoratori nella loro trasformazione digitale fornendo strumenti semplici, potenti e accessibili. Vogliamo che ogni locale, dal piccolo caffè al grande ristorante, possa beneficiare delle stesse tecnologie delle grandi catene.",
+      "description": "Accompagnare i ristoratori nella loro trasformazione digitale fornendo loro strumenti semplici, potenti e accessibili. Vogliamo che ogni stabilimento, dal piccolo caffè al grande ristorante, possa beneficiare delle stesse tecnologie delle grandi catene.",
       "badge1": "Innovazione Continua",
       "badge2": "Supporto Dedicato",
       "badge3": "Comunità Attiva"
@@ -1234,23 +1234,23 @@
     "articles": {
       "article1": {
         "title": "AyaPos lancia la sua nuova gamma di chioschi self-service",
-        "excerpt": "Scopri i nostri nuovi chioschi con schermo da 32 pollici e interfaccia ultra-intuitiva. Una rivoluzione per l'esperienza cliente nella ristorazione veloce."
+        "excerpt": "Scopri i nostri nuovi chioschi kiosk con schermo da 32 pollici e interfaccia ultra-intuitiva. Una rivoluzione per l'esperienza del cliente nella ristorazione veloce."
       },
       "article2": {
-        "title": "10 Consigli per ottimizzare il tuo servizio durante le ore di punta",
-        "excerpt": "Come gestire l'afflusso durante le ore di punta? I nostri esperti condividono le loro migliori pratiche per mantenere un servizio di qualità anche in caso di affollamento."
+        "title": "10 Consigli per ottimizzare il tuo servizio in periodi di punta",
+        "excerpt": "Come gestire l'afflusso durante le ore di punta? I nostri esperti condividono le loro migliori pratiche per mantenere un servizio di qualità anche quando è affollato."
       },
       "article3": {
         "title": "L'Intelligenza Artificiale al servizio della ristorazione",
-        "excerpt": "Come l'IA può aiutarti a prevedere le vendite, ottimizzare le scorte e personalizzare l'esperienza del cliente. Scopri le nuove funzionalità di AyaPos."
+        "excerpt": "Come l'IA può aiutarti a prevedere le vendite, ottimizzare gli stock e personalizzare l'esperienza dei clienti. Scopri le nuove funzionalità di AyaPos."
       },
       "article4": {
-        "title": "Storia di Successo: Il Bistrot Moderne triplica il suo fatturato",
+        "title": "Storia di Successo : Il Bistrot Moderne triplica il suo fatturato",
         "excerpt": "Incontro con Jean Dupont che ha trasformato il suo ristorante tradizionale in un locale moderno grazie alle soluzioni AyaPos. Testimonianza ispiratrice."
       },
       "article5": {
         "title": "Ridurre lo spreco alimentare grazie alla tecnologia",
-        "excerpt": "Il nostro sistema di gestione delle scorte intelligente ti aiuta a ridurre le perdite del 40%. Scopri come ottimizzare i tuoi acquisti e limitare gli sprechi."
+        "excerpt": "Il nostro sistema di gestione degli stock intelligente ti aiuta a ridurre le tue perdite del 40%. Scopri come ottimizzare i tuoi acquisti e limitare gli sprechi."
       },
       "article6": {
         "title": "QR Code e ordinazione online: le nuove aspettative dei clienti",
