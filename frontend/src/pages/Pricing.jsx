@@ -148,11 +148,17 @@ const Pricing = () => {
                         <span className={`text-6xl font-extrabold bg-gradient-to-r ${bgGradient} bg-clip-text text-transparent`}>
                           {price}
                         </span>
-                        <span className="text-2xl text-gray-600 ml-2">{pkg.currency}/mois</span>
+                        {pkg.priceType === 'one-time' ? (
+                          <span className="text-2xl text-gray-600 ml-2">{pkg.currency || 'CHF'}</span>
+                        ) : (
+                          <span className="text-2xl text-gray-600 ml-2">
+                            {pkg.currency || 'CHF'}/{pkg.billingPeriod === 'yearly' ? 'an' : 'mois'}
+                          </span>
+                        )}
                       </div>
-                      {billingPeriod === 'yearly' && savings > 0 && (
+                      {billingPeriod === 'yearly' && savings > 0 && pkg.priceType !== 'one-time' && (
                         <p className="text-sm text-green-600 font-medium">
-                          Économisez CHF {savings}/mois
+                          Économisez {pkg.currency || 'CHF'} {savings}/mois
                         </p>
                       )}
                     </div>
