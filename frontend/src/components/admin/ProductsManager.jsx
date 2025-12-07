@@ -36,8 +36,8 @@ const ProductsManager = () => {
 
   const loadProducts = async () => {
     try {
-      console.log('🔄 Chargement des produits depuis:', `${API_URL}/api/products`);
-      const response = await axios.get(`${API_URL}/api/products`);
+      console.log('🔄 Chargement des produits depuis:', `${API_URL}/api/products/`);
+      const response = await axios.get(`${API_URL}/api/products/`);
       console.log('✅ Réponse API:', response.data);
       
       if (response.data.success) {
