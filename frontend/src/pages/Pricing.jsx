@@ -214,6 +214,143 @@ const Pricing = () => {
         </div>
       </section>
 
+      {/* Produits POS Section */}
+      {posProducts.length > 0 && (
+        <section className="py-20 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                Systèmes POS Complets
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Solutions tout-en-un pour gérer votre restaurant
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {posProducts.map((product) => {
+                const priceDisplay = product.priceType === 'one-time' 
+                  ? `${product.currency || 'CHF'} ${product.price}`
+                  : `${product.currency || 'CHF'} ${product.price}/${product.billingPeriod === 'yearly' ? 'an' : 'mois'}`;
+
+                return (
+                  <Card key={product.id} className={`hover:shadow-2xl transition-all duration-300 ${product.featured ? 'border-2 border-blue-500 shadow-xl' : 'border-2 border-gray-200'}`}>
+                    <CardHeader className="text-center pb-4">
+                      {product.featured && (
+                        <div className="mb-3">
+                          <span className="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                            ⭐ RECOMMANDÉ
+                          </span>
+                        </div>
+                      )}
+                      {product.image && (
+                        <img 
+                          src={product.image} 
+                          alt={product.name}
+                          className="w-48 h-48 mx-auto object-contain mb-4"
+                        />
+                      )}
+                      <CardTitle className="text-2xl mb-2">{product.name}</CardTitle>
+                      <CardDescription className="text-base">{product.description || product.tagline}</CardDescription>
+                      <div className="mt-6">
+                        <div className="text-4xl font-bold text-blue-600">
+                          {priceDisplay}
+                        </div>
+                        {product.priceType === 'one-time' && (
+                          <div className="text-sm text-gray-500 mt-1">Achat unique</div>
+                        )}
+                      </div>
+                    </CardHeader>
+                    <CardContent>
+                      {product.features && product.features.length > 0 && (
+                        <ul className="space-y-3 mb-6">
+                          {product.features.map((feature, idx) => (
+                            <li key={idx} className="flex items-start text-sm">
+                              <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
+                              <span className="text-gray-700">{feature}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                      <Link to="/contact" className="block">
+                        <Button className="w-full bg-blue-600 hover:bg-blue-700 text-lg py-6">
+                          Demander un devis
+                        </Button>
+                      </Link>
+                    </CardContent>
+                  </Card>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Terminaux de Paiement Section */}
+      {terminals.length > 0 && (
+        <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                Nos Terminaux de Paiement
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Nos terminaux professionnels pour accepter tous les paiements
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {terminals.map((terminal) => {
+                const priceDisplay = terminal.priceType === 'one-time' 
+                  ? `${terminal.currency || 'CHF'} ${terminal.price}`
+                  : `${terminal.currency || 'CHF'} ${terminal.price}/${terminal.billingPeriod === 'yearly' ? 'an' : 'mois'}`;
+
+                return (
+                  <Card key={terminal.id} className="hover:shadow-2xl transition-all duration-300 border-2 hover:border-blue-300">
+                    <CardHeader className="text-center pb-4">
+                      {terminal.image && (
+                        <img 
+                          src={terminal.image} 
+                          alt={terminal.name}
+                          className="w-32 h-32 mx-auto object-contain mb-4"
+                        />
+                      )}
+                      <CardTitle className="text-xl mb-2">{terminal.name}</CardTitle>
+                      <CardDescription>{terminal.description || terminal.tagline}</CardDescription>
+                      <div className="mt-4">
+                        <div className="text-3xl font-bold text-blue-600">
+                          {priceDisplay}
+                        </div>
+                        {terminal.priceType === 'one-time' && (
+                          <div className="text-sm text-gray-500 mt-1">Achat unique</div>
+                        )}
+                      </div>
+                    </CardHeader>
+                    <CardContent>
+                      {terminal.features && terminal.features.length > 0 && (
+                        <ul className="space-y-2">
+                          {terminal.features.slice(0, 5).map((feature, idx) => (
+                            <li key={idx} className="flex items-start text-sm">
+                              <Check className="h-4 w-4 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
+                              <span className="text-gray-700">{feature}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                      <Link to="/contact" className="block mt-6">
+                        <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                          Commander
+                        </Button>
+                      </Link>
+                    </CardContent>
+                  </Card>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* AyaPay Payment Terminals Pricing */}
       <section className="py-20 bg-gradient-to-br from-blue-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
