@@ -573,9 +573,9 @@ const Home = () => {
 
           <div className="text-center mt-16">
             <Link to="/pricing">
-              <Button size="lg" variant="outline" className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-8 py-6 text-lg font-semibold transition-all">
+              <Button size="lg" variant="outline" className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-6 md:px-8 py-4 md:py-6 text-base md:text-lg font-semibold transition-all w-full md:w-auto">
                 Découvrir toutes les solutions
-                <ArrowRight className="ml-2 h-6 w-6" />
+                <ArrowRight className="ml-2 h-5 w-5 md:h-6 md:w-6" />
               </Button>
             </Link>
           </div>
