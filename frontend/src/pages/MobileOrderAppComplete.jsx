@@ -291,7 +291,7 @@ const MobileOrderAppComplete = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1556741568-055d848f8bfd?w=800&q=80"
+                src={content?.hero_image || "https://images.unsplash.com/photo-1556741568-055d848f8bfd?w=800&q=80"}
                 alt="Application Mobile"
                 className="rounded-2xl shadow-2xl"
               />
