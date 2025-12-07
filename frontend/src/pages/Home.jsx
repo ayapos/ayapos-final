@@ -476,12 +476,12 @@ const Home = () => {
 
           <div className="text-center mt-16">
             <Link to="/contact">
-              <Button size="lg" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-6 text-lg shadow-xl hover:shadow-2xl transition-all">
-                Démarrer maintenant - C'est gratuit
-                <ArrowRight className="ml-2 h-6 w-6" />
+              <Button size="lg" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 md:px-8 py-4 md:py-6 text-base md:text-lg shadow-xl hover:shadow-2xl transition-all w-full md:w-auto">
+                Démarrer maintenant
+                <ArrowRight className="ml-2 h-5 w-5 md:h-6 md:w-6" />
               </Button>
             </Link>
-            <p className="text-sm text-gray-500 mt-4">Installation en 48h • Sans engagement • Support inclus</p>
+            <p className="text-xs md:text-sm text-gray-500 mt-4 px-4">Installation en 48h • Sans engagement • Support inclus</p>
           </div>
         </div>
       </section>
