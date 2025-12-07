@@ -171,7 +171,7 @@ const RobotWaiterComplete = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <img 
-                src="https://images.unsplash.com/photo-1563207153-f403bf289096?w=800&h=600&fit=crop"
+                src={content?.section_images?.navigation_autonome || "https://images.unsplash.com/photo-1563207153-f403bf289096?w=800&h=600&fit=crop"}
                 alt="Autonomous Navigation"
                 className="rounded-2xl shadow-2xl"
               />
@@ -228,7 +228,7 @@ const RobotWaiterComplete = () => {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+                src={content?.section_images?.profitabilite || "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"}
                 alt="Profitability"
                 className="rounded-2xl shadow-2xl"
               />
@@ -252,7 +252,7 @@ const RobotWaiterComplete = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=600&fit=crop"
+                src={content?.section_images?.efficacite || "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=600&fit=crop"}
                 alt="Automatic Delivery"
                 className="rounded-2xl shadow-2xl"
               />
