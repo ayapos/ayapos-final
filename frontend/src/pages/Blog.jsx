@@ -111,15 +111,16 @@ const Blog = () => {
   // Use articles from DB if available, otherwise use fallback
   const displayArticles = blogPosts.length > 0 
     ? blogPosts.map(post => ({
-        id: post.id,
-        category: post.category,
+        id: post._id || post.id,
+        category: post.category?.toLowerCase() || 'technology',
         title: post.title,
         excerpt: post.excerpt,
-        image: post.image,
-        date: new Date(post.publishedAt || post.createdAt).toLocaleDateString('fr-FR'),
+        image: post.imageUrl || post.image,
+        date: post.date ? new Date(post.date).toLocaleDateString('fr-FR') : new Date().toLocaleDateString('fr-FR'),
         author: post.author,
-        readTime: '5 min',
-        slug: post.slug
+        readTime: post.readTime || '5 min',
+        slug: post.slug,
+        featured: post.featured
       }))
     : articles;
 
