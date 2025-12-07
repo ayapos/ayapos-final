@@ -75,19 +75,13 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          {/* Logo - Option 3: Avec badge sur O */}
-          <Link to="/" className="flex items-center relative">
-            <span className="text-5xl font-black text-[#1e3a8a] tracking-tight" style={{ fontFamily: 'Arial Black, sans-serif' }}>
-              AYAP
+          {/* Logo - Option 4: Deux tons avec gradient */}
+          <Link to="/" className="flex items-center">
+            <span className="text-5xl font-black bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 bg-clip-text text-transparent tracking-tight" style={{ fontFamily: 'Arial Black, sans-serif' }}>
+              AYA
             </span>
-            <span className="relative inline-block">
-              <span className="text-5xl font-black text-[#1e3a8a] tracking-tight" style={{ fontFamily: 'Arial Black, sans-serif' }}>
-                O
-              </span>
-              <span className="absolute -top-1 -right-1 w-3 h-3 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full border-2 border-white shadow-lg"></span>
-            </span>
-            <span className="text-5xl font-black text-[#1e3a8a] tracking-tight" style={{ fontFamily: 'Arial Black, sans-serif' }}>
-              S
+            <span className="text-5xl font-black text-blue-900 tracking-tight" style={{ fontFamily: 'Arial Black, sans-serif' }}>
+              POS
             </span>
           </Link>
 
