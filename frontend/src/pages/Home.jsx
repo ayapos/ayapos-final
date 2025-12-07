@@ -20,6 +20,10 @@ const Home = () => {
   const { products, loading: productsLoading } = useProducts();
   const { testimonials: testimonialsFromDB, loading: testimonialsLoading } = useTestimonials();
 
+  // Filtrer les packages POS depuis les produits
+  const posPackagesFromDB = products.filter(p => p.category === 'package').slice(0, 4);
+  const displayPackages = posPackagesFromDB.length > 0 ? posPackagesFromDB : posPackages;
+
   // Use slides from database if available, otherwise fallback to default
   const heroSlides = heroSlidesFromDB && heroSlidesFromDB.length > 0 
     ? heroSlidesFromDB.map(slide => ({ image: slide.image, alt: slide.title }))
