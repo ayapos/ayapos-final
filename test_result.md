@@ -631,3 +631,33 @@ Le site public affichait du contenu codé en dur dans les fichiers `.jsx`, tandi
 2. Tester le flux complet: modifier dans l'admin → voir les changements sur le site public
 3. Vérifier que toutes les images et tous les textes sont éditables
 
+  - task: "Delivery Management API Content Structure"
+    implemented: true
+    working: true
+    file: "/app/backend/routes/content.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "API endpoint /api/content/delivery-management should return dynamic content with hero_image and 3 benefits with images for the Gestion Livraison page"
+        - working: true
+          agent: "testing"
+          comment: "✅ Delivery Management API working perfectly. GET /api/content/delivery-management returns success: true, hero_image: valid Unsplash URL (https://images.unsplash.com/photo-1526367790999-0150786686a2), benefits: 3 items with valid titles, images, and descriptions. All images from valid sources (Unsplash). Content is dynamic (has slug and updatedAt fields). Total editable images: 4 (1 hero + 3 benefits). All requirements met for dynamic image editing."
+
+  - task: "Robot Waiter API Content Structure"
+    implemented: true
+    working: true
+    file: "/app/backend/routes/content.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "API endpoint /api/content/robot-waiter should return dynamic content with hero_image, section_images (navigation_autonome, profitabilite, efficacite), and robot_showcase with 3 robots having images"
+        - working: true
+          agent: "testing"
+          comment: "✅ Robot Waiter API working perfectly. GET /api/content/robot-waiter returns success: true, hero_image: valid uploaded image (/uploads/0ae65bad-f642-4f8e-96ad-989c971069ca.webp), section_images: 3 sections (navigation_autonome, profitabilite, efficacite) with valid Unsplash URLs, robot_showcase: 3 robots with valid images and descriptions. Content is dynamic (has slug and updatedAt fields). Total editable images: 7 (1 hero + 3 sections + 3 robots). All requirements met for dynamic image editing and display."
+
