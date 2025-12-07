@@ -1,34 +1,34 @@
 {
   "nav": {
-    "home": "Ana Sayfa",
+    "home": "Anasayfa",
     "pos": "POS Sistemleri",
     "digital": "Dijital Çözümler",
     "ayapay": "AyaPay",
     "pricing": "Fiyatlar",
     "about": "Hakkında",
     "contact": "İletişim",
-    "demo": "Demoyu Talep Et"
+    "demo": "Demo Talep Et"
   },
   "hero": {
     "title": "Yeni Nesil POS ve Ödeme Çözümleri",
     "subtitle": "Restoranlar, kafeler, oteller, pazarlar ve işletme zincirleri - Entegre ödeme terminalleri ile yenilikçi POS sistemleri",
     "cta": "Çözümlerimizi Keşfedin",
-    "cta_secondary": "Fiyatları Gör"
+    "cta_secondary": "Fiyatları Görüntüle"
   },
   "features": {
-    "title": "Başarı için ihtiyacınız olan her şey",
+    "title": "Başarı için ihtiyaç duyduğunuz her şey",
     "pos_title": "Tam POS Sistemi",
     "pos_desc": "Satışlarınızı, stoklarınızı ve raporlarınızı her yerden gerçek zamanlı olarak yönetin",
     "payment_title": "Ödeme Terminalleri",
     "payment_desc": "Her türlü işlem için güvenli ve hızlı ödeme çözümleri",
     "digital_title": "Dijital Menüler",
-    "digital_desc": "Modern bir müşteri deneyimi için QR kodları, tabletler ve kiosklar",
-    "reports_title": "Raporlar & Analizler",
-    "reports_desc": "Kullanımı kolay panolar ile performansınızı takip edin"
+    "digital_desc": "QR kodları, tabletler ve kiosklar ile modern bir müşteri deneyimi",
+    "reports_title": "Raporlar & Analitik",
+    "reports_desc": "Performansınızı sezgisel panolar ile takip edin"
   },
   "pos": {
     "title": "Profesyonel POS Sistemleri",
-    "subtitle": "İşletmenize uygun POS çözümünü seçin",
+    "subtitle": "İşletmeniz için uygun POS çözümünü seçin",
     "premium": {
       "name": "Premium POS",
       "tagline": "Tam kontrol, maksimum güç",
@@ -39,7 +39,7 @@
     "tablet": {
       "name": "Tablet POS",
       "tagline": "Kompakt ve ekonomik",
-      "desc": "Küçük restoranlar, kahve zincirleri ve pastane dükkanları için",
+      "desc": "Küçük restoranlar, kafe zincirleri ve pastane dükkanları için",
       "price": "699€",
       "period": "aylık"
     },
@@ -52,15 +52,15 @@
     },
     "mobile": {
       "name": "Mobil POS",
-      "tagline": "Mobil ve taşınabilir",
-      "desc": "Saha satışları, seyyar satıcılar ve etkinlikler için",
+      "tagline": "Taşınabilir ve mobil",
+      "desc": "Saha satışları, sokak satıcıları ve etkinlikler için",
       "price": "349€",
       "period": "aylık"
     }
   },
   "ayapay": {
     "title": "AyaPay - Ödeme Terminalleri",
-    "subtitle": "Her ihtiyaca uygun profesyonel ödeme çözümleri",
+    "subtitle": "Tüm ihtiyaçlar için profesyonel ödeme çözümleri",
     "hero_text": "Yeni nesil terminallerimizle tüm ödeme yöntemlerini kabul edin",
     "terminals_title": "Ödeme Terminallerimiz",
     "smartpos_a77": {
@@ -71,17 +71,17 @@
     "smartpos_a920": {
       "name": "SmartPOS A920",
       "tagline": "Akıllı ve hızlı",
-      "desc": "Entegre yazıcıya ve büyük ekrana sahip akıllı terminal"
+      "desc": "Bütünleşik yazıcıya sahip akıllı terminal ve büyük ekran"
     },
     "deskpos_q80": {
-      "name": "Desk POS Q80",
+      "name": "Masa POS Q80",
       "tagline": "Sabit ve pratik",
-      "desc": "Maksimum destek ve stabiliteye sahip tezgah terminali"
+      "desc": "Destek ve maksimum stabiliteye sahip tezgah terminali"
     },
     "softpos": {
       "name": "Tap to Pay iPhone",
       "tagline": "Terminal olmadan ödeme",
-      "desc": "iPhone'unuzu ödeme terminaline dönüştürün"
+      "desc": "iPhone'unuzu ödeme terminaline çevirin"
     },
     "features_title": "Ana Özellikler",
     "feature_1": "Tüm kartların kabulü",
@@ -97,20 +97,20 @@
     "monthly": "Aylık",
     "yearly": "Yıllık",
     "save": "Yüzde 20 tasarruf edin",
-    "cta": "Başla",
-    "features": "Dahil olan özellikler"
+    "cta": "Başlamak",
+    "features": "Dahil özellikler"
   },
   "contact": {
     "title": "Bize Ulaşın",
-    "subtitle": "Formu doldurun ve sizinle hızlıca iletişime geçeceğiz",
+    "subtitle": "Formu doldurun ve sizinle hızlı bir şekilde iletişime geçeceğiz",
     "name": "Şirket Adı",
     "type": "Şirket Türü",
     "phone": "Telefon",
     "email": "E-posta",
     "city": "Şehir",
     "message": "Mesaj",
-    "submit": "Ücretsiz bir teklif alın",
-    "success": "Teşekkürler! Yakında sizinle iletişime geçeceğiz.",
+    "submit": "Ücretsiz teklif alın",
+    "success": "Teşekkürler! Size yakında ulaşacağız.",
     "error": "Bir hata oluştu. Lütfen tekrar deneyin."
   },
   "footer": {
@@ -123,394 +123,394 @@
   "robotWaiter": {
     "hero": {
       "badge": "YENİ NESİL HİZMET ÇÖZÜMLERİ",
-      "title": "Robot Garson Sistemi",
-      "subtitle": "Yenilikçi ve öncü işletmeler için yeni nesil robot garson sistemi",
-      "cta": "Teklif talep et"
+      "title": "Robot Sunucu Sistemi",
+      "subtitle": "Yenilikçi ve öncü işletmeler için yeni nesil robot sunucu sistemi",
+      "cta": "Teklif İste"
     },
     "benefits": {
-      "mainTitle": "Müşteri Memnuniyeti İçin Robot Garsonlar",
-      "mainSubtitle": "Robot garsonlar, işletmenizin iş yükünü hafifletir ve personelin daha etkili hizmet sunmasını sağlar",
+      "mainTitle": "Müşteri memnuniyeti için robot sunucular",
+      "mainSubtitle": "Robot sunucular iş yükünü azaltır ve personelin daha etkili hizmet vermesini sağlar",
       "experience": {
-        "title": "Eşsiz Deneyim",
-        "description": "Müşterilerinize alışık olmadıkları yeni bir taze konsept sunun. Geleceği ve benzersiz bir deneyimi yaratan etkileşimli özelliklerle müşterilerinizi etkileyin."
+        "title": "Eşsiz deneyim",
+        "description": "Müşterilerinize alışkın olmadıkları yenilikçi bir konsept sunun. Eşsiz ve geleceğe yönelik bir deneyim yaratan etkileşimli özelliklerle müşterilerinizi etkileyin."
       },
       "contactless": {
-        "title": "Temassız Sipariş Teslimatı",
-        "description": "AyaPos robot garson dağıtım sistemi sayesinde hijyen kurallarına daha fazla önem veriyoruz. Siparişlerinizi masaya robot garsonların getirmesine izin verin."
+        "title": "Temassız sipariş teslimatı",
+        "description": "AyaPos robot sunucu tepsi dağıtım sistemi sayesinde hijyen kurallarına daha fazla dikkat ediyoruz. Siparişlerinizi masaya robot sunucuların getirmesine izin verin."
       },
       "profitability": {
-        "title": "Kârlılığı Artırın",
-        "description": "Robot garson sistemleri ile işletmenizin kârlılığını artırın. Müşterilerinizin siparişlerini hızlı ve hatasız bir şekilde teslim ederek iş hacminizi de artırmış olursunuz."
+        "title": "Kârlılığı artırın",
+        "description": "Robot sunucu sistemleri sayesinde işletmenizin kârlılığını artırın. Müşterilerinizin siparişlerini hızlı ve hatasız bir şekilde teslim ederek işletmenizin iş hacmini de artırın."
       },
       "efficiency": {
-        "title": "Etkili Hizmet",
-        "description": "Robot garsonlar sayesinde işletmenizin çalışma saatlerini uzatın ve hizmet hatalarını azaltarak daha fazla müşteri hizmeti sunun."
+        "title": "Etkili hizmet",
+        "description": "Robot sunucular sayesinde işletmenizin çalışma saatlerini uzatın ve daha fazla müşteri hizmeti sunarak hizmet hatalarını azaltın."
       }
     },
     "navigation": {
       "badge": "OTONOM TEKNOLOJİ",
       "title": "Otonom Navigasyon Sistemi",
-      "description1": "Robot garson sistemleri, robot garsonlarınızın müşterilerin masalarına güvenli ve hatasız teslimatlar yapmasını sağlamak için otonom navigasyon sistemleri kullanır.",
-      "description2": "Robot garsonlar, işletmeniz içindeki engelleri algılayarak çarpışmaları önleyen sensörler ve lazer radar teknolojisiyle çalışır. Müşterilerinizin güvenliğini sağlayarak işletmenizde daha güvenli ve hatasız bir hizmet sunun.",
-      "cta": "Daha fazlasını öğrenin"
+      "description1": "Robot sunucu sistemleri, robot sunucularınızın hatasız ve güvenli teslimatlar yapmasını sağlamak için otonom navigasyon sistemleri kullanır.",
+      "description2": "Robot sunucular, iş yerinizdeki engelleri algılamak için sensörler ve lazer radar teknolojisi kullanarak çarpışmaları önler. Müşterilerinizin güvenliğini sağlayarak işletmenizde daha güvenli ve hatasız bir hizmet sunun.",
+      "cta": "Daha fazla bilgi al"
     },
     "profitability": {
-      "badge": "ARTIRILMIŞ KÂRLILIK",
-      "title": "Kârlılığı Artırın",
-      "description1": "Robot garson sistemleri ile işletmenizin kârlılığını artırın. Müşterilerinizin siparişlerini hızlı ve hatasız bir şekilde teslim ederek iş hacminizi artırın.",
-      "description2": "Robot garsonlar sayesinde işletmenizin çalışma saatlerini uzatın ve daha fazla müşteri hizmeti sunun.",
+      "badge": "ARTAN KÂRLILIK",
+      "title": "Kârlılığı artırın",
+      "description1": "Robot sunucu sistemleri sayesinde işletmenizin kârlılığını artırın. Müşterilerinizin siparişlerini hızlı ve hatasız bir şekilde teslim ederek işletmenizin iş hacmini artırın.",
+      "description2": "Robot sunucular sayesinde işletmenizin çalışma saatlerini uzatın ve daha fazla müşteri hizmeti sunun.",
       "stat1": "Personel maliyetlerinde azalma",
-      "stat2": "Hizmet her zaman mevcut"
+      "stat2": "Hizmet sürekli"
     },
     "delivery": {
       "title": "Otomatik Teslimat Sistemi",
-      "subtitle": "İşletmenizde müşteri memnuniyetini ve sadakatini artırın",
+      "subtitle": "İşletmenizin müşteri memnuniyetini ve sadakatini artırın",
       "speed": {
-        "title": "Hızlı ve Etkili Teslimat",
-        "description": "Otomatik tepsi teslimat sistemleriyle siparişlerinizi müşterilere hızlı ve etkili bir şekilde ulaştırarak müşteri memnuniyetini ve iş hacminizi artırın."
+        "title": "Hızlı ve etkili teslimat",
+        "description": "Otomatik tepsi teslimat sistemleri sayesinde siparişleri hızlı ve etkili bir şekilde müşterilere ulaştırarak müşteri memnuniyetini ve işletmenizin iş hacmini artırın."
       },
       "accuracy": {
-        "title": "Daha Az Hata",
-        "description": "Siparişleri doğru masalara teslim ederek teslimat hatalarını azaltın ve işletmenizin itibarını artırarak daha kaliteli bir hizmet sunun."
+        "title": "Daha az hata",
+        "description": "Siparişleri doğru masalara teslim ederek teslimat hatalarını azaltın ve daha kaliteli bir hizmet sunarak işletmenizin itibarını koruyun."
       }
     },
     "technicalFeatures": {
       "title": "Teknik Özellikler",
-      "subtitle": "Optimal hizmet için yüksek teknoloji"
+      "subtitle": "Optimal hizmet için ileri teknoloji"
     },
     "features": {
       "navigation": {
         "title": "Navigasyon Sistemi",
-        "description": "AyaPos robot garsonlar, işletme içindeki engelleri önlemek için lazerler ve sensörlerle donatılmıştır."
+        "description": "AyaPos robot sunucuları, işletmede engellerden kaçınmak için lazerler ve sensörlerle donatılmıştır."
       },
       "capacity": {
         "title": "Taşıma Kapasitesi",
-        "description": "AyaPos tepsi teslimat cihazlarının toplam taşıma kapasitesi 40 kg olup, her seviye için 10 kg'dır."
+        "description": "AyaPos tepsi teslimat cihazlarının toplam taşıma kapasitesi 40 kg'dır, bu da her seviyede 10 kg demektir."
       },
       "battery": {
-        "title": "Uzun Süreli Pil Ömrü",
-        "description": "AyaPos robot garsonlar günde 12-15 saat kesintisiz çalışabilir."
+        "title": "Sürdürülebilir Pil Ömrü",
+        "description": "AyaPos robot sunucuları günde 12 ila 15 saat kesintisiz çalışır."
       },
       "speedLimit": {
         "title": "Akıllı Hız Limiti",
-        "description": "Akıllı robot garsonlar, geliştirilmiş hız limiti işlevi sayesinde zemin eğimine göre hızlarını ayarlar."
+        "description": "Akıllı robot sunucular, zemin eğimini dikkate alarak hızlarını hız limiti fonksiyonu ile ayarlar."
       }
     },
     "gallery": {
-      "title": "Robot Garsonlarımızı Keşfedin",
+      "title": "Robot Sunucularımızı Keşfedin",
       "subtitle": "Robotlarımızın hizmetinizi nasıl dönüştürebileceğini görün",
-      "image1": "Robot garson aksiyon halinde",
+      "image1": "Eylemde robot sunucu",
       "image2": "Otomatik tepsi teslimatı",
       "image3": "Geliştirilmiş müşteri hizmeti"
     },
     "cta": {
-      "title": "Hizmetinizi devrim niteliğinde dönüştürmeye hazır mısınız?",
-      "subtitle": "Robot garsonlarımızın işletmenizi nasıl geliştirebileceğini öğrenmek için bizimle iletişime geçin",
-      "button": "Demontrasyon talep et"
+      "title": "Hizmetinizi devrim niteliğinde değiştirmeye hazır mısınız?",
+      "subtitle": "Robot sunucularımızın işletmenizi nasıl geliştirebileceğini keşfetmek için bizimle iletişime geçin",
+      "button": "Demo Talep Et"
     }
   },
   "deliveryManagement": {
     "hero": {
-      "badge": "APPLICATION COURSIER",
-      "title": "Système de Gestion des Commandes Coursier",
-      "subtitle": "Planifiez les commandes, consultez les détails, acceptez facilement les paiements",
-      "cta": "Demander un devis"
+      "badge": "KURYELER İÇİN UYGULAMA",
+      "title": "Sipariş Yönetim Sistemi",
+      "subtitle": "Siparişleri planlayın, detayları görüntüleyin, ödemeleri kolayca kabul edin",
+      "cta": "Teklif İste"
     },
     "orderManagement": {
-      "badge": "GESTION DES COMMANDES",
-      "title": "Livrez rapidement les commandes !",
-      "subtitle": "Gestion AyaPos Coursier - Application de Suivi des Commandes"
+      "badge": "SİPARİŞ YÖNETİMİ",
+      "title": "Siparişleri hızlı bir şekilde teslim edin!",
+      "subtitle": "AyaPos Kuryesi - Sipariş Takip Uygulaması"
     },
     "features": {
       "orderDetails": {
-        "title": "Détails de la Commande",
-        "description": "Vous pouvez consulter les détails des commandes qui vous sont attribuées. De cette façon, vous pouvez minimiser les risques d'erreur lors de la livraison. Personne ne veut recevoir un gâteau alors qu'il attend une pizza."
+        "title": "Sipariş Detayları",
+        "description": "Size atanan siparişlerin detaylarını görüntüleyebilirsiniz. Böylece teslimat sırasında hata riskini minimize edebilirsiniz. Hiç kimse pizza beklerken pasta almak istemez."
       },
       "mapView": {
-        "title": "Voir l'emplacement sur la carte",
-        "description": "Avec l'application Coursier, vous pouvez voir l'emplacement où vous devez livrer la commande sur la carte. Vous pouvez ainsi déterminer votre itinéraire pour aller à la bonne adresse par le chemin le plus court."
+        "title": "Haritada konumu görüntüle",
+        "description": "Kuryelik uygulaması ile siparişi teslim etmeniz gereken yeri haritada görebilirsiniz. Bu sayede en kısa yol ile doğru adrese ulaşmak için rotanızı belirleyebilirsiniz."
       },
       "callCustomer": {
-        "title": "Appeler le client",
-        "description": "En cas de situation défavorable ou si vous avez des questions sur la commande, vous pouvez appeler le client et communiquer avec lui."
+        "title": "Müşteriyi ara",
+        "description": "Olumsuz bir durumda veya siparişle ilgili sorularınız varsa, müşteriyi arayabilir ve onlarla iletişim kurabilirsiniz."
       }
     },
     "payment": {
-      "badge": "PAIEMENTS",
-      "title": "Accepter les paiements très facilement !",
-      "subtitle": "Suivi AyaPos Coursier - Système de Gestion Restaurant",
+      "badge": "ÖDEMELER",
+      "title": "Ödemeleri çok kolay bir şekilde kabul edin!",
+      "subtitle": "AyaPos Kuryesi - Restoran Yönetim Sistemi",
       "cash": {
-        "title": "Paiements en espèces",
-        "description": "Grâce à l'utilisation facile de l'application Coursier, vous pouvez accepter les paiements en espèces des commandes en un seul toucher."
+        "title": "Nakit ödemeler",
+        "description": "Kuryelik uygulaması sayesinde siparişlerin nakit ödemelerini tek bir dokunuş ile kabul edebilirsiniz."
       },
       "card": {
-        "title": "Paiements par carte de crédit",
-        "description": "Avec l'infrastructure avancée de l'application AyaPos Coursier, vous pouvez utiliser un code QR pour accepter les paiements par carte de crédit. Laissez votre client scanner le code QR et le paiement se fait en quelques secondes."
+        "title": "Kredi kartı ile ödemeler",
+        "description": "AyaPos Kuryesi uygulamasının gelişmiş altyapısıyla, kredi kartı ödemelerini kabul etmek için bir QR kodu kullanabilirsiniz. Müşterinizin QR kodunu taramasına izin verin ve ödeme birkaç saniye içinde gerçekleştirilsin."
       },
       "security": {
-        "title": "Infrastructure 100% sécurisée",
-        "description": "Avec un certificat SSL 256 bits, toutes vos transactions et mouvements sont effectués en toute sécurité."
+        "title": "%100 Güvenli Altyapı",
+        "description": "256 bit SSL sertifikasıyla tüm işlemleriniz ve hareketleriniz güvenli bir şekilde gerçekleştirilir."
       }
     },
     "courier": {
-      "badge": "POUR LES COURSIERS",
-      "title": "Indispensable pour les coursiers !",
-      "subtitle": "Gestion des Commandes AyaPos - Logiciel de Suivi Coursier",
+      "badge": "KURYELER İÇİN",
+      "title": "Kuryeler için vazgeçilmez!",
+      "subtitle": "AyaPos Sipariş Yönetimi - Kurye Takip Yazılımı",
       "reports": {
-        "title": "Consulter les rapports quotidiens",
-        "description": "Avec l'application AyaPos Coursier, vous pouvez obtenir des rapports quotidiens des coursiers. Vous pouvez obtenir des informations sur le nombre de commandes, la distance totale, les durées et les paiements."
+        "title": "Günlük raporları görüntüle",
+        "description": "AyaPos Kuryesi uygulamasıyla kurye raporlarını günlük alabilirsiniz. Sipariş sayısı, toplam mesafe, süreler ve ödemeler hakkında bilgi alabilirsiniz."
       },
       "status": {
-        "title": "Statuts disponible et occupé",
-        "description": "Avec l'application Coursier, vous pouvez définir le statut du coursier. Lorsque vous n'êtes pas disponible, vous pouvez sélectionner le statut 'Occupé' et informer l'entreprise."
+        "title": "Durumlar: mevcut ve meşgul",
+        "description": "Kuryelik uygulaması ile kuryenin durumunu ayarlayabilirsiniz. Kullanılamadığınızda 'Meşgul' durumunu seçebilir ve şirkete bilgi verebilirsiniz."
       },
       "notifications": {
-        "title": "Son de notification de commande",
-        "description": "Si vous activez le son de notification via l'application, vous recevrez une notification sonore lorsqu'une commande vous est attribuée. De cette façon, vous ne manquerez pas de commandes et vous pourrez augmenter la satisfaction client."
+        "title": "Sipariş bildirim sesi",
+        "description": "Uygulama üzerinden bildirim sesini açarsanız, size atanan bir sipariş olduğunda sesli bir bildirim alırsınız. Bu sayede siparişleri kaçırmaz ve müşteri memnuniyetini artırabilirsiniz."
       }
     },
     "systemFeatures": {
-      "title": "Caractéristiques du Système",
-      "subtitle": "Tout ce dont vous avez besoin pour gérer efficacement vos livraisons"
+      "title": "Sistem Özellikleri",
+      "subtitle": "Teslimatlarınızı etkili bir şekilde yönetmek için ihtiyaç duyduğunuz her şey"
     },
     "system": {
       "mobile": {
-        "title": "Système de Gestion Mobile",
-        "description": "AyaPos Manager est une application de gestion mobile qui vous permet de gérer votre entreprise depuis des téléphones iPhone et Android."
+        "title": "Mobil Yönetim Sistemi",
+        "description": "AyaPos Manager, işletmenizi iPhone ve Android telefonlarından yönetmenizi sağlayan bir mobil yönetim uygulamasıdır."
       },
       "cloud": {
-        "title": "Infrastructure Cloud",
-        "description": "Grâce à la plateforme cloud AyaPos Manager, gérez vos produits, ventes, stocks et comptes clients depuis votre poche, accédez instantanément aux rapports consolidés de vos succursales."
+        "title": "Bulut Altyapısı",
+        "description": "AyaPos Manager bulut platformu sayesinde ürünlerinizi, satışlarınızı, stoklarınızı ve müşteri hesaplarınızı cebinizden yönetin, şubelerinizin konsolide raporlarına anında erişin."
       },
       "analytics": {
-        "title": "Rapports et Analyses Avancés",
-        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez l'état de votre entreprise en comparant vos ventes avec des analyses visuelles."
+        "title": "Gelişmiş Raporlar ve Analizler",
+        "description": "Gün sonu, satış, stok ve müşteri hesap raporlarınızı gerçek zamanlı olarak inceleyin. Satışlarınızı görsel analizlerle karşılaştırarak işletmenizin durumunu iyileştirin."
       },
       "accounts": {
-        "title": "Gérer les Comptes Clients",
-        "description": "Créez vos comptes clients, suivez vos créances et dettes. Gérez vos clients en examinant les mouvements de caisse qui ont eu lieu pendant la journée."
+        "title": "Müşteri Hesaplarını Yönet",
+        "description": "Müşteri hesaplarınızı oluşturun, alacaklarınızı ve borçlarınızı takip edin. Gün boyunca gerçekleşen kasa hareketlerini inceleyerek müşterilerinizi yönetin."
       }
     },
     "tracking": {
-      "badge": "SUIVI EN TEMPS RÉEL",
-      "title": "Suivez vos livraisons en temps réel",
-      "description1": "Avec le système de suivi en temps réel d'AyaPos, vous pouvez suivre la position de vos coursiers sur une carte et surveiller l'état de toutes vos commandes.",
-      "description2": "Optimisez vos itinéraires de livraison, réduisez les temps d'attente et augmentez la satisfaction client grâce à un suivi précis et en temps réel.",
-      "feature1": "Suivi GPS en direct",
-      "feature2": "Optimisation des itinéraires",
-      "feature3": "Notifications automatiques"
+      "badge": "GERÇEK ZAMANLI TAKİP",
+      "title": "Teslimatlarınızı gerçek zamanlı olarak takip edin",
+      "description1": "AyaPos'un gerçek zamanlı takip sistemi ile kuryelerinizin haritadaki konumunu takip edebilir ve tüm siparişlerinizin durumunu izleyebilirsiniz.",
+      "description2": "Teslimat rotalarını optimize edin, bekleme sürelerini azaltın ve kesin ve gerçek zamanlı bir takip sayesinde müşteri memnuniyetini artırın.",
+      "feature1": "Canlı GPS Takibi",
+      "feature2": "Rota Optimizasyonu",
+      "feature3": "Otomatik Bildirimler"
     },
     "cta": {
-      "title": "Prêt à optimiser vos livraisons ?",
-      "subtitle": "Contactez-nous pour découvrir comment notre système de gestion des livraisons peut améliorer votre efficacité",
-      "button": "Demander une démonstration"
+      "title": "Teslimatlarınızı optimize etmeye hazır mısınız?",
+      "subtitle": "Teslimat yönetim sistemimizin verimliliğinizi nasıl artırabileceğini keşfetmek için bizimle iletişime geçin",
+      "button": "Demo Talep Et"
     }
   },
   "webPortal": {
     "hero": {
-      "badge": "PORTAIL WEB AYAPOS",
-      "title": "Système de Gestion en Ligne",
-      "subtitle": "Gérez à distance, accédez instantanément aux rapports de ventes et de stocks",
-      "cta": "Demander un devis"
+      "badge": "AYAPOS WEB PORTALI",
+      "title": "Çevrimiçi Yönetim Sistemi",
+      "subtitle": "Uzaktan yönetin, satış ve stok raporlarına anında erişin",
+      "cta": "Teklif İste"
     },
     "reportsSection": {
-      "badge": "RAPPORTS ET ANALYSES",
-      "title": "Accédez instantanément à vos rapports",
-      "subtitle": "Rapports de fin de journée, ventes, personnel, comptes clients et stocks instantanément disponibles"
+      "badge": "RAPORLAR VE ANALİZLER",
+      "title": "Raporlarınıza anında erişin",
+      "subtitle": "Gün sonu raporları, satışlar, personel, müşteri hesapları ve stoklar anında mevcut"
     },
     "reports": {
       "instant": {
-        "title": "Rapports instantanés et périodiques",
-        "description": "Le système de rapports et d'analyses en ligne AyaPos Portal présente vos données sous forme d'analyses visuelles en plus des rapports instantanés et périodiques, vous aidant à prendre les bonnes décisions et à développer votre entreprise."
+        "title": "Anlık ve dönemsel raporlar",
+        "description": "AyaPos Portal çevrimiçi rapor ve analiz sistemi, verilerinizi anlık ve dönemsel raporların yanı sıra görsel analizler şeklinde sunar, doğru kararlar almanıza ve işinizi geliştirmenize yardımcı olur."
       },
       "central": {
-        "title": "Système de rapports centralisé",
-        "description": "Grâce au système de gestion et de rapports centralisés AyaPos, vous pouvez gérer toutes vos succursales depuis un seul compte et consulter les rapports consolidés et comparatifs sur le même écran."
+        "title": "Merkezi rapor sistemi",
+        "description": "AyaPos'un merkezi yönetim ve raporlama sistemi sayesinde, tüm şubelerinizi tek bir hesapla yönetebilir ve konsolide ve karşılaştırmalı raporlara aynı ekranda ulaşabilirsiniz."
       }
     },
     "remoteManagement": {
-      "badge": "GESTION À DISTANCE",
-      "title": "Gérez votre entreprise à distance avec AyaPos Portal",
-      "subtitle": "Gérez toutes les informations définissant votre entreprise depuis votre bureau"
+      "badge": "UZAKTAN YÖNETİM",
+      "title": "AyaPos Portal ile işletmenizi uzaktan yönetin",
+      "subtitle": "İşletmenizi tanımlayan tüm bilgilere ofisinizden erişin"
     },
     "management": {
       "remote": {
-        "title": "Configuration à distance, mise à jour automatique",
-        "description": "Configurez à distance toutes les informations et paramètres de votre entreprise et de vos appareils avec n'importe quel appareil connecté à Internet, mettez-les à jour quand vous le souhaitez. Ajoutez de nouveaux produits, modifiez les prix. Toutes les informations sont automatiquement transférées vers vos tablettes et appareils POS."
+        "title": "Uzaktan ayarlama, otomatik güncelleme",
+        "description": "İşletmenizin ve cihazlarınızın tüm bilgilerini ve ayarlarını internete bağlı herhangi bir cihazla uzaktan ayarlayın, istediğiniz zaman güncelleyin. Yeni ürünler ekleyin, fiyatları değiştirin. Tüm bilgiler otomatik olarak tabletlerinize ve POS cihazlarınıza aktarılır."
       },
       "auto": {
-        "title": "Gérez vos systèmes POS depuis un centre unique",
-        "description": "AyaPos Portal est la solution de gestion centralisée qui vous permet de gérer à distance avec un seul compte le système d'automatisation de restaurant de votre entreprise."
+        "title": "POS sistemlerinizi tek bir merkezden yönetin",
+        "description": "AyaPos Portal, işletmenizin restoran otomasyon sistemini tek bir hesapla uzaktan yönetmenizi sağlayan merkezi yönetim çözümüdür."
       },
       "unified": {
-        "title": "Gestion unifiée complète",
-        "description": "Incluant le système POS mobile, les menus tablettes, les terminaux serveur, ainsi que les systèmes de menu numérique, de commande mobile et de paiement mobile fonctionnant sur les smartphones de vos clients."
+        "title": "Tam birleşik yönetim",
+        "description": "Mobil POS sistemi, tablet menüleri, sunucu terminalleri ve müşterilerinizin akıllı telefonlarında çalışan dijital menü, mobil sipariş ve mobil ödeme sistemlerini içerir."
       }
     },
     "dayEnd": {
-      "badge": "RAPPORTS DE FIN DE JOURNÉE",
-      "title": "Consultez vos rapports de fin de journée",
-      "description1": "Vous pouvez examiner combien de ventes ont été effectuées en espèces ou par carte de crédit pendant la journée, combien de vos clients ont bénéficié de réductions ou les produits retournés.",
-      "description2": "Avec le menu puissant d'AyaPos Portal, accédez aux rapports de fin de journée, vous pouvez suivre les paiements en espèces, par carte de crédit ou sur compte effectués pendant la journée.",
-      "description3": "Vos rapports sont stockés quotidiennement dans la base de données AyaPos, vous pouvez accéder instantanément à vos rapports de fin de journée de n'importe quelle date quand vous le souhaitez."
+      "badge": "GÜN SONU RAPORLARI",
+      "title": "Gün sonu raporlarınızı görüntüleyin",
+      "description1": "Gün boyunca ne kadar satış yapıldığını, nakit ya da kredi kartıyla, ne kadar müşterinin indirim aldığını veya iade edilen ürünleri inceleyebilirsiniz.",
+      "description2": "AyaPos Portal’ın güçlü menüsü ile gün sonu raporlarına erişebilir, gün boyunca yapılan nakit ödemeleri, kredi kartı ile yapılan ödemeleri veya hesabı takip edebilirsiniz.",
+      "description3": "Raporlarınız her gün AyaPos veritabanında saklanır, istediğiniz herhangi bir tarihte gün sonu raporlarınıza anında erişebilirsiniz."
     },
     "settings": {
-      "badge": "PARAMÈTRES SYSTÈME",
-      "title": "Améliorez votre portail avec les paramètres système",
-      "subtitle": "Gérez mieux votre entreprise avec de nombreux paramètres",
+      "badge": "SİSTEM AYARLARI",
+      "title": "Sistem ayarları ile portalınızı geliştirin",
+      "subtitle": "Birçok ayar ile işletmenizi daha iyi yönetin",
       "general": {
-        "title": "Paramètres généraux",
-        "description": "Depuis votre portail, vous pouvez définir la devise et la langue des produits que vous vendez. Avec les paramètres POS, vous pouvez sélectionner les types de paiement, appliquer des étiquettes de réduction. Vous pouvez également organiser les paramètres de gestion de stock via AyaPos Portal."
+        "title": "Genel ayarlar",
+        "description": "Portalınızdan, sattığınız ürünlerin para birimini ve dilini belirleyebilirsiniz. POS ayarları ile ödeme türlerini seçebilir, indirim etiketleri uygulayabilirsiniz. Stok yönetim ayarlarını AyaPos Portal üzerinden de düzenleyebilirsiniz."
       },
       "order": {
-        "title": "Paramètres de commande",
-        "description": "Dans la section paramètres d'AyaPos Portal, vous pouvez activer vos commandes pour le paiement et la commande en ligne, définir votre montant minimum de commande et vos frais de service, organiser les informations nécessaires pour les ventes via les plateformes de livraison."
+        "title": "Sipariş ayarları",
+        "description": "AyaPos Portal ayarları bölümünde, çevrimiçi ödeme ve sipariş için siparişlerinizi etkinleştirebilir, minimum sipariş tutarınızı ve hizmet ücretinizi belirleyebilir, teslimat platformları üzerinden yapılacak satışlar için gerekli bilgileri düzenleyebilirsiniz."
       }
     },
     "featuresGrid": {
-      "title": "Caractéristiques",
-      "subtitle": "Tout ce dont vous avez besoin pour gérer votre entreprise"
+      "title": "Özellikler",
+      "subtitle": "İşletmenizi yönetmek için ihtiyaç duyduğunuz her şey"
     },
     "features": {
       "reports": {
-        "title": "Rapports et Analyses Avancés",
-        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez la situation de votre entreprise en comparant vos ventes avec des analyses visuelles."
+        "title": "Gelişmiş Raporlar ve Analizler",
+        "description": "Gün sonu, satış, stok ve müşteri hesap raporlarınızı gerçek zamanlı olarak inceleyin. Satışlarınızı görsel analizlerle karşılaştırarak işletmenizin durumunu iyileştirin."
       },
       "management": {
-        "title": "Système de Gestion en Ligne",
-        "description": "Avec AyaPos Portal, vous pouvez gérer votre entreprise à distance avec n'importe quel appareil connecté à Internet. Connectez-vous à AyaPos Portal et accédez à vos informations à tout moment, de n'importe où."
+        "title": "Çevrimiçi Yönetim Sistemi",
+        "description": "AyaPos Portal ile internet bağlantılı herhangi bir cihazla işletmenizi uzaktan yönetebilirsiniz. AyaPos Portal'a bağlanın ve bilgilerinize her zaman, her yerden erişin."
       },
       "central": {
-        "title": "Système de Gestion Centralisée",
-        "description": "Grâce au système de gestion centralisée d'AyaPos Portal, gérez vos produits, prix, personnel et stocks depuis un centre unique, accédez aux rapports de ventes consolidés de vos succursales avec un seul compte."
+        "title": "Merkezi Yönetim Sistemi",
+        "description": "AyaPos Portal'ın merkezi yönetim sistemi sayesinde, ürün, fiyat, personel ve stoklarınızı tek bir merkezden yönetebilir, şubelerinizin konsolide satış raporlarına tek bir hesapla erişebilirsiniz."
       },
       "compatible": {
-        "title": "Compatible avec tous les Navigateurs",
-        "description": "Vous pouvez accéder rapidement à AyaPos Portal depuis des ordinateurs, tablettes ou smartphones connectés à Internet et gérer facilement vos succursales en même temps."
+        "title": "Tüm Tarayıcılarla Uyumludur",
+        "description": "AyaPos Portal'a internet bağlantılı bilgisayarlardan, tabletlerden veya akıllı telefonlardan hızlıca erişebilir ve aynı anda şubelerinizi kolayca yönetebilirsiniz."
       }
     },
     "cta": {
-      "title": "Prêt à gérer votre entreprise en ligne ?",
-      "subtitle": "Contactez-nous pour découvrir comment AyaPos Portal peut transformer votre gestion",
-      "button": "Demander une démonstration"
+      "title": "İşletmenizi çevrimiçi yönetmeye hazır mısınız?",
+      "subtitle": "AyaPos Portal'ın yönetiminizi nasıl dönüştürebileceğini keşfetmek için bizimle iletişime geçin",
+      "button": "Demo Talep Et"
     }
   },
   "mobileReports": {
     "hero": {
-      "badge": "RAPPORTS MOBILES AYAPOS",
-      "title": "Application de Rapports Mobiles",
-      "subtitle": "Accédez instantanément aux rapports de ventes et aux analyses visuelles depuis votre poche",
-      "cta": "Voir les démos"
+      "badge": "AYAPOS MOBİL RAPORLAR",
+      "title": "Mobil Raporlar Uygulaması",
+      "subtitle": "Cebinizden satış raporlarına ve görsel analizlere anında erişin",
+      "cta": "Demosunu Gör"
     },
     "summarySection": {
-      "badge": "RAPPORTS RÉSUMÉS",
-      "title": "Rapports résumés et graphiques visuels",
-      "subtitle": "Examinez les rapports résumés et les analyses visuelles concernant les produits les plus vendus, la fin de journée, l'état de la caisse et les stocks"
+      "badge": "ÖZET RAPORLAR",
+      "title": "Özet raporlar ve görsel grafikler",
+      "subtitle": "En çok satılan ürünler, gün sonu, kasa durumu ve stoklar hakkında özet raporları ve görsel analizleri inceleyin"
     },
     "summary": {
       "bestSellers": {
-        "title": "Produits les plus vendus",
-        "description": "Visualisez en résumé les produits les plus vendus dans votre entreprise pendant la journée, augmentez vos ventes en organisant des campagnes et promotions sur les produits ciblés."
+        "title": "En çok satılan ürünler",
+        "description": "Gün boyunca işletmenizde en çok satılan ürünleri özet olarak görüntüleyin, hedeflenen ürünler için kampanyalar ve promosyonlar düzenleyerek satışlarınızı artırın."
       },
       "dayEnd": {
-        "title": "Rapport de fin de journée et de caisse",
-        "description": "Accédez au résumé de vos informations de ventes et de chiffre d'affaires de fin de journée, à vos informations de paiement en espèces, devises, carte de crédit, tickets restaurant, etc. dans votre caisse."
+        "title": "Gün sonu ve kasa raporu",
+        "description": "Gün sonu bilgilerinizi, nakit, döviz, kredi kartı, yemek fişleri gibi bilgilerle beraber erişin."
       },
       "stock": {
-        "title": "Rapports de stock",
-        "description": "Examinez l'état des stocks de vos produits, semi-produits et matières premières, vérifiez vos stocks avec les entrées/sorties de stock et les comptages d'inventaire."
+        "title": "Stok raporları",
+        "description": "Ürün, yarı mamul ve hammadde stok durumunuzu inceleyin, stok giriş/çıkışlarını ve envanter sayımlarını kontrol edin."
       },
       "insights": {
-        "title": "Informations résumées",
-        "description": "AyaPos Boss vous présente des informations telles que le gain moyen et le nombre de couverts réalisés par votre entreprise au cours des 7 derniers jours."
+        "title": "Özet bilgiler",
+        "description": "AyaPos Boss, son 7 gün içerisinde işletmenizin ortalama kazanım ve yemek sayısı gibi bilgileri sunar."
       }
     },
     "productSection": {
-      "badge": "GESTION DES PRODUITS",
-      "title": "Gérez vos produits avec AyaPos Boss",
-      "subtitle": "Consultez tous les détails de vos produits depuis votre application mobile"
+      "badge": "ÜRÜN YÖNETİMİ",
+      "title": "AyaPos Boss ile ürünlerinizi yönetin",
+      "subtitle": "Mobil uygulamanızdan ürünlerinizin tüm detaylarını görüntüleyin"
     },
     "products": {
       "track": {
-        "title": "Suivez vos produits",
-        "description": "Depuis l'application AyaPos Boss, vous pouvez cliquer sur un produit pour voir sa photo, son nom, son prix, son code-barres, sa quantité de calories, son temps de préparation, sa description, ses sous-catégories et indiquer si le produit est disponible ou non."
+        "title": "Ürünlerinizi takip edin",
+        "description": "AyaPos Boss uygulamasından bir ürüne tıklayarak resmini, adını, fiyatını, barkodunu, kalori miktarını, hazırlama süresini, tanımını, alt kategorilerini görüntüleyebilir ve ürünün mevcut olup olmadığını belirtebilirsiniz."
       },
       "search": {
-        "title": "Recherche de produits",
-        "description": "Sur la page produits de l'application AyaPos Boss, vous pouvez accéder à l'écran de recherche en cliquant sur le bouton de recherche dans le coin supérieur droit. Dans cette zone, vous pouvez accéder rapidement et facilement à un produit en écrivant son nom."
+        "title": "Ürün arama",
+        "description": "AyaPos Boss uygulamasının ürünler sayfasında, sağ üst köşedeki arama butonuna tıklayarak arama ekranına erişebilirsiniz. Bu alanda, ürün adını yazarak hızlı ve kolay bir şekilde bir ürüne erişebilirsiniz."
       },
       "design": {
-        "title": "Design simple et épuré",
-        "description": "L'application AyaPos Boss a un design extrêmement simple et épuré. Pour ne pas compliquer la page des produits, elle maintient cette structure et vous offre un espace de travail plus confortable."
+        "title": "Basit ve sade tasarım",
+        "description": "AyaPos Boss uygulaması son derece basit ve sade bir tasarıma sahiptir. Ürünler sayfasını karmaşık hale getirmemek için bu yapıyı korur ve size daha konforlu bir çalışma alanı sunar."
       }
     },
     "business": {
-      "badge": "GESTION D'ENTREPRISE",
-      "title": "Gérez votre entreprise depuis votre poche avec AyaPos Boss !",
-      "description1": "Accédez à vos rapports de fin de journée, de caisse, de ventes, de comptes clients et de stocks depuis les smartphones. Comparez vos ventes périodiques avec des analyses visuelles.",
-      "description2": "AyaPos Boss vous permet d'accéder en temps réel à toutes vos ventes réalisées sur votre système POS mobile et transférées vers la plateforme cloud. Vous pouvez consulter instantanément de nombreux rapports tels que fin de journée, caisse, ventes, stocks et comptes clients.",
-      "description3": "Grâce à la plateforme cloud mobile AyaPos, vous accédez en quelques secondes aux graphiques visuels de vos ventes quotidiennes, hebdomadaires, mensuelles et annuelles. Vous pouvez analyser l'état actuel de votre entreprise en comparant vos ventes périodiques et développer votre activité en prenant les bonnes décisions."
+      "badge": "İŞLETME YÖNETİMİ",
+      "title": "AyaPos Boss ile cebinizden işletmenizi yönetin!",
+      "description1": "Gün sonu, kasa, satış, müşteri hesapları ve stok raporlarını akıllı telefonlar üzerinden erişin. Dönemsel satışlarınızı görsel analizlerle karşılaştırın.",
+      "description2": "AyaPos Boss, mobil POS sisteminizde gerçekleştirilen tüm satışlara ve bu satışların bulut platformuna aktarılmasına gerçek zamanlı erişim sağlar. Gün sonu, kasa, satış, stok ve müşteri hesapları gibi birçok rapora anında erişebilirsiniz.",
+      "description3": "AyaPos'un mobil bulut platformuyla, günlük, haftalık, aylık ve yıllık satışlarınızın görsel grafiklerine birkaç saniye içinde erişin. Dönemsel satışlarınızı karşılaştırarak işletmenizin mevcut durumunu analiz edin ve doğru kararlar alarak işinizi geliştirin."
     },
     "settings": {
-      "badge": "PARAMÈTRES",
-      "title": "Effectuez des modifications dans votre application avec AyaPos Boss !",
+      "badge": "AYARLAR",
+      "title": "AyaPos Boss ile uygulamanızda değişiklik yapın!",
       "account": {
-        "title": "Paramètres du compte et paramètres généraux",
-        "description": "Dans la section paramètres du compte de la page paramètres d'AyaPos Boss, vous pouvez définir votre nom d'utilisateur et votre mot de passe. Depuis les paramètres généraux, vous pouvez régler l'heure mondiale et organiser à quelle heure les rapports de fin de journée doivent être pris."
+        "title": "Hesap ayarları ve genel ayarlar",
+        "description": "AyaPos Boss ayarları sayfasında, kullanıcı adınızı ve şifrenizi belirleyebilirsiniz. Genel ayarlardan dünya saatini ayarlayabilir ve gün sonu raporlarının ne zaman alınması gerektiğini düzenleyebilirsiniz."
       },
       "pos": {
-        "title": "Paramètres POS et de langue",
-        "description": "Avec les paramètres POS, vous pouvez activer ou désactiver le service de commande et de paiement en ligne de l'appareil POS utilisé dans votre entreprise. Avec les paramètres de langue, vous pouvez utiliser votre application patron AyaPos dans différentes langues."
+        "title": "POS ve dil ayarları",
+        "description": "POS ayarları ile işletmenizde kullanılan POS cihazının çevrimiçi sipariş ve ödeme servisini etkinleştirip devre dışı bırakabilirsiniz. Dil ayarları ile uygulama patronunuz AyaPos'u farklı dillerde kullanabilirsiniz."
       }
     },
     "featuresGrid": {
-      "title": "Caractéristiques",
-      "subtitle": "Tout ce dont vous avez besoin dans votre poche"
+      "title": "Özellikler",
+      "subtitle": "Cebinizde ihtiyaç duyduğunuz her şey"
     },
     "features": {
       "mobile": {
-        "title": "Système de Gestion Mobile",
-        "description": "AyaPos Boss est une application de gestion mobile qui vous permet de gérer votre entreprise depuis les téléphones iPhone et Android. Téléchargez immédiatement depuis App Store et Google Play."
+        "title": "Mobil Yönetim Sistemi",
+        "description": "AyaPos Boss, işletmenizi iPhone ve Android telefonlardan yönetmenizi sağlayan bir mobil yönetim uygulamasıdır. Hemen App Store ve Google Play'den indirin."
       },
       "cloud": {
-        "title": "Infrastructure Cloud",
-        "description": "Grâce à la plateforme cloud AyaPos Boss, gérez vos produits, ventes, stocks et comptes clients depuis votre poche, accédez instantanément aux rapports consolidés de vos succursales."
+        "title": "Bulut Altyapısı",
+        "description": "AyaPos Boss bulut platformu sayesinde, ürünlerinizi, satışlarınızı, stoklarınızı ve müşteri hesaplarınızı cebinizden yönetin, şubelerinizin konsolide raporlarına anında erişin."
       },
       "analytics": {
-        "title": "Rapports et Analyses Avancés",
-        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez l'état de votre entreprise en comparant vos ventes avec des analyses visuelles."
+        "title": "Gelişmiş Raporlar ve Analizler",
+        "description": "Gün sonu, satış, stok ve müşteri hesap raporlarınızı gerçek zamanlı olarak inceleyin. Satışlarınızı görsel analizlerle karşılaştırarak işletmenizin durumunu iyileştirin."
       },
       "accounts": {
-        "title": "Gérer les Comptes Clients",
-        "description": "Créez vos comptes clients, suivez vos créances et dettes. Gérez vos clients en examinant les mouvements de caisse effectués pendant la journée."
+        "title": "Müşteri Hesaplarını Yönet",
+        "description": "Müşteri hesaplarınızı oluşturun, alacaklarınızı ve borçlarınızı takip edin. Gün boyunca gerçekleştirilen kasa hareketlerini inceleyerek müşterilerinizi yönetin."
       }
     },
     "download": {
-      "title": "Téléchargez l'application Boss mobile pour l'essayer immédiatement !",
-      "subtitle": "Disponible sur iOS et Android"
+      "title": "Hemen denemek için Boss mobil uygulamasını indirin!",
+      "subtitle": "iOS ve Android'de mevcut"
     },
     "cta": {
-      "title": "Prêt à gérer depuis votre mobile ?",
-      "subtitle": "Téléchargez AyaPos Boss et gérez votre entreprise de n'importe où",
-      "button": "Demander une démonstration"
+      "title": "Mobil cihazınızdan yönetmeye hazır mısınız?",
+      "subtitle": "AyaPos Boss'u indirin ve işletmenizi her yerden yönetin",
+      "button": "Demo Talep Et"
     }
   },
   "stockManagement": {
     "hero": {
       "badge": "STOK YÖNETİM SİSTEMİ",
       "title": "Stok Yönetim Sistemi",
-      "subtitle": "Stokları takip edin, daha verimli üretin. Ürünler ve hammaddelerin stoklarını tek bir merkezden yönetin.",
-      "cta": "Ücretsiz teklif talep et"
+      "subtitle": "Stokları takip edin, daha verimli üretin. Ürün ve hammadde stoklarını tek bir merkezden yönetin.",
+      "cta": "Teklif İste"
     },
     "benefitsSection": {
       "badge": "AVANTAJLAR",
-      "title": "Verimliliği artırın, kayıpları ve israfı azaltın",
+      "title": "Verimliliği artırın, kayıpları ve israfları azaltın",
       "subtitle": "AyaPos stok yönetim sistemi ile"
     },
     "benefits": {
       "efficiency": {
         "title": "Daha verimli üretim",
-        "description": "Stok yönetim sistemi sayesinde, hammaddelerin ve ürünlerin kullanımını inceleyebilir ve üretim akışınızı daha verimli hale getirebilirsiniz."
+        "description": "Stok yönetim sistemi sayesinde, hammaddelerin ve ürünlerin kullanımını inceleyebilir ve daha verimli bir üretim akışı sağlamak için gelişmeler gerçekleştirebilirsiniz."
       },
       "waste": {
         "title": "Daha az kayıp ve israf",
@@ -520,69 +520,69 @@
     "recipeSection": {
       "badge": "TARİFLER",
       "title": "Tariflerinizi ve üretim akışınızı planlayın",
-      "subtitle": "Restoran, kafe veya barınıza ait tariflerle stokları hazırlayın"
+      "subtitle": "Restoran, kafe veya barınızdaki tariflerle stokları hazırlayın"
     },
     "types": {
       "simple": {
-        "title": "İhtiyaca göre basit stok",
-        "description": "Küçük işletmeler için, ihtiyaca dayalı olarak ürünlerinizi sistemde birim olarak kolayca girebilir ve birim olarak kullanımını görebilirsiniz."
+        "title": "İhtiyaçlara göre basit stok",
+        "description": "Küçük işletmeler için ihtiyaçlara göre, ürünlerinizi sisteme birim olarak kolayca girebilir ve birim bazında kullanımını görebilirsiniz."
       },
       "recipe": {
         "title": "Tariflerle gelişmiş stok",
-        "description": "AyaPos stok yönetimi ile restoranınız, kafeniz veya barınızın stoklarını tariflerle de yönetebilirsiniz. Bu şekilde, harcamalarınızın detaylı analizini yapabilirsiniz."
+        "description": "AyaPos ile stok yönetimi sayesinde, restoran, kafe veya barınızın stoklarını tariflerle yönetebilirsiniz. Böylece harcamalarınızın detaylı analizlerini gerçekleştirebilirsiniz."
       }
     },
     "centralized": {
       "badge": "MERKEZİ YÖNETİM",
-      "title": "Her şeye tek bir yerden ulaşın",
-      "description1": "AyaPos stok yönetim sistemi ile, ister bir ister yüz şubeniz olsun. Her şeyi tek bir yerden yönetebilir ve daha kapsamlı analizlerle beklenmedik sonuçlarla karşılaşmazsınız.",
+      "title": "Her şeyi tek bir yerden erişin",
+      "description1": "AyaPos stok yönetim sistemi ile bir veya yüzlerce şubeniz olsun. Her şeyi tek bir yerden yönetebilir ve daha geniş analizlerle beklenmedik sonuçlarla karşılaşmazsınız.",
       "stat1": "Merkezi kontrol",
       "stat2": "Sürekli erişim"
     },
     "featuresSection": {
-      "title": "Her şeye tek bir yerden ulaşın",
+      "title": "Her şeyi tek bir yerden erişin",
       "subtitle": "Tam kapsamlı stok yönetim sistemi"
     },
     "management": {
       "movements": {
         "title": "Stok hareketlerinizi takip edin",
-        "description": "Müşteri hesaplarınızı oluşturun, bu hesaplarla ilgili alacak ve borçlarınızı takip edin. Gün boyunca yapılan kasa hareketlerini inceleyin."
+        "description": "Müşteri hesaplarınızı oluşturun, bu hesaplarla ilgili alacaklarınızı ve borçlarınızı takip edin. Gün boyunca gerçekleşen kasa hareketlerini inceleyin."
       },
       "counting": {
         "title": "Stok sayımlarınızı kontrol edin",
-        "description": "Ürünler ve hammaddeler üzerindeki stoklarınızı takip edin, stok hareketlerinizi gözlemleyin, periyodik sayımlarla stoklarınızı kontrol edin."
+        "description": "Ürün ve hammadde stoklarınızı takip edin, stok hareketlerinizi gözlemleyin, dönemsel sayımlarla stoklarınızı kontrol edin."
       }
     },
     "alert": {
       "title": "Stok uyarı sistemi",
-      "description": "AyaPos stok yönetim sistemi ile stoktaki ürünleri ve hammaddeleri takip edebilir ve tükenmekte olan stokları önceden görmek için uyarı sistemini kullanabilirsiniz.",
-      "cta": "Daha fazlasını öğrenin"
+      "description": "AyaPos stok yönetim sistemi ile stoklardaki ürünleri ve hammaddeleri takip edebilir ve tükenmek üzere olan stokları önceden görebilirsiniz.",
+      "cta": "Daha fazla bilgi al"
     },
     "cta": {
       "title": "Stok yönetiminizi optimize etmeye hazır mısınız?",
-      "subtitle": "Kârlılığınızı artıracak sistemimizi keşfetmek için bizimle iletişime geçin",
-      "button": "Ücretsiz демонстрация talep et"
+      "subtitle": "Sistemimizin kârlılığınızı nasıl artırabileceğini keşfetmek için bizimle iletişime geçin",
+      "button": "Demo Talep Et"
     }
   },
   "centralizedManagement": {
     "hero": {
       "badge": "MERKEZİ YÖNETİM SİSTEMİ",
       "title": "Şubelerin Merkezi Yönetimi",
-      "subtitle": "Kontrol, yönetim ve uçtan uca takip. Tüm işletmelerinizi tek bir merkezden kolayca takip edin.",
-      "cta": "Ücretsiz teklif talep et"
+      "subtitle": "Uçtan uca kontrol, yönetim ve takip. Tüm işletmelerinizi tek bir merkezden kolayca takip edin.",
+      "cta": "Teklif İste"
     },
     "quickSection": {
       "title": "Tek bir yerden hızlı erişim",
-      "subtitle": "Tüm şubeleriniz kontrol altında"
+      "subtitle": "Tüm şubelerin kontrol altında"
     },
     "quick": {
       "menus": {
         "title": "Menülerinizi yönetin",
-        "description": "Şubelerin tüm menülerini tek bir yerden yönetin. İstediğiniz zaman fiyatları güncelleyebilir ve tüm şubelere uygulayabilirsiniz."
+        "description": "Tüm şubelerin menülerini tek bir yerden yönetin. İstediğiniz zaman fiyatları güncelleyin ve tüm şubelere uygulayın."
       },
       "movements": {
         "title": "Hareketleri kontrol edin",
-        "description": "Şubelerinizin günlük, aylık veya seçilen dönem içindeki hareketlerini inceleyin. Raporları analiz edin."
+        "description": "Şubelerinizin günlük, aylık veya seçilen dönemlerdeki hareketlerini inceleyin. Raporları analiz edin."
       },
       "branches": {
         "title": "Şubelerinizi takip edin",
@@ -591,36 +591,36 @@
     },
     "controlSection": {
       "badge": "TAM KONTROL",
-      "title": "Gözetim ve müdahale",
-      "subtitle": "Nerede olursanız olun, tüm şubelerinizi en ince ayrıntısına kadar takip edin"
+      "title": "Denetleyin, müdahale edin",
+      "subtitle": "Nerede olursanız olun, tüm şubelerinizi en ince detayına kadar takip edin"
     },
     "control": {
       "supervise": {
-        "title": "Gözetim ve müdahale",
-        "description": "Nerede olursanız olun, tüm şubelerinizi en ince ayrıntısına kadar takip edin. Kasa hareketlerini gözetim altında tutun. Raporları inceleyin, hiçbir şeyi şansa bırakmayın."
+        "title": "Denetleyin, müdahale edin",
+        "description": "Nerede olursanız olun, tüm şubelerinizi en ince detayına kadar takip edin. Kasa hareketlerini denetleyin. Raporları inceleyin, hiçbir şeyi şansa bırakmayın."
       },
       "update": {
         "title": "Tek tıkla fiyatları güncelleyin",
-        "description": "Şubelerinizin ürün fiyatlarını ve detaylarını hızlı bir şekilde organize edin. Yaptığınız değişiklikleri tek tıkla tüm şubelere uygulayın."
+        "description": "Şubelerinizin ürün fiyatlarını ve detaylarını hızla düzenleyin. Yaptığınız değişiklikleri tek bir tıklama ile tüm şubelere uygulayın."
       },
       "accounts": {
         "title": "Hesapları ve kasaları inceleyin",
-        "description": "Kasa hareketlerinizi, işletmenizde kayıtlı müşteri hesaplarını gözden geçirin. Tüm işlemleri tek bir ekrandan takip edin."
+        "description": "Kasa hareketlerinizi, işletmenizde kayıtlı müşteri hesaplarını inceleyin. Tüm işlemleri tek bir ekrandan takip edin."
       }
     },
     "allBranches": {
       "badge": "TÜM ŞUBELERİNİZ",
-      "title": "Tüm şubeleriniz kontrol altında",
-      "subtitle": "Tek bir kontrol panelinden tam yönetim"
+      "title": "Tüm şubelerinizi kontrol altında",
+      "subtitle": "Tek bir gösterge panelinden tam yönetim"
     },
     "operational": {
       "control": {
-        "title": "Tüm operasyonların kontrolü",
-        "description": "Şubelerinizdeki tüm operasyonları tek bir ekrandan yönetin. Menülerinizi organize edin, düzen planlarını değiştirin, stokları gözetim altında tutun, personeli takip edin, faturaları ve müşteri hesaplarını inceleyin."
+        "title": "Tüm işlemlerin kontrolü",
+        "description": "Tüm şubelerinizin işlemlerini tek bir ekrandan yönetin. Menülerini düzenleyin, düzen planlarını değiştirin, stokları denetleyin, personeli takip edin, faturaları ve müşteri hesaplarını inceleyin."
       },
       "remote": {
         "title": "Her yerden kontrol edin",
-        "description": "İnternet bağlantısına sahip bir bilgisayar veya telefon ile şubelerinizin tüm detaylarını kolayca görselleştirin ve organize edin. Yaptığınız tüm değişiklikler otomatik olarak şubelere uygulanır."
+        "description": "İnternet bağlantısına sahip bir bilgisayar veya telefon ile şubelerinizin tüm detaylarını kolayca görüntüleyin ve düzenleyin. Yaptığınız tüm değişiklikler otomatik olarak şubelerinize uygulanır."
       },
       "evaluate": {
         "title": "Şubelerinizi değerlendirin",
@@ -632,45 +632,45 @@
       "title": "Raporlar ve analizler",
       "subtitle": "Tüm şubelerinizin raporlarını tek bir merkezden inceleyin",
       "instant": {
-        "title": "Anlık ve periyodik raporlar",
-        "description": "AyaPos merkezi yönetim sistemi ile belirli bir tarih aralığı için raporları ve anlık durum raporlarını görebilirsiniz. Aynı zamanda görselleştirilmiş raporlarla kolayca analizler yapabilirsiniz."
+        "title": "Anlık ve dönemsel raporlar",
+        "description": "AyaPos'un merkezi yönetim sistemi ile belirli bir tarih aralığı için raporları görebilir ve anlık durum raporları alabilirsiniz. Görselleştirilen raporlarla kolayca analizler yapabilirsiniz."
       },
       "central": {
         "title": "Merkezi rapor sistemi",
-        "description": "Tüm şubelerin raporlarına tek bir merkezden erişebilir ve şubelerinizi karşılaştırabilirsiniz. Böylece, şubelerin performansı hakkında analizler elde edebilirsiniz."
+        "description": "Tüm şubelerin raporlarına tek bir merkezden erişebilir ve şubelerinizi karşılaştırabilirsiniz. Böylece şubelerin performans analizlerini elde edebilirsiniz."
       }
     },
     "benefits": {
       "stat1": "Daha hızlı",
-      "stat2": "Her yerde erişim",
+      "stat2": "Her yerden erişim",
       "stat3": "Tam görünürlük"
     },
     "cta": {
-      "title": "Yönetiminizi merkezileştirmeye hazır mısınız?",
+      "title": "Yönetiminizi merkezi hale getirmeye hazır mısınız?",
       "subtitle": "Tüm şubelerinizi tek bir yerden nasıl yöneteceğinizi keşfedin",
-      "button": "Ücretsiz демонстрация talep et"
+      "button": "Demo Talep Et"
     }
   },
   "kioskPricing": {
     "hero": {
       "title": "Self-Order Kiosk Fiyatları",
-      "subtitle": "İşletmeniz için mükemmel olan kiosku seçin. Kurulum, yapılandırma ve eğitim dahildir.",
+      "subtitle": "İşletmeniz için mükemmel kiosk'u seçin. Kurulum, yapılandırma ve eğitim dahildir.",
       "badge": "Ücretsiz teslimat ve kurulum"
     },
-    "recommended": "Önerilen",
+    "recommended": "Tavsiye edilen",
     "oneTime": "Tek seferlik ödeme",
     "orderNow": "Şimdi sipariş ver",
     "models": {
       "small": {
         "name": "Kompakt Kiosk",
-        "size": "Küçük boy - Küçük alanlar için ideal",
+        "size": "Küçük boyut - Sıkışık alanlar için ideal",
         "screen": "15.6\" dokunmatik ekran",
         "features": [
           "15.6\" yüksek çözünürlüklü dokunmatik ekran",
-          "Dört çekirdekli güçlü işlemci",
+          "Yüksek performanslı dört çekirdekli işlemci",
           "Entegre termal fiş yazıcısı",
           "NFC kart okuyucu",
-          "Duvara monte veya ayakta",
+          "Duvara veya ayaklı destek",
           "Kompakt ve şık tasarım",
           "Önceden yüklenmiş AyaPos arayüzü",
           "2 yıl garanti"
@@ -683,11 +683,11 @@
         "features": [
           "21.5\" Full HD dokunmatik ekran",
           "Yüksek performanslı işlemci",
-          "Yüksek hızlı fiş yazıcısı",
+          "Hızlı fiş yazıcısı",
           "Temassız kart okuyucu + QR kod",
-          "Yüksekliği ayarlanabilir destek",
+          "Yükseklik ayarlanabilir destek",
           "Entegre stereo hoparlörler",
-          "Ambiyans LED aydınlatma",
+          "Ortamsal LED aydınlatma",
           "Premium AyaPos arayüzü",
           "Renk özelleştirme",
           "3 yıl garanti + öncelikli destek"
@@ -695,32 +695,32 @@
       },
       "large": {
         "name": "Premium Kiosk",
-        "size": "Büyük boy - En yüksek etki için",
+        "size": "Büyük boy - Maksimum etki",
         "screen": "32\" dokunmatik ekran",
         "features": [
           "32\" 4K Ultra HD dokunmatik ekran",
-          "Son nesil işlemci",
-          "Çift fiş yazıcısı",
-          "Entegre çoklu kart ödeme terminali",
-          "Güçlendirilmiş premium yapısı",
+          "Son teknoloji işlemci",
+          "İki katlı fiş yazıcısı",
+          "Entegre çok kartlı ödeme terminali",
+          "Güçlendirilmiş premium yapı",
           "Yüksek kaliteli ses sistemi",
-          "Analiz için HD kamera",
-          "Özelleştirilebilir LED RGB aydınlatma",
+          "Analitik için HD kamera",
+          "Özelleştirilebilir RGB LED aydınlatma",
           "Barkod tarayıcı",
           "Kurumsal AyaPos arayüzü",
-          "Tam tasarım özelleştirmesi",
-          "5 yıl garanti + 7/24 özel destek"
+          "Tam tasarım özelleştirme",
+          "5 yıl garanti + 24/7 özel destek"
         ]
       }
     },
     "included": {
-      "title": "Tüm kiosklarla dahil olanlar",
+      "title": "Tüm kiosklarla birlikte dahildir",
       "subtitle": "Sorunsuz bir kurulum için hizmetler ve garantiler"
     },
     "commonFeatures": {
       "warranty": {
         "title": "Genişletilmiş garanti",
-        "description": "Modeline göre 2 ila 5 yıl ile yerinde müdahale"
+        "description": "Modeline göre 2 ila 5 yıl arası yerinde müdahale ile"
       },
       "support": {
         "title": "Teknik destek",
@@ -732,7 +732,7 @@
       },
       "software": {
         "title": "AyaPos yazılımı",
-        "description": "Ücretsiz güncellemelerle birlikte yazılım lisansı dahil"
+        "description": "Yazılım lisansı dahildir ve ücretsiz güncellemeler ile"
       }
     },
     "comparison": {
@@ -751,83 +751,83 @@
     },
     "cta": {
       "title": "Restoranınızı donatmaya hazır mısınız?",
-      "subtitle": "Uzmanlarımız, işletmeniz için en iyi modeli seçmeniz konusunda size yardımcı olacaktır",
-      "button": "Özel teklif talep et"
+      "subtitle": "Uzmanlarımız, işletmeniz için en iyi modeli seçmenizde size yardımcı olacak",
+      "button": "Özelleştirilmiş teklif talep et"
     }
   },
   "orderSystemPricing": {
     "hero": {
       "badge": "SİPARİŞ SİSTEMİ GÜNCELLEMESİ",
       "title": "Çevrimiçi Sipariş Sistemi Fiyatları",
-      "subtitle": "Mevcut POS sisteminize çevrimiçi sipariş modülünü ekleyin. Satışlarınızı ortalama %40 artırın.",
-      "trial": "14 günlük ücretsiz deneme dahil"
+      "subtitle": "Mevcut POS sisteminize çevrimiçi sipariş modülünü ekleyin. Ortalama %40 daha fazla satış yapın.",
+      "trial": "14 günlük ücretsiz deneme dahildir"
     },
     "perMonth": "aylık",
-    "recommended": "Önerilen",
-    "selectPlan": "Bu paketi seç",
+    "recommended": "Tavsiye edilen",
+    "selectPlan": "Bu paketi seçin",
     "plansSection": {
       "title": "Paketinizi seçin",
-      "subtitle": "AyaPos POS sisteminize mükemmel şekilde entegre olan uzantı"
+      "subtitle": "AyaPos sisteminize mükemmel şekilde entegre olan genişletme"
     },
     "plans": {
       "basic": {
         "name": "Temel Paket",
         "description": "Küçük restoranlar ve kafeler için",
         "features": [
-          "Aylık 200 siparişe kadar",
+          "Ayda 200 siparişe kadar",
           "Duyarlı sipariş web sitesi",
           "Özelleştirilebilir dijital menü",
-          "E-posta bildirimleri",
+          "E-posta ile bildirimler",
           "Güvenli çevrimiçi ödeme",
           "Otomatik POS entegrasyonu",
           "E-posta desteği"
         ]
       },
       "standard": {
-        "name": "İş Paket",
-        "description": "Orta büyüklükte restoranlar için ideal",
+        "name": "İşletme Paketi",
+        "description": "Orta ölçekli restoranlar için ideal",
         "features": [
-          "Aylık 1000 siparişe kadar",
+          "Ayda 1000 siparişe kadar",
           "Özel mobil uygulama",
           "Sınırsız HD fotoğraflı menü",
           "SMS + E-posta bildirimleri",
           "Entegre sadakat programı",
-          "İndirim kodu ve kampanyalar",
+          "İndirim ve promosyon kodları",
           "Gelişmiş istatistikler",
           "Öncelikli destek",
-          "Satışlar üzerinden %0 komisyon"
+          "Satışlarda %0 komisyon"
         ]
       },
       "premium": {
         "name": "Kurumsal Paket",
-        "description": "Zincirler ve franchise'lar için",
+        "description": "Zincir ve bayiler için",
         "features": [
           "Sınırsız sipariş",
           "iOS ve Android uygulamaları",
-          "Birden fazla restoran/şube",
-          "Özelleştirilebilir API",
-          "Entegre yapay zeka chatbotu",
+          "Çoklu restoranlar / şubeler",
+          "Özelleştirilmiş API",
+          "Entegre AI chatbot",
           "Pazarlama otomasyonu",
           "A/B test menüsü",
-          "Öngörücü analiz",
+          "Tahmine dayalı analiz",
           "Özel hesap yöneticisi",
-          "99.9% SLA garantisi",
+          "%99.9 SLA garantisi",
           "Ekip eğitimi dahil"
         ]
       }
     },
     "benefitsSection": {
-      "title": "Neden sipariş sistemi eklemelisiniz?",
+      "title": "Neden sipariş sistemini eklemelisiniz?",
       "subtitle": "İşletmeniz için ölçülebilir avantajlar"
     },
     "benefits": {
       "sales": {
         "title": "Satışlarınızı artırın",
-        "description": "24/7 çevrimiçi siparişler sayesinde ortalama %40 gelir artışı"
+        "description": "24/7 çevrimiçi sipariş ile ortalama %40 gelir artışı"
       },
       "customers": {
-        "title": "Müşterilerinizi sadık hale getirin",
-        "description": "Otomatik sadakat programı ve sipariş geçmişi"
+        "title": "Müşterilerinizi sadık tutun",
+        "description": "Sadakat programı ve otomatik sipariş geçmişi"
       },
       "automation": {
         "title": "Tam otomasyon",
@@ -835,68 +835,68 @@
       },
       "integration": {
         "title": "Mükemmel entegrasyon",
-        "description": "Mevcut AyaPos POS sisteminizle yerel olarak entegre olur"
+        "description": "Mevcut AyaPos sisteminizle yerel olarak entegre olur"
       }
     },
     "faq": {
       "title": "Sıkça Sorulan Sorular",
       "q1": {
-        "question": "POS ile entegrasyon nasıl çalışır?",
-        "answer": "Sipariş sistemi, otomatik olarak AyaPos POS'unuza entegre olur. Çevrimiçi siparişler, yerinde siparişler gibi mutfak ekranınızda anında görünür."
+        "question": "POS’umla entegrasyon nasıl çalışıyor?",
+        "answer": "Sipariş sistemi otomatik olarak sizin AyaPos POS’unuza entegre edilir. Çevrimiçi siparişler mutfak ekranınızda, yerinde siparişler gibi hemen görünür."
       },
       "q2": {
-        "question": "Sonradan paket değiştirebilir miyim?",
-        "answer": "Evet, istediğiniz zaman paketinizi yükseltebilir veya düşürebilirsiniz. Değişiklikler hemen geçerli olur."
+        "question": "Paketi daha sonra değiştirebilir miyim?",
+        "answer": "Evet, istediğiniz zaman paketinizi yükseltebilir veya düşürebilirsiniz. Değişiklikler hemen yürürlüğe girer."
       },
       "q3": {
         "question": "Kurulum ücreti var mı?",
-        "answer": "Hayır, tüm paketlerde kurulum ve yapılandırma dahildir. Ekibimiz uygulama sürecinde size yardımcı olacaktır."
+        "answer": "Hayır, kurulum ve yapılandırma tüm paketlerde dahildir. Ekibimiz uygulama aşamasında size yardımcı olacaktır."
       }
     },
     "cta": {
       "title": "Çevrimiçi satışlarınızı artırmaya hazır mısınız?",
-      "subtitle": "Kredi kartı olmadan 14 günlük ücretsiz denemenizi başlatın",
-      "button": "Ücretsiz denemeyi başlat"
+      "subtitle": "14 günlük denemenizi kredi kartı olmadan başlatın",
+      "button": "Ücretsiz denemeye başla"
     }
   },
   "deliveryServicePricing": {
     "hero": {
       "badge": "TESLİMAT HİZMETİ GÜNCELLEMESİ",
-      "title": "Teslimat Hizmeti Fiyatları",
-      "subtitle": "Teslimat yönetim modülünü POS sisteminize ekleyin. Kurye ve turlarınızı yönetin, optimize edin.",
+      "title": "Teslimat Hizmeti Tarifleri",
+      "subtitle": "Teslimat yönetimi modülünü POS sisteminize ekleyin. Kuryelerinizi yönetin ve rotalarınızı optimize edin.",
       "trial": "İlk ay ücretsiz"
     },
     "perMonth": "aylık",
-    "recommended": "Önerilen",
-    "selectPlan": "Bu paketi seç",
+    "recommended": "Tavsiye edilen",
+    "selectPlan": "Bu paketi seçin",
     "plansSection": {
       "title": "Paketinizi seçin",
-      "subtitle": "AyaPos POS sisteminiz için teslimat yönetim uzantısı"
+      "subtitle": "AyaPos sisteminiz için teslimat yönetimi genişletmesi"
     },
     "plans": {
       "starter": {
         "name": "Başlangıç Paketi",
         "description": "Teslimatlarınıza başlamak için",
         "features": [
-          "Aylık 200 teslimata kadar",
-          "Maksimum 2 kuryeye kadar",
-          "Anlık GPS takibi",
-          "Müşteri SMS bildirimleri",
-          "Mesafe hesaplaması",
+          "Ayda 200 teslimata kadar",
+          "Maksimum 2 kurye",
+          "Gerçek zamanlı GPS takibi",
+          "SMS ile müşteri bildirimleri",
+          "Mesafe hesaplaması otomatik",
           "E-posta desteği"
         ]
       },
       "business": {
-        "name": "İş Paketi",
+        "name": "İşletme Paketi",
         "description": "Aktif teslimat hizmeti için",
         "features": [
-          "Aylık 1000 teslimata kadar",
-          "Maksimum 10 kuryeye kadar",
-          "Yapay zeka ile tur optimizasyonu",
+          "Ayda 1000 teslimata kadar",
+          "Maksimum 10 kurye",
+          "Yapay zeka ile rota optimizasyonu",
           "Özel kurye uygulaması",
           "Müşteri puanlama sistemi",
           "Performans raporları",
-          "Kuryelere entegre ödeme",
+          "Entegre kurye ödemesi",
           "Telefon + sohbet desteği"
         ]
       },
@@ -905,15 +905,15 @@
         "description": "Büyük filolar için",
         "features": [
           "Sınırsız teslimatlar",
-          "Sınırsız kurye",
+          "Sınırsız kuryeler",
           "Akıllı dağıtım",
           "Birden fazla teslimat alanı",
           "Uber Eats/Deliveroo entegrasyonu",
           "Yapay zeka ile talep tahminleri",
           "Tam API",
-          "Yönetici kontrol paneli",
+          "Yönetici paneli",
           "Ekip eğitimi",
-          "7/24 özel destek"
+          "24/7 özel destek"
         ]
       }
     },
@@ -927,11 +927,11 @@
         "description": "Gecikmeleri azaltmak için otomatik rota optimizasyonu"
       },
       "satisfaction": {
-        "title": "Memnun müşteri",
-        "description": "Anlık takip ve otomatik bildirimler"
+        "title": "Memnun müşteriler",
+        "description": "Gerçek zamanlı takip ve otomatik bildirimler"
       },
       "revenue": {
-        "title": "Optimize edilmiş gelirler",
+        "title": "Optimize edilmiş gelir",
         "description": "Teslimat maliyetlerinizi ortalama %30 azaltın"
       },
       "reliability": {
@@ -940,34 +940,34 @@
       }
     },
     "comparison": {
-      "title": "Paketlerin karşılaştırma tablosu",
+      "title": "Paket karşılaştırma tablosu",
       "feature": "Özellik",
-      "orders": "Dahil olan teslimatlar",
+      "orders": "Dahili teslimatlar",
       "tracking": "GPS takibi",
       "couriers": "Kurye sayısı",
       "support": "Müşteri desteği"
     },
     "cta": {
       "title": "Teslimatlarınızı optimize etmeye hazır mısınız?",
-      "subtitle": "Hizmeti denemek için ilk ay ücretsiz",
-      "button": "Hemen başlat"
+      "subtitle": "Hizmeti taahhütsüz test etmek için ilk ay ücretsiz",
+      "button": "Şimdi başlayın"
     }
   },
   "waiterTerminalPricing": {
     "hero": {
-      "badge": "GARSON TERMINALİ GÜNCELLEMESİ",
-      "title": "Garson Terminali Fiyatları",
-      "subtitle": "Garsonlarınıza hızlı sipariş alma için tabletler sağlayın. Hizmet verimliliğinizi artırın.",
-      "trial": "30 günlük ücretsiz deneme"
+      "badge": "GARSON TERMINALI GÜNCELLEMESİ",
+      "title": "Garson Terminali Tarifleri",
+      "subtitle": "Garsonlarınızı ultra hızlı mobil sipariş almak için tabletlerle donatın. Hizmet verimliliğinizi artırın.",
+      "trial": "30 gün ücretsiz deneme"
     },
     "perMonth": "aylık",
     "oneTime": "Tek seferlik ödeme",
-    "recommended": "Önerilen",
-    "selectPlan": "Bu paketi seç",
+    "recommended": "Tavsiye edilen",
+    "selectPlan": "Bu paketi seçin",
     "addToCart": "Sepete ekle",
     "plansSection": {
       "title": "Aylık yazılım paketleri",
-      "subtitle": "AyaPos POS sisteminiz için Garson Terminali uzantısı"
+      "subtitle": "AyaPos sisteminiz için Garson Terminali genişletmesi"
     },
     "plans": {
       "starter": {
@@ -976,8 +976,8 @@
         "features": [
           "Mobil garson uygulaması",
           "Masa başında sipariş alma",
-          "Anlık senkronizasyon",
-          "Doğrudan mutfağa gönderim",
+          "Gerçek zamanlı senkronizasyon",
+          "Mutfak gönderimi",
           "Temel masa yönetimi",
           "Masa başında ödeme",
           "E-posta desteği"
@@ -987,13 +987,13 @@
         "name": "Profesyonel Paket",
         "description": "Orta/büyük restoranlar için",
         "features": [
-          "Başlangıç Paketi tüm özellikleri",
+          "Tüm Başlangıç özellikleri",
           "Etkileşimli salon planı",
           "Rezervasyon yönetimi",
-          "Bekleme süresi takibi",
+          "Bekleme sürelerini takip etme",
           "Mutfak için özel notlar",
           "Masa transferi",
-          "Paylaşılan hesap yönetimi",
+          "Paylaşılan ek hesap yönetimi",
           "Performans raporları",
           "Öncelikli sohbet desteği"
         ]
@@ -1003,32 +1003,32 @@
         "description": "Zincirler ve büyük gruplar için",
         "features": [
           "Tüm Profesyonel özellikler",
-          "Birden fazla restoran/şube",
-          "Garson ekiplerinin yönetimi",
+          "Çoklu restoranlar/şubeler",
+          "Garson ekip yönetimi",
           "Garsonlar için teminat sistemi",
-          "Garson bazında gelişmiş analizler",
+          "Sunucu bazlı gelişmiş analizler",
           "Satış önerileri için yapay zeka",
           "Takvim entegrasyonu",
-          "Gelişmiş çevrimdışı mod",
+          "Gelişmiş çevrimdışı modu",
           "Tam ekip eğitimi",
           "Özelleştirilebilir API",
-          "7/24 özel destek"
+          "24/7 özel destek"
         ]
       }
     },
     "hardwareSection": {
-      "title": "Opsiyonel Donanım",
-      "subtitle": "Satın alınabilecek profesyonel tabletler ve aksesuarlar mevcut"
+      "title": "Seçeneksel Donanım",
+      "subtitle": "Satın alınabilir profesyonel tabletler ve aksesuarlar"
     },
     "hardware": {
       "tablet": {
         "name": "Profesyonel 10\" Tablet",
-        "description": "Ağır kullanım için dayanıklı Android tableti",
+        "description": "Yoğun kullanım için sağlam Android tablet",
         "features": [
-          "Antireflektif ve dayanıklı 10\" ekran",
+          "10\" yansıtıcı ve dayanıklı ekran",
           "Uzun ömürlü pil (12 saat)",
           "Darbelere dayanıklı kılıf dahil",
-          "Ergonomik kemer desteği"
+          "Ergonomik bel desteği"
         ]
       },
       "printer": {
@@ -1048,47 +1048,47 @@
     "benefits": {
       "efficiency": {
         "title": "Daha hızlı hizmet",
-        "description": "Sipariş ile mutfak arasındaki süreyi %40 azaltın"
+        "description": "Sipariş ile mutfağa gönderim arasındaki süreyi %40 oranında azaltın"
       },
       "speed": {
-        "title": "Hızlı döngü",
-        "description": "Yoğun saatlerde daha fazla misafir ağırlayın"
+        "title": "Hızlandırılmış döngü",
+        "description": "Yoğun saatlerde daha fazla müşteri hizmeti verin"
       },
       "errors": {
         "title": "Sıfır hata",
-        "description": "Yazım hatalarını ve unutma durumlarını ortadan kaldırın"
+        "description": "Yazım hatalarını ve unutkanlıkları ortadan kaldırın"
       },
       "management": {
         "title": "Kolay yönetim",
-        "description": "Her garsonun performansını anlık olarak takip edin"
+        "description": "Her garsonun performansını gerçek zamanlı olarak takip edin"
       }
     },
     "comparison": {
-      "title": "Paketlerin karşılaştırma tablosu",
+      "title": "Paket karşılaştırma tablosu",
       "feature": "Özellik",
-      "tablets": "Dahil olan tabletler",
+      "tablets": "Dahili tabletler",
       "tables": "Masa sayısı",
-      "kitchen": "Mutfağa ekran",
-      "analytics": "Analitik",
+      "kitchen": "Mutfak ekranı",
+      "analytics": "Analizler",
       "support": "Müşteri desteği",
       "basic": "Temel",
       "advanced": "Gelişmiş",
       "complete": "Tam"
     },
     "cta": {
-      "title": "Hizmetinizi modernleştirmeye hazır mısınız?",
-      "subtitle": "30 gün boyunca ücretsiz deneyin, taahhüt yok",
-      "button": "Ücretsiz denemeyi başlat"
+      "title": "Hizmetinizi modernize etmeye hazır mısınız?",
+      "subtitle": "Taahhütsüz 30 gün boyunca ücretsiz deneyin",
+      "button": "Ücretsiz denemeye başlayın"
     }
   },
   "hardwareDevices": {
     "hero": {
-      "badge": "DONANIM KATALOĞU",
+      "badge": "DONANIM KATALOGU",
       "title": "Donanım ve POS Cihazları",
-      "subtitle": "İşletmeniz için ihtiyacınız olan tüm ekipmanlar ve aksesuarlar. Üst düzey profesyonel donanım."
+      "subtitle": "İşletmeniz için ihtiyaç duyduğunuz tüm ekipman ve aksesuarlar. Üst düzey profesyonel donanım."
     },
     "categories": {
-      "all": "Tüm",
+      "all": "Hepsi",
       "pos": "POS Terminalleri",
       "kiosk": "Kiosklar",
       "printers": "Yazıcılar",
@@ -1097,28 +1097,28 @@
     "devices": {
       "sunmiD3Pro": "15.6 inç dokunmatik ekran, Android 11, yüksek performanslı işlemci",
       "sunmiD3Mini": "10.1 inç dokunmatik ekran, kompakt ve güçlü",
-      "iMinSwan": "Kapasitif dokunmatik ekranlı premium Android POS terminali",
-      "iMinD3": "Entegre yazıcıya sahip tam POS çözümü",
+      "iMinSwan": "Kapasitif dokunmatik ekran ile premium Android POS terminali",
+      "iMinD3": "Entegre yazıcı ile tam-fledged POS çözümü",
       "iMinD2": "Küçük alanlar için ideal kompakt terminal",
       "iMinD1": "Tüm özelliklere sahip ekonomik POS terminali",
-      "wintecAnypos": "15.6 inç dikey self servis kiosk",
+      "wintecAnypos": "15.6 inç dikey self-service kiosk",
       "wintecSelfpos10": "Hızlı sipariş için dikey kiosk",
-      "wintecSelfpos70": "En yüksek görsel etki için 32 inç büyük kiosk",
-      "paxSk800": "Profesyonel 23.8 inç kiosk",
+      "wintecSelfpos70": "Görsel etki için büyük 32 inç kiosk",
+      "paxSk800": "23.8 inç profesyonel kiosk",
       "thermalPrinter": "POS Termal Yazıcı",
       "thermalPrinterDesc": "Hızlı ve sessiz yazdırma, tüm sistemlerle uyumlu",
       "labelPrinter": "Barkod Etiket Yazıcısı",
       "labelPrinterDesc": "Ürün etiketleri için kompakt ve kullanımı kolay",
-      "scaleLabel": "Etiket Yazıcı ile Terazi",
+      "scaleLabel": "Etiket Yazıcılı Terazi",
       "scaleLabelDesc": "Barkod yazdırma ile hassas ve güvenilir ölçüm",
       "barcodeWired": "Kablolu Barkod Okuyucu",
-      "barcodeWiredDesc": "Masa için profesyonel okuyucu",
+      "barcodeWiredDesc": "Kasa için profesyonel masa okuyucu",
       "barcodeWireless": "Kablosuz Barkod Okuyucu",
       "barcodeWirelessDesc": "30 saat pil ömrü, 100m menzil",
       "cashDrawer": "Metal Kasa Çekmecesi",
-      "cashDrawerDesc": "Dayanıklı metal güçlendirme konstrüksiyonu",
+      "cashDrawerDesc": "Güçlendirilmiş metalden sağlam ve dayanıklı yapı",
       "cardReader": "RFID Kart Okuyucu",
-      "cardReaderDesc": "Tak ve çalıştır, temassız kartlarla uyumlu",
+      "cardReaderDesc": "Plug & Play, temassız kartlarla uyumlu",
       "pavoN86": "NFC destekli HD mobil ödeme terminali",
       "waiterHandheld": "Taşınabilir Garson Terminali",
       "waiterHandheldDesc": "Mobil sipariş almak için ideal 5 inç HD IPS ekran",
@@ -1126,15 +1126,15 @@
     },
     "requestQuote": "Teklif talep et",
     "features": {
-      "title": "Neden bizim donanımımızı seçmelisiniz?",
+      "title": "Neden donanımımızı tercih etmelisiniz?",
       "subtitle": "Tam hizmet sunan profesyonel ekipmanlar",
       "quality": {
         "title": "Premium Kalite",
-        "description": "Dünya çapında tanınmış markalardan profesyonel donanım"
+        "description": "Dünya çapında tanınmış markaların profesyonel donanımı"
       },
       "warranty": {
-        "title": "Uzun Vadeli Garanti",
-        "description": "Modellerine göre 2 ila 5 yıl üretici garantisi"
+        "title": "Genişletilmiş Garanti",
+        "description": "Modellere göre 2 ila 5 yıl arası garanti"
       },
       "support": {
         "title": "Teknik Destek",
@@ -1146,44 +1146,44 @@
       }
     },
     "cta": {
-      "title": "Ekipmanınız için danışmanlık mı gerekiyor?",
-      "subtitle": "Uzmanlarımız ihtiyaçlarınıza uygun donanımı seçmenize yardımcı olur",
-      "button": "Uzmanlarımıza ulaşın"
+      "title": "Ekipmanınız için tavsiyeye mi ihtiyacınız var?",
+      "subtitle": "Uzmanlarımız ihtiyaçlarınıza uygun donanımı seçmeniz konusunda yardımcı olacak",
+      "button": "Uzmanlarımızla iletişime geçin"
     }
   },
   "about": {
     "hero": {
       "title": "AyaPos Hakkında",
-      "subtitle": "Restorasyonun dijital dönüşümüne adanmış yenilikçi bir şirketiz. Misyonumuz: Modern ve sezgisel POS çözümleri ile işletmenizin yönetimini basitleştirmek."
+      "subtitle": "Restoranların dijital dönüşümüne adanmış yenilikçi bir şirketiz. Misyonumuz: Modern ve sezgisel POS çözümleri ile işletmenizin yönetimini basitleştirmek."
     },
     "stats": {
       "clients": "Memnun Müşteriler",
       "years": "Deneyim Yılı",
-      "team": "Hizmetinizde Uzmanlar",
+      "team": "Hizmetinizdeki Uzmanlar",
       "satisfaction": "Memnuniyet Oranı"
     },
     "story": {
       "title": "Hikayemiz",
-      "paragraph1": "2010 yılında kurulan AyaPos, restoran sektörünü modernize etme isteğinden doğmuştur. İlk olarak, işletme boyutuna bakılmaksızın tüm restoran sahiplerine ulaşılabilir teknolojik araçlar yaratma vizyonuyla yola çıktık.",
-      "paragraph2": "Yıllar geçtikçe, yenilik, kullanım kolaylığı ve güvenilirliği birleştiren kapsamlı bir POS çözümü paketi geliştirdik. Bugün sistemlerimiz Fransa ve Avrupa genelinde 5000'den fazla restoran, kafe, bar ve işletmeye hizmet vermektedir.",
-      "paragraph3": "Tutkulu ekibimiz her gün ürünlerimizi geliştirmek ve müşterilerimizin başarısını desteklemek için çalışıyor. Teknolojinin insan hizmetinde olması gerektiğine, aksi değil, inanıyoruz."
+      "paragraph1": "2010 yılında kurulan AyaPos, restoran sektörünü modernleştirme isteğinden doğdu. İlk hedefimiz, işletme büyüklüğü ne olursa olsun, tüm restoran sahiplerine erişilebilir teknolojik araçlar yaratmaktı.",
+      "paragraph2": "Yıllar içinde, yenilik, kullanım kolaylığı ve güvenilirlik bir araya getiren kapsamlı bir POS çözümü seti geliştirdik. Sistemlerimiz bugün Fransa ve Avrupa genelinde 5000'den fazla restoran, kafe, bar ve işletmeyi destekliyor.",
+      "paragraph3": "Tutkulu ekibimiz, ürünlerimizi geliştirmek ve müşterilerimizin başarılarına destek olmak için her gün çalışıyor. Teknolojinin insanın hizmetinde olması gerektiğine inanıyoruz, tam tersine değil."
     },
     "valuesSection": {
       "title": "Değerlerimiz",
-      "subtitle": "Günlük faaliyetlerimizi yönlendiren ilkeler"
+      "subtitle": "Günlük faaliyetlerimizi yönlendiren unsurlar"
     },
     "values": {
       "innovation": {
-        "title": "İnovasyon",
-        "description": "Sizlere en ileri teknolojileri sunmak için sürekli Ar-Ge'ye yatırım yapıyoruz"
+        "title": "Yenilikçilik",
+        "description": "Size en ileri teknolojileri sunmak için sürekli Ar-Ge yatırımı yapıyoruz"
       },
       "customer": {
-        "title": "Müşteri Dinleme",
-        "description": "İhtiyaçlarınız geliştirme sürecimizin merkezinde. Dinliyoruz ve harekete geçiyoruz"
+        "title": "Müşteri İhtiyaçları",
+        "description": "İhtiyaçlarınız geliştirmelerimizin merkezinde. Dinliyoruz ve harekete geçiyoruz"
       },
       "quality": {
         "title": "Kalite",
-        "description": "Premium malzeme, güvenilir yazılımlar ve mükemmel teknik destek"
+        "description": "Premium donanım, sağlam yazılımlar ve mükemmel teknik destek"
       },
       "efficiency": {
         "title": "Verimlilik",
@@ -1192,28 +1192,28 @@
     },
     "timeline": {
       "title": "Gelişim Sürecimiz",
-      "subtitle": "Gelişimimizin önemli aşamaları",
+      "subtitle": "Gelişimimizdeki önemli aşamalar",
       "2010": {
-        "title": "AyaPos'un Kuruluşu",
-        "description": "Restoranlar için ilk POS sistemimizi başlattık ve ilk yıl 50 müşteri çekmeyi başardık"
+        "title": "AyaPos'un Kurulması",
+        "description": "Yılın ilk ayında 50 müşterisi ile restoranlar için ilk POS sistemimizi piyasaya sürdük"
       },
       "2015": {
         "title": "Ulusal Genişleme",
-        "description": "5 bölgesel ofis açıldı ve garsonlar için mobil uygulama başlatıldı"
+        "description": "5 bölgesel ofis açılışı ve garsonlar için mobil uygulamanın lansmanı"
       },
       "2020": {
-        "title": "Bulut İnovasyonu",
-        "description": "Tam olarak buluta geçiş ve yeni nesil self servis kioskların lansmanı"
+        "title": "Bulut Yeniliği",
+        "description": "Tam bulut geçişi ve yeni nesil self-service kioskların piyasaya sürülmesi"
       },
       "2024": {
         "title": "Yapay Zeka",
-        "description": "Satış tahminleri ve optimize edilmiş stok yönetimi için yapay zeka entegrasyonu"
+        "description": "Satış tahminleri ve stok optimizasyonu için yapay zekanın entegrasyonu"
       }
     },
     "mission": {
       "title": "Misyonumuz",
-      "description": "Restoran işletmecilerine dijital dönüşüm süreçlerinde basit, güçlü ve uygun fiyatlı araçlar sunarak onlara destek olmak. Biz, her işletmenin, küçük bir kafeden büyük bir restorana kadar, büyük zincirlerle aynı teknolojilerden faydalanabilmesini istiyoruz.",
-      "badge1": "Sürekli İnovasyon",
+      "description": "Restoran sahiplerini dijital dönüşümlerinde desteklemek ve onlara basit, güçlü ve uygun fiyatlı araçlar sunmak. Küçük kafelerden büyük restoranlara kadar her işletmenin büyük zincirlerle aynı teknolojilerden faydalanmasını istiyoruz.",
+      "badge1": "Sürekli Yenilik",
       "badge2": "Özel Destek",
       "badge3": "Aktif Topluluk"
     }
@@ -1221,10 +1221,10 @@
   "blog": {
     "hero": {
       "title": "AyaPos Blogu",
-      "subtitle": "Modern restorasyonda haberler, ipuçları ve trendler"
+      "subtitle": "Modern restoran haberleri, ipuçları ve trendler"
     },
     "categories": {
-      "all": "Tüm makaleler",
+      "all": "Tüm Makaleler",
       "news": "Haberler",
       "tips": "İpuçları",
       "technology": "Teknoloji",
@@ -1233,35 +1233,35 @@
     "readMore": "Devamını oku",
     "articles": {
       "article1": {
-        "title": "AyaPos yeni self servis kiosk serisini tanıtıyor",
-        "excerpt": "32 inç ekran ve ultra sezgisel arayüze sahip yeni kiosklarımızı keşfedin. Hızlı restoranda müşteri deneyimi için devrim niteliğinde."
+        "title": "AyaPos, yeni self-service kiosk serisini tanıttı",
+        "excerpt": "32 inç ekran ve ultra sezgisel arayüze sahip yeni kiosklarımızı keşfedin. Hızlı hizmette müşteri deneyimi için bir devrim."
       },
       "article2": {
-        "title": "Yoğun dönemlerde hizmetinizi optimize etmek için 10 ipucu",
-        "excerpt": "Aşırı kalabalık saatlerde nasıl yönetim yapılır? Uzmanlarımız kaliteli hizmeti sürdürmek için en iyi uygulamalarını paylaşıyor."
+        "title": "Yoğun dönemlerde hizmetinizi optimize etmek için 10 İpucu",
+        "excerpt": "Acelenin olduğu saatlerde nasıl yönetim sağlanır? Uzmanlarımız, kalitenin korunması için en iyi uygulamalarını paylaşıyor."
       },
       "article3": {
-        "title": "Yapay Zeka restorasyon hizmetinde",
-        "excerpt": "Yapay zekanın satış tahminlerinizi, stok optimizasyonunuzu ve müşteri deneyiminizi nasıl kişiselleştirebileceği. AyaPos'un yeni özelliklerini keşfedin."
+        "title": "Yapay Zeka restoran sektöründe nasıl hizmet ediyor",
+        "excerpt": "Yapay zeka, satışlarınızı tahmin etmede, stoklarınızı optimize etmede ve müşteri deneyimini kişiselleştirmede nasıl yardımcı olabilir. AyaPos'un yeni özelliklerini keşfedin."
       },
       "article4": {
-        "title": "Başarı Hikayesi: Modern Bistro, cirosunu üç katına çıkarıyor",
-        "excerpt": "Restoranını geleneksel bir işletmeden modern bir işletmeye dönüştüren Jean Dupont ile tanışın. İlham verici bir ifade."
+        "title": "Başarı Hikayesi: Modern Bistro, cirosunu üç katına çıkardı",
+        "excerpt": "Geleneksel restoranını modern bir işletmeye dönüştüren Jean Dupont ile tanışın. AyaPos çözümleri sayesinde ilham verici bir hikaye."
       },
       "article5": {
-        "title": "Teknoloji ile gıda israfını azaltmak",
-        "excerpt": "Akıllı stok yönetim sistemimiz kayıplarınızı %40 azaltmanıza yardımcı olur. Alımlarınızı optimize edebilir ve israfları sınırlayabilirsiniz."
+        "title": "Teknoloji sayesinde gıda israfını azaltmak",
+        "excerpt": "Zeki stok yönetim sistemimiz, kayıplarınızı %40 oranında azaltmanıza yardımcı olur. Alımlarınızı nasıl optimize edeceğinizi ve israfı nasıl sınırlayacağınızı keşfedin."
       },
       "article6": {
         "title": "QR Kodu ve çevrimiçi sipariş: Müşterilerin yeni beklentileri",
-        "excerpt": "Tüketim alışkanlıkları değişiyor. Müşterilerin %73'ü QR kodu ile sipariş vermeyi tercih ediyor. Bu yeni eğilimlere nasıl uyum sağlarız?"
+        "excerpt": "Tüketim alışkanlıkları değişiyor. Müşterilerin %73'ü QR kodla sipariş vermeyi tercih ediyor. Bu yeni trendlere nasıl uyum sağlarız?"
       }
     },
     "newsletter": {
-      "title": "Haberdar Kalın",
-      "subtitle": "Son makalelerimizi ve ipuçlarımızı doğrudan dahilinize alın",
+      "title": "Bilgilendirilmek İçin Kalın",
+      "subtitle": "Son makalelerimizi ve ipuçlarımızı doğrudan e-posta kutunuza alın",
       "placeholder": "E-posta adresiniz",
-      "button": "Abone ol"
+      "button": "Abone Ol"
     }
   }
 }
