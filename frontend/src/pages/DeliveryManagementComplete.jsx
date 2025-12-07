@@ -152,6 +152,39 @@ const DeliveryManagementComplete = () => {
         </div>
       </section>
 
+      {/* Benefits Section with Images */}
+      {content?.benefits && content.benefits.length > 0 && (
+        <section className="py-20 bg-gradient-to-br from-blue-50 to-white">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                Avantages de la Gestion de Livraison
+              </h2>
+            </div>
+            
+            <div className="grid md:grid-cols-3 gap-8">
+              {content.benefits.map((benefit, index) => (
+                <div key={index} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all border border-blue-100">
+                  {benefit.image && (
+                    <img
+                      src={benefit.image}
+                      alt={benefit.title}
+                      className="w-full h-56 object-cover rounded-lg mb-6"
+                    />
+                  )}
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                    {benefit.title}
+                  </h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    {benefit.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Order Management Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
