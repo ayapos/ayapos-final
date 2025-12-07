@@ -22,9 +22,12 @@ const Pricing = () => {
   useEffect(() => {
     const fetchPricingPlans = async () => {
       try {
-        const response = await axios.get(`${API_URL}/api/pricing/`);
-        if (response.data.success && response.data.plans.length > 0) {
-          setPricingPlans(response.data.plans.filter(p => p.active));
+        // Charger les packages depuis l'API products
+        const response = await axios.get(`${API_URL}/api/products/`);
+        if (response.data.success && response.data.products.length > 0) {
+          // Filtrer les produits de catégorie "package"
+          const packages = response.data.products.filter(p => p.category === 'package');
+          setPricingPlans(packages.length > 0 ? packages : posPackages);
         } else {
           setPricingPlans(posPackages);
         }
