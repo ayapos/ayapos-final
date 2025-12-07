@@ -107,10 +107,14 @@ const DynamicEditor = ({ data, onUpdate, onImageUpload }) => {
 
     // String
     if (typeof value === 'string') {
-      // Image fields
-      if (key.toLowerCase().includes('image') || key.toLowerCase().includes('photo') || 
-          (typeof value === 'string' && (value.startsWith('http') || value.startsWith('/')) && 
-           (value.includes('.jpg') || value.includes('.png') || value.includes('.webp') || value.includes('.jpeg')))) {
+      // Image fields - détection améliorée pour URLs d'images
+      const isImageKey = key.toLowerCase().includes('image') || key.toLowerCase().includes('photo') || key.toLowerCase().includes('icon');
+      const isImageURL = typeof value === 'string' && (value.startsWith('http') || value.startsWith('/')) && 
+        (value.includes('.jpg') || value.includes('.png') || value.includes('.webp') || value.includes('.jpeg') ||
+         value.includes('images.unsplash') || value.includes('/photo') || value.includes('cloudinary') ||
+         value.includes('/uploads/'));
+      
+      if (isImageKey || isImageURL) {
         return (
           <div key={fullPath} className="space-y-2">
             <Label className="text-sm font-semibold text-gray-700">{formatLabel(key)}</Label>
