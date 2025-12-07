@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Télécharger la Base de Données AyaPos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .card {
+            background: white;
+            color: #333;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 20px 0;
+            transition: transform 0.3s;
+        }
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        .info {
+            background: #f0f4ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .info-item {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .icon {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        code {
+            background: #2d3748;
+            color: #68d391;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>📦 Backup Base de Données AyaPos</h1>
+        
+        <p>Téléchargez la sauvegarde complète de votre base de données MongoDB.</p>
+        
+        <a href="/mongodb_ayapos_backup.tar.gz" download class="download-btn">
+            ⬇️ Télécharger mongodb_ayapos_backup.tar.gz (45KB)
+        </a>
+        
+        <div class="info">
+            <h3>📋 Contenu du backup:</h3>
+            <div class="info-item">
+                <span class="icon">📝</span>
+                <span><strong>6 articles de blog</strong> complets (2000-4000 mots)</span>
+            </div>
+            <div class="info-item">
+                <span class="icon">📄</span>
+                <span><strong>52 pages</strong> de contenu dynamique</span>
+            </div>
+            <div class="info-item">
+                <span class="icon">🖼️</span>
+                <span><strong>76 images</strong> uploadées</span>
+            </div>
+            <div class="info-item">
+                <span class="icon">🛍️</span>
+                <span><strong>10 produits</strong> configurés</span>
+            </div>
+            <div class="info-item">
+                <span class="icon">💾</span>
+                <span><strong>186 documents</strong> au total</span>
+            </div>
+        </div>
+        
+        <div class="warning">
+            <strong>⚠️ Important:</strong> Vous devez avoir MongoDB installé localement pour restaurer ce backup.
+        </div>
+        
+        <h3>🚀 Comment restaurer?</h3>
+        <p>Une fois téléchargé, exécutez dans votre terminal:</p>
+        <pre style="background: #2d3748; color: #68d391; padding: 15px; border-radius: 5px; overflow-x: auto;">
+# Décompresser
+tar -xzf mongodb_ayapos_backup.tar.gz
+
+# Restaurer
+mongorestore --db=test_database mongodb_backup/test_database/ --drop
+        </pre>
+        
+        <p style="margin-top: 30px; text-align: center; color: #888;">
+            <small>Pour plus d'instructions, consultez le fichier <code>INSTALLATION_LOCALE.md</code></small>
+        </p>
+    </div>
+</body>
+</html>
