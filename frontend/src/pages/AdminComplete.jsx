@@ -51,6 +51,7 @@ const AdminComplete = () => {
     // 📌 PAGES PRINCIPALES
     { slug: 'home', name: 'Page d\'Accueil', icon: Home, category: '📌 Pages Principales' },
     { slug: 'pos', name: 'Systèmes POS', icon: Monitor, category: '📌 Pages Principales' },
+    { slug: 'ayapay', name: 'AyaPay', icon: CreditCard, category: '📌 Pages Principales' },
     { slug: 'digital', name: 'Solutions Digitales', icon: Smartphone, category: '📌 Pages Principales' },
     
     // 🍽️ SOLUTIONS RESTAURANT
