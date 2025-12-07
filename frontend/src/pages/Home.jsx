@@ -206,10 +206,10 @@ const Home = () => {
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl mb-6 shadow-lg">
                   <LucideIcons.Users className="h-8 w-8 text-white" />
                 </div>
-                <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent mb-3">
+                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent mb-3">
                   800+
                 </div>
-                <p className="text-gray-600 font-medium">Clients satisfaits</p>
+                <p className="text-sm md:text-base text-gray-600 font-medium">Clients satisfaits</p>
               </div>
             </div>
             
