@@ -584,6 +584,71 @@ const Pricing = () => {
         </div>
       </section>
 
+      {/* Terminaux de Paiement Section */}
+      {terminals.length > 0 && (
+        <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                Terminaux de Paiement
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Nos terminaux professionnels pour accepter tous les paiements
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {terminals.map((terminal) => {
+                const priceDisplay = terminal.priceType === 'one-time' 
+                  ? `${terminal.currency || 'CHF'} ${terminal.price}`
+                  : `${terminal.currency || 'CHF'} ${terminal.price}/${terminal.billingPeriod === 'yearly' ? 'an' : 'mois'}`;
+
+                return (
+                  <Card key={terminal.id} className="hover:shadow-2xl transition-all duration-300 border-2 hover:border-blue-300">
+                    <CardHeader className="text-center pb-4">
+                      {terminal.image && (
+                        <img 
+                          src={terminal.image} 
+                          alt={terminal.name}
+                          className="w-32 h-32 mx-auto object-contain mb-4"
+                        />
+                      )}
+                      <CardTitle className="text-xl mb-2">{terminal.name}</CardTitle>
+                      <CardDescription>{terminal.description || terminal.tagline}</CardDescription>
+                      <div className="mt-4">
+                        <div className="text-3xl font-bold text-blue-600">
+                          {priceDisplay}
+                        </div>
+                        {terminal.priceType === 'one-time' && (
+                          <div className="text-sm text-gray-500 mt-1">Achat unique</div>
+                        )}
+                      </div>
+                    </CardHeader>
+                    <CardContent>
+                      {terminal.features && terminal.features.length > 0 && (
+                        <ul className="space-y-2">
+                          {terminal.features.slice(0, 5).map((feature, idx) => (
+                            <li key={idx} className="flex items-start text-sm">
+                              <Check className="h-4 w-4 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
+                              <span className="text-gray-700">{feature}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                      <Link to="/contact" className="block mt-6">
+                        <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                          Commander
+                        </Button>
+                      </Link>
+                    </CardContent>
+                  </Card>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* CTA Section */}
       <section className="py-20 bg-blue-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
