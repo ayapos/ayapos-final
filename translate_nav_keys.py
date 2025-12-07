@@ -45,7 +45,7 @@ async def translate_text(text, target_lang):
     """Traduire un texte"""
     prompt = f"Translate this French text to {LANGUAGES[target_lang]}. Return ONLY the translation, no explanations:\n\n{text}"
     
-    response = await openai.ChatCompletion.acreate(
+    response = await client.chat.completions.create(
         model="gpt-4o",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.3
