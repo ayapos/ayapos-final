@@ -94,6 +94,11 @@ const AdminComplete = () => {
     loadPageData(selectedPage);
   }, [selectedPage]);
 
+  // Charger la config du popup au montage
+  useEffect(() => {
+    loadPopupConfig();
+  }, []);
+
   const loadPageData = async (slug) => {
     setLoading(true);
     try {
