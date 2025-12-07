@@ -191,10 +191,10 @@ const Home = () => {
             <span className="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold mb-4">
               Nos Résultats
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
               Des chiffres qui parlent
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
               Plus de 800 entreprises suisses nous font confiance pour digitaliser leurs opérations
             </p>
           </div>
