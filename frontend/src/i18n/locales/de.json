@@ -4,10 +4,27 @@
     "pos": "POS-Systeme",
     "digital": "Digitale Lösungen",
     "ayapay": "AyaPay",
+    "it_services": "IT-Entwicklung",
     "pricing": "Preise",
     "about": "Über uns",
     "contact": "Kontakt",
-    "demo": "Demo anfordern"
+    "demo": "Demo anfordern",
+    "pos_dropdown": {
+      "restaurant_cafe": "Restaurant & Café",
+      "management_tools": "Management-Tools",
+      "restaurant_pos": "Restaurant-POS-System",
+      "self_order_kiosk": "Self-Order-Kiosk",
+      "order_system": "Bestellsystem",
+      "waiter_terminal": "Kellner-Terminal",
+      "mobile_order_app": "Mobile Bestell-App",
+      "robot_waiter": "Roboter-Kellner",
+      "delivery_management": "Lieferverwaltung",
+      "web_portal": "Webportal",
+      "mobile_reports": "Mobile Berichte",
+      "stock_management": "Lagerverwaltung",
+      "centralized_management": "Zentralisierte Verwaltung",
+      "hardware_devices": "Hardware-Geräte"
+    }
   },
   "hero": {
     "title": "POS- und Zahlungslösungen der neuen Generation",
