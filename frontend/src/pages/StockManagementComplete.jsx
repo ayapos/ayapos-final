@@ -74,7 +74,7 @@ const StockManagementComplete = () => {
             <div className="relative">
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1740914994657-f1cdffdc418e?w=800&h=600&fit=crop" 
+                  src={content?.section_images?.hero_side || "https://images.unsplash.com/photo-1740914994657-f1cdffdc418e?w=800&h=600&fit=crop"} 
                   alt="Stock Management"
                   className="w-full h-auto"
                 />
