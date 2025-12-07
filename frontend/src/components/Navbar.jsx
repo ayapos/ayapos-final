@@ -52,22 +52,7 @@ const Navbar = () => {
     },
     { name: t('nav.ayapay'), path: '/ayapay', isPremium: true },
     { name: t('nav.digital'), path: '/digital' },
-    { 
-      name: 'Développement IT', 
-      path: '/it-services',
-      hasDropdown: true,
-      dropdown: {
-        sections: [
-          {
-            title: 'Nos Services',
-            items: [
-              { name: 'Services IT', path: '/it-services', icon: 'Code' },
-              { name: 'Portfolio', path: '/it-services#portfolio', icon: 'Briefcase' }
-            ]
-          }
-        ]
-      }
-    },
+    { name: 'Développement IT', path: '/it-services' },
     { name: t('nav.pricing'), path: '/pricing' },
     { name: t('nav.contact'), path: '/contact' },
   ];
