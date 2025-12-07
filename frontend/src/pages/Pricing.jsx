@@ -18,6 +18,7 @@ const Pricing = () => {
   const { getContentValue, loading: contentLoading } = usePageContent('pricing');
   const [pricingPlans, setPricingPlans] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [terminals, setTerminals] = useState([]);
 
   useEffect(() => {
     const fetchPricingPlans = async () => {
