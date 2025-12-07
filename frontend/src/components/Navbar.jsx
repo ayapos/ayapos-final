@@ -75,12 +75,13 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          {/* Logo - Option 1: Accent coloré */}
-          <Link to="/" className="flex items-center gap-1">
-            <span className="text-5xl font-black bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-600 bg-clip-text text-transparent tracking-tight" style={{ fontFamily: 'Arial Black, sans-serif' }}>
+          {/* Logo - Option 2: Avec séparateur */}
+          <Link to="/" className="flex items-center gap-3">
+            <span className="text-5xl font-black text-blue-600 tracking-tight" style={{ fontFamily: 'Arial Black, sans-serif' }}>
               AYA
             </span>
-            <span className="text-5xl font-bold text-gray-800 tracking-wide" style={{ fontFamily: 'Arial, sans-serif' }}>
+            <span className="text-4xl text-gray-300 font-thin">|</span>
+            <span className="text-5xl font-black text-gray-800 tracking-tight" style={{ fontFamily: 'Arial Black, sans-serif' }}>
               POS
             </span>
           </Link>
