@@ -7,7 +7,24 @@
     "pricing": "التسعير",
     "about": "معلومات عنا",
     "contact": "اتصل",
-    "demo": "طلب عرض توضيحي"
+    "demo": "طلب عرض توضيحي",
+    "it_services": "تطوير تكنولوجيا المعلومات",
+    "pos_dropdown": {
+      "restaurant_cafe": "مطعم ومقهى",
+      "management_tools": "أدوات الإدارة",
+      "restaurant_pos": "نظام نقاط البيع للمطعم",
+      "self_order_kiosk": "كشك الطلب الذاتي",
+      "order_system": "نظام الطلبات",
+      "waiter_terminal": "جهاز النادل",
+      "mobile_order_app": "تطبيق الطلب المحمول",
+      "robot_waiter": "نادل روبوت",
+      "delivery_management": "إدارة التسليم",
+      "web_portal": "بوابة الويب",
+      "mobile_reports": "التقارير المحمولة",
+      "stock_management": "إدارة المخزون",
+      "centralized_management": "الإدارة المركزية",
+      "hardware_devices": "أجهزة الأجهزة"
+    }
   },
   "hero": {
     "title": "حلول نقاط البيع والدفع من الجيل الجديد",

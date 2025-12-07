@@ -7,7 +7,24 @@
     "pricing": "Cene",
     "about": "O nama",
     "contact": "Kontakt",
-    "demo": "Zatražite demo"
+    "demo": "Zatražite demo",
+    "it_services": "IT Razvoj",
+    "pos_dropdown": {
+      "restaurant_cafe": "Restoran i Kafić",
+      "management_tools": "Alati za Upravljanje",
+      "restaurant_pos": "Restoranski POS Sistem",
+      "self_order_kiosk": "Samoposluživanje Kiosk",
+      "order_system": "Sistem Narudžbi",
+      "waiter_terminal": "Konobar Terminal",
+      "mobile_order_app": "Mobilna Aplikacija za Narudžbe",
+      "robot_waiter": "Robot Konobar",
+      "delivery_management": "Upravljanje Dostavom",
+      "web_portal": "Veb Portal",
+      "mobile_reports": "Mobilni Izveštaji",
+      "stock_management": "Upravljanje Zalihama",
+      "centralized_management": "Centralizovano Upravljanje",
+      "hardware_devices": "Hardverski Uređaji"
+    }
   },
   "hero": {
     "title": "Rešenja POS i Plaćanje nove generacije",

@@ -7,7 +7,24 @@
     "pricing": "Çmimet",
     "about": "Rreth",
     "contact": "Kontakto",
-    "demo": "Kërko një demo"
+    "demo": "Kërko një demo",
+    "it_services": "Zhvillim IT",
+    "pos_dropdown": {
+      "restaurant_cafe": "Restorant & Kafe",
+      "management_tools": "Mjete Menaxhimi",
+      "restaurant_pos": "Sistem POS Restoranti",
+      "self_order_kiosk": "Kiosk Vetë-Porosie",
+      "order_system": "Sistem Porosish",
+      "waiter_terminal": "Terminal Kamerier",
+      "mobile_order_app": "Aplikacion Mobil Porosish",
+      "robot_waiter": "Kamerier Robot",
+      "delivery_management": "Menaxhim Dorëzimi",
+      "web_portal": "Portal Web",
+      "mobile_reports": "Raporte Mobile",
+      "stock_management": "Menaxhim Stoku",
+      "centralized_management": "Menaxhim i Centralizuar",
+      "hardware_devices": "Pajisje Hardware"
+    }
   },
   "hero": {
     "title": "Zgjidhjet POS dhe Pagesa të Reja",
