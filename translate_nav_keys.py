@@ -44,17 +44,15 @@ FR_TEXTS = {
 
 async def translate_text(text, target_lang):
     """Traduire un texte"""
-    client = Emergent()
-    
     prompt = f"Translate this French text to {LANGUAGES[target_lang]}. Return ONLY the translation, no explanations:\n\n{text}"
     
-    response = await client.generations.chat_completion_async(
+    response = await openai.ChatCompletion.acreate(
         model="gpt-4o",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.3
     )
     
-    return response['choices'][0]['message']['content'].strip()
+    return response.choices[0].message.content.strip()
 
 async def translate_nav_section(lang_code):
     """Traduire la section nav pour une langue"""
