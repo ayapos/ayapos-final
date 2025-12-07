@@ -312,7 +312,7 @@ const DeliveryManagementComplete = () => {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1593929976216-f746e488aa45?w=800&h=600&fit=crop"
+                src={content?.section_images?.payment || "https://images.unsplash.com/photo-1593929976216-f746e488aa45?w=800&h=600&fit=crop"}
                 alt="Courier Management"
                 className="rounded-2xl shadow-2xl"
               />
