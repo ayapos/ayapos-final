@@ -79,6 +79,8 @@ const ProductsManager = () => {
         tagline: formData.tagline || formData.description,
         price: parseFloat(formData.price),
         currency: formData.currency || 'CHF',
+        priceType: formData.priceType || 'subscription',
+        billingPeriod: formData.billingPeriod || 'monthly',
         features: formData.features.split('\n').filter(f => f.trim()),
         recommended: formData.recommended,
         featured: formData.featured,
