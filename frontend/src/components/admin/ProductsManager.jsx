@@ -36,14 +36,22 @@ const ProductsManager = () => {
 
   const loadProducts = async () => {
     try {
+      console.log('🔄 Chargement des produits depuis:', `${API_URL}/api/products`);
       const response = await axios.get(`${API_URL}/api/products`);
+      console.log('✅ Réponse API:', response.data);
+      
       if (response.data.success) {
         setProducts(response.data.products);
+        console.log(`📦 ${response.data.products.length} produits chargés`);
+      } else {
+        console.warn('⚠️ API success=false');
       }
     } catch (error) {
+      console.error('❌ Erreur chargement produits:', error);
+      console.error('Détails:', error.response?.data || error.message);
       toast({
         title: "Erreur",
-        description: "Impossible de charger les produits",
+        description: error.response?.data?.detail || "Impossible de charger les produits",
         variant: "destructive"
       });
     } finally {
