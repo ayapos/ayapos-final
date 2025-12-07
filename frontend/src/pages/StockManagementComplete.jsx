@@ -1,9 +1,20 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { ArrowRight, Package, TrendingUp, AlertCircle, BarChart3, Clipboard, Clock, CheckCircle, Archive } from 'lucide-react';
+import { usePageContent } from '../hooks/usePageContent';
 
 const StockManagementComplete = () => {
   const { t } = useTranslation();
+  const { getContentValue, loading } = usePageContent('stock-management');
+  const content = { section_images: {} };
+  
+  // Charger les images dynamiques
+  if (!loading) {
+    const sectionImages = getContentValue('section_images');
+    if (sectionImages) {
+      content.section_images = sectionImages;
+    }
+  }
 
   const mainBenefits = [
     {
