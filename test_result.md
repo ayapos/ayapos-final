@@ -490,6 +490,8 @@ test_plan:
     - "Homepage Carousel End-to-End Upload and Display Test - PASSED"
     - "CMS Image Upload Bug Fixes Testing - PASSED"
     - "Mobile Order App Editable Images Testing - PASSED"
+    - "Delivery Management API Content Structure - PASSED"
+    - "Robot Waiter API Content Structure - PASSED"
 
 agent_communication:
     - agent: "testing"
