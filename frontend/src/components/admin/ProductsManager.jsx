@@ -76,11 +76,15 @@ const ProductsManager = () => {
         description: formData.description,
         tagline: formData.tagline || formData.description,
         price: parseFloat(formData.price),
+        currency: formData.currency || 'CHF',
         features: formData.features.split('\n').filter(f => f.trim()),
         recommended: formData.recommended,
-        discount: formData.discount ? parseInt(formData.discount) : null,
-        inStock: true,
-        featured: formData.recommended
+        featured: formData.featured,
+        highlighted: formData.highlighted,
+        badge: formData.badge || '',
+        image: formData.image || '',
+        discount: formData.discount ? parseInt(formData.discount) : 0,
+        inStock: true
       };
 
       if (editingProduct) {
