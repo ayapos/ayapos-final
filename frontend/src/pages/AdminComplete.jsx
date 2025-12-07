@@ -31,7 +31,20 @@ const AdminComplete = () => {
   const [loading, setLoading] = useState(false);
   const [saving, setSaving] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
-  const [activeTab, setActiveTab] = useState('editor'); // 'editor', 'photos', ou 'packages'
+  const [activeTab, setActiveTab] = useState('editor'); // 'editor', 'photos', 'packages', ou 'popup'
+  
+  // États pour le popup promotionnel
+  const [popupConfig, setPopupConfig] = useState({
+    enabled: false,
+    title: '',
+    description: '',
+    image: '',
+    button_text: 'Contactez-nous',
+    contact_email: 'emrah@ayapos.com',
+    whatsapp_number: '',
+    show_on_pages: ['home']
+  });
+  const [loadingPopup, setLoadingPopup] = useState(false);
 
   // Liste COMPLÈTE de toutes les pages du site
   const allPages = [
