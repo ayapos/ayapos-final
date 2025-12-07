@@ -1,212 +1,212 @@
 {
   "nav": {
-    "home": "Accueil",
-    "pos": "Systèmes POS",
-    "digital": "Solutions Digitales",
+    "home": "Home",
+    "pos": "Sistemi POS",
+    "digital": "Soluzioni Digitali",
     "ayapay": "AyaPay",
-    "pricing": "Tarifs",
-    "about": "À propos",
-    "contact": "Contact",
-    "demo": "Demander une démo"
+    "pricing": "Tariffe",
+    "about": "Chi siamo",
+    "contact": "Contattaci",
+    "demo": "Richiedi una demo"
   },
   "hero": {
-    "title": "Solutions POS et Paiement Nouvelle Génération",
-    "subtitle": "Restaurants, cafés, hôtels, marchés et chaînes d'entreprises - Systèmes POS innovants avec terminaux de paiement intégrés",
-    "cta": "Découvrir nos solutions",
-    "cta_secondary": "Voir les tarifs"
+    "title": "Soluzioni POS e Pagamento di Nuova Generazione",
+    "subtitle": "Ristoranti, caffè, hotel, mercati e catene aziendali - Sistemi POS innovativi con terminali di pagamento integrati",
+    "cta": "Scopri le nostre soluzioni",
+    "cta_secondary": "Vedi le tariffe"
   },
   "features": {
-    "title": "Tout ce dont vous avez besoin pour réussir",
-    "pos_title": "Système POS Complet",
-    "pos_desc": "Gérez vos ventes, stocks, et rapports en temps réel depuis n'importe où",
-    "payment_title": "Terminaux de Paiement",
-    "payment_desc": "Solutions de paiement sécurisées et rapides pour tous types de transactions",
-    "digital_title": "Menus Digitaux",
-    "digital_desc": "QR codes, tablettes et kiosques pour une expérience client moderne",
-    "reports_title": "Rapports & Analytics",
-    "reports_desc": "Suivez vos performances avec des tableaux de bord intuitifs"
+    "title": "Tutto ciò di cui hai bisogno per avere successo",
+    "pos_title": "Sistema POS Completo",
+    "pos_desc": "Gestisci le tue vendite, inventari e report in tempo reale da qualsiasi luogo",
+    "payment_title": "Terminali di Pagamento",
+    "payment_desc": "Soluzioni di pagamento sicure e rapide per tutti i tipi di transazioni",
+    "digital_title": "Menu Digitali",
+    "digital_desc": "Codici QR, tablet e chioschi per un'esperienza cliente moderna",
+    "reports_title": "Report & Analytics",
+    "reports_desc": "Monitora le tue performance con dashboard intuitive"
   },
   "pos": {
-    "title": "Systèmes POS Professionnels",
-    "subtitle": "Choisissez la solution POS adaptée à votre entreprise",
+    "title": "Sistemi POS Professionali",
+    "subtitle": "Scegli la soluzione POS adatta alla tua azienda",
     "premium": {
       "name": "Premium POS",
-      "tagline": "Contrôle total, puissance maximale",
-      "desc": "Pour les chaînes de restaurants, centres commerciaux et entreprises à fort volume",
+      "tagline": "Controllo totale, potenza massima",
+      "desc": "Per catene di ristoranti, centri commerciali e aziende ad alto volume",
       "price": "1049€",
-      "period": "par mois"
+      "period": "al mese"
     },
     "tablet": {
       "name": "Tablet POS",
-      "tagline": "Compact et économique",
-      "desc": "Pour les petits restaurants, chaînes de cafés et pâtisseries boutiques",
+      "tagline": "Compatto ed economico",
+      "desc": "Per piccoli ristoranti, catene di caffè e pasticcerie",
       "price": "699€",
-      "period": "par mois"
+      "period": "al mese"
     },
     "web": {
       "name": "Web POS",
-      "tagline": "Démarrage rapide, votre propre appareil",
-      "desc": "Pour les nouvelles entreprises, cafés et kiosques",
+      "tagline": "Avvio rapido, il tuo dispositivo personale",
+      "desc": "Per nuove imprese, caffè e chioschi",
       "price": "525€",
-      "period": "par mois"
+      "period": "al mese"
     },
     "mobile": {
       "name": "Mobile POS",
-      "tagline": "Mobile et portable",
-      "desc": "Pour les ventes sur le terrain, vendeurs ambulants et événements",
+      "tagline": "Mobile e portatile",
+      "desc": "Per vendite sul campo, venditori ambulanti e eventi",
       "price": "349€",
-      "period": "par mois"
+      "period": "al mese"
     }
   },
   "ayapay": {
-    "title": "AyaPay - Terminaux de Paiement",
-    "subtitle": "Solutions de paiement professionnelles pour tous les besoins",
-    "hero_text": "Acceptez tous les modes de paiement avec nos terminaux nouvelle génération",
-    "terminals_title": "Nos Terminaux de Paiement",
+    "title": "AyaPay - Terminali di Pagamento",
+    "subtitle": "Soluzioni di pagamento professionali per tutte le esigenze",
+    "hero_text": "Accetta tutti i metodi di pagamento con i nostri terminali di nuova generazione",
+    "terminals_title": "I Nostri Terminali di Pagamento",
     "smartpos_a77": {
       "name": "SmartPOS A77",
-      "tagline": "Compact et léger",
-      "desc": "Terminal portable avec écran tactile et connexion 4G"
+      "tagline": "Compatto e leggero",
+      "desc": "Terminale portatile con schermo touchscreen e connessione 4G"
     },
     "smartpos_a920": {
       "name": "SmartPOS A920",
-      "tagline": "Smart et rapide",
-      "desc": "Terminal intelligent avec imprimante intégrée et grand écran"
+      "tagline": "Smart e veloce",
+      "desc": "Terminale intelligente con stampante integrata e grande schermo"
     },
     "deskpos_q80": {
       "name": "Desk POS Q80",
-      "tagline": "Fixe et pratique",
-      "desc": "Terminal de comptoir avec support et stabilité maximale"
+      "tagline": "Fisso e pratico",
+      "desc": "Terminale da banco con supporto e stabilità massima"
     },
     "softpos": {
       "name": "Tap to Pay iPhone",
-      "tagline": "Paiement sans terminal",
-      "desc": "Transformez votre iPhone en terminal de paiement"
+      "tagline": "Pagamento senza terminale",
+      "desc": "Trasforma il tuo iPhone in un terminale di pagamento"
     },
-    "features_title": "Fonctionnalités principales",
-    "feature_1": "Acceptation de toutes les cartes",
-    "feature_2": "Paiements sans contact NFC",
-    "feature_3": "Connexion WiFi et 4G",
-    "feature_4": "Reçus numériques et imprimés",
-    "feature_5": "Sécurité PCI-DSS",
-    "feature_6": "Intégration POS complète"
+    "features_title": "Caratteristiche principali",
+    "feature_1": "Accettazione di tutte le carte",
+    "feature_2": "Pagamenti contactless NFC",
+    "feature_3": "Connessione WiFi e 4G",
+    "feature_4": "Ricevute digitali e stampate",
+    "feature_5": "Sicurezza PCI-DSS",
+    "feature_6": "Integrazione POS completa"
   },
   "pricing": {
-    "title": "Tarifs Transparents",
-    "subtitle": "Choisissez le forfait adapté à vos besoins",
-    "monthly": "Mensuel",
-    "yearly": "Annuel",
-    "save": "Économisez 20%",
-    "cta": "Commencer",
-    "features": "Fonctionnalités incluses"
+    "title": "Tariffe Trasparenti",
+    "subtitle": "Scegli il pacchetto adatto alle tue esigenze",
+    "monthly": "Mensile",
+    "yearly": "Annuale",
+    "save": "Risparmia 20%",
+    "cta": "Inizia",
+    "features": "Funzionalità incluse"
   },
   "contact": {
-    "title": "Contactez-nous",
-    "subtitle": "Remplissez le formulaire et nous vous contacterons rapidement",
-    "name": "Nom de l'entreprise",
-    "type": "Type d'entreprise",
-    "phone": "Téléphone",
+    "title": "Contattaci",
+    "subtitle": "Compila il modulo e ti contatteremo rapidamente",
+    "name": "Nome dell'azienda",
+    "type": "Tipo di azienda",
+    "phone": "Telefono",
     "email": "Email",
-    "city": "Ville",
-    "message": "Message",
-    "submit": "Obtenir un devis gratuit",
-    "success": "Merci! Nous vous contacterons bientôt.",
-    "error": "Une erreur s'est produite. Veuillez réessayer."
+    "city": "Città",
+    "message": "Messaggio",
+    "submit": "Ottieni un preventivo gratuito",
+    "success": "Grazie! Ti contatteremo presto.",
+    "error": "Si è verificato un errore. Per favore riprova."
   },
   "footer": {
-    "tagline": "Solutions POS et Paiement de Nouvelle Génération",
-    "rights": "Tous droits réservés",
-    "company": "Entreprise",
-    "products": "Produits",
-    "support": "Support"
+    "tagline": "Soluzioni POS e Pagamento di Nuova Generazione",
+    "rights": "Tutti i diritti riservati",
+    "company": "Azienda",
+    "products": "Prodotti",
+    "support": "Supporto"
   },
   "robotWaiter": {
     "hero": {
-      "badge": "SOLUTIONS DE SERVICE NOUVELLE GÉNÉRATION",
-      "title": "Système de Serveur Robot",
-      "subtitle": "Système de serveur robot nouvelle génération pour les entreprises innovantes et pionnières",
-      "cta": "Demander un devis"
+      "badge": "SOLUZIONI DI SERVIZIO DI NUOVA GENERAZIONE",
+      "title": "Sistema di Servitore Robot",
+      "subtitle": "Sistema di servitore robot di nuova generazione per aziende innovative e pionieristiche",
+      "cta": "Richiedi un preventivo"
     },
     "benefits": {
-      "mainTitle": "Serveurs robots pour des clients satisfaits",
-      "mainSubtitle": "Les serveurs robots allègent la charge de travail de votre entreprise et permettent au personnel de fournir un service plus efficace",
+      "mainTitle": "Robot servitori per clienti soddisfatti",
+      "mainSubtitle": "I robot servitori alleviano il carico di lavoro della tua azienda e permettono al personale di offrire un servizio più efficace",
       "experience": {
-        "title": "Expérience unique",
-        "description": "Offrez à vos clients un nouveau concept rafraîchissant auquel ils ne sont pas habitués. Impressionnez vos clients avec des fonctionnalités interactives créant une expérience futuriste et unique."
+        "title": "Esperienza unica",
+        "description": "Offri ai tuoi clienti un nuovo concetto rinfrescante a cui non sono abituati. Impressiona i tuoi clienti con funzionalità interattive che creano un'esperienza futuristica e unica."
       },
       "contactless": {
-        "title": "Livraison de commandes sans contact",
-        "description": "Grâce au système de distribution de plateaux par robot serveur AyaPos, nous accordons désormais plus d'attention aux règles d'hygiène. Laissez les robots serveurs apporter les commandes à la table."
+        "title": "Consegna di ordini senza contatto",
+        "description": "Grazie al sistema di distribuzione dei vassoi tramite robot servitore AyaPos, ora prestiamo maggiore attenzione alle norme igieniche. Lascia che i robot servitori consegnino gli ordini al tavolo."
       },
       "profitability": {
-        "title": "Augmentez la rentabilité",
-        "description": "Augmentez la rentabilité de votre entreprise grâce aux systèmes de serveurs robots. En livrant les commandes de vos clients rapidement et sans erreur, vous augmentez également le volume d'affaires de votre entreprise."
+        "title": "Aumenta la redditività",
+        "description": "Aumenta la redditività della tua azienda grazie ai sistemi di robot servitori. Consegne rapide e senza errori degli ordini dei tuoi clienti aumentano anche il volume d'affari della tua azienda."
       },
       "efficiency": {
-        "title": "Service efficace",
-        "description": "Prolongez les heures d'ouverture de votre entreprise grâce aux serveurs robots et servez plus de clients tout en réduisant les erreurs de service."
+        "title": "Servizio efficace",
+        "description": "Allunga gli orari di apertura della tua azienda grazie ai robot servitori e servi più clienti riducendo gli errori di servizio."
       }
     },
     "navigation": {
-      "badge": "TECHNOLOGIE AUTONOME",
-      "title": "Système de Navigation Autonome",
-      "description1": "Les systèmes de serveurs robots utilisent des systèmes de navigation autonome pour garantir que vos serveurs robots effectuent des livraisons sûres et sans erreur aux tables des clients.",
-      "description2": "Les serveurs robots détectent les obstacles dans votre entreprise grâce à des capteurs et à la technologie radar laser, prévenant ainsi les collisions. Offrez un service plus sûr et sans erreur dans votre entreprise en assurant la sécurité de vos clients.",
-      "cta": "En savoir plus"
+      "badge": "TECNOLOGIA AUTONOMA",
+      "title": "Sistema di Navigazione Autonoma",
+      "description1": "I sistemi di robot servitori utilizzano sistemi di navigazione autonoma per garantire che i tuoi robot servitori effettuino consegne sicure e senza errori ai tavoli dei clienti.",
+      "description2": "I robot servitori rilevano gli ostacoli nella tua azienda grazie a sensori e tecnologia radar laser, prevenendo collisioni. Offri un servizio più sicuro e senza errori nella tua azienda garantendo la sicurezza dei tuoi clienti.",
+      "cta": "Scopri di più"
     },
     "profitability": {
-      "badge": "RENTABILITÉ ACCRUE",
-      "title": "Augmentez la rentabilité",
-      "description1": "Augmentez la rentabilité de votre entreprise grâce aux systèmes de serveurs robots. En livrant les commandes de vos clients rapidement et sans erreur, vous augmentez également le volume d'affaires de votre entreprise.",
-      "description2": "Grâce aux serveurs robots, prolongez les heures d'ouverture de votre entreprise et servez plus de clients.",
-      "stat1": "Réduction des coûts de personnel",
-      "stat2": "Service disponible"
+      "badge": "REDDITIVITÀ ACCRESCIUTA",
+      "title": "Aumenta la redditività",
+      "description1": "Aumenta la redditività della tua azienda grazie ai sistemi di robot servitori. Consegne rapide e senza errori degli ordini dei tuoi clienti aumentano anche il volume d'affari della tua azienda.",
+      "description2": "Grazie ai robot servitori, allunga gli orari di apertura della tua azienda e servi più clienti.",
+      "stat1": "Riduzione dei costi del personale",
+      "stat2": "Servizio disponibile"
     },
     "delivery": {
-      "title": "Système de Livraison Automatique",
-      "subtitle": "Augmentez la satisfaction et la fidélité des clients de votre entreprise",
+      "title": "Sistema di Consegna Automatica",
+      "subtitle": "Aumenta la soddisfazione e la fedeltà dei clienti della tua azienda",
       "speed": {
-        "title": "Livraison rapide et efficace",
-        "description": "Livrez les commandes rapidement et efficacement aux clients avec des systèmes de livraison automatiques sur plateaux, augmentant la satisfaction client et le volume d'affaires de votre entreprise."
+        "title": "Consegna rapida ed efficace",
+        "description": "Consegna gli ordini rapidamente ed efficacemente ai clienti con sistemi di consegna automatica su vassoi, aumentando la soddisfazione del cliente e il volume d'affari della tua azienda."
       },
       "accuracy": {
-        "title": "Moins d'erreurs",
-        "description": "Réduisez les erreurs de livraison en livrant les commandes aux bonnes tables et protégez la réputation de votre entreprise tout en offrant un service de meilleure qualité."
+        "title": "Meno errori",
+        "description": "Riduci gli errori di consegna consegnando gli ordini ai tavoli giusti e proteggi la reputazione della tua azienda offrendo un servizio di migliore qualità."
       }
     },
     "technicalFeatures": {
-      "title": "Caractéristiques Techniques",
-      "subtitle": "Technologie de pointe pour un service optimal"
+      "title": "Caratteristiche Tecniche",
+      "subtitle": "Tecnologia all'avanguardia per un servizio ottimale"
     },
     "features": {
       "navigation": {
-        "title": "Système de Navigation",
-        "description": "Les robots serveurs AyaPos sont équipés de lasers et de capteurs pour éviter les obstacles dans l'entreprise."
+        "title": "Sistema di Navigazione",
+        "description": "I robot servitori AyaPos sono dotati di laser e sensori per evitare ostacoli nella tua azienda."
       },
       "capacity": {
-        "title": "Capacité de Transport",
-        "description": "Les dispositifs de livraison de plateaux AyaPos ont une capacité de transport totale de 40 kg, soit 10 kg par niveau."
+        "title": "Capacità di Trasporto",
+        "description": "I dispositivi di consegna dei vassoi AyaPos hanno una capacità di trasporto totale di 40 kg, ovvero 10 kg per livello."
       },
       "battery": {
-        "title": "Autonomie de Batterie Durable",
-        "description": "Les robots serveurs AyaPos fonctionnent de manière continue pendant 12 à 15 heures par jour."
+        "title": "Autonomia della Batteria Sostenibile",
+        "description": "I robot servitori AyaPos funzionano ininterrottamente per 12-15 ore al giorno."
       },
       "speedLimit": {
-        "title": "Limite de Vitesse Intelligente",
-        "description": "Les robots serveurs intelligents ajustent leur vitesse en fonction de l'inclinaison du sol grâce à une fonction de limite de vitesse améliorée."
+        "title": "Limite di Velocità Intelligente",
+        "description": "I robot servitori intelligenti regolano la loro velocità in base all'inclinazione del terreno grazie a una funzione di limite di velocità migliorata."
       }
     },
     "gallery": {
-      "title": "Découvrez nos Robots Serveurs",
-      "subtitle": "Voyez comment nos robots peuvent transformer votre service",
-      "image1": "Robot serveur en action",
-      "image2": "Livraison automatique de plateaux",
-      "image3": "Service client amélioré"
+      "title": "Scopri i nostri Robot Servitori",
+      "subtitle": "Vedi come i nostri robot possono trasformare il tuo servizio",
+      "image1": "Robot servitore in azione",
+      "image2": "Consegna automatica di vassoi",
+      "image3": "Servizio clienti migliorato"
     },
     "cta": {
-      "title": "Prêt à révolutionner votre service ?",
-      "subtitle": "Contactez-nous pour découvrir comment nos robots serveurs peuvent améliorer votre entreprise",
-      "button": "Demander une démonstration"
+      "title": "Pronto a rivoluzionare il tuo servizio?",
+      "subtitle": "Contattaci per scoprire come i nostri robot servitori possono migliorare la tua azienda",
+      "button": "Richiedi una dimostrazione"
     }
   },
   "deliveryManagement": {
@@ -497,262 +497,262 @@
   },
   "stockManagement": {
     "hero": {
-      "badge": "SYSTÈME DE GESTION DES STOCKS",
-      "title": "Système de Gestion des Stocks",
-      "subtitle": "Suivez les stocks, produisez plus efficacement. Gérez les stocks de produits et de matières premières depuis un centre unique.",
-      "cta": "Demander un devis"
+      "badge": "SISTEMA DI GESTIONE DEGLI STOCK",
+      "title": "Sistema di Gestione degli Stock",
+      "subtitle": "Segui gli stock, produci in modo più efficiente. Gestisci gli stock di prodotti e materie prime da un centro unico.",
+      "cta": "Richiedi un preventivo"
     },
     "benefitsSection": {
-      "badge": "AVANTAGES",
-      "title": "Augmentez l'efficacité, réduisez les pertes et gaspillages",
-      "subtitle": "Avec le système de gestion des stocks AyaPos"
+      "badge": "VANTAGGI",
+      "title": "Aumenta l'efficienza, riduci le perdite e gli sprechi",
+      "subtitle": "Con il sistema di gestione degli stock AyaPos"
     },
     "benefits": {
       "efficiency": {
-        "title": "Production plus efficace",
-        "description": "Avec le système de gestion des stocks, vous pouvez examiner l'utilisation des matières premières et des produits et améliorer votre flux de production pour une production plus efficace."
+        "title": "Produzione più efficace",
+        "description": "Con il sistema di gestione degli stock, puoi esaminare l'uso delle materie prime e dei prodotti e migliorare il tuo flusso di produzione per una produzione più efficace."
       },
       "waste": {
-        "title": "Moins de pertes et gaspillages",
-        "description": "Grâce à un flux de production mieux planifié, vous pouvez minimiser les pertes et gaspillages survenant pendant la production."
+        "title": "Meno perdite e sprechi",
+        "description": "Grazie a un flusso di produzione meglio pianificato, puoi minimizzare le perdite e gli sprechi che si verificano durante la produzione."
       }
     },
     "recipeSection": {
-      "badge": "RECETTES",
-      "title": "Planifiez vos recettes et votre flux de production",
-      "subtitle": "Préparez les stocks avec recettes de votre restaurant, café ou bar"
+      "badge": "RICETTE",
+      "title": "Pianifica le tue ricette e il tuo flusso di produzione",
+      "subtitle": "Prepara gli stock con le ricette del tuo ristorante, caffè o bar"
     },
     "types": {
       "simple": {
-        "title": "Stock simple selon les besoins",
-        "description": "Pour les petites entreprises et selon les besoins, vous pouvez facilement saisir vos produits à l'unité dans le système avec une structure de stock simple et voir leur utilisation également à l'unité."
+        "title": "Stock semplice in base alle esigenze",
+        "description": "Per le piccole aziende e in base alle esigenze, puoi facilmente inserire i tuoi prodotti unitariamente nel sistema con una struttura di stock semplice e vedere il loro utilizzo anche a livello di unità."
       },
       "recipe": {
-        "title": "Stock avancé avec recettes",
-        "description": "Avec la gestion des stocks AyaPos, vous pouvez également gérer les stocks de votre restaurant, café ou bar avec des recettes. De cette façon, vous pouvez effectuer des analyses détaillées des dépenses."
+        "title": "Stock avanzato con ricette",
+        "description": "Con la gestione degli stock AyaPos, puoi anche gestire gli stock del tuo ristorante, caffè o bar con ricette. In questo modo, puoi effettuare analisi dettagliate delle spese."
       }
     },
     "centralized": {
-      "badge": "GESTION CENTRALISÉE",
-      "title": "Accédez à tout depuis un seul endroit",
-      "description1": "Avec le système de gestion des stocks AyaPos, que vous ayez une ou cent succursales. Vous pouvez tout gérer depuis un seul endroit et ne pas rencontrer de résultats inattendus avec des analyses plus larges.",
-      "stat1": "Contrôle centralisé",
-      "stat2": "Accès permanent"
+      "badge": "GESTIONE CENTRALIZZATA",
+      "title": "Accedi a tutto da un unico posto",
+      "description1": "Con il sistema di gestione degli stock AyaPos, che tu abbia una o centinaia di filiali. Puoi gestire tutto da un unico posto e non incontrare risultati inaspettati con analisi più ampie.",
+      "stat1": "Controllo centralizzato",
+      "stat2": "Accesso permanente"
     },
     "featuresSection": {
-      "title": "Accédez à tout depuis un seul endroit",
-      "subtitle": "Système complet de gestion des stocks"
+      "title": "Accedi a tutto da un unico posto",
+      "subtitle": "Sistema completo di gestione degli stock"
     },
     "management": {
       "movements": {
-        "title": "Suivez vos mouvements de stock",
-        "description": "Créez vos comptes clients, suivez vos créances et dettes liées à ces comptes. Examinez les mouvements de caisse effectués pendant la journée."
+        "title": "Segui i tuoi movimenti di stock",
+        "description": "Crea i tuoi account clienti, segui i crediti e debiti relativi a questi account. Esamina i movimenti di cassa effettuati durante la giornata."
       },
       "counting": {
-        "title": "Contrôlez vos comptages de stock",
-        "description": "Suivez vos stocks de produits et de matières premières, observez vos mouvements de stock, vérifiez vos stocks avec des comptages périodiques."
+        "title": "Controlla i tuoi conteggi di stock",
+        "description": "Monitora i tuoi stock di prodotti e materie prime, osserva i tuoi movimenti di stock, verifica i tuoi stock con conteggi periodici."
       }
     },
     "alert": {
-      "title": "Système d'alerte de stock",
-      "description": "Avec le système de gestion des stocks AyaPos, vous pouvez suivre les produits et matières premières en stock et voir à l'avance les stocks sur le point d'être épuisés grâce au système d'alerte.",
-      "cta": "En savoir plus"
+      "title": "Sistema di allerta stock",
+      "description": "Con il sistema di gestione degli stock AyaPos, puoi seguire i prodotti e le materie prime in stock e vedere in anticipo gli stock che stanno per esaurirsi grazie al sistema di allerta.",
+      "cta": "Scopri di più"
     },
     "cta": {
-      "title": "Prêt à optimiser votre gestion des stocks ?",
-      "subtitle": "Contactez-nous pour découvrir comment notre système peut améliorer votre rentabilité",
-      "button": "Demander une démonstration"
+      "title": "Pronto a ottimizzare la tua gestione degli stock?",
+      "subtitle": "Contattaci per scoprire come il nostro sistema può migliorare la tua redditività",
+      "button": "Richiedi una dimostrazione"
     }
   },
   "centralizedManagement": {
     "hero": {
-      "badge": "SYSTÈME DE GESTION CENTRALISÉE",
-      "title": "Gestion Centralisée des Succursales",
-      "subtitle": "Contrôle, gestion et suivi de bout en bout. Suivez facilement toutes vos entreprises depuis un centre unique.",
-      "cta": "Demander un devis"
+      "badge": "SISTEMA DI GESTIONE CENTRALIZZATA",
+      "title": "Gestione Centralizzata delle Filiali",
+      "subtitle": "Controllo, gestione e monitoraggio end-to-end. Segui facilmente tutte le tue attività da un centro unico.",
+      "cta": "Richiedi un preventivo"
     },
     "quickSection": {
-      "title": "Accès rapide depuis un seul endroit",
-      "subtitle": "Toutes vos succursales sous contrôle"
+      "title": "Accesso rapido da un unico posto",
+      "subtitle": "Tutte le tue filiali sotto controllo"
     },
     "quick": {
       "menus": {
-        "title": "Gérez vos menus",
-        "description": "Gérez tous les menus des succursales depuis un seul endroit. Mettez à jour les prix quand vous le souhaitez et appliquez-les à toutes les succursales."
+        "title": "Gestisci i tuoi menu",
+        "description": "Gestisci tutti i menu delle filiali da un unico posto. Aggiorna i prezzi quando vuoi e applicali a tutte le filiali."
       },
       "movements": {
-        "title": "Contrôlez les mouvements",
-        "description": "Examinez les mouvements quotidiens, mensuels ou sur la période choisie de vos succursales. Analysez les rapports."
+        "title": "Controlla i movimenti",
+        "description": "Esamina i movimenti quotidiani, mensili o nel periodo selezionato delle tue filiali. Analizza i rapporti."
       },
       "branches": {
-        "title": "Suivez vos succursales",
-        "description": "Que vous ayez deux ou cent succursales. Suivez toutes vos succursales depuis un centre unique. Développez votre activité."
+        "title": "Segui le tue filiali",
+        "description": "Che tu abbia due o cento filiali. Segui tutte le tue filiali da un centro unico. Sviluppa la tua attività."
       }
     },
     "controlSection": {
-      "badge": "CONTRÔLE TOTAL",
-      "title": "Supervisez, intervenez",
-      "subtitle": "Où que vous soyez, suivez toutes vos succursales dans les moindres détails"
+      "badge": "CONTROLLI TOTALI",
+      "title": "Supervisiona, intervieni",
+      "subtitle": "Ovunque tu sia, segui tutte le tue filiali nei minimi dettagli"
     },
     "control": {
       "supervise": {
-        "title": "Supervisez, intervenez",
-        "description": "Où que vous soyez, suivez toutes vos succursales dans les moindres détails. Supervisez les mouvements de caisse. Examinez les rapports, ne laissez rien au hasard."
+        "title": "Supervisiona, intervieni",
+        "description": "Ovunque tu sia, segui tutte le tue filiali nei minimi dettagli. Supervisiona i movimenti di cassa. Esamina i rapporti, non lasciare nulla al caso."
       },
       "update": {
-        "title": "Mettez à jour les prix en un clic",
-        "description": "Organisez rapidement les prix et détails des produits de vos succursales. Appliquez les modifications que vous effectuez à toutes vos succursales en un clic."
+        "title": "Aggiorna i prezzi con un clic",
+        "description": "Organizza rapidamente i prezzi e i dettagli dei prodotti delle tue filiali. Applica le modifiche che effettui a tutte le tue filiali con un clic."
       },
       "accounts": {
-        "title": "Examinez les comptes et les caisses",
-        "description": "Examinez vos mouvements de caisse, les comptes clients enregistrés dans votre entreprise. Suivez toutes les transactions depuis un seul écran."
+        "title": "Esamina i conti e le casse",
+        "description": "Esamina i tuoi movimenti di cassa, i conti clienti registrati nella tua azienda. Segui tutte le transazioni da un unico schermo."
       }
     },
     "allBranches": {
-      "badge": "TOUTES VOS SUCCURSALES",
-      "title": "Toutes vos succursales sous contrôle",
-      "subtitle": "Gestion complète depuis un seul tableau de bord"
+      "badge": "TUTTE LE TUE FILIALI",
+      "title": "Tutte le tue filiali sotto controllo",
+      "subtitle": "Gestione completa da un'unica dashboard"
     },
     "operational": {
       "control": {
-        "title": "Contrôle de toutes les opérations",
-        "description": "Gérez toutes les opérations de vos succursales depuis un seul écran. Organisez vos menus, modifiez les plans d'aménagement, supervisez les stocks, effectuez le suivi du personnel, consultez les factures et les comptes clients."
+        "title": "Controllo di tutte le operazioni",
+        "description": "Gestisci tutte le operazioni delle tue filiali da un'unica schermata. Organizza i tuoi menu, modifica i piani di disposizione, supervisiona gli stock, segui il personale, consulta le fatture e i conti clienti."
       },
       "remote": {
-        "title": "Contrôlez depuis n'importe où",
-        "description": "Visualisez et organisez facilement tous les détails de vos succursales avec un ordinateur ou un téléphone disposant d'une connexion Internet. Toutes les modifications que vous effectuez sont automatiquement appliquées à vos succursales."
+        "title": "Controlla da qualsiasi luogo",
+        "description": "Visualizza e organizza facilmente tutti i dettagli delle tue filiali con un computer o un telefono con connessione a Internet. Tutte le modifiche che effettui vengono automaticamente applicate alle tue filiali."
       },
       "evaluate": {
-        "title": "Évaluez vos succursales",
-        "description": "Examinez vos rapports quand vous le souhaitez. Analysez les données de vos succursales et évaluez leurs performances."
+        "title": "Valuta le tue filiali",
+        "description": "Esamina i tuoi rapporti quando vuoi. Analizza i dati delle tue filiali e valuta le loro performance."
       }
     },
     "reports": {
-      "badge": "RAPPORTS ET ANALYSES",
-      "title": "Rapports et analyses",
-      "subtitle": "Examinez les rapports de toutes vos succursales depuis un centre unique",
+      "badge": "RAPPORTI E ANALISI",
+      "title": "Rapporti e analisi",
+      "subtitle": "Esamina i rapporti di tutte le tue filiali da un centro unico",
       "instant": {
-        "title": "Rapports instantanés et périodiques",
-        "description": "Avec le système de gestion centralisée AyaPos, vous pouvez voir les rapports pour une plage de dates spécifique et les rapports d'état instantané. Vous pouvez également effectuer facilement des analyses avec des rapports visualisés."
+        "title": "Rapporti istantanei e periodici",
+        "description": "Con il sistema di gestione centralizzata AyaPos, puoi visualizzare i rapporti per un intervallo di date specifico e i rapporti di stato istantaneo. Puoi anche effettuare facilmente analisi con rapporti visualizzati."
       },
       "central": {
-        "title": "Système de rapports centralisé",
-        "description": "Vous pouvez accéder aux rapports de toutes les succursales depuis un centre unique et comparer vos succursales. Ainsi, vous pouvez obtenir des analyses de performance des succursales."
+        "title": "Sistema di rapporti centralizzato",
+        "description": "Puoi accedere ai rapporti di tutte le filiali da un unico centro e confrontare le tue filiali. In questo modo, puoi ottenere analisi delle performance delle filiali."
       }
     },
     "benefits": {
-      "stat1": "Plus rapide",
-      "stat2": "Accès partout",
-      "stat3": "Visibilité totale"
+      "stat1": "Più veloce",
+      "stat2": "Accesso ovunque",
+      "stat3": "Visibilità totale"
     },
     "cta": {
-      "title": "Prêt à centraliser votre gestion ?",
-      "subtitle": "Découvrez comment gérer toutes vos succursales depuis un seul endroit",
-      "button": "Demander une démonstration"
+      "title": "Pronto a centralizzare la tua gestione?",
+      "subtitle": "Scopri come gestire tutte le tue filiali da un unico posto",
+      "button": "Richiedi una dimostrazione"
     }
   },
   "kioskPricing": {
     "hero": {
-      "title": "Tarifs Bornes Self-Order Kiosk",
-      "subtitle": "Choisissez la borne parfaite pour votre entreprise. Installation, configuration et formation incluses.",
-      "badge": "Livraison et installation gratuites"
+      "title": "Tariffe Chioschi Self-Order",
+      "subtitle": "Scegli il chiosco perfetto per la tua azienda. Installazione, configurazione e formazione incluse.",
+      "badge": "Consegna e installazione gratuite"
     },
-    "recommended": "Recommandé",
-    "oneTime": "Paiement unique",
-    "orderNow": "Commander maintenant",
+    "recommended": "Consigliato",
+    "oneTime": "Pagamento unico",
+    "orderNow": "Ordina ora",
     "models": {
       "small": {
-        "name": "Kiosk Compact",
-        "size": "Petite taille - Idéal pour espaces réduits",
-        "screen": "Écran tactile 15.6\"",
+        "name": "Chiosco Compatto",
+        "size": "Dimensioni ridotte - Ideale per spazi piccoli",
+        "screen": "Schermo touch 15,6\"",
         "features": [
-          "Écran tactile haute résolution 15.6\"",
-          "Processeur quad-core performant",
-          "Imprimante ticket thermique intégrée",
-          "Lecteur de carte bancaire NFC",
-          "Support mural ou sur pied",
-          "Design compact et élégant",
-          "Interface AyaPos préinstallée",
-          "Garantie 2 ans"
+          "Schermo touch ad alta risoluzione 15,6\"",
+          "Processore quad-core performante",
+          "Stampante per scontrini integrata",
+          "Lettore di carte NFC",
+          "Supporto a muro o a piantana",
+          "Design compatto ed elegante",
+          "Interfaccia AyaPos preinstallata",
+          "Garanzia di 2 anni"
         ]
       },
       "medium": {
-        "name": "Kiosk Standard",
-        "size": "Taille moyenne - Le plus populaire",
-        "screen": "Écran tactile 21.5\"",
+        "name": "Chiosco Standard",
+        "size": "Dimensioni medie - Il più popolare",
+        "screen": "Schermo touch 21,5\"",
         "features": [
-          "Écran tactile Full HD 21.5\"",
-          "Processeur haute performance",
-          "Imprimante ticket haute vitesse",
-          "Lecteur carte sans contact + QR code",
-          "Support réglable en hauteur",
-          "Haut-parleurs stéréo intégrés",
-          "Éclairage LED ambiant",
-          "Interface AyaPos premium",
-          "Personnalisation couleurs",
-          "Garantie 3 ans + support prioritaire"
+          "Schermo touch Full HD 21,5\"",
+          "Processore ad alte prestazioni",
+          "Stampante per scontrini ad alta velocità",
+          "Lettore carte contactless + codice QR",
+          "Supporto regolabile in altezza",
+          "Altoparlanti stereo integrati",
+          "Illuminazione LED ambientale",
+          "Interfaccia AyaPos premium",
+          "Personalizzazione colori",
+          "Garanzia di 3 anni + supporto prioritario"
         ]
       },
       "large": {
-        "name": "Kiosk Premium",
-        "size": "Grande taille - Maximum d'impact",
-        "screen": "Écran tactile 32\"",
+        "name": "Chiosco Premium",
+        "size": "Grande dimensione - Massimo impatto",
+        "screen": "Schermo touch 32\"",
         "features": [
-          "Écran tactile 4K Ultra HD 32\"",
-          "Processeur dernière génération",
-          "Double imprimante ticket",
-          "Terminal de paiement intégré multi-cartes",
-          "Structure renforcée premium",
-          "Système audio haute fidélité",
-          "Caméra HD pour analytics",
-          "Éclairage LED RGB personnalisable",
-          "Scanner de codes-barres",
-          "Interface AyaPos enterprise",
-          "Personnalisation complète design",
-          "Garantie 5 ans + support dédié 24/7"
+          "Schermo touch 4K Ultra HD 32\"",
+          "Processore di ultima generazione",
+          "Doppia stampante per scontrini",
+          "Terminale di pagamento integrato multi-carta",
+          "Struttura premium rinforzata",
+          "Sistema audio ad alta fedeltà",
+          "Camera HD per analytics",
+          "Illuminazione LED RGB personalizzabile",
+          "Scanner di codici a barre",
+          "Interfaccia AyaPos enterprise",
+          "Personalizzazione completa del design",
+          "Garanzia di 5 anni + supporto dedicato 24/7"
         ]
       }
     },
     "included": {
-      "title": "Inclus avec toutes les bornes",
-      "subtitle": "Services et garanties pour une installation sans souci"
+      "title": "Incluso con tutti i chioschi",
+      "subtitle": "Servizi e garanzie per un'installazione senza preoccupazioni"
     },
     "commonFeatures": {
       "warranty": {
-        "title": "Garantie étendue",
-        "description": "De 2 à 5 ans selon le modèle avec intervention sur site"
+        "title": "Garanzia estesa",
+        "description": "Da 2 a 5 anni a seconda del modello con intervento in loco"
       },
       "support": {
-        "title": "Support technique",
-        "description": "Assistance téléphonique et en ligne en français"
+        "title": "Supporto tecnico",
+        "description": "Assistenza telefonica e online in italiano"
       },
       "installation": {
-        "title": "Installation incluse",
-        "description": "Livraison, installation et configuration par nos techniciens"
+        "title": "Installazione inclusa",
+        "description": "Consegna, installazione e configurazione da parte dei nostri tecnici"
       },
       "software": {
-        "title": "Logiciel AyaPos",
-        "description": "Licence logiciel incluse avec mises à jour gratuites"
+        "title": "Software AyaPos",
+        "description": "Licenza software inclusa con aggiornamenti gratuiti"
       }
     },
     "comparison": {
-      "title": "Tableau comparatif",
-      "subtitle": "Comparez les caractéristiques techniques de nos modèles",
-      "feature": "Caractéristique",
-      "screenSize": "Taille d'écran",
-      "touchscreen": "Écran tactile",
-      "printer": "Imprimante ticket",
-      "cardReader": "Lecteur carte",
-      "speakers": "Haut-parleurs",
-      "customization": "Personnalisation",
-      "basic": "Basique",
-      "advanced": "Avancée",
-      "complete": "Complète"
+      "title": "Tabella comparativa",
+      "subtitle": "Confronta le caratteristiche tecniche dei nostri modelli",
+      "feature": "Caratteristica",
+      "screenSize": "Dimensione dello schermo",
+      "touchscreen": "Schermo touch",
+      "printer": "Stampante per scontrini",
+      "cardReader": "Lettore di carte",
+      "speakers": "Altoparlanti",
+      "customization": "Personalizzazione",
+      "basic": "Di base",
+      "advanced": "Avanzata",
+      "complete": "Completa"
     },
     "cta": {
-      "title": "Prêt à équiper votre restaurant ?",
-      "subtitle": "Nos experts sont là pour vous conseiller sur le meilleur modèle pour votre activité",
-      "button": "Demander un devis personnalisé"
+      "title": "Pronto ad equipaggiare il tuo ristorante?",
+      "subtitle": "I nostri esperti sono qui per consigliarti sul miglior modello per la tua attività",
+      "button": "Richiedi un preventivo personalizzato"
     }
   },
   "orderSystemPricing": {
@@ -1083,185 +1083,185 @@
   },
   "hardwareDevices": {
     "hero": {
-      "badge": "CATALOGUE MATÉRIEL",
-      "title": "Matériel et Appareils POS",
-      "subtitle": "Tous les équipements et accessoires dont vous avez besoin pour votre entreprise. Matériel professionnel de qualité supérieure."
+      "badge": "CATALOGO MATERIALI",
+      "title": "Materiale e Dispositivi POS",
+      "subtitle": "Tutte le attrezzature e accessori di cui hai bisogno per la tua attività. Materiale professionale di alta qualità."
     },
     "categories": {
-      "all": "Tous",
-      "pos": "Terminaux POS",
-      "kiosk": "Bornes Kiosk",
-      "printers": "Imprimantes",
-      "accessories": "Accessoires"
+      "all": "Tutti",
+      "pos": "Terminali POS",
+      "kiosk": "Chioschi",
+      "printers": "Stampanti",
+      "accessories": "Accessori"
     },
     "devices": {
-      "sunmiD3Pro": "Écran tactile 15.6 pouces, Android 11, processeur haute performance",
-      "sunmiD3Mini": "Écran tactile 10.1 pouces, compact et puissant",
-      "iMinSwan": "Terminal POS Android premium avec écran tactile capacitif",
-      "iMinD3": "Solution POS complète avec imprimante intégrée",
-      "iMinD2": "Terminal compact idéal pour petits espaces",
-      "iMinD1": "Terminal POS économique avec toutes les fonctionnalités",
-      "wintecAnypos": "Borne self-service verticale 15.6 pouces",
-      "wintecSelfpos10": "Kiosk vertical pour commande rapide",
-      "wintecSelfpos70": "Grand kiosk 32 pouces pour impact visuel maximal",
-      "paxSk800": "Borne kiosk professionnelle 23.8 pouces",
-      "thermalPrinter": "Imprimante Thermique POS",
-      "thermalPrinterDesc": "Impression rapide et silencieuse, compatible tous systèmes",
-      "labelPrinter": "Imprimante Étiquettes Code-Barres",
-      "labelPrinterDesc": "Compacte et facile à utiliser pour étiquettes produits",
-      "scaleLabel": "Balance avec Imprimante Étiquettes",
-      "scaleLabelDesc": "Mesure précise et fiable avec impression code-barres",
-      "barcodeWired": "Lecteur Code-Barres Filaire",
-      "barcodeWiredDesc": "Lecteur de table professionnel pour caisse",
-      "barcodeWireless": "Lecteur Code-Barres Sans Fil",
-      "barcodeWirelessDesc": "Autonomie batterie 30 heures, portée 100m",
-      "cashDrawer": "Tiroir-Caisse Métallique",
-      "cashDrawerDesc": "Construction robuste et durable en métal renforcé",
-      "cardReader": "Lecteur de Cartes RFID",
-      "cardReaderDesc": "Plug & Play, compatible cartes sans contact",
-      "pavoN86": "Terminal de paiement mobile HD avec NFC",
-      "waiterHandheld": "Terminal Serveur Portable",
-      "waiterHandheldDesc": "Écran HD IPS 5 pouces, idéal pour prise de commande mobile",
-      "paxA920Pro": "Terminal mobile professionnel 5.5 pouces"
+      "sunmiD3Pro": "Schermo touch da 15,6 pollici, Android 11, processore ad alte prestazioni",
+      "sunmiD3Mini": "Schermo touch da 10,1 pollici, compatto e potente",
+      "iMinSwan": "Terminale POS Android premium con schermo touch capacitivo",
+      "iMinD3": "Soluzione POS completa con stampante integrata",
+      "iMinD2": "Terminale compatto ideale per spazi ristretti",
+      "iMinD1": "Terminale POS economico con tutte le funzionalità",
+      "wintecAnypos": "Borne self-service verticale da 15,6 pollici",
+      "wintecSelfpos10": "Chiosco verticale per ordinazione rapida",
+      "wintecSelfpos70": "Grande chiosco da 32 pollici per massimo impatto visivo",
+      "paxSk800": "Chiosco professionale da 23,8 pollici",
+      "thermalPrinter": "Stampante Termica POS",
+      "thermalPrinterDesc": "Stampa rapida e silenziosa, compatibile con tutti i sistemi",
+      "labelPrinter": "Stampante Etichette Codice a Barre",
+      "labelPrinterDesc": "Compatta e facile da utilizzare per etichette prodotto",
+      "scaleLabel": "Bilancia con Stampante Etichette",
+      "scaleLabelDesc": "Misurazione precisa e affidabile con stampa codice a barre",
+      "barcodeWired": "Lettore Codice a Barre Filo",
+      "barcodeWiredDesc": "Lettore da tavolo professionale per cassa",
+      "barcodeWireless": "Lettore Codice a Barre Senza Fili",
+      "barcodeWirelessDesc": "Autonomia della batteria 30 ore, portata 100m",
+      "cashDrawer": "Cassetto Portamonete Metallico",
+      "cashDrawerDesc": "Costruzione robusta e duratura in metallo rinforzato",
+      "cardReader": "Lettore di Carte RFID",
+      "cardReaderDesc": "Plug & Play, compatibile con carte contactless",
+      "pavoN86": "Terminale di pagamento mobile HD con NFC",
+      "waiterHandheld": "Terminale Camere Portatile",
+      "waiterHandheldDesc": "Schermo HD IPS da 5 pollici, ideale per ordinazioni mobili",
+      "paxA920Pro": "Terminale mobile professionale da 5,5 pollici"
     },
-    "requestQuote": "Demander un devis",
+    "requestQuote": "Richiedi un preventivo",
     "features": {
-      "title": "Pourquoi choisir notre matériel ?",
-      "subtitle": "Des équipements professionnels avec service complet",
+      "title": "Perché scegliere il nostro materiale?",
+      "subtitle": "Attrezzature professionali con servizio completo",
       "quality": {
-        "title": "Qualité Premium",
-        "description": "Matériel professionnel de marques reconnues mondialement"
+        "title": "Qualità Premium",
+        "description": "Materiale professionale di marchi riconosciuti a livello mondiale"
       },
       "warranty": {
-        "title": "Garantie Étendue",
-        "description": "Garantie constructeur de 2 à 5 ans selon les modèles"
+        "title": "Garanzia Estesa",
+        "description": "Garanzia del produttore da 2 a 5 anni a seconda dei modelli"
       },
       "support": {
-        "title": "Support Technique",
-        "description": "Assistance téléphonique et sur site en cas de besoin"
+        "title": "Supporto Tecnico",
+        "description": "Assistenza telefonica e in loco se necessario"
       },
       "delivery": {
-        "title": "Livraison & Installation",
-        "description": "Livraison rapide et installation par nos techniciens"
+        "title": "Consegna & Installazione",
+        "description": "Consegna rapida e installazione da parte dei nostri tecnici"
       }
     },
     "cta": {
-      "title": "Besoin de conseils pour votre équipement ?",
-      "subtitle": "Nos experts vous aident à choisir le matériel adapté à vos besoins",
-      "button": "Contactez nos experts"
+      "title": "Hai bisogno di consigli per la tua attrezzatura?",
+      "subtitle": "I nostri esperti ti aiutano a scegliere il materiale adatto alle tue esigenze",
+      "button": "Contatta i nostri esperti"
     }
   },
   "about": {
     "hero": {
-      "title": "À Propos d'AyaPos",
-      "subtitle": "Nous sommes une entreprise innovante dédiée à la transformation numérique de la restauration. Notre mission : simplifier la gestion de votre établissement avec des solutions POS modernes et intuitives."
+      "title": "Chi Siamo",
+      "subtitle": "Siamo un'azienda innovativa dedicata alla trasformazione digitale della ristorazione. La nostra missione: semplificare la gestione della tua attività con soluzioni POS moderne e intuitive."
     },
     "stats": {
-      "clients": "Clients Satisfaits",
-      "years": "Ans d'Expérience",
-      "team": "Experts à votre Service",
-      "satisfaction": "Taux de Satisfaction"
+      "clients": "Clienti Soddisfatti",
+      "years": "Anni di Esperienza",
+      "team": "Esperti al tuo Servizio",
+      "satisfaction": "Tasso di Soddisfazione"
     },
     "story": {
-      "title": "Notre Histoire",
-      "paragraph1": "Fondée en 2010, AyaPos est née de la volonté de moderniser le secteur de la restauration. Nous avons débuté avec une vision simple : créer des outils technologiques accessibles à tous les restaurateurs, quelle que soit la taille de leur établissement.",
-      "paragraph2": "Au fil des années, nous avons développé une suite complète de solutions POS qui combinent innovation, simplicité d'utilisation et fiabilité. Nos systèmes équipent aujourd'hui plus de 5000 restaurants, cafés, bars et établissements dans toute la France et en Europe.",
-      "paragraph3": "Notre équipe passionnée travaille chaque jour pour améliorer nos produits et accompagner nos clients dans leur réussite. Nous croyons que la technologie doit être au service de l'humain, et non l'inverse."
+      "title": "La Nostra Storia",
+      "paragraph1": "Fondata nel 2010, AyaPos è nata dalla volontà di modernizzare il settore della ristorazione. Abbiamo iniziato con una visione semplice: creare strumenti tecnologici accessibili a tutti i ristoratori, indipendentemente dalle dimensioni della loro attività.",
+      "paragraph2": "Nel corso degli anni, abbiamo sviluppato una suite completa di soluzioni POS che combinano innovazione, semplicità d’uso e affidabilità. I nostri sistemi oggi equipaggiano più di 5000 ristoranti, caffè, bar e attività in tutta la Francia e in Europa.",
+      "paragraph3": "Il nostro team appassionato lavora ogni giorno per migliorare i nostri prodotti e supportare i nostri clienti nel loro successo. Crediamo che la tecnologia debba servire l'uomo, e non viceversa."
     },
     "valuesSection": {
-      "title": "Nos Valeurs",
-      "subtitle": "Ce qui guide notre action au quotidien"
+      "title": "I Nostri Valori",
+      "subtitle": "Ciò che guida la nostra azione quotidiana"
     },
     "values": {
       "innovation": {
-        "title": "Innovation",
-        "description": "Nous investissons continuellement dans la R&D pour vous offrir les technologies les plus avancées"
+        "title": "Innovazione",
+        "description": "Investiamo continuamente in R&D per offrirti le tecnologie più avanzate"
       },
       "customer": {
-        "title": "Écoute Client",
-        "description": "Vos besoins sont au cœur de nos développements. Nous écoutons et agissons"
+        "title": "Ascolto del Cliente",
+        "description": "Le tue esigenze sono al centro dei nostri sviluppi. Ascoltiamo e agiamo"
       },
       "quality": {
-        "title": "Qualité",
-        "description": "Matériel premium, logiciels robustes et support technique d'excellence"
+        "title": "Qualità",
+        "description": "Materiale premium, software robusti e supporto tecnico di eccellenza"
       },
       "efficiency": {
-        "title": "Efficacité",
-        "description": "Des solutions pensées pour gagner du temps et augmenter votre rentabilité"
+        "title": "Efficienza",
+        "description": "Soluzioni pensate per risparmiare tempo e aumentare la tua redditività"
       }
     },
     "timeline": {
-      "title": "Notre Parcours",
-      "subtitle": "Les grandes étapes de notre développement",
+      "title": "Il Nostro Percorso",
+      "subtitle": "Le tappe importanti del nostro sviluppo",
       "2010": {
-        "title": "Création d'AyaPos",
-        "description": "Lancement de notre premier système POS pour restaurants avec 50 clients la première année"
+        "title": "Creazione di AyaPos",
+        "description": "Lancio del nostro primo sistema POS per ristoranti con 50 clienti nel primo anno"
       },
       "2015": {
-        "title": "Expansion Nationale",
-        "description": "Ouverture de 5 bureaux régionaux et lancement de l'application mobile pour serveurs"
+        "title": "Espansione Nazionale",
+        "description": "Apertura di 5 uffici regionali e lancio dell'app mobile per camerieri"
       },
       "2020": {
-        "title": "Innovation Cloud",
-        "description": "Migration complète vers le cloud et lancement des bornes self-service nouvelle génération"
+        "title": "Innovazione Cloud",
+        "description": "Migrazione completa al cloud e lancio dei chioschi self-service di nuova generazione"
       },
       "2024": {
-        "title": "Intelligence Artificielle",
-        "description": "Intégration de l'IA pour les prévisions de ventes et la gestion optimisée des stocks"
+        "title": "Intelligenza Artificiale",
+        "description": "Integrazione dell'IA per le previsioni di vendita e la gestione ottimizzata degli stock"
       }
     },
     "mission": {
-      "title": "Notre Mission",
-      "description": "Accompagner les restaurateurs dans leur transformation digitale en leur fournissant des outils simples, puissants et abordables. Nous voulons que chaque établissement, du petit café au grand restaurant, puisse bénéficier des mêmes technologies que les grandes chaînes.",
-      "badge1": "Innovation Continue",
-      "badge2": "Support Dédié",
-      "badge3": "Communauté Active"
+      "title": "La Nostra Missione",
+      "description": "Accompagnare i ristoratori nella loro trasformazione digitale fornendo strumenti semplici, potenti e accessibili. Vogliamo che ogni attività, dal piccolo caffè al grande ristorante, possa beneficiare delle stesse tecnologie delle grandi catene.",
+      "badge1": "Innovazione Continua",
+      "badge2": "Supporto Dedicato",
+      "badge3": "Comunità Attiva"
     }
   },
   "blog": {
     "hero": {
       "title": "Blog AyaPos",
-      "subtitle": "Actualités, conseils et tendances de la restauration moderne"
+      "subtitle": "Notizie, consigli e tendenze della moderna ristorazione"
     },
     "categories": {
-      "all": "Tous les articles",
-      "news": "Actualités",
-      "tips": "Conseils",
-      "technology": "Technologie",
-      "success": "Success Stories"
+      "all": "Tutti gli articoli",
+      "news": "Notizie",
+      "tips": "Consigli",
+      "technology": "Tecnologia",
+      "success": "Storie di Successo"
     },
-    "readMore": "Lire la suite",
+    "readMore": "Leggi di più",
     "articles": {
       "article1": {
-        "title": "AyaPos lance sa nouvelle gamme de bornes self-service",
-        "excerpt": "Découvrez nos nouvelles bornes kiosk avec écran 32 pouces et interface ultra-intuitive. Une révolution pour l'expérience client dans la restauration rapide."
+        "title": "AyaPos lancia la sua nuova gamma di chioschi self-service",
+        "excerpt": "Scopri i nostri nuovi chioschi con schermo da 32 pollici e interfaccia ultra-intuitiva. Una rivoluzione per l'esperienza del cliente nella ristorazione veloce."
       },
       "article2": {
-        "title": "10 Conseils pour optimiser votre service en période de pointe",
-        "excerpt": "Comment gérer l'affluence aux heures de rush ? Nos experts partagent leurs meilleures pratiques pour maintenir un service de qualité même quand c'est bondé."
+        "title": "10 Consigli per ottimizzare il tuo servizio nei momenti di punta",
+        "excerpt": "Come gestire l'affluenza durante le ore di punta? I nostri esperti condividono le loro migliori pratiche per mantenere un servizio di qualità anche quando è affollato."
       },
       "article3": {
-        "title": "L'Intelligence Artificielle au service de la restauration",
-        "excerpt": "Comment l'IA peut vous aider à prévoir vos ventes, optimiser vos stocks et personnaliser l'expérience client. Découvrez les nouvelles fonctionnalités AyaPos."
+        "title": "L'Intelligenza Artificiale al servizio della ristorazione",
+        "excerpt": "Come l'IA può aiutarti a prevedere le vendite, ottimizzare gli stock e personalizzare l'esperienza del cliente. Scopri le nuove funzionalità di AyaPos."
       },
       "article4": {
-        "title": "Success Story : Le Bistrot Moderne triple son chiffre d'affaires",
-        "excerpt": "Rencontre avec Jean Dupont qui a transformé son restaurant traditionnel en établissement moderne grâce aux solutions AyaPos. Témoignage inspirant."
+        "title": "Storia di Successo: Il Bistrot Moderne triplica il suo fatturato",
+        "excerpt": "Incontro con Jean Dupont che ha trasformato il suo ristorante tradizionale in un'attività moderna grazie alle soluzioni AyaPos. Testimonianza ispiratrice."
       },
       "article5": {
-        "title": "Réduire le gaspillage alimentaire grâce à la technologie",
-        "excerpt": "Notre système de gestion des stocks intelligent vous aide à réduire vos pertes de 40%. Découvrez comment optimiser vos achats et limiter le gaspillage."
+        "title": "Ridurre lo spreco alimentare grazie alla tecnologia",
+        "excerpt": "Il nostro sistema di gestione degli stock intelligente ti aiuta a ridurre le tue perdite del 40%. Scopri come ottimizzare i tuoi acquisti e limitare gli sprechi."
       },
       "article6": {
-        "title": "QR Code et commande en ligne : les nouvelles attentes des clients",
-        "excerpt": "Les habitudes de consommation évoluent. 73% des clients préfèrent commander via QR code. Comment s'adapter à ces nouvelles tendances ?"
+        "title": "QR Code e ordinazione online: le nuove aspettative dei clienti",
+        "excerpt": "Le abitudini di consumo stanno evolvendo. Il 73% dei clienti preferisce ordinare tramite QR code. Come adattarsi a queste nuove tendenze?"
       }
     },
     "newsletter": {
-      "title": "Restez Informé",
-      "subtitle": "Recevez nos derniers articles et conseils directement dans votre boîte mail",
-      "placeholder": "Votre adresse email",
-      "button": "S'abonner"
+      "title": "Rimani Informato",
+      "subtitle": "Ricevi i nostri ultimi articoli e consigli direttamente nella tua casella di posta",
+      "placeholder": "Il tuo indirizzo email",
+      "button": "Iscriviti"
     }
   }
 }
