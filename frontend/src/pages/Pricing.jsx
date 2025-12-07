@@ -34,6 +34,10 @@ const Pricing = () => {
           // Filtrer les terminaux de paiement (catégorie "Payment")
           const paymentTerminals = response.data.products.filter(p => p.category === 'Payment');
           setTerminals(paymentTerminals);
+          
+          // Filtrer les produits POS (catégorie "POS")
+          const posProds = response.data.products.filter(p => p.category === 'POS');
+          setPosProducts(posProds);
         } else {
           setPricingPlans(posPackages);
         }
