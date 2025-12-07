@@ -91,7 +91,7 @@ const ProductsManager = () => {
         });
       } else {
         await axios.post(
-          `${API_URL}/api/products`,
+          `${API_URL}/api/products/`,
           productData,
           { headers: { Authorization: `Bearer ${token}` } }
         );
