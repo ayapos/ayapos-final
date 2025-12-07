@@ -393,6 +393,139 @@ class AyaPosAPITester:
         except Exception as e:
             self.log_test("Mobile Order App - Total images count", False, f"Request failed: {str(e)}")
     
+    async def test_delivery_management_content(self):
+        """Test delivery-management content API endpoint"""
+        print("🔍 Testing Delivery Management Content API...")
+        
+        try:
+            async with self.session.get(f"{self.base_url}/api/content/delivery-management") as response:
+                data = await response.json()
+                
+                if response.status == 200 and data.get("success") is True:
+                    content = data.get("content", {})
+                    
+                    # Check for hero image
+                    hero_image = content.get("hero_image")
+                    hero_status = "✅ Found" if hero_image else "❌ Missing"
+                    
+                    # Check for benefits array
+                    benefits = content.get("benefits", [])
+                    benefits_count = len(benefits)
+                    benefits_status = f"✅ Found {benefits_count}" if benefits_count >= 3 else f"❌ Only {benefits_count} found (expected 3)"
+                    
+                    # Verify each benefit has required fields
+                    valid_benefits = 0
+                    for benefit in benefits:
+                        if benefit.get("title") and benefit.get("image") and benefit.get("description"):
+                            valid_benefits += 1
+                    
+                    if hero_image and benefits_count >= 3 and valid_benefits >= 3:
+                        self.log_test(
+                            "GET /api/content/delivery-management - Content structure", 
+                            True, 
+                            f"Status: {response.status}, Hero image: {hero_status}, Benefits: {benefits_status}, Valid benefits: {valid_benefits}/3"
+                        )
+                    else:
+                        issues = []
+                        if not hero_image:
+                            issues.append("Missing hero_image")
+                        if benefits_count < 3:
+                            issues.append(f"Only {benefits_count} benefits (expected 3)")
+                        if valid_benefits < 3:
+                            issues.append(f"Only {valid_benefits} valid benefits")
+                        
+                        self.log_test(
+                            "GET /api/content/delivery-management - Content structure", 
+                            False, 
+                            f"Issues found: {', '.join(issues)}", 
+                            content
+                        )
+                else:
+                    self.log_test(
+                        "GET /api/content/delivery-management - Content structure", 
+                        False, 
+                        f"Unexpected response: {response.status}", 
+                        data
+                    )
+        except Exception as e:
+            self.log_test("GET /api/content/delivery-management - Content structure", False, f"Request failed: {str(e)}")
+    
+    async def test_robot_waiter_content(self):
+        """Test robot-waiter content API endpoint"""
+        print("🔍 Testing Robot Waiter Content API...")
+        
+        try:
+            async with self.session.get(f"{self.base_url}/api/content/robot-waiter") as response:
+                data = await response.json()
+                
+                if response.status == 200 and data.get("success") is True:
+                    content = data.get("content", {})
+                    
+                    # Check for hero image
+                    hero_image = content.get("hero_image")
+                    hero_status = "✅ Found" if hero_image else "❌ Missing"
+                    
+                    # Check for section images
+                    section_images = content.get("section_images", {})
+                    expected_sections = ["navigation_autonome", "profitabilite", "efficacite"]
+                    found_sections = []
+                    missing_sections = []
+                    
+                    for section in expected_sections:
+                        if section in section_images and section_images[section]:
+                            found_sections.append(section)
+                        else:
+                            missing_sections.append(section)
+                    
+                    # Check for robot showcase
+                    robot_showcase = content.get("robot_showcase", [])
+                    robots_count = len(robot_showcase)
+                    robots_with_images = 0
+                    
+                    for robot in robot_showcase:
+                        if robot.get("image"):
+                            robots_with_images += 1
+                    
+                    # Evaluate success
+                    all_sections_found = len(found_sections) == 3
+                    sufficient_robots = robots_count >= 3 and robots_with_images >= 3
+                    
+                    if hero_image and all_sections_found and sufficient_robots:
+                        self.log_test(
+                            "GET /api/content/robot-waiter - Content structure", 
+                            True, 
+                            f"Status: {response.status}, Hero: {hero_status}, Section images: {len(found_sections)}/3 ({', '.join(found_sections)}), Robot showcase: {robots_with_images}/{robots_count} robots with images"
+                        )
+                    else:
+                        issues = []
+                        if not hero_image:
+                            issues.append("Missing hero_image")
+                        if not all_sections_found:
+                            issues.append(f"Missing section images: {', '.join(missing_sections)}")
+                        if not sufficient_robots:
+                            issues.append(f"Insufficient robots: {robots_with_images}/{robots_count} with images (expected 3)")
+                        
+                        self.log_test(
+                            "GET /api/content/robot-waiter - Content structure", 
+                            False, 
+                            f"Issues found: {', '.join(issues)}", 
+                            {
+                                "hero_image": hero_image,
+                                "section_images_keys": list(section_images.keys()),
+                                "robot_showcase_count": robots_count,
+                                "robots_with_images": robots_with_images
+                            }
+                        )
+                else:
+                    self.log_test(
+                        "GET /api/content/robot-waiter - Content structure", 
+                        False, 
+                        f"Unexpected response: {response.status}", 
+                        data
+                    )
+        except Exception as e:
+            self.log_test("GET /api/content/robot-waiter - Content structure", False, f"Request failed: {str(e)}")
+    
     def print_summary(self):
         """Print test summary"""
         print("=" * 60)
