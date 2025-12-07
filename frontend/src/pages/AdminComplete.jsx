@@ -589,6 +589,212 @@ const AdminComplete = () => {
     }
   };
 
+  const renderPopupManager = () => {
+    if (loadingPopup) {
+      return (
+        <div className="flex items-center justify-center h-full py-20">
+          <div className="text-center">
+            <Loader2 className="animate-spin rounded-full h-16 w-16 border-b-4 border-blue-600 mx-auto mb-4" />
+            <p className="text-gray-600">Chargement de la configuration...</p>
+          </div>
+        </div>
+      );
+    }
+
+    return (
+      <div className="p-8 max-w-5xl mx-auto">
+        <div className="mb-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-2">🎉 Popup Promotionnel</h2>
+          <p className="text-gray-600">
+            Gérez le popup promotionnel qui s&apos;affiche sur votre page d&apos;accueil pour capturer l&apos;attention de vos visiteurs.
+          </p>
+        </div>
+
+        <Card className="mb-6">
+          <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
+            <CardTitle className="text-2xl">Configuration du Popup</CardTitle>
+            <CardDescription>
+              Le popup apparaît une fois par jour par visiteur lorsqu&apos;il est activé
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-6 pt-6">
+            {/* Activation Toggle */}
+            <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+              <div>
+                <Label className="text-lg font-semibold">État du Popup</Label>
+                <p className="text-sm text-gray-600 mt-1">
+                  {popupConfig.enabled ? '✅ Le popup est ACTIF' : '⭕ Le popup est DÉSACTIVÉ'}
+                </p>
+              </div>
+              <Button
+                onClick={() => updatePopupField('enabled', !popupConfig.enabled)}
+                className={popupConfig.enabled ? 'bg-green-600 hover:bg-green-700' : 'bg-gray-400 hover:bg-gray-500'}
+                size="lg"
+              >
+                {popupConfig.enabled ? '✅ ACTIF' : '⭕ DÉSACTIVÉ'}
+              </Button>
+            </div>
+
+            <Separator />
+
+            {/* Titre */}
+            <div>
+              <Label className="text-lg font-semibold">Titre Principal</Label>
+              <Input
+                value={popupConfig.title}
+                onChange={(e) => updatePopupField('title', e.target.value)}
+                placeholder="Ex: Offre Spéciale - 20% de Réduction"
+                className="mt-2 text-lg"
+              />
+            </div>
+
+            {/* Description */}
+            <div>
+              <Label className="text-lg font-semibold">Description</Label>
+              <Textarea
+                value={popupConfig.description}
+                onChange={(e) => updatePopupField('description', e.target.value)}
+                placeholder="Décrivez votre offre promotionnelle..."
+                rows={4}
+                className="mt-2"
+              />
+            </div>
+
+            {/* Image */}
+            <div>
+              <Label className="text-lg font-semibold">Image du Popup</Label>
+              <p className="text-sm text-gray-600 mb-2">Image affichée à gauche du popup (optionnelle)</p>
+              {popupConfig.image && (
+                <div className="relative mb-4">
+                  <img 
+                    src={popupConfig.image} 
+                    alt="Popup preview"
+                    className="w-full h-64 object-cover rounded-lg border-2"
+                  />
+                  <Button
+                    size="sm"
+                    variant="destructive"
+                    className="absolute top-2 right-2"
+                    onClick={() => updatePopupField('image', '')}
+                  >
+                    <Trash2 className="h-4 w-4" />
+                  </Button>
+                </div>
+              )}
+              <div className="flex gap-2">
+                <Input
+                  value={popupConfig.image || ''}
+                  onChange={(e) => updatePopupField('image', e.target.value)}
+                  placeholder="URL de l'image"
+                />
+                <Button 
+                  variant="outline"
+                  onClick={() => document.getElementById('popup-image-upload').click()}
+                >
+                  <Upload className="h-4 w-4 mr-2" />
+                  Upload
+                </Button>
+                <input
+                  id="popup-image-upload"
+                  type="file"
+                  accept="image/*"
+                  className="hidden"
+                  onChange={(e) => e.target.files[0] && handlePopupImageUpload(e.target.files[0])}
+                />
+              </div>
+            </div>
+
+            <Separator />
+
+            {/* Bouton CTA */}
+            <div>
+              <Label className="text-lg font-semibold">Texte du Bouton Principal</Label>
+              <Input
+                value={popupConfig.button_text}
+                onChange={(e) => updatePopupField('button_text', e.target.value)}
+                placeholder="Ex: Contactez-nous, En savoir plus"
+                className="mt-2"
+              />
+            </div>
+
+            {/* Email */}
+            <div>
+              <Label className="text-lg font-semibold">Email de Contact</Label>
+              <p className="text-sm text-gray-600 mb-2">Email utilisé quand le visiteur clique sur le bouton</p>
+              <Input
+                type="email"
+                value={popupConfig.contact_email}
+                onChange={(e) => updatePopupField('contact_email', e.target.value)}
+                placeholder="emrah@ayapos.com"
+                className="mt-2"
+              />
+            </div>
+
+            {/* WhatsApp */}
+            <div>
+              <Label className="text-lg font-semibold">Numéro WhatsApp (Optionnel)</Label>
+              <p className="text-sm text-gray-600 mb-2">Si renseigné, un bouton WhatsApp sera affiché</p>
+              <Input
+                value={popupConfig.whatsapp_number || ''}
+                onChange={(e) => updatePopupField('whatsapp_number', e.target.value)}
+                placeholder="Ex: +41123456789"
+                className="mt-2"
+              />
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Bouton de sauvegarde */}
+        <div className="flex justify-end gap-4">
+          <Button 
+            variant="outline"
+            onClick={() => window.open('/', '_blank')}
+          >
+            <Eye className="h-4 w-4 mr-2" />
+            Voir le Site
+          </Button>
+          <Button 
+            onClick={savePopupConfig}
+            disabled={saving}
+            size="lg"
+            className="px-8 bg-green-600 hover:bg-green-700"
+          >
+            {saving ? (
+              <>
+                <Loader2 className="h-5 w-5 mr-2 animate-spin" />
+                Sauvegarde...
+              </>
+            ) : (
+              <>
+                <Save className="h-5 w-5 mr-2" />
+                💾 Sauvegarder le Popup
+              </>
+            )}
+          </Button>
+        </div>
+
+        {/* Aperçu */}
+        {popupConfig.enabled && (
+          <Card className="mt-8 bg-blue-50 border-blue-200">
+            <CardHeader>
+              <CardTitle className="text-xl text-blue-900">ℹ️ Aperçu</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-2 text-sm">
+                <p><strong>Titre:</strong> {popupConfig.title || '(Aucun titre)'}</p>
+                <p><strong>Description:</strong> {popupConfig.description || '(Aucune description)'}</p>
+                <p><strong>Image:</strong> {popupConfig.image ? '✅ Configurée' : '❌ Aucune'}</p>
+                <p><strong>Bouton:</strong> {popupConfig.button_text}</p>
+                <p><strong>Email:</strong> {popupConfig.contact_email}</p>
+                <p><strong>WhatsApp:</strong> {popupConfig.whatsapp_number || '❌ Non configuré'}</p>
+              </div>
+            </CardContent>
+          </Card>
+        )}
+      </div>
+    );
+  };
+
   const renderEditor = () => {
     const currentPageInfo = allPages.find(p => p.slug === selectedPage);
     
