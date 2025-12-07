@@ -68,6 +68,19 @@ async def update_post(post_id: str, post: BlogPost, email: str = Depends(verify_
         logger.error(f"Error updating post: {str(e)}")
         raise HTTPException(status_code=500, detail="Erreur")
 
+@router.get("/{slug}")
+async def get_post_by_slug(slug: str):
+    try:
+        post = await db.blog.find_one({"slug": slug}, {"_id": 0})
+        if not post:
+            raise HTTPException(status_code=404, detail="Article non trouvé")
+        return {"success": True, "post": post}
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error fetching post: {str(e)}")
+        raise HTTPException(status_code=500, detail="Erreur")
+
 @router.delete("/posts/{post_id}")
 async def delete_post(post_id: str, email: str = Depends(verify_token)):
     try:
