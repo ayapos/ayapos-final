@@ -245,10 +245,10 @@ const Home = () => {
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl mb-6 shadow-lg">
                   <LucideIcons.Zap className="h-8 w-8 text-white" />
                 </div>
-                <div className="text-5xl font-bold bg-gradient-to-r from-orange-600 to-orange-700 bg-clip-text text-transparent mb-3">
+                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-orange-600 to-orange-700 bg-clip-text text-transparent mb-3">
                   48h
                 </div>
-                <p className="text-gray-600 font-medium">Temps d'installation</p>
+                <p className="text-sm md:text-base text-gray-600 font-medium">Temps d'installation</p>
               </div>
             </div>
           </div>
