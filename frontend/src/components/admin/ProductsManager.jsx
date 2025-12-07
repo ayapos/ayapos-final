@@ -173,6 +173,27 @@ const ProductsManager = () => {
     setFormData({
       id: '',
       name: '',
+      category: 'package',
+      description: '',
+      tagline: '',
+      price: '',
+      currency: 'CHF',
+      features: '',
+      recommended: false,
+      featured: false,
+      highlighted: false,
+      badge: '',
+      image: '',
+      discount: ''
+    });
+    setEditingProduct(null);
+    setShowForm(false);
+  };
+  
+  const resetFormOld = () => {
+    setFormData({
+      id: '',
+      name: '',
       category: 'POS',
       description: '',
       tagline: '',
