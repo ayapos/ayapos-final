@@ -1266,11 +1266,13 @@ const AdminComplete = () => {
             renderEditor()
           ) : activeTab === 'photos' ? (
             <MediaLibrary />
-          ) : (
+          ) : activeTab === 'packages' ? (
             <div className="p-6">
               <ProductsManager />
             </div>
-          )}
+          ) : activeTab === 'popup' ? (
+            renderPopupManager()
+          ) : null}
         </div>
       </div>
 
