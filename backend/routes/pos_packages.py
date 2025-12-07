@@ -4,7 +4,7 @@ from typing import List, Optional
 from datetime import datetime
 import os
 
-router = APIRouter()
+router = APIRouter(prefix="/api", tags=["pos-packages"])
 
 # Database connection
 from motor.motor_asyncio import AsyncIOMotorClient
