@@ -17,8 +17,8 @@ const Blog = () => {
       try {
         const response = await axios.get(`${API_URL}/api/blog/posts`);
         if (response.data.success) {
-          const publishedPosts = response.data.posts.filter(p => p.published);
-          setBlogPosts(publishedPosts);
+          // Accept all posts (don't filter by published)
+          setBlogPosts(response.data.posts || []);
         }
       } catch (error) {
         console.error('Error fetching blog posts:', error);
