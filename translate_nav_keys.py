@@ -6,7 +6,10 @@ import json
 import asyncio
 from openai import AsyncOpenAI
 
-client = AsyncOpenAI(api_key="sk-emergent-dB01f6e70Ec9bCe6d6")
+client = AsyncOpenAI(
+    api_key="sk-emergent-dB01f6e70Ec9bCe6d6",
+    base_url="https://llm.emergentagi.com/v1"
+)
 
 # Langues cibles
 LANGUAGES = {
