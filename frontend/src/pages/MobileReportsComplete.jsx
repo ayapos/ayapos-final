@@ -229,7 +229,7 @@ const MobileReportsComplete = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop"
+                src={content?.section_images?.reporting || "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop"}
                 alt="App Settings"
                 className="rounded-2xl shadow-2xl"
               />
