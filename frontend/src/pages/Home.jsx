@@ -7,6 +7,7 @@ import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { features, testimonials, posPackages } from '../data/mockData';
 import HeroCarousel from '../components/HeroCarousel';
+import PromoPopup from '../components/PromoPopup';
 import { useHeroSlides } from '../hooks/useHeroSlides';
 import { usePageContent } from '../hooks/usePageContent';
 import { useProducts } from '../hooks/useProducts';
