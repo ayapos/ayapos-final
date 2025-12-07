@@ -50,8 +50,8 @@ const Navbar = () => {
         ]
       }
     },
+    { name: t('nav.ayapay'), path: '/ayapay', isPremium: true },
     { name: t('nav.digital'), path: '/digital' },
-    { name: t('nav.ayapay'), path: '/ayapay' },
     { 
       name: 'Développement IT', 
       path: '/it-services',
