@@ -26,25 +26,25 @@ const Navbar = () => {
       dropdown: {
         sections: [
           {
-            title: 'Restaurant & Café',
+            title: t('nav.pos_dropdown.restaurant_cafe'),
             items: [
-              { name: 'Système POS Restaurant', path: '/restaurant-pos', icon: 'Store' },
-              { name: 'Self-Order Kiosk', path: '/self-order-kiosk', icon: 'Smartphone' },
-              { name: 'Système Commande', path: '/order-system', icon: 'Package' },
-              { name: 'Terminal Serveur', path: '/waiter-terminal', icon: 'Tablet' },
-              { name: 'App Mobile Commande', path: '/mobile-order-app', icon: 'ShoppingBag' },
-              { name: 'Serveur Robot', path: '/robot-waiter', icon: 'Bot' },
-              { name: 'Gestion Livraison', path: '/delivery-management', icon: 'Truck' }
+              { name: t('nav.pos_dropdown.restaurant_pos'), path: '/restaurant-pos', icon: 'Store' },
+              { name: t('nav.pos_dropdown.self_order_kiosk'), path: '/self-order-kiosk', icon: 'Smartphone' },
+              { name: t('nav.pos_dropdown.order_system'), path: '/order-system', icon: 'Package' },
+              { name: t('nav.pos_dropdown.waiter_terminal'), path: '/waiter-terminal', icon: 'Tablet' },
+              { name: t('nav.pos_dropdown.mobile_order_app'), path: '/mobile-order-app', icon: 'ShoppingBag' },
+              { name: t('nav.pos_dropdown.robot_waiter'), path: '/robot-waiter', icon: 'Bot' },
+              { name: t('nav.pos_dropdown.delivery_management'), path: '/delivery-management', icon: 'Truck' }
             ]
           },
           {
-            title: 'Outils de Gestion',
+            title: t('nav.pos_dropdown.management_tools'),
             items: [
-              { name: 'Portail Web', path: '/web-portal', icon: 'Globe' },
-              { name: 'Rapport Mobile', path: '/mobile-reports', icon: 'BarChart3' },
-              { name: 'Gestion Stock', path: '/stock-management', icon: 'Package' },
-              { name: 'Gestion Centralisée', path: '/centralized-management', icon: 'Building2' },
-              { name: 'Matériel Appareils', path: '/hardware-devices', icon: 'Laptop' }
+              { name: t('nav.pos_dropdown.web_portal'), path: '/web-portal', icon: 'Globe' },
+              { name: t('nav.pos_dropdown.mobile_reports'), path: '/mobile-reports', icon: 'BarChart3' },
+              { name: t('nav.pos_dropdown.stock_management'), path: '/stock-management', icon: 'Package' },
+              { name: t('nav.pos_dropdown.centralized_management'), path: '/centralized-management', icon: 'Building2' },
+              { name: t('nav.pos_dropdown.hardware_devices'), path: '/hardware-devices', icon: 'Laptop' }
             ]
           }
         ]
@@ -52,7 +52,7 @@ const Navbar = () => {
     },
     { name: t('nav.ayapay'), path: '/ayapay', isPremium: true },
     { name: t('nav.digital'), path: '/digital' },
-    { name: 'Développement IT', path: '/it-services' },
+    { name: t('nav.it_services'), path: '/it-services' },
     { name: t('nav.pricing'), path: '/pricing' },
     { name: t('nav.contact'), path: '/contact' },
   ];
