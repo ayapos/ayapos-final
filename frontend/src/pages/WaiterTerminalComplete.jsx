@@ -149,13 +149,13 @@ const WaiterTerminalComplete = () => {
                 <div className="space-y-3">
                   {content.pricing.features?.map((feature, idx) => (
                     <div key={idx} className="flex items-center space-x-2">
-                      <CheckCircle className="h-5 w-5 text-purple-600" />
+                      <CheckCircle className="h-5 w-5 text-blue-600" />
                       <span>{feature}</span>
                     </div>
                   ))}
                 </div>
                 <Link to="/contact">
-                  <Button className="w-full mt-6 bg-purple-600 hover:bg-purple-700">
+                  <Button className="w-full mt-6 bg-blue-600 hover:bg-blue-700">
                     Commencer maintenant
                   </Button>
                 </Link>
@@ -166,17 +166,17 @@ const WaiterTerminalComplete = () => {
       )}
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-purple-600 to-indigo-900 text-white">
+      <section className="py-20 bg-gradient-to-br from-blue-600 to-indigo-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-4">
             Prêt à optimiser votre service ?
           </h2>
-          <p className="text-xl text-purple-100 mb-8">
+          <p className="text-xl text-blue-100 mb-8">
             Rejoignez des centaines de restaurants qui font confiance à notre terminal serveur
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact">
-              <Button size="lg" className="bg-white text-purple-600 hover:bg-purple-50">
+              <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
                 Demander une démo gratuite
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
