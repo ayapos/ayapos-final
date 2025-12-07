@@ -219,10 +219,10 @@ const Home = () => {
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-xl mb-6 shadow-lg">
                   <LucideIcons.TrendingUp className="h-8 w-8 text-white" />
                 </div>
-                <div className="text-5xl font-bold bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent mb-3">
+                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent mb-3">
                   +45%
                 </div>
-                <p className="text-gray-600 font-medium">Croissance moyenne des ventes</p>
+                <p className="text-sm md:text-base text-gray-600 font-medium">Croissance moyenne des ventes</p>
               </div>
             </div>
 
