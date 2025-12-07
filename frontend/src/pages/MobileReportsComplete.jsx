@@ -161,7 +161,7 @@ const MobileReportsComplete = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop"
+                src={content?.section_images?.dashboard || "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop"}
                 alt="Product Management"
                 className="rounded-2xl shadow-2xl"
               />
