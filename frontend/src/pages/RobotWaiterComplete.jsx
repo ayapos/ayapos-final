@@ -121,7 +121,7 @@ const RobotWaiterComplete = () => {
             <div className="relative">
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop" 
+                  src={content?.hero_image || "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop"} 
                   alt="Robot Waiter"
                   className="w-full h-auto"
                 />
