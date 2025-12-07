@@ -384,10 +384,10 @@ const Home = () => {
             <span className="inline-block px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm font-semibold mb-4">
               Simple & Rapide
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
               Opérationnel en 48 heures
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
               Un processus éprouvé qui transforme votre entreprise en moins de 2 jours
             </p>
           </div>
