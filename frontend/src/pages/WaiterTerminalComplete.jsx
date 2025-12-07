@@ -29,28 +29,28 @@ const WaiterTerminalComplete = () => {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-900 text-white py-24">
+      <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-900 text-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <Badge className="bg-purple-500 text-white border-none">
+              <Badge className="bg-blue-500 text-white border-none">
                 {content?.hero?.subtitle || 'Terminal Serveur Mobile'}
               </Badge>
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
                 {content?.hero?.title || 'Terminal Serveur Mobile'}
               </h1>
-              <p className="text-xl text-purple-100">
+              <p className="text-xl text-blue-100">
                 {content?.hero?.description || 'Terminal mobile professionnel pour la prise de commande rapide'}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact">
-                  <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
+                  <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
                     {content?.hero?.cta_primary || 'Demander une démo'}
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
                 <Link to="/waiter-terminal-pricing">
-                  <Button size="lg" variant="outline" className="border-white text-white hover:bg-purple-800">
+                  <Button size="lg" variant="outline" className="border-white text-white hover:bg-blue-800">
                     {content?.hero?.cta_secondary || 'Voir les tarifs'}
                   </Button>
                 </Link>
@@ -112,10 +112,10 @@ const WaiterTerminalComplete = () => {
               {content.features.map((feature, index) => {
                 const Icon = iconMap[feature.icon] || Smartphone;
                 return (
-                  <Card key={index} className="border-2 hover:border-purple-500 hover:shadow-lg transition-all">
+                  <Card key={index} className="border-2 hover:border-blue-500 hover:shadow-lg transition-all">
                     <CardHeader>
-                      <div className="bg-purple-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-                        <Icon className="h-6 w-6 text-purple-600" />
+                      <div className="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                        <Icon className="h-6 w-6 text-blue-600" />
                       </div>
                       <CardTitle className="text-xl">{feature.title}</CardTitle>
                     </CardHeader>
@@ -136,12 +136,12 @@ const WaiterTerminalComplete = () => {
       {content?.pricing && (
         <section className="py-20 bg-gray-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Card className="border-2 border-purple-500">
+            <Card className="border-2 border-blue-500">
               <CardHeader className="text-center">
                 <CardTitle className="text-3xl">Tarification Simple</CardTitle>
                 <CardDescription className="text-lg">{content.pricing.description}</CardDescription>
                 <div className="mt-4">
-                  <span className="text-5xl font-bold text-purple-600">{content.pricing.monthly}</span>
+                  <span className="text-5xl font-bold text-blue-600">{content.pricing.monthly}</span>
                   <span className="text-gray-600">/mois</span>
                 </div>
               </CardHeader>
