@@ -278,7 +278,7 @@ const ProductsManager = () => {
                 </div>
               </div>
               
-              <div className="grid md:grid-cols-2 gap-4">
+              <div className="grid md:grid-cols-3 gap-4">
                 <div>
                   <Label>Devise</Label>
                   <Input
@@ -289,13 +289,39 @@ const ProductsManager = () => {
                 </div>
                 
                 <div>
-                  <Label>URL Image</Label>
-                  <Input
-                    value={formData.image}
-                    onChange={(e) => setFormData({...formData, image: e.target.value})}
-                    placeholder="https://..."
-                  />
+                  <Label>Type de Prix *</Label>
+                  <select
+                    className="w-full border rounded-md px-3 py-2"
+                    value={formData.priceType}
+                    onChange={(e) => setFormData({...formData, priceType: e.target.value})}
+                  >
+                    <option value="subscription">💳 Abonnement</option>
+                    <option value="one-time">💰 Prix Unique</option>
+                  </select>
                 </div>
+                
+                <div>
+                  <Label>Période de Facturation</Label>
+                  <select
+                    className="w-full border rounded-md px-3 py-2"
+                    value={formData.billingPeriod}
+                    onChange={(e) => setFormData({...formData, billingPeriod: e.target.value})}
+                    disabled={formData.priceType === 'one-time'}
+                  >
+                    <option value="monthly">Mensuel (/mois)</option>
+                    <option value="yearly">Annuel (/an)</option>
+                    <option value="one-time">Paiement unique</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div>
+                <Label>URL Image</Label>
+                <Input
+                  value={formData.image}
+                  onChange={(e) => setFormData({...formData, image: e.target.value})}
+                  placeholder="https://..."
+                />
               </div>
 
               <div>
