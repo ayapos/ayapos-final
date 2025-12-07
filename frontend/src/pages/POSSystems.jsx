@@ -148,45 +148,35 @@ const POSSystems = () => {
           </div>
 
           <div className="grid md:grid-cols-4 gap-6">
-            {[
-              {
-                title: 'Mobile POS',
-                icon: '📱',
-                best: 'Ventes mobiles',
-                features: ['Portable', 'Léger', 'Sans fil']
-              },
-              {
-                title: 'Web POS',
-                icon: '💻',
-                best: 'Démarrage rapide',
-                features: ['Basé sur le cloud', 'Aucune installation', 'Multi-appareil']
-              },
-              {
-                title: 'Tablet POS',
-                icon: '⌨️',
-                best: 'PME',
-                features: ['Compact', 'Économique', 'Facile à utiliser']
-              },
-              {
-                title: 'Premium POS',
-                icon: '🚀',
-                best: 'Grandes entreprises',
-                features: ['Puissant', 'Multi-branches', 'Fonctionnalités avancées']
-              }
-            ].map((item, index) => (
-              <Card key={index} className="text-center hover:shadow-lg transition-shadow">
+            {packages.map((item, index) => (
+              <Card key={item.id || index} className="text-center hover:shadow-lg transition-shadow relative">
+                {item.badge && (
+                  <Badge className="absolute top-4 right-4 bg-blue-600 text-white">
+                    {item.badge}
+                  </Badge>
+                )}
                 <CardHeader>
                   <div className="text-5xl mb-4">{item.icon}</div>
                   <CardTitle className="text-xl">{item.title}</CardTitle>
                   <Badge variant="secondary" className="mt-2">
                     {item.best}
                   </Badge>
+                  {item.price && (
+                    <div className="mt-4">
+                      <span className="text-3xl font-bold text-blue-600">{item.price}</span>
+                      <span className="text-gray-600"> CHF/mois</span>
+                    </div>
+                  )}
                 </CardHeader>
                 <CardContent>
+                  {item.description && (
+                    <p className="text-sm text-gray-600 mb-4 font-medium">{item.description}</p>
+                  )}
                   <ul className="space-y-2">
                     {item.features.map((feature, idx) => (
-                      <li key={idx} className="text-sm text-gray-600">
-                        • {feature}
+                      <li key={idx} className="text-sm text-gray-600 flex items-center justify-center gap-2">
+                        <Check className="h-4 w-4 text-green-500" />
+                        {feature}
                       </li>
                     ))}
                   </ul>
