@@ -29,6 +29,10 @@ const Pricing = () => {
           // Filtrer les produits de catégorie "package"
           const packages = response.data.products.filter(p => p.category === 'package');
           setPricingPlans(packages.length > 0 ? packages : posPackages);
+          
+          // Filtrer les terminaux de paiement (catégorie "Payment")
+          const paymentTerminals = response.data.products.filter(p => p.category === 'Payment');
+          setTerminals(paymentTerminals);
         } else {
           setPricingPlans(posPackages);
         }
