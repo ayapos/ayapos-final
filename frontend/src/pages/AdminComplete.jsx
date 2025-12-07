@@ -46,35 +46,44 @@ const AdminComplete = () => {
   });
   const [loadingPopup, setLoadingPopup] = useState(false);
 
-  // Liste COMPLÈTE de toutes les pages du site
+  // Liste RÉORGANISÉE des pages du site (par priorité)
   const allPages = [
-    { slug: 'home', name: 'Page d\'Accueil', icon: Home, category: 'Principal' },
-    { slug: 'restaurant-pos', name: 'Restaurant POS', icon: Utensils, category: 'Solutions Restaurant' },
-    { slug: 'self-order-kiosk', name: 'Kiosque Commande', icon: Monitor, category: 'Solutions Restaurant' },
-    { slug: 'kiosk-pricing', name: 'Tarifs Kiosque', icon: DollarSign, category: 'Solutions Restaurant' },
-    { slug: 'order-system', name: 'Système Commande', icon: ShoppingCart, category: 'Solutions Restaurant' },
-    { slug: 'order-system-pricing', name: 'Tarifs Système', icon: DollarSign, category: 'Solutions Restaurant' },
-    { slug: 'waiter-terminal', name: 'Terminal Serveur', icon: Smartphone, category: 'Solutions Restaurant' },
-    { slug: 'waiter-terminal-pricing', name: 'Tarifs Terminal', icon: DollarSign, category: 'Solutions Restaurant' },
-    { slug: 'mobile-order-app', name: 'App Commande Mobile', icon: Smartphone, category: 'Solutions Restaurant' },
-    { slug: 'robot-waiter', name: 'Robot Serveur', icon: Settings, category: 'Solutions Restaurant' },
-    { slug: 'delivery-management', name: 'Gestion Livraison', icon: Truck, category: 'Solutions Restaurant' },
-    { slug: 'delivery-service-pricing', name: 'Tarifs Livraison', icon: DollarSign, category: 'Solutions Restaurant' },
-    { slug: 'ayapay', name: 'AyaPay Paiement', icon: CreditCard, category: 'Paiement' },
-    { slug: 'pos', name: 'Systèmes POS', icon: Monitor, category: 'POS' },
-    { slug: 'digital', name: 'Solutions Digitales', icon: Smartphone, category: 'Digital' },
-    { slug: 'web-portal', name: 'Portail Web', icon: Code, category: 'Outils Gestion' },
-    { slug: 'mobile-reports', name: 'Rapports Mobile', icon: BarChart3, category: 'Outils Gestion' },
-    { slug: 'stock-management', name: 'Gestion Stock', icon: Package, category: 'Outils Gestion' },
-    { slug: 'centralized-management', name: 'Gestion Centralisée', icon: Settings, category: 'Outils Gestion' },
-    { slug: 'hardware-devices', name: 'Matériel & Devices', icon: Monitor, category: 'Matériel' },
-    { slug: 'pricing', name: 'Tarifs Généraux', icon: DollarSign, category: 'Commercial' },
-    { slug: 'about', name: 'À Propos', icon: Info, category: 'Institutionnel' },
-    { slug: 'contact', name: 'Contact', icon: Phone, category: 'Institutionnel' },
-    { slug: 'it-services', name: 'Services IT', icon: Code, category: 'Services' },
-    { slug: 'blog', name: 'Blog', icon: FileText, category: 'Contenu' },
-    { slug: 'terms-conditions', name: 'CGU', icon: Shield, category: 'Légal' },
-    { slug: 'privacy-policy', name: 'Confidentialité', icon: Shield, category: 'Légal' }
+    // 📌 PAGES PRINCIPALES
+    { slug: 'home', name: 'Page d\'Accueil', icon: Home, category: '📌 Pages Principales' },
+    { slug: 'pos', name: 'Systèmes POS', icon: Monitor, category: '📌 Pages Principales' },
+    { slug: 'digital', name: 'Solutions Digitales', icon: Smartphone, category: '📌 Pages Principales' },
+    
+    // 🍽️ SOLUTIONS RESTAURANT
+    { slug: 'restaurant-pos', name: 'Système POS Restaurant', icon: Utensils, category: '🍽️ Solutions Restaurant' },
+    { slug: 'self-order-kiosk', name: 'Self-Order Kiosk', icon: Monitor, category: '🍽️ Solutions Restaurant' },
+    { slug: 'kiosk-pricing', name: 'Tarifs Kiosk', icon: DollarSign, category: '🍽️ Solutions Restaurant' },
+    { slug: 'order-system', name: 'Système Commande', icon: ShoppingCart, category: '🍽️ Solutions Restaurant' },
+    { slug: 'order-system-pricing', name: 'Tarifs Système Commande', icon: DollarSign, category: '🍽️ Solutions Restaurant' },
+    { slug: 'waiter-terminal', name: 'Terminal Serveur', icon: Smartphone, category: '🍽️ Solutions Restaurant' },
+    { slug: 'waiter-terminal-pricing', name: 'Tarifs Terminal Serveur', icon: DollarSign, category: '🍽️ Solutions Restaurant' },
+    { slug: 'mobile-order-app', name: 'App Mobile Commande', icon: Smartphone, category: '🍽️ Solutions Restaurant' },
+    { slug: 'robot-waiter', name: 'Serveur Robot', icon: Settings, category: '🍽️ Solutions Restaurant' },
+    { slug: 'delivery-management', name: 'Gestion Livraison', icon: Truck, category: '🍽️ Solutions Restaurant' },
+    { slug: 'delivery-service-pricing', name: 'Tarifs Livraison', icon: DollarSign, category: '🍽️ Solutions Restaurant' },
+    
+    // 🛠️ OUTILS DE GESTION
+    { slug: 'web-portal', name: 'Portail Web', icon: Code, category: '🛠️ Outils de Gestion' },
+    { slug: 'mobile-reports', name: 'Rapport Mobile', icon: BarChart3, category: '🛠️ Outils de Gestion' },
+    { slug: 'stock-management', name: 'Gestion Stock', icon: Package, category: '🛠️ Outils de Gestion' },
+    { slug: 'centralized-management', name: 'Gestion Centralisée', icon: Settings, category: '🛠️ Outils de Gestion' },
+    { slug: 'hardware-devices', name: 'Matériel Appareils', icon: Monitor, category: '🛠️ Outils de Gestion' },
+    
+    // 💰 COMMERCIAL & INFO
+    { slug: 'pricing', name: 'Tarifs', icon: DollarSign, category: '💰 Commercial & Info' },
+    { slug: 'ayapay', name: 'AyaPay', icon: CreditCard, category: '💰 Commercial & Info' },
+    { slug: 'it-services', name: 'Développement IT', icon: Code, category: '💰 Commercial & Info' },
+    { slug: 'contact', name: 'Contact', icon: Phone, category: '💰 Commercial & Info' },
+    
+    // 📄 PAGES LÉGALES & CONTENU
+    { slug: 'about', name: 'À Propos', icon: Info, category: '📄 Pages Légales & Contenu' },
+    { slug: 'blog', name: 'Blog', icon: FileText, category: '📄 Pages Légales & Contenu' },
+    { slug: 'terms-conditions', name: 'CGU', icon: Shield, category: '📄 Pages Légales & Contenu' },
+    { slug: 'privacy-policy', name: 'Confidentialité', icon: Shield, category: '📄 Pages Légales & Contenu' }
   ];
 
   // Grouper les pages par catégorie
