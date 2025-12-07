@@ -4,7 +4,7 @@ Script pour traduire les nouvelles clés de navigation
 """
 import json
 import asyncio
-from emergentintegrations import Emergent
+from emergentintegrations.client import Emergent
 
 # Langues cibles
 LANGUAGES = {
