@@ -110,7 +110,7 @@ const Home = () => {
             </div>
 
             {/* Right - Carousel */}
-            <div className="relative h-[500px]">
+            <div className="relative h-[700px]">
               <HeroCarousel slides={heroSlides} />
               
               {/* Floating Cards */}
