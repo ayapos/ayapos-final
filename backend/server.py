@@ -6,7 +6,7 @@ import logging
 from pathlib import Path
 
 # Import routes
-from routes import contacts, callbacks, auth, content, upload, pricing, company, testimonials, portfolio, services, faq, settings, leads, products, blog, hero, team, navigation, ai_assistant, media
+from routes import contacts, callbacks, auth, content, upload, pricing, company, testimonials, portfolio, services, faq, settings, leads, products, blog, hero, team, navigation, ai_assistant, media, pos_packages
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
@@ -67,6 +67,7 @@ app.include_router(team.router)
 app.include_router(navigation.router)
 app.include_router(ai_assistant.router)
 app.include_router(media.router)
+app.include_router(pos_packages.router)
 
 # Add CORS middleware
 app.add_middleware(
