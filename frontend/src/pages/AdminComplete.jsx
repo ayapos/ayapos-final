@@ -76,7 +76,6 @@ const AdminComplete = () => {
     
     // 💰 COMMERCIAL & INFO
     { slug: 'pricing', name: 'Tarifs', icon: DollarSign, category: '💰 Commercial & Info' },
-    { slug: 'ayapay', name: 'AyaPay', icon: CreditCard, category: '💰 Commercial & Info' },
     { slug: 'it-services', name: 'Développement IT', icon: Code, category: '💰 Commercial & Info' },
     { slug: 'contact', name: 'Contact', icon: Phone, category: '💰 Commercial & Info' },
     
