@@ -137,6 +137,8 @@ const ProductsManager = () => {
       tagline: product.tagline || '',
       price: product.price?.toString() || '',
       currency: product.currency || 'CHF',
+      priceType: product.priceType || 'subscription',
+      billingPeriod: product.billingPeriod || 'monthly',
       features: Array.isArray(product.features) ? product.features.join('\n') : '',
       recommended: product.recommended || false,
       featured: product.featured || false,
