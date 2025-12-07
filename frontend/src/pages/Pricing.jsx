@@ -662,7 +662,6 @@ const Pricing = () => {
       )}
 
       {/* Terminaux de Paiement Section */}
-      {console.log('Terminals count:', terminals.length, terminals)}
       {terminals.length > 0 && (
         <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
