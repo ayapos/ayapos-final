@@ -7,7 +7,24 @@
     "pricing": "Tariffe",
     "about": "Chi siamo",
     "contact": "Contatto",
-    "demo": "Richiedi una demo"
+    "demo": "Richiedi una demo",
+    "it_services": "Sviluppo IT",
+    "pos_dropdown": {
+      "restaurant_cafe": "Ristorante & Caffè",
+      "management_tools": "Strumenti di Gestione",
+      "restaurant_pos": "Sistema POS Ristorante",
+      "self_order_kiosk": "Chiosco Self-Order",
+      "order_system": "Sistema di Ordinazione",
+      "waiter_terminal": "Terminale Cameriere",
+      "mobile_order_app": "App Ordinazione Mobile",
+      "robot_waiter": "Cameriere Robot",
+      "delivery_management": "Gestione Consegne",
+      "web_portal": "Portale Web",
+      "mobile_reports": "Report Mobile",
+      "stock_management": "Gestione Magazzino",
+      "centralized_management": "Gestione Centralizzata",
+      "hardware_devices": "Dispositivi Hardware"
+    }
   },
   "hero": {
     "title": "Soluzioni POS e Pagamento di Nuova Generazione",
