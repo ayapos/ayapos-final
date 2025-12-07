@@ -104,10 +104,10 @@ const About = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              {getContentValue('about-title', t('about.hero.title'))}
+              {getContentValue('hero_title') || 'AyaPOS - Votre Partenaire Digital depuis 2018'}
             </h1>
             <p className="text-xl text-blue-100 leading-relaxed">
-              {getContentValue('about-subtitle', t('about.hero.subtitle'))}
+              {getContentValue('hero_subtitle') || 'Fondée en 2025 par une équipe avec 7 ans d\'expérience dans le secteur'}
             </p>
           </div>
         </div>
