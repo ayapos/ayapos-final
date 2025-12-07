@@ -1,180 +1,1086 @@
 <analysis>**original_problem_statement:**
-The user's initial goal was to make their website fully manageable via a CMS admin panel, fix bugs, and enhance the UI. During this session, the scope expanded significantly.
-
-The primary goals accomplished were:
-1.  **Fix Core CMS Bugs:** Resolve a broken photo upload in the media library and fix incorrect content on the  page.
-2.  **Create a True WYSIWYG Editor:** Replace the generic, hardcoded admin editor with a fully dynamic one that adapts to any page's data structure.
-3.  **Make Entire Site Dynamic:** Convert all remaining static pages (, , , etc.) to be fully dynamic, loading their content from MongoDB and making them editable in the new admin panel.
-4.  **Site-wide Currency Change:** Change all prices on the website and in the database from Euros (€) to Swiss Francs (CHF).
-5.  **Comprehensive Image Audit:** Find and replace all duplicate and contextually inappropriate images across the entire website.
-6.  **Implement Multi-language Foundation:** Set up the complete framework for multi-language translation (FR, DE, IT, EN) using .
-7.  **User Requests:** Address various user requests, including zooming in on a specific image, removing obsolete links, and resolving several admin panel bugs related to saving content.
-
-The user has also expressed a future desire to integrate a price comparator from another project and to deploy the site on a custom domain.
+The user's initial high-level goal was to make their website fully dynamic and manageable via an admin panel. This session involved a tumultuous series of requests, including:
+1.  **Homepage Revamp:** A request to replace a pricing section with more dynamic content, which the agent fulfilled.
+2.  **Major Code Restoration:** The user became extremely frustrated after the agent made the homepage changes without explicit, step-by-step confirmation. This led to a lengthy and difficult process of restoring the codebase to various states (the agent's new version, the user's version before the agent started, a version from GitHub) to appease the user and recover lost content.
+3.  **Blog Content and Functionality:** The user reported empty blog articles. The agent debugged a critical issue where the backend was pointing to the wrong database ( instead of ), fixed it, and populated the blog with 6 complete articles.
+4.  **UI/UX Refinements:** The user requested and the agent implemented a new logo typography, fixed navbar spacing, and removed a dropdown menu.
+5.  **Mobile Responsiveness:** The user reported the site looked bad on mobile. The agent successfully implemented responsive design optimizations for the homepage and navbar without affecting the desktop view.
+6.  **Local Development Support:** The user reported that downloading the code from GitHub resulted in an old/broken version locally. The agent diagnosed that this was due to the MongoDB database and uploaded images not being part of the git repository and began creating a comprehensive backup solution.
 
 **User's preferred language**: French
 
 **what currently exists?**
-- A full-stack application (React, FastAPI, MongoDB) where **all pages are now dynamic** and managed through a central admin panel.
-- A powerful **Dynamic Editor** () in the admin panel that automatically generates form fields based on the complex, nested data structure of any selected page. Image uploads are supported within this editor.
-- The **Media Library** photo upload is fully functional.
-- The entire site now displays prices in **CHF**.
-- The codebase has been audited and improved by replacing dozens of duplicate images with unique, context-appropriate ones.
-- A multi-language translation system () has been installed and configured with empty translation files for French, German, Italian, and English, ready to be populated.
-- The homepage carousel is fully functional and editable from the admin panel, with automatic saving after image uploads.
+- A full-stack application (React, FastAPI, MongoDB) that has been heavily modified during the session.
+- The backend is now correctly configured to use  in , which contains all the user's dynamic content.
+- The homepage features new, mobile-responsive sections (Stats, Why Choose Us, Process, Use Cases).
+- The navbar has a new logo, corrected spacing, and has been partially translated into 9 languages.
+- A functional blog system is in place with 6 complete articles.
+- A complete backup solution has been created, consisting of a 38MB archive  (containing the DB dump and 38MB of images from ), along with installation scripts and documentation.
 
 **Last working item**:
--   **Last item agent was working:** Diagnosing a critical bug reported by the user: after uploading an image () in the admin panel, the new image URL is not being saved to the MongoDB database, so it doesn't appear on the live site.
+-   **Last item agent was working:** The user reported that their local setup was still missing content after downloading and using an initial, incomplete backup file. The agent diagnosed that the 38MB  directory was missing from that first backup. The agent then created a new, complete backup () containing both the database and all uploaded images, and was in the process of guiding the user on how to use it.
 -   **Status:** IN PROGRESS
 -   **Agent Testing Done:** N
--   **Which testing method agent to use?** both
-    -   First, use the  or  to inspect the payload sent during the  call from the frontend to the backend  endpoint.
-    -   Then, use the  to perform an end-to-end test of uploading an image and verifying it appears on the public site after the fix.
--   **User Testing Done:** N
+-   **Which testing method agent to use?** Manual user guidance. The agent must clearly explain to the user why the first backup failed, provide the download link for the new, complete backup, and walk them through the updated restoration instructions.
+-   **User Testing Done:** N (User's test of the *incomplete* backup failed, and they are waiting for a solution).
 
 **All Pending/In progress Issue list**:
--   Issue 1: (P0) Saving an uploaded image from the admin panel does not update the image URL in the MongoDB database.
+-   Issue 1: (P0) User's local development environment is broken due to an incomplete backup.
+-   Issue 2: (P1) The website's multi-language translation is incomplete.
 
 **Issues Detail:**
--   **Issue 1:** Saving an uploaded image from the admin panel does not update the image URL in the MongoDB database.
-    -   **Attempted fixes:** The agent confirmed that the image file is successfully uploaded to the  directory. However, a subsequent check of the MongoDB  collection revealed that the document for the edited page was not updated with the new image's URL (). This isolates the failure to the data persistence step after the file upload.
+-   **Issue 1:** User's local development environment is broken.
+    -   **Attempted fixes:** The agent first created , which the user tried and reported was incomplete. The agent then created a new, all-inclusive archive  (38MB).
     -   **Next debug checklist:**
-        1.  In , add  inside the  function to inspect the  object right before the  call. Verify if the state correctly holds the new image URL.
-        2.  Review the  function in the same file to ensure the nested state update () is working correctly and not being overwritten.
-        3.  Add logging to the  endpoint in  to print the incoming request body to see what data the backend is receiving from the frontend.
-    -   **Why fix this issue and what will be achieved with the fix?** This is a critical, show-stopper bug. The core purpose of the CMS is to allow content updates, and if image changes are not saved, the system is unreliable.
+        1.  Explain to the user that the first backup was missing the 38MB folder of uploaded images ().
+        2.  Provide the user with the download link for the new, complete backup: .
+        3.  Instruct the user to delete their old backup files and use the new  with the updated  guide.
+        4.  Ask the user to confirm once their local site matches the production version.
+    -   **Why fix this issue and what will be achieved with the fix?** This is a critical blocker preventing the user from developing and testing locally. Resolving this will restore the user's confidence and unblock any future work.
     -   **Status:** IN PROGRESS
-    -   **Is recurring issue?** Y (Saving and data synchronization have been recurring themes, though this specific manifestation is new).
-    -   **Should Test frontend/backend/both after fix?** Both.
+    -   **Is recurring issue?** N
+    -   **Should Test frontend/backend/both after fix?** User verification is required.
+    -   **Blocked on other issue:** None.
+
+-   **Issue 2:** The website's multi-language translation is incomplete.
+    -   **Attempted fixes:** The agent successfully added translation keys for the navbar and manually translated them into 9 languages after an automated script failed.
+    -   **Next debug checklist:**
+        1.  Once the local setup issue is resolved, re-confirm with the user to proceed with full-site translation.
+        2.  Systematically analyze each page (starting with ) to identify hardcoded strings.
+        3.  Add corresponding keys to the main  file.
+        4.  Populate the translations for the other 8 language files.
+        5.  Replace hardcoded strings in the React components with the  function.
+    -   **Why fix this issue and what will be achieved with the fix?** To fulfill a core user requirement for a fully internationalized website.
+    -   **Status:** IN PROGRESS
+    -   **Is recurring issue?** Y (Automated translation scripts have proven unreliable).
+    -   **Should Test frontend/backend/both after fix?** Frontend.
+    -   **Blocked on other issue:** Issue 1.
 
 **In progress Task List**:
--   None.
+-   None apart from the issues above.
 
 **Upcoming and Future Tasks**
 -   **Upcoming Tasks:**
-    -   (P0) **Populate Translation Files:** The multi-language system is in place. The next step is to populate the JSON files in  (, , , ) with the translated text for the entire website. The agent will need to generate these translations.
-    -   (P1) **Enhance AI Assistant to Perform Actions:** Enable the existing AI assistant to execute commands (e.g., parse change the title and update the database via the  endpoint).
+    -   (P1) **Complete Website Translations:** After fixing the user's local setup, continue translating all page content, forms, and footers.
 -   **Future Tasks:**
-    -   (P2) **Integrate Price Comparator:** Add the price comparator from the user's previous project into an appropriate section on the website (likely the AyaPay page).
-    -   (P3) **Refactor Codebase:** Systematically delete old, unused static page components ( files) now that the entire site is dynamic.
+    -   **Integrate Price Comparator:** (From original handoff) Add the price comparator from the user's previous project.
+    -   **Make Tarifs AyaPay Dynamic:** Convert the hardcoded Tarifs AyaPay section on the pricing page to be managed from the admin panel.
+    -   **Refactor & Cleanup:** Delete the numerous single-use scripts created during the session (e.g., , ) and the temporary backup files from .
 
 **Completed work in this session**
--   **Dynamic Editor Implemented:** Created and integrated , a powerful component that makes the admin panel truly WYSIWYG by adapting to any page's data structure.
--   **Site Fully Dynamic:** Converted all remaining static pages to be dynamic, ensuring all content is now editable from the admin panel.
--   **Currency Migration:** Changed all prices site-wide from **€ to CHF** in both the frontend code and the MongoDB database.
--   **Image Duplication Resolved:** Audited the entire site, found, and replaced dozens of duplicate and inappropriate images with unique, professional alternatives using .
--   **Core Bugs Fixed:**
-    -   Resolved the initial broken photo upload in the Bibliothèque Photos.
-    -   Fixed multiple critical bugs in the admin panel, including the homepage carousel save mechanism and image uploads within nested arrays.
--   **Multi-language Foundation:** Installed and configured  to support FR/DE/IT/EN translation, preparing the site for internationalization.
+-   **Homepage Revamp & Mobile Optimization:** Replaced a static pricing section with four new, professionally styled, and fully mobile-responsive sections (Stats, Why Choose Us, etc.).
+-   **Blog System Fix & Content Population:** Debugged and fixed a critical database connection issue ( in ) and populated the blog with 6 complete, long-form articles.
+-   **Navbar Enhancements:** Corrected spacing, removed a dropdown menu, implemented a new user-chosen logo design, and translated all navigation text into 9 languages.
+-   **Contact Form Verification:** Confirmed that the contact form and email service are correctly configured to send emails to .
+-   **Code Restoration & De-escalation:** Navigated a very tense situation where the user felt their work was deleted, ultimately restoring the entire codebase and database from various sources (git history, backups, GitHub) to the user's satisfaction.
+-   **Local Development Backup Solution:** Created a comprehensive backup package () with the database and all uploaded files, along with setup documentation.
 
 **Earlier issues found/mentioned but not fixed**
 -   None.
 
 **Known issue recurrence from previous fork**
--   None.
+-   **Unreliable Translation Scripts:** The agent's attempt to use a script to automate translations failed, similar to the previous session. This suggests that a manual or more robust approach is needed for this task.
 
 **Code Architecture**
 
 
 **Key Technical Concepts**
--   **Dynamic Rendering:** The  component recursively traverses a JSON object and renders corresponding form fields, enabling a generic editor for any data shape.
--   **Data Migration:** A pattern of creating one-off Python scripts () was used to read content from static React components and populate the MongoDB  collection.
--   **Internationalization (i18n):**  library was set up to handle multi-language support.
+-   **Database Configuration:** The discovery that all user data resides in  (set via  in ) was a critical breakthrough that solved the missing content mystery.
+-   **Comprehensive Backup Strategy:** The agent learned that a full backup requires both a database dump () and archiving of static assets not in version control (the  folder).
+-   **Targeted Responsive Design:** The agent effectively used Tailwind CSS responsive prefixes (, ) to apply mobile-only styles, preserving the desktop design as explicitly requested by the user.
+-   **User De-escalation and Restoration:** The session was a case study in handling user frustration. The agent had to use 73df061 HEAD@{0}: commit: Auto-generated changes
+c269db9 HEAD@{1}: commit: auto-commit for eff3f341-1048-4e49-9026-e89d91ae9ee5
+ff9642b HEAD@{2}: commit: auto-commit for 36859e33-a335-454f-963e-a4b1a0230675
+552dd28 HEAD@{3}: commit: auto-commit for 1a333c38-4f55-43cf-81f5-4c2112d776ec
+47eab17 HEAD@{4}: commit: Auto-generated changes
+c80944b HEAD@{5}: commit: auto-commit for 58d008a8-7326-4b98-b380-0cd41b8c4fa0
+9de7d35 HEAD@{6}: commit: auto-commit for c4c980ce-10de-4f2d-8ece-48e246f5be4a
+e1b9c97 HEAD@{7}: commit: Auto-generated changes
+fe0f2f3 HEAD@{8}: commit: auto-commit for a77c7cd7-72c2-4e16-95eb-94dbd8b4fd21
+5137144 HEAD@{9}: commit: auto-commit for 52b49b53-6bf4-4217-a21d-b896f569c68c
+1ff22d4 HEAD@{10}: commit: auto-commit for 2147f0b9-298d-48f4-b0e9-e2ba18a72c91
+5fa6371 HEAD@{11}: commit: Auto-generated changes
+5f0eb70 HEAD@{12}: commit: Auto-generated changes
+5a1571c HEAD@{13}: commit: Auto-generated changes
+2620d10 HEAD@{14}: commit: auto-commit for 1491bd38-2ad7-46f5-9def-4d8ecc276e74
+b975a63 HEAD@{15}: commit: auto-commit for 1e142ab2-a01f-4e7e-8c6e-3884013b79ec
+e18f107 HEAD@{16}: commit: auto-commit for f958b866-d049-47ef-9e17-b5913f2ff672
+52ec9ff HEAD@{17}: commit: auto-commit for 4e196b03-9226-49fc-9d86-a0fe0ae547c3
+55502fa HEAD@{18}: commit: auto-commit for 70eb91bd-052a-48ea-b97e-8e7bc1f58bb8
+6221e57 HEAD@{19}: commit: auto-commit for 814c67bc-6969-4f81-82fd-7c0de86d07cb
+1f5733f HEAD@{20}: commit: auto-commit for 38816f6c-ce45-4a78-9dde-bc04333d182b
+0b3c7d4 HEAD@{21}: commit: auto-commit for bfca1028-e0c9-470f-8bea-f298c9808686
+1b1a052 HEAD@{22}: commit: auto-commit for 956d6cd2-5b7d-49ae-acb2-990fd3e82683
+aeabf3e HEAD@{23}: commit: auto-commit for 26c70835-6999-4846-848c-99d9603f9de6
+985adc8 HEAD@{24}: commit: auto-commit for 5bd2b247-e59a-4993-ae19-201acc0f9175
+238680f HEAD@{25}: commit: auto-commit for a9819307-0f2b-44f5-85e0-04381b61d4a1
+83ada6f HEAD@{26}: commit: auto-commit for 7823200d-7b4e-4d17-9872-6e086d9e2946
+0dcd023 HEAD@{27}: commit: auto-commit for 4efbe013-ede5-4b23-ba5f-77fff5880c19
+ce4f336 HEAD@{28}: commit: auto-commit for b9828d7c-517f-4619-bf9b-53e425ab2c6e
+ea1b387 HEAD@{29}: commit: auto-commit for 111a74f4-35d9-4f7f-b7ac-0705c43a997d
+4cf538c HEAD@{30}: commit: auto-commit for 5cc5ca3d-8734-41da-8180-988a2e3f9deb
+f1b7806 HEAD@{31}: commit: auto-commit for dd032c12-08ef-43a7-937d-5a05076bddda
+3cb5094 HEAD@{32}: commit: auto-commit for e2f2ac62-bfef-4cf3-bea9-c1bb4e5b4b10
+6efc66f HEAD@{33}: commit: Auto-generated changes
+6413437 HEAD@{34}: commit: auto-commit for d0f58773-edc8-40bd-8c40-5a32083ad51f
+895fb06 HEAD@{35}: commit: Auto-generated changes
+fd5989b HEAD@{36}: commit: auto-commit for 93ea5c24-acd4-4ca8-a128-ed5a0f36710f
+906a639 HEAD@{37}: commit: auto-commit for d093b755-f4de-4139-93b6-90c53c1472ad
+85cf904 HEAD@{38}: commit: auto-commit for 50562dc8-78a6-448c-88e6-da8cf80cf981
+7e1ddba HEAD@{39}: commit: auto-commit for 257b7c9d-a77f-42fa-af7e-cd77cbcfe27f
+4c60ad3 HEAD@{40}: commit: auto-commit for e2a410fd-f1d9-4140-8ee2-74280f774e53
+5d8e595 HEAD@{41}: commit: auto-commit for 883da2da-b52a-44c4-b921-6194fef0ffca
+3208ac7 HEAD@{42}: commit: auto-commit for ff81b39f-0df3-470b-871e-419e0e3cc17b
+79326ac HEAD@{43}: commit: Auto-generated changes
+368b9fc HEAD@{44}: commit: auto-commit for 870506cc-f742-49b2-9885-e8366be408e7
+393d471 HEAD@{45}: commit: auto-commit for 114f1d0b-5cbf-4130-b66b-b8438400fa48
+5a80086 HEAD@{46}: commit: auto-commit for 09dbe41a-becb-4e76-ae5b-bbc7d3384256
+bb49171 HEAD@{47}: commit: auto-commit for 4c175fe2-49f0-49c6-bd76-3e2ecd595133
+7a6069e HEAD@{48}: commit: auto-commit for de23555d-cd82-4dca-aa02-fb68fb044322
+65dc1df HEAD@{49}: commit: auto-commit for 7d935f2f-730b-4e30-96c9-0cacc831f5e0
+9560411 HEAD@{50}: commit: auto-commit for 19b250d1-7d16-4887-9b78-d300183d9f05
+a1b7f79 HEAD@{51}: commit: auto-commit for dbfe8776-ba84-484d-8146-82309009a34e
+ab92083 HEAD@{52}: commit: auto-commit for 9ef24be6-6b76-45e5-9649-baf307871780
+5803799 HEAD@{53}: commit: auto-commit for 85e673f4-d37d-4736-a47f-4951db40f58f
+1572623 HEAD@{54}: commit: auto-commit for 2c8c3d1e-b3d9-4773-b596-57d76dd39af7
+b9e0c3c HEAD@{55}: commit: auto-commit for 48f9da19-4ff5-4d6c-9660-bc32ca51d91e
+96f4898 HEAD@{56}: commit: auto-commit for f9546454-eb30-4ff4-801e-068f279a8f8d
+500b59e HEAD@{57}: commit: auto-commit for 743f6698-adb2-475a-8163-a1de14a1b817
+8113ff8 HEAD@{58}: commit: auto-commit for fc814bcf-9b66-43d8-8d0f-16f6cf977ac9
+afd356f HEAD@{59}: commit: auto-commit for fe43191b-a56c-4f75-b277-db44ce2dfff1
+62ef143 HEAD@{60}: commit: Auto-generated changes
+c52e267 HEAD@{61}: commit: auto-commit for 07e02259-b39e-4dcc-8890-17011511f5a4
+bfb9634 HEAD@{62}: commit: auto-commit for 14b49c3e-2da1-4e80-ac8d-6f5cebc2c8ef
+fb1f807 HEAD@{63}: commit: Auto-generated changes
+254b37c HEAD@{64}: reset: moving to 254b37c
+7f4175b HEAD@{65}: reset: moving to 7f4175b
+6bbd981 HEAD@{66}: commit: auto-commit for e8ae8d4a-6fef-49f1-8655-2512eb8ed3d8
+254b37c HEAD@{67}: reset: moving to github/main
+67be94b HEAD@{68}: commit: auto-commit for 05c0b2a8-3519-4cca-9675-e43375c0ee72
+f7b274d HEAD@{69}: commit: auto-commit for db6cab11-3d41-4b8b-bc72-338184e19d66
+266d8a2 HEAD@{70}: commit: auto-commit for 4a2da2b1-84a7-4f89-9e94-75fe67b47674
+531778d HEAD@{71}: commit: auto-commit for 159fc147-4798-4aa8-99d6-76d659dda1ae
+6936979 HEAD@{72}: reset: moving to 6936979
+70d23d2 HEAD@{73}: reset: moving to 70d23d2
+9c0bd34 HEAD@{74}: commit: auto-commit for cc51dce0-bea5-47df-ba1b-49c141e3d035
+9ed96d7 HEAD@{75}: commit: auto-commit for 2964e710-63ba-4c8d-a675-583f142bb025
+ebc49dc HEAD@{76}: commit: auto-commit for a00a33aa-3d3d-4de2-b53a-6b7b21a4f071
+5504fc3 HEAD@{77}: commit: auto-commit for f22f8539-2e2b-497f-b53f-07f748fa94ee
+7f4175b HEAD@{78}: commit: auto-commit for dbd3d137-e279-4811-9e4e-a6e0b4ce0cef
+e8e832d HEAD@{79}: commit: auto-commit for 20f35a87-1e92-4a01-846e-f1bb24103362
+94dc2a7 HEAD@{80}: commit: auto-commit for b399651a-3e9f-4a03-9f7d-7b830a051ff2
+00e87fe HEAD@{81}: commit: auto-commit for 0874b64c-55f5-40e1-b3e5-3f6983fb4e35
+dce9462 HEAD@{82}: commit: auto-commit for 88e1b90e-4507-4f71-beeb-72f01050958c
+5fb34de HEAD@{83}: commit: auto-commit for eaed6060-1a5d-4922-84b1-a4b5f1cc9cb7
+52f1cf9 HEAD@{84}: commit: auto-commit for 6b30f731-4b92-4ffe-b149-448fc1c85ddd
+034d930 HEAD@{85}: commit: auto-commit for 66334d4b-24ae-4153-80a6-9fae7f0cc7e3
+be6f1e8 HEAD@{86}: commit: auto-commit for fd233c05-6d06-44f7-a22a-d476692365fd
+7494acd HEAD@{87}: commit: auto-commit for 49fce4b2-c6b2-433f-a8c3-a1572a91356f
+4f78ab5 HEAD@{88}: commit: auto-commit for ad6a9432-0be1-41f3-b7fa-d97699082d63
+254b37c HEAD@{89}: commit: Auto-generated changes
+d7c899d HEAD@{90}: commit: auto-commit for a58db490-0729-4e25-8bd6-e84e848fa051
+3dfd5b9 HEAD@{91}: commit: Auto-generated changes
+9e004f5 HEAD@{92}: commit: auto-commit for 8b4474f7-eeb5-4694-b4d0-dc221f25a5ae
+f4dd592 HEAD@{93}: commit: auto-commit for 30fb2686-053f-432a-9e68-ae0629dabfda
+235da58 HEAD@{94}: commit: auto-commit for 31652eea-e35b-494a-b9c0-36830c42a0fe
+6cecb30 HEAD@{95}: commit: auto-commit for 2cbaa8f3-b381-43ab-8a78-b54716167357
+12232bc HEAD@{96}: commit: auto-commit for 7ec809c2-b0ac-42b3-8356-25b060cb3d64
+a69f567 HEAD@{97}: commit: auto-commit for 1b4c3f72-3e15-440a-90c9-6e84e3e6fbd9
+9a03a2b HEAD@{98}: commit: auto-commit for 0c6b0dd4-72e4-4ef6-a772-79927880acd8
+985f86c HEAD@{99}: commit: auto-commit for 85e38dc9-f4d4-4813-a89f-0d3ce97668e4
+5bc9806 HEAD@{100}: commit: auto-commit for d0140f48-79a1-484f-b4eb-bcb06b07a091
+591c6d9 HEAD@{101}: commit: auto-commit for c2f47704-d90d-4778-b6aa-d4dd872221a5
+70c9b86 HEAD@{102}: commit: auto-commit for 0985f729-3b86-4e39-9999-6332009aa400
+09505a3 HEAD@{103}: commit: auto-commit for 23530c79-17d3-49d1-98a7-31b687999fe8
+60eb71b HEAD@{104}: commit: auto-commit for 02173ed8-e266-4fc6-823b-872acf6319b0
+6f97d10 HEAD@{105}: commit: auto-commit for f4251bd2-2289-43ae-a3e3-9c8cdcc8c859
+06f6393 HEAD@{106}: commit: auto-commit for eb62707b-8037-4a5b-8821-b915b2db392c
+929868a HEAD@{107}: commit: Auto-commit before changes
+6f88e0d HEAD@{108}: commit: auto-commit for fc2ca3ed-f316-418a-a0d7-367846381eb0
+ee4fca2 HEAD@{109}: commit: auto-commit for 03e0dffb-b0a7-49ef-a99b-68ca00700107
+c7c644f HEAD@{110}: commit: auto-commit for 504030cc-e12d-46bd-af98-56539e105a43
+181edec HEAD@{111}: commit: auto-commit for f94a3916-5e34-414c-8aff-10b95ad1a59b
+e18bdde HEAD@{112}: commit: Auto-commit before changes
+de54b60 HEAD@{113}: commit: auto-commit for 5e8e265e-b667-4c58-bb5f-58ca579bcb8b
+c46c2c7 HEAD@{114}: commit: auto-commit for 533d9766-fbcf-497c-b17a-899c96259030
+b8204eb HEAD@{115}: commit: auto-commit for e221a062-4757-4b76-a938-7b6f9fdb1264
+5782e4b HEAD@{116}: commit: auto-commit for 39e62d93-135a-470a-ad86-7b712616fdde
+ff91755 HEAD@{117}: commit: auto-commit for 55dfcca9-f185-4773-9988-5c20780be872
+70d23d2 HEAD@{118}: commit: auto-commit for 21d44c09-15c6-4ead-957f-a95020d7dcf0
+09cd9cb HEAD@{119}: commit: auto-commit for e13aa9c7-ccd2-4638-ae1a-8e9af8f1ed6a
+bff6d20 HEAD@{120}: commit: auto-commit for e307a392-4fdd-49ff-bcd5-a1065772e288
+d9e39e5 HEAD@{121}: commit: auto-commit for bdeaac32-a046-4e92-b20f-de66798a0ded
+4e14fff HEAD@{122}: commit: auto-commit for a6814cf3-934a-472f-aacf-02aea21fd86f
+3bc7bb7 HEAD@{123}: commit: auto-commit for 2cec56e4-bd61-4c1d-aee6-a32041cfeb86
+c77d8bd HEAD@{124}: commit: auto-commit for ce8944c3-a534-4f57-9c3d-08e630bbd37a
+6936979 HEAD@{125}: commit: auto-commit for ca420de2-d5e4-4145-a53d-920c06deb8ee
+10c3cc7 HEAD@{126}: commit: auto-commit for 5c4c521b-5063-45d8-8554-e6a8ce9fbc23
+f7a8883 HEAD@{127}: commit: auto-commit for df9519e7-1060-4747-87ab-f3c06191ee9a
+e635eb5 HEAD@{128}: commit: auto-commit for 59daec66-f6cb-4440-85db-cbc0e70a3b51
+525e5b9 HEAD@{129}: commit: auto-commit for 1831152d-0061-4246-86fa-5b77c07ff991
+188f5ba HEAD@{130}: commit: auto-commit for 109f5ea3-ea30-4643-8aeb-016e989a415a
+9a8682f HEAD@{131}: commit: auto-commit for a4518af7-2256-4d13-824d-5fef96e4e7f9
+03ce131 HEAD@{132}: commit: Auto-generated changes
+4483287 HEAD@{133}: commit: auto-commit for 3cecd480-1d32-4a1c-ae7d-874c79ad8dce
+251ea23 HEAD@{134}: commit: auto-commit for 92c588c5-8b9a-41c8-9db8-104f4bbe0d04
+b603c3b HEAD@{135}: commit: auto-commit for cc931a41-e83a-45c0-9576-a6f5f4449624
+57340de HEAD@{136}: commit: auto-commit for 38389ec7-1908-4bde-a491-728e22fbe2c4
+dc3c6c5 HEAD@{137}: commit: auto-commit for 2ec0e109-109a-4205-adb2-fbce2842bc9c
+9acec9c HEAD@{138}: commit: auto-commit for b0637b2a-d382-44fb-9e50-3450f7d7aac0
+0559a37 HEAD@{139}: commit: auto-commit for 43c1d80b-bec6-4949-9466-2d95430c268f
+282f4a7 HEAD@{140}: commit: auto-commit for 102cefc8-bd4b-4c74-8a8e-8d6117caff9f
+79636b1 HEAD@{141}: commit: auto-commit for 1cddf319-a5ae-4598-bfa2-de7f4d528058
+f579865 HEAD@{142}: commit: auto-commit for fa7803f2-2012-4d73-8821-b74afb074969
+6769de6 HEAD@{143}: commit: auto-commit for 0a387d08-643f-466a-a555-af647269793c
+85d1b32 HEAD@{144}: commit: auto-commit for 9c37fb26-f452-4fed-8913-6fec573098e6
+bff7097 HEAD@{145}: commit: auto-commit for a2e8df1d-2d97-4273-b623-bc9b74a0a52e
+1596510 HEAD@{146}: commit: auto-commit for 8dd73367-3976-49b5-b62f-df4421121582
+35eef8f HEAD@{147}: commit: auto-commit for 0cea4a49-65ac-4536-a64f-c522b059d8ca
+b608ed5 HEAD@{148}: commit: auto-commit for db3cfbe5-0f81-4ce8-8bf3-120d6525d8b5
+1bd56e9 HEAD@{149}: commit: Auto-generated changes
+1ead5f5 HEAD@{150}: commit: auto-commit for 50015985-27a0-48ce-a70d-2372fc1005b9
+6b0528b HEAD@{151}: commit: auto-commit for a64bf388-f453-4a52-af96-4a931cf2ba9b
+00345eb HEAD@{152}: commit: auto-commit for bd2838ab-410c-4b18-9394-90197b867f9e
+d7d267b HEAD@{153}: commit: auto-commit for 018f7292-6edb-4b18-8144-07724ebec5ed
+186cf2a HEAD@{154}: commit: auto-commit for 422318ae-c54e-47fd-a466-312685dbfc5a
+961d0e5 HEAD@{155}: commit: auto-commit for 8a051927-2458-41ca-862e-f9c3da390841
+0e73ad7 HEAD@{156}: commit: auto-commit for 93eae450-2747-4c47-ad17-d4f0c10760e7
+1c9e61e HEAD@{157}: commit: auto-commit for 03ceb5c9-2c14-4172-9d75-34f19636a4a3
+31e26ef HEAD@{158}: commit: auto-commit for b2dab352-045d-49a5-ae73-b5a42da89c9b
+e4c0516 HEAD@{159}: commit: auto-commit for e91a7098-efa7-477d-beac-a35b27a85666
+69f3d50 HEAD@{160}: commit: auto-commit for 8ea3512f-afc8-44eb-8542-8fea8fcde925
+b4dc8ed HEAD@{161}: commit: auto-commit for 378174aa-594d-4952-a9e8-a2d9c532bf27
+dc6eca5 HEAD@{162}: commit: auto-commit for e283f4d3-9cab-461d-8ba5-d0c18b48fd23
+0cf2545 HEAD@{163}: commit: auto-commit for 618d046e-33d9-405b-b552-e11148b14c45
+c2c2585 HEAD@{164}: commit: auto-commit for 49df1a23-2788-4151-87dd-7b15a7c4be8c
+0051084 HEAD@{165}: commit: auto-commit for 9e1cc74e-b989-42fa-9100-1195bab1f34a
+074d09f HEAD@{166}: commit: auto-commit for 830547c8-9e24-4591-b2c6-7260744d5fc0
+580ad8a HEAD@{167}: commit: auto-commit for ccea4f70-ae9f-4295-8506-860f445afad4
+5103262 HEAD@{168}: commit: auto-commit for 932ce2c0-04bb-4d44-a446-44bc17652bcd
+0afd01b HEAD@{169}: commit: auto-commit for 7dcd45d3-9a10-4493-b84d-56be0f5bd553
+a8cfec0 HEAD@{170}: commit: auto-commit for 73b32598-ac10-49a1-8121-c048f9fbda2a
+1126a13 HEAD@{171}: commit: auto-commit for 116094a1-7b26-4741-8e0b-ca8efadc349b
+3dfd90b HEAD@{172}: commit: auto-commit for 4dd85974-eba5-4962-ac99-a75120c48c4c
+51f0ab8 HEAD@{173}: commit: auto-commit for 9a041270-f288-4dd8-8f28-4e01907a33c5
+46149e4 HEAD@{174}: commit: Auto-generated changes
+f92f157 HEAD@{175}: commit: auto-commit for 0fabb3b4-9672-4ced-8b98-cf8a4adb2a53
+d2fa58a HEAD@{176}: commit: Auto-commit before changes
+a89f56b HEAD@{177}: commit: auto-commit for 9d38c4a5-4617-4f8c-ba31-b78ea085d160
+39dfaa1 HEAD@{178}: commit: auto-commit for 85594db7-23f7-467e-9f14-746e8724cb06
+cad6265 HEAD@{179}: commit: auto-commit for b0abb12e-40e8-4206-a24f-39dd77d35688
+d0e7b32 HEAD@{180}: commit: auto-commit for 6c03230d-30a9-49db-b82f-5f6c8fecdaaf
+073e8d9 HEAD@{181}: commit: auto-commit for 253aca5f-b795-4fb5-8da0-c974961c7720
+c18a628 HEAD@{182}: commit: auto-commit for c1f408ae-9078-4e03-9e14-880cd2fd56b7
+3ac4d61 HEAD@{183}: commit: auto-commit for 8a534f7c-91eb-45fd-a336-1ce43e2ab00d
+79992ef HEAD@{184}: commit: auto-commit for 800510f1-7ab6-4a56-9857-29c8d524990d
+2cb2937 HEAD@{185}: commit: auto-commit for 7cb351ce-521e-4ef8-adfa-08c029e77a91
+bfb26fa HEAD@{186}: commit: auto-commit for 5237b376-048e-49e2-b847-34cccf8241a9
+5d7c38d HEAD@{187}: commit: auto-commit for ba4f5743-8a52-40e7-b85e-ae5ca9276522
+5787513 HEAD@{188}: commit: auto-commit for 6279ae5e-ee49-443f-aa15-f499e6c3146d
+e23e197 HEAD@{189}: commit: Auto-commit before changes
+e7ba82f HEAD@{190}: commit: auto-commit for c43425e5-f2fa-42fd-a661-f017ae7e3d03
+437111d HEAD@{191}: commit: auto-commit for d8fd4ce3-08a9-45c7-b06a-839c2d5a121f
+7675cf0 HEAD@{192}: commit: auto-commit for 56fc220e-502c-454c-9e05-ac2084840e95
+2145af4 HEAD@{193}: commit: auto-commit for 5447a4a1-ea69-4ed5-9078-961758a10a2e
+5159db3 HEAD@{194}: commit: auto-commit for e35bd391-0ee6-42b2-b930-0f108a8dbdc9
+f6e5a8b HEAD@{195}: commit: auto-commit for 8e44d7e2-43c1-4680-b8b4-866b0e897f3a
+7cfc937 HEAD@{196}: commit: auto-commit for d933a1b9-4b4f-494c-92cd-1621369527e0
+9e9bf26 HEAD@{197}: commit: auto-commit for 1299a7c4-04fe-453d-91ba-94fac7b6e0a0
+55a75f2 HEAD@{198}: commit: auto-commit for d9c5782e-838e-4b7d-a254-9575b673e2f9
+bfe1d20 HEAD@{199}: commit: auto-commit for a7981a04-fb68-4078-888a-4cdbe1e051e4
+98ce7a4 HEAD@{200}: commit: auto-commit for 50bb27b2-b08f-4ac5-a8b2-614f0615937e
+2191fa3 HEAD@{201}: commit: auto-commit for 7ca222fa-e919-4339-872f-34319c2be074
+5ea7cad HEAD@{202}: commit: auto-commit for d4933ff8-9d25-4ebf-b70c-e61a9122ef7d
+a059bfd HEAD@{203}: commit: Auto-generated changes
+4a153e4 HEAD@{204}: commit: auto-commit for d38f71a1-ba26-4d5d-9c9c-fcec0c208c47
+2862670 HEAD@{205}: commit: auto-commit for a0ed9340-8778-4a99-9316-06c63029290d
+e8dc96b HEAD@{206}: commit: auto-commit for f0a9a8a0-f7f9-4505-bfe8-35eaa8823dc3
+c93babc HEAD@{207}: commit: auto-commit for 74c9e78f-3b78-42c5-a6f7-6a5c58297053
+4e4969e HEAD@{208}: commit: auto-commit for 2c01bc21-d66f-4c69-abaf-494ce3b5d25e
+66cbbe1 HEAD@{209}: commit: Auto-generated changes
+fe5599a HEAD@{210}: commit: auto-commit for 3cac1bea-a75d-4765-a066-5c7cdc0df2a3
+b8d5891 HEAD@{211}: commit: auto-commit for f170e2f1-a38f-40f1-ae9d-19112b7f0d61
+7ba2709 HEAD@{212}: commit: auto-commit for 6bc45e6f-6a42-4f5c-8a9e-49a1a2463fcc
+c7c56de HEAD@{213}: commit: auto-commit for 6ffbbb71-cb9a-4e87-a0e6-7cc4ec65b334
+3d79756 HEAD@{214}: commit: Auto-commit before changes
+e0c8d23 HEAD@{215}: commit: auto-commit for b0d34bdb-3833-4f79-a862-775817e1904c
+16a266b HEAD@{216}: commit: auto-commit for 83e0c52a-2588-4a6c-8f58-dfafeb32a8cb
+f17e0f6 HEAD@{217}: commit: auto-commit for 01f0d286-cd83-47b4-b357-e6bd859972d4
+2d26f94 HEAD@{218}: commit: auto-commit for 84a0d0df-ff08-4068-8bf8-fa311f9735ec
+7009dff HEAD@{219}: commit: Auto-generated changes
+646c191 HEAD@{220}: commit: auto-commit for b55e6eeb-b94f-4b78-94c2-c7b2b0148449
+c5d488c HEAD@{221}: commit: auto-commit for 106b2415-83a4-403e-b7e5-784554ed7edc
+621366b HEAD@{222}: commit: auto-commit for a847ba10-0bc9-48a0-98f0-ea70228148dc
+fcd8f21 HEAD@{223}: commit: auto-commit for 11676c77-f522-471a-81b7-1edbf84ef977
+ebc4aeb HEAD@{224}: commit: auto-commit for 11135a47-b94c-46c3-99b7-75e41b1d6c10
+96df464 HEAD@{225}: commit: auto-commit for ac26b97d-8d25-4851-adec-6b125072f875
+634b4b5 HEAD@{226}: commit: auto-commit for a02293bf-dfac-46db-b135-36431e563541
+46f7aaa HEAD@{227}: commit: auto-commit for 3ae9c29c-0030-4241-beec-9fb52ac8fd2a
+5e6199e HEAD@{228}: commit: auto-commit for 6d336170-c509-499a-a05b-1dead790a77d
+880bd5f HEAD@{229}: commit: auto-commit for 62df0351-7c3b-4689-92fd-1e77d131810f
+28b29d3 HEAD@{230}: commit: auto-commit for 3cf6e92c-74f7-4b75-937f-4bbcf8578a8b
+efa2d09 HEAD@{231}: commit: auto-commit for 9c5dafe9-fe76-42b7-9584-3200aefcc5fe
+bb8548c HEAD@{232}: commit: auto-commit for c28cde85-a5c6-4180-83f1-ee770dee602d
+2a0d6b1 HEAD@{233}: commit: auto-commit for df47303c-5797-4a0b-8b70-8ea2f1db1edf
+d906ca4 HEAD@{234}: commit: auto-commit for 22335091-88a5-4d9f-8fcc-81144c928bb0
+a31c116 HEAD@{235}: commit: auto-commit for 6537baf1-0a1d-448c-84c5-14996d7513d1
+18f83a6 HEAD@{236}: commit: auto-commit for 40e82f26-9c55-4781-9f7a-97204794d9b6
+ce8bbe8 HEAD@{237}: commit: auto-commit for 83938e3b-2872-46da-b4f4-02552b47da81
+cda667a HEAD@{238}: commit: Auto-commit before changes
+c1ef102 HEAD@{239}: commit: auto-commit for 70145d50-bdcb-4bb1-afea-6aaf86047c0b
+497c6d6 HEAD@{240}: commit: auto-commit for 2bb580da-e2f2-4d2b-994e-c15c41818c7a
+58e2af1 HEAD@{241}: commit: auto-commit for 3220bad3-92d6-46d1-80be-676eee2d4e66
+aa73e33 HEAD@{242}: commit: auto-commit for 6788c24d-1b18-41e6-b736-688cb7f16169
+c2aa7cc HEAD@{243}: commit: auto-commit for 30bd2dac-23e9-45e1-9a26-1c46fc5d1d07
+31d3d1c HEAD@{244}: commit: auto-commit for e8c37977-ae5f-4003-a3f5-2583834686a5
+7f7fa5a HEAD@{245}: commit: auto-commit for 1a68ba3e-9d22-4581-81c7-2446cef11f91
+839d773 HEAD@{246}: commit: auto-commit for 76568c04-c1c0-4113-b7bd-b34b5c416626
+2f5a241 HEAD@{247}: commit: auto-commit for 1265f22c-9d4a-419d-80cc-9bfa9a1468be
+23cdf32 HEAD@{248}: commit: auto-commit for 01f13763-51e5-493c-8548-84471881f412
+2ca42a7 HEAD@{249}: commit: auto-commit for 21997b86-c724-47e0-9d8d-cd7b397427eb
+6d06b21 HEAD@{250}: commit: auto-commit for 76010b30-419f-4bd3-a7de-2ccb9df22fb5
+edfe893 HEAD@{251}: commit: auto-commit for 8271561d-423c-4026-9722-16d1355f0022
+763d2bc HEAD@{252}: commit: auto-commit for 29256550-db79-4ee8-a242-58077ad6ed7c
+b04495d HEAD@{253}: commit: auto-commit for ab5b31f4-414c-4d1a-8b07-24a528044eee
+97f1376 HEAD@{254}: commit: auto-commit for 04aa6906-b1ea-4978-be19-4aae6ea48fda
+39445de HEAD@{255}: commit: auto-commit for aabf6b54-3cd7-47e0-917c-de242d2981bf
+2e45519 HEAD@{256}: commit: auto-commit for 917f9923-c287-4295-a9fe-9834c72b4096
+ae131b5 HEAD@{257}: commit: auto-commit for 9b9dac1a-39b6-4859-8a5a-2fe59eb81d32
+59eeacd HEAD@{258}: commit: auto-commit for c0b50ebc-579e-466c-ab55-a706807b13f5
+cefbad3 HEAD@{259}: commit: auto-commit for 7d073f23-e912-4eb5-957e-1e01828654c9
+a2b6361 HEAD@{260}: commit: auto-commit for 710de6d8-8389-4b60-b57e-e726179475dc
+8aec522 HEAD@{261}: commit: auto-commit for d073e437-dcb8-4c8b-8c0c-1c5bedced950
+afeedb2 HEAD@{262}: commit: auto-commit for 56541fdd-3c1d-47ee-94ca-8f35c7a8fae9
+7f35e5e HEAD@{263}: commit: auto-commit for ce3ec2e5-2c01-430b-b400-8395ed40187b
+6bc1c6f HEAD@{264}: commit: auto-commit for 82f63db8-dac5-4503-a29c-38d08175624f
+0adbd4d HEAD@{265}: commit: auto-commit for f6c461a8-e36f-4314-a5af-868cc0de837b
+b979eda HEAD@{266}: commit: Auto-commit before changes
+0601737 HEAD@{267}: commit: auto-commit for aad6076f-2053-48fc-9e8f-c86aca6001db
+8861643 HEAD@{268}: commit: auto-commit for af0ed85d-13b5-444f-9ce7-0e8c07911408
+6936a08 HEAD@{269}: commit: auto-commit for 68ee749d-067c-4576-a166-449eebc128b0
+4483790 HEAD@{270}: commit: auto-commit for 686912fc-9bcd-430b-9db0-63ba3e616620
+3d412f3 HEAD@{271}: commit: auto-commit for 7969bb51-48b4-4fea-b210-e7ff9c665a28
+6c56aff HEAD@{272}: commit: auto-commit for 6cf70d18-8a3e-4c9c-a228-8615a7b36af2
+cc2d538 HEAD@{273}: commit: auto-commit for d0f9a875-5dbe-45d2-822b-57dd0218a5b9
+42c25ce HEAD@{274}: commit: auto-commit for 34840af8-672e-4d22-a0b7-89268ddd8ce5
+c613ed6 HEAD@{275}: commit: Auto-commit before changes
+dc938ce HEAD@{276}: commit: auto-commit for 9b3b13f3-f550-4f74-a902-0186b0c134aa
+33dfffe HEAD@{277}: commit: auto-commit for 356f8733-650c-487a-a48b-4d735afd815c
+479b092 HEAD@{278}: commit: auto-commit for 3eae5051-75e3-4b48-a13a-6b138329aac4
+1d02986 HEAD@{279}: commit: auto-commit for b7272660-cb2c-47de-b78e-eaed5f7627dc
+3e84c53 HEAD@{280}: commit: Auto-generated changes
+a44234f HEAD@{281}: commit: auto-commit for 44610353-0f2d-4d51-9164-772e2c6eadb5
+1d676eb HEAD@{282}: commit: auto-commit for 1b1875de-02fa-4719-9aa4-723383bd7476
+4bd0338 HEAD@{283}: commit: auto-commit for cff263fb-b672-4bab-a4e7-926d81045511
+e6dded8 HEAD@{284}: commit: auto-commit for 5abc568f-de91-4689-99e7-21efe5708e77
+12f223a HEAD@{285}: commit: auto-commit for a192a36b-86dc-4f9c-a08f-b4d606a63023
+0f1b70e HEAD@{286}: commit: auto-commit for 7b063658-d7aa-49f1-89dd-88c65d867146
+b052680 HEAD@{287}: commit: auto-commit for baa3a184-e8bd-4978-bf3e-baa8220ead4c
+1b556cb HEAD@{288}: commit: auto-commit for 9c898b04-c6d5-4b12-b470-fa853180a79c
+32c501c HEAD@{289}: commit: auto-commit for 8efcbc47-de3b-4b90-ac7c-19ea594253e5
+20fc416 HEAD@{290}: commit: Auto-generated changes
+4826546 HEAD@{291}: commit: auto-commit for dbedfbb7-86cc-42ca-943f-5667f16922f6
+fed96a1 HEAD@{292}: commit: auto-commit for c0df594e-ab84-42bd-bdf7-1001537296a2
+c6f4c9c HEAD@{293}: commit: auto-commit for 8320da82-69da-42ab-9cf3-8d0281573474
+f04528e HEAD@{294}: commit: auto-commit for 011e9213-35dc-4947-a662-71a5e80ac4eb
+2f8913d HEAD@{295}: commit: auto-commit for 232fac41-ec24-48c2-8785-876e54efefe8
+be65e34 HEAD@{296}: commit: Auto-commit before changes
+a05d0d3 HEAD@{297}: commit: auto-commit for 9fb11b69-5e1b-4dd7-85b3-640ba3ef1c72
+cb28f2d HEAD@{298}: commit: auto-commit for 1f15f15f-6051-44fd-855e-bdd917f0fa34
+e8db534 HEAD@{299}: commit: auto-commit for a58a2981-2960-44f5-9a5e-53f41e2917ec
+566edd8 HEAD@{300}: commit: auto-commit for 3d7223b5-c227-4bc0-916d-c2e2b1ccabfb
+0ff4cc8 HEAD@{301}: commit: auto-commit for bd5b910f-7e3c-40d7-ba37-2ae0997566fa
+e44f74a HEAD@{302}: commit: auto-commit for ea6838a0-f4ba-41f7-ad2e-d9abcf04ebc0
+bb566eb HEAD@{303}: commit: auto-commit for e3239d73-48f5-44dd-b1f3-1291f3dd8d3f
+d276881 HEAD@{304}: commit: auto-commit for b2166a99-09ed-41b9-8fa1-1a80ada208ce
+ab1bbce HEAD@{305}: commit: Auto-commit before changes
+9b9cd4c HEAD@{306}: commit: auto-commit for 55ddf2f3-58e3-46d0-a89c-96a5b08617a6
+c7b8a7c HEAD@{307}: commit: auto-commit for 191dd0f8-a308-4bc7-8d4a-f8a23b4be1e7
+001ef08 HEAD@{308}: commit: auto-commit for 95c1a085-6a25-4aee-821a-467bcaa889e5
+321d897 HEAD@{309}: commit: auto-commit for da217a60-9424-4ad4-b73e-ad1c254ea324
+12a559c HEAD@{310}: commit: auto-commit for 67f216e7-864d-4f42-9817-debba9244007
+2721223 HEAD@{311}: commit: auto-commit for 61c3e6de-897b-41f9-be4a-9cc2f2d385f0
+8549279 HEAD@{312}: commit: auto-commit for 942bce70-c00e-40fa-94a1-c0c1ebf319ff
+8e545b2 HEAD@{313}: commit: Auto-commit before changes
+8916402 HEAD@{314}: commit: auto-commit for 03d0bc90-4083-4db0-9e51-443a0671a291
+6301f0e HEAD@{315}: commit: auto-commit for 8f2bb348-0349-449b-a01b-1c86c27aba6f
+020d9a5 HEAD@{316}: commit: auto-commit for 49676f90-a0a0-4d17-8061-a273af26f706
+a25f27c HEAD@{317}: commit: auto-commit for e7b8898f-97d2-48eb-a36b-df954248d258
+fccb46c HEAD@{318}: commit: auto-commit for cc39fba2-a025-44ee-b16e-fd21274ed86b
+fd68749 HEAD@{319}: commit: auto-commit for e4c0774d-6ef3-4fe3-bdef-5fc85e70cbc1
+23244de HEAD@{320}: commit: auto-commit for 36f952da-d023-44e8-9950-aeb3c13000db
+be57c33 HEAD@{321}: commit: Auto-generated changes
+5cbb35c HEAD@{322}: commit: auto-commit for a7f42982-999c-4201-9b5b-ee821f673388
+64a1cbe HEAD@{323}: commit: auto-commit for 538a75f5-abf7-41c3-8bcb-0feeb333e273
+7d705bb HEAD@{324}: commit: auto-commit for 41f80946-52b1-463a-8151-d86edeb2dfe9
+f499136 HEAD@{325}: commit: auto-commit for 4a57ce33-f458-4021-87a1-75cf23508d5b
+050c6af HEAD@{326}: commit: auto-commit for d50d9522-f208-49d9-83c7-42ebf3da15bb
+c6f6a92 HEAD@{327}: commit: auto-commit for dc915232-f2ae-4e33-981f-ee70f8207b5d
+5580b8e HEAD@{328}: commit: auto-commit for 0d86a8d2-4e8a-4c74-888f-9ba1d41a252d
+717386b HEAD@{329}: commit: Auto-commit before changes
+f3bdb73 HEAD@{330}: commit: auto-commit for 5e66ffe2-7c86-487e-9008-7d6de9d29a93
+9911326 HEAD@{331}: commit: auto-commit for e0e4c421-73c0-4e60-973e-dc0e0eb4ae78
+97901c2 HEAD@{332}: commit: auto-commit for d8355d21-39ef-4b64-a513-3a647246edbc
+ec720c0 HEAD@{333}: commit: auto-commit for 479da7d7-b825-443f-9d9e-249560838c4e
+fb80931 HEAD@{334}: commit: Auto-commit before changes
+94900ef HEAD@{335}: commit: auto-commit for e2e06fa6-fd50-4f1e-b137-c2a0d0f00fce
+88628e0 HEAD@{336}: commit: Auto-commit before changes
+2bbec2b HEAD@{337}: commit: auto-commit for 4dc40d36-8a9d-41bf-adc7-4b31ba2232e9
+ce2f33c HEAD@{338}: commit: auto-commit for 6af87938-e145-45ae-bfa0-9a3472f5727c
+252d195 HEAD@{339}: commit: auto-commit for 265ee54a-0a85-4364-8fff-3e9725a68bd6
+95be511 HEAD@{340}: commit: auto-commit for 4440426c-2a88-4a24-ab72-b89f700b1c6a
+70774e2 HEAD@{341}: commit: auto-commit for 9dfeacba-4745-4b23-b462-5f44031cab9a
+07ec8ae HEAD@{342}: commit: auto-commit for 3b95c7fb-6312-4eb2-ac33-9c309cde0540
+56f2c23 HEAD@{343}: commit: auto-commit for 342618f3-1fd5-43bf-be53-33d66f3d6fd6
+fdac388 HEAD@{344}: commit: auto-commit for ec001eb3-4a35-416a-a571-75f323ee485c
+d30b2eb HEAD@{345}: commit: auto-commit for 1c24a2a0-30ad-462e-b136-1fb7e3751de1
+b3fa306 HEAD@{346}: commit: auto-commit for d810b7b9-f786-4d0a-ac48-d96867f3d3f4
+27c97d9 HEAD@{347}: commit: auto-commit for 9c9f5fe6-144d-4a83-a1df-82d79bd97416
+a4df880 HEAD@{348}: commit: auto-commit for 2b2f0aa4-1ba6-4f5a-861d-bc101545ba95
+b146f0a HEAD@{349}: commit: auto-commit for 5986e2ea-36ac-4de5-adc9-de1c540160b3
+d6b3ab4 HEAD@{350}: commit: auto-commit for a1426a70-985d-46c6-bdce-db994e303b4b
+1a5eb80 HEAD@{351}: commit: auto-commit for 902dd0f2-c0f8-4643-a2d2-42bb86fedf06
+192a896 HEAD@{352}: commit: Auto-commit before changes
+afecf66 HEAD@{353}: commit: auto-commit for 8ce7ac45-443c-468b-ba90-520acb138889
+061b34e HEAD@{354}: commit: auto-commit for 350e1fb8-3f49-4ad4-837e-e4c9f6b3ccc3
+9f19859 HEAD@{355}: commit: auto-commit for bda106c9-b4a7-4908-a266-8a8018240856
+8cf12be HEAD@{356}: commit: auto-commit for 710b53f9-e06a-4791-ac83-c1757f0f6249
+a30b613 HEAD@{357}: commit: auto-commit for 91d65a35-e326-4678-8cc0-7a95553db940
+688be1d HEAD@{358}: commit: Auto-commit before changes
+26eabfe HEAD@{359}: commit: auto-commit for 7cc4d8a0-063d-45eb-87ce-81b81c383adb
+b0ce8ee HEAD@{360}: commit: auto-commit for 17a625ac-6ef6-4b90-a423-4690f9d99204
+55589df HEAD@{361}: commit: Auto-commit before changes
+aaf042c HEAD@{362}: commit: auto-commit for dbc2ea7d-2412-48d6-8c74-a4b9f6478d07
+3b07322 HEAD@{363}: commit: auto-commit for bcb227a4-a281-47b7-93d2-89e90d0de460
+a3ba906 HEAD@{364}: commit: Auto-generated changes
+5399e55 HEAD@{365}: commit: auto-commit for ad287238-e432-4396-a86c-09053d3ea3d4
+942e649 HEAD@{366}: commit: auto-commit for 7a0e8c14-d672-44df-9181-d1c013c89e11
+a1691d0 HEAD@{367}: commit: Auto-commit before changes
+2b6534a HEAD@{368}: commit: auto-commit for 64e01e1b-9652-45fc-bf15-64a0141df29b
+f9054b0 HEAD@{369}: commit: auto-commit for 7572c1fc-5a8b-4952-a924-5ec8f1199b50
+486fa82 HEAD@{370}: commit: Auto-commit before changes
+63608e7 HEAD@{371}: commit: auto-commit for 85eb715a-4907-4169-be8a-797740772472
+4bbdb9e HEAD@{372}: commit: auto-commit for 2d04ba8c-21a4-470e-a031-8c20d8dbd7d4
+e6abc28 HEAD@{373}: commit: auto-commit for 3f003afc-afba-45df-b003-a542492f672b
+affe675 HEAD@{374}: commit: auto-commit for dac6f945-4e8c-4513-92b4-fd1e4d53fa6d
+0df36f8 HEAD@{375}: commit: auto-commit for 43686265-acae-45b8-b23b-811f631edbf1
+635fbbd HEAD@{376}: commit: auto-commit for 0f021c17-b6b5-478c-996f-54a42eb3ef5e
+c09afcc HEAD@{377}: commit: auto-commit for 9b560ef9-77e4-41ca-a68a-2d80796400ce
+ff1b496 HEAD@{378}: commit: Auto-commit before changes
+3a85916 HEAD@{379}: commit: auto-commit for 1b2faaa7-ecb5-4cf9-91b8-27b46ceca80f
+87d4f65 HEAD@{380}: commit: auto-commit for 9ddd64d7-8ded-4abe-8897-894443fc3ea7
+8e0f5b4 HEAD@{381}: commit: auto-commit for 0ed007e3-0e1f-4390-b705-03815a95f08c
+df5c7a6 HEAD@{382}: commit: auto-commit for 167af0e2-2709-4079-a731-f425094b40bb
+587dfc6 HEAD@{383}: commit: auto-commit for 60bd4b04-82b7-45da-8c0a-b4300566e92e
+2081e5b HEAD@{384}: commit: auto-commit for a8a2410c-e704-41d2-9a08-39cc4b6fb82d
+56d033c HEAD@{385}: commit: auto-commit for 658123b4-fadd-45e7-9201-92b293493b94
+04500b7 HEAD@{386}: commit: auto-commit for bd95ebcf-9237-49ff-ba7a-6520f22d0075
+ccdca19 HEAD@{387}: commit: Auto-commit before changes
+33bf751 HEAD@{388}: commit: auto-commit for f7ed5e9b-2c68-45de-a419-c93492c2f979
+954b427 HEAD@{389}: commit: auto-commit for 04577067-6d74-4f95-8cc9-a48c0d999af6
+ce8907e HEAD@{390}: commit: auto-commit for f01a7b0c-3415-4820-bcc4-d478c70b85d2
+0c97a19 HEAD@{391}: commit: auto-commit for e7b9602e-921a-4ba9-8ab4-82928273920e
+6392322 HEAD@{392}: commit: auto-commit for 8a86e3b7-2f4c-4bcf-93e7-e33e2e908142
+2fa4ea2 HEAD@{393}: commit: Auto-generated changes
+d0b71f1 HEAD@{394}: commit: auto-commit for aeef2482-8712-404c-b386-2ab0e465923e
+25a6e5c HEAD@{395}: commit: Auto-generated changes
+47faa9b HEAD@{396}: commit: auto-commit for 03367e0e-31e1-48ed-9746-65b35dd7173c
+7a5e10c HEAD@{397}: commit: auto-commit for 1e7fc1bb-935a-4d52-92e5-aab7cafd6d86
+364e021 HEAD@{398}: commit: auto-commit for 6525fa3f-bd57-4097-8b6a-67b2e7862aac
+22aa7a3 HEAD@{399}: commit: auto-commit for f851853b-0654-411f-9392-0a236bd1a679
+7ec9cc3 HEAD@{400}: commit: auto-commit for b94a8215-5d75-4a7b-8403-3b3c94d2c18c
+c891c5a HEAD@{401}: commit: auto-commit for 401a90fc-3345-4c28-832f-ff5ff734f80a
+a95e6fc HEAD@{402}: commit: auto-commit for 6403eae9-1ad1-45fa-a2ff-eec42ca42066
+8316d38 HEAD@{403}: commit: auto-commit for 9e6499d7-0297-4330-a029-f72c5e1bba80
+7360fe7 HEAD@{404}: commit: auto-commit for 66fc1667-a686-46c6-bac5-40945fd89df3
+ff2bc11 HEAD@{405}: commit: auto-commit for 16bf6638-346a-4d0d-bcc8-cd8ee6015480
+6657631 HEAD@{406}: commit: auto-commit for 84e09850-898f-450e-b0d5-87be89d6a347
+8d820f2 HEAD@{407}: commit: auto-commit for 5d7a30b7-b467-41b4-87f1-7a71a11919b1
+365e720 HEAD@{408}: commit: auto-commit for 1a24975d-461e-420e-a8f4-253ad65558ec
+db2731d HEAD@{409}: commit: auto-commit for 2cfecbd6-5aaa-4ecd-a7dd-99a557b1e97b
+7f79418 HEAD@{410}: commit: auto-commit for c44331ce-1fb1-4a65-9812-927a3bf2a1a2
+877fe19 HEAD@{411}: commit: auto-commit for 86c9cb49-17bd-4157-ac97-9de8592ee90f
+4c117ad HEAD@{412}: commit: auto-commit for f4096507-343f-4c88-949c-3341cee76c9a
+0d997d7 HEAD@{413}: commit: auto-commit for 6ffe3de1-6184-4a67-b910-d80ace692127
+e4f4d77 HEAD@{414}: commit: auto-commit for 5ef49d15-54c4-43b1-a535-b55c88d05ef0
+70b77fe HEAD@{415}: commit: auto-commit for 6ced7f98-13d5-4162-993f-b7585cd7ab50
+eb61e66 HEAD@{416}: commit: auto-commit for 6c1ac4ec-279c-493e-a365-48977d4b4e18
+6d0c559 HEAD@{417}: commit: auto-commit for 8524709b-0348-43a6-b061-b9bde31355dd
+00c2ee8 HEAD@{418}: commit: auto-commit for f5692bc9-a6cb-4140-a4a8-181214a05637
+d9ac690 HEAD@{419}: commit: auto-commit for f8df5de2-8cfe-4706-8d7a-3fe814cedadd
+2990998 HEAD@{420}: commit: auto-commit for b9e5fb58-cccf-425f-8845-667456575dbf
+7dbdf3b HEAD@{421}: commit: auto-commit for 273e8f2d-45b7-4fb4-8414-ffa4ad2269e9
+692df88 HEAD@{422}: commit: auto-commit for 251ae6a0-c03e-48d9-86fe-52f7f7340162
+07e8f06 HEAD@{423}: commit: Auto-commit before changes
+3203297 HEAD@{424}: commit: auto-commit for d09830c0-a564-4bcf-b30f-5a3f7808a223
+968a582 HEAD@{425}: commit: auto-commit for 283e278b-aeaa-4007-87d6-a4041b968acf
+8407949 HEAD@{426}: commit: auto-commit for 38d13c10-ec28-4f2c-9e8d-295537c761e1
+302d00f HEAD@{427}: commit: auto-commit for 451e21f9-7f0b-4c7f-9f99-929d73fb3a00
+f09e6e8 HEAD@{428}: commit: auto-commit for ee9f2b78-8bfe-4d7f-9ed6-3aa061c28585
+c4de645 HEAD@{429}: commit: auto-commit for 8ce6f987-edca-4b58-9e65-8eac947938f8
+637814c HEAD@{430}: commit: auto-commit for f83dabf8-df08-4998-8e39-e0c31ea0d1b8
+d1367c2 HEAD@{431}: commit: auto-commit for be6f5fb2-a55e-4d31-9791-9056ad78642e
+aa99d9c HEAD@{432}: commit: auto-commit for 7b80604f-2286-43f5-91b1-d5f75ef50e03
+a877db1 HEAD@{433}: commit: auto-commit for 60cb58cf-dc78-4f52-8d06-64fb578a78c7
+0c7f7be HEAD@{434}: commit: auto-commit for ef36e33a-ed62-4ef3-8c0d-bdcb619d8bd3
+f26e348 HEAD@{435}: commit: auto-commit for 8f909b25-abb6-49b9-8fb3-f59910b70886
+7f2b935 HEAD@{436}: commit: auto-commit for 168958bd-9476-4a07-af72-03ac8d7ea8de
+46e8c29 HEAD@{437}: commit: Auto-commit before changes
+36015d5 HEAD@{438}: commit: auto-commit for c4c10f99-ce11-4432-ad7e-5992d55d3b0b
+bf60124 HEAD@{439}: commit: auto-commit for 72db60ee-2309-498a-be5b-244b44ae0878
+55187d5 HEAD@{440}: commit: auto-commit for b7da63af-b8ce-4cef-96aa-9e9d566ef240
+960d5c5 HEAD@{441}: commit: auto-commit for f3df32e6-0d7c-44c4-8681-888f36590b9b
+b869555 HEAD@{442}: commit: auto-commit for 26a37177-7a60-46e9-a04e-4430392df6ef
+3d3956c HEAD@{443}: commit: auto-commit for 366bfa8c-6993-4270-9c6e-6fd8d6491b95
+18d11e7 HEAD@{444}: commit: auto-commit for d6107d28-7e88-4f4d-83ec-48c0856bd9f6
+5a2a6f4 HEAD@{445}: commit: auto-commit for 95b61ffe-3011-4886-8f49-7aab7619f933
+8e9a040 HEAD@{446}: commit: auto-commit for 60ca1bc4-8dee-4a12-9a5a-390a1376807c
+ef69722 HEAD@{447}: commit: auto-commit for 0c9c5c26-b4ec-4a17-b57e-eabfd53b6f66
+d63818f HEAD@{448}: commit: auto-commit for 9ce057e3-d467-4f44-8ec8-5ea31734f1a5
+c29ce5f HEAD@{449}: commit: auto-commit for 442012bb-103e-49a2-83e2-9faea38065aa
+17e8564 HEAD@{450}: commit: auto-commit for f70abf1c-2324-4ccf-b382-fd6becbee9c3
+db5ebf1 HEAD@{451}: commit: auto-commit for 74001a46-d007-48f6-867b-a76d7660eb5f
+3e2f2bf HEAD@{452}: commit: auto-commit for 5e709cc6-a843-4035-b8f1-5b9247faaf30
+fb5e793 HEAD@{453}: commit: auto-commit for 1dd42177-a5ce-41a7-8f34-fd7107aa8d64
+153b7a3 HEAD@{454}: commit: auto-commit for 0d767280-d4a4-4603-a8af-516b06771855
+f4f4939 HEAD@{455}: commit: auto-commit for f56e9d92-ea3c-4e5d-8bca-9abbac35b2df
+84f59f8 HEAD@{456}: commit: auto-commit for d57b4b1e-9254-4109-aa1a-1392235ddfef
+8ca76f1 HEAD@{457}: commit: Auto-commit before changes
+f91b722 HEAD@{458}: commit: auto-commit for ac2d3dbe-fbb1-4351-8430-35ff028cd129
+e5fd369 HEAD@{459}: commit: auto-commit for c8b695d7-e109-4e73-bcf8-74457fe1b2d7
+cecf2b5 HEAD@{460}: commit: auto-commit for 08d0085f-ff4d-4fd3-9e54-12e2db3ae9d9
+11f0477 HEAD@{461}: commit: auto-commit for f43a569d-382d-4675-80e4-081fb6fb46aa
+1188526 HEAD@{462}: commit: auto-commit for 46784be4-fb37-4e07-a6ee-e75cec66ec4f
+1e8f83a HEAD@{463}: commit: auto-commit for d3ca2498-3092-445a-b8cc-ed17c1136c05
+9bcb57e HEAD@{464}: commit: auto-commit for 8fb732fd-1d8f-4a2f-b260-cf1cb662d90d
+e62eca1 HEAD@{465}: commit: auto-commit for b4a8afd2-d3f5-4e48-9656-d0526335602b
+91add4c HEAD@{466}: commit: auto-commit for 13d215b3-25a3-4334-b0a9-fcd611a0a287
+b13a342 HEAD@{467}: commit: auto-commit for a3a3f851-85a0-4be8-a938-439e5171b1cd
+6bb5921 HEAD@{468}: commit: auto-commit for 5dc08cf3-8d60-41b3-a70e-99a5dbe24089
+0de1b36 HEAD@{469}: commit: auto-commit for 6a245286-b4c4-46ff-ab27-07ff93c0d019
+6e29932 HEAD@{470}: commit: auto-commit for bd5a50a9-973c-4860-b188-451dc540649c
+6e2388f HEAD@{471}: commit: Auto-commit before changes
+a9ecc53 HEAD@{472}: commit: auto-commit for 0477f65a-8595-4d42-96b1-bf6b181597ed
+8a4e43d HEAD@{473}: commit: auto-commit for eacbb70b-fc92-4bab-9167-d322f21cfd51
+91896ce HEAD@{474}: commit: auto-commit for b173e70f-9926-42a6-bdcd-720278183d45
+ef47b6a HEAD@{475}: commit: auto-commit for 255d8ade-07fd-482c-aa82-4557284607aa
+12a134a HEAD@{476}: commit: auto-commit for 8c49a670-df9c-412a-891f-e26b49745797
+ba364a5 HEAD@{477}: commit: auto-commit for eb0b14fd-f9ae-434b-8143-1836365b366d
+03d4fbb HEAD@{478}: commit: Auto-commit before changes
+23599a2 HEAD@{479}: commit: auto-commit for c99f269c-bda6-4fdc-8f5b-ba216d49bce7
+fc4b484 HEAD@{480}: commit: auto-commit for b44c2caf-dc33-4169-8a89-28b674b24191
+81bdbd3 HEAD@{481}: commit: auto-commit for 96f43cca-f75d-459d-94ee-37c9bb13cf1c
+5bae132 HEAD@{482}: commit: auto-commit for b773f18d-09c5-481a-8132-0f25154008b3
+53db805 HEAD@{483}: commit: auto-commit for 62843c77-5529-4cb0-abfb-fb400c1910f1
+accf5dc HEAD@{484}: commit: Auto-commit before changes
+a96ef8f HEAD@{485}: commit: auto-commit for 868ef6fb-ae89-4860-ad26-635d51204029
+b49509b HEAD@{486}: commit: auto-commit for 2a6b6738-58e2-4254-9533-764b5b4d1d57
+b8e0276 HEAD@{487}: commit: auto-commit for a4cd4227-5755-45ba-99b9-3349ec726253
+40502c5 HEAD@{488}: commit: auto-commit for 5c62e6ff-3fbf-49c4-a488-f3163298c7fa
+55f1a32 HEAD@{489}: commit: auto-commit for e1e5a9f6-e88b-4d71-be71-ab87d82ae909
+f7dd1ba HEAD@{490}: commit: Auto-commit before changes
+1982af6 HEAD@{491}: commit: auto-commit for daf5e281-3c59-4c03-9170-f1cc7a2f0ac5
+1f3e549 HEAD@{492}: commit: auto-commit for ab529236-61a1-49d4-8853-627108694cb5
+88e7393 HEAD@{493}: commit: auto-commit for 8c633d3f-0173-445e-80f2-e1fd9bd55d5b
+baa3041 HEAD@{494}: commit: Auto-generated changes
+716b6d3 HEAD@{495}: commit: auto-commit for bba745c3-f695-4153-ba10-046aa03551ef
+2c22678 HEAD@{496}: commit: auto-commit for a71eb109-ffd5-43fd-8f32-92a9af538c5a
+de12949 HEAD@{497}: commit: auto-commit for 86bf26da-c202-49c8-a47c-ffdc4122654c
+4686eaa HEAD@{498}: commit: Auto-generated changes
+4c80ed3 HEAD@{499}: commit: auto-commit for 12bbb62a-50b8-4979-88a4-03b4b4a6a63b
+5e8a2a9 HEAD@{500}: commit: auto-commit for d555568d-2a30-4879-bc22-28e58578753e
+f883cae HEAD@{501}: commit: auto-commit for 733e2250-3025-4e7b-8eed-6c9051c1b85a
+142b60a HEAD@{502}: commit: auto-commit for fcef5606-dff8-4141-bada-51e741e17f8f
+2aa0c8f HEAD@{503}: commit: auto-commit for bdca60dc-59bc-404f-b8d6-96709d9feccc
+e60564c HEAD@{504}: commit: auto-commit for ca313d1f-4b02-403a-944d-086aab482dc2
+8fca8e2 HEAD@{505}: commit: auto-commit for f4b5b507-bd87-4046-8680-98fb1032afa6
+90f99bd HEAD@{506}: commit: auto-commit for 4202abc5-b699-4857-a25e-49a196ff26da
+5a65fe5 HEAD@{507}: commit: auto-commit for f97dcf1f-82ac-42ea-8bd9-b02a011ce95d
+cdd9a69 HEAD@{508}: commit: auto-commit for 3c65ece0-88fd-499f-9e7a-acee83a87a0a
+ee546ba HEAD@{509}: commit: Auto-commit before changes
+a982f22 HEAD@{510}: commit: auto-commit for 99351908-1333-49ec-bd05-eaffd9607496
+dc43477 HEAD@{511}: commit: auto-commit for 3c85f42c-aa50-4074-9e51-fd9d7f0481f9
+7c77ce5 HEAD@{512}: commit: auto-commit for fa983a83-87b0-4aa3-820c-f699372b8a11
+1014fcc HEAD@{513}: commit: auto-commit for dc5d8902-8899-4b28-af35-07739d077a5a
+203a492 HEAD@{514}: commit: auto-commit for 24fef0d6-4039-433c-97a4-ed4cc890e6f4
+32d43fc HEAD@{515}: commit: auto-commit for e394c3c6-9738-4277-b48d-0d5f32e8b3aa
+8468f01 HEAD@{516}: commit: auto-commit for 454f0222-8d07-4ded-ab4f-eaaed56e06e4
+d7bdf43 HEAD@{517}: commit: auto-commit for ce38703d-6d9b-444d-a73f-633ebad897dd
+ce02896 HEAD@{518}: commit: auto-commit for abfabc02-3f47-43de-9588-24664439ee8d
+74faa60 HEAD@{519}: commit: auto-commit for ee8cd838-d879-4dd6-9f3b-df16e8e1abfe
+d1212cc HEAD@{520}: commit: auto-commit for 8160ded4-aa7d-4b8c-a64a-6ff516a00f7e
+9b0f77f HEAD@{521}: commit: auto-commit for c4a309f3-b192-422e-a5f3-000b866a4ba2
+e4126ab HEAD@{522}: commit: auto-commit for fa42921f-392d-4dea-99f4-1d07ec20203d
+666a31e HEAD@{523}: commit: auto-commit for d8dd1677-76a0-4ff4-8e63-182e73529844
+839fb44 HEAD@{524}: commit: auto-commit for dcab44a2-8d4f-4913-9ddb-1c5aa885fa5d
+5d921bd HEAD@{525}: commit: auto-commit for 89f29b5b-a13c-4569-b370-cff619bb1f3e
+3898c4e HEAD@{526}: commit: auto-commit for 4f737bd1-53b6-49dd-a376-70ccedf158ab
+e977a02 HEAD@{527}: commit: auto-commit for 6519be7c-8369-495c-9ff8-93a0ac8531c2
+ee94fa9 HEAD@{528}: commit: auto-commit for db4f0c49-b791-4fb9-80ad-0b8acfdc3f0f
+f244b57 HEAD@{529}: commit: auto-commit for 40ab8fd7-0f70-4938-afcb-a3374d21588e
+488a5c2 HEAD@{530}: commit: auto-commit for ab363529-c604-4a0e-82d4-8c176c722c78
+9b5cd00 HEAD@{531}: commit: auto-commit for f6a95fac-bd56-4ea4-8029-cd968d911d7f
+8e6a411 HEAD@{532}: commit: auto-commit for d88a99b8-fa67-41bd-a5d5-c9ea527b67b5
+af70737 HEAD@{533}: commit: auto-commit for 1faaea28-55dd-41e2-9742-220a6abb8050
+dbcfdd5 HEAD@{534}: commit: auto-commit for 538302b1-6666-4785-a92e-7be44cad02cb
+c7e8568 HEAD@{535}: commit: auto-commit for 1d527422-758b-4880-842b-7b7a4ec097d7
+a56f329 HEAD@{536}: commit: auto-commit for 9fbcc6a9-b915-4f65-9c62-d532b5c68308
+775ef0f HEAD@{537}: commit: auto-commit for 17e74b41-b5dd-48c1-8e32-b9f3408bb101
+0fd9abb HEAD@{538}: commit: auto-commit for a95f7ee1-b113-43bd-a266-f230edf698fa
+84afa8b HEAD@{539}: commit: auto-commit for 82d611b9-76df-4adc-8308-d71662457bce
+09f7003 HEAD@{540}: commit: auto-commit for d6007a28-39c6-43fb-b567-8aaf7685eb79
+ab58afd HEAD@{541}: commit: auto-commit for 4e6842fc-bcb6-49f5-8679-329d3bf90081
+3d963de HEAD@{542}: commit: auto-commit for 74e87d7a-c9ad-4a7e-9454-5309e83c8ddc
+19d66ad HEAD@{543}: commit: auto-commit for 5fcef0cd-b5be-4dbe-8966-39ce9bbc9186
+58cbe95 HEAD@{544}: commit: auto-commit for a1db1e64-96a5-47ff-bd07-4ef2ba9d6150
+f5a69c0 HEAD@{545}: commit: auto-commit for f1fd3d4d-d08e-4f8a-994c-dfe6f4736c15
+31aba5f HEAD@{546}: commit: auto-commit for ceb26a1f-4151-4a4e-92dd-8cbe5bbcae24
+60cd7a9 HEAD@{547}: commit: auto-commit for 1fdfbe55-4fc3-48c6-ac05-3b3e57b01db4
+9ec30e7 HEAD@{548}: commit: auto-commit for f744bcf7-6e74-4142-a90f-27497a5a4f77
+74d8fbe HEAD@{549}: commit: auto-commit for a90bfa48-67a8-432f-ab48-42fd1c5d8037
+231c9fd HEAD@{550}: commit: auto-commit for 9689c051-824d-4142-a982-96dd11397167
+86430d3 HEAD@{551}: commit: auto-commit for cf696fdc-7a33-41ac-bbb5-451ea74d6362
+5a6f99e HEAD@{552}: commit: auto-commit for 45214ecd-9d0b-4e17-a698-a217d0f5f52b
+9c02289 HEAD@{553}: commit: auto-commit for a632f16a-8e9c-48f8-9a1c-f754dd92510b
+1e7e546 HEAD@{554}: commit: auto-commit for 8b8b9e35-57d0-4ca9-8d01-56aaa4ca9276
+d369f54 HEAD@{555}: commit: auto-commit for c9937ce8-ea8c-483b-9b9d-0f21adbf87a7
+60aab83 HEAD@{556}: commit: auto-commit for 407c2af0-9cad-4105-b7d2-9a9f2a3e02cb
+7f20a4d HEAD@{557}: commit: auto-commit for e245f2dc-bc8f-43d4-87ce-6b8a9c2d7615
+6f21e1d HEAD@{558}: commit: auto-commit for bd000002-d3a1-4b68-8be3-555a06c2a305
+7184742 HEAD@{559}: commit: auto-commit for 61a09696-c7b5-4465-ae81-7295ad15486c
+b5bd6b3 HEAD@{560}: commit: Auto-generated changes
+417fd2a HEAD@{561}: commit: auto-commit for 036d2be8-1940-4482-9271-32053fe95fa1
+7b21b1d HEAD@{562}: commit: auto-commit for 62b86411-d3cc-4311-a749-58660084c1f4
+30713b2 HEAD@{563}: commit: auto-commit for af36e5a6-ab10-4559-b4c0-31c7115e2f12
+36c049f HEAD@{564}: commit: auto-commit for 01afb460-3117-4b54-be63-768d6d43e6ff
+00596b3 HEAD@{565}: commit: auto-commit for 67ecb556-1423-4e9b-be11-75633282b020
+269d391 HEAD@{566}: commit: auto-commit for 2997072a-e826-4c6e-89cc-a4e844149b42
+c87a60d HEAD@{567}: commit: auto-commit for 97adcf34-067b-4a71-bdb5-7cac1de2f303
+0a25482 HEAD@{568}: commit: auto-commit for d7b5dfb3-e3fd-48cd-9593-d4a6fd121658
+67e0c89 HEAD@{569}: commit: auto-commit for 5869b124-b58a-45b3-96b6-0e77fc98d510
+5e57861 HEAD@{570}: commit: auto-commit for da358435-897c-436b-9786-0ed154f7373c
+2c1fee4 HEAD@{571}: commit: auto-commit for 3d73626b-2225-4608-8232-0591e70912cd
+80653f5 HEAD@{572}: commit: Auto-commit before changes
+8f9624e HEAD@{573}: commit: auto-commit for 5f4d6bb1-dea0-4dad-ba3d-e8c80130ecdd
+fda82f3 HEAD@{574}: commit: auto-commit for d2250bc2-e379-4466-bf39-4da98672e2e6
+db7d72c HEAD@{575}: commit: auto-commit for 4b31c9b1-c671-418c-b9f6-42bf69bba789
+9e6fdc2 HEAD@{576}: commit: auto-commit for bd2ff546-48c9-4847-ada6-ceae558dd740
+268d4cd HEAD@{577}: commit: auto-commit for c4b92e34-bb14-4dfa-87cf-593e4abbd1a1
+91a4c8b HEAD@{578}: commit: auto-commit for bfd1fa85-862b-41c1-9712-2a3cc9697fbe
+4855a22 HEAD@{579}: commit: Auto-commit before changes
+ba63147 HEAD@{580}: commit: auto-commit for 4d9aeb11-d4da-461d-8088-c5cc9cc1646c
+5f7360b HEAD@{581}: commit: Auto-commit before changes
+8e885d1 HEAD@{582}: commit: auto-commit for 393f0332-6c24-4c10-a4b5-bfc158320bc9
+a06e5bf HEAD@{583}: commit: auto-commit for fb5943ad-268c-4d2b-9d0f-bdcc0be3381b
+1898fb9 HEAD@{584}: commit: auto-commit for 9c292044-b78a-4ca7-ad04-b0da663dde13
+3eb3e3b HEAD@{585}: commit: auto-commit for 0520f169-0609-4c7d-b287-41f2371739b8
+7098dc9 HEAD@{586}: commit: Auto-commit before changes
+b04278d HEAD@{587}: commit: auto-commit for d8cb9e49-d459-43dc-ade4-03a995e43923
+dc80c56 HEAD@{588}: commit: auto-commit for ca3b283d-4a7e-4370-ae4d-ecd491f02ee2
+808c755 HEAD@{589}: commit: auto-commit for ed4b035d-afe1-4930-9e04-0dcf5ef11d38
+16aa1c3 HEAD@{590}: commit: auto-commit for 039c4e4a-6452-4d30-9b65-8e2185c94ee1
+31e858c HEAD@{591}: commit: auto-commit for 5e40414c-26b0-4bc8-9cd6-9934c64094ee
+2f69076 HEAD@{592}: commit: auto-commit for feab17da-0ed1-4ec8-b457-f4a91d4f8b9c
+84b8ec6 HEAD@{593}: commit: auto-commit for 55f19a7c-a1aa-4726-86a4-aa5603844bbf
+fada036 HEAD@{594}: commit: auto-commit for 2384decd-1e78-4a21-b794-da676bc45c8d
+88d4592 HEAD@{595}: commit: auto-commit for 8c1a9385-e83f-4783-8850-3e21cf4d5eb2
+b9dc334 HEAD@{596}: commit: auto-commit for 32277892-0af0-41e0-b8da-7509409fbe78
+d78b8d2 HEAD@{597}: commit: auto-commit for 004b6928-61f1-4849-b81a-a6b0c0f31323
+1369b55 HEAD@{598}: commit: Auto-commit before changes
+27100fd HEAD@{599}: commit: auto-commit for b1216218-95b0-4817-b91a-9fb94986a36e
+397f4ca HEAD@{600}: commit: auto-commit for f5fff374-60be-4251-b9b3-974eb843989c
+0bd3312 HEAD@{601}: commit: auto-commit for 7fe0580f-d10c-4a04-b7e8-47d8f2f94eee
+2b43df2 HEAD@{602}: commit: auto-commit for 2645d45c-d26b-4d8a-a15d-db4fefcf8679
+d4eb16c HEAD@{603}: commit: auto-commit for 2ef9a04c-1df0-4010-8809-911ded8d2f30
+7526ed7 HEAD@{604}: commit: Auto-generated changes
+0507861 HEAD@{605}: commit: Auto-generated changes
+11db8b5 HEAD@{606}: commit: auto-commit for 2d39d335-9268-4ea7-8013-68dee21a6e16
+412945b HEAD@{607}: commit: auto-commit for 22119c1e-5090-4d43-9f0d-0b6654277bb8
+9959214 HEAD@{608}: commit: Auto-commit before changes
+c438633 HEAD@{609}: commit: auto-commit for 548a378d-7ace-4a7c-9c6e-36116eff408b
+d46befa HEAD@{610}: commit: auto-commit for 4a425e7b-70ca-4a6e-88e8-bbb0ee35d8ce
+70498aa HEAD@{611}: commit: auto-commit for fc955cb7-0444-403e-bf2d-cd3bff806f70
+a183532 HEAD@{612}: commit: auto-commit for 8c2e0736-94cb-48ef-9b18-0859c7e7b77a
+8fee2c7 HEAD@{613}: commit: auto-commit for 54ccbd03-a7d2-4eae-8186-38ce06a760a2
+54b31e7 HEAD@{614}: commit: auto-commit for af7b85ef-094a-4813-8fad-319379510ffd
+77d7b20 HEAD@{615}: commit: auto-commit for 88a61471-9e97-41e2-ace1-6ff5853d6fe3
+cc88520 HEAD@{616}: commit: Auto-commit before changes
+7bac2ae HEAD@{617}: commit: auto-commit for 1eebeef5-6d15-46dc-9aad-64ea6094f92d
+6191a60 HEAD@{618}: commit: auto-commit for 81eabc35-97ac-4101-8a0e-59952ab50499
+3b64c85 HEAD@{619}: commit: auto-commit for 0d5a8d31-69dc-4f65-ba1d-c7e3cdbe16ec
+6a3afcf HEAD@{620}: commit: auto-commit for a6a9f651-7e2c-4227-98f7-05a8d330da5d
+d7bb05d HEAD@{621}: commit: auto-commit for a85d18b3-0740-4d64-9f45-c395de4443df
+33a0535 HEAD@{622}: commit: auto-commit for ecc13b65-75ff-4b39-a3ba-1eb31658371b
+c8d9f86 HEAD@{623}: commit: auto-commit for 67edaa63-e198-49da-836c-a506332f5186
+657746d HEAD@{624}: commit: auto-commit for 5fca3f84-1f78-42ab-b422-88604172a67e
+7fe27dd HEAD@{625}: commit: auto-commit for 77c16563-b0d6-4b1c-8a31-5cfcf44138ee
+0d6ba6f HEAD@{626}: commit: auto-commit for 94320202-461f-4ee5-96e9-5cd505414504
+6b0fdcd HEAD@{627}: commit: Auto-commit before changes
+d222041 HEAD@{628}: commit: auto-commit for 87eab39b-2f2d-4752-804f-aaf1ee25a0c9
+b30a402 HEAD@{629}: commit: auto-commit for ff781f8b-756a-4225-93b1-3740f68b28e3
+02e6b91 HEAD@{630}: commit: auto-commit for 07c7cb66-ed98-4c9d-a8ab-bb200fa44220
+378107c HEAD@{631}: commit: auto-commit for b7c1c00b-acde-40bc-9b25-db84082fdce7
+7b545e8 HEAD@{632}: commit: auto-commit for 109475cf-53d7-419e-a57c-25a456de3f3f
+726d090 HEAD@{633}: commit: auto-commit for 2839a57d-19b3-413c-b07a-0610a71d3fc9
+35d0002 HEAD@{634}: commit: auto-commit for 88615471-afd5-4382-a40b-34ec15337264
+4ea52a0 HEAD@{635}: commit: auto-commit for ffd73337-624b-4074-8b1e-6c31b29c5aed
+7e8963d HEAD@{636}: commit: auto-commit for af6851df-5a71-46fd-bf07-70b13aad5f2d
+1c6637e HEAD@{637}: commit: auto-commit for 65bb2b45-2fc7-40df-968f-19a8c8f71850
+74c9c97 HEAD@{638}: commit: auto-commit for dc6c0d5f-4e67-4a70-a684-4e5a5d68f1a0
+872e935 HEAD@{639}: commit: auto-commit for 476dc1fa-aa94-415a-ac35-e01daf66adcd
+51c7949 HEAD@{640}: commit: auto-commit for 2ac4e18d-f10e-4163-bd34-36652e26830e
+28fed91 HEAD@{641}: commit: auto-commit for 9711886a-937c-424a-ba6c-bd84d8b03dfc
+eb39e50 HEAD@{642}: commit: auto-commit for 6b81de99-2447-41cd-8481-0e9e15a16df0
+fd139e6 HEAD@{643}: commit: auto-commit for 64030deb-3be9-4b6c-89f0-a4ee0fdc50f7
+a5f9950 HEAD@{644}: commit: auto-commit for afb2f5fe-a81a-4fc5-9b1d-21c5add5f55d
+5422a6c HEAD@{645}: commit: auto-commit for 74b673ad-a870-47a8-954f-3c9ca01c03bb
+c4aa445 HEAD@{646}: commit: auto-commit for 3954aebb-a40c-4068-a2a7-3b18e9bfea3c
+9c7aa65 HEAD@{647}: commit: auto-commit for c760dcf8-7c17-48ca-8cf0-8272d078eb0e
+cace238 HEAD@{648}: commit: auto-commit for aeed0e4e-5cc6-46bf-a087-d34bb3ffed8a
+2e258f1 HEAD@{649}: commit: Auto-commit before changes
+9483758 HEAD@{650}: commit: auto-commit for 5e91fde7-ecef-41d0-91ec-e0584d381289
+58c4848 HEAD@{651}: commit: auto-commit for fce61464-53b7-47fe-ba62-07a854b339ed
+a2b6670 HEAD@{652}: commit: Auto-commit before changes
+3c80136 HEAD@{653}: commit: auto-commit for c1796bc3-4e43-4e4b-a860-8e5a42f32009
+f617be6 HEAD@{654}: commit: auto-commit for 860543e0-cbc3-4293-9974-e122bebc90bf
+37dd05d HEAD@{655}: commit: auto-commit for d74d10b8-1b70-4796-9a83-b1543f30acf1
+9205ca3 HEAD@{656}: commit: auto-commit for 11c359c9-59fa-4e98-8bad-573bdf99c7c3
+db58363 HEAD@{657}: commit: auto-commit for ebacbb8b-83aa-4cd2-96d8-d2935eb63c68
+591cbed HEAD@{658}: commit: auto-commit for a6088380-32ea-4b14-a63a-85c1482e4d98
+9ff4716 HEAD@{659}: commit: auto-commit for 3e297415-5f63-4fac-be34-8bdca5f13cb3
+bcd22e8 HEAD@{660}: commit: auto-commit for db5be33f-6a32-4146-871c-146f499a3c67
+ea43f14 HEAD@{661}: commit: auto-commit for e0c3070f-c44a-46d5-b182-5031a4d05449
+1a6583b HEAD@{662}: commit: auto-commit for a3aebe04-7181-4fe7-82b0-3870c4d031fa
+6fe302f HEAD@{663}: commit: auto-commit for c52ab2ef-a7e0-4175-b825-1d3837c49d57
+47492e3 HEAD@{664}: commit: auto-commit for f3d98e35-0e1e-48ad-9b07-138db4f76767
+242acc0 HEAD@{665}: commit: auto-commit for b4ea88c0-7c0b-4b9a-b0f6-07c8f4335bb6
+f726113 HEAD@{666}: commit: auto-commit for d4ae2c53-dd22-4f8f-9b13-7e904610bc32
+8c899dd HEAD@{667}: commit: auto-commit for ae211340-2ceb-49e0-bc22-808d801b56ac
+e2df9d5 HEAD@{668}: commit: auto-commit for 25f2754f-3468-46ca-89b5-62f636295ce6
+ad0ffd6 HEAD@{669}: commit: auto-commit for 45bddf48-2443-4805-b549-a10740349282
+0c6a378 HEAD@{670}: commit: auto-commit for 7de06ff6-c74e-4fbd-875f-f4bb4fc40514
+fb187c3 HEAD@{671}: commit: auto-commit for 4d33193f-1e38-49d3-9846-9d6bb9186c39
+2f8fd83 HEAD@{672}: commit: auto-commit for 9e04669a-e5e5-4660-a4c1-81243a6a1c77
+1418d37 HEAD@{673}: commit: auto-commit for cd061a96-dca6-4230-aaa9-acb326502d16
+873399c HEAD@{674}: commit: auto-commit for 0c2d73e7-b67e-4d12-b556-839128359572
+b38d642 HEAD@{675}: commit: auto-commit for 52daaf13-50ad-4c3f-8305-78749abdb98c
+db816fa HEAD@{676}: commit: auto-commit for ef6130d4-d5eb-4953-bb8f-52ead2a2a5d3
+65357cc HEAD@{677}: commit: auto-commit for 40ef4928-0904-4593-8a44-8cecaa19c7ed
+24ee42d HEAD@{678}: commit: auto-commit for 26c400b0-3f13-48b1-848d-77deb9df51a0
+8a04cc1 HEAD@{679}: commit: auto-commit for 598d1d06-e8da-4ae7-a7fa-9e267d0e4d8d
+b8634fa HEAD@{680}: commit: auto-commit for 417faa7e-7d01-4a18-a9a3-3517bb71c85f
+92523e9 HEAD@{681}: commit: auto-commit for 5b7c0a64-4785-46c9-b40f-c0b6cb5bcbb2
+9096fe4 HEAD@{682}: commit: auto-commit for 4e93558e-44af-497d-a4b0-ff6d2b991cae
+0652ed5 HEAD@{683}: commit: auto-commit for 7b680652-3d3d-4cb6-be6e-b7b258c05076
+932c961 HEAD@{684}: commit: auto-commit for 150ae387-22f3-465c-bb63-3e28e43501cb
+28901f0 HEAD@{685}: commit: auto-commit for c0e340fa-4064-439f-a4ee-3ee12c929115
+d88369e HEAD@{686}: commit: auto-commit for ff0df504-e472-4d85-926a-3b8ee9bbe819
+1589974 HEAD@{687}: commit: auto-commit for 561dfa57-0a3a-4952-9a2a-982950c224f5
+213b0e3 HEAD@{688}: commit: auto-commit for 034fd976-ec3a-41bd-9f5e-122a21c6c349
+0432a09 HEAD@{689}: commit: auto-commit for bf64888a-cd45-4dd9-8078-c0dcb28bdec2
+7bc6d42 HEAD@{690}: commit: auto-commit for eac1587e-83c4-4c3d-86e4-0acc7b820b76
+bf15d0f HEAD@{691}: commit: auto-commit for f3b85883-cbe2-4edb-ac56-9bb7c5aded51
+57076bb HEAD@{692}: commit: auto-commit for 1e93efd7-545a-43d7-9b60-33d0cdb6143a
+7c1e625 HEAD@{693}: commit: auto-commit for a341b0e5-378a-42c9-a65b-e76bade0b7c1
+b0faba9 HEAD@{694}: commit: auto-commit for 0e62dbf7-9db4-44b5-85bf-b3d5b0ddd893
+b33aa2d HEAD@{695}: commit: auto-commit for f7cdbbc7-859e-4ba2-83e7-72d30f60bf52
+03d1dd5 HEAD@{696}: commit: auto-commit for 1446d9dd-d0d4-4de5-9d76-246e0eb50591
+e042414 HEAD@{697}: commit: auto-commit for 5bfdab94-5223-4fa2-94f6-b0323b57201e
+19f39e4 HEAD@{698}: commit: auto-commit for 04712009-9f15-42d0-a290-ae2b54c592a5
+e85373a HEAD@{699}: commit: auto-commit for 7d709de8-2225-45cf-8610-ff91870296d8
+b37b277 HEAD@{700}: commit: auto-commit for 64754f75-89a8-4d9d-8d8b-b38ef8f48857
+077060c HEAD@{701}: commit: auto-commit for f6ae78eb-0985-4f86-8c3f-bf4745974a0e
+0e0db07 HEAD@{702}: commit: Auto-commit before changes
+a552c23 HEAD@{703}: commit: auto-commit for a6c3814c-1d12-40a2-b3fa-d0c75e00e050
+a9c5525 HEAD@{704}: commit: auto-commit for 0ec608a0-1e42-46d7-9874-501c4fde8f2a
+6099878 HEAD@{705}: commit: auto-commit for 41cbc7f8-c6f6-44de-9900-78bc2d176f6b
+93ee232 HEAD@{706}: commit: auto-commit for e75ace0e-53c2-435e-bf59-f9643d6009be
+6e4811a HEAD@{707}: commit: auto-commit for cea33bb5-d3ab-4377-a085-b8ac287eb096
+ae4e9c5 HEAD@{708}: commit: auto-commit for c58f53a7-de2e-4745-b4e2-a767a76cc83d
+43a7e9f HEAD@{709}: commit: auto-commit for e2e95375-8576-41f4-a99c-56878f99d3dc
+0efbe35 HEAD@{710}: commit: auto-commit for 09a32330-9fdd-4c94-9243-18d0b8bb40f0
+1af4bc3 HEAD@{711}: commit: auto-commit for cf09ac4e-abc8-4df9-9331-691ca537c49c
+1d3f3ad HEAD@{712}: commit: auto-commit for 3ccdccf1-d426-431f-b6a9-fc48cba46f3b
+c8c2196 HEAD@{713}: commit: auto-commit for 25eb797d-3f8e-4940-adc9-533c4f147cc1
+d351174 HEAD@{714}: commit: auto-commit for 6029d8be-6c40-4c18-acc0-4c2c7eb78b23
+f43c3a9 HEAD@{715}: commit: auto-commit for cdf3dcd0-545b-4bc9-9352-265b50d4f8d2
+a94bad4 HEAD@{716}: commit: Auto-generated changes
+d5161e1 HEAD@{717}: commit: auto-commit for 53e4bafb-00bd-49d7-8a91-7188c15eb655
+071ae45 HEAD@{718}: commit: auto-commit for b0dae245-13c3-4084-84dc-708d6eda5dc0
+3f75585 HEAD@{719}: commit: auto-commit for 52fa9318-6a87-4b31-a888-846f47545a49
+c7c17f2 HEAD@{720}: commit: auto-commit for a57740d3-ffef-490e-9132-3c6d06cd6ade
+19fc5b2 HEAD@{721}: commit: auto-commit for 51ff4a46-f536-4c4e-8d6d-c27839fce935
+48911ef HEAD@{722}: commit: auto-commit for 55372426-904d-41ce-9f77-77bfca0e2270
+d12697c HEAD@{723}: commit: auto-commit for f201f186-8140-4d07-9526-7e91334ff64a
+6b8250b HEAD@{724}: commit: auto-commit for b1d11052-0329-412e-8a2c-941579e6abce
+0e85672 HEAD@{725}: commit: auto-commit for 86398955-5f5f-4c2c-aa71-ebb05480ab36
+ee8db53 HEAD@{726}: commit: auto-commit for 25afb24c-8621-4646-92a3-ed80bf01507c
+092ba47 HEAD@{727}: commit: auto-commit for 0c10c375-5702-48e5-a107-5446912bb942
+a5d7647 HEAD@{728}: commit: Auto-commit before changes
+d9285c1 HEAD@{729}: commit: auto-commit for 2308651d-5f2d-4a57-93a7-a33087fb02e0
+cb6ca06 HEAD@{730}: commit: auto-commit for 81858396-f930-4e59-bb2b-851a509146f3
+324da69 HEAD@{731}: commit: auto-commit for b8d953b9-02df-48ea-a78b-5178cdff3a9e
+055f162 HEAD@{732}: commit: auto-commit for 0b480e52-e7b9-465c-bd2c-02c689959030
+f699c45 HEAD@{733}: commit: auto-commit for 2fbaa97d-0d70-4cf4-a703-3a5b96b0119c
+b6b6fea HEAD@{734}: commit: auto-commit for b5fc9a28-6f12-4162-8dd4-a3dfb02065d6
+58fb322 HEAD@{735}: commit: auto-commit for cdb69e87-f1c8-469d-8b65-5698ecebfca2
+dc95c06 HEAD@{736}: commit: auto-commit for eadf74e2-15f5-4d6d-8bf9-4f5825f94f78
+1e10b11 HEAD@{737}: commit: auto-commit for f3894de2-9f19-49f4-89c2-85227e057370
+7839095 HEAD@{738}: commit: auto-commit for 9020bab3-073b-4fec-8a5d-b3ff234ee9ea
+af7ac8a HEAD@{739}: commit: Auto-generated changes
+ce8449e HEAD@{740}: commit: auto-commit for 954c12b9-f63f-4bb3-8890-dbccbe887a37
+dced412 HEAD@{741}: commit: auto-commit for a57e9f76-5a3e-4a9c-bd9f-7ffd27adf8ee
+33e36a1 HEAD@{742}: commit: Auto-generated changes
+7b3c665 HEAD@{743}: commit: auto-commit for d844449f-14a9-4cb2-96a6-ab9bb4e2c3ed
+cf52ad4 HEAD@{744}: commit: auto-commit for 7e168204-12df-41f0-a879-a5625c727b6b
+bd7ccea HEAD@{745}: commit: Auto-generated changes
+3aff97b HEAD@{746}: commit: auto-commit for d9eed24b-4151-4421-9918-200741e30f18
+104ae89 HEAD@{747}: commit: Auto-commit before changes
+36f202d HEAD@{748}: commit: auto-commit for 46390545-9a14-4148-b019-7046ff6a5ff9
+182002e HEAD@{749}: commit: Auto-commit before changes
+2221adc HEAD@{750}: commit: auto-commit for a6a76596-7095-49ec-9f87-5b7631b897ed
+70c135a HEAD@{751}: commit: auto-commit for 8cd4f328-2fad-478a-b3f1-4624f7b0611f
+37d0581 HEAD@{752}: commit: auto-commit for c5055f4f-d959-414d-8c76-ee924fb234b8
+78834f4 HEAD@{753}: commit: auto-commit for 99e78b47-9eed-425b-960b-9d5a288158c3
+6c99666 HEAD@{754}: commit: auto-commit for 2c5865f3-043a-4f19-9f46-3f533e2160db
+61b09c8 HEAD@{755}: commit: auto-commit for d7e7df98-e2e8-430e-9a7a-a36caeace965
+f9706b7 HEAD@{756}: commit: Auto-generated changes
+00be09f HEAD@{757}: commit: auto-commit for 8c28cb9c-7307-4df0-86f4-2e20fb29aa1f
+191fa6a HEAD@{758}: commit: auto-commit for ac2a8048-a1c1-42d9-a6b6-321fcabdbb07
+4f78c03 HEAD@{759}: commit: auto-commit for 12c23613-802d-46d6-839c-70c26beb0407
+013cbb0 HEAD@{760}: commit: auto-commit for 1a4784a3-eb2f-41c2-bf4d-d99954e8be71
+7553b21 HEAD@{761}: commit: auto-commit for 325d6c8e-68a2-43cb-a698-e99b13879b89
+b95304f HEAD@{762}: commit: auto-commit for 18fa58f7-3807-401f-bdd9-0992e2290064
+a5bbcd0 HEAD@{763}: commit: auto-commit for a4371591-0da5-44a8-8d9d-8ba71c417e1c
+de9872b HEAD@{764}: commit: auto-commit for d92ea1ec-3455-4ff0-8721-f31954f1a368
+0f8a25b HEAD@{765}: commit: Auto-commit before changes
+262ee2e HEAD@{766}: commit: auto-commit for e1424e2d-a3e3-452f-a538-7177493314a9
+cdcc0f9 HEAD@{767}: commit: auto-commit for c605edaf-1a5a-45cf-b262-49b4c7e8bc9b
+6267536 HEAD@{768}: commit: auto-commit for 8593cbc2-1d2a-4101-a9a1-36541da9527c
+eea6bf4 HEAD@{769}: commit: auto-commit for e7e83042-7953-4db5-a2cf-b42501b16f43
+e92d271 HEAD@{770}: commit: auto-commit for e887f5af-cff8-4448-a039-95140ab0881d
+b839ae5 HEAD@{771}: commit: auto-commit for 2bae93bf-4335-4f04-96c8-7c9516dca83d
+cfbf2f6 HEAD@{772}: commit: auto-commit for c7f83cf2-26e4-4512-afcf-b589c3b09e31
+4d7a718 HEAD@{773}: commit: auto-commit for d5fbf5e8-54de-476f-a6c3-18f6d3e7dea8
+49ab544 HEAD@{774}: commit: auto-commit for e89429a1-ed9c-4e33-a80e-b9cb234fb7cc
+12e782f HEAD@{775}: commit: auto-commit for 7696af12-5297-48a9-9af2-f6dafc0a7833
+10cf509 HEAD@{776}: commit: auto-commit for b6ea3936-30cf-4dd3-989e-5ff713bc978f
+ab0dba6 HEAD@{777}: commit: auto-commit for c46ca182-e0f1-465c-9e96-95eef019b423
+6382c68 HEAD@{778}: commit: auto-commit for e0558fba-668d-4111-b9a6-95ed09197d1e
+f073d5f HEAD@{779}: commit: auto-commit for 84fb953d-2a75-4aa3-8209-7c9012bbb694
+7aa8442 HEAD@{780}: commit: auto-commit for 0b7f2380-c11d-4666-9cc9-5bce865aeb88
+bf72ae5 HEAD@{781}: commit: auto-commit for 0e9454fd-ec96-41dc-9c84-2d7cde6317c8
+a02624c HEAD@{782}: commit: auto-commit for 164f1240-54fa-4dca-a54a-7a924623bd87
+5248ebe HEAD@{783}: commit: auto-commit for 61a1caa1-614e-43c3-8fde-bf13362fe224
+7364e9e HEAD@{784}: commit: auto-commit for cf8c883e-f90f-45a1-b1f7-812db5d7aadf
+8adfa61 HEAD@{785}: commit: auto-commit for ef219d9f-b518-42ab-bd06-f4cecedb5fb9
+a1a89b5 HEAD@{786}: commit: auto-commit for 2c669efa-a89b-4c45-87a0-db4dbdeede52
+dd6f43f HEAD@{787}: commit: auto-commit for 6857db30-e429-4865-a292-faa9b1c78684
+7445b65 HEAD@{788}: commit: Auto-generated changes
+56bd287 HEAD@{789}: commit: Auto-generated changes
+6c2b0e3 HEAD@{790}: commit: auto-commit for c74acb47-a604-4da4-8ef7-a9f207f68868
+a673ab4 HEAD@{791}: commit: auto-commit for 5a57d173-6af9-4992-8228-2a83a82b5de1
+412d203 HEAD@{792}: commit: auto-commit for 5cceafb6-28c4-4e72-8beb-811549cba947
+6fe5b81 HEAD@{793}: commit: auto-commit for a7fdaa73-827e-4531-958f-7d0b3a69b024
+13c595b HEAD@{794}: commit: auto-commit for 27331ed7-66a4-481f-9674-b17c09d76036
+6007479 HEAD@{795}: commit: Auto-commit before changes
+9754d87 HEAD@{796}: commit: auto-commit for fbb41178-6244-49e6-8e68-99a14042d76b
+b8799f1 HEAD@{797}: commit: Auto-commit before changes
+4f7afef HEAD@{798}: commit: auto-commit for 39eeecb4-843d-4d87-a4d2-4672e462f40d
+2efcde1 HEAD@{799}: commit: auto-commit for 4f04735b-6ebf-4ee0-a283-a9f41111642c
+dbf0bab HEAD@{800}: commit: auto-commit for 12b6c554-042d-44c8-a607-1bc4e28f7f9e
+bfc3e31 HEAD@{801}: commit: Auto-commit before changes
+aacdb6e HEAD@{802}: commit: auto-commit for 592d42f8-98cf-4f9a-b201-eedd0d771d86
+a41470b HEAD@{803}: commit: Auto-commit before changes
+ebf5cad HEAD@{804}: commit: auto-commit for f11ac568-1a0d-4275-9320-ee86a54da8ee
+e31bf61 HEAD@{805}: commit: auto-commit for 71b3c399-a243-4ab5-bbbd-8ee1dbe021b8
+282e238 HEAD@{806}: commit: auto-commit for 5d5e7551-cc6a-4407-91b5-3de1523ca618
+11cb03d HEAD@{807}: commit: auto-commit for 1f578440-9b25-481e-8b65-d98b6017f10d
+5871d69 HEAD@{808}: commit: Auto-commit before changes
+27b135a HEAD@{809}: commit: auto-commit for 2e5eb26c-21a0-4801-ab5b-669646814a61
+b93e6c9 HEAD@{810}: commit: Auto-commit before changes
+d853c6c HEAD@{811}: commit: auto-commit for 20268aba-b775-44af-a03e-0a9b112b79ba
+cb15feb HEAD@{812}: commit: auto-commit for 9bd76fad-965c-4f3e-9121-b6cda0174b03
+0b0a12c HEAD@{813}: commit: auto-commit for 782e63fc-c6ae-492b-bf7b-3a0813c1a8bd
+dc7330a HEAD@{814}: commit: auto-commit for 0851b67a-2600-46a1-b202-e2d549669988
+2dbcb23 HEAD@{815}: commit: auto-commit for d4b91bed-1000-4371-ac53-2a282994ab77
+612c4c4 HEAD@{816}: commit: Auto-commit before changes
+3715521 HEAD@{817}: commit: auto-commit for 4e4f15e4-c9a4-41fa-abdc-d79dfda7f291
+0700613 HEAD@{818}: commit: auto-commit for 3ab1a47b-5771-4e38-805b-b8482e001432
+1386628 HEAD@{819}: commit: auto-commit for e40a8286-3bdc-4a42-88f1-f773db7dcaac
+b649b8e HEAD@{820}: commit: auto-commit for f3bbb515-8970-4430-9549-5569a202b350
+a8a130a HEAD@{821}: commit: auto-commit for 299a9ace-9815-4e68-9287-8405f3502da8
+1390c39 HEAD@{822}: commit: Auto-commit before changes
+ecb1e28 HEAD@{823}: commit: auto-commit for 7cfe00b6-567f-41de-94c5-7747cfe2922b
+dedec08 HEAD@{824}: commit: auto-commit for 8de6e0d0-e399-4198-a8af-bc1c008de878
+ca6ccdb HEAD@{825}: commit: auto-commit for af1706d7-f5a2-4e72-9775-4c5526bfe443
+436455d HEAD@{826}: commit: auto-commit for 542c7ad5-56fe-40c5-9ba3-e0d2e96ba1cc
+4f72430 HEAD@{827}: commit: auto-commit for 5ae8083f-4456-4d4b-9b88-efe4890cf9f4
+edf906a HEAD@{828}: commit: auto-commit for a6f11e3b-a971-4416-a6bc-50a9088b2f68
+f456fca HEAD@{829}: commit: auto-commit for 45fa559f-cf1f-4d78-b1cd-b401b7ebbad6
+d0bdd54 HEAD@{830}: commit: auto-commit for 36d1f5b3-6f8b-4299-8df2-7491f32dcac5
+4b8ee35 HEAD@{831}: commit: auto-commit for 682872fb-f268-40d3-a505-dedd1b846abb
+7f32442 HEAD@{832}: commit: Auto-commit before changes
+9f55e62 HEAD@{833}: commit: auto-commit for 2101ad00-ab12-49b0-8b67-09061be152a2
+dc6c96c HEAD@{834}: commit: auto-commit for 4f1b7614-379a-4a7d-9c30-779a720f305e
+d8a63d5 HEAD@{835}: commit: auto-commit for eae634a7-5e7d-4ba8-b732-7dfc6740abf2
+1c7f1bc HEAD@{836}: commit: auto-commit for 6290f927-e018-4c92-a80b-18e154b9952b
+f70c6b3 HEAD@{837}: commit: auto-commit for 00b122e5-1c6b-44ec-b8aa-ea7c8f1deb1c
+1043c5b HEAD@{838}: commit: auto-commit for 3d8014da-2dbe-49bb-ac0e-4fb67df4619c
+90714bd HEAD@{839}: commit: auto-commit for a5783402-0de0-4914-baf4-736da6b4d0d5
+973d08f HEAD@{840}: commit: auto-commit for f1f37f37-26db-4554-a7a3-12c8e5de9eb7
+933fa2d HEAD@{841}: commit: auto-commit for 4a7fbce7-933f-4e0d-9328-a7579587fa80
+d98d543 HEAD@{842}: commit: auto-commit for eca6ade2-2402-41aa-bd61-8a2a5841f7e6
+721258f HEAD@{843}: commit: auto-commit for 36278c52-5af6-49a1-821d-4b245978d110
+529e5de HEAD@{844}: commit: auto-commit for c973c78c-cefa-41ad-bb9a-d8258d97680e
+089875d HEAD@{845}: commit: auto-commit for a7ef1463-dc28-4e8d-af9e-3e851b14eaf0
+0e81e9a HEAD@{846}: commit: auto-commit for 2fa0f4c5-21e4-4ce0-b1f1-442fc392160b
+541ed57 HEAD@{847}: commit: auto-commit for 86e3a0a8-d5bc-4077-be52-14bc45658186
+ea6e3ea HEAD@{848}: commit: auto-commit for a4fecb30-67ab-4174-8db4-b564417c2313
+5b800cf HEAD@{849}: commit: auto-commit for b7983c4c-b166-4201-a0a6-b5558813add7
+e64673a HEAD@{850}: commit: auto-commit for d9390e0d-96ae-4431-a175-ae3eaaa35ee1
+0aeec32 HEAD@{851}: commit: auto-commit for d1ee0c30-af79-41f6-b6ca-1defca23c5ca
+c8274fa HEAD@{852}: commit: auto-commit for e0e6a0ec-4150-4fa5-9f0a-9e9ebce31bb4
+eacdbb6 HEAD@{853}: commit: auto-commit for 22f7918b-6aba-49d7-b982-8f0ceb8582f1
+319854c HEAD@{854}: commit: auto-commit for 0b51be46-22ec-4c2e-89af-cb43183fec9f
+ab31cff HEAD@{855}: commit: auto-commit for e8c0cfbd-aec4-4fde-b399-3aae99141f98
+e46cb5a HEAD@{856}: commit: Auto-commit before changes
+abcec4c HEAD@{857}: commit: auto-commit for cd2ff941-7dd8-4a8f-941f-e620f17afcfb
+69719ee HEAD@{858}: commit: auto-commit for ce8d8ec2-3bb5-4725-bc8f-7543ab314471
+9b9e3bd HEAD@{859}: commit: auto-commit for 2378c7fe-8953-4965-b6a7-76ea930e68bb
+47d8265 HEAD@{860}: commit: auto-commit for b02e307a-4fa0-48a2-8ff1-deb7f9b6464e
+2381c05 HEAD@{861}: commit: auto-commit for 5e425088-35b5-4da3-93bf-4d8deefc16f2
+5512a74 HEAD@{862}: commit: auto-commit for 36f0dd17-7f09-4381-9add-408e36ffce4d
+4501695 HEAD@{863}: commit: auto-commit for bf265b46-c8eb-4eef-b274-14661af36577
+4251029 HEAD@{864}: commit: auto-commit for 570f2d08-9c0f-463a-96b0-fb8ea2217b05
+1c4beb8 HEAD@{865}: commit: auto-commit for f47a7744-fcde-44b5-b5c5-536b91435465
+9f36728 HEAD@{866}: commit: Auto-commit before changes
+c30c332 HEAD@{867}: commit: auto-commit for 2d56523d-29f8-4189-9c86-bd8c18affd7a
+da060fb HEAD@{868}: commit: auto-commit for 71e95daa-2431-4bb7-8fc5-5d70b5a1057b
+94538fe HEAD@{869}: commit: auto-commit for 2df37d13-c304-4e27-825c-4c028800d471
+7a0ae2d HEAD@{870}: commit: auto-commit for 70b2d3f8-4d60-456a-8e5d-bdc537040628
+37733b9 HEAD@{871}: commit: auto-commit for 8566a823-57d1-49bb-96be-f7bf599aa942
+a4fbae3 HEAD@{872}: commit: auto-commit for 9b1c924a-6b34-4aa6-b0ac-3c1e020b8ffe
+5a37607 HEAD@{873}: commit: auto-commit for 5504b5e1-1d57-427a-9145-809375b62bf1
+7860b60 HEAD@{874}: commit: auto-commit for 249e3d12-18ef-425e-9bb7-b94e9ae1b41f
+a6fadf3 HEAD@{875}: commit: auto-commit for 6d2fa1ab-4691-4175-a133-ee3853f8a32a
+e40fd23 HEAD@{876}: commit: auto-commit for 42d6f73d-1195-4295-8c9a-e1b2300cb7e6
+c706571 HEAD@{877}: commit: auto-commit for b5caad9c-85a4-41ea-bdc8-8d64d0c23a67
+aa1a435 HEAD@{878}: commit: auto-commit for 64c3c4b5-0da9-4165-8db0-39df0d17752e
+a2e35f1 HEAD@{879}: commit: auto-commit for 89bd1a01-4e6b-4d44-955f-021967e0c29a
+60a295c HEAD@{880}: commit: auto-commit for 699fcc1e-39b6-4a01-bd5a-574b9c9f1dfb
+4d49c7d HEAD@{881}: commit: auto-commit for 929825dd-4ae3-4524-b5d9-b5380241d66f
+7fb5aa1 HEAD@{882}: commit: auto-commit for a15fe177-1bca-44ac-9403-2427d85e26f0
+c32f678 HEAD@{883}: commit: Auto-commit before changes
+b89f058 HEAD@{884}: commit: auto-commit for 90427250-c155-48b6-bd24-49c3139a37fc
+613f914 HEAD@{885}: commit: auto-commit for 36506bbc-dd3d-4939-a7b6-e6894eaa3140
+d14a43a HEAD@{886}: commit: auto-commit for 6de830cd-2ced-42a9-b0c4-e8cca2ed9517
+ebcba8e HEAD@{887}: commit: auto-commit for 8c8028e1-0ea6-4044-a547-d52fdfba328f
+d4f7a8e HEAD@{888}: commit: auto-commit for 5944009c-6e02-4b1b-94ed-02931c18e04e
+d43c2f6 HEAD@{889}: commit: auto-commit for 74fa4bbc-6f78-44ba-b72a-9711fb895657
+a8d037c HEAD@{890}: commit: auto-commit for b27acffd-5256-461f-baed-6cc0283ff62f
+73e90b9 HEAD@{891}: commit: auto-commit for 8f1650ec-2488-44ab-a50d-e0ee5ef806ac
+26c6926 HEAD@{892}: commit: Auto-commit before changes
+6742eb7 HEAD@{893}: commit: auto-commit for 30313697-179d-4613-a888-6c1c1d5ab872
+fba8f1f HEAD@{894}: commit: auto-commit for 2e11f918-cdf8-4d1b-b4d7-aa72b7718567
+7b4865f HEAD@{895}: commit: auto-commit for 76da6da0-fd83-40b3-8e16-de002b8c9a28
+548b704 HEAD@{896}: commit: auto-commit for 76e05687-52b7-4e9b-9a9e-5c5bbdca19b2
+e692aaf HEAD@{897}: commit: auto-commit for 98c0dd04-8eec-47fb-be19-65093b76208a
+2ae2db8 HEAD@{898}: commit: auto-commit for cd63aebc-58eb-4229-b515-49260de06753
+eb117e1 HEAD@{899}: commit: auto-commit for 28b74942-d390-48bc-a87c-d834e124989a
+220eaea HEAD@{900}: commit: auto-commit for c5b5c3fc-5a1a-4033-a4e4-0df344270dda
+754443d HEAD@{901}: commit (initial): Initial commit, M	backend_test.py
+M	detailed_content_test.py
+M	test_upload_manual.md, and eventually clone from a user-provided GitHub repo to restore the user's work and trust.
 
 **key DB schema**
--   **content:** A single document per page slug, containing a flexible JSON object with all the page's content (, , , etc.).
--   **hero_slides:** Collection for the homepage carousel slides, including image URLs and text.
--   **uploads:** Collection storing metadata for all images uploaded to the Media Library.
+-   **Database:** 
+-   **collections:** , , , , and many others. This database contains all the dynamic content for the site.
 
 **changes in tech stack**
--   **New Frontend Dependencies:** , , .
+-   None.
 
 **All files of reference**
--   : The main admin component orchestrating the editor. The bug is likely related to its  or  functions.
--   : The core recursive editor.
--   : Contains the backend logic for updating page content in MongoDB.
--   : The main router file, updated to point all routes to their new Complete dynamic components.
--   : The configuration file for the new translation system.
+-   : The complete backup archive (DB + uploads).
+-   : Instructions for restoring the complete backup.
+-   : Directory with 38MB of user-uploaded images.
+-   : Critical configuration file setting .
+-   : File containing the new homepage sections and mobile styles.
+-   : File containing the new logo and translation logic.
+
+**Areas that need refactoring**:
+-   The root directory is cluttered with single-use scripts (, , , etc.) that should be removed.
+-   The  directory contains temporary backup files and download pages that should be cleaned up once the user's local setup is confirmed to be working.
+
+**key api endpoints**
+-   : Submits the contact form and triggers an email notification.
+-   : Fetches all articles from the  collection in .
 
 **Critical Info for New Agent**
--   The user is very hands-on and tests features immediately. A reported issue could be a real bug or a browser cache problem. Always verify with a clean test (e.g., using the testing agent or a screenshot) before diving deep into debugging.
--   The current blocker (image save failure) is critical. Resolving this is the top priority.
--   The next major task requested by the user is to populate the translations for the newly installed i18n system. Be prepared to generate text for FR, DE, IT, and EN.
--   The entire site's content is now managed via the  component. Any future changes to the admin editing experience will likely involve modifying this file.
+-   **USER COMMUNICATION IS PARAMOUNT:** The user became extremely angry when the agent made unsolicited changes. You **MUST** confirm all changes, especially visual ones, before implementing them. Over-communicate your plan.
+-   **THE DATABASE IS :** All dynamic content is in , configured in . Do not change this. Verify all database operations target this database.
+-   **LOCAL SETUP IS MANUAL:** To run the project locally, the user must restore from the  file. The current high-priority task is to help the user do this successfully.
+-   **SPEAK FRENCH:** All communication with the user must be in French.
 
 **documents created in this job**
 -   
 -   
--   
--   
--   
--   
--   
--   
--   ======================================================================
-🔄 REMPLACEMENT MASSIF DE TOUTES LES IMAGES EN DOUBLON
-======================================================================
-📦 Création d'un backup...
-🔄 Remplacement photo-1556742049 (POS Systems)...
-🔄 Remplacement photo-1556742111 (Tablet POS)...
-🔄 Remplacement photo-1556741533 (Waiter Terminal)...
-🔄 Remplacement photo-1556742044 (Order System)...
-🔄 Remplacement photo-1512941937669 dans fichiers spécifiques...
-🔄 Remplacement photo-1556742400 (Self-Order Kiosk)...
-🔄 Remplacement images Stock Management...
-🔄 Remplacement images Hardware Devices...
-🔄 Remplacement images Web Portal...
+-   🔄 Restauration de la base de données AyaPos...
 
-======================================================================
-✅ 9 catégories d'images remplacées
-======================================================================
+📦 Décompression du backup...
+💾 Restauration dans MongoDB...
 
-📊 Vérification des doublons restants...
-      7 photo-1563207153-f403bf289096
-      5 photo-1728044849321
-      5 photo-1728044849280
-      5 photo-1629248242732-592ecc9cc00f
-      5 photo-1555396273-367ea4eb4db5
-      4 photo-1609951734391
-      4 photo-1608286022625-bc07f7a21154
-      4 photo-1551288049-bebda4e38f71
-      4 photo-1517248135467-4c7edcad34c4
-      4 photo-1512941937669-90a1b58e7e9c
+✅ Restauration terminée!
+
+📊 Vérification:
+
+🎉 Votre base de données est prête!
+Vous pouvez maintenant lancer votre site.
+-   📦 Export de la base de données AyaPos...
+💾 Création du backup...
+🗜️  Compression...
+
+✅ Backup créé: mongodb_ayapos_backup.tar.gz (48K)
+
+📋 Contenu:
+  Collections: 18
+
+💡 Vous pouvez maintenant:
+  1. Commiter ce fichier sur GitHub
+  2. Le partager avec votre équipe
+  3. L'utiliser pour restaurer ailleurs
 -   
--    (multiple files created)
--    (translation files and config)
--   
--   
+-   Several other single-use scripts.
 
 **Last 10 User Messages and any pending user messages**
-1.  **User:** Requests to zoom an image on the Restaurant POS page. (Status: **Completed**)
-2.  **User:** Reports the homepage carousel image upload is not working. (Status: **Completed**, agent fixed the admin save logic).
-3.  **User:** Reports missing editable photos for Système Commande and Terminal Serveur in admin. (Status: **Completed**, agent made the pages dynamic).
-4.  **User:** Asks to make the remaining 3 pages dynamic. (Status: **Completed**)
-5.  **User:** Asks how to deploy with a custom domain and remove Emergent branding. (Status: **Completed**, agent relayed info from support agent).
-6.  **User:** Reports 3 new issues: an image not showing (was a cache issue), prices still in €, and asks for a recap of tasks. (Status: **Completed**)
-7.  **User:** Asks to remove a pricing page that links from En savoir plus buttons and implement full multi-language translation. (Status: **In Progress**, link removed, translation framework set up).
-8.  **User:** Reports another image upload () is not appearing on the site. (Status: **In Progress**, this is the current bug).
-9.  **User:** Provides details about which page the failing image upload is on (système de commande, Hero Image). (Status: **In Progress**).
-10. **User:** Asks to delete a specific pricing page and implement full translation for all added languages. (Status: **Partially Completed**, page link removed, translation framework added).
+1.  **User:** Asks how to run the  script in VS Code. (Status: **Completed**)
+2.  **User:** Asks how to install MongoDB for the local setup. (Status: **Completed**)
+3.  **User:** Asks where the  file is located. (Status: **Completed**)
+4.  **User:** States they want to download the backup file. (Status: **Completed**, agent provided a temporary download link).
+5.  **User (PENDING):** Reports that after downloading and restoring the backup, many things are still missing. (Status: **In Progress**, agent diagnosed the issue and created a new, complete backup).
+6.  **User:** Asks to change the backup name. (Status: **Completed**)
+7.  **User:** Explains the issue with running the site locally after downloading from GitHub. (Status: **Completed**)
+8.  **User:** Asks to verify that contact forms send emails to . (Status: **Completed**)
+9.  **User:** Asks to optimize the site for mobile but not break the desktop version. (Status: **Completed**)
+10. **User:** Asks to remove the pricing section on the homepage and add new, lively content. (Status: **Completed**)
 
 **Project Health Check:**
 -   **Broken:**
-    -   The final step of saving an uploaded image's URL to the database is failing intermittently or for specific pages.
+    -   The user's local development environment is not synchronized with the live version, which is a major blocker for them.
+    -   The multi-language feature is only partially implemented (only the navbar is translated).
 -   **Mocked:**
-    -   **AI Assistant Actions:** The AI can chat but cannot execute commands to modify site content.
-    -   **Translations:** The entire framework is in place, but the translation files () are empty and need to be populated with content.
+    -   None.
 
 **3rd Party Integrations**:
--   **OpenAI GPT-4o** — uses Emergent LLM Key (for the AI Assistant feature, via  library).
--   **react-i18next**: For frontend internationalization.
+-   **OpenAI GPT-4o** — uses Emergent LLM Key (attempted for a translation script which failed).
+-   **react-i18next**: Used for frontend internationalization.
+-   **react-markdown**: Used for rendering blog content.
 
 **Testing status**
--   **Testing agent used after significant changes:** YES
--   **Troubleshoot agent used after agent stuck in loop:** NO
+-   **Testing agent used after significant changes:** NO
+-   **Troubleshoot agent used after agent stuck in loop:** NO (The agent got stuck in a major communication loop with the user regarding file restoration, which could have been a candidate for the troubleshoot agent).
 -   **Test files created:** None
--   **Known regressions:** The process of making pages dynamic has repeatedly introduced small bugs related to data saving or synchronization, which are then fixed. The current bug is another instance of this pattern.
+-   **Known regressions:** None.
 
 **Credentials to test flow:**
 -   **Admin Login URL**: 
@@ -182,4 +1088,4 @@ The user has also expressed a future desire to integrate a price comparator from
 -   **Password**: 
 
 **What agent forgot to execute**
--   The agent set up the translation framework but did not proceed to populate the translation files with actual text, which is the necessary next step to complete the feature. It is currently waiting for user input which it should have proactively offered to generate.</analysis>
+-   The agent's initial backup process was flawed as it forgot to include the  directory, leading to the current primary issue.</analysis>

@@ -12,7 +12,7 @@ from datetime import datetime
 from typing import Dict, Any, Optional
 
 # Backend URL from frontend environment
-BACKEND_URL = "https://dynamic-cms-web-1.preview.emergentagent.com"
+BACKEND_URL = "https://content-manager-68.preview.emergentagent.com"
 
 class AyaPosAPITester:
     def __init__(self, base_url: str):

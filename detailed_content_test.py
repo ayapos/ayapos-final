@@ -10,7 +10,7 @@ import json
 import sys
 from datetime import datetime
 
-BACKEND_URL = "https://dynamic-cms-web-1.preview.emergentagent.com"
+BACKEND_URL = "https://content-manager-68.preview.emergentagent.com"
 
 async def test_delivery_management_detailed():
     """Test delivery-management content in detail"""

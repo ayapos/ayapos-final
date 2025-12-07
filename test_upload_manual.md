@@ -11,7 +11,7 @@
 
 ### Étape 1 : Se connecter à l'admin
 ```
-1. Allez sur: https://dynamic-cms-web-1.preview.emergentagent.com/admin/login
+1. Allez sur: https://content-manager-68.preview.emergentagent.com/admin/login
 2. Email: emrah@ayapos.com
 3. Mot de passe: Arden2018@
 4. Cliquez sur "Se connecter"
@@ -47,7 +47,7 @@
 ### Étape 5 : Vérifier sur le site
 ```
 1. Cliquez sur "Voir le Site" (en haut à droite)
-2. Ou allez sur: https://dynamic-cms-web-1.preview.emergentagent.com/waiter-terminal
+2. Ou allez sur: https://content-manager-68.preview.emergentagent.com/waiter-terminal
 3. Votre nouvelle image devrait apparaître
 ```
 
