@@ -5,24 +5,15 @@ import { Check, ArrowRight, Loader2 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
-import { posPackages } from '../data/mockData';
 import { usePageContent } from '../hooks/usePageContent';
-import { useProducts } from '../hooks/useProducts';
+import { usePOSPackages } from '../hooks/usePOSPackages';
 
 const POSSystems = () => {
   const { t } = useTranslation();
   const { getContentValue, loading: contentLoading } = usePageContent('pos-systems');
-  const { products, loading: productsLoading } = useProducts();
+  const { packages, loading: packagesLoading } = usePOSPackages();
 
-  // Filter POS products from database
-  const posProductsFromDB = products.filter(p => 
-    p.category && p.category.toLowerCase().includes('pos')
-  );
-
-  // Use database products if available, otherwise fallback to mock data
-  const displayPackages = posProductsFromDB.length > 0 ? posProductsFromDB : posPackages;
-
-  if (contentLoading || productsLoading) {
+  if (contentLoading || packagesLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <Loader2 className="h-12 w-12 animate-spin text-blue-600" />
