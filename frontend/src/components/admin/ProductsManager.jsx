@@ -235,10 +235,32 @@ const ProductsManager = () => {
                     value={formData.category}
                     onChange={(e) => setFormData({...formData, category: e.target.value})}
                   >
-                    <option value="POS">POS</option>
+                    <option value="package">Package/Forfait</option>
+                    <option value="POS">POS Terminal</option>
                     <option value="Hardware">Matériel</option>
                     <option value="Service">Service</option>
+                    <option value="Payment">Paiement</option>
                   </select>
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-4">
+                <div>
+                  <Label>Devise</Label>
+                  <Input
+                    value={formData.currency}
+                    onChange={(e) => setFormData({...formData, currency: e.target.value})}
+                    placeholder="CHF"
+                  />
+                </div>
+                
+                <div>
+                  <Label>URL Image</Label>
+                  <Input
+                    value={formData.image}
+                    onChange={(e) => setFormData({...formData, image: e.target.value})}
+                    placeholder="https://..."
+                  />
                 </div>
               </div>
 
