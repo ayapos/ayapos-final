@@ -247,7 +247,7 @@ const DeliveryManagementComplete = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1728044849321?w=800&h=600&fit=crop"
+                src={content?.section_images?.tracking || "https://images.unsplash.com/photo-1728044849321?w=800&h=600&fit=crop"}
                 alt="Payment Methods"
                 className="rounded-2xl shadow-2xl"
               />
