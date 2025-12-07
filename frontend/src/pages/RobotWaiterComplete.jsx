@@ -1,9 +1,38 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ArrowRight, Navigation, Battery, AlertTriangle, Weight, Sparkles, Clock, Shield, TrendingUp, Zap } from 'lucide-react';
+import axios from 'axios';
+
+const API_URL = process.env.REACT_APP_BACKEND_URL;
 
 const RobotWaiterComplete = () => {
   const { t } = useTranslation();
+  const [content, setContent] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadContent = async () => {
+      try {
+        const response = await axios.get(`${API_URL}/api/content/robot-waiter`);
+        if (response.data.success) {
+          setContent(response.data.content);
+        }
+      } catch (error) {
+        console.error('Erreur chargement contenu:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadContent();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+      </div>
+    );
+  }
 
   const features = [
     {
