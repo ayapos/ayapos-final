@@ -139,7 +139,7 @@ const StockManagementComplete = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&h=600&fit=crop"
+                src={content?.section_images?.inventory || "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&h=600&fit=crop"}
                 alt="Recipe Management"
                 className="rounded-2xl shadow-2xl"
               />
