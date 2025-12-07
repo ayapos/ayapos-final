@@ -108,8 +108,17 @@ const Navbar = () => {
                 >
                   <DropdownMenuTrigger asChild>
                     <button 
-                      className="flex items-center space-x-1 text-sm font-medium transition-colors hover:text-blue-600 text-gray-700"
+                      className={`flex items-center space-x-1 text-sm font-medium transition-all ${
+                        item.path === '/pos' 
+                          ? 'bg-gradient-to-r from-blue-600 to-blue-400 text-white px-4 py-2 rounded-lg hover:from-blue-700 hover:to-blue-500 shadow-lg hover:shadow-xl scale-105 relative'
+                          : 'text-gray-700 hover:text-blue-600'
+                      }`}
                     >
+                      {item.path === '/pos' && (
+                        <span className="absolute -top-2 -right-1 text-[10px] bg-yellow-400 text-blue-900 px-1.5 py-0.5 rounded-full font-bold shadow-sm">
+                          ⭐
+                        </span>
+                      )}
                       <span>{item.name}</span>
                       <ChevronDown className="h-4 w-4" />
                     </button>
