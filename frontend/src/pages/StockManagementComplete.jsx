@@ -272,7 +272,7 @@ const StockManagementComplete = () => {
               </div>
               <div className="hidden md:block">
                 <img 
-                  src="https://images.unsplash.com/photo-1740914994657-f1cdffdc418e?w=600&h=400&fit=crop"
+                  src={content?.section_images?.dashboard || "https://images.unsplash.com/photo-1740914994657-f1cdffdc418e?w=600&h=400&fit=crop"}
                   alt="Alert System"
                   className="rounded-2xl shadow-2xl"
                 />
