@@ -4,7 +4,10 @@ Script pour traduire les nouvelles clés de navigation
 """
 import json
 import asyncio
-from emergentintegrations.client import Emergent
+import openai
+import os
+
+openai.api_key = "sk-emergent-dB01f6e70Ec9bCe6d6"
 
 # Langues cibles
 LANGUAGES = {
