@@ -282,9 +282,9 @@ const ProductsManager = () => {
                 />
               </div>
 
-              <div className="grid md:grid-cols-3 gap-4">
+              <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <Label>Prix (CHF) *</Label>
+                  <Label>Prix *</Label>
                   <Input
                     type="number"
                     value={formData.price}
@@ -299,10 +299,22 @@ const ProductsManager = () => {
                     type="number"
                     value={formData.discount}
                     onChange={(e) => setFormData({...formData, discount: e.target.value})}
+                    placeholder="0"
                   />
                 </div>
+              </div>
+              
+              <div>
+                <Label>Badge personnalisé (ex: "Le plus populaire")</Label>
+                <Input
+                  value={formData.badge}
+                  onChange={(e) => setFormData({...formData, badge: e.target.value})}
+                  placeholder="Le plus populaire"
+                />
+              </div>
 
-                <div className="flex items-center space-x-2 mt-6">
+              <div className="grid md:grid-cols-3 gap-4 p-4 bg-gray-50 rounded-lg">
+                <div className="flex items-center space-x-2">
                   <input
                     type="checkbox"
                     id="recommended"
@@ -311,6 +323,28 @@ const ProductsManager = () => {
                     className="h-4 w-4"
                   />
                   <Label htmlFor="recommended">Recommandé</Label>
+                </div>
+                
+                <div className="flex items-center space-x-2">
+                  <input
+                    type="checkbox"
+                    id="featured"
+                    checked={formData.featured}
+                    onChange={(e) => setFormData({...formData, featured: e.target.checked})}
+                    className="h-4 w-4"
+                  />
+                  <Label htmlFor="featured">En vedette</Label>
+                </div>
+                
+                <div className="flex items-center space-x-2">
+                  <input
+                    type="checkbox"
+                    id="highlighted"
+                    checked={formData.highlighted}
+                    onChange={(e) => setFormData({...formData, highlighted: e.target.checked})}
+                    className="h-4 w-4"
+                  />
+                  <Label htmlFor="highlighted">Surligné</Label>
                 </div>
               </div>
 
