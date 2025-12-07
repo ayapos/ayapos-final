@@ -4,10 +4,9 @@ Script pour traduire les nouvelles clés de navigation
 """
 import json
 import asyncio
-import openai
-import os
+from openai import AsyncOpenAI
 
-openai.api_key = "sk-emergent-dB01f6e70Ec9bCe6d6"
+client = AsyncOpenAI(api_key="sk-emergent-dB01f6e70Ec9bCe6d6")
 
 # Langues cibles
 LANGUAGES = {
