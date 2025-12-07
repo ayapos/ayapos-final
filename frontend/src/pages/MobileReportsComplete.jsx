@@ -214,7 +214,7 @@ const MobileReportsComplete = () => {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+                src={content?.section_images?.analytics || "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"}
                 alt="Business Management"
                 className="rounded-2xl shadow-2xl"
               />
