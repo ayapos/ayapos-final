@@ -576,6 +576,10 @@ async def main():
         await tester.test_mobile_order_app_content()
         await tester.test_mobile_order_app_images_count()
         
+        # Test delivery-management and robot-waiter content (as requested in review)
+        await tester.test_delivery_management_content()
+        await tester.test_robot_waiter_content()
+        
         # Print summary
         passed, failed = tester.print_summary()
         
