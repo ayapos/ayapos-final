@@ -185,7 +185,7 @@ const Home = () => {
       </section>
 
       {/* Stats Section - Nos Réussites */}
-      <section className="py-24 bg-gradient-to-b from-white to-gray-50">
+      <section className="py-12 md:py-24 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <span className="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold mb-4">
