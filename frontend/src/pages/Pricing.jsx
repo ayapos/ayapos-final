@@ -134,13 +134,7 @@ const Pricing = () => {
                       : 'border-2 border-gray-200 shadow-lg'
                   }`}
                 >
-                  {(pkg.recommended || pkg.highlighted) && (
-                    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
-                      <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-6 py-2 text-lg font-bold shadow-lg">
-                        ⭐ {pkg.badge || 'Le plus populaire'}
-                      </Badge>
-                    </div>
-                  )}
+                  {/* Badge supprimé selon demande utilisateur */}
 
                   {/* Header color\u00e9 avec d\u00e9grad\u00e9 */}
                   <div className={`bg-gradient-to-r ${bgGradient} p-8 text-center`}>
