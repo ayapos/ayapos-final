@@ -149,7 +149,7 @@ const RestaurantPOS = () => {
                   <img
                     src={pageContent.hero_image || "https://images.unsplash.com/photo-1726065235203-4368c41c6f19?w=800&q=80"}
                     alt="POS Restaurant"
-                    className="relative rounded-2xl shadow-2xl border-4 border-white/20 backdrop-blur transform scale-[1.35] hover:scale-[1.4] transition-transform duration-500 object-cover"
+                    className="relative rounded-2xl shadow-2xl border-4 border-white/20 backdrop-blur transform scale-[1.30] hover:scale-[1.35] transition-transform duration-500 object-cover"
                   />
                 </div>
                 
