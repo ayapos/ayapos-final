@@ -44,4 +44,5 @@ terminals = list(db.products.find(
 
 for t in terminals:
     has_image = "✅" if t.get('image') else "❌"
-    print(f"{has_image} {t['name']}: {t.get('image', 'Pas d\'image')[:50]}...")
+    img_preview = t.get('image', 'Pas d image')[:50]
+    print(f"{has_image} {t['name']}: {img_preview}...")
