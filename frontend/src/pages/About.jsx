@@ -56,10 +56,16 @@ const About = () => {
     }
   ];
 
-  const stats = [
-    { number: '5000+', label: t('about.stats.clients') },
-    { number: '15+', label: t('about.stats.years') },
-    { number: '50+', label: t('about.stats.team') },
+  const statsFromDB = getContentValue('stats');
+  const stats = statsFromDB ? [
+    { number: statsFromDB.clients || '800+', label: statsFromDB.clients_label || t('about.stats.clients') },
+    { number: statsFromDB.experience ? `${statsFromDB.experience}+` : '7+', label: statsFromDB.experience_label || t('about.stats.years') },
+    { number: statsFromDB.team || '15+', label: statsFromDB.team_label || t('about.stats.team') },
+    { number: statsFromDB.satisfaction || '99%', label: statsFromDB.satisfaction_label || t('about.stats.satisfaction') }
+  ] : [
+    { number: '800+', label: t('about.stats.clients') },
+    { number: '7+', label: t('about.stats.years') },
+    { number: '15+', label: t('about.stats.team') },
     { number: '99%', label: t('about.stats.satisfaction') }
   ];
 
