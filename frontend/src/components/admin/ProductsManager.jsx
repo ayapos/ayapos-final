@@ -452,8 +452,14 @@ const ProductsManager = () => {
                 <CardHeader>
                   <CardTitle className="text-lg">{product.name}</CardTitle>
                   <div className="flex items-baseline gap-2">
-                    <span className="text-2xl font-bold text-blue-600">CHF {product.price}</span>
-                    <span className="text-sm text-gray-500">/mois</span>
+                    <span className="text-2xl font-bold text-blue-600">{product.currency || 'CHF'} {product.price}</span>
+                    {product.priceType === 'one-time' ? (
+                      <span className="text-sm text-gray-500">(unique)</span>
+                    ) : (
+                      <span className="text-sm text-gray-500">
+                        /{product.billingPeriod === 'yearly' ? 'an' : 'mois'}
+                      </span>
+                    )}
                   </div>
                   {product.tagline && (
                     <p className="text-sm text-gray-600 italic">{product.tagline}</p>
