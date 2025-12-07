@@ -7,7 +7,24 @@
     "pricing": "Precios",
     "about": "Acerca de",
     "contact": "Contacto",
-    "demo": "Solicitar una demostración"
+    "demo": "Solicitar una demostración",
+    "it_services": "Desarrollo IT",
+    "pos_dropdown": {
+      "restaurant_cafe": "Restaurante & Café",
+      "management_tools": "Herramientas de Gestión",
+      "restaurant_pos": "Sistema POS Restaurante",
+      "self_order_kiosk": "Kiosco de Autopedido",
+      "order_system": "Sistema de Pedidos",
+      "waiter_terminal": "Terminal Camarero",
+      "mobile_order_app": "App Pedido Móvil",
+      "robot_waiter": "Camarero Robot",
+      "delivery_management": "Gestión de Entregas",
+      "web_portal": "Portal Web",
+      "mobile_reports": "Informes Móviles",
+      "stock_management": "Gestión de Stock",
+      "centralized_management": "Gestión Centralizada",
+      "hardware_devices": "Dispositivos Hardware"
+    }
   },
   "hero": {
     "title": "Soluciones POS y de Pago de Nueva Generación",

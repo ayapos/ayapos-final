@@ -7,7 +7,24 @@
     "pricing": "Fiyatlar",
     "about": "Hakkında",
     "contact": "İletişim",
-    "demo": "Demo talep et"
+    "demo": "Demo talep et",
+    "it_services": "BT Geliştirme",
+    "pos_dropdown": {
+      "restaurant_cafe": "Restoran & Kafe",
+      "management_tools": "Yönetim Araçları",
+      "restaurant_pos": "Restoran POS Sistemi",
+      "self_order_kiosk": "Self-Sipariş Kiosk",
+      "order_system": "Sipariş Sistemi",
+      "waiter_terminal": "Garson Terminali",
+      "mobile_order_app": "Mobil Sipariş Uygulaması",
+      "robot_waiter": "Robot Garson",
+      "delivery_management": "Teslimat Yönetimi",
+      "web_portal": "Web Portalı",
+      "mobile_reports": "Mobil Raporlar",
+      "stock_management": "Stok Yönetimi",
+      "centralized_management": "Merkezi Yönetim",
+      "hardware_devices": "Donanım Cihazları"
+    }
   },
   "hero": {
     "title": "Yeni Nesil POS ve Ödeme Çözümleri",
