@@ -241,7 +241,7 @@ const Home = () => {
 
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl transform group-hover:scale-105 transition-transform duration-300 opacity-10"></div>
-              <div className="relative bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center">
+              <div className="relative bg-white rounded-2xl p-6 md:p-8 shadow-lg border border-gray-100 text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl mb-6 shadow-lg">
                   <LucideIcons.Zap className="h-8 w-8 text-white" />
                 </div>
