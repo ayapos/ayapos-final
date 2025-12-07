@@ -28,7 +28,8 @@ class BlogPost(BaseModel):
 @router.get("/posts")
 async def get_all_posts():
     try:
-        posts = await db.blog_posts.find({}, {"_id": 0}).to_list(1000)
+        # Charger depuis la collection 'blog'
+        posts = await db.blog.find({}, {"_id": 0}).to_list(1000)
         return {"success": True, "posts": posts}
     except Exception as e:
         logger.error(f"Error fetching posts: {str(e)}")
