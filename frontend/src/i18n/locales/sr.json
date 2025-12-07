@@ -7,32 +7,32 @@
     "pricing": "Cene",
     "about": "O nama",
     "contact": "Kontakt",
-    "demo": "Zatražite demo"
+    "demo": "Zatražite uvid"
   },
   "hero": {
-    "title": "POS i plaćanje rešenja nove generacije",
-    "subtitle": "Restorani, kafići, hoteli, pijace i lance preduzeća - Inovativni POS sistemi sa integrisanim terminalima za plaćanje",
+    "title": "POS i platna rešenja nove generacije",
+    "subtitle": "Restorani, kafići, hoteli, pijace i lanaci preduzeća - Inovativni POS sistemi sa integrisanim platnim terminalima",
     "cta": "Otkrijte naša rešenja",
     "cta_secondary": "Pogledajte cene"
   },
   "features": {
     "title": "Sve što vam je potrebno za uspeh",
     "pos_title": "Kompletan POS sistem",
-    "pos_desc": "Upravljajte svojim prodajama, zalihama i izveštajima u realnom vremenu s bilo kojeg mesta",
-    "payment_title": "Terminali za plaćanje",
-    "payment_desc": "Sigurna i brza rešenja za plaćanje za sve vrste transakcija",
+    "pos_desc": "Upravljajte svojim prodajama, zalihama i izveštajima u realnom vremenu sa bilo kojeg mesta",
+    "payment_title": "Platni Terminali",
+    "payment_desc": "Sigurna i brza rešenja za sve vrste transakcija",
     "digital_title": "Digitalni Meniji",
-    "digital_desc": "QR kodovi, tableti i kiosci za moderno korisničko iskustvo",
-    "reports_title": "Izveštaji i Analitika",
-    "reports_desc": "Pratite svoje performanse sa intuitivnim kontrolnim tablama"
+    "digital_desc": "QR kodovi, tableti i kiosci za moderan korisnički doživljaj",
+    "reports_title": "Izveštaji & Analitika",
+    "reports_desc": "Pratite svoje performanse sa intuitivnim kontrolnim panelima"
   },
   "pos": {
-    "title": "Profesionalni POS sistemi",
-    "subtitle": "Izaberite POS rešenje prilagođeno vašem preduzeću",
+    "title": "Profesionalni POS Sistemi",
+    "subtitle": "Izaberite POS rešenje koje odgovara vašem preduzeću",
     "premium": {
       "name": "Premium POS",
-      "tagline": "Potpuna kontrola, maksimalna snaga",
-      "desc": "Za lanca restorana, tržne centre i preduzeća sa velikim obimom",
+      "tagline": "Potpuna kontrola, maksimalna moć",
+      "desc": "Za lance restorana, tržne centre i preduzeća sa velikim obimom",
       "price": "1049€",
       "period": "mesečno"
     },
@@ -45,8 +45,8 @@
     },
     "web": {
       "name": "Web POS",
-      "tagline": "Brzo pokretanje, vaš vlastiti uređaj",
-      "desc": "Za nove firme, kafiće i kioske",
+      "tagline": "Brzo pokretanje, vaše vlastito uređaj",
+      "desc": "Za nova preduzeća, kafiće i kioske",
       "price": "525€",
       "period": "mesečno"
     },
@@ -59,62 +59,62 @@
     }
   },
   "ayapay": {
-    "title": "AyaPay - Terminali za plaćanje",
+    "title": "AyaPay - Platni Terminali",
     "subtitle": "Profesionalna rešenja za plaćanje za sve potrebe",
-    "hero_text": "Prihvatite sve načine plaćanja uz naše terminale nove generacije",
-    "terminals_title": "Naši terminali za plaćanje",
+    "hero_text": "Prihvatite sve metode plaćanja sa našim terminalima nove generacije",
+    "terminals_title": "Naši Platni Terminali",
     "smartpos_a77": {
       "name": "SmartPOS A77",
       "tagline": "Kompaktan i lagan",
-      "desc": "Prijenosni terminal sa ekranom osetljivim na dodir i 4G povezivanjem"
+      "desc": "Portabilni terminal sa ekranom osetljivim na dodir i 4G konekcijom"
     },
     "smartpos_a920": {
       "name": "SmartPOS A920",
       "tagline": "Pametan i brz",
-      "desc": "Pametni terminal sa integrisanom štampačem i velikim ekranom"
+      "desc": "Pametni terminal sa ugrađenom printerom i velikim ekranom"
     },
     "deskpos_q80": {
       "name": "Desk POS Q80",
       "tagline": "Fiksan i praktičan",
-      "desc": "Terminal za pult sa podrškom i maksimalnom stabilnošću"
+      "desc": "Pultni terminal sa maksimalnom podrškom i stabilnošću"
     },
     "softpos": {
       "name": "Tap to Pay iPhone",
       "tagline": "Plaćanje bez terminala",
-      "desc": "Transformišite svoj iPhone u terminal za plaćanje"
+      "desc": "Pretvorite svoj iPhone u platni terminal"
     },
-    "features_title": "Glavne funkcionalnosti",
-    "feature_1": "Prihvat svih kartica",
-    "feature_2": "NFC plaćanja bez kontakta",
-    "feature_3": "WiFi i 4G povezivanje",
+    "features_title": "Glavne Funkcije",
+    "feature_1": "Prihvatanje svih kartica",
+    "feature_2": "NFC beskontaktna plaćanja",
+    "feature_3": "WiFi i 4G konekcija",
     "feature_4": "Digitalni i štampani računi",
-    "feature_5": "PCI-DSS sigurnost",
-    "feature_6": "Potpuna POS integracija"
+    "feature_5": "PCI-DSS bezbednost",
+    "feature_6": "Kompletna POS integracija"
   },
   "pricing": {
-    "title": "Transparentne cene",
-    "subtitle": "Izaberite paket prilagođen vašim potrebama",
+    "title": "Transparentne Cene",
+    "subtitle": "Izaberite plan koji odgovara vašim potrebama",
     "monthly": "Mesečno",
     "yearly": "Godišnje",
     "save": "Uštedite 20%",
-    "cta": "Počnite",
-    "features": "Uključene funkcionalnosti"
+    "cta": "Započnite",
+    "features": "Uključene funkcije"
   },
   "contact": {
     "title": "Kontaktirajte nas",
-    "subtitle": "Ispunite obrazac i brzo ćemo vas kontaktirati",
-    "name": "Ime kompanije",
+    "subtitle": "Ispunite obrazac i ubrzo ćemo vas kontaktirati",
+    "name": "Naziv kompanije",
     "type": "Tip kompanije",
     "phone": "Telefon",
     "email": "Email",
     "city": "Grad",
     "message": "Poruka",
-    "submit": "Dobijte besplatnu procenu",
-    "success": "Hvala! Uskoro ćemo vas kontaktirati.",
+    "submit": "Dobijte besplatnu ponudu",
+    "success": "Hvala! Ubrzo ćemo vas kontaktirati.",
     "error": "Došlo je do greške. Molimo pokušajte ponovo."
   },
   "footer": {
-    "tagline": "POS i rešenja za plaćanje nove generacije",
+    "tagline": "POS i platna rešenja nove generacije",
     "rights": "Sva prava zadržana",
     "company": "Kompanija",
     "products": "Proizvodi",
@@ -122,187 +122,187 @@
   },
   "robotWaiter": {
     "hero": {
-      "badge": "REŠENJA NOVA GENERACIJA",
-      "title": "Robot Server Sistem",
-      "subtitle": "Sistem robot servera nove generacije za inovativne i pionirske kompanije",
+      "badge": "REŠENJA ZA USLUŽIVANJE NOVE GENERACIJE",
+      "title": "Sistem Robot Konobara",
+      "subtitle": "Sistem robot konobara nove generacije za inovativne i pionirske kompanije",
       "cta": "Zatražite ponudu"
     },
     "benefits": {
-      "mainTitle": "Robot serveri za zadovoljne klijente",
-      "mainSubtitle": "Robot serveri smanjuju radno opterećenje vaše kompanije i omogućavaju osoblju da pruži efikasniju uslugu",
+      "mainTitle": "Robot konobari za zadovoljstvo klijenata",
+      "mainSubtitle": "Robot konobari olakšavaju radnu opterećenost vaše kompanije i omogućavaju osoblju da pruži efikasniju uslugu",
       "experience": {
         "title": "Jedinstveno iskustvo",
-        "description": "Pružite vašim klijentima novi osvežavajući koncept na koji nisu navikli. Impresionirajte ih interaktivnim funkcijama koje stvaraju futurističko i jedinstveno iskustvo."
+        "description": "Ponudite svojim klijentima novi osvežavajući koncept na koji nisu navikli. Impresionirajte svoje klijente interaktivnim funkcijama koje stvaraju futurističko i jedinstveno iskustvo."
       },
       "contactless": {
-        "title": "Dostava narudžbi bez kontakta",
-        "description": "Zahvaljujući sistemu za distribuciju poslužavnika putem robot servera AyaPos, sada obraćamo više pažnje na higijenske norme. Pustite robote da dostave narudžbe do stola."
+        "title": "Dostava narudžbina bez kontakta",
+        "description": "Zahvaljujući sistemu isporuke tacni putem robota konobara AyaPos, sada obraćamo veću pažnju na pravila higijene. Pustite robot konobare da donose narudžbine do stola."
       },
       "profitability": {
-        "title": "Povećajte profitabilnost",
-        "description": "Povećajte profitabilnost vaše kompanije putem sistema robot servera. Brzom i tačnom isporukom narudžbi vaših klijenata, takođe povećavate obim posla vaše kompanije."
+        "title": "Povećajte rentabilnost",
+        "description": "Povećajte rentabilnost vaše kompanije pomoću sistema robot konobara. Brenda brza i bezgrešna isporuka narudžbina vaših klijenata, takođe povećavate poslovni volumen vaše kompanije."
       },
       "efficiency": {
         "title": "Efikasna usluga",
-        "description": "Produžite radno vreme vaše kompanije pomoću robot servera i poslužite više klijenata dok smanjujete greške u usluzi."
+        "description": "Produžite radno vreme vaše kompanije zahvaljujući robot konobarima i poslužite više klijenata dok smanjujete greške u usluzi."
       }
     },
     "navigation": {
       "badge": "AUTONOMNA TEHNOLOGIJA",
-      "title": "Sistem autonomne navigacije",
-      "description1": "Sistemi robot servera koriste autonomne navigacione sisteme kako bi osigurali sigurnu i tačnu isporuku narudžbi do stolova klijenata.",
-      "description2": "Robot serveri prepoznaju prepreke u vašoj kompaniji zahvaljujući senzorima i laser radar tehnologiji, sprečavajući sudare. Pružite sigurniju i tačniju uslugu u vašoj kompaniji uz očuvanje bezbednosti vaših klijenata.",
+      "title": "Sistem Autonomne Navigacije",
+      "description1": "Sistemi robot konobara koriste autonomne navigacione sisteme kako bi osigurali sigurne i bezgrešne isporuke do stolova klijenata.",
+      "description2": "Robot konobari detektuju prepreke u vašoj kompaniji koristeći senzore i tehnologiju laserskog radara, sprečavajuci sudare. Pružite sigurniju i bezgrešnu uslugu u vašoj kompaniji kako biste osigurali sigurnost vaših klijenata.",
       "cta": "Saznajte više"
     },
     "profitability": {
-      "badge": "POVEĆANA PROFITABILNOST",
-      "title": "Povećajte profitabilnost",
-      "description1": "Povećajte profitabilnost vaše kompanije putem sistema robot servera. Brzom i bezgrešnom dostavom narudžbi vaših klijenata, takođe povećavate obim posla vaše kompanije.",
-      "description2": "Zahvaljujući robot serverima, produžite radno vreme vaše kompanije i poslužite više klijenata.",
-      "stat1": "Smanjenje troškova osoblja",
+      "badge": "POVEĆANA RENTABILNOST",
+      "title": "Povećajte rentabilnost",
+      "description1": "Povećajte rentabilnost vaše kompanije pomoću sistema robot konobara. Brenda brza i bezgrešna isporuka narudžbina vaših klijenata, takođe povećavate poslovni volumen vaše kompanije.",
+      "description2": "Zahvaljujući robot konobarima, produžite radno vreme vaše kompanije i poslužite više klijenata.",
+      "stat1": "Smanjenje troškova zaposlenih",
       "stat2": "Usluga dostupna"
     },
     "delivery": {
-      "title": "Sistem automatske dostave",
+      "title": "Sistem Automatske Isporuke",
       "subtitle": "Povećajte zadovoljstvo i lojalnost klijenata vaše kompanije",
       "speed": {
-        "title": "Brza i efikasna dostava",
-        "description": "Brzo i efikasno isporučujte narudžbe klijentima uz automatske sisteme dostave na poslužavnicima, povećavajući zadovoljstvo klijenata i obim posla vaše kompanije."
+        "title": "Brza i efikasna isporuka",
+        "description": "Dostavljajte narudžbine brzo i efikasno klijentima sa automatskim sistemima isporuke na tacnama, povećavajući zadovoljstvo klijenata i poslovni volumen vaše kompanije."
       },
       "accuracy": {
         "title": "Manje grešaka",
-        "description": "Smanjite greške u dostavi isporučujući narudžbe na prave stolove i zaštitite reputaciju vaše kompanije dok pružate uslugu boljeg kvaliteta."
+        "description": "Smanjite greške u isporuci dajući ispravne narudžbine pravim stolovima i zaštitite reputaciju vaše kompanije dok pružate kvalitetniju uslugu."
       }
     },
     "technicalFeatures": {
-      "title": "Tehničke karakteristike",
+      "title": "Tehničke Karakteristike",
       "subtitle": "Savremena tehnologija za optimalnu uslugu"
     },
     "features": {
       "navigation": {
-        "title": "Navigacioni sistem",
-        "description": "Robot serveri AyaPos su opremljeni laserima i senzorima kako bi izbegli prepreke u kompaniji."
+        "title": "Navigacioni Sistem",
+        "description": "Robot konobari AyaPos su opremljeni laserima i senzorima kako bi izbegli prepreke u kompaniji."
       },
       "capacity": {
-        "title": "Kapacitet transporta",
-        "description": "Uređaji za dostavu poslužavnika AyaPos imaju ukupni kapacitet transporta od 40 kg, što je 10 kg po nivou."
+        "title": "Kapacitet Transporta",
+        "description": "Uređaji za isporuku tacni AyaPos imaju ukupan kapacitet transporta od 40 kg, što je 10 kg po nivou."
       },
       "battery": {
-        "title": "Dugotrajna baterija",
-        "description": "Robot serveri AyaPos rade neprekidno 12 do 15 sati dnevno."
+        "title": "Izdržljiva Baterija",
+        "description": "Robot konobari AyaPos funkcionišu neprekidno 12 do 15 sati dnevno."
       },
       "speedLimit": {
-        "title": "Pametna ograničenja brzine",
-        "description": "Pametni robot serveri prilagođavaju svoju brzinu prema nagibu terena zahvaljujući unapređenoj funkciji ograničenja brzine."
+        "title": "Pametna Granica Brzine",
+        "description": "Pametni robot konobari prilagođavaju svoju brzinu u zavisnosti od nagiba tla zahvaljujući funkciji poboljšane granice brzine."
       }
     },
     "gallery": {
-      "title": "Pogledajte naše robot servere",
+      "title": "Pogledajte naše Robot Konobare",
       "subtitle": "Pogledajte kako naši roboti mogu transformisati vašu uslugu",
-      "image1": "Robot server u akciji",
-      "image2": "Automatska dostava poslužavnika",
-      "image3": "Poboljšana usluga klijentima"
+      "image1": "Robot konobar u akciji",
+      "image2": "Automatska isporuka tacni",
+      "image3": "Unapređena korisnička usluga"
     },
     "cta": {
-      "title": "Spremni da revolucionalizujete svoju uslugu?",
-      "subtitle": "Kontaktirajte nas kako biste otkrili kako naši robot serveri mogu poboljšati vašu kompaniju",
+      "title": "Spremni za revoluciju vaše usluge?",
+      "subtitle": "Kontaktirajte nas da saznate kako naši robot konobari mogu poboljšati vašu kompaniju",
       "button": "Zatražite demonstraciju"
     }
   },
   "deliveryManagement": {
     "hero": {
-      "badge": "APLIKACIJA DOSTAVLJAČ",
-      "title": "Sistem za upravljanje narudžbama dostavljača",
-      "subtitle": "Planirajte narudžbe, pregledajte detalje, lako prihvatite plaćanja",
+      "badge": "APLIKACIJA DOSTAVA",
+      "title": "Sistem Upravljanja Narudžbinama Dostava",
+      "subtitle": "Planirajte narudžbine, proverite detalje, lako prihvatite uplate",
       "cta": "Zatražite ponudu"
     },
     "orderManagement": {
-      "badge": "UPRAVLJANJE NARUDŽBAMA",
-      "title": "Brzo isporučujte narudžbe!",
-      "subtitle": "AyaPos dostavljač - Aplikacija za praćenje narudžbi"
+      "badge": "UPRAVLJANJE NARUDŽBINAMA",
+      "title": "Brzo dostavite narudžbine!",
+      "subtitle": "AyaPos Dostava - Aplikacija za Praćenje Narudžbina"
     },
     "features": {
       "orderDetails": {
-        "title": "Detalji narudžbe",
-        "description": "Možete pregledati detalje narudžbi koje su vam dodeljene. Na taj način možete smanjiti rizik od greške prilikom dostave. Niko ne želi da dobije tortu dok čeka picu."
+        "title": "Detalji Narudžbine",
+        "description": "Možete proveriti detalje narudžbina koje su vam dodeljene. Na taj način možete minimizovati rizik od greške prilikom isporuke. Niko ne želi da primi tortu dok čeka pizzu."
       },
       "mapView": {
         "title": "Pogledajte lokaciju na mapi",
-        "description": "Uz aplikaciju dostavljača, možete videti lokaciju na kojoj treba da isporučite narudžbu na mapi. Tako možete odrediti svoj put do ispravne adrese najkraćim putem."
+        "description": "Uz aplikaciju Dostava, možete videti mesto gde treba da dostavite narudžbinu na mapi. Tako možete odrediti svoj put do prave adrese najkraćim putem."
       },
       "callCustomer": {
-        "title": "Pozovite klijenta",
-        "description": "U slučaju nepovoljnih okolnosti ili ako imate pitanja o narudžbi, možete pozvati klijenta i komunicirati s njim."
+        "title": "Pozovite kupca",
+        "description": "U slučaju nepovoljnih situacija ili ako imate pitanja o narudžbini, možete pozvati kupca i komunicirati s njim."
       }
     },
     "payment": {
       "badge": "PLAĆANJA",
-      "title": "Vrlo lako prihvatite plaćanja!",
-      "subtitle": "AyaPos dostavljač - Sistem za upravljanje restoranom",
+      "title": "Lako prihvatite uplate!",
+      "subtitle": "AyaPos Dostava - Sistem Upravljanja Restoranom",
       "cash": {
-        "title": "Plaćanja gotovinom",
-        "description": "Zahvaljujući jednostavnoj upotrebi aplikacije dostavljača, možete prihvatiti plaćanja gotovinom za narudžbe jednim dodirom."
+        "title": "Uplate u gotovini",
+        "description": "Zahvaljujući jednostavnom korišćenju aplikacije Dostava, možete lako prihvatiti uplate u gotovini iz narudžbina jednim dodirom."
       },
       "card": {
-        "title": "Plaćanja kreditnim karticama",
-        "description": "Uz naprednu infrastrukturu aplikacije AyaPos dostavljač, možete koristiti QR kod za prihvatanje plaćanja kreditnom karticom. Pustite vašeg klijenta da skenira QR kod i plaćanje se vrši za nekoliko sekundi."
+        "title": "Uplate kreditnom karticom",
+        "description": "Uz naprednu infrastrukturu aplikacije AyaPos Dostava, možete koristiti QR kod za prihvatanje uplata kreditnim karticama. Pustite vašeg klijenta da skenira QR kod i uplata će biti realizovana u nekoliko sekundi."
       },
       "security": {
-        "title": "100% sigurna infrastruktura",
-        "description": "Uz SSL sertifikat od 256 bitova, sve vaše transakcije i pokreti se obavljaju sigurno."
+        "title": "100% sigurnosna infrastruktura",
+        "description": "Sa SSL sertifikatom od 256 bitova, sve vaše transakcije i kretanja se obavljaju sigurno."
       }
     },
     "courier": {
       "badge": "ZA DOSTAVLJAČE",
       "title": "Neophodno za dostavljače!",
-      "subtitle": "Upravljanje narudžbama AyaPos - Softver za praćenje dostavljača",
+      "subtitle": "AyaPos Upravljanje Narudžbinama - Softver za Praćenje Dostavljača",
       "reports": {
-        "title": "Pregledajte dnevne izveštaje",
-        "description": "Uz aplikaciju AyaPos dostavljač, možete dobiti dnevne izveštaje dostavljača. Možete dobiti informacije o broju narudžbi, ukupnoj udaljenosti, vremenima i plaćanjima."
+        "title": "Pogledajte dnevne izveštaje",
+        "description": "Uz aplikaciju AyaPos Dostava, možete dobiti dnevne izveštaje dostavljača. Možete dobiti informacije o broju narudžbina, ukupnoj udaljenosti, vremenu i uplatama."
       },
       "status": {
-        "title": "Statusi dostupni i zauzeti",
-        "description": "Uz aplikaciju dostavljač, možete postaviti status dostavljača. Kada niste dostupni, možete odabrati status 'Zauzeto' i obavestiti kompaniju."
+        "title": "Status dostavljača dostupan i zauzet",
+        "description": "Uz aplikaciju Dostava, možete postaviti status dostavljača. Kada niste dostupni, možete izabrati status 'Zauzet' i obavestiti kompaniju."
       },
       "notifications": {
-        "title": "Zvuk obaveštenja o narudžbi",
-        "description": "Ako aktivirate zvuk obaveštenja putem aplikacije, dobićete zvučnu notifikaciju kada vam se dodeli narudžba. Na taj način nećete propustiti narudžbe i moći ćete povećati zadovoljstvo klijenata."
+        "title": "Zvuk obaveštenja o narudžbini",
+        "description": "Ako aktivirate zvuk obaveštenja putem aplikacije, dobićete zvučnu obaveštenje kada vam se dodeli narudžbina. Na taj način, nećete propustiti narudžbine i moći ćete povećati zadovoljstvo klijenata."
       }
     },
     "systemFeatures": {
-      "title": "Karakteristike sistema",
-      "subtitle": "Sve što vam je potrebno za efikasno upravljanje vašim dostavama"
+      "title": "Karakteristike Sistema",
+      "subtitle": "Sve što vam je potrebno za efikasno upravljanje vašim isporukama"
     },
     "system": {
       "mobile": {
-        "title": "Sistem za upravljanje mobilnim uređajima",
-        "description": "AyaPos menadžer je aplikacija za mobilno upravljanje koja vam omogućava da upravljate vašom kompanijom sa iPhone i Android telefona."
+        "title": "Sistem Mobilnog Upravljanja",
+        "description": "AyaPos Manager je aplikacija mobilnog upravljanja koja vam omogućava da upravljate svojom kompanijom sa iPhone i Android telefona."
       },
       "cloud": {
-        "title": "Cloud infrastruktura",
-        "description": "Zahvaljujući platformi cloud AyaPos menadžer, upravljajte svojim proizvodima, prodajama, zalihama i računima klijenata iz vašeg džepa, odmah pristupite konsolidovanim izveštajima vaših filijala."
+        "title": "Cloud Infrastruktura",
+        "description": "Zahvaljujući AyaPos Manager cloud platformi, upravljajte svojim proizvodima, prodajama, zalihama i računima klijenata iz vašeg džepa, instant pristupite konsolidovanim izveštajima vaših filijala."
       },
       "analytics": {
-        "title": "Napredni izveštaji i analitika",
-        "description": "Istražite svoje izveštaje o kraju dana, prodaji, zalihama i računima klijenata u realnom vremenu. Poboljšajte stanje svoje kompanije poredeći svoju prodaju sa vizuelnim analizama."
+        "title": "Napredni Izveštaji i Analize",
+        "description": "Pregledajte svoje dnevne izveštaje, izveštaje o prodaji, zalihama i računima klijenata u realnom vremenu. Poboljšajte stanje vaše kompanije upoređujući svoje prodaje sa vizuelnim analizama."
       },
       "accounts": {
-        "title": "Upravljanje računima klijenata",
-        "description": "Kreirajte račune svojih klijenata, pratite svoja potraživanja i dugove. Upravljajte svojim klijentima pregledajući novčane tokove koji su se dogodili tokom dana."
+        "title": "Upravljanje Računima Klijenata",
+        "description": "Kreirajte svoje račune klijenata, pratite svoje potraživanja i dugove. Upravljajte svojim klijentima pregledajući kretanja gotovine koja su se dogodila tokom dana."
       }
     },
     "tracking": {
-      "badge": "PRATITE U REALNOM VREMENU",
-      "title": "Pratite svoje dostave u realnom vremenu",
-      "description1": "Uz sistem praćenja u realnom vremenu AyaPos, možete pratiti poziciju svojih dostavljača na mapi i nadgledati status svih vaših narudžbi.",
-      "description2": "Optimizujte svoje rute dostave, smanjite vreme čekanja i povećajte zadovoljstvo klijenata zahvaljujući preciznom i trenutnom praćenju.",
+      "badge": "REAL-TIME PRAĆENJE",
+      "title": "Pratite svoje isporuke u realnom vremenu",
+      "description1": "Uz sistem real-time praćenja AyaPos, možete pratiti poziciju svojih dostavljača na mapi i nadgledati status svih vaših narudžbina.",
+      "description2": "Optimizujte vaše rute isporuke, smanjite vreme čekanja i povećajte zadovoljstvo klijenata zahvaljujući preciznom i real-time praćenju.",
       "feature1": "GPS praćenje uživo",
       "feature2": "Optimizacija ruta",
-      "feature3": "Automatske notifikacije"
+      "feature3": "Automatska obaveštenja"
     },
     "cta": {
-      "title": "Spremni da optimizujete svoje dostave?",
-      "subtitle": "Kontaktirajte nas kako biste otkrili kako naš sistem za upravljanje dostavama može poboljšati vašu efikasnost",
+      "title": "Spremni za optimizaciju vaših isporuka?",
+      "subtitle": "Kontaktirajte nas kako biste saznali kako naš sistem upravljanja isporukama može poboljšati vašu efikasnost",
       "button": "Zatražite demonstraciju"
     }
   },
@@ -497,24 +497,24 @@
   },
   "stockManagement": {
     "hero": {
-      "badge": "SISTEM UPRAVLJANJA ZALIHAMA",
-      "title": "Sistem upravljanja zalihama",
-      "subtitle": "Pratite zalihe, proizvodite efikasnije. Upravljajte zalihama proizvoda i sirovina iz jednog centra.",
+      "badge": "SISTEM UPRAVLJANJA ZALIHA",
+      "title": "Sistem Upravljanja Zaliha",
+      "subtitle": "Pratite zalihe, proizvodite efikasnije. Upravljajte zalihama proizvoda i sirovina iz jedinstvenog centra.",
       "cta": "Zatražite ponudu"
     },
     "benefitsSection": {
       "badge": "PREDNOSTI",
-      "title": "Povećajte efikasnost, smanjite gubitke i otpade",
-      "subtitle": "Sa sistemom upravljanja zalihama AyaPos"
+      "title": "Povećajte efikasnost, smanjite gubitke i rasipanje",
+      "subtitle": "Uz sistem upravljanja zalihama AyaPos"
     },
     "benefits": {
       "efficiency": {
         "title": "Efikasnija proizvodnja",
-        "description": "Uz sistem upravljanja zalihama, možete pregledati korišćenje sirovina i proizvoda i poboljšati svoj proizvodni tok za efikasniju proizvodnju."
+        "description": "Uz sistem upravljanja zalihama, možete proučiti upotrebu sirovina i proizvoda i poboljšati vaš proizvodni tok za efikasniju proizvodnju."
       },
       "waste": {
-        "title": "Manje gubitaka i otpada",
-        "description": "Zahvaljujući bolje planiranom proizvodnom toku, možete minimizovati gubitke i otpade koji se javljaju tokom proizvodnje."
+        "title": "Manje gubitaka i rasipanja",
+        "description": "Zahvaljujući bolje planiranom proizvodnom toku, možete minimizovati gubitke i rasipanje koja se javljaju tokom proizvodnje."
       }
     },
     "recipeSection": {
@@ -524,18 +524,18 @@
     },
     "types": {
       "simple": {
-        "title": "Jednostavne zalihe prema potrebama",
-        "description": "Za mala preduzeća, prema potrebama, lako možete uneti svoje proizvode u sistem sa jednostavnom strukturom zaliha i videti njihovu upotrebu po jedinicama."
+        "title": "Jednostavne zalihe po potrebi",
+        "description": "Za male kompanije i po potrebi, možete lako uneti vaše proizvode po jedinici u sistem sa jednostavnom strukturom zaliha i videti njihovu upotrebu takođe po jedinici."
       },
       "recipe": {
         "title": "Napredne zalihe sa receptima",
-        "description": "Uz upravljanje zalihama AyaPos, možete upravljati zalihama vašeg restorana, kafića ili bara sa receptima. Na taj način možete provesti detaljne analize troškova."
+        "description": "Uz upravljanje zalihama AyaPos, možete takođe upravljati zalihama vašeg restorana, kafića ili bara sa receptima. Na taj način možete izvršiti detaljne analize troškova."
       }
     },
     "centralized": {
       "badge": "CENTRALIZOVANO UPRAVLJANJE",
       "title": "Pristupite svemu iz jednog mesta",
-      "description1": "Sa sistemom upravljanja zalihama AyaPos, bez obzira da li imate jednu ili sto filijala. Sve možete upravljati iz jednog mesta i izbeći nepredviđene rezultate sa širim analizama.",
+      "description1": "Uz sistem upravljanja zalihama AyaPos, bez obzira da li imate jednu ili stotinu filijala. Možete upravljati svime iz jednog mesta i izbeći neočekivane rezultate sa širim analizama.",
       "stat1": "Centralizovana kontrola",
       "stat2": "Stalni pristup"
     },
@@ -545,30 +545,30 @@
     },
     "management": {
       "movements": {
-        "title": "Pratite svoje kretanje zaliha",
-        "description": "Kreirajte svoje račune klijenata, pratite svoja potraživanja i dugove vezane za te račune. Istražite pokrete gotovine izvršene tokom dana."
+        "title": "Pratite svoje pokrete zaliha",
+        "description": "Kreirajte svoje kupce, pratite svoje potraživanja i dugove vezane za te račune. Proučavajte novčane tokove ostvarene tokom dana."
       },
       "counting": {
-        "title": "Kontrolišite svoja brojanja zaliha",
-        "description": "Pratite zalihe svojih proizvoda i sirovina, posmatrajte svoja kretanja zaliha, proverite svoje zalihe periodičnim brojanjima."
+        "title": "Kontrolišite svoje brojanje zaliha",
+        "description": "Pratite svoje zalihe proizvoda i sirovina, posmatrajte svoje pokrete zaliha, proverite svoje zalihe sa periodičnim brojanjem."
       }
     },
     "alert": {
       "title": "Sistem upozorenja na zalihe",
-      "description": "Uz sistem upravljanja zalihama AyaPos, možete pratiti proizvode i sirovine na skladištu i unapred videti zalihe koje su na ivici iscrpljenosti zahvaljujući sistemu upozorenja.",
-      "cta": "Saznaj više"
+      "description": "Uz sistem upravljanja zalihama AyaPos, možete pratiti proizvode i sirovine na skladištu i videti unapred zalihe koje su na putu da budu iscrpljene zahvaljujući sistemu upozorenja.",
+      "cta": "Saznajte više"
     },
     "cta": {
-      "title": "Spremni da optimizujete svoje upravljanje zalihama?",
-      "subtitle": "Kontaktirajte nas kako biste saznali kako naš sistem može poboljšati vašu profitabilnost",
+      "title": "Spremni za optimizaciju vašeg upravljanja zalihama?",
+      "subtitle": "Kontaktirajte nas da saznate kako naš sistem može poboljšati vašu rentabilnost",
       "button": "Zatražite demonstraciju"
     }
   },
   "centralizedManagement": {
     "hero": {
       "badge": "SISTEM CENTRALIZOVANOG UPRAVLJANJA",
-      "title": "Centralizovano upravljanje filijalama",
-      "subtitle": "Kontrola, upravljanje i praćenje od početka do kraja. Lako pratite sve vaše firme iz jednog mesta.",
+      "title": "Centralizovano Upravljanje Filijalama",
+      "subtitle": "Kontrola, upravljanje i praćenje od početka do kraja. Lakše pratite sve vaše poslovne jedinice iz jednog centra.",
       "cta": "Zatražite ponudu"
     },
     "quickSection": {
@@ -581,63 +581,63 @@
         "description": "Upravljajte svim meniima filijala iz jednog mesta. Ažurirajte cene kada želite i primenite ih na sve filijale."
       },
       "movements": {
-        "title": "Kontrolišite kretanja",
-        "description": "Istražite dnevne, mesečne ili periodične pokrete vaših filijala. Analizirajte izveštaje."
+        "title": "Kontrolišite pokrete",
+        "description": "Proučavajte dnevne, mesečne ili događaje u izabranom razdoblju za vaše filijale. Analizirajte izveštaje."
       },
       "branches": {
         "title": "Pratite svoje filijale",
-        "description": "Bilo da imate dve ili sto filijala. Pratite sve vaše filijale iz jednog centra. Razvijajte svoje poslovanje."
+        "description": "Bez obzira da li imate dve ili stotinu filijala. Pratite sve vaše filijale iz jednog centra. Razvijajte vaše poslovanje."
       }
     },
     "controlSection": {
       "badge": "TOTALNA KONTROLA",
-      "title": "Supervizija, intervencija",
-      "subtitle": "Gde god da se nalazite, pratite sve vaše filijale u svim detaljima"
+      "title": "Nadzirite, intervenišite",
+      "subtitle": "Gde god da se nalazite, pratite sve vaše filijale u najsitnijim detaljima"
     },
     "control": {
       "supervise": {
-        "title": "Supervizija, intervencija",
-        "description": "Gde god da se nalazite, pratite sve vaše filijale u najmanjim detaljima. Supervizujte pokrete gotovine. Istražujte izveštaje, ne ostavljajte ništa prepušteno slučaju."
+        "title": "Nadzirite, intervenišite",
+        "description": "Gde god da se nalazite, pratite sve vaše filijale u najsitnijim detaljima. Nadzirite novčane tokove. Proučavajte izveštaje, ne ostavljajte ništa slučaju."
       },
       "update": {
         "title": "Ažurirajte cene jednim klikom",
-        "description": "Brzo organizujte cene i detalje proizvoda iz vaših filijala. Primena izmena koje napravite na svim vašim filijalama jednim klikom."
+        "description": "Brzo organizujte cene i detalje proizvoda iz vaših filijala. Primena izmena koje napravite na sve vaše filijale jednim klikom."
       },
       "accounts": {
-        "title": "Istražite račune i blagajne",
-        "description": "Istražujte svoje pokrete gotovine, račune klijenata koji su registrovani u vašoj kompaniji. Pratite sve transakcije iz jednog ekrana."
+        "title": "Proučite račune i blagajne",
+        "description": "Proučite svoje novčane tokove, račune kupaca registrovane u vašoj kompaniji. Pratite sve transakcije sa jednog ekrana."
       }
     },
     "allBranches": {
       "badge": "SVE VAŠE FILIJALE",
       "title": "Sve vaše filijale pod kontrolom",
-      "subtitle": "Kompletno upravljanje sa jednog kontrolnog panela"
+      "subtitle": "Kompletno upravljanje iz jedne kontrolne table"
     },
     "operational": {
       "control": {
         "title": "Kontrola svih operacija",
-        "description": "Upravljajte svim operacijama vaših filijala iz jednog ekrana. Organizujte svoje menije, menjajte planove rasporeda, supervizujte zalihe, pratite osoblje, pregledajte račune i račune klijenata."
+        "description": "Upravljajte svim operacijama vaših filijala iz jednog ekrana. Organizujte svoje menije, promenite planove postavljanja, nadzirite zalihe, pratite osoblje, pregledajte račune i račune kupaca."
       },
       "remote": {
-        "title": "Pratite sa bilo kog mesta",
-        "description": "Lako vizuelizujte i organizujte sve detalje vaših filijala koristeći računar ili telefon sa internet konekcijom. Sve izmene koje napravite automatski se primenjuju na vaše filijale."
+        "title": "Kontrolišite sa bilo kog mesta",
+        "description": "Vizualizujte i organizujte lako sve detalje vaših filijala sa računara ili telefona sa internet konekcijom. Sve izmenu koje izvršite automatski se primenjuju na vaše filijale."
       },
       "evaluate": {
-        "title": "Procena vaših filijala",
-        "description": "Istražujte svoje izveštaje kad god želite. Analizirajte podatke vaših filijala i procenite njihove performanse."
+        "title": "Evaluirajte svoje filijale",
+        "description": "Proučavajte svoje izveštaje kada želite. Analizirajte podatke vaših filijala i ocenite njihove performanse."
       }
     },
     "reports": {
       "badge": "IZVEŠTAJI I ANALIZE",
       "title": "Izveštaji i analize",
-      "subtitle": "Istražite izveštaje svih vaših filijala iz jednog mesta",
+      "subtitle": "Proučavajte izveštaje svih vaših filijala iz jednog centra",
       "instant": {
-        "title": "Momentalni i periodični izveštaji",
-        "description": "Sa sistemom centralizovanog upravljanja AyaPos, možete videti izveštaje za određeni vremenski period i izveštaje trenutnog stanja. Takođe, lako možete uraditi analize sa vizualizovanim izveštajima."
+        "title": "Instant i periodični izveštaji",
+        "description": "Uz sistem centralizovanog upravljanja AyaPos, možete videti izveštaje za određeni vremenski period i izveštaje trenutnog stanja. Takođe možete lako izvršiti analize uz vizuelizovane izveštaje."
       },
       "central": {
         "title": "Sistem centralizovanih izveštaja",
-        "description": "Možete pristupiti izveštajima svih filijala iz jednog mesta i uporediti vaše filijale. Tako možete dobiti analize performansi filijala."
+        "description": "Možete pristupiti izveštajima svih filijala iz jednog centra i uporediti svoje filijale. Tako možete dobiti analize performansi filijala."
       }
     },
     "benefits": {
@@ -647,84 +647,84 @@
     },
     "cta": {
       "title": "Spremni da centralizujete svoje upravljanje?",
-      "subtitle": "Saznajte kako upravljati svim vašim filijalama iz jednog mesta",
+      "subtitle": "Saznajte kako da upravljate svim svojim filijalama iz jednog mesta",
       "button": "Zatražite demonstraciju"
     }
   },
   "kioskPricing": {
     "hero": {
-      "title": "Cene za Samouslužni Kiosk",
-      "subtitle": "Izaberite savršen kiosk za vašu kompaniju. Uključena instalacija, konfiguracija i obuka.",
+      "title": "Cene za Samouslužne Kiosk-e",
+      "subtitle": "Izaberite savršen kiosk za vašu kompaniju. Instalacija, konfiguracija i obuka uključeni.",
       "badge": "Besplatna dostava i instalacija"
     },
     "recommended": "Preporučeno",
-    "oneTime": "Jednokratno plaćanje",
-    "orderNow": "Naručite odmah",
+    "oneTime": "Jednokratna uplata",
+    "orderNow": "Poručite sada",
     "models": {
       "small": {
-        "name": "Kiosk Compact",
-        "size": "Mala veličina - Idealno za male prostore",
-        "screen": "Taktni ekran 15.6\"",
+        "name": "Kiosk Kompakt",
+        "size": "Mala veličina - Idealan za male prostore",
+        "screen": "Taktički ekran 15.6\"",
         "features": [
-          "Visokorezolutni taktilni ekran 15.6\"",
-          "Performantni quad-core procesor",
+          "Visokoresolucioni taktički ekran 15.6\"",
+          "Performantan četvoroukernik",
           "Ugrađena termalna štampača",
           "NFC čitač kartica",
-          "Zidna ili podna podrška",
-          "Kompaktan i elegantan dizajn",
-          "Preinstalirana AyaPos interfejs",
+          "Zidni ili samostojeći nosač",
+          "Kompaktna i elegantna dizajn",
+          "AyaPos interfejs prethodno instaliran",
           "2 godine garancije"
         ]
       },
       "medium": {
         "name": "Kiosk Standard",
         "size": "Srednja veličina - Najpopularniji",
-        "screen": "Taktni ekran 21.5\"",
+        "screen": "Taktički ekran 21.5\"",
         "features": [
-          "Full HD taktilni ekran 21.5\"",
+          "Full HD taktički ekran 21.5\"",
           "Visokoperformantni procesor",
-          "Brza štampača",
-          "Bežični čitač kartica + QR kod",
-          "Podesiva visina",
+          "Visok brzi štampač",
+          "Bezkontaktni čitač kartica + QR kod",
+          "Podešiv nosač po visini",
           "Ugrađeni stereo zvučnici",
-          "LED ambijentalno osvetljenje",
-          "Premium AyaPos interfejs",
-          "Personalizacija boja",
+          "Ambijentalno LED osvetljenje",
+          "AyaPos premium interfejs",
+          "Prilagodba boja",
           "3 godine garancije + prioritetna podrška"
         ]
       },
       "large": {
         "name": "Kiosk Premium",
         "size": "Velika veličina - Maksimalni uticaj",
-        "screen": "Taktni ekran 32\"",
+        "screen": "Taktički ekran 32\"",
         "features": [
-          "4K Ultra HD taktilni ekran 32\"",
+          "4K Ultra HD taktički ekran 32\"",
           "Procesor poslednje generacije",
-          "Dve štampače",
-          "Ugrađeni terminal za plaćanje više kartica",
-          "Ojačana premium konstrukcija",
-          "Visokofideline audio sistem",
+          "Dupla štampača za račune",
+          "Ugrađeni terminal za plaćanje sa više kartica",
+          "Premium ojačana struktura",
+          "Visoke fidelnosti audio sistem",
           "HD kamera za analitiku",
-          "Personalizovano RGB LED osvetljenje",
-          "Čitač bar kodova",
+          "Prilagodljivo RGB LED osvetljenje",
+          "Skener barkodova",
           "AyaPos enterprise interfejs",
-          "Potpuna personalizacija dizajna",
-          "5 godina garancije + 24/7 specijalizovana podrška"
+          "Potpuna prilagodba dizajna",
+          "5 godina garancije + posvećena podrška 24/7"
         ]
       }
     },
     "included": {
-      "title": "Uključeno sa svim kioscima",
-      "subtitle": "Servisi i garancije za bezbrižnu instalaciju"
+      "title": "Uključeno sa svim kiosk-ima",
+      "subtitle": "Usluge i garancije za bezbrižnu instalaciju"
     },
     "commonFeatures": {
       "warranty": {
-        "title": "Proširena garancija",
-        "description": "Od 2 do 5 godina u zavisnosti od modela sa intervencijom na licu mesta"
+        "title": "Produžena garancija",
+        "description": "Od 2 do 5 godina u zavisnosti od modela sa intervencijama na licu mesta"
       },
       "support": {
         "title": "Tehnička podrška",
-        "description": "Telefon i online podrška na francuskom"
+        "description": "Telefonska i online podrška na francuskom"
       },
       "installation": {
         "title": "Uključena instalacija",
@@ -732,7 +732,7 @@
       },
       "software": {
         "title": "AyaPos softver",
-        "description": "Uključena licenca softvera sa besplatnim ažuriranjima"
+        "description": "Licenca softvera uključena sa besplatnim ažuriranjima"
       }
     },
     "comparison": {
@@ -740,94 +740,94 @@
       "subtitle": "Uporedite tehničke karakteristike naših modela",
       "feature": "Karakteristika",
       "screenSize": "Veličina ekrana",
-      "touchscreen": "Taktni ekran",
-      "printer": "Štampača",
+      "touchscreen": "Taktički ekran",
+      "printer": "Štampača računa",
       "cardReader": "Čitač kartica",
       "speakers": "Zvučnici",
-      "customization": "Personalizacija",
+      "customization": "Prilagodba",
       "basic": "Osnovno",
       "advanced": "Napredno",
-      "complete": "Potpuno"
+      "complete": "Kompletno"
     },
     "cta": {
       "title": "Spremni da opremite svoj restoran?",
-      "subtitle": "Naši eksperti su tu da vam savetuju najbolji model za vašu aktivnost",
-      "button": "Zatražite prilagođenu ponudu"
+      "subtitle": "Naši stručnjaci su tu da vas savetuju o najboljem modelu za vašu delatnost",
+      "button": "Zatražite personalizovanu ponudu"
     }
   },
   "orderSystemPricing": {
     "hero": {
       "badge": "PROŠIRENJE SISTEMA NARUDŽBINA",
-      "title": "Cene za Sistem Online Narudžbina",
-      "subtitle": "Dodajte modul za online narudžbinu vašem postojećem POS sistemu. Proširite prodaju u proseku za 40%.",
-      "trial": "Uključeno 14 dana besplatnog probnog perioda"
+      "title": "Cene za Sistem Narudžbina Online",
+      "subtitle": "Dodajte modul za online narudžbinu svom postojećem POS sistemu. Povećajte prodaju u proseku za 40%.",
+      "trial": "Uključeno 14 dana besplatne probne verzije"
     },
     "perMonth": "mesečno",
     "recommended": "Preporučeno",
     "selectPlan": "Izaberite ovaj paket",
     "plansSection": {
       "title": "Izaberite svoj paket",
-      "subtitle": "Proširenje koje se savršeno uklapa u vaš AyaPos sistem"
+      "subtitle": "Proširenje koje se savršeno integriše sa vašim AyaPos POS sistemom"
     },
     "plans": {
       "basic": {
-        "name": "Osnovni paket",
+        "name": "Osnovni Paket",
         "description": "Za male restorane i kafiće",
         "features": [
           "Do 200 narudžbina/mesečno",
-          "Responsivna veb stranica za narudžbine",
-          "Personalizovani digitalni meni",
-          "Email obaveštenja",
-          "Sigurno online plaćanje",
+          "Responsive veb stranica za narudžbine",
+          "Prilagođeni digitalni meni",
+          "Obaveštenja putem email-a",
+          "Sigurno plaćanje online",
           "Automatska POS integracija",
-          "Podrška putem emaila"
+          "Podrška putem email-a"
         ]
       },
       "standard": {
-        "name": "Business paket",
-        "description": "Idealno za srednje restorane",
+        "name": "Business Paket",
+        "description": "Idealan za srednje restorane",
         "features": [
           "Do 1000 narudžbina/mesečno",
           "Posvećena mobilna aplikacija",
           "Meni sa neograničenim HD fotografijama",
           "SMS + Email obaveštenja",
           "Ugrađeni program lojalnosti",
-          "Kuponi i popusti",
-          "Napredna statistika",
+          "Promo kodovi i popusti",
+          "Napredne statistike",
           "Prioritetna podrška",
-          "0% provizije na prodaje"
+          "0% provizije na prodaju"
         ]
       },
       "premium": {
-        "name": "Enterprise paket",
+        "name": "Enterprise Paket",
         "description": "Za lance i franšize",
         "features": [
           "Neograničene narudžbine",
           "iOS i Android aplikacije",
-          "Više restorana/filijala",
+          "Više restorana / filijala",
           "Prilagođeni API",
           "Ugrađeni AI chatbot",
           "Automatizacija marketinga",
           "A/B testiranje menija",
           "Prediktivna analitika",
           "Posvećeni menadžer računa",
-          "99.9% SLA garantovano",
-          "Uključena obuka tima"
+          "SLA 99.9% garantovano",
+          "Obuka za tim uključena"
         ]
       }
     },
     "benefitsSection": {
       "title": "Zašto dodati sistem narudžbina?",
-      "subtitle": "Merni benefiti za vašu kompaniju"
+      "subtitle": "Merljive prednosti za vašu kompaniju"
     },
     "benefits": {
       "sales": {
-        "title": "Povećajte prodaju",
+        "title": "Povećajte svoju prodaju",
         "description": "+40% prihoda u proseku zahvaljujući online narudžbinama 24/7"
       },
       "customers": {
-        "title": "Zadržite svoje klijente",
-        "description": "Program lojalnosti i automatska istorija narudžbina"
+        "title": "Održi svoje kupce",
+        "description": "Ugrađeni program lojalnosti i automatska istorija narudžbina"
       },
       "automation": {
         "title": "Potpuna automatizacija",
@@ -835,35 +835,35 @@
       },
       "integration": {
         "title": "Savršena integracija",
-        "description": "Prirodno se integriše sa vašim postojećim AyaPos sistemom"
+        "description": "Prirodno se integriše sa vašim postojećim AyaPos POS sistemom"
       }
     },
     "faq": {
       "title": "Često postavljana pitanja",
       "q1": {
         "question": "Kako funkcioniše integracija sa mojim POS-om?",
-        "answer": "Sistem narudžbina automatski se integriše sa vašim AyaPos POS-om. Online narudžbine se odmah pojavljuju na vašem ekranu u kuhinji, kao i narudžbine na licu mesta."
+        "answer": "Sistem narudžbina se automatski integriše sa vašim AyaPos POS-om. Online narudžbine se odmah pojavljuju na vašem kuhinjskom ekranu, kao i narudžbine na licu mesta."
       },
       "q2": {
-        "question": "Mogu li kasnije promeniti paket?",
-        "answer": "Da, možete unaprediti ili smanjiti svoj paket u bilo kojem trenutku. Izmene stupaju na snagu odmah."
+        "question": "Mogu li promeniti paket kasnije?",
+        "answer": "Da, možete unaprediti ili smanjiti svoj paket u bilo kojem trenutku. Promene stupaju na snagu odmah."
       },
       "q3": {
-        "question": "Da li ima troškova instalacije?",
+        "question": "Da li postoje troškovi instalacije?",
         "answer": "Ne, instalacija i konfiguracija su uključene u sve pakete. Naš tim će vas pratiti tokom postavljanja."
       }
     },
     "cta": {
-      "title": "Spremni da poboljšate svoju online prodaju?",
-      "subtitle": "Započnite svoj besplatni probni period od 14 dana, bez kreditne kartice",
-      "button": "Započnite besplatan probni period"
+      "title": "Spremni da povećate svoje online prodaje?",
+      "subtitle": "Započnite svoju besplatnu probnu verziju od 14 dana, bez kreditne kartice",
+      "button": "Započnite besplatnu probnu verziju"
     }
   },
   "deliveryServicePricing": {
     "hero": {
       "badge": "PROŠIRENJE SERVISA DOSTAVE",
       "title": "Cene za Servis Dostave",
-      "subtitle": "Dodajte modul za upravljanje dostavama vašem POS sistemu. Upravljajte svojim dostavljačima i optimizujte rute.",
+      "subtitle": "Dodajte modul za upravljanje dostavama svom POS sistemu. Upravljajte svojim dostavljačima i optimizujte rute.",
       "trial": "Prvi mesec besplatno"
     },
     "perMonth": "mesečno",
@@ -871,47 +871,47 @@
     "selectPlan": "Izaberite ovaj paket",
     "plansSection": {
       "title": "Izaberite svoj paket",
-      "subtitle": "Proširenje za upravljanje dostavama za vaš AyaPos sistem"
+      "subtitle": "Proširenje upravljanja dostavama za vaš AyaPos POS sistem"
     },
     "plans": {
       "starter": {
-        "name": "Starter paket",
+        "name": "Starter Paket",
         "description": "Za početak vaših dostava",
         "features": [
           "Do 200 dostava/mesečno",
-          "Maksimalno 2 dostavljača",
-          "GPS praćenje u realnom vremenu",
+          "Najviše 2 dostavljača",
+          "Praćenje GPS u realnom vremenu",
           "SMS obaveštenja za klijente",
           "Automatsko izračunavanje udaljenosti",
-          "Podrška putem emaila"
+          "Podrška putem email-a"
         ]
       },
       "business": {
-        "name": "Business paket",
+        "name": "Business Paket",
         "description": "Za aktivnu uslugu dostave",
         "features": [
           "Do 1000 dostava/mesečno",
-          "Maksimalno 10 dostavljača",
-          "Optimizacija ruta pomoću veštačke inteligencije",
+          "Najviše 10 dostavljača",
+          "Optimizacija ruta uz pomoć AI",
           "Posvećena aplikacija za dostavljače",
           "Sistem ocenjivanja klijenata",
           "Izveštaji o performansama",
-          "Integrisano plaćanje dostavljača",
+          "Integrisano plaćanje dostavljačima",
           "Podrška putem telefona + četa"
         ]
       },
       "enterprise": {
-        "name": "Enterprise paket",
-        "description": "Za velike flote",
+        "name": "Enterprise Paket",
+        "description": "Za veće flote",
         "features": [
           "Neograničene dostave",
           "Neograničen broj dostavljača",
-          "Pametno raspoređivanje",
+          "Inteligentno raspoređivanje",
           "Višezonska isporuka",
           "Integracija sa Uber Eats/Deliveroo",
-          "Predikcije potražnje uz veštačku inteligenciju",
-          "Kompletan API",
-          "Dijagram za menadžera",
+          "Predikcija potražnje uz pomoć AI",
+          "Potpuni API",
+          "Upravljačka tabla",
           "Obuka tima",
           "Posvećena podrška 24/7"
         ]
@@ -923,8 +923,8 @@
     },
     "benefits": {
       "speed": {
-        "title": "Brže isporuke",
-        "description": "Automatska optimizacija ruta za smanjenje vremena isporuke"
+        "title": "Brže dostave",
+        "description": "Automatska optimizacija ruta kako bi se smanjili vremenski periodi"
       },
       "satisfaction": {
         "title": "Zadovoljni klijenti",
@@ -936,7 +936,7 @@
       },
       "reliability": {
         "title": "Maksimalna pouzdanost",
-        "description": "Manje grešaka, veća kontrola nad vašim dostavama"
+        "description": "Manje grešaka, više kontrole nad vašim dostavama"
       }
     },
     "comparison": {
@@ -945,72 +945,72 @@
       "orders": "Uključene dostave",
       "tracking": "GPS praćenje",
       "couriers": "Broj dostavljača",
-      "support": "Podrška za korisnike"
+      "support": "Podrška za klijente"
     },
     "cta": {
-      "title": "Spremni da optimizujete svoje dostave?",
-      "subtitle": "Prvi mesec besplatno za testiranje usluge bez obaveza",
-      "button": "Započnite odmah"
+      "title": "Spremni za optimizaciju vaših dostava?",
+      "subtitle": "Prvi mesec besplatno kako biste testirali uslugu bez obaveze",
+      "button": "Započnite sada"
     }
   },
   "waiterTerminalPricing": {
     "hero": {
-      "badge": "PROŠIRENJE TERMINAL SERVERA",
-      "title": "Cene za Terminal Servera",
-      "subtitle": "Opremajte svoje konobare tabletima za ultra-brzo naručivanje. Povećajte efikasnost vaše usluge.",
-      "trial": "Besplatno probno razdoblje 30 dana"
+      "badge": "PROŠIRENJE TERMINALA KONOBARA",
+      "title": "Cene za Terminal Konobara",
+      "subtitle": "Oprema za vaše konobare tabletima za ultra-brzu izradu narudžbina. Povećajte efikasnost vaše usluge.",
+      "trial": "Besplatna probna verzija 30 dana"
     },
     "perMonth": "mesečno",
-    "oneTime": "Jednokratno plaćanje",
+    "oneTime": "Jednokratna uplata",
     "recommended": "Preporučeno",
     "selectPlan": "Izaberite ovaj paket",
-    "addToCart": "Dodajte u korpu",
+    "addToCart": "Dodaj u korpu",
     "plansSection": {
-      "title": "Mesečni softverski paketi",
-      "subtitle": "Proširenje Terminal Servera za vaš AyaPos sistem"
+      "title": "Mesecni softverski paketi",
+      "subtitle": "Proširenje Terminal Konobara za vaš AyaPos POS sistem"
     },
     "plans": {
       "starter": {
-        "name": "Starter paket",
+        "name": "Starter Paket",
         "description": "Savršeno za male restorane",
         "features": [
-          "Aplikacija za mobilne konobare",
-          "Naručivanje za stolom",
+          "Mobilna aplikacija za konobare",
+          "Izrada narudžbina za stolom",
           "Sinhronizacija u realnom vremenu",
           "Direktno slanje u kuhinju",
           "Osnovno upravljanje stolovima",
           "Plaćanje za stolom",
-          "Podrška putem emaila"
+          "Podrška putem email-a"
         ]
       },
       "professional": {
-        "name": "Professional paket",
+        "name": "Professional Paket",
         "description": "Za srednje/velike restorane",
         "features": [
-          "Sve funkcije Starter paketa",
-          "Interaktivni plan sala",
+          "Sve funkcionalnosti Starter paketa",
+          "Interaktivni plan restorana",
           "Upravljanje rezervacijama",
           "Praćenje vremena čekanja",
-          "Posebna napomena za kuhinju",
-          "Prenos stolova",
+          "Specijalne beleške za kuhinju",
+          "Prebacivanje stolova",
           "Upravljanje zajedničkim računima",
           "Izveštaji o performansama",
           "Prioritetna podrška putem četa"
         ]
       },
       "enterprise": {
-        "name": "Enterprise paket",
+        "name": "Enterprise Paket",
         "description": "Za lance i velike grupe",
         "features": [
-          "Sve funkcije Pro paketa",
+          "Sve funkcionalnosti Professional paketa",
           "Više restorana/filijala",
           "Upravljanje timovima konobara",
-          "Sistem za sigurnosne depozite konobara",
+          "Sistem za zaloge konobara",
           "Napredna analitika po konobaru",
-          "Preporučene prodaje uz AI",
+          "AI predlozi za prodaju",
           "Integracija sa kalendarom",
-          "Napredni offline režim",
-          "Kompletna obuka tima",
+          "Napredni režim van mreže",
+          "Potpuna obuka tima",
           "Prilagođeni API",
           "Posvećena podrška 24/7"
         ]
@@ -1022,17 +1022,17 @@
     },
     "hardware": {
       "tablet": {
-        "name": "Profesionalni tablet 10\"",
-        "description": "Android tablet otporan na teže uslove rada",
+        "name": "Profesionalni Tablet 10\"",
+        "description": "Ojačani Android tablet za intenzivnu upotrebu",
         "features": [
-          "10\" antireflektivni i otporni ekran",
-          "Duga baterija (12h)",
-          "Uključena zaštita od udaraca",
-          "Ergonomska naramenica"
+          "10\" ekran otporan na refleksije",
+          "Duga trajanje baterije (12h)",
+          "Uključena zaštita od udarca",
+          "Ergonomska kaišna podmetač"
         ]
       },
       "printer": {
-        "name": "Portabilna štampača",
+        "name": "Portabilna Štampača",
         "description": "Mobilna štampača za račune za stolom",
         "features": [
           "Bežično štampanje računa",
@@ -1048,15 +1048,15 @@
     "benefits": {
       "efficiency": {
         "title": "Brža usluga",
-        "description": "Smanjite vreme između narudžbine i slanja u kuhinju za 40%"
+        "description": "Smanjite vreme između narudžbe i slanja u kuhinju za 40%"
       },
       "speed": {
         "title": "Brža rotacija",
-        "description": "Poslužite više gostiju tokom vršnog vremena"
+        "description": "Poslužite više jela tokom užurbanih perioda"
       },
       "errors": {
-        "title": "Nema grešaka",
-        "description": "Eliminišite greške u unosu i zaborave"
+        "title": "Nula grešaka",
+        "description": "Eliminišite greške u transkripciji i propuste"
       },
       "management": {
         "title": "Olakšano upravljanje",
@@ -1070,107 +1070,107 @@
       "tables": "Broj stolova",
       "kitchen": "Ekran za kuhinju",
       "analytics": "Analitika",
-      "support": "Podrška za korisnike",
+      "support": "Podrška za klijente",
       "basic": "Osnovno",
       "advanced": "Napredno",
-      "complete": "Potpuno"
+      "complete": "Kompletno"
     },
     "cta": {
-      "title": "Spremni da modernizujete svoju uslugu?",
-      "subtitle": "Besplatno isprobajte tokom 30 dana, bez obaveza",
-      "button": "Započnite besplatno probno razdoblje"
+      "title": "Spremni za modernizaciju vaše usluge?",
+      "subtitle": "Testirajte besplatno tokom 30 dana, bez obaveze",
+      "button": "Započnite besplatnu probnu verziju"
     }
   },
   "hardwareDevices": {
     "hero": {
       "badge": "KATALOG OPREME",
       "title": "Oprema i POS Uređaji",
-      "subtitle": "Sva oprema i dodaci koje vam trebaju za vašu kompaniju. Profesionalna oprema vrhunskog kvaliteta."
+      "subtitle": "Sva oprema i dodaci koji su vam potrebni za vašu kompaniju. Oprema profesionalnog kvaliteta."
     },
     "categories": {
-      "all": "Sve",
+      "all": "Svi",
       "pos": "POS terminali",
-      "kiosk": "Kiosk terminali",
+      "kiosk": "Kiosk uređaji",
       "printers": "Štampači",
       "accessories": "Dodaci"
     },
     "devices": {
-      "sunmiD3Pro": "Taktni ekran 15.6 inča, Android 11, visokoperformantni procesor",
-      "sunmiD3Mini": "Taktni ekran 10.1 inča, kompaktan i moćan",
-      "iMinSwan": "Premium Android POS terminal sa kapacitivnim taktnim ekranom",
+      "sunmiD3Pro": "Taktički ekran 15.6 inča, Android 11, visoko performantan procesor",
+      "sunmiD3Mini": "Taktički ekran 10.1 inča, kompaktan i snažan",
+      "iMinSwan": "Premium Android POS terminal sa kapacitivnim taktičkim ekranom",
       "iMinD3": "Kompletno POS rešenje sa ugrađenom štampačem",
       "iMinD2": "Kompaktni terminal idealan za male prostore",
       "iMinD1": "Ekonomični POS terminal sa svim funkcijama",
-      "wintecAnypos": "Vertikalni samouslužni kiosk 15.6 inča",
+      "wintecAnypos": "Vertikalni self-service kiosk 15.6 inča",
       "wintecSelfpos10": "Vertikalni kiosk za brzu narudžbinu",
       "wintecSelfpos70": "Veliki kiosk 32 inča za maksimalan vizuelni uticaj",
-      "paxSk800": "Profesionalni kiosk terminal 23.8 inča",
-      "thermalPrinter": "POS termalni štampač",
-      "thermalPrinterDesc": "Brza i tiha štampa, kompatibilna sa svim sistemima",
-      "labelPrinter": "Štampač oznaka sa bar kodom",
-      "labelPrinterDesc": "Kompaktan i lak za korišćenje za oznake proizvoda",
-      "scaleLabel": "Vaga sa štampačem oznaka",
-      "scaleLabelDesc": "Precizno i pouzdano merenje sa štampanjem bar koda",
-      "barcodeWired": "Žični čitač bar kodova",
-      "barcodeWiredDesc": "Profesionalni sto čitač za blagajne",
-      "barcodeWireless": "Bežični čitač bar kodova",
+      "paxSk800": "Profesionalni kiosk 23.8 inča",
+      "thermalPrinter": "POS Termalni Štampač",
+      "thermalPrinterDesc": "Brza i tiha štampa, kompatibilan sa svim sistemima",
+      "labelPrinter": "Štampač etiketa za barkodove",
+      "labelPrinterDesc": "Kompaktan i lak za korišćenje za etikete proizvoda",
+      "scaleLabel": "Vaga sa Štampačem Etiketa",
+      "scaleLabelDesc": "Precizno i pouzdano merenje sa štampanjem barkoda",
+      "barcodeWired": "Žični Čitač Barkoda",
+      "barcodeWiredDesc": "Profesionalni sto čitač za blagajnu",
+      "barcodeWireless": "Bežični Čitač Barkoda",
       "barcodeWirelessDesc": "Baterija traje 30 sati, domet 100m",
-      "cashDrawer": "Metalni kasirni fiok",
-      "cashDrawerDesc": "Robusna i izdržljiva konstrukcija od ojačanog metala",
-      "cardReader": "RFID čitač kartica",
-      "cardReaderDesc": "Plug & Play, kompatibilan sa beskontaktim karticama",
-      "pavoN86": "HD mobilni platni terminal sa NFC",
-      "waiterHandheld": "Prijenosni terminal za konobare",
+      "cashDrawer": "Metalna Blagajna",
+      "cashDrawerDesc": "Robustna i dugotrajna konstrukcija od ojačanog metala",
+      "cardReader": "RFID Čitač Kartica",
+      "cardReaderDesc": "Plug & Play, kompatibilan sa bezkontakt karticama",
+      "pavoN86": "HD mobilni terminal za plaćanje sa NFC",
+      "waiterHandheld": "Portabilni Terminal Konobara",
       "waiterHandheldDesc": "HD IPS ekran 5 inča, idealan za mobilno naručivanje",
       "paxA920Pro": "Profesionalni mobilni terminal 5.5 inča"
     },
     "requestQuote": "Zatražite ponudu",
     "features": {
-      "title": "Zašto izabrati našu opremu?",
-      "subtitle": "Profesionalna oprema sa kompletnim servisom",
+      "title": "Zašto odabrati našu opremu?",
+      "subtitle": "Profesionalna oprema sa kompletnom uslugom",
       "quality": {
-        "title": "Premium kvalitet",
-        "description": "Profesionalna oprema poznatih svetskih brendova"
+        "title": "Premium Kvalitet",
+        "description": "Profesionalna oprema od globalno priznatih brendova"
       },
       "warranty": {
-        "title": "Proširena garancija",
-        "description": "Garancija proizvođača od 2 do 5 godina, zavisno od modela"
+        "title": "Produžena Garancija",
+        "description": "Garancija proizvođača od 2 do 5 godina u zavisnosti od modela"
       },
       "support": {
-        "title": "Tehnička podrška",
-        "description": "Telefonska i onsite pomoć po potrebi"
+        "title": "Tehnička Podrška",
+        "description": "Telefonska i terenska podrška po potrebi"
       },
       "delivery": {
-        "title": "Dostava i instalacija",
-        "description": "Brza dostava i instalacija od strane naših tehničara"
+        "title": "Dostava & Instalacija",
+        "description": "Brza dostava i instalacija od naših tehničara"
       }
     },
     "cta": {
-      "title": "Potrebna vam je pomoć oko vaše opreme?",
-      "subtitle": "Naši stručnjaci će vam pomoći da izaberete opremu koja odgovara vašim potrebama",
+      "title": "Potreban vam je savet za vašu opremu?",
+      "subtitle": "Naši stručnjaci će vam pomoći da izaberete opremu odgovarajuću vašim potrebama",
       "button": "Kontaktirajte naše stručnjake"
     }
   },
   "about": {
     "hero": {
       "title": "O AyaPos",
-      "subtitle": "Mi smo inovativna kompanija posvećena digitalnoj transformaciji ugostiteljstva. Naša misija: pojednostaviti upravljanje vašim objektom uz moderne i intuitivne POS rešenja."
+      "subtitle": "Mi smo inovativna kompanija posvećena digitalnoj transformaciji ugostiteljstva. Naša misija: pojednostaviti upravljanje vašim objektom modernim i intuitivnim POS rešenjima."
     },
     "stats": {
-      "clients": "Zadovoljni klijenti",
-      "years": "Godine iskustva",
+      "clients": "Zadovoljni Klijenti",
+      "years": "Godine Iskustva",
       "team": "Stručnjaci na vašoj usluzi",
-      "satisfaction": "Stepen zadovoljstva"
+      "satisfaction": "Stepen Zadovoljstva"
     },
     "story": {
-      "title": "Naša priča",
-      "paragraph1": "Osnovana 2010. godine, AyaPos je nastala iz želje da modernizuje sektor ugostiteljstva. Počeli smo sa jednostavnom vizijom: kreirati tehnološke alate dostupne svim restoraterima, bez obzira na veličinu njihovog objekta.",
-      "paragraph2": "Tokom godina, razvili smo kompletnu paletu POS rešenja koja kombinuju inovaciju, jednostavnost korišćenja i pouzdanost. Naši sistemi danas opremaju više od 5000 restorana, kafića, barova i objekata širom Francuske i Evrope.",
-      "paragraph3": "Naš strastveni tim svakodnevno radi na poboljšanju naših proizvoda i podršci klijentima u njihovom uspehu. Verujemo da tehnologija treba da bude u službi ljudi, a ne obrnuto."
+      "title": "Naša Priča",
+      "paragraph1": "Osnovana 2010. godine, AyaPos je nastala iz želje da modernizuje sektor ugostiteljstva. Počeli smo sa jednostavnom vizijom: stvoriti tehnološke alate dostupne svim ugostiteljima, bez obzira na veličinu njihovog objekta.",
+      "paragraph2": "Tokom godina, razvili smo sveobuhvatan paket POS rešenja koji kombinuje inovaciju, jednostavnost korišćenja i pouzdanost. Naši sistemi danas opremaju više od 5000 restorana, kafića, barova i objekata širom Francuske i Evrope.",
+      "paragraph3": "Naš strastveni tim svakodnevno radi na poboljšanju naših proizvoda i podršci našim klijentima u njihovom uspehu. Verujemo da tehnologija treba da bude u službi ljudi, a ne obrnuto."
     },
     "valuesSection": {
-      "title": "Naše vrednosti",
-      "subtitle": "Ono što nas vodi u našem svakodnevnom radu"
+      "title": "Naše Vrednosti",
+      "subtitle": "Što nas vodi u svakodnevnom radu"
     },
     "values": {
       "innovation": {
@@ -1178,88 +1178,88 @@
         "description": "Stalno ulažemo u istraživanje i razvoj kako bismo vam pružili najnaprednije tehnologije"
       },
       "customer": {
-        "title": "Posvećenost klijentima",
-        "description": "Vaše potrebe su u središtu naših razvoja. Slušamo i delujemo"
+        "title": "Slušanje Klijenata",
+        "description": "Vaše potrebe su u središtu naših razvojnih procesa. Slušamo i delujemo"
       },
       "quality": {
         "title": "Kvalitet",
-        "description": "Premium oprema, robusni softver i odlična tehnička podrška"
+        "description": "Premium oprema, robusni softver i vrhunska tehnička podrška"
       },
       "efficiency": {
         "title": "Efikasnost",
-        "description": "Rešenja dizajnirana za uštedu vremena i povećanje vaše profitabilnosti"
+        "description": "Rešenja osmišljena da vam uštede vreme i povećaju vašu profitabilnost"
       }
     },
     "timeline": {
-      "title": "Naš put",
-      "subtitle": "Važne tačke našeg razvoja",
+      "title": "Naša Priča",
+      "subtitle": "Važni Milestones našeg razvoja",
       "2010": {
-        "title": "Osnivanje AyaPos",
-        "description": "Lansiranje našeg prvog POS sistema za restorane sa 50 klijenata u prvoj godini"
+        "title": "Osnivanje AyaPos-a",
+        "description": "Lansiranje našeg prvog POS sistema za restorane sa 50 klijenata prve godine"
       },
       "2015": {
-        "title": "Nacionalna ekspanzija",
-        "description": "Otvaranje 5 regionalnih kancelarija i lansiranje mobilne aplikacije za konobare"
+        "title": "Nacionalna Ekspansija",
+        "description": "Otvorene 5 regionalne kancelarije i lansiranje mobilne aplikacije za konobare"
       },
       "2020": {
-        "title": "Inovacija u oblaku",
-        "description": "Potpuna migracija u oblak i lansiranje novih generacija samouslužnih kioska"
+        "title": "Inovacija u Cloudu",
+        "description": "Potpuna migracija na cloud i lansiranje novih generacija self-service kioska"
       },
       "2024": {
-        "title": "Veštačka inteligencija",
+        "title": "Veštačka Inteligencija",
         "description": "Integracija AI za predikciju prodaje i optimizovano upravljanje zalihama"
       }
     },
     "mission": {
-      "title": "Naša misija",
-      "description": "Podržati restorane u njihovoj digitalnoj transformaciji pružajući im jednostavne, moćne i pristupačne alate. Želimo da svaki objekat, od malog kafića do velikog restorana, može da koristi iste tehnologije kao velike lance.",
-      "badge1": "Stalna inovacija",
-      "badge2": "Posvećena podrška",
-      "badge3": "Aktivna zajednica"
+      "title": "Naša Misija",
+      "description": "Podržati ugostitelje u njihovoj digitalnoj transformaciji pružajući im jednostavne, moćne i pristupačne alate. Želimo da svaki objekat, od malog kafića do velikog restorana, može imati koristi od iste tehnologije kao i veliki lanac.",
+      "badge1": "Neprestana Inovacija",
+      "badge2": "Posvećena Podrška",
+      "badge3": "Aktivna Zajednica"
     }
   },
   "blog": {
     "hero": {
-      "title": "AyaPos Blog",
-      "subtitle": "Vesti, saveti i trendovi moderne ugostiteljske industrije"
+      "title": "Blog AyaPos",
+      "subtitle": "Vesti, saveti i trendovi moderne ugostiteljstva"
     },
     "categories": {
       "all": "Svi članci",
       "news": "Vesti",
       "tips": "Saveti",
       "technology": "Tehnologija",
-      "success": "Priče o uspehu"
+      "success": "Priče o Uspehu"
     },
     "readMore": "Pročitajte više",
     "articles": {
       "article1": {
-        "title": "AyaPos lansira novu liniju samouslužnih kioska",
-        "excerpt": "Otkrijte naše nove kioske sa ekranom od 32 inča i ultra-intuitivnim interfejsom. Revolucija za korisničko iskustvo u brzim restoranima."
+        "title": "AyaPos lansira novu paletu samouslužnih kioska",
+        "excerpt": "Otkrijte naše nove kioske sa ekranom od 32 inča i ultra-intuitivnim interfejsom. Revolucija za iskustvo kupca u brzim restoranima."
       },
       "article2": {
-        "title": "10 saveta za optimizaciju vašeg servisa u vreme špice",
-        "excerpt": "Kako upravljati gužvom u vreme špice? Naši stručnjaci dele najbolje prakse za održavanje kvaliteta usluge čak i kada je gužva."
+        "title": "10 Saveta za optimizaciju vaših usluga tokom gužve",
+        "excerpt": "Kako upravljati gužvom tokom špice? Naši eksperti dele svoje najbolje prakse za održavanje kvaliteta usluge čak i kada je krcato."
       },
       "article3": {
         "title": "Veštačka inteligencija u službi ugostiteljstva",
-        "excerpt": "Kako vam AI može pomoći da predvidite prodaju, optimizujete zalihe i personalizujete korisničko iskustvo. Otkrijte nove funkcionalnosti AyaPos."
+        "excerpt": "Kako vam AI može pomoći da prognozirate vaše prodaje, optimizujete svoje zalihe i personalizujete iskustvo kupca. Otkrijte nove funkcionalnosti AyaPos."
       },
       "article4": {
-        "title": "Priča o uspehu: Le Bistrot Moderne povećava svoju prodaju tri puta",
-        "excerpt": "Upoznajte Žana Düpont-a koji je transformisao svoj tradicionalni restoran u moderan objekat zahvaljujući AyaPos rešenjima. Inspirativno svedočenje."
+        "title": "Priča o uspehu: Moderni Bistrou je udvostručio svoju prodaju",
+        "excerpt": "Upoznajte Žan Düpont-a koji je transformisao svoj tradicionalni restoran u moderan objekat zahvaljujući rešenjima AyaPos. Inspirativno svedočanstvo."
       },
       "article5": {
-        "title": "Smanjenje bacanja hrane uz pomoć tehnologije",
-        "excerpt": "Naš pametan sistem za upravljanje zalihama pomaže vam da smanjite gubitke za 40%. Otkrijte kako optimizovati svoje nabavke i smanjiti otpad."
+        "title": "Smanjite bacanje hrane zahvaljujući tehnologiji",
+        "excerpt": "Naš inteligentni sistem za upravljanje zalihama pomaže vam da smanjite svoje gubitke za 40%. Otkrijte kako optimizovati svoje nabavke i smanjiti rasipanje."
       },
       "article6": {
-        "title": "QR kod i online narudžbina: nove želje klijenata",
-        "excerpt": "Navike potrošnje se razvijaju. 73% klijenata preferira da naručuje putem QR koda. Kako se prilagoditi ovim novim trendovima?"
+        "title": "QR kod i online naručivanje: nove potrebe kupaca",
+        "excerpt": "Navike potrošnje se menjaju. 73% kupaca radije naručuje putem QR koda. Kako se prilagoditi ovim novim trendovima?"
       }
     },
     "newsletter": {
-      "title": "Ostanite informisani",
-      "subtitle": "Primajte naše najnovije članke i savete direktno na svoju email adresu",
+      "title": "Budite Informisani",
+      "subtitle": "Primajte naše najnovije članke i savete direktno u vašu inbox",
       "placeholder": "Vaša email adresa",
       "button": "Prijavite se"
     }
