@@ -21,13 +21,18 @@ const ProductsManager = () => {
   const [formData, setFormData] = useState({
     id: '',
     name: '',
-    category: 'POS',
+    category: 'package',
     description: '',
     tagline: '',
     price: '',
+    currency: 'CHF',
     features: '',
     recommended: false,
-    discount: ''
+    featured: false,
+    highlighted: false,
+    badge: '',
+    discount: '',
+    image: ''
   });
 
   useEffect(() => {
