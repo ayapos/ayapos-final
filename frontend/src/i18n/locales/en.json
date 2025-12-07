@@ -4,10 +4,27 @@
     "pos": "POS Systems",
     "digital": "Digital Solutions",
     "ayapay": "AyaPay",
+    "it_services": "IT Development",
     "pricing": "Pricing",
     "about": "About",
     "contact": "Contact",
-    "demo": "Request a demo"
+    "demo": "Request a demo",
+    "pos_dropdown": {
+      "restaurant_cafe": "Restaurant & Café",
+      "management_tools": "Management Tools",
+      "restaurant_pos": "Restaurant POS System",
+      "self_order_kiosk": "Self-Order Kiosk",
+      "order_system": "Order System",
+      "waiter_terminal": "Waiter Terminal",
+      "mobile_order_app": "Mobile Order App",
+      "robot_waiter": "Robot Waiter",
+      "delivery_management": "Delivery Management",
+      "web_portal": "Web Portal",
+      "mobile_reports": "Mobile Reports",
+      "stock_management": "Stock Management",
+      "centralized_management": "Centralized Management",
+      "hardware_devices": "Hardware Devices"
+    }
   },
   "hero": {
     "title": "Next Generation POS and Payment Solutions",
