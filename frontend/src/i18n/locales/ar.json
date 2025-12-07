@@ -3,573 +3,573 @@
     "home": "الرئيسية",
     "pos": "أنظمة نقاط البيع",
     "digital": "حلول رقمية",
-    "ayapay": "AyaPay",
-    "pricing": "التسعير",
-    "about": "معلومات عنا",
-    "contact": "اتصل",
-    "demo": "طلب عرض توضيحي"
+    "ayapay": "أيا باي",
+    "pricing": "الأسعار",
+    "about": "حول",
+    "contact": "تواصل",
+    "demo": "طلب عرض تجريبي"
   },
   "hero": {
-    "title": "حلول نقاط البيع والدفع من الجيل الجديد",
-    "subtitle": "المطاعم، المقاهي، الفنادق، الأسواق، وسلاسل الشركات - أنظمة نقاط بيع مبتكرة مع أطراف دفع مدمجة",
-    "cta": "اكتشف حلولنا",
+    "title": "حلول نقاط البيع والمدفوعات الجيل الجديد",
+    "subtitle": "المطاعم والمقاهي والفنادق والأسواق وسلاسل الشركات - أنظمة نقاط بيع مبتكرة مع أجهزة دفع مدمجة",
+    "cta": "استكشاف حلولنا",
     "cta_secondary": "عرض الأسعار"
   },
   "features": {
     "title": "كل ما تحتاجه للنجاح",
     "pos_title": "نظام نقاط البيع الشامل",
-    "pos_desc": "قم بإدارة مبيعاتك ومخزونك وتقاريرك في الوقت الفعلي من أي مكان",
-    "payment_title": "أطراف الدفع",
+    "pos_desc": "إدارة مبيعاتك ومخزوناتك وتقاريرك في الوقت الفعلي من أي مكان",
+    "payment_title": "أجهزة الدفع",
     "payment_desc": "حلول دفع آمنة وسريعة لجميع أنواع المعاملات",
-    "digital_title": "القوائم الرقمية",
-    "digital_desc": "رموز QR والأجهزة اللوحية وأكشاك لتجربة عملاء حديثة",
+    "digital_title": "قوائم رقمية",
+    "digital_desc": "رموز الاستجابة السريعة، والأجهزة اللوحية، والأكشاك لتجربة عميل حديثة",
     "reports_title": "التقارير والتحليلات",
-    "reports_desc": "تتبع أدائك من خلال لوحات معلومات بديهية"
+    "reports_desc": "تابع أداءك مع لوحات تحكم بديهية"
   },
   "pos": {
     "title": "أنظمة نقاط البيع الاحترافية",
-    "subtitle": "اختر حل نقاط البيع المناسب لشركتك",
+    "subtitle": "اختر حل نقاط البيع المناسب لعملك",
     "premium": {
-      "name": "نقاط البيع البريميوم",
-      "tagline": "تحكم كامل، قوة قصوى",
-      "desc": "للشركات الكبيرة، مراكز التسوق وسلاسل المطاعم",
+      "name": "نقاط البيع المميزة",
+      "tagline": "تحكم كامل، أقصى قوة",
+      "desc": "للسلاسل المطاعم، ومراكز التسوق، والشركات ذات الحجم الكبير",
       "price": "1049€",
       "period": "في الشهر"
     },
     "tablet": {
       "name": "نقاط البيع اللوحية",
-      "tagline": "مؤشر وصغير",
-      "desc": "للمطاعم الصغيرة، سلاسل المقاهي ومحلات الحلويات",
+      "tagline": "مضغوط واقتصادي",
+      "desc": "للمطاعم الصغيرة، وسلاسل المقاهي، ومحلات الحلويات",
       "price": "699€",
       "period": "في الشهر"
     },
     "web": {
       "name": "نقاط البيع عبر الويب",
-      "tagline": "بدء سهل، جهازك الخاص",
-      "desc": "للشركات الجديدة، المقاهي والأكشاك",
+      "tagline": "بدء سريع، جهازك الخاص",
+      "desc": "للشركات الجديدة، والمقاهي، والأكشاك",
       "price": "525€",
       "period": "في الشهر"
     },
     "mobile": {
       "name": "نقاط البيع المحمولة",
-      "tagline": "محمول وسهل الاستخدام",
-      "desc": "للمبيعات الميدانية، البائعين المتجولين والفعاليات",
+      "tagline": "محمولة وقابلة للنقل",
+      "desc": "للمبيعات الميدانية، والبائعين المتجولين، والفعاليات",
       "price": "349€",
       "period": "في الشهر"
     }
   },
   "ayapay": {
-    "title": "AyaPay - أطراف الدفع",
+    "title": "أيا باي - أجهزة الدفع",
     "subtitle": "حلول دفع احترافية لجميع الاحتياجات",
-    "hero_text": "اقبل جميع طرق الدفع مع أطراف الدفع من الجيل الجديد",
-    "terminals_title": "أطراف الدفع لدينا",
+    "hero_text": "اقبل جميع أنماط الدفع مع أجهزتنا من الجيل الجديد",
+    "terminals_title": "أجهزتنا للدفع",
     "smartpos_a77": {
       "name": "SmartPOS A77",
       "tagline": "مضغوط وخفيف",
-      "desc": "طرف دفع محمول مع شاشة تعمل باللمس واتصال 4G"
+      "desc": "جهاز محمول مع شاشة تعمل باللمس و اتصال 4G"
     },
     "smartpos_a920": {
       "name": "SmartPOS A920",
       "tagline": "ذكي وسريع",
-      "desc": "طرف دفع ذكي مع طابعة مدمجة وشاشة كبيرة"
+      "desc": "جهاز ذكي مع طابعة مدمجة وشاشة كبيرة"
     },
     "deskpos_q80": {
       "name": "Desk POS Q80",
-      "tagline": "ثابت وعملية",
-      "desc": "طرف دفع لمكتب مع دعم واستقرار أقصى"
+      "tagline": "ثابت وعملي",
+      "desc": "جهاز عداد مع دعم وثبات أقصى"
     },
     "softpos": {
       "name": "Tap to Pay iPhone",
-      "tagline": "دفع بدون طرف دفع",
-      "desc": "حوّل جهاز iPhone الخاص بك إلى طرف دفع"
+      "tagline": "دفع بدون جهاز",
+      "desc": "حوّل جهاز iPhone الخاص بك إلى جهاز دفع"
     },
     "features_title": "الميزات الرئيسية",
     "feature_1": "قبول جميع البطاقات",
-    "feature_2": "مدفوعات بدون تلامس NFC",
+    "feature_2": "مدفوعات بدون اتصال NFC",
     "feature_3": "اتصال WiFi و 4G",
     "feature_4": "إيصالات رقمية ومطبوعة",
     "feature_5": "أمان PCI-DSS",
-    "feature_6": "تكامل كامل لنظام نقاط البيع"
+    "feature_6": "تكامل كامل لنقاط البيع"
   },
   "pricing": {
     "title": "أسعار شفافة",
     "subtitle": "اختر الباقة المناسبة لاحتياجاتك",
     "monthly": "شهري",
     "yearly": "سنوي",
-    "save": "وفر 20%",
+    "save": "وفّر 20%",
     "cta": "ابدأ",
-    "features": "الميزات المشمولة"
+    "features": "الميزات المضمنة"
   },
   "contact": {
-    "title": "تواصل معنا",
-    "subtitle": "املأ النموذج وسنتواصل معك سريعًا",
+    "title": "اتصل بنا",
+    "subtitle": "املأ النموذج وسنتواصل معك قريبًا",
     "name": "اسم الشركة",
     "type": "نوع الشركة",
     "phone": "الهاتف",
     "email": "البريد الإلكتروني",
     "city": "المدينة",
     "message": "رسالة",
-    "submit": "احصل على عرض سعر مجاني",
+    "submit": "الحصول على عرض سعر مجاني",
     "success": "شكرًا! سنتواصل معك قريبًا.",
-    "error": "حدث خطأ. يرجى المحاولة مرة أخرى."
+    "error": "حدث خطأ. يُرجى المحاولة مرة أخرى."
   },
   "footer": {
-    "tagline": "حلول نقاط البيع والدفع من الجيل الجديد",
+    "tagline": "حلول نقاط البيع والمدفوعات من الجيل الجديد",
     "rights": "جميع الحقوق محفوظة",
-    "company": "الشركة",
-    "products": "المنتجات",
+    "company": "شركة",
+    "products": "منتجات",
     "support": "الدعم"
   },
   "robotWaiter": {
     "hero": {
       "badge": "حلول خدمة من الجيل الجديد",
       "title": "نظام الروبوت الخادم",
-      "subtitle": "نظام روبوت خادم من الجيل الجديد للشركات المبتكرة والرائدة",
+      "subtitle": "نظام خادم الروبوت من الجيل الجديد للمؤسسات المبتكرة والرائدة",
       "cta": "طلب عرض سعر"
     },
     "benefits": {
-      "mainTitle": "روبوتات الخوادم لعملاء راضين",
-      "mainSubtitle": "تخفف الروبوتات الخادمة عبء العمل في شركتك وتمكن الموظفين من تقديم خدمة أكثر كفاءة",
+      "mainTitle": "خوادم روبوتية لعملاء راضين",
+      "mainSubtitle": "تخفف الخوادم الروبوتية عبء العمل عن مؤسستك وتمكن الموظفين من تقديم خدمة أكثر فعالية",
       "experience": {
         "title": "تجربة فريدة",
-        "description": "قدم لعملائك مفهوماً جديدًا ومنعشًا غير معتادون عليه. أدهش عملاءك بميزات تفاعلية تخلق تجربة مستقبلية وفريدة."
+        "description": "قدّم لعملائك مفهوماً جديداً مُنعشاً لم يتعودوا عليه. أدهش عملاءك بميزات تفاعلية تخلق تجربة مستقبلية وفريدة."
       },
       "contactless": {
-        "title": "توصيل الطلبات بدون تلامس",
-        "description": "بفضل نظام توزيع الصواني من الروبوت الخادم AyaPos، نولي المزيد من الاهتمام لقواعد النظافة. دع الروبوتات تقدم الطلبات إلى الطاولة."
+        "title": "تسليم الطلبات بدون تلامس",
+        "description": "بفضل نظام توزيع الصواني بواسطة روبوت الخادم AyaPos، نولي الآن مزيداً من الاهتمام لقواعد النظافة. دع الروبوتات الخادمة توصل الطلبات إلى الطاولة."
       },
       "profitability": {
         "title": "زيادة الربحية",
-        "description": "حقق زيادة في ربحية شركتك بفضل أنظمة الروبوتات الخادمة. من خلال تسليم طلبات عملائك بسرعة ودون أخطاء، تعزز أيضًا حجم الأعمال في شركتك."
+        "description": "قم بزيادة ربحية مؤسستك من خلال أنظمة خوادم الروبوت. بتسليم طلبات عملائك بسرعة وبدون أخطاء، ستزيد أيضاً من حجم أعمال مؤسستك."
       },
       "efficiency": {
         "title": "خدمة فعالة",
-        "description": "قم بتمديد ساعات عمل شركتك بفضل الروبوتات الخادمة وقدم خدمة لأعداد أكبر من العملاء مع تقليل أخطاء الخدمة."
+        "description": "قم بتمديد ساعات العمل في مؤسستك بفضل الخوادم الروبوتية وقدّم خدمات لأكثر من عملاء مع تقليل أخطاء الخدمة."
       }
     },
     "navigation": {
       "badge": "تكنولوجيا مستقلة",
-      "title": "نظام الملاحة المستقلة",
-      "description1": "تستخدم أنظمة الروبوتات الخادمة أنظمة الملاحة المستقلة لضمان أن الروبوتات تقوم بتوصيلات آمنة ودون أخطاء إلى طاولات العملاء.",
-      "description2": "تكتشف الروبوتات الخادمة العوائق في شركتك بفضل المستشعرات وتقنية الرادار الليزري، مما يمنع حدوث الاصطدامات. قدم خدمة أكثر أمانًا ودون أخطاء في شركتك مع ضمان سلامة عملائك.",
+      "title": "نظام الملاحة الذاتية",
+      "description1": "تستخدم أنظمة الخوادم الروبوتية أنظمة ملاحة ذاتية لضمان أن خوادم الروبوت تقوم بتسليمات آمنة وبدون أخطاء إلى طاولات العملاء.",
+      "description2": "تكتشف الخوادم الروبوتية العقبات في مؤسستك بفضل مجسات وتقنية الرادار الليزري، مما يمنع التصادمات. قدم خدمة أكثر أماناً وبدون أخطاء في مؤسستك مع ضمان سلامة عملائك.",
       "cta": "اعرف المزيد"
     },
     "profitability": {
       "badge": "زيادة الربحية",
-      "title": "زيادة الربحية",
-      "description1": "حقق زيادة في ربحية شركتك بفضل أنظمة الروبوتات الخادمة. من خلال تسليم طلبات عملائك بسرعة ودون أخطاء، تعزز أيضًا حجم الأعمال في شركتك.",
-      "description2": "بفضل الروبوتات الخادمة، قم بتمديد ساعات عمل شركتك وقدم خدمة لأعداد أكبر من العملاء.",
+      "title": "قم بزيادة الربحية",
+      "description1": "قم بزيادة ربحية مؤسستك من خلال أنظمة الخوادم الروبوت. بتسليم الطلبات بسرعة وبدون أخطاء، ستزيد أيضاً من حجم أعمال مؤسستك.",
+      "description2": "بفضل الخوادم الروبوت، قم بتمديد ساعات العمل في مؤسستك وقدّم خدمات لأكثر من عملاء.",
       "stat1": "تقليل تكاليف العمالة",
       "stat2": "خدمة متاحة"
     },
     "delivery": {
-      "title": "نظام التوصيل التلقائي",
-      "subtitle": "زيادة رضا وولاء عملاء شركتك",
+      "title": "نظام تسليم تلقائي",
+      "subtitle": "قم بزيادة رضا العملاء وولائهم لمؤسستك",
       "speed": {
-        "title": "توصيل سريع وفعال",
-        "description": "قم بتوصيل الطلبات بسرعة وكفاءة للعملاء باستخدام أنظمة التوصيل التلقائي على الصواني، مما يزيد من رضا العملاء وحجم الأعمال في شركتك."
+        "title": "تسليم سريع وفعال",
+        "description": "قم بتسليم الطلبات بسرعة وكفاءة للعملاء باستخدام أنظمة تسليم تلقائية على صواني، مما يزيد من رضا العملاء وحجم أعمال مؤسستك."
       },
       "accuracy": {
-        "title": "أخطاء أقل",
-        "description": "قلل من أخطاء التوصيل عبر توصيل الطلبات إلى الطاولات الصحيحة واحمِ سمعة شركتك بينما تقدم خدمة ذات جودة أفضل."
+        "title": "أقل أخطاء",
+        "description": "قلل الأخطاء في التسليم من خلال توصيل الطلبات إلى الطاولات الصحيحة، وحافظ على سمعة مؤسستك أثناء تقديم خدمة ذات جودة أفضل."
       }
     },
     "technicalFeatures": {
-      "title": "الميزات التقنية",
+      "title": "المميزات التقنية",
       "subtitle": "تكنولوجيا متقدمة لخدمة مثالية"
     },
     "features": {
       "navigation": {
         "title": "نظام الملاحة",
-        "description": "الروبوتات الخادمة AyaPos مزودة بأشعة ليزر ومستشعرات لتفادي العقبات في المكان."
+        "description": "تتميز روبوتات الخادم AyaPos بأشعة ليزر ومستشعرات لتجنب العقبات داخل مؤسستك."
       },
       "capacity": {
-        "title": "قدرة النقل",
-        "description": "تتمتع أجهزة توصيل الصواني AyaPos بسعة حمل إجمالية تبلغ 40 كجم، أي 10 كجم لكل مستوى."
+        "title": "سعة النقل",
+        "description": "تتمتع أجهزة تسليم الصواني AyaPos بسعة نقل إجمالية قدرها 40 كجم، أي 10 كجم لكل مستوى."
       },
       "battery": {
-        "title": "استمرارية بطارية مستدامة",
-        "description": "تعمل الروبوتات الخادمة AyaPos بشكل مستمر لمدة 12 إلى 15 ساعة يوميًا."
+        "title": "استدامة بطارية طويلة",
+        "description": "تعمل روبوتات الخادم AyaPos بشكل مستمر لمدة 12 إلى 15 ساعة في اليوم."
       },
       "speedLimit": {
-        "title": "حد السرعة الذكي",
-        "description": "تقوم الروبوتات الخادمة الذكية بضبط سرعتها وفقًا لزاوية ميل الأرض بفضل وظيفة تحسين حد السرعة."
+        "title": "حد الذكاء للسرعة",
+        "description": "تقوم الروبوتات الخادمة الذكية بتعديل سرعتها وفقاً لانحدار الأرض بفضل وظيفة تحسين حد السرعة."
       }
     },
     "gallery": {
       "title": "اكتشف روبوتاتنا الخادمة",
-      "subtitle": "شاهد كيف يمكن لروبوتاتنا تحويل خدمتك",
+      "subtitle": "انظر كيف يمكن لروبوتاتنا تحويل خدمتك",
       "image1": "روبوت خادم في العمل",
       "image2": "تسليم تلقائي للصواني",
-      "image3": "خدمة العملاء المحسّنة"
+      "image3": "خدمة عملاء محسنة"
     },
     "cta": {
-      "title": "هل أنت مستعد لثورة في خدمتك؟",
-      "subtitle": "تواصل معنا لاكتشاف كيف يمكن لروبوتاتنا الخادمة تحسين عملك",
-      "button": "طلب عرض توضيحي"
+      "title": "هل أنت مستعد لثورة خدمتك؟",
+      "subtitle": "اتصل بنا لاكتشاف كيف يمكن لروبوتاتنا الخادمة تحسين مؤسستك",
+      "button": "طلب عرض تجريبي"
     }
   },
   "deliveryManagement": {
     "hero": {
-      "badge": "APPLICATION COURSIER",
-      "title": "Système de Gestion des Commandes Coursier",
-      "subtitle": "Planifiez les commandes, consultez les détails, acceptez facilement les paiements",
-      "cta": "Demander un devis"
+      "badge": "تطبيق المراسل",
+      "title": "نظام إدارة طلبات المراسل",
+      "subtitle": "خطط للطلبات، تحقق من التفاصيل، وقابل السداد بسهولة",
+      "cta": "طلب عرض سعر"
     },
     "orderManagement": {
-      "badge": "GESTION DES COMMANDES",
-      "title": "Livrez rapidement les commandes !",
-      "subtitle": "Gestion AyaPos Coursier - Application de Suivi des Commandes"
+      "badge": "إدارة الطلبات",
+      "title": "قم بتسليم الطلبات بسرعة!",
+      "subtitle": "إدارة AyaPos للمراسل - تطبيق تتبع الطلبات"
     },
     "features": {
       "orderDetails": {
-        "title": "Détails de la Commande",
-        "description": "Vous pouvez consulter les détails des commandes qui vous sont attribuées. De cette façon, vous pouvez minimiser les risques d'erreur lors de la livraison. Personne ne veut recevoir un gâteau alors qu'il attend une pizza."
+        "title": "تفاصيل الطلب",
+        "description": "يمكنك مراجعة تفاصيل الطلبات المخصصة لك. بهذه الطريقة، يمكنك تقليل مخاطر الأخطاء أثناء التسليم. لا أحد يريد استلام كعكة في حين أنه ينتظر بيتزا."
       },
       "mapView": {
-        "title": "Voir l'emplacement sur la carte",
-        "description": "Avec l'application Coursier, vous pouvez voir l'emplacement où vous devez livrer la commande sur la carte. Vous pouvez ainsi déterminer votre itinéraire pour aller à la bonne adresse par le chemin le plus court."
+        "title": "عرض الموقع على الخريطة",
+        "description": "باستخدام تطبيق المراسل، يمكنك رؤية الموقع الذي يجب عليك تسليم الطلب فيه على الخريطة. وبالتالي، يمكنك تحديد مسارك للوصول إلى العنوان الصحيح بأقصر طريق."
       },
       "callCustomer": {
-        "title": "Appeler le client",
-        "description": "En cas de situation défavorable ou si vous avez des questions sur la commande, vous pouvez appeler le client et communiquer avec lui."
+        "title": "الاتصال بالعميل",
+        "description": "في حالة حدوث موقف غير مناسب أو إذا كانت لديك أسئلة حول الطلب، يمكنك الاتصال بالعميل والتواصل معه."
       }
     },
     "payment": {
-      "badge": "PAIEMENTS",
-      "title": "Accepter les paiements très facilement !",
-      "subtitle": "Suivi AyaPos Coursier - Système de Gestion Restaurant",
+      "badge": "المدفوعات",
+      "title": "قبول المدفوعات بسهولة كبيرة!",
+      "subtitle": "تتبع AyaPos للمراسل - نظام إدارة المطاعم",
       "cash": {
-        "title": "Paiements en espèces",
-        "description": "Grâce à l'utilisation facile de l'application Coursier, vous pouvez accepter les paiements en espèces des commandes en un seul toucher."
+        "title": "المدفوعات النقدية",
+        "description": "بفضل سهولة استخدام تطبيق المراسل، يمكنك قبول المدفوعات النقدية للطلبات بلمسة واحدة فقط."
       },
       "card": {
-        "title": "Paiements par carte de crédit",
-        "description": "Avec l'infrastructure avancée de l'application AyaPos Coursier, vous pouvez utiliser un code QR pour accepter les paiements par carte de crédit. Laissez votre client scanner le code QR et le paiement se fait en quelques secondes."
+        "title": "المدفوعات ببطاقة الائتمان",
+        "description": "مع البنية التحتية المتقدمة لتطبيق AyaPos للمراسل، يمكنك استخدام رمز QR لقبول المدفوعات ببطاقة الائتمان. دع عميلك يمسح رمز QR والعملية تتم في ثوانٍ."
       },
       "security": {
-        "title": "Infrastructure 100% sécurisée",
-        "description": "Avec un certificat SSL 256 bits, toutes vos transactions et mouvements sont effectués en toute sécurité."
+        "title": "بنية تحتية آمنة بنسبة 100%",
+        "description": "مع شهادة SSL 256 بت، تتم جميع معاملاتك وحركاتك بأمان."
       }
     },
     "courier": {
-      "badge": "POUR LES COURSIERS",
-      "title": "Indispensable pour les coursiers !",
-      "subtitle": "Gestion des Commandes AyaPos - Logiciel de Suivi Coursier",
+      "badge": "للمراسلين",
+      "title": "ضروري للمراسلين!",
+      "subtitle": "إدارة الطلبات AyaPos - برنامج تتبع المراسلين",
       "reports": {
-        "title": "Consulter les rapports quotidiens",
-        "description": "Avec l'application AyaPos Coursier, vous pouvez obtenir des rapports quotidiens des coursiers. Vous pouvez obtenir des informations sur le nombre de commandes, la distance totale, les durées et les paiements."
+        "title": "راجع التقارير اليومية",
+        "description": "مع تطبيق AyaPos للمراسل، يمكنك الحصول على تقارير يومية للمراسلين. يمكنك الحصول على معلومات حول عدد الطلبات، المسافة الإجمالية، الأوقات والمدفوعات."
       },
       "status": {
-        "title": "Statuts disponible et occupé",
-        "description": "Avec l'application Coursier, vous pouvez définir le statut du coursier. Lorsque vous n'êtes pas disponible, vous pouvez sélectionner le statut 'Occupé' et informer l'entreprise."
+        "title": "الحالة المتاحة والمشغولة",
+        "description": "باستخدام تطبيق المراسل، يمكنك تحديد حالة المراسل. عندما لا تكون متاحاً، يمكنك اختيار حالة 'مشغول' وإبلاغ الشركة."
       },
       "notifications": {
-        "title": "Son de notification de commande",
-        "description": "Si vous activez le son de notification via l'application, vous recevrez une notification sonore lorsqu'une commande vous est attribuée. De cette façon, vous ne manquerez pas de commandes et vous pourrez augmenter la satisfaction client."
+        "title": "صوت إشعار الطلب",
+        "description": "إذا قمت بتفعيل صوت الإشعار عبر التطبيق، فستتلقى إشعاراً صوتياً عندما يُخصص لك طلب. بهذه الطريقة، لن تفوتك الطلبات وستتمكن من زيادة رضا العملاء."
       }
     },
     "systemFeatures": {
-      "title": "Caractéristiques du Système",
-      "subtitle": "Tout ce dont vous avez besoin pour gérer efficacement vos livraisons"
+      "title": "ميزات النظام",
+      "subtitle": "كل ما تحتاجه لإدارة تسليماتك بفعالية"
     },
     "system": {
       "mobile": {
-        "title": "Système de Gestion Mobile",
-        "description": "AyaPos Manager est une application de gestion mobile qui vous permet de gérer votre entreprise depuis des téléphones iPhone et Android."
+        "title": "نظام إدارة الهاتف المحمول",
+        "description": "AyaPos Manager هو تطبيق إداري يمكنّك من إدارة مؤسستك من هواتف iPhone وAndroid."
       },
       "cloud": {
-        "title": "Infrastructure Cloud",
-        "description": "Grâce à la plateforme cloud AyaPos Manager, gérez vos produits, ventes, stocks et comptes clients depuis votre poche, accédez instantanément aux rapports consolidés de vos succursales."
+        "title": "بنية تحتية سحابية",
+        "description": "بفضل منصة AyaPos Manager السحابية، قم بإدارة منتجاتك، مبيعاتك، مخزوناتك وحسابات العملاء من جيبك، واطلع مباشرةً على التقارير الموحدة لفروعك."
       },
       "analytics": {
-        "title": "Rapports et Analyses Avancés",
-        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez l'état de votre entreprise en comparant vos ventes avec des analyses visuelles."
+        "title": "تقارير وتحليلات متقدمة",
+        "description": "قم بمراجعة تقارير نهاية اليوم، المبيعات، المخزونات وحسابات العملاء في الوقت الفعلي. حسّن حالة مؤسستك من خلال مقارنة مبيعاتك مع التحليلات المرئية."
       },
       "accounts": {
-        "title": "Gérer les Comptes Clients",
-        "description": "Créez vos comptes clients, suivez vos créances et dettes. Gérez vos clients en examinant les mouvements de caisse qui ont eu lieu pendant la journée."
+        "title": "إدارة حسابات العملاء",
+        "description": "قم بإنشاء حسابات العملاء الخاصة بك، تابع ديونك وحقوقك. قم بإدارة عملائك من خلال مراجعة حركات النقد التي حدثت أثناء اليوم."
       }
     },
     "tracking": {
-      "badge": "SUIVI EN TEMPS RÉEL",
-      "title": "Suivez vos livraisons en temps réel",
-      "description1": "Avec le système de suivi en temps réel d'AyaPos, vous pouvez suivre la position de vos coursiers sur une carte et surveiller l'état de toutes vos commandes.",
-      "description2": "Optimisez vos itinéraires de livraison, réduisez les temps d'attente et augmentez la satisfaction client grâce à un suivi précis et en temps réel.",
-      "feature1": "Suivi GPS en direct",
-      "feature2": "Optimisation des itinéraires",
-      "feature3": "Notifications automatiques"
+      "badge": "تتبع في الوقت الحقيقي",
+      "title": "تابع تسليماتك في الوقت الحقيقي",
+      "description1": "مع نظام التتبع في الوقت الحقيقي من AyaPos، يمكنك متابعة موقع مراسلك على الخريطة ومراقبة حالة جميع طلباتك.",
+      "description2": "قم بتحسين مسارات تسليمك، تقليل أوقات الانتظار وزيادة رضا العملاء بفضل تتبع دقيق وفي الوقت الحقيقي.",
+      "feature1": "تتبع GPS مباشر",
+      "feature2": "تحسين المسارات",
+      "feature3": "إشعارات تلقائية"
     },
     "cta": {
-      "title": "Prêt à optimiser vos livraisons ?",
-      "subtitle": "Contactez-nous pour découvrir comment notre système de gestion des livraisons peut améliorer votre efficacité",
-      "button": "Demander une démonstration"
+      "title": "هل أنت مستعد لتحسين تسليماتك؟",
+      "subtitle": "اتصل بنا لاكتشاف كيف يمكن لنظام إدارة التسليم الخاص بنا تحسين كفاءتك",
+      "button": "طلب عرض تجريبي"
     }
   },
   "webPortal": {
     "hero": {
-      "badge": "PORTAIL WEB AYAPOS",
-      "title": "Système de Gestion en Ligne",
-      "subtitle": "Gérez à distance, accédez instantanément aux rapports de ventes et de stocks",
-      "cta": "Demander un devis"
+      "badge": "بوابة الويب أيا باي",
+      "title": "نظام إدارة عبر الإنترنت",
+      "subtitle": "إدارة عن بُعد، والوصول الفوري لتقارير المبيعات والمخزونات",
+      "cta": "طلب عرض سعر"
     },
     "reportsSection": {
-      "badge": "RAPPORTS ET ANALYSES",
-      "title": "Accédez instantanément à vos rapports",
-      "subtitle": "Rapports de fin de journée, ventes, personnel, comptes clients et stocks instantanément disponibles"
+      "badge": "التقارير والتحليلات",
+      "title": "الوصول الفوري لتقاريرك",
+      "subtitle": "تقارير نهاية اليوم، المبيعات، الموظفين، حسابات العملاء والمخزونات متاحة على الفور"
     },
     "reports": {
       "instant": {
-        "title": "Rapports instantanés et périodiques",
-        "description": "Le système de rapports et d'analyses en ligne AyaPos Portal présente vos données sous forme d'analyses visuelles en plus des rapports instantanés et périodiques, vous aidant à prendre les bonnes décisions et à développer votre entreprise."
+        "title": "تقارير فورية ودورية",
+        "description": "يقدم نظام التقارير والتحليلات عبر الإنترنت من بوابة أيا باي بياناتك في شكل تحليلات بصرية بالإضافة إلى التقارير الفورية والدورية، مما يساعدك على اتخاذ القرارات الصحيحة وتطوير عملك."
       },
       "central": {
-        "title": "Système de rapports centralisé",
-        "description": "Grâce au système de gestion et de rapports centralisés AyaPos, vous pouvez gérer toutes vos succursales depuis un seul compte et consulter les rapports consolidés et comparatifs sur le même écran."
+        "title": "نظام تقارير مركزي",
+        "description": "بفضل نظام الإدارة والتقارير المركزية من أيا باي، يمكنك إدارة جميع فروعك من حساب واحد ومشاهدة التقارير الموحدة والمقارنة على نفس الشاشة."
       }
     },
     "remoteManagement": {
-      "badge": "GESTION À DISTANCE",
-      "title": "Gérez votre entreprise à distance avec AyaPos Portal",
-      "subtitle": "Gérez toutes les informations définissant votre entreprise depuis votre bureau"
+      "badge": "الإدارة عن بُعد",
+      "title": "إدارة عملك عن بُعد مع بوابة أيا باي",
+      "subtitle": "قم بإدارة جميع المعلومات التي تحدد عملك من مكتبك"
     },
     "management": {
       "remote": {
-        "title": "Configuration à distance, mise à jour automatique",
-        "description": "Configurez à distance toutes les informations et paramètres de votre entreprise et de vos appareils avec n'importe quel appareil connecté à Internet, mettez-les à jour quand vous le souhaitez. Ajoutez de nouveaux produits, modifiez les prix. Toutes les informations sont automatiquement transférées vers vos tablettes et appareils POS."
+        "title": "الإعداد عن بُعد، تحديث تلقائي",
+        "description": "قم بإعداد جميع المعلومات والإعدادات الخاصة بعملك وأجهزتك عن بُعد باستخدام أي جهاز متصل بالإنترنت، وقم بتحديثها كلما أردت. أضف منتجات جديدة، عدل الأسعار. يتم نقل جميع المعلومات تلقائيًا إلى الأجهزة اللوحية وأجهزة نقاط البيع الخاصة بك."
       },
       "auto": {
-        "title": "Gérez vos systèmes POS depuis un centre unique",
-        "description": "AyaPos Portal est la solution de gestion centralisée qui vous permet de gérer à distance avec un seul compte le système d'automatisation de restaurant de votre entreprise."
+        "title": "إدارة أنظمة نقاط البيع من مركز واحد",
+        "description": "بوابة أيا باي هي الحل للإدارة المركزية التي تتيح لك إدارة نظام أتمتة مطعم كعملك عن بُعد بحساب واحد."
       },
       "unified": {
-        "title": "Gestion unifiée complète",
-        "description": "Incluant le système POS mobile, les menus tablettes, les terminaux serveur, ainsi que les systèmes de menu numérique, de commande mobile et de paiement mobile fonctionnant sur les smartphones de vos clients."
+        "title": "إدارة موحدة كاملة",
+        "description": "تشمل نظام نقاط البيع المحمول، قوائم الأجهزة اللوحية، أجهزة الخادم، بالإضافة إلى أنظمة القوائم الرقمية، والطلبات المحمولة، والدفع المحمول التي تعمل على الهواتف الذكية لعملائك."
       }
     },
     "dayEnd": {
-      "badge": "RAPPORTS DE FIN DE JOURNÉE",
-      "title": "Consultez vos rapports de fin de journée",
-      "description1": "Vous pouvez examiner combien de ventes ont été effectuées en espèces ou par carte de crédit pendant la journée, combien de vos clients ont bénéficié de réductions ou les produits retournés.",
-      "description2": "Avec le menu puissant d'AyaPos Portal, accédez aux rapports de fin de journée, vous pouvez suivre les paiements en espèces, par carte de crédit ou sur compte effectués pendant la journée.",
-      "description3": "Vos rapports sont stockés quotidiennement dans la base de données AyaPos, vous pouvez accéder instantanément à vos rapports de fin de journée de n'importe quelle date quand vous le souhaitez."
+      "badge": "تقارير نهاية اليوم",
+      "title": "راجع تقارير نهاية يومك",
+      "description1": "يمكنك فحص عدد المبيعات التي تمت نقدًا أو ببطاقة ائتمان خلال اليوم، وعدد عملائك الذين استفادوا من الخصومات أو المنتجات المرتجعة.",
+      "description2": "مع القائمة القوية لبوابة أيا باي، يمكنك الوصول إلى تقارير نهاية اليوم، وتتبع المدفوعات النقدية، ببطاقة ائتمان أو على الحساب التي تمت خلال اليوم.",
+      "description3": "يتم تخزين تقاريرك يوميًا في قاعدة بيانات أيا باي، يمكنك الوصول الفوري لتقارير نهاية اليوم من أي تاريخ متى شئت."
     },
     "settings": {
-      "badge": "PARAMÈTRES SYSTÈME",
-      "title": "Améliorez votre portail avec les paramètres système",
-      "subtitle": "Gérez mieux votre entreprise avec de nombreux paramètres",
+      "badge": "إعدادات النظام",
+      "title": "حسّن بوابتك باستخدام إعدادات النظام",
+      "subtitle": "قم بإدارة عملك بشكل أفضل مع العديد من الإعدادات",
       "general": {
-        "title": "Paramètres généraux",
-        "description": "Depuis votre portail, vous pouvez définir la devise et la langue des produits que vous vendez. Avec les paramètres POS, vous pouvez sélectionner les types de paiement, appliquer des étiquettes de réduction. Vous pouvez également organiser les paramètres de gestion de stock via AyaPos Portal."
+        "title": "الإعدادات العامة",
+        "description": "من خلال بوابتك، يمكنك تحديد العملة واللغة للمنتجات التي تبيعها. مع إعدادات نقاط البيع، يمكنك اختيار أنواع المدفوعات، وتطبيق علامات الخصم. يمكنك أيضًا تنظيم إعدادات إدارة المخزون عبر بوابة أيا باي."
       },
       "order": {
-        "title": "Paramètres de commande",
-        "description": "Dans la section paramètres d'AyaPos Portal, vous pouvez activer vos commandes pour le paiement et la commande en ligne, définir votre montant minimum de commande et vos frais de service, organiser les informations nécessaires pour les ventes via les plateformes de livraison."
+        "title": "إعدادات الطلب",
+        "description": "في قسم الإعدادات في بوابة أيا باي، يمكنك تفعيل طلبات الدفع والطلب عبر الإنترنت، وتحديد الحد الأدنى لمبلغ الطلب ورسوم الخدمة، وتنظيم المعلومات اللازمة للمبيعات عبر منصات التوصيل."
       }
     },
     "featuresGrid": {
-      "title": "Caractéristiques",
-      "subtitle": "Tout ce dont vous avez besoin pour gérer votre entreprise"
+      "title": "الميزات",
+      "subtitle": "كل ما تحتاجه لإدارة عملك"
     },
     "features": {
       "reports": {
-        "title": "Rapports et Analyses Avancés",
-        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez la situation de votre entreprise en comparant vos ventes avec des analyses visuelles."
+        "title": "تقارير وتحليلات متقدمة",
+        "description": "راجع تقارير نهاية اليوم، المبيعات، المخزونات وحسابات العملاء في الوقت الحقيقي. حسن وضع عملك من خلال مقارنة مبيعاتك مع التحليلات البصرية."
       },
       "management": {
-        "title": "Système de Gestion en Ligne",
-        "description": "Avec AyaPos Portal, vous pouvez gérer votre entreprise à distance avec n'importe quel appareil connecté à Internet. Connectez-vous à AyaPos Portal et accédez à vos informations à tout moment, de n'importe où."
+        "title": "نظام إدارة عبر الإنترنت",
+        "description": "مع بوابة أيا باي، يمكنك إدارة عملك عن بُعد من أي جهاز متصل بالإنترنت. قم بتسجيل الدخول إلى بوابة أيا باي والوصول إلى معلوماتك في أي وقت، ومن أي مكان."
       },
       "central": {
-        "title": "Système de Gestion Centralisée",
-        "description": "Grâce au système de gestion centralisée d'AyaPos Portal, gérez vos produits, prix, personnel et stocks depuis un centre unique, accédez aux rapports de ventes consolidés de vos succursales avec un seul compte."
+        "title": "نظام إدارة مركزي",
+        "description": "بفضل نظام الإدارة المركزية لبوابة أيا باي، قم بإدارة منتجاتك، الأسعار، الموظفين والمخزونات من مركز واحد، والوصول إلى تقارير المبيعات الموحدة لفروعك بحساب واحد."
       },
       "compatible": {
-        "title": "Compatible avec tous les Navigateurs",
-        "description": "Vous pouvez accéder rapidement à AyaPos Portal depuis des ordinateurs, tablettes ou smartphones connectés à Internet et gérer facilement vos succursales en même temps."
+        "title": "متوافق مع جميع المتصفحات",
+        "description": "يمكنك الوصول بسرعة إلى بوابة أيا باي من أجهزة الكمبيوتر، الأجهزة اللوحية أو الهواتف الذكية المتصلة بالإنترنت وإدارة فروعك بسهولة في الوقت نفسه."
       }
     },
     "cta": {
-      "title": "Prêt à gérer votre entreprise en ligne ?",
-      "subtitle": "Contactez-nous pour découvrir comment AyaPos Portal peut transformer votre gestion",
-      "button": "Demander une démonstration"
+      "title": "هل أنت مستعد لإدارة عملك عبر الإنترنت؟",
+      "subtitle": "اتصل بنا لاكتشاف كيف يمكن لبوبة أيا باي تحويل إدارتك",
+      "button": "طلب عرض تجريبي"
     }
   },
   "mobileReports": {
     "hero": {
-      "badge": "RAPPORTS MOBILES AYAPOS",
-      "title": "Application de Rapports Mobiles",
-      "subtitle": "Accédez instantanément aux rapports de ventes et aux analyses visuelles depuis votre poche",
-      "cta": "Voir les démos"
+      "badge": "تقارير المحمول أيا باي",
+      "title": "تطبيق تقارير المحمول",
+      "subtitle": "الوصول الفوري لتقارير المبيعات والتحليلات البصرية من جيبك",
+      "cta": "شاهد العروض"
     },
     "summarySection": {
-      "badge": "RAPPORTS RÉSUMÉS",
-      "title": "Rapports résumés et graphiques visuels",
-      "subtitle": "Examinez les rapports résumés et les analyses visuelles concernant les produits les plus vendus, la fin de journée, l'état de la caisse et les stocks"
+      "badge": "تقارير ملخصة",
+      "title": "تقارير ملخصة ورسوم بيانية بصرية",
+      "subtitle": "راجع التقارير الملخصة والتحليلات البصرية المتعلقة بالمنتجات الأكثر مبيعًا، نهاية اليوم، حالة الصندوق والمخزونات"
     },
     "summary": {
       "bestSellers": {
-        "title": "Produits les plus vendus",
-        "description": "Visualisez en résumé les produits les plus vendus dans votre entreprise pendant la journée, augmentez vos ventes en organisant des campagnes et promotions sur les produits ciblés."
+        "title": "المنتجات الأكثر مبيعًا",
+        "description": "عرض ملخص للمنتجات الأكثر مبيعًا في عملك خلال اليوم، وزيادة مبيعاتك من خلال تنظيم حملات وترقيات على المنتجات المستهدفة."
       },
       "dayEnd": {
-        "title": "Rapport de fin de journée et de caisse",
-        "description": "Accédez au résumé de vos informations de ventes et de chiffre d'affaires de fin de journée, à vos informations de paiement en espèces, devises, carte de crédit, tickets restaurant, etc. dans votre caisse."
+        "title": "تقارير نهاية اليوم وحالة الصندوق",
+        "description": "الوصول إلى ملخص معلومات مبيعاتك وعائداتك في نهاية اليوم، ومعلوماتك عن المدفوعات النقدية، العملات، بطاقات الائتمان، قسائم الطعام، وغيرها في صندوقك."
       },
       "stock": {
-        "title": "Rapports de stock",
-        "description": "Examinez l'état des stocks de vos produits, semi-produits et matières premières, vérifiez vos stocks avec les entrées/sorties de stock et les comptages d'inventaire."
+        "title": "تقارير المخزون",
+        "description": "راجع حالة مخزون منتجاتك، المكونات والمواد الخام، تحقق من مخزونك من خلال المدخلات/المخرجات والمسوح الجردية."
       },
       "insights": {
-        "title": "Informations résumées",
-        "description": "AyaPos Boss vous présente des informations telles que le gain moyen et le nombre de couverts réalisés par votre entreprise au cours des 7 derniers jours."
+        "title": "معلومات ملخصة",
+        "description": "تقدم لك أيا باي بوس معلومات مثل الربح المتوسط وعدد الأطباق التي تم تقديمها لعملك خلال الأسبوع الماضي."
       }
     },
     "productSection": {
-      "badge": "GESTION DES PRODUITS",
-      "title": "Gérez vos produits avec AyaPos Boss",
-      "subtitle": "Consultez tous les détails de vos produits depuis votre application mobile"
+      "badge": "إدارة المنتجات",
+      "title": "قم بإدارة منتجاتك مع أيا باي بوس",
+      "subtitle": "راجع جميع تفاصيل منتجاتك من تطبيقك المحمول"
     },
     "products": {
       "track": {
-        "title": "Suivez vos produits",
-        "description": "Depuis l'application AyaPos Boss, vous pouvez cliquer sur un produit pour voir sa photo, son nom, son prix, son code-barres, sa quantité de calories, son temps de préparation, sa description, ses sous-catégories et indiquer si le produit est disponible ou non."
+        "title": "تتبع منتجاتك",
+        "description": "من خلال تطبيق أيا باي بوس، يمكنك النقر على منتج لرؤية صورته، اسمه، سعره، رمز شريطي، كمية السعرات الحرارية، وقت التحضير، وصفه، الفئات الفرعية والإشارة إلى ما إذا كان المنتج متاحًا أم لا."
       },
       "search": {
-        "title": "Recherche de produits",
-        "description": "Sur la page produits de l'application AyaPos Boss, vous pouvez accéder à l'écran de recherche en cliquant sur le bouton de recherche dans le coin supérieur droit. Dans cette zone, vous pouvez accéder rapidement et facilement à un produit en écrivant son nom."
+        "title": "بحث عن المنتجات",
+        "description": "على صفحة المنتجات في تطبيق أيا باي بوس، يمكنك الوصول لشاشة البحث من خلال النقر على زر البحث في الزاوية العليا اليمنى. في هذه المنطقة، يمكنك الوصول بسرعة وسهولة إلى منتج من خلال كتابة اسمه."
       },
       "design": {
-        "title": "Design simple et épuré",
-        "description": "L'application AyaPos Boss a un design extrêmement simple et épuré. Pour ne pas compliquer la page des produits, elle maintient cette structure et vous offre un espace de travail plus confortable."
+        "title": "تصميم بسيط ونظيف",
+        "description": "لتطبيق أيا باي بوس تصميم بسيط جداً ونظيف. للحفاظ على بساطة صفحة المنتجات، تحافظ على هذا الهيكل وتقدم لك مساحة عمل أكثر راحة."
       }
     },
     "business": {
-      "badge": "GESTION D'ENTREPRISE",
-      "title": "Gérez votre entreprise depuis votre poche avec AyaPos Boss !",
-      "description1": "Accédez à vos rapports de fin de journée, de caisse, de ventes, de comptes clients et de stocks depuis les smartphones. Comparez vos ventes périodiques avec des analyses visuelles.",
-      "description2": "AyaPos Boss vous permet d'accéder en temps réel à toutes vos ventes réalisées sur votre système POS mobile et transférées vers la plateforme cloud. Vous pouvez consulter instantanément de nombreux rapports tels que fin de journée, caisse, ventes, stocks et comptes clients.",
-      "description3": "Grâce à la plateforme cloud mobile AyaPos, vous accédez en quelques secondes aux graphiques visuels de vos ventes quotidiennes, hebdomadaires, mensuelles et annuelles. Vous pouvez analyser l'état actuel de votre entreprise en comparant vos ventes périodiques et développer votre activité en prenant les bonnes décisions."
+      "badge": "إدارة الأعمال",
+      "title": "قم بإدارة عملك من جيبك مع أيا باي بوس!",
+      "description1": "الوصول إلى تقارير نهاية اليوم، وحالة الصندوق، والمبيعات، وحسابات العملاء والمخزونات من خلال الهواتف الذكية. قارن مبيعاتك الدورية مع التحليلات البصرية.",
+      "description2": "تتيح لك أيا باي بوس الوصول في الوقت الحقيقي إلى جميع مبيعاتك التي تمت على نظام نقاط البيع المحمول الخاص بك وتم نقلها إلى منصة السحابة. يمكنك فحص العديد من التقارير مثل نهاية اليوم، حالة الصندوق، المبيعات، المخزونات وحسابات العملاء على الفور.",
+      "description3": "بفضل منصة السحابة المحمولة أيا باي، يمكنك الوصول إلى الرسوم البيانية البصرية لمبيعاتك اليومية، الأسبوعية، الشهرية والسنوية في ثوانٍ. يمكنك تحليل الوضع الحالي لعملك من خلال مقارنة مبيعاتك الدورية وتوسيع نشاطك من خلال اتخاذ القرارات الصحيحة."
     },
     "settings": {
-      "badge": "PARAMÈTRES",
-      "title": "Effectuez des modifications dans votre application avec AyaPos Boss !",
+      "badge": "الإعدادات",
+      "title": "قم بإجراء تغييرات في تطبيقك مع أيا باي بوس!",
       "account": {
-        "title": "Paramètres du compte et paramètres généraux",
-        "description": "Dans la section paramètres du compte de la page paramètres d'AyaPos Boss, vous pouvez définir votre nom d'utilisateur et votre mot de passe. Depuis les paramètres généraux, vous pouvez régler l'heure mondiale et organiser à quelle heure les rapports de fin de journée doivent être pris."
+        "title": "إعدادات الحساب والإعدادات العامة",
+        "description": "في قسم إعدادات الحساب في صفحة إعدادات أيا باي بوس، يمكنك تحديد اسم المستخدم وكلمة المرور الخاصة بك. من خلال الإعدادات العامة، يمكنك ضبط الساعة العالمية وتنظيم متى يجب أخذ تقارير نهاية اليوم."
       },
       "pos": {
-        "title": "Paramètres POS et de langue",
-        "description": "Avec les paramètres POS, vous pouvez activer ou désactiver le service de commande et de paiement en ligne de l'appareil POS utilisé dans votre entreprise. Avec les paramètres de langue, vous pouvez utiliser votre application patron AyaPos dans différentes langues."
+        "title": "إعدادات نقاط البيع واللغة",
+        "description": "مع إعدادات نقاط البيع، يمكنك تفعيل أو تعطيل خدمة الطلب والدفع عبر الإنترنت للجهاز المستخدم في عملك. مع إعدادات اللغة، يمكنك استخدام تطبيق أيا باي الخاص بك بلغات مختلفة."
       }
     },
     "featuresGrid": {
-      "title": "Caractéristiques",
-      "subtitle": "Tout ce dont vous avez besoin dans votre poche"
+      "title": "الميزات",
+      "subtitle": "كل ما تحتاجه في جيبك"
     },
     "features": {
       "mobile": {
-        "title": "Système de Gestion Mobile",
-        "description": "AyaPos Boss est une application de gestion mobile qui vous permet de gérer votre entreprise depuis les téléphones iPhone et Android. Téléchargez immédiatement depuis App Store et Google Play."
+        "title": "نظام إدارة الهاتف المحمول",
+        "description": "أيا باي بوس هو تطبيق إدارة متنقل يتيح لك إدارة عملك من هواتف iPhone وAndroid. قم بتنزيله فوراً من App Store وGoogle Play."
       },
       "cloud": {
-        "title": "Infrastructure Cloud",
-        "description": "Grâce à la plateforme cloud AyaPos Boss, gérez vos produits, ventes, stocks et comptes clients depuis votre poche, accédez instantanément aux rapports consolidés de vos succursales."
+        "title": "بنية تحتية سحابية",
+        "description": "بفضل منصة أيا باي السحابية، قم بإدارة منتجاتك، مبيعاتك، مخزوناتك وحسابات العملاء من جيبك، والوصول الفوري للتقارير الموحدة لفروعك."
       },
       "analytics": {
-        "title": "Rapports et Analyses Avancés",
-        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez l'état de votre entreprise en comparant vos ventes avec des analyses visuelles."
+        "title": "تقارير وتحليلات متقدمة",
+        "description": "افحص تقارير نهاية اليوم، والمبيعات، والمخزونات وحسابات العملاء في الوقت الحقيقي. حسن وضع عملك من خلال مقارنة مبيعاتك مع التحليلات البصرية."
       },
       "accounts": {
-        "title": "Gérer les Comptes Clients",
-        "description": "Créez vos comptes clients, suivez vos créances et dettes. Gérez vos clients en examinant les mouvements de caisse effectués pendant la journée."
+        "title": "إدارة حسابات العملاء",
+        "description": "قم بإنشاء حسابات العملاء الخاصة بك، وتابع حقوقك وديونك. قم بإدارة عملائك من خلال مراجعة حركات النقد التي تمت خلال اليوم."
       }
     },
     "download": {
-      "title": "Téléchargez l'application Boss mobile pour l'essayer immédiatement !",
-      "subtitle": "Disponible sur iOS et Android"
+      "title": "قم بتنزيل تطبيق بوس المحمول لتجربته على الفور!",
+      "subtitle": "متوفر على iOS وAndroid"
     },
     "cta": {
-      "title": "Prêt à gérer depuis votre mobile ?",
-      "subtitle": "Téléchargez AyaPos Boss et gérez votre entreprise de n'importe où",
-      "button": "Demander une démonstration"
+      "title": "هل أنت مستعد للإدارة من هاتفك المحمول؟",
+      "subtitle": "قم بتنزيل أيا باي بوس وادارة عملك من أي مكان",
+      "button": "طلب عرض تجريبي"
     }
   },
   "stockManagement": {
     "hero": {
       "badge": "نظام إدارة المخزون",
       "title": "نظام إدارة المخزون",
-      "subtitle": "تابع المخزون، وحسن الإنتاج بشكل أكثر كفاءة. ادارة مخزون المنتجات والمواد الخام من مركز واحد.",
-      "cta": "اطلب عرض سعر"
+      "subtitle": "تابع المخزونات، وزد من مستوى الإنتاج بكفاءة. إدارة مخزون المنتجات والمواد الخام من مركز واحد.",
+      "cta": "طلب عرض سعر"
     },
     "benefitsSection": {
       "badge": "المزايا",
-      "title": "زيادة الكفاءة، وتقليل الفاقد والهدر",
-      "subtitle": "مع نظام إدارة المخزون AyaPos"
+      "title": "زد من الكفاءة، وقلل من الفاقد والهدر",
+      "subtitle": "مع نظام إدارة المخزون أيا باي"
     },
     "benefits": {
       "efficiency": {
         "title": "إنتاج أكثر كفاءة",
-        "description": "مع نظام إدارة المخزون، يمكنك فحص استخدام المواد الخام والمنتجات وتحسين تدفق إنتاجك لتحقيق إنتاجية أكبر."
+        "description": "مع نظام إدارة المخزون، يمكنك فحص استخدام المواد الخام والمنتجات وتحسين تدفق الإنتاج لتحقيق إنتاج أكثر كفاءة."
       },
       "waste": {
         "title": "تقليل الفاقد والهدر",
-        "description": "بفضل تدفق الإنتاج المخطط بشكل أفضل، يمكنك تقليل الفاقد والهدر أثناء الإنتاج."
+        "description": "بفضل تخطيط أفضل لتدفق الإنتاج، يمكنك تقليل الفاقد والهدر الذي يحدث أثناء الإنتاج."
       }
     },
     "recipeSection": {
       "badge": "الوصفات",
-      "title": "خطط لوصفاتك وتدفق الإنتاج",
-      "subtitle": "قم بإعداد المخزون مع وصفات مطعمك أو مقهىك أو بارك"
+      "title": "خطط وصفاتك وتدفق إنتاجك",
+      "subtitle": "أعد المخزونات وفقاً لوصفات مطعمك أو مقهاك أو بارك"
     },
     "types": {
       "simple": {
         "title": "مخزون بسيط حسب الحاجة",
-        "description": "لأصحاب الأعمال الصغيرة وحسب الحاجة، يمكنك بسهولة إدخال منتجاتك بالوحدة في النظام مع هيكل مخزون بسيط ورؤية استخداماتها أيضًا بالوحدة."
+        "description": "للشركات الصغيرة وبحسب الحاجة، يمكنك إدخال منتجاتك بسهولة في النظام كقطعة واحدة مع هيكل مخزون بسيط ورؤية استخدامها أيضاً كقطعة واحدة."
       },
       "recipe": {
         "title": "مخزون متقدم مع الوصفات",
-        "description": "مع إدارة المخزون AyaPos، يمكنك أيضًا إدارة مخزون مطعمك أو مقهىك أو بارك باستخدام الوصفات. بهذه الطريقة، يمكنك إجراء تحليلات مفصلة للنفقات."
+        "description": "مع إدارة المخزون أيا باي، يمكنك أيضاً إدارة مخزون مطعمك أو مقهاك أو بارك مع الوصفات. بهذه الطريقة، يمكنك إجراء تحليلات مفصلة للنفقات."
       }
     },
     "centralized": {
       "badge": "إدارة مركزية",
       "title": "الوصول إلى كل شيء من مكان واحد",
-      "description1": "مع نظام إدارة المخزون AyaPos، سواء كان لديك فرع واحد أو مئة. يمكنك إدارة كل شيء من مكان واحد وعدم مواجهة نتائج غير متوقعة مع تحليلات أوسع.",
+      "description1": "مع نظام إدارة المخزون أيا باي، سواء كان لديك فرع واحد أو مئة. يمكنك إدارة كل شيء من مكان واحد وعدم مواجهة نتائج غير متوقعة بفضل التحليلات الأوسع.",
       "stat1": "تحكم مركزي",
       "stat2": "وصول دائم"
     },
     "featuresSection": {
       "title": "الوصول إلى كل شيء من مكان واحد",
-      "subtitle": "نظام شامل لإدارة المخزون"
+      "subtitle": "نظام كامل لإدارة المخزون"
     },
     "management": {
       "movements": {
         "title": "تابع تحركات مخزونك",
-        "description": "قم بإنشاء حسابات العملاء الخاصة بك، تابع مستحقاتك وديونك المتعلقة بهذه الحسابات. افحص تحركات النقدية التي تمت خلال اليوم."
+        "description": "قم بإنشاء حسابات العملاء الخاصة بك، وتابع الديون والحقوق المرتبطة بهذه الحسابات. فحص تحركات النقد التي تمت خلال اليوم."
       },
       "counting": {
-        "title": "راقب جرد المخزون",
-        "description": "تابع مخزونك من المنتجات والمواد الخام، راقب تحركات المخزون، تحقق من مخزونك من خلال جرد دوري."
+        "title": "تحكم في جرد مخزونك",
+        "description": "تابع مخزوناتك من المنتجات والمواد الخام، راقب تحركات المخزون الخاصة بك، تحقق من مخزوناتك من خلال الجرد الدوري."
       }
     },
     "alert": {
-      "title": "نظام تنبيه المخزون",
-      "description": "مع نظام إدارة المخزون AyaPos، يمكنك متابعة المنتجات والمواد الخام في المخزون ورؤية المخزون المقترب من النفاد بفضل نظام التنبيه.",
+      "title": "نظام إنذار المخزون",
+      "description": "مع نظام إدارة المخزون أيا باي، يمكنك متابعة المنتجات والمواد الخام في المخزون ورؤية المخزونات على وشك النفاد بفضل نظام الإنذار.",
       "cta": "اعرف المزيد"
     },
     "cta": {
       "title": "هل أنت مستعد لتحسين إدارة مخزونك؟",
-      "subtitle": "تواصل معنا لاكتشاف كيف يمكن أن يحسن نظامنا من ربحيتك",
-      "button": "اطلب عرض توضيحي"
+      "subtitle": "اتصل بنا لاكتشاف كيف يمكن لنظامنا تحسين ربحيتك",
+      "button": "طلب عرض تجريبي"
     }
   },
   "centralizedManagement": {
     "hero": {
-      "badge": "نظام إدارة مركزية",
-      "title": "إدارة مركزية للفروع",
+      "badge": "نظام إدارة مركزي",
+      "title": "الإدارة المركزية للفروع",
       "subtitle": "تحكم، إدارة ومتابعة شاملة. تابع بسهولة جميع مؤسساتك من مركز واحد.",
-      "cta": "اطلب عرض سعر"
+      "cta": "طلب عرض سعر"
     },
     "quickSection": {
       "title": "وصول سريع من مكان واحد",
@@ -577,35 +577,35 @@
     },
     "quick": {
       "menus": {
-        "title": "إدارة قوائم الطعام",
-        "description": "قم بإدارة جميع قوائم الطعام لكافة الفروع من مكان واحد. قم بتحديث الأسعار متى شئت وطبقها على جميع الفروع."
+        "title": "إدارة قوائمك",
+        "description": "قم بإدارة جميع قوائم الفروع من مكان واحد. تحديث الأسعار متى شئت وطبقها على جميع الفروع."
       },
       "movements": {
         "title": "تحكم في التحركات",
-        "description": "افحص التحركات اليومية أو الشهرية أو خلال الفترة المختارة لفروعك. تحليل التقارير."
+        "description": "فحص التحركات اليومية، الشهرية أو خلال الفترة المختارة لفروعك. تحليل التقارير."
       },
       "branches": {
         "title": "تابع فروعك",
-        "description": "سواء كان لديك فرعين أو مئة. تابع جميع فروعك من مركز واحد. قم بتوسيع نشاطك."
+        "description": "سواء كان لديك فرعين أو مئة. تابع جميع فروعك من مركز واحد. قم بتطوير نشاطك."
       }
     },
     "controlSection": {
       "badge": "تحكم كامل",
-      "title": "راقب، وتدخل",
-      "subtitle": "أينما كنت، تابع جميع فروعك بأدق التفاصيل"
+      "title": "راقب، تدخل",
+      "subtitle": "أينما كنت، تابع جميع فروعك بتفاصيل دقيقة"
     },
     "control": {
       "supervise": {
-        "title": "راقب، وتدخل",
-        "description": "أينما كنت، تابع جميع فروعك بأدق التفاصيل. راقب تحركات النقدية. تحقق من التقارير، ولا تترك شيئًا للصدفة."
+        "title": "راقب، تدخل",
+        "description": "أينما كنت، تابع جميع فروعك بتفاصيل دقيقة. راقب تحركات النقد. فحص التقارير، لا تترك شيئاً للصدفة."
       },
       "update": {
-        "title": "قم بتحديث الأسعار بنقرة واحدة",
-        "description": "نظم بسرعة الأسعار والتفاصيل للمنتجات بفروعك. طبق التعديلات التي تقوم بها على جميع فروعك بنقرة واحدة."
+        "title": "تحديث الأسعار بنقرة واحدة",
+        "description": "نظم بسرعة الأسعار وتفاصيل المنتجات الخاصة بفروعك. طبق التعديلات التي تجريها على جميع فروعك بنقرة واحدة."
       },
       "accounts": {
-        "title": "افحص الحسابات والنقدية",
-        "description": "راجع تحركات النقدية، الحسابات البنكية المسجلة في شركتك. تابع جميع المعاملات من شاشة واحدة."
+        "title": "افحص الحسابات والصناديق",
+        "description": "افحص تحركات النقد الخاصة بك، والحسابات العملاء المسجلة في مؤسستك. تابع جميع المعاملات من شاشة واحدة."
       }
     },
     "allBranches": {
@@ -616,11 +616,11 @@
     "operational": {
       "control": {
         "title": "تحكم في جميع العمليات",
-        "description": "قم بإدارة جميع عمليات فروعك من شاشة واحدة. رتب قوائم الطعام، عدل خطط التوزيع، راقب المخزون، تابع الموظفين، تحقق من الفواتير وحسابات العملاء."
+        "description": "قم بإدارة جميع العمليات في فروعك من شاشة واحدة. نظم قوائمك، عدّل خطط التوزيع، راقب المخزونات، تابع الموظفين، اقرأ الفواتير وحسابات العملاء."
       },
       "remote": {
         "title": "تحكم من أي مكان",
-        "description": "راصد ونظم بسهولة جميع تفاصيل فروعك باستخدام جهاز كمبيوتر أو هاتف متصل بالإنترنت. يتم تطبيق جميع التعديلات التي تقوم بها تلقائيًا على فروعك."
+        "description": "شاهد ونظم بسهولة جميع تفاصيل فروعك باستخدام كمبيوتر أو هاتف متصل بالإنترنت. جميع التعديلات التي تجريها تطبق تلقائياً على فروعك."
       },
       "evaluate": {
         "title": "قيم فروعك",
@@ -630,259 +630,259 @@
     "reports": {
       "badge": "التقارير والتحليلات",
       "title": "التقارير والتحليلات",
-      "subtitle": "فحص تقارير جميع فروعك من مركز واحد",
+      "subtitle": "افحص تقارير جميع فروعك من مركز واحد",
       "instant": {
         "title": "تقارير فورية ودورية",
-        "description": "مع نظام الإدارة المركزية AyaPos، يمكنك رؤية التقارير لفترة زمنية محددة وتقارير الحالة الفورية. يمكنك أيضًا إجراء تحليلات بسهولة باستخدام التقارير المصورة."
+        "description": "مع نظام الإدارة المركزية أيا باي، يمكنك رؤية التقارير لفترة زمنية محددة وتقارير الحالة الفورية. يمكنك أيضاً إجراء تحليلات بسهولة مع التقارير المرئية."
       },
       "central": {
-        "title": "نظام التقارير المركزي",
-        "description": "يمكنك الوصول إلى تقارير جميع الفروع من مركز واحد ومقارنة فروعك. وبالتالي، يمكنك الحصول على تحليلات أداء للفروع."
+        "title": "نظام تقارير مركزي",
+        "description": "يمكنك الوصول إلى تقارير جميع الفروع من مركز واحد ومقارنة فروعك. وبالتالي، يمكنك الحصول على تحليلات أداء الفروع."
       }
     },
     "benefits": {
       "stat1": "أسرع",
-      "stat2": "الوصول من أي مكان",
+      "stat2": "وصول في كل مكان",
       "stat3": "رؤية كاملة"
     },
     "cta": {
-      "title": "هل أنت مستعد لمركز إدارة نظامك؟",
-      "subtitle": "اكتشف كيف يمكنك إدارة جميع فروعك من مكان واحد",
-      "button": "اطلب عرض توضيحي"
+      "title": "هل أنت مستعد لمركزة إدارتك؟",
+      "subtitle": "اكتشف كيف تدير جميع فروعك من مكان واحد",
+      "button": "طلب عرض تجريبي"
     }
   },
   "kioskPricing": {
     "hero": {
-      "title": "أسعار أكشاك الخدمة الذاتية",
-      "subtitle": "اختر الكشك المثالي لعملك. تشمل التثبيت والتكوين والتدريب.",
-      "badge": "توصيل وتثبيت مجاني"
+      "title": "أسعار أكشاك الطلب الذاتي",
+      "subtitle": "اختر الكشك المثالي لعملك. التركيب، الإعداد والتدريب مشمولون.",
+      "badge": "توصيل وتركيب مجاني"
     },
     "recommended": "موصى به",
-    "oneTime": "دفعة واحدة",
+    "oneTime": "دفع لمرة واحدة",
     "orderNow": "اطلب الآن",
     "models": {
       "small": {
         "name": "كشك مدمج",
-        "size": "حجم صغير - مثالي للمساحات الصغيرة",
-        "screen": "شاشة لمس 15.6\"",
+        "size": "حجم صغير - مثالي للمساحات المحدودة",
+        "screen": "شاشة لمسية 15.6\"",
         "features": [
-          "شاشة لمس عالية الوضوح 15.6\"",
+          "شاشة لمسية عالية الدقة 15.6\"",
           "معالج رباعي النواة عالي الأداء",
           "طابعة تذاكر حرارية مدمجة",
-          "قارئ بطاقات NFC",
-          "دعم جداري أو قائم",
-          "تصميم مضغوط وأنيق",
-          "واجهة AyaPos مثبتة مسبقًا",
+          "قارئ بطاقات مصرفية NFC",
+          "دعم للحائط أو قائم",
+          "تصميم مدمج وأنيق",
+          "واجهة أيا باي مثبتة مسبقاً",
           "ضمان لمدة سنتين"
         ]
       },
       "medium": {
         "name": "كشك قياسي",
         "size": "حجم متوسط - الأكثر شعبية",
-        "screen": "شاشة لمس 21.5\"",
+        "screen": "شاشة لمسية 21.5\"",
         "features": [
-          "شاشة لمس فوارق عالية 21.5\"",
+          "شاشة لمسية Full HD 21.5\"",
           "معالج عالي الأداء",
           "طابعة تذاكر عالية السرعة",
-          "قارئ بطاقات بدون تماس + رمز QR",
+          "قارئ بطاقات غير تلامسي + QR كود",
           "دعم قابل للتعديل في الارتفاع",
           "مكبرات صوت ستيريو مدمجة",
-          "إضاءة LED محيطة",
-          "واجهة AyaPos مميزة",
+          "إضاءة LED محيطية",
+          "واجهة أيا باي متميزة",
           "تخصيص الألوان",
-          "ضمان لمدة 3 سنوات + دعم ذو أولوية"
+          "ضمان لمدة 3 سنوات + دعم أولوي"
         ]
       },
       "large": {
-        "name": "كشك مميز",
+        "name": "كشك متميز",
         "size": "حجم كبير - أقصى تأثير",
-        "screen": "شاشة لمس 32\"",
+        "screen": "شاشة لمسية 32\"",
         "features": [
-          "شاشة لمس 4K Ultra HD 32\"",
+          "شاشة لمسية 4K Ultra HD 32\"",
           "معالج من الجيل الأخير",
           "طابعة تذاكر مزدوجة",
-          "طرف دفع مدمج متعدد البطاقات",
-          "هيكل قوي ومتميز",
-          "نظام صوت عالي الجودة",
+          "طرفية دفع مدمجة متعددة البطاقات",
+          "هيكل معزز فائق الجودة",
+          "نظام صوت عالي الدقة",
           "كاميرا HD للتحليلات",
           "إضاءة LED RGB قابلة للتخصيص",
-          "ماسح رموز الشريط",
-          "واجهة AyaPos للمؤسسات",
+          "ماسح رموز شريطية",
+          "واجهة أيا باي للمؤسسات",
           "تخصيص كامل للتصميم",
-          "ضمان لمدة 5 سنوات + دعم مخصص على مدار الساعة"
+          "ضمان لمدة 5 سنوات + دعم مخصص 24/7"
         ]
       }
     },
     "included": {
-      "title": "مدرج مع جميع الأكشاك",
-      "subtitle": "الخدمات والضمانات من أجل تثبيت خالي من المتاعب"
+      "title": "مشمول مع جميع الأكشاك",
+      "subtitle": "خدمات وضمانات لتركيب بلا متاعب"
     },
     "commonFeatures": {
       "warranty": {
-        "title": "ضمان موسع",
-        "description": "من سنتين إلى خمس سنوات حسب الطراز مع تدخل في الموقع"
+        "title": "ضمان ممتد",
+        "description": "من 2 إلى 5 سنوات حسب الطراز مع تدخل في الموقع"
       },
       "support": {
         "title": "دعم فني",
         "description": "المساعدة عبر الهاتف وعبر الإنترنت باللغة الفرنسية"
       },
       "installation": {
-        "title": "التثبيت متضمن",
-        "description": "التوصيل والتثبيت والتكوين بواسطة فنينا"
+        "title": "التركيب مشمول",
+        "description": "التوصيل والتركيب والإعداد بواسطة تقنيينا"
       },
       "software": {
-        "title": "برنامج AyaPos",
-        "description": "ترخيص البرنامج متضمن مع تحديثات مجانية"
+        "title": "برنامج أيا باي",
+        "description": "رخصة البرنامج مشمولة مع تحديثات مجانية"
       }
     },
     "comparison": {
       "title": "جدول المقارنة",
-      "subtitle": "قارن الميزات التقنية لنماذجنا",
+      "subtitle": "قارن الخصائص التقنية لنماذجنا",
       "feature": "الميزة",
       "screenSize": "حجم الشاشة",
-      "touchscreen": "شاشة لمس",
+      "touchscreen": "شاشة لمسية",
       "printer": "طابعة تذاكر",
       "cardReader": "قارئ بطاقات",
-      "speakers": "مكبرات صوت",
+      "speakers": "مكبرات الصوت",
       "customization": "تخصيص",
       "basic": "أساسي",
       "advanced": "متقدم",
       "complete": "كامل"
     },
     "cta": {
-      "title": "هل أنت مستعد لتجهيز مطعمك؟",
-      "subtitle": "خبراؤنا هنا لمساعدتك في اختيار النموذج الأفضل لنشاطك",
-      "button": "اطلب عرض سعر مخصص"
+      "title": "هل أنت مستعد لتزويد مطعمك؟",
+      "subtitle": "خبراؤنا هنا لمساعدتك في اختيار أفضل نموذج لنشاطك",
+      "button": "طلب عرض سعر مخصص"
     }
   },
   "orderSystemPricing": {
     "hero": {
-      "badge": "امتداد نظام الطلب",
+      "badge": "تمديد نظام الطلب",
       "title": "أسعار نظام الطلب عبر الإنترنت",
-      "subtitle": "أضف وحدة الطلب عبر الإنترنت إلى نظام نقاط البيع الحالي لديك. زِد مبيعاتك بنسبة 40% في المتوسط.",
-      "trial": "14 يوماً من التجربة المجانية متضمنة"
+      "subtitle": "أضف وحدة الطلب عبر الإنترنت إلى نظام نقاط البيع الحالي لديك. زد مبيعاتك بمعدل 40% في المتوسط.",
+      "trial": "14 يوماً من التجربة المجانية مشمولة"
     },
-    "perMonth": "في الشهر",
+    "perMonth": "شهرياً",
     "recommended": "موصى به",
-    "selectPlan": "اختر هذه الباقة",
+    "selectPlan": "اختيار هذه الباقة",
     "plansSection": {
       "title": "اختر باقتك",
-      "subtitle": "امتداد يتكامل تمامًا مع نظام نقاط البيع AyaPos الخاص بك"
+      "subtitle": "تمديد يتكامل تماماً مع نظام نقاط البيع أيا باي لديك"
     },
     "plans": {
       "basic": {
         "name": "باقة أساسية",
         "description": "للمطاعم والمقاهي الصغيرة",
         "features": [
-          "حتى 200 طلب / شهر",
-          "موقع ويب للطلب متوافق مع جميع الأجهزة",
+          "حتى 200 طلب/شهر",
+          "موقع ويب للطلب متجاوب",
           "قائمة رقمية قابلة للتخصيص",
           "إشعارات عبر البريد الإلكتروني",
           "دفع آمن عبر الإنترنت",
-          "تكامل تلقائي مع نظام نقاط البيع",
+          "تكامل نقاط البيع بصورة تلقائية",
           "دعم عبر البريد الإلكتروني"
         ]
       },
       "standard": {
-        "name": "باقة أعمال",
-        "description": "مثالي للمطاعم المتوسطة",
+        "name": "باقة للأعمال",
+        "description": "مثالية للمطاعم المتوسطة",
         "features": [
-          "حتى 1000 طلب / شهر",
-          "تطبيق مخصص للهواتف",
-          "قائمة بصور بدقة عالية غير محدودة",
-          "إشعارات عبر الرسائل النصية + البريد الإلكتروني",
+          "حتى 1000 طلب/شهر",
+          "تطبيق موبايل مخصص",
+          "قائمة مع صور عالية الدقة غير محدودة",
+          "إشعارات عبر SMS + بريد إلكتروني",
           "برنامج ولاء مدمج",
           "رموز ترويجية وخصومات",
-          "إحصاءات متقدمة",
-          "دعم ذي أولوية",
+          "إحصائيات متقدمة",
+          "دعم أولوي",
           "0% عمولة على المبيعات"
         ]
       },
       "premium": {
         "name": "باقة المؤسسات",
-        "description": "لسلاسل المطاعم والامتيازات",
+        "description": "للسلاسل والامتيازات",
         "features": [
-          "طلبيات غير محدودة",
-          "تطبيقات على نظامي iOS وAndroid",
-          "متعدد المطاعم / الفروع",
-          "واجهة برمجة تطبيقات مخصصة",
-          "روبوت دردشة ذكي مدمج",
+          "طلبات غير محدودة",
+          "تطبيقات iOS وAndroid",
+          "مستودعات متعددة / فروع",
+          "API مخصصة",
+          "روبوت دردشة AI مدمج",
           "أتمتة التسويق",
           "اختبار A/B للقائمة",
           "تحليلات تنبؤية",
           "مدير حساب مخصص",
-          " SLA مضمون 99.9%",
-          "تدريب شامل للفريق"
+          "ضمان SLA 99.9%",
+          "تدريب الفريق مشمول"
         ]
       }
     },
     "benefitsSection": {
-      "title": "لماذا يجب إضافة نظام الطلب؟",
-      "subtitle": "فوائد قابلة للقياس لشركتك"
+      "title": "لماذا إضافة نظام الطلب؟",
+      "subtitle": "فوائد قابلة للقياس لعملك"
     },
     "benefits": {
       "sales": {
-        "title": "زد مبيعاتك",
-        "description": "+40% من الإيرادات في المتوسط بفضل الطلبات عبر الإنترنت على مدار الساعة"
+        "title": "زد من مبيعاتك",
+        "description": "+40% من العائدات في المتوسط بفضل الطلبات عبر الإنترنت على مدار الساعة"
       },
       "customers": {
-        "title": "ولاء عملائك",
+        "title": "حافظ على عملائك",
         "description": "برنامج ولاء وتاريخ طلبات تلقائي"
       },
       "automation": {
-        "title": "أتمتة كاملة",
-        "description": "تصل الطلبات مباشرة إلى نظام نقاط البيع لديك"
+        "title": "أتمتة شاملة",
+        "description": "تصل الطلبات مباشرة إلى نظام نقاط البيع الخاص بك"
       },
       "integration": {
-        "title": "تكامل مثالي",
-        "description": "يتكامل بشكل أصلي مع نظام نقاط البيع AyaPos الحالي لديك"
+        "title": "تكامل تام",
+        "description": "يتكامل بشكل أصلي مع نظام نقاط البيع أيا باي الحالي لديك"
       }
     },
     "faq": {
-      "title": "أسئلة شائعة",
+      "title": "أسئلة متكررة",
       "q1": {
-        "question": "كيف يعمل التكامل مع نظام نقاط البيع الخاص بي؟",
-        "answer": "يتكامل نظام الطلب تلقائيًا مع نظام نقاط البيع AyaPos الخاص بك. تظهر الطلبات عبر الإنترنت على شاشة المطبخ الخاصة بك بشكل فوري، مثل الطلبات المحلية."
+        "question": "كيف يعمل التكامل مع نظام النقاط البيع الخاص بي؟",
+        "answer": "يتكامل نظام الطلب تلقائيًا مع نظام نقاط البيع أيا باي الخاص بك. تظهر الطلبات عبر الإنترنت على الفور على شاشة مطبخك، مثل الطلبات التي تُقدم في المكان."
       },
       "q2": {
-        "question": "هل يمكنني تغيير باقتي لاحقًا؟",
-        "answer": "نعم، يمكنك ترقيه أو تخفيض باقتك في أي وقت. تدخل التغييرات حيز التنفيذ على الفور."
+        "question": "هل يمكنني تغيير باقتي لاحقاً؟",
+        "answer": "نعم، يمكنك ترقية أو تقليل باقتك في أي وقت. تدخل التغييرات حيز التنفيذ على الفور."
       },
       "q3": {
-        "question": "هل هناك رسوم للتثبيت؟",
-        "answer": "لا، التثبيت والتكوين مشمولان في جميع الباقات. سيساعدك فريقنا في إعداد النظام."
+        "question": "هل هناك رسوم لتركيب النظام؟",
+        "answer": "لا، التركيب والإعداد مشمولان في جميع الباقات. فريقنا يدعمك أثناء الإعداد."
       }
     },
     "cta": {
-      "title": "هل أنت مستعد لزيادة مبيعاتك عبر الإنترنت؟",
-      "subtitle": "ابدأ تجربتك المجانية لمدة 14 يومًا، دون الحاجة إلى بطاقة ائتمان",
-      "button": "ابدأ التجربة المجانية"
+      "title": "هل أنت مستعد لتعزيز مبيعاتك عبر الإنترنت؟",
+      "subtitle": "ابدأ تجربتك المجانية لمدة 14 يوماً، دون الحاجة إلى بطاقة ائتمانية",
+      "button": "بدء التجربة المجانية"
     }
   },
   "deliveryServicePricing": {
     "hero": {
-      "badge": "امتداد خدمة التوصيل",
+      "badge": "تمديد خدمة التوصيل",
       "title": "أسعار خدمة التوصيل",
-      "subtitle": "أضف وحدة إدارة التوصيلات إلى نظام نقاط البيع الخاص بك. إدارة الدراجين الخاصين بك وتحسين جولاتهم.",
+      "subtitle": "أضف وحدة إدارة التوصيلات إلى نظام نقاط البيع الخاص بك. قم بإدارة سعاة التوصيل لديك وOptimize مساراتك.",
       "trial": "الشهر الأول مجاني"
     },
-    "perMonth": "في الشهر",
+    "perMonth": "شهرياً",
     "recommended": "موصى به",
-    "selectPlan": "اختر هذه الباقة",
+    "selectPlan": "اختيار هذه الباقة",
     "plansSection": {
       "title": "اختر باقتك",
-      "subtitle": "امتداد لإدارة التوصيلات لنظام نقاط البيع AyaPos الخاص بك"
+      "subtitle": "تمديد إدارة التوصيل لنظام نقاط البيع أيا باي الخاص بك"
     },
     "plans": {
       "starter": {
-        "name": "باقة البدء",
-        "description": "لبداية خدمات التوصيل الخاصة بك",
+        "name": "باقة البداية",
+        "description": "للبدء في التوصيلات",
         "features": [
           "حتى 200 توصيل/شهر",
-          "حد أقصى دراجان",
-          "تتبع GPS في الوقت الفعلي",
-          "إشعارات عبر الرسائل النصية للعملاء",
-          "حساب تلقائي للمسافات",
+          "حد أقصى 2 سعاة",
+          "تتبع GPS في الوقت الحقيقي",
+          "إشعارات العملاء عبر SMS",
+          "حساب المسافات تلقائياً",
           "دعم عبر البريد الإلكتروني"
         ]
       },
@@ -891,182 +891,182 @@
         "description": "لخدمة توصيل نشطة",
         "features": [
           "حتى 1000 توصيل/شهر",
-          "حد أقصى 10 دراجين",
-          "تحسين الجولات باستخدام الذكاء الاصطناعي",
-          "تطبيق دراج مخصص",
-          "نظام تقييم العملاء",
-          "تقارير الأداء",
-          "دفع الدراجين مدمج",
-          "دعم عبر الهاتف + الدردشة"
+          "حد أقصى 10 سعاة",
+          "تحسين المسارات بالذكاء الاصطناعي",
+          "تطبيق مخصص للسعاة",
+          "نظام تقييم للعملاء",
+          "تقارير أداء",
+          "دفع للسعاة مدمج",
+          "دعم عبر الهاتف + دردشة"
         ]
       },
       "enterprise": {
         "name": "باقة المؤسسات",
-        "description": "لأسطول كبير",
+        "description": "للأساطيل الكبيرة",
         "features": [
           "توصيلات غير محدودة",
-          "عدد غير محدد من الدراجين",
+          "عدد سعاة غير محدود",
           "توزيع ذكي",
           "منطقة توصيل متعددة",
-          "تكامل مع Uber Eats/Deliveroo",
-          "توقعات الطلب باستخدام الذكاء الاصطناعي",
-          "واجهة برمجة تطبيقات شاملة",
-          "لوحة تحكم للإدارة",
+          "تكامل مع أوبر إيتس/ديليفرو",
+          "توقعات الطلب بالذكاء الاصطناعي",
+          "API كاملة",
+          "لوحة تحكم للمدير",
           "تدريب للفريق",
-          "دعم مخصص على مدار الساعة"
+          "دعم مخصص 24/7"
         ]
       }
     },
     "benefitsSection": {
-      "title": "لماذا يجب إضافة خدمة التوصيل؟",
-      "subtitle": "أدوات احترافية لإدارة توصيلاتك"
+      "title": "لماذا إضافة خدمة التوصيل؟",
+      "subtitle": "أدوات مهنية لإدارة توصيلاتك"
     },
     "benefits": {
       "speed": {
         "title": "توصيلات أسرع",
-        "description": "تحسين الجولات تلقائيًا لتقليل المدة"
+        "description": "تحسين تلقائي للمسارات لتقليل المهل الزمنية"
       },
       "satisfaction": {
         "title": "عملاء راضون",
-        "description": "تتبع في الوقت الفعلي وإشعارات تلقائية"
+        "description": "تتبع في الوقت الحقيقي وإشعارات تلقائية"
       },
       "revenue": {
         "title": "إيرادات محسنة",
-        "description": "قلل تكاليف التوصيل بنسبة 30% في المتوسط"
+        "description": "قلل من تكاليف توصيلك بنسبة 30% في المتوسط"
       },
       "reliability": {
-        "title": "أقصى موثوقية",
-        "description": "عدد أخطاء أقل، ومزيد من السيطرة على توصيلاتك"
+        "title": "موثوقية قصوى",
+        "description": "أخطاء أقل، وتحكم أكبر في توصيلاتك"
       }
     },
     "comparison": {
-      "title": "جدول مقارنة الباقات",
+      "title": "جدول مقارنات الباقات",
       "feature": "الميزة",
-      "orders": "التوصيلات المتضمنة",
+      "orders": "التوصيلات المشمولة",
       "tracking": "تتبع GPS",
-      "couriers": "عدد الدراجين",
+      "couriers": "عدد السعاة",
       "support": "دعم العملاء"
     },
     "cta": {
       "title": "هل أنت مستعد لتحسين توصيلاتك؟",
-      "subtitle": "الشهر الأول مجاني لتجربة الخدمة بلا التزام",
+      "subtitle": "الشهر الأول مجاني لتجربة الخدمة بدون التزام",
       "button": "ابدأ الآن"
     }
   },
   "waiterTerminalPricing": {
     "hero": {
-      "badge": "امتداد محطة الخدمة",
-      "title": "أسعار محطة الخدمة",
-      "subtitle": "زود خدمك بالأجهزة اللوحية لأخذ الطلبات بسرعة قصوى. زِد من كفاءة خدمتك.",
-      "trial": "تجربة مجانية لمدة 30 يومًا"
+      "badge": "تمديد طرفية النادل",
+      "title": "أسعار طرفية النادل",
+      "subtitle": "زود نُدُلَك بأجهزة لوحية من أجل أخذ الطلبات بسرعة فائقة. زِد من كفاءة خدمتك.",
+      "trial": "تجربة مجانية لمدة 30 يوماً"
     },
-    "perMonth": "في الشهر",
-    "oneTime": "دفعة واحدة",
+    "perMonth": "شهرياً",
+    "oneTime": "دفع لمرة واحدة",
     "recommended": "موصى به",
-    "selectPlan": "اختر هذه الباقة",
-    "addToCart": "أضف إلى السلة",
+    "selectPlan": "اختيار هذه الباقة",
+    "addToCart": "إضافة إلى السلة",
     "plansSection": {
-      "title": "باقة البرمجيات الشهرية",
-      "subtitle": "امتداد محطة الخدمة لنظام نقاط البيع AyaPos الخاص بك"
+      "title": "باقات برامج شهرية",
+      "subtitle": "تمديد طرفية النادل لنظام نقاط البيع أيا باي الخاص بك"
     },
     "plans": {
       "starter": {
-        "name": "باقة البدء",
-        "description": "مثالية للمطاعم الصغيرة",
+        "name": "باقة البداية",
+        "description": "مثالي للمطاعم الصغيرة",
         "features": [
-          "تطبيق خادم محمول",
+          "تطبيق نادل موبايل",
           "أخذ الطلبات على الطاولة",
-          "تزامن في الوقت الفعلي",
-          "إرسال مباشر إلى المطبخ",
-          "إدارة قاعدية للطاولات",
-          "دفع في الطاولة",
+          "تزامن في الوقت الحقيقي",
+          "إرسال مباشر للمطبخ",
+          "إدارة الطاولات الأساسية",
+          "دفع على الطاولة",
           "دعم عبر البريد الإلكتروني"
         ]
       },
       "professional": {
-        "name": "باقة الاحترافية",
-        "description": "للمطاعم المتوسطة / الكبيرة",
+        "name": "باقة المحترفين",
+        "description": "للمطاعم المتوسطة/الكبيرة",
         "features": [
-          "جميع ميزات باقة البدء",
-          "خطة غرفة تفاعلية",
+          "جميع ميزات باقة البداية",
+          "خطة قاعة تفاعلية",
           "إدارة الحجوزات",
-          "تتبع أوقات الانتظار",
+          "تتبع زمن الانتظار",
           "ملاحظات خاصة للمطبخ",
           "نقل الطاولات",
           "إدارة الفواتير المشتركة",
-          "تقارير الأداء",
-          "دعم ذي أولوية عبر الدردشة"
+          "تقارير أداء",
+          "دعم أولوي عبر الدردشة"
         ]
       },
       "enterprise": {
         "name": "باقة المؤسسات",
-        "description": "لسلاسل الطعام والمجموعات الكبيرة",
+        "description": "لسلاسل ومجموعات كبيرة",
         "features": [
-          "جميع ميزات باقة الاحترافية",
-          "متعددة المطاعم / الفروع",
-          "إدارة فرق الخدمة",
-          "نظام ضمان للخدمات",
-          "تحليلات متقدمة لكل خادم",
-          "اقتراحات بيع باستخدام الذكاء الاصطناعي",
+          "جميع ميزات باقة المحترفين",
+          "مستودعات متعددة/فروع",
+          "إدارة فرق النُدُل",
+          "نظام ضمان للنُدُل",
+          "تحليلات متقدمة لكل نادل",
+          "اقتراحات بالذكاء الاصطناعي للمبيعات",
           "تكامل مع التقويم",
           "وضع غير متصل متقدم",
-          "تدريب شامل للفريق",
-          "واجهة برمجة تطبيقات مخصصة",
-          "دعم مخصص على مدار الساعة"
+          "تدريب كامل للفريق",
+          "API مخصصة",
+          "دعم مخصص 24/7"
         ]
       }
     },
     "hardwareSection": {
       "title": "أجهزة اختيارية",
-      "subtitle": "أجهزة لوحية وإكسسوارات احترافية متاحة للشراء"
+      "subtitle": "أجهزة لوحية وإكسسوارات مهنية متاحة للشراء"
     },
     "hardware": {
       "tablet": {
-        "name": "جهاز لوحي احترافي 10\"",
-        "description": "جهاز لوحي Android مقاوم للاستخدام المكثف",
+        "name": "جهاز لوحي مهني 10\"",
+        "description": "جهاز لوحي أندرويد قوي للاستخدام المكثف",
         "features": [
-          "شاشة 10\" مضادة للانعكاس ومقاومة",
+          "شاشة 10\" غير عاكسة ومقاومة",
           "بطارية طويلة الأمد (12 ساعة)",
-          "غلاف مضاد للصدمات مشمول",
+          "حافظة مضادة للصدمات مشمولة",
           "حامل حزام مريح"
         ]
       },
       "printer": {
         "name": "طابعة محمولة",
-        "description": "طابعة محمولة لفواتير الطاولة",
+        "description": "طابعة متنقلة للفواتير على الطاولة",
         "features": [
-          "طباعة تذاكر بدون أسلاك",
-          "بطارية قابلة للشحن",
+          "طباعة تذاكر لاسلكية",
+          "بطارية قابلة لإعادة الشحن",
           "متوافقة مع iOS وAndroid"
         ]
       }
     },
     "benefitsSection": {
-      "title": "لماذا يجب تجهيز خدمك؟",
-      "subtitle": "فوائد ملموسة لخدمتك"
+      "title": "لماذا تجهيز نُدُلَك؟",
+      "subtitle": "مكاسب ملموسة لخدمتك"
     },
     "benefits": {
       "efficiency": {
         "title": "خدمة أسرع",
-        "description": "قلل الوقت بين الطلب والإرسال إلى المطبخ بنسبة 40%"
+        "description": "قلل الوقت بنسبة 40% بين الطلب والإرسال إلى المطبخ"
       },
       "speed": {
-        "title": "دورة أسرع",
-        "description": "قم بتقديم المزيد من الطلبات خلال ساعات الذروة"
+        "title": "تدوير متسارع",
+        "description": "قم بخدمة المزيد من الضيوف خلال ساعات الذروة"
       },
       "errors": {
         "title": "صفر أخطاء",
-        "description": "تجنب أخطاء النسخ والنسيانات"
+        "description": "تخلص من أخطاء الكتابة والنسيان"
       },
       "management": {
         "title": "إدارة سهلة",
-        "description": "تابع أداء كل نادل في الوقت الفعلي"
+        "description": "تابع أداء كل نادل في الوقت الحقيقي"
       }
     },
     "comparison": {
-      "title": "جدول مقارنة الباقات",
+      "title": "جدول المقارنة للباقات",
       "feature": "الميزة",
-      "tablets": "الأجهزة اللوحية المتضمنة",
+      "tablets": "أجهزة لوحية مشمولة",
       "tables": "عدد الطاولات",
       "kitchen": "شاشة المطبخ",
       "analytics": "تحليلات",
@@ -1077,84 +1077,84 @@
     },
     "cta": {
       "title": "هل أنت مستعد لتحديث خدمتك؟",
-      "subtitle": "اختبر الخدمة مجانًا لمدة 30 يومًا، دون التزام",
-      "button": "ابدأ التجربة المجانية"
+      "subtitle": "اختبر مجانًا لمدة 30 يومًا، بدون التزام",
+      "button": "بدء التجربة المجانية"
     }
   },
   "hardwareDevices": {
     "hero": {
-      "badge": "كتالوج الأجهزة",
-      "title": "الأجهزة ووحدات نقاط البيع",
+      "badge": "كتالوج المعدات",
+      "title": "المعدات وأجهزة نقاط البيع",
       "subtitle": "جميع المعدات والإكسسوارات التي تحتاجها لعملك. معدات احترافية عالية الجودة."
     },
     "categories": {
-      "all": "الكل",
-      "pos": "محطات نقاط البيع",
-      "kiosk": "أكشاك الخدمة الذاتية",
+      "all": "الجميع",
+      "pos": "أجهزة نقاط البيع",
+      "kiosk": "أكشاك الطلب",
       "printers": "طابعات",
       "accessories": "إكسسوارات"
     },
     "devices": {
-      "sunmiD3Pro": "شاشة تعمل باللمس 15.6 بوصة، أندرويد 11، معالج عالي الأداء",
-      "sunmiD3Mini": "شاشة تعمل باللمس 10.1 بوصة، مدمجة وقوية",
-      "iMinSwan": "محطة نقاط بيع أندرويد ممتازة مع شاشة تعمل باللمس",
+      "sunmiD3Pro": "شاشة لمسية 15.6 بوصة، أندرويد 11، معالج عالي الأداء",
+      "sunmiD3Mini": "شاشة لمسية 10.1 بوصة، مدمجة وقوية",
+      "iMinSwan": "طرفية نقاط بيع أندرويد متميزة مع شاشة لمسية سعة",
       "iMinD3": "حل نقاط بيع كامل مع طابعة مدمجة",
-      "iMinD2": "محطة مدمجة مثالية للمساحات الصغيرة",
-      "iMinD1": "محطة نقاط بيع اقتصادية مع جميع الميزات",
-      "wintecAnypos": "واجهة خدمة ذاتية عمودية 15.6 بوصة",
-      "wintecSelfpos10": "كشك عمودي للطلبات السريعة",
-      "wintecSelfpos70": "كشك كبير 32 بوصة لتأثير بصري أقصى",
-      "paxSk800": "كشك خدمة احترافي 23.8 بوصة",
-      "thermalPrinter": "طابعة حرارية لنقاط البيع",
+      "iMinD2": "طرفية مدمجة مثالية للمساحات الصغيرة",
+      "iMinD1": "طرفية نقاط بيع اقتصادية مع جميع الميزات",
+      "wintecAnypos": "كشك خدمة ذاتية عمودي 15.6 بوصة",
+      "wintecSelfpos10": "كشك عمودي للطلب السريع",
+      "wintecSelfpos70": "كشك كبير 32 بوصة لأقصى تأثير بصري",
+      "paxSk800": "كشك متميز مهني 23.8 بوصة",
+      "thermalPrinter": "طابعة حرارية نقاط البيع",
       "thermalPrinterDesc": "طباعة سريعة وصامتة، متوافقة مع جميع الأنظمة",
-      "labelPrinter": "طابعة ملصقات باركود",
-      "labelPrinterDesc": "مدمجة وسهلة الاستخدام لملصقات المنتجات",
+      "labelPrinter": "طابعة ملصقات رموز شريطية",
+      "labelPrinterDesc": "مضغوطة وسهلة الاستخدام لملصقات المنتجات",
       "scaleLabel": "ميزان مع طابعة ملصقات",
-      "scaleLabelDesc": "دقة موثوقة مع طباعة باركود",
-      "barcodeWired": "قارئ باركود سلكي",
-      "barcodeWiredDesc": "قارئ احترافي للطاولة للخزينة",
-      "barcodeWireless": "قارئ باركود لاسلكي",
-      "barcodeWirelessDesc": "عمر بطارية 30 ساعة، مدى 100 متر",
-      "cashDrawer": "درج نقود معدني",
-      "cashDrawerDesc": "بناء قوي ودائم من المعدن المدعم",
+      "scaleLabelDesc": "قياس دقيق وموثوق مع طباعة رموز شريطية",
+      "barcodeWired": "قارئ رموز شريطية سلكي",
+      "barcodeWiredDesc": "قارئ مهنية للطاولة للخزينة",
+      "barcodeWireless": "قارئ رموز شريطية لاسلكي",
+      "barcodeWirelessDesc": "بطارية تدوم 30 ساعة، مدى 100م",
+      "cashDrawer": "درج نقدي معدني",
+      "cashDrawerDesc": "بناء قوي ودائم من المعدن المقوى",
       "cardReader": "قارئ بطاقات RFID",
-      "cardReaderDesc": "توصيل وتشغيل، متوافق مع البطاقات بدون تلامس",
-      "pavoN86": "محطة دفع محمولة عالية الدقة مع NFC",
-      "waiterHandheld": "محطة خادم محمولة",
-      "waiterHandheldDesc": "شاشة عالية الدقة IPS بحجم 5 بوصات، مثالية لأخذ الطلبات المحمولة",
-      "paxA920Pro": "محطة مهنية محمولة بحجم 5.5 بوصات"
+      "cardReaderDesc": "توصيل وتشغيل، متوافق مع البطاقات غير التلامسية",
+      "pavoN86": "طرفية دفع محمولة HD مع NFC",
+      "waiterHandheld": "طرفية نادل محمولة",
+      "waiterHandheldDesc": "شاشة HD IPS بحجم 5 بوصات، مثالية لأخذ الطلبات بشكل متنقل",
+      "paxA920Pro": "طرفية محمولة احترافية بحجم 5.5 بوصات"
     },
     "requestQuote": "طلب عرض سعر",
     "features": {
       "title": "لماذا تختار معداتنا؟",
       "subtitle": "معدات احترافية مع خدمة كاملة",
       "quality": {
-        "title": "جودة ممتازة",
-        "description": "معدات احترافية من علامات تجارية معروفة عالميًا"
+        "title": "جودة متميزة",
+        "description": "معدات احترافية من علامات تجارية معروفة عالمياً"
       },
       "warranty": {
         "title": "ضمان موسع",
-        "description": "ضمان مصنع من سنتين إلى خمس سنوات حسب الطرازات"
+        "description": "ضمان من الشركة المصنعة لمدة تتراوح بين 2 إلى 5 سنوات حسب الموديلات"
       },
       "support": {
         "title": "دعم فني",
-        "description": "مساعدة عبر الهاتف وعلى الموقع عند الحاجة"
+        "description": "مساعدة عبر الهاتف وعبر الموقع عند الحاجة"
       },
       "delivery": {
-        "title": "توصيل وتركيب",
-        "description": "توصيل سريع وتركيب من قبل فنينا"
+        "title": "تسليم وتركيب",
+        "description": "تسليم سريع وتركيب بواسطة تقنيينا"
       }
     },
     "cta": {
-      "title": "تحتاج إلى نصائح بخصوص معداتك؟",
+      "title": "هل تحتاج إلى نصائح حول معداتك؟",
       "subtitle": "خبراؤنا يساعدونك في اختيار المعدات المناسبة لاحتياجاتك",
-      "button": "تواصل مع خبرائنا"
+      "button": "اتصل بخبرائنا"
     }
   },
   "about": {
     "hero": {
-      "title": "نبذة عن AyaPos",
-      "subtitle": "نحن شركة مبتكرة مكرسة للتحول الرقمي في مجال المطاعم. مهمتنا: تبسيط إدارة منشأتك من خلال حلول نقاط البيع الحديثة والبديهية."
+      "title": "عن أيا باي",
+      "subtitle": "نحن شركة مبتكرة مكرسة للتحول الرقمي في مجال المطاعم. مهمتنا: تبسيط إدارة مؤسستك من خلال حلول نقاط بيع حديثة وبديهية."
     },
     "stats": {
       "clients": "عملاء راضون",
@@ -1164,55 +1164,55 @@
     },
     "story": {
       "title": "قصتنا",
-      "paragraph1": "تأسست AyaPos في عام 2010، ولدت من الرغبة في تحديث قطاع المطاعم. بدأنا برؤية بسيطة: إنشاء أدوات تكنولوجية متاحة لجميع أصحاب المطاعم، بغض النظر عن حجم منشآتهم.",
-      "paragraph2": "على مر السنين، طورنا مجموعة كاملة من حلول نقاط البيع التي تجمع بين الابتكار وسهولة الاستخدام والموثوقية. اليوم، أنظمتنا تُستخدم في أكثر من 5000 مطعم ومقهى وبار ومؤسسة في جميع أنحاء فرنسا وأوروبا.",
-      "paragraph3": "فريقنا المتحمس يعمل كل يوم على تحسين منتجاتنا ومساعدة عملائنا في تحقيق نجاحهم. نحن نؤمن بأن التكنولوجيا يجب أن تكون في خدمة الإنسان، وليس العكس."
+      "paragraph1": "تأسست أيا باي في عام 2010، ولدت من إرادة تحديث قطاع المطاعم. بدأنا برؤية بسيطة: إنشاء أدوات تكنولوجية متاحة لجميع أصحاب المطاعم، بغض النظر عن حجم مؤسساتهم.",
+      "paragraph2": "على مدار السنوات، طورنا مجموعة كاملة من حلول نقاط البيع التي تجمع بين الابتكار وسهولة الاستخدام والموثوقية. اليوم، توفر أنظمتنا الخدمة لأكثر من 5000 مطعم ومقهى وبار ومؤسسة عبر فرنسا وأوروبا.",
+      "paragraph3": "يعمل فريقنا المتحمس كل يوم لتحسين منتجاتنا ودعم عملائنا في تحقيق النجاح. نحن نؤمن أن التكنولوجيا يجب أن تخدم الإنسان، وليس العكس."
     },
     "valuesSection": {
       "title": "قيمنا",
-      "subtitle": "ما يقود عملنا يوميًا"
+      "subtitle": "ما يوجه أفعالنا يومياً"
     },
     "values": {
       "innovation": {
-        "title": "ابتكار",
+        "title": "الابتكار",
         "description": "نستثمر باستمرار في البحث والتطوير لنقدم لك أحدث التقنيات"
       },
       "customer": {
-        "title": "استماع للعميل",
-        "description": "تكون احتياجاتك في قلب تطوراتنا. نحن نستمع ونتصرف"
+        "title": "الاستماع للعميل",
+        "description": "احتياجاتك في قلب تطويرنا. نحن نستمع ونتصرف"
       },
       "quality": {
-        "title": "جودة",
-        "description": "معدات ممتازة، برامج قوية ودعم فني ممتاز"
+        "title": "الجودة",
+        "description": "معدات متميزة، برامج قوية ودعم فني ممتاز"
       },
       "efficiency": {
-        "title": "كفاءة",
+        "title": "الكفاءة",
         "description": "حلول مصممة لتوفير الوقت وزيادة ربحيتك"
       }
     },
     "timeline": {
-      "title": "مسارنا",
-      "subtitle": "المراحل الكبرى في تطويرنا",
+      "title": "مسيرتنا",
+      "subtitle": "الخطوات الكبرى في تطويرنا",
       "2010": {
-        "title": "تأسيس AyaPos",
-        "description": "إطلاق نظام نقاط البيع الأول لمطاعم مع 50 عميلًا في السنة الأولى"
+        "title": "تأسيس أيا باي",
+        "description": "إطلاق نظام نقاط البيع الأول لدينا للمطاعم مع 50 عميلاً في السنة الأولى"
       },
       "2015": {
         "title": "التوسع الوطني",
-        "description": "فتح 5 مكاتب إقليمية وإطلاق التطبيق المحمول للخوادم"
+        "description": "فتح 5 مكاتب إقليمية وإطلاق تطبيق الهاتف المحمول للنُدُل"
       },
       "2020": {
-        "title": "ابتكار سحابي",
+        "title": "ابتكار السحابة",
         "description": "الانتقال الكامل إلى السحابة وإطلاق أكشاك الخدمة الذاتية من الجيل الجديد"
       },
       "2024": {
-        "title": "ذكاء اصطناعي",
-        "description": "دمج الذكاء الاصطناعي للتوقعات البيعية وإدارة المخزون المحسّنة"
+        "title": "الذكاء الاصطناعي",
+        "description": "دمج الذكاء الاصطناعي لتوقعات المبيعات وإدارة المخزون بشكل محسن"
       }
     },
     "mission": {
       "title": "مهمتنا",
-      "description": "مرافقة أصحاب المطاعم في تحولهم الرقمي من خلال تزويدهم بأدوات بسيطة وقوية ومناسبة للميزانية. نريد أن يستفيد كل منشأة، من المقاهي الصغيرة إلى المطاعم الكبرى، من نفس التقنيات التي تستخدمها السلاسل الكبرى.",
+      "description": "مساعدة أصحاب المطاعم في تحولهم الرقمي عبر تزويدهم بأدوات بسيطة وقوية وبأسعار معقولة. نريد أن يتمكن كل مؤسسة، من المقاهي الصغيرة إلى المطاعم الكبيرة، من الاستفادة من نفس التقنيات التي تتمتع بها سلاسل الكبرى.",
       "badge1": "ابتكار مستمر",
       "badge2": "دعم مخصص",
       "badge3": "مجتمع نشط"
@@ -1220,47 +1220,47 @@
   },
   "blog": {
     "hero": {
-      "title": "مدونة AyaPos",
-      "subtitle": "أخبار، نصائح وتوجهات في عالم المطاعم الحديثة"
+      "title": "مدونة أيا باي",
+      "subtitle": "أخبار، نصائح واتجاهات في عالم المطاعم الحديثة"
     },
     "categories": {
       "all": "جميع المقالات",
-      "news": "أخبار",
+      "news": "الأخبار",
       "tips": "نصائح",
-      "technology": "تكنولوجيا",
-      "success": "قصص نجاح"
+      "technology": "التكنولوجيا",
+      "success": "قصص النجاح"
     },
     "readMore": "اقرأ المزيد",
     "articles": {
       "article1": {
-        "title": "AyaPos تطلق مجموعتها الجديدة من أكشاك الخدمة الذاتية",
-        "excerpt": "اكتشف أكشاك الخدمة الذاتية الجديدة المزودة بشاشة 32 بوصة وواجهة فائقة السلاسة. ثورة لتجربة العميل في خدمات الوجبات السريعة."
+        "title": "أيا باي تطلق مجموعتها الجديدة من أكشاك الخدمة الذاتية",
+        "excerpt": "اكتشف أكشاكنا الجديدة مع شاشة بحجم 32 بوصة وواجهة مستخدم فائقة البساطة. ثورة في تجربة العملاء في المطاعم السريعة."
       },
       "article2": {
-        "title": "10 نصائح لتحسين خدمتك خلال ذروة العمل",
-        "excerpt": "كيفية إدارة الازدحام خلال ساعات الذروة؟ يشارك خبراؤنا أفضل الممارسات للحفاظ على جودة الخدمة حتى في الأوقات المزدحمة."
+        "title": "10 نصائح لتحسين خدمتك خلال فترات الذروة",
+        "excerpt": "كيف يمكن إدارة الزخم خلال أوقات الذروة؟ يشارك خبراؤنا أفضل الممارسات للحفاظ على خدمة عالية الجودة حتى في أوقات الازدحام."
       },
       "article3": {
         "title": "الذكاء الاصطناعي في خدمة المطاعم",
-        "excerpt": "كيفية مساعدة الذكاء الاصطناعي في توقع المبيعات، تحسين المخزون وتخصيص تجربة العميل. اكتشف الميزات الجديدة في AyaPos."
+        "excerpt": "كيف يمكن للذكاء الاصطناعي مساعدتك في توقع مبيعاتك، وتحسين مخزونك وتخصيص تجربة العملاء. اكتشف الميزات الجديدة في أيا باي."
       },
       "article4": {
-        "title": "قصة نجاح: Bistro Moderne تزيد من مبيعاتها ثلاث مرات",
-        "excerpt": "لقاء مع جان دوبون الذي حول مطعمه التقليدي إلى مؤسسة حديثة بفضل حلول AyaPos. شهادة ملهمة."
+        "title": "قصة نجاح: البيسترو الحديث يضاعف إيراداته",
+        "excerpt": "قابل جان دوبون الذي حول مطعمه التقليدي إلى مؤسسة حديثة بفضل حلول أيا باي. شهادة ملهمة."
       },
       "article5": {
-        "title": "تقليل الهدر الغذائي بفضل التكنولوجيا",
-        "excerpt": "يساعدك نظامنا الذكي لإدارة المخزون على تقليل الفاقد بنسبة 40%. اكتشف كيفية تحسين مشترياتك وتخفيف الهدر."
+        "title": "تقليل هدر الطعام بفضل التكنولوجيا",
+        "excerpt": "يساعدك نظام إدارة المخزون الذكي لدينا في تقليل خسائرك بنسبة 40%. اكتشف كيفية تحسين مشترياتك وتقليل الهدر."
       },
       "article6": {
-        "title": "رمز الاستجابة السريعة والطلب عبر الإنترنت: التوقعات الجديدة للعملاء",
-        "excerpt": "تتغير عادات الاستهلاك. يفضل 73% من العملاء الطلب عبر رمز الاستجابة السريعة. كيف تتكيف مع هذه التوجهات الجديدة؟"
+        "title": "رمز QR والطلب عبر الإنترنت: التوقعات الجديدة للعملاء",
+        "excerpt": "تتغير عادات الاستهلاك. يفضل 73% من العملاء الطلب عبر رمز QR. كيف يمكنك التكيف مع هذه الاتجاهات الجديدة؟"
       }
     },
     "newsletter": {
       "title": "ابق على اطلاع",
-      "subtitle": "احصل على آخر مقالاتنا ونصائحنا مباشرة في بريدك الإلكتروني",
-      "placeholder": "عنوان بريدك الإلكتروني",
+      "subtitle": "استقبل أحدث مقالاتنا ونصائحنا مباشرة في صندوق بريدك",
+      "placeholder": "بريدك الإلكتروني",
       "button": "اشترك"
     }
   }
