@@ -1,309 +1,309 @@
 {
   "nav": {
-    "home": "Accueil",
-    "pos": "Systèmes POS",
-    "digital": "Solutions Digitales",
+    "home": "Shtëpia",
+    "pos": "Sistemet POS",
+    "digital": "Zgjidhje Digjitale",
     "ayapay": "AyaPay",
-    "pricing": "Tarifs",
-    "about": "À propos",
-    "contact": "Contact",
-    "demo": "Demander une démo"
+    "pricing": "Çmimet",
+    "about": "Përshkrimi",
+    "contact": "Kontakto",
+    "demo": "Kërko një demo"
   },
   "hero": {
-    "title": "Solutions POS et Paiement Nouvelle Génération",
-    "subtitle": "Restaurants, cafés, hôtels, marchés et chaînes d'entreprises - Systèmes POS innovants avec terminaux de paiement intégrés",
-    "cta": "Découvrir nos solutions",
-    "cta_secondary": "Voir les tarifs"
+    "title": "Zgjidhje POS dhe Pagesash të Brezit të Ri",
+    "subtitle": "Restorante, kafene, hotele, tregje dhe zinxhirë biznesesh - Sistemat POS inovative me terminalet e pagesave të integruar",
+    "cta": "Zbuloni zgjidhjet tona",
+    "cta_secondary": "Shiko çmimet"
   },
   "features": {
-    "title": "Tout ce dont vous avez besoin pour réussir",
-    "pos_title": "Système POS Complet",
-    "pos_desc": "Gérez vos ventes, stocks, et rapports en temps réel depuis n'importe où",
-    "payment_title": "Terminaux de Paiement",
-    "payment_desc": "Solutions de paiement sécurisées et rapides pour tous types de transactions",
-    "digital_title": "Menus Digitaux",
-    "digital_desc": "QR codes, tablettes et kiosques pour une expérience client moderne",
-    "reports_title": "Rapports & Analytics",
-    "reports_desc": "Suivez vos performances avec des tableaux de bord intuitifs"
+    "title": "Gjithçka që ju nevojitet për të pasur sukses",
+    "pos_title": "Sistem POS i Plotë",
+    "pos_desc": "Menaxhoni shitjet, inventarin dhe raportet në kohë reale nga çdo vend",
+    "payment_title": "Terminalet e Pagesave",
+    "payment_desc": "Zgjidhje pagese të sigurta dhe të shpejta për të gjitha llojet e transaksioneve",
+    "digital_title": "Menu Digjitale",
+    "digital_desc": "Kodet QR, tabletat dhe kiosket për një përvojë moderne të klientit",
+    "reports_title": "Raportet & Analizat",
+    "reports_desc": "Ndjekni performancën tuaj me tabela të intuitshme"
   },
   "pos": {
-    "title": "Systèmes POS Professionnels",
-    "subtitle": "Choisissez la solution POS adaptée à votre entreprise",
+    "title": "Sistemet Profesionale POS",
+    "subtitle": "Zgjidhni zgjidhjen e përshtatshme POS për biznesin tuaj",
     "premium": {
       "name": "Premium POS",
-      "tagline": "Contrôle total, puissance maximale",
-      "desc": "Pour les chaînes de restaurants, centres commerciaux et entreprises à fort volume",
+      "tagline": "Kontroll total, fuqi maksimale",
+      "desc": "Për zinxhirët e restoranteve, qendrat tregtare dhe bizneset me volum të lartë",
       "price": "1049€",
-      "period": "par mois"
+      "period": "për muaj"
     },
     "tablet": {
       "name": "Tablet POS",
-      "tagline": "Compact et économique",
-      "desc": "Pour les petits restaurants, chaînes de cafés et pâtisseries boutiques",
+      "tagline": "Kompakt dhe ekonomike",
+      "desc": "Për restorantet e vogla, zinxhirët e kafeneve dhe dyqanet e pastry",
       "price": "699€",
-      "period": "par mois"
+      "period": "për muaj"
     },
     "web": {
       "name": "Web POS",
-      "tagline": "Démarrage rapide, votre propre appareil",
-      "desc": "Pour les nouvelles entreprises, cafés et kiosques",
+      "tagline": "Fillim i shpejtë, pajisja juaj",
+      "desc": "Për bizneset e reja, kafene dhe kioske",
       "price": "525€",
-      "period": "par mois"
+      "period": "për muaj"
     },
     "mobile": {
       "name": "Mobile POS",
-      "tagline": "Mobile et portable",
-      "desc": "Pour les ventes sur le terrain, vendeurs ambulants et événements",
+      "tagline": "Mobil dhe portativ",
+      "desc": "Për shitjet në terren, shitësit e lëvizshëm dhe ngjarjet",
       "price": "349€",
-      "period": "par mois"
+      "period": "për muaj"
     }
   },
   "ayapay": {
-    "title": "AyaPay - Terminaux de Paiement",
-    "subtitle": "Solutions de paiement professionnelles pour tous les besoins",
-    "hero_text": "Acceptez tous les modes de paiement avec nos terminaux nouvelle génération",
-    "terminals_title": "Nos Terminaux de Paiement",
+    "title": "AyaPay - Terminalet e Pagesave",
+    "subtitle": "Zgjidhje pagese profesionale për të gjitha nevojat",
+    "hero_text": "Pranoni të gjitha mënyrat e pagesës me terminalet tona të brezit të ri",
+    "terminals_title": "Terminalet tona të Pagesave",
     "smartpos_a77": {
       "name": "SmartPOS A77",
-      "tagline": "Compact et léger",
-      "desc": "Terminal portable avec écran tactile et connexion 4G"
+      "tagline": "Kompakt dhe i lehtë",
+      "desc": "Terminal portativ me ekran prekës dhe lidhje 4G"
     },
     "smartpos_a920": {
       "name": "SmartPOS A920",
-      "tagline": "Smart et rapide",
-      "desc": "Terminal intelligent avec imprimante intégrée et grand écran"
+      "tagline": "I zgjuar dhe i shpejtë",
+      "desc": "Terminal inteligjent me printer të integruar dhe ekran të madh"
     },
     "deskpos_q80": {
       "name": "Desk POS Q80",
-      "tagline": "Fixe et pratique",
-      "desc": "Terminal de comptoir avec support et stabilité maximale"
+      "tagline": "I ngulur dhe praktik",
+      "desc": "Terminal tavoline me mbështetje dhe stabilitet maksimal"
     },
     "softpos": {
       "name": "Tap to Pay iPhone",
-      "tagline": "Paiement sans terminal",
-      "desc": "Transformez votre iPhone en terminal de paiement"
+      "tagline": "Pagesë pa terminal",
+      "desc": "Transformoni iPhone-in tuaj në një terminal pagesash"
     },
-    "features_title": "Fonctionnalités principales",
-    "feature_1": "Acceptation de toutes les cartes",
-    "feature_2": "Paiements sans contact NFC",
-    "feature_3": "Connexion WiFi et 4G",
-    "feature_4": "Reçus numériques et imprimés",
-    "feature_5": "Sécurité PCI-DSS",
-    "feature_6": "Intégration POS complète"
+    "features_title": "Karakteristikat Kryesore",
+    "feature_1": "Pranimi i të gjitha kartave",
+    "feature_2": "Pagesa pa kontakt NFC",
+    "feature_3": "Lidhje WiFi dhe 4G",
+    "feature_4": "Faturat digjitale dhe të printuara",
+    "feature_5": "Siguria PCI-DSS",
+    "feature_6": "Integrim të plotë POS"
   },
   "pricing": {
-    "title": "Tarifs Transparents",
-    "subtitle": "Choisissez le forfait adapté à vos besoins",
-    "monthly": "Mensuel",
-    "yearly": "Annuel",
-    "save": "Économisez 20%",
-    "cta": "Commencer",
-    "features": "Fonctionnalités incluses"
+    "title": "Çmimet Transparente",
+    "subtitle": "Zgjidhni paketën e përshtatshme për nevojat tuaja",
+    "monthly": "Mënyra mujore",
+    "yearly": "Mënyra vjetore",
+    "save": "Kurseni 20%",
+    "cta": "Filloni",
+    "features": "Karakteristikat e përfshira"
   },
   "contact": {
-    "title": "Contactez-nous",
-    "subtitle": "Remplissez le formulaire et nous vous contacterons rapidement",
-    "name": "Nom de l'entreprise",
-    "type": "Type d'entreprise",
-    "phone": "Téléphone",
+    "title": "Na kontaktoni",
+    "subtitle": "Plotësoni formularin dhe ne do t'ju kontaktojmë shpejt",
+    "name": "Emri i kompanisë",
+    "type": "Lloji i kompanisë",
+    "phone": "Telefoni",
     "email": "Email",
-    "city": "Ville",
-    "message": "Message",
-    "submit": "Obtenir un devis gratuit",
-    "success": "Merci! Nous vous contacterons bientôt.",
-    "error": "Une erreur s'est produite. Veuillez réessayer."
+    "city": "Qyteti",
+    "message": "Mesazhi",
+    "submit": "Merrni një ofertë falas",
+    "success": "Faleminderit! Do t'ju kontaktojmë së shpejti.",
+    "error": "Ka ndodhur një gabim. Ju lutemi provoni përsëri."
   },
   "footer": {
-    "tagline": "Solutions POS et Paiement de Nouvelle Génération",
-    "rights": "Tous droits réservés",
-    "company": "Entreprise",
-    "products": "Produits",
-    "support": "Support"
+    "tagline": "Zgjidhje POS dhe Pagesash të Brezit të Ri",
+    "rights": "Të gjitha të drejtat e rezervuara",
+    "company": "Kompania",
+    "products": "Produktet",
+    "support": "Mbështetje"
   },
   "robotWaiter": {
     "hero": {
-      "badge": "SOLUTIONS DE SERVICE NOUVELLE GÉNÉRATION",
-      "title": "Système de Serveur Robot",
-      "subtitle": "Système de serveur robot nouvelle génération pour les entreprises innovantes et pionnières",
-      "cta": "Demander un devis"
+      "badge": "ZGJIDHJE TË SHËRBIMIT TË BREZIT TË RI",
+      "title": "Sistem Shërbimi Robot",
+      "subtitle": "Sistem shërbimi robot i brezit të ri për bizneset inovative dhe pionier",
+      "cta": "Kërko një ofertë"
     },
     "benefits": {
-      "mainTitle": "Serveurs robots pour des clients satisfaits",
-      "mainSubtitle": "Les serveurs robots allègent la charge de travail de votre entreprise et permettent au personnel de fournir un service plus efficace",
+      "mainTitle": "Shërbime robot për klientë të kënaqur",
+      "mainSubtitle": "Shërbimet robot lehtësojnë ngarkesën e punës së biznesit tuaj dhe lejojnë stafin të ofrojë një shërbim më efikas",
       "experience": {
-        "title": "Expérience unique",
-        "description": "Offrez à vos clients un nouveau concept rafraîchissant auquel ils ne sont pas habitués. Impressionnez vos clients avec des fonctionnalités interactives créant une expérience futuriste et unique."
+        "title": "Përvojë unike",
+        "description": "Ofroni klientëve tuaj një koncept të ri dhe freskues që ata nuk janë mësuar. Impressiononi klientët tuaj me funksionalitete interaktive që krijojnë një përvojë futuriste dhe unike."
       },
       "contactless": {
-        "title": "Livraison de commandes sans contact",
-        "description": "Grâce au système de distribution de plateaux par robot serveur AyaPos, nous accordons désormais plus d'attention aux règles d'hygiène. Laissez les robots serveurs apporter les commandes à la table."
+        "title": "Dërgimi i porosive pa kontakt",
+        "description": "Falë sistemit të shpërndarjes së tabakave nga robot shërbimi AyaPos, tani jemi më të kujdesshëm për rregullat e higjienës. Lejoni robotët shërbim që të sjellin porositë në tavolinë."
       },
       "profitability": {
-        "title": "Augmentez la rentabilité",
-        "description": "Augmentez la rentabilité de votre entreprise grâce aux systèmes de serveurs robots. En livrant les commandes de vos clients rapidement et sans erreur, vous augmentez également le volume d'affaires de votre entreprise."
+        "title": "Rritni rentabilitetin",
+        "description": "Rritni rentabilitetin e biznesit tuaj falë sistemeve të shërbimeve robot. Duke dërguar porositë e klientëve tuaj shpejt dhe pa gabime, gjithashtu rritni volumet e punës së biznesit tuaj."
       },
       "efficiency": {
-        "title": "Service efficace",
-        "description": "Prolongez les heures d'ouverture de votre entreprise grâce aux serveurs robots et servez plus de clients tout en réduisant les erreurs de service."
+        "title": "Shërbim efikas",
+        "description": "Zgjatni orët e hapjes së biznesit tuaj me robot shërbimi dhe shërbeni më shumë klientë duke reduktuar gabimet në shërbim."
       }
     },
     "navigation": {
-      "badge": "TECHNOLOGIE AUTONOME",
-      "title": "Système de Navigation Autonome",
-      "description1": "Les systèmes de serveurs robots utilisent des systèmes de navigation autonome pour garantir que vos serveurs robots effectuent des livraisons sûres et sans erreur aux tables des clients.",
-      "description2": "Les serveurs robots détectent les obstacles dans votre entreprise grâce à des capteurs et à la technologie radar laser, prévenant ainsi les collisions. Offrez un service plus sûr et sans erreur dans votre entreprise en assurant la sécurité de vos clients.",
-      "cta": "En savoir plus"
+      "badge": "TEKNOLOGJI AUTONOME",
+      "title": "Sistem Navigimi Autonom",
+      "description1": "Sistemet e shërbimit robot përdorin sisteme të navigimit autonom për të garantuar që robotët tuaj të shërbimit bëjnë shpërndarje të sigurta dhe pa gabime në tavolinat e klientëve.",
+      "description2": "Robotët shërbim detecktojnë pengesat në biznesin tuaj falë sensorëve dhe teknologjisë radar laser, duke parandaluar ndodhitë. Ofroni një shërbim më të sigurt dhe pa gabime në biznesin tuaj duke siguruar sigurinë e klientëve tuaj.",
+      "cta": "Mëso më shumë"
     },
     "profitability": {
-      "badge": "RENTABILITÉ ACCRUE",
-      "title": "Augmentez la rentabilité",
-      "description1": "Augmentez la rentabilité de votre entreprise grâce aux systèmes de serveurs robots. En livrant les commandes de vos clients rapidement et sans erreur, vous augmentez également le volume d'affaires de votre entreprise.",
-      "description2": "Grâce aux serveurs robots, prolongez les heures d'ouverture de votre entreprise et servez plus de clients.",
-      "stat1": "Réduction des coûts de personnel",
-      "stat2": "Service disponible"
+      "badge": "RENTABILITET I SHTUAR",
+      "title": "Rritni rentabilitetin",
+      "description1": "Rritni rentabilitetin e biznesit tuaj falë sistemeve të shërbimeve robot. Duke dërguar porositë e klientëve tuaj shpejt dhe pa gabime, gjithashtu rritni volumet e punës së biznesit tuaj.",
+      "description2": "Falë robotëve shërbim, zgjatni orët e hapjes së biznesit tuaj dhe shërbeni më shumë klientë.",
+      "stat1": "Reduktimi i kostove të personelit",
+      "stat2": "Shërbim në dispozicion"
     },
     "delivery": {
-      "title": "Système de Livraison Automatique",
-      "subtitle": "Augmentez la satisfaction et la fidélité des clients de votre entreprise",
+      "title": "Sistem Dërgimi Automatik",
+      "subtitle": "Rritni kënaqësinë dhe besnikërinë e klientëve të biznesit tuaj",
       "speed": {
-        "title": "Livraison rapide et efficace",
-        "description": "Livrez les commandes rapidement et efficacement aux clients avec des systèmes de livraison automatiques sur plateaux, augmentant la satisfaction client et le volume d'affaires de votre entreprise."
+        "title": "Dërgim i shpejtë dhe efikas",
+        "description": "Dërgoni porositë shpejt dhe eficient për klientët me sisteme dërgimi automatike mbi tabaka, rritni kënaqësinë e klientëve dhe volumet e punës së biznesit tuaj."
       },
       "accuracy": {
-        "title": "Moins d'erreurs",
-        "description": "Réduisez les erreurs de livraison en livrant les commandes aux bonnes tables et protégez la réputation de votre entreprise tout en offrant un service de meilleure qualité."
+        "title": "Më pak gabime",
+        "description": "Reduktoni gabimet e dërgimit duke dërguar porositë në tavolinat e duhura dhe mbrojeni reputacionin e biznesit tuaj ndërsa ofroni shërbim më të mirë."
       }
     },
     "technicalFeatures": {
-      "title": "Caractéristiques Techniques",
-      "subtitle": "Technologie de pointe pour un service optimal"
+      "title": "Karakteristikat Teknike",
+      "subtitle": "Teknologji e avancuar për një shërbim optimal"
     },
     "features": {
       "navigation": {
-        "title": "Système de Navigation",
-        "description": "Les robots serveurs AyaPos sont équipés de lasers et de capteurs pour éviter les obstacles dans l'entreprise."
+        "title": "Sistem Navigimi",
+        "description": "Robotët shërbim AyaPos janë të pajisur me lazer dhe sensorë për të shmangur pengesat në biznes."
       },
       "capacity": {
-        "title": "Capacité de Transport",
-        "description": "Les dispositifs de livraison de plateaux AyaPos ont une capacité de transport totale de 40 kg, soit 10 kg par niveau."
+        "title": "Kapasiteti i Transportit",
+        "description": "Pajisjet e dërgimit të tabakave AyaPos kanë një kapacitet transporti total prej 40 kg, ose 10 kg për nivel."
       },
       "battery": {
-        "title": "Autonomie de Batterie Durable",
-        "description": "Les robots serveurs AyaPos fonctionnent de manière continue pendant 12 à 15 heures par jour."
+        "title": "Autonomi e Batterisë Së Qëndrueshme",
+        "description": "Robotët shërbim AyaPos funksionojnë në mënyrë të vazhdueshme për 12 deri në 15 orë në ditë."
       },
       "speedLimit": {
-        "title": "Limite de Vitesse Intelligente",
-        "description": "Les robots serveurs intelligents ajustent leur vitesse en fonction de l'inclinaison du sol grâce à une fonction de limite de vitesse améliorée."
+        "title": "Limit i Shpejtësisë Inteligjent",
+        "description": "Robotët shërbim inteligjent rregullojnë shpejtësinë e tyre në përputhje me pjerrësinë e tokës falë një funksioni të përmirësuar të limitit të shpejtësisë."
       }
     },
     "gallery": {
-      "title": "Découvrez nos Robots Serveurs",
-      "subtitle": "Voyez comment nos robots peuvent transformer votre service",
-      "image1": "Robot serveur en action",
-      "image2": "Livraison automatique de plateaux",
-      "image3": "Service client amélioré"
+      "title": "Zbuloni Robotët Tanë Shërbim",
+      "subtitle": "Shihni se si robotët tanë mund të transformojnë shërbimin tuaj",
+      "image1": "Robot shërbim në veprim",
+      "image2": "Dërgim automatiku i tabakave",
+      "image3": "Shërbim klienti i përmirësuar"
     },
     "cta": {
-      "title": "Prêt à révolutionner votre service ?",
-      "subtitle": "Contactez-nous pour découvrir comment nos robots serveurs peuvent améliorer votre entreprise",
-      "button": "Demander une démonstration"
+      "title": "Gati të revoluciononi shërbimin tuaj?",
+      "subtitle": "Na kontaktoni për të zbuluar se si robotët tanë shërbim mund të përmirësojnë biznesin tuaj",
+      "button": "Kërko një demonstrim"
     }
   },
   "deliveryManagement": {
     "hero": {
-      "badge": "APPLICATION COURSIER",
-      "title": "Système de Gestion des Commandes Coursier",
-      "subtitle": "Planifiez les commandes, consultez les détails, acceptez facilement les paiements",
-      "cta": "Demander un devis"
+      "badge": "APLIKACION I DËRGUESIT",
+      "title": "Sistem Menaxhimi të Porosive të Dërguesve",
+      "subtitle": "Planifikoni porositë, shihni detajet, pranoni lehtësisht pagesat",
+      "cta": "Kërko një ofertë"
     },
     "orderManagement": {
-      "badge": "GESTION DES COMMANDES",
-      "title": "Livrez rapidement les commandes !",
-      "subtitle": "Gestion AyaPos Coursier - Application de Suivi des Commandes"
+      "badge": "MENAXHIMI I POROSIVE",
+      "title": "Dërgoni shpejt porositë!",
+      "subtitle": "Menaxhimi AyaPos Dërgues - Aplikacion për Ndjekjen e Porosive"
     },
     "features": {
       "orderDetails": {
-        "title": "Détails de la Commande",
-        "description": "Vous pouvez consulter les détails des commandes qui vous sont attribuées. De cette façon, vous pouvez minimiser les risques d'erreur lors de la livraison. Personne ne veut recevoir un gâteau alors qu'il attend une pizza."
+        "title": "Detajet e Porosisë",
+        "description": "Mund të shihni detajet e porosive që ju janë caktuar. Kështu mund të minimizoni rreziqet e gabimeve gjatë dërgimit. Askush nuk dëshiron të marrë një tortë kur pret një pizzë."
       },
       "mapView": {
-        "title": "Voir l'emplacement sur la carte",
-        "description": "Avec l'application Coursier, vous pouvez voir l'emplacement où vous devez livrer la commande sur la carte. Vous pouvez ainsi déterminer votre itinéraire pour aller à la bonne adresse par le chemin le plus court."
+        "title": "Shihni lokacionin në hartë",
+        "description": "Me aplikacionin Dërgues, mund të shihni lokacionin ku duhet të dërgoni porosinë në hartë. Kështu mund të përcaktoni rrugën tuaj për të shkuar në adresën e duhur përmes rrugës më të shkurtër."
       },
       "callCustomer": {
-        "title": "Appeler le client",
-        "description": "En cas de situation défavorable ou si vous avez des questions sur la commande, vous pouvez appeler le client et communiquer avec lui."
+        "title": "Na kontaktoni klientin",
+        "description": "Në rast të një situate të pafavorshme ose nëse keni pyetje rreth porosisë, mund të telefononi klientin dhe të komunikoni me të."
       }
     },
     "payment": {
-      "badge": "PAIEMENTS",
-      "title": "Accepter les paiements très facilement !",
-      "subtitle": "Suivi AyaPos Coursier - Système de Gestion Restaurant",
+      "badge": "PAGIME",
+      "title": "Pranoni pagesat shumë lehtë!",
+      "subtitle": "Ndjekja AyaPos Dërgues - Sistem Menaxhimi Restorant",
       "cash": {
-        "title": "Paiements en espèces",
-        "description": "Grâce à l'utilisation facile de l'application Coursier, vous pouvez accepter les paiements en espèces des commandes en un seul toucher."
+        "title": "Pagesa në para",
+        "description": "Falë përdorimit të lehtë të aplikacionit Dërgues, mund të pranoni pagesat në para nga porositë me një prekje."
       },
       "card": {
-        "title": "Paiements par carte de crédit",
-        "description": "Avec l'infrastructure avancée de l'application AyaPos Coursier, vous pouvez utiliser un code QR pour accepter les paiements par carte de crédit. Laissez votre client scanner le code QR et le paiement se fait en quelques secondes."
+        "title": "Pagesat me kartë krediti",
+        "description": "Me infrastrukturën e avancuar të aplikacionit AyaPos Dërgues, mund të përdorni një kod QR për të pranuar pagesat me kartë krediti. Lini klientin tuaj të skanojë kodin QR dhe pagesa bëhet në pak sekonda."
       },
       "security": {
-        "title": "Infrastructure 100% sécurisée",
-        "description": "Avec un certificat SSL 256 bits, toutes vos transactions et mouvements sont effectués en toute sécurité."
+        "title": "Infrastrukturë 100% e sigurt",
+        "description": "Me një certifikatë SSL 256 bit, të gjitha tranzaksionet dhe lëvizjet tuaja kryhen në mënyrë të sigurt."
       }
     },
     "courier": {
-      "badge": "POUR LES COURSIERS",
-      "title": "Indispensable pour les coursiers !",
-      "subtitle": "Gestion des Commandes AyaPos - Logiciel de Suivi Coursier",
+      "badge": "PËR DËRGUESIT",
+      "title": "E domosdoshme për dërguesit!",
+      "subtitle": "Menaxhimi i Porosive AyaPos - Softueri i Ndjekjes së Dërguesve",
       "reports": {
-        "title": "Consulter les rapports quotidiens",
-        "description": "Avec l'application AyaPos Coursier, vous pouvez obtenir des rapports quotidiens des coursiers. Vous pouvez obtenir des informations sur le nombre de commandes, la distance totale, les durées et les paiements."
+        "title": "Shihni raportet e përditshme",
+        "description": "Me aplikacionin AyaPos Dërgues, mund të merrni raporte të përditshme të dërguesve. Mund të merrni informacion rreth numrit të porosive, distancës totale, kohëzgjatjeve dhe pagesave."
       },
       "status": {
-        "title": "Statuts disponible et occupé",
-        "description": "Avec l'application Coursier, vous pouvez définir le statut du coursier. Lorsque vous n'êtes pas disponible, vous pouvez sélectionner le statut 'Occupé' et informer l'entreprise."
+        "title": "Statusi i disponueshëm dhe i zënë",
+        "description": "Me aplikacionin Dërgues, mund të përcaktoni statusin e dërguesit. Kur nuk jeni të disponueshëm, mund të zgjidhni statusin 'Të Zënë' dhe të njoftoni kompaninë."
       },
       "notifications": {
-        "title": "Son de notification de commande",
-        "description": "Si vous activez le son de notification via l'application, vous recevrez une notification sonore lorsqu'une commande vous est attribuée. De cette façon, vous ne manquerez pas de commandes et vous pourrez augmenter la satisfaction client."
+        "title": "Zëri i njoftimit të porosisë",
+        "description": "Nëse aktivizoni zërin e njoftimit përmes aplikacionit, do të merrni një njoftim tingulli kur një porosi ju caktohet. Kështu, nuk do t'i humbni porositë dhe do të rrisni kënaqësinë e klientëve."
       }
     },
     "systemFeatures": {
-      "title": "Caractéristiques du Système",
-      "subtitle": "Tout ce dont vous avez besoin pour gérer efficacement vos livraisons"
+      "title": "Karakteristikat e Sistemit",
+      "subtitle": "Gjithçka që ju nevojitet për të menaxhuar në mënyrë efektive dërgimet tuaja"
     },
     "system": {
       "mobile": {
-        "title": "Système de Gestion Mobile",
-        "description": "AyaPos Manager est une application de gestion mobile qui vous permet de gérer votre entreprise depuis des téléphones iPhone et Android."
+        "title": "Sistem Menaxhimi në Mobil",
+        "description": "AyaPos Manager është një aplikacion menaxhimi në mobil që ju lejon të menaxhoni biznesin tuaj nga telefonat iPhone dhe Android."
       },
       "cloud": {
-        "title": "Infrastructure Cloud",
-        "description": "Grâce à la plateforme cloud AyaPos Manager, gérez vos produits, ventes, stocks et comptes clients depuis votre poche, accédez instantanément aux rapports consolidés de vos succursales."
+        "title": "Infrastruktura Cloud",
+        "description": "Falë platformës cloud AyaPos Manager, menaxhoni produktet, shitjet, inventarin dhe llogaritë e klientëve nga xhepi juaj, aksesoni menjëherë raportet e konsoliduara të degëve tuaja."
       },
       "analytics": {
-        "title": "Rapports et Analyses Avancés",
-        "description": "Examinez vos rapports de fin de journée, de ventes, de stocks et de comptes clients en temps réel. Améliorez l'état de votre entreprise en comparant vos ventes avec des analyses visuelles."
+        "title": "Raportet dhe Analizat e Avancuara",
+        "description": "Shihni raportet tuaja të përfundimit të ditës, shitjeve, inventarit dhe llogarive të klientëve në kohë reale. Përmirësoni gjendjen e biznesit tuaj duke krahasuar shitjet tuaja me analiza vizuale."
       },
       "accounts": {
-        "title": "Gérer les Comptes Clients",
-        "description": "Créez vos comptes clients, suivez vos créances et dettes. Gérez vos clients en examinant les mouvements de caisse qui ont eu lieu pendant la journée."
+        "title": "Menaxhoni Llogaritë e Klientëve",
+        "description": "Krijoni llogaritë e klientëve tuaj, ndiqni borxhet dhe detyrimet. Menaxhoni klientët tuaj duke shqyrtuar lëvizjet e kasës që kanë ndodhur gjatë ditës."
       }
     },
     "tracking": {
-      "badge": "SUIVI EN TEMPS RÉEL",
-      "title": "Suivez vos livraisons en temps réel",
-      "description1": "Avec le système de suivi en temps réel d'AyaPos, vous pouvez suivre la position de vos coursiers sur une carte et surveiller l'état de toutes vos commandes.",
-      "description2": "Optimisez vos itinéraires de livraison, réduisez les temps d'attente et augmentez la satisfaction client grâce à un suivi précis et en temps réel.",
-      "feature1": "Suivi GPS en direct",
-      "feature2": "Optimisation des itinéraires",
-      "feature3": "Notifications automatiques"
+      "badge": "NDJEKJE NË KOHE REALE",
+      "title": "Ndjekni dërgimet tuaja në kohë reale",
+      "description1": "Me sistemin e ndjekjes në kohë reale të AyaPos, mund të ndjekni pozitën e dërguesve tuaj në një hartë dhe të monitoroni gjendjen e të gjitha porosive tuaja.",
+      "description2": "Optimizoni rrugët tuaja të dërgimit, reduktoni kohët e pritjes dhe rritni kënaqësinë e klientëve falë një ndjekjeje të saktë dhe në kohë reale.",
+      "feature1": "Ndjekja GPS në kohë reale",
+      "feature2": "Optimizimi i rrugëve",
+      "feature3": "Njoftime automatike"
     },
     "cta": {
-      "title": "Prêt à optimiser vos livraisons ?",
-      "subtitle": "Contactez-nous pour découvrir comment notre système de gestion des livraisons peut améliorer votre efficacité",
-      "button": "Demander une démonstration"
+      "title": "Gati për të optimizuar dërgimet tuaja?",
+      "subtitle": "Na kontaktoni për të zbuluar se si sistemi ynë i menaxhimit të dërgimeve mund të përmirësojë efikasitetin tuaj",
+      "button": "Kërko një demonstrim"
     }
   },
   "webPortal": {
@@ -497,366 +497,366 @@
   },
   "stockManagement": {
     "hero": {
-      "badge": "SYSTÈME DE GESTION DES STOCKS",
-      "title": "Système de Gestion des Stocks",
-      "subtitle": "Suivez les stocks, produisez plus efficacement. Gérez les stocks de produits et de matières premières depuis un centre unique.",
-      "cta": "Demander un devis"
+      "badge": "SISTEMI I MENAXHIMIT TË STOKUT",
+      "title": "Sistem Menaxhimi i Stokut",
+      "subtitle": "Ndjekni stoqet, prodhoni më efikasht. Menaxhoni stoqet e produkteve dhe lëndëve të para nga një qendër të vetme.",
+      "cta": "Kërko një ofertë"
     },
     "benefitsSection": {
-      "badge": "AVANTAGES",
-      "title": "Augmentez l'efficacité, réduisez les pertes et gaspillages",
-      "subtitle": "Avec le système de gestion des stocks AyaPos"
+      "badge": "PËRFITIME",
+      "title": "Rritni efikasitetin, reduktoni humbjet dhe shpërdorimet",
+      "subtitle": "Me sistemin e menaxhimit të stokut AyaPos"
     },
     "benefits": {
       "efficiency": {
-        "title": "Production plus efficace",
-        "description": "Avec le système de gestion des stocks, vous pouvez examiner l'utilisation des matières premières et des produits et améliorer votre flux de production pour une production plus efficace."
+        "title": "Prodhim më efikas",
+        "description": "Me sistemin e menaxhimit të stokut, mund të shqyrtoni përdorimin e lëndëve të para dhe produkteve dhe të përmirësoni fluksin tuaj të prodhimit për një prodhim më efikas."
       },
       "waste": {
-        "title": "Moins de pertes et gaspillages",
-        "description": "Grâce à un flux de production mieux planifié, vous pouvez minimiser les pertes et gaspillages survenant pendant la production."
+        "title": "Më pak humbje dhe shpërdorime",
+        "description": "Falë një fluksi prodhimi më të mirë të planifikuar, mund të minimizoni humbjet dhe shpërdorimet që ndodhin gjatë prodhimit."
       }
     },
     "recipeSection": {
-      "badge": "RECETTES",
-      "title": "Planifiez vos recettes et votre flux de production",
-      "subtitle": "Préparez les stocks avec recettes de votre restaurant, café ou bar"
+      "badge": "RECETA",
+      "title": "Planifikoni recetat dhe fluksin tuaj të prodhimit",
+      "subtitle": "Përgatitni stoqet me recetat e restorantit, kafesë ose barit tuaj"
     },
     "types": {
       "simple": {
-        "title": "Stock simple selon les besoins",
-        "description": "Pour les petites entreprises et selon les besoins, vous pouvez facilement saisir vos produits à l'unité dans le système avec une structure de stock simple et voir leur utilisation également à l'unité."
+        "title": "Stok i thjeshtë sipas nevojave",
+        "description": "Për bizneset e vogla dhe sipas nevojave, mund të regjistroni lehtësisht produktet tuaja në njësi në sistem me një strukturë të thjeshtë stoku dhe të shihni gjithashtu përdorimin e tyre në njësi."
       },
       "recipe": {
-        "title": "Stock avancé avec recettes",
-        "description": "Avec la gestion des stocks AyaPos, vous pouvez également gérer les stocks de votre restaurant, café ou bar avec des recettes. De cette façon, vous pouvez effectuer des analyses détaillées des dépenses."
+        "title": "Stok i avancuar me receta",
+        "description": "Me menaxhimin e stokut AyaPos, mund të menaxhoni gjithashtu stoqet e restorantit, kafesë ose barit tuaj me receta. Kështu, mund të bëni analiza të detajuara të shpenzimeve."
       }
     },
     "centralized": {
-      "badge": "GESTION CENTRALISÉE",
-      "title": "Accédez à tout depuis un seul endroit",
-      "description1": "Avec le système de gestion des stocks AyaPos, que vous ayez une ou cent succursales. Vous pouvez tout gérer depuis un seul endroit et ne pas rencontrer de résultats inattendus avec des analyses plus larges.",
-      "stat1": "Contrôle centralisé",
-      "stat2": "Accès permanent"
+      "badge": "MENAXHIM I CENTRALIZUAR",
+      "title": "Qasni gjithçka nga një vend i vetëm",
+      "description1": "Me sistemin e menaxhimit të stokut AyaPos, qoftë të keni një ose njëqind degë. Mund të menaxhoni gjithçka nga një vend i vetëm dhe të mos hasni rezultate të papritura me analiza më të gjera.",
+      "stat1": "Kontroll i centralizuar",
+      "stat2": "Qasje e përhershme"
     },
     "featuresSection": {
-      "title": "Accédez à tout depuis un seul endroit",
-      "subtitle": "Système complet de gestion des stocks"
+      "title": "Qasni gjithçka nga një vend i vetëm",
+      "subtitle": "Sistem i plotë për menaxhimin e stokut"
     },
     "management": {
       "movements": {
-        "title": "Suivez vos mouvements de stock",
-        "description": "Créez vos comptes clients, suivez vos créances et dettes liées à ces comptes. Examinez les mouvements de caisse effectués pendant la journée."
+        "title": "Ndjekni lëvizjet e stokut tuaj",
+        "description": "Krijoni llogaritë tuaja të klientëve, ndjekni borxhet dhe detyrimet që lidhen me këto llogari. Shqyrtoni lëvizjet e kasës që janë realizuar gjatë ditës."
       },
       "counting": {
-        "title": "Contrôlez vos comptages de stock",
-        "description": "Suivez vos stocks de produits et de matières premières, observez vos mouvements de stock, vérifiez vos stocks avec des comptages périodiques."
+        "title": "Kontrolloni numërimet e stokut tuaj",
+        "description": "Ndjekni stoqet e produkteve dhe lëndëve të para, vini re lëvizjet e stokut tuaj, kontrolloni stoqet me numërime periodike."
       }
     },
     "alert": {
-      "title": "Système d'alerte de stock",
-      "description": "Avec le système de gestion des stocks AyaPos, vous pouvez suivre les produits et matières premières en stock et voir à l'avance les stocks sur le point d'être épuisés grâce au système d'alerte.",
-      "cta": "En savoir plus"
+      "title": "Sistem alarmi për stokun",
+      "description": "Me sistemin e menaxhimit të stokut AyaPos, mund të ndjekni produktet dhe lëndët e para në stok dhe të shihni paraprakisht stoqet që janë në prag të shterimit falë sistemit të alarmit.",
+      "cta": "Mëso më shumë"
     },
     "cta": {
-      "title": "Prêt à optimiser votre gestion des stocks ?",
-      "subtitle": "Contactez-nous pour découvrir comment notre système peut améliorer votre rentabilité",
-      "button": "Demander une démonstration"
+      "title": "Gati për të optimizuar menaxhimin e stokut tuaj?",
+      "subtitle": "Na kontaktoni për të zbuluar se si sistemi ynë mund të përmirësojë rentabilitetin tuaj",
+      "button": "Kërko një demonstrim"
     }
   },
   "centralizedManagement": {
     "hero": {
-      "badge": "SYSTÈME DE GESTION CENTRALISÉE",
-      "title": "Gestion Centralisée des Succursales",
-      "subtitle": "Contrôle, gestion et suivi de bout en bout. Suivez facilement toutes vos entreprises depuis un centre unique.",
-      "cta": "Demander un devis"
+      "badge": "SISTEMI I MENAXHIMIT TË CENTRALIZUAR",
+      "title": "Menaxhimi Central i Degëve",
+      "subtitle": "Kontroll, menaxhim dhe ndjekje nga fillimi në fund. Ndjekni lehtësisht të gjitha bizneset tuaja nga një qendër e vetme.",
+      "cta": "Kërko një ofertë"
     },
     "quickSection": {
-      "title": "Accès rapide depuis un seul endroit",
-      "subtitle": "Toutes vos succursales sous contrôle"
+      "title": "Qasje e shpejtë nga një vend i vetëm",
+      "subtitle": "Të gjitha degët tuaja nën kontroll"
     },
     "quick": {
       "menus": {
-        "title": "Gérez vos menus",
-        "description": "Gérez tous les menus des succursales depuis un seul endroit. Mettez à jour les prix quand vous le souhaitez et appliquez-les à toutes les succursales."
+        "title": "Menaxhoni menutë tuaja",
+        "description": "Menaxhoni të gjitha menutë e degëve nga një vend i vetëm. Përshtatni çmimet sa herë që dëshironi dhe aplikoni ato në të gjitha degët."
       },
       "movements": {
-        "title": "Contrôlez les mouvements",
-        "description": "Examinez les mouvements quotidiens, mensuels ou sur la période choisie de vos succursales. Analysez les rapports."
+        "title": "Kontrolloni lëvizjet",
+        "description": "Shqyrtoni lëvizjet e përditshme, mujore ose gjatë periudhës së zgjedhur të degëve tuaja. Analizoni raportet."
       },
       "branches": {
-        "title": "Suivez vos succursales",
-        "description": "Que vous ayez deux ou cent succursales. Suivez toutes vos succursales depuis un centre unique. Développez votre activité."
+        "title": "Ndjekni degët tuaja",
+        "description": "Qoftë të keni dy apo njëqind degë. Ndjekni të gjitha degët tuaja nga një qendër e vetme. Zhvilloni aktivitetin tuaj."
       }
     },
     "controlSection": {
-      "badge": "CONTRÔLE TOTAL",
-      "title": "Supervisez, intervenez",
-      "subtitle": "Où que vous soyez, suivez toutes vos succursales dans les moindres détails"
+      "badge": "KONTROLL TOTAL",
+      "title": "Mbikëqyrni, ndërhyni",
+      "subtitle": "Kudo që të jeni, ndjekni të gjitha degët tuaja në detaje të vogla"
     },
     "control": {
       "supervise": {
-        "title": "Supervisez, intervenez",
-        "description": "Où que vous soyez, suivez toutes vos succursales dans les moindres détails. Supervisez les mouvements de caisse. Examinez les rapports, ne laissez rien au hasard."
+        "title": "Mbikëqyrni, ndërhyni",
+        "description": "Kudo që të jeni, ndjekni të gjitha degët tuaja në detaje të vogla. Mbikëqyrni lëvizjet e kasës. Kontrolloni raportet, mos e lini asgjë rastësisht."
       },
       "update": {
-        "title": "Mettez à jour les prix en un clic",
-        "description": "Organisez rapidement les prix et détails des produits de vos succursales. Appliquez les modifications que vous effectuez à toutes vos succursales en un clic."
+        "title": "Përshtatni çmimet me një klik",
+        "description": "Organizoni shpejt çmimet dhe detajet e produkteve të degëve tuaja. Aplikoni ndryshimet që bëni në të gjitha degët tuaja me një klik."
       },
       "accounts": {
-        "title": "Examinez les comptes et les caisses",
-        "description": "Examinez vos mouvements de caisse, les comptes clients enregistrés dans votre entreprise. Suivez toutes les transactions depuis un seul écran."
+        "title": "Shqyrtoni llogaritë dhe kasat",
+        "description": "Shqyrtoni lëvizjet e kasës, llogaritë e klientëve të regjistruara në biznesin tuaj. Ndjekni të gjitha transaksionet nga një ekran të vetëm."
       }
     },
     "allBranches": {
-      "badge": "TOUTES VOS SUCCURSALES",
-      "title": "Toutes vos succursales sous contrôle",
-      "subtitle": "Gestion complète depuis un seul tableau de bord"
+      "badge": "TË GJITHA DEGËT TUJA",
+      "title": "Të gjitha degët tuaja nën kontroll",
+      "subtitle": "Menaxhim i plotë nga një panel kontrolli i vetëm"
     },
     "operational": {
       "control": {
-        "title": "Contrôle de toutes les opérations",
-        "description": "Gérez toutes les opérations de vos succursales depuis un seul écran. Organisez vos menus, modifiez les plans d'aménagement, supervisez les stocks, effectuez le suivi du personnel, consultez les factures et les comptes clients."
+        "title": "Kontrolli i të gjitha operacioneve",
+        "description": "Menaxhoni të gjitha operacionet e degëve tuaja nga një ekran të vetëm. Organizoni menutë tuaja, modifikoni planet e shtrirjes, mbikëqyrni stoqet, ndiqni stafin, shihni faturat dhe llogaritë e klientëve."
       },
       "remote": {
-        "title": "Contrôlez depuis n'importe où",
-        "description": "Visualisez et organisez facilement tous les détails de vos succursales avec un ordinateur ou un téléphone disposant d'une connexion Internet. Toutes les modifications que vous effectuez sont automatiquement appliquées à vos succursales."
+        "title": "Kontrolloni nga çdo vend",
+        "description": "Shihni dhe organizoni lehtësisht të gjitha detajet e degëve tuaja me një kompjuter ose telefon me lidhje Interneti. Të gjitha ndryshimet që bëni aplikohen automatikisht në degët tuaja."
       },
       "evaluate": {
-        "title": "Évaluez vos succursales",
-        "description": "Examinez vos rapports quand vous le souhaitez. Analysez les données de vos succursales et évaluez leurs performances."
+        "title": "Vlerësoni degët tuaja",
+        "description": "Shqyrtoni raportet tuaja kur të dëshironi. Analizoni të dhënat e degëve tuaja dhe vlerësoni performancën e tyre."
       }
     },
     "reports": {
-      "badge": "RAPPORTS ET ANALYSES",
-      "title": "Rapports et analyses",
-      "subtitle": "Examinez les rapports de toutes vos succursales depuis un centre unique",
+      "badge": "RAPORTET DHE ANALIZAT",
+      "title": "Raportet dhe analizat",
+      "subtitle": "Shqyrtoni raportet e të gjitha degëve tuaja nga një qendër e vetme",
       "instant": {
-        "title": "Rapports instantanés et périodiques",
-        "description": "Avec le système de gestion centralisée AyaPos, vous pouvez voir les rapports pour une plage de dates spécifique et les rapports d'état instantané. Vous pouvez également effectuer facilement des analyses avec des rapports visualisés."
+        "title": "Raporte instant dhe periodike",
+        "description": "Me sistemin e menaxhimit të centralizuar AyaPos, mund të shihni raportet për një gamë specifike datash dhe raportet e gjendjes instant. Mund të bëni gjithashtu analiza lehtësisht me raportet e vizualizuara."
       },
       "central": {
-        "title": "Système de rapports centralisé",
-        "description": "Vous pouvez accéder aux rapports de toutes les succursales depuis un centre unique et comparer vos succursales. Ainsi, vous pouvez obtenir des analyses de performance des succursales."
+        "title": "Sistem raportesh të centralizuara",
+        "description": "Mund të aksesoni raportet e të gjitha degëve nga një qendër e vetme dhe të krahasoni degët tuaja. Kështu, mund të merrni analiza të performancës së degëve."
       }
     },
     "benefits": {
-      "stat1": "Plus rapide",
-      "stat2": "Accès partout",
-      "stat3": "Visibilité totale"
+      "stat1": "Më i shpejtë",
+      "stat2": "Qasje kudo",
+      "stat3": "Shkallë të plotë"
     },
     "cta": {
-      "title": "Prêt à centraliser votre gestion ?",
-      "subtitle": "Découvrez comment gérer toutes vos succursales depuis un seul endroit",
-      "button": "Demander une démonstration"
+      "title": "Gati për të centralizuar menaxhimin tuaj?",
+      "subtitle": "Zbuloni se si të menaxhoni të gjitha degët tuaja nga një vend i vetëm",
+      "button": "Kërko një demonstrim"
     }
   },
   "kioskPricing": {
     "hero": {
-      "title": "Tarifs Bornes Self-Order Kiosk",
-      "subtitle": "Choisissez la borne parfaite pour votre entreprise. Installation, configuration et formation incluses.",
-      "badge": "Livraison et installation gratuites"
+      "title": "Çmimet për Kioskët Self-Order",
+      "subtitle": "Zgjidhni kioskun e përsosur për biznesin tuaj. Shërbimi, konfigurimi dhe trajnimi të përfshira.",
+      "badge": "Dërgesë dhe instalim falas"
     },
-    "recommended": "Recommandé",
-    "oneTime": "Paiement unique",
-    "orderNow": "Commander maintenant",
+    "recommended": "E rekomanduar",
+    "oneTime": "Pagesë unike",
+    "orderNow": "Porosit tani",
     "models": {
       "small": {
-        "name": "Kiosk Compact",
-        "size": "Petite taille - Idéal pour espaces réduits",
-        "screen": "Écran tactile 15.6\"",
+        "name": "Kiosk Kompakt",
+        "size": "Madhësi e vogël - E shkëlqyer për hapësira të kufizuara",
+        "screen": "Ekrani me prekje 15.6\"",
         "features": [
-          "Écran tactile haute résolution 15.6\"",
-          "Processeur quad-core performant",
-          "Imprimante ticket thermique intégrée",
-          "Lecteur de carte bancaire NFC",
-          "Support mural ou sur pied",
-          "Design compact et élégant",
-          "Interface AyaPos préinstallée",
-          "Garantie 2 ans"
+          "Ekran me prekje me rezolucion të lartë 15.6\"",
+          "Procesor quad-core i fuqishëm",
+          "Printer i integruar për tiketa termike",
+          "Lexues kartash bankare NFC",
+          "Mbështetje murale ose mbi këmbë",
+          "Dizajn kompakt dhe elegant",
+          "Interface AyaPos e instaluar paraprakisht",
+          "Garanci 2 vjet"
         ]
       },
       "medium": {
         "name": "Kiosk Standard",
-        "size": "Taille moyenne - Le plus populaire",
-        "screen": "Écran tactile 21.5\"",
+        "size": "Madhësi mesatare - Më i njohuri",
+        "screen": "Ekrani me prekje 21.5\"",
         "features": [
-          "Écran tactile Full HD 21.5\"",
-          "Processeur haute performance",
-          "Imprimante ticket haute vitesse",
-          "Lecteur carte sans contact + QR code",
-          "Support réglable en hauteur",
-          "Haut-parleurs stéréo intégrés",
-          "Éclairage LED ambiant",
+          "Ekran me prekje Full HD 21.5\"",
+          "Procesor me performancë të lartë",
+          "Printer tiketa me shpejtësi të lartë",
+          "Lexues kartash pa kontakt + kod QR",
+          "Mbështetje e rregullueshme në lartësi",
+          "Kullë stereo të integruara",
+          "Për ndriçim LED ambient",
           "Interface AyaPos premium",
-          "Personnalisation couleurs",
-          "Garantie 3 ans + support prioritaire"
+          "Personalizimi i ngjyrave",
+          "Garanci 3 vjet + mbështetje prioritare"
         ]
       },
       "large": {
         "name": "Kiosk Premium",
-        "size": "Grande taille - Maximum d'impact",
-        "screen": "Écran tactile 32\"",
+        "size": "Madhësi e madhe - Maksimum ndikimi",
+        "screen": "Ekrani me prekje 32\"",
         "features": [
-          "Écran tactile 4K Ultra HD 32\"",
-          "Processeur dernière génération",
-          "Double imprimante ticket",
-          "Terminal de paiement intégré multi-cartes",
-          "Structure renforcée premium",
-          "Système audio haute fidélité",
-          "Caméra HD pour analytics",
-          "Éclairage LED RGB personnalisable",
-          "Scanner de codes-barres",
-          "Interface AyaPos enterprise",
-          "Personnalisation complète design",
-          "Garantie 5 ans + support dédié 24/7"
+          "Ekran me prekje 4K Ultra HD 32\"",
+          "Procesor i gjeneratës së fundit",
+          "Printer dyfish për tiketa",
+          "Terminal pagesash të integruar multi-kartash",
+          "Struktura premium e forcuar",
+          "Sistem audio me besnikëri të lartë",
+          "Kamerë HD për analiza",
+          "Për ndriçim LED RGB të personalizueshëm",
+          "Skener kodesh-bar",
+          "Interface AyaPos për ndërmarrje",
+          "Dizajn i plotë i personalizuar",
+          "Garanci 5 vjet + mbështetje e dedikuar 24/7"
         ]
       }
     },
     "included": {
-      "title": "Inclus avec toutes les bornes",
-      "subtitle": "Services et garanties pour une installation sans souci"
+      "title": "Përfshirë me të gjitha kiosket",
+      "subtitle": "Shërbime dhe garanci për një instalim pa probleme"
     },
     "commonFeatures": {
       "warranty": {
-        "title": "Garantie étendue",
-        "description": "De 2 à 5 ans selon le modèle avec intervention sur site"
+        "title": "Garanci e zgjeruar",
+        "description": "Nga 2 deri në 5 vjet në varësi të modelit me ndërhyrje në vend"
       },
       "support": {
-        "title": "Support technique",
-        "description": "Assistance téléphonique et en ligne en français"
+        "title": "Mbështetje teknike",
+        "description": "Asistencë telefonike dhe online në frëngjisht"
       },
       "installation": {
-        "title": "Installation incluse",
-        "description": "Livraison, installation et configuration par nos techniciens"
+        "title": "Instalim i përfshirë",
+        "description": "Dërgesë, instalim dhe konfigurim nga teknikët tanë"
       },
       "software": {
-        "title": "Logiciel AyaPos",
-        "description": "Licence logiciel incluse avec mises à jour gratuites"
+        "title": "Software AyaPos",
+        "description": "Licencë software e përfshirë me përditësime falas"
       }
     },
     "comparison": {
-      "title": "Tableau comparatif",
-      "subtitle": "Comparez les caractéristiques techniques de nos modèles",
-      "feature": "Caractéristique",
-      "screenSize": "Taille d'écran",
-      "touchscreen": "Écran tactile",
-      "printer": "Imprimante ticket",
-      "cardReader": "Lecteur carte",
-      "speakers": "Haut-parleurs",
-      "customization": "Personnalisation",
-      "basic": "Basique",
-      "advanced": "Avancée",
-      "complete": "Complète"
+      "title": "Tabelë krahasuese",
+      "subtitle": "Krahasoni karakteristikat teknike të modeleve tona",
+      "feature": "Karakteristika",
+      "screenSize": "Madhësia e ekranit",
+      "touchscreen": "Ekran me prekje",
+      "printer": "Printer tiketa",
+      "cardReader": "Lexues kartash",
+      "speakers": "Kullëz",
+      "customization": "Personalizim",
+      "basic": "Bazike",
+      "advanced": "Avancuar",
+      "complete": "E plotë"
     },
     "cta": {
-      "title": "Prêt à équiper votre restaurant ?",
-      "subtitle": "Nos experts sont là pour vous conseiller sur le meilleur modèle pour votre activité",
-      "button": "Demander un devis personnalisé"
+      "title": "Gati për të pajisur restorantin tuaj?",
+      "subtitle": "Ekspertët tanë janë këtu për t'ju këshilluar për modelin më të mirë për aktivitetin tuaj",
+      "button": "Kërko një ofertë të personalizuar"
     }
   },
   "orderSystemPricing": {
     "hero": {
-      "badge": "EXTENSION SYSTÈME DE COMMANDE",
-      "title": "Tarifs Système de Commande en Ligne",
-      "subtitle": "Ajoutez le module de commande en ligne à votre système POS existant. Augmentez vos ventes de 40% en moyenne.",
-      "trial": "14 jours d'essai gratuit inclus"
+      "badge": "ZGJIDHJE SISTEMI TË POROSISË",
+      "title": "Çmimet për Sistem Porosie në Internet",
+      "subtitle": "Shtoni modulin e porosisë në internet në sistemin tuaj ekzistues POS. Rritni shitjet tuaja me 40% në mesatare.",
+      "trial": "14 ditë provë falas të përfshira"
     },
-    "perMonth": "par mois",
-    "recommended": "Recommandé",
-    "selectPlan": "Sélectionner ce forfait",
+    "perMonth": "për muaj",
+    "recommended": "E rekomanduar",
+    "selectPlan": "Zgjidhni këtë paketë",
     "plansSection": {
-      "title": "Choisissez votre forfait",
-      "subtitle": "Extension qui s'intègre parfaitement à votre système POS AyaPos"
+      "title": "Zgjidhni paketën tuaj",
+      "subtitle": "Zgjidhje që përputhet në mënyrë të përkryer me sistemin tuaj POS AyaPos"
     },
     "plans": {
       "basic": {
-        "name": "Forfait Essentiel",
-        "description": "Pour petits restaurants et cafés",
+        "name": "Paketa Esenciale",
+        "description": "Për restorante dhe kafene të vogla",
         "features": [
-          "Jusqu'à 200 commandes/mois",
-          "Site web de commande responsive",
-          "Menu numérique personnalisable",
-          "Notifications par email",
-          "Paiement en ligne sécurisé",
-          "Intégration POS automatique",
-          "Support par email"
+          "Derisa në 200 porosi/muaj",
+          "Website i porosisë reagues",
+          "Menu dixhitale e personalizueshme",
+          "Njoftime përmes emailit",
+          "Pagesë në internet e sigurt",
+          "Integrim automatik POS",
+          "Mbështetje përmes emailit"
         ]
       },
       "standard": {
-        "name": "Forfait Business",
-        "description": "Idéal pour restaurants moyens",
+        "name": "Paketa Business",
+        "description": "E përshtatshme për restorante të mesme",
         "features": [
-          "Jusqu'à 1000 commandes/mois",
-          "Application mobile dédiée",
-          "Menu avec photos HD illimitées",
-          "SMS + Email notifications",
-          "Programme de fidélité intégré",
-          "Code promo et réductions",
-          "Statistiques avancées",
-          "Support prioritaire",
-          "0% commission sur ventes"
+          "Derisa në 1000 porosi/muaj",
+          "Aplikacion mobil të dedikuar",
+          "Menu me fotografi HD të pakufizuara",
+          "Njoftime SMS + Email",
+          "Program besnikërie të integruar",
+          "Kod promocional dhe zbritje",
+          "Statistika të avancuara",
+          "Mbështetje prioritare",
+          "0% komision mbi shitjet"
         ]
       },
       "premium": {
-        "name": "Forfait Enterprise",
-        "description": "Pour chaînes et franchises",
+        "name": "Paketa Enterprise",
+        "description": "Për zinxhirë dhe franšiza",
         "features": [
-          "Commandes illimitées",
-          "Applications iOS et Android",
-          "Multi-restaurants / succursales",
-          "API personnalisée",
-          "Chatbot IA intégré",
-          "Marketing automation",
-          "A/B testing menu",
-          "Analytics prédictives",
-          "Gestionnaire de compte dédié",
-          "SLA 99.9% garanti",
-          "Formation équipe incluse"
+          "Porosi të pakufizuara",
+          "Aplikacione iOS dhe Android",
+          "Multi-restorante / degë",
+          "API e personalizuar",
+          "Chatbot IA të integruar",
+          "Automatizimi i marketingut",
+          "Testimi A/B të menusë",
+          "Analitika parashikuese",
+          "Menaxher kontesh të dedikuar",
+          "SLA 99.9% e garantuar",
+          "Trajnim ekipi i përfshirë"
         ]
       }
     },
     "benefitsSection": {
-      "title": "Pourquoi ajouter le système de commande ?",
-      "subtitle": "Des avantages mesurables pour votre entreprise"
+      "title": "Pse të shtoni sistemin e porosisë?",
+      "subtitle": "Përfitime të matshme për biznesin tuaj"
     },
     "benefits": {
       "sales": {
-        "title": "Augmentez vos ventes",
-        "description": "+40% de revenus en moyenne grâce aux commandes en ligne 24/7"
+        "title": "Rritni shitjet tuaja",
+        "description": "+40% të të ardhurave në mesatare falë porosive në internet 24/7"
       },
       "customers": {
-        "title": "Fidélisez vos clients",
-        "description": "Programme de fidélité et historique des commandes automatique"
+        "title": "Beso klientët tuaj",
+        "description": "Program besnikërie dhe histori porosish automatik"
       },
       "automation": {
-        "title": "Automatisation complète",
-        "description": "Les commandes arrivent directement dans votre système POS"
+        "title": "Automatizim i plotë",
+        "description": "Porositë vijnë direkt në sistemin tuaj POS"
       },
       "integration": {
-        "title": "Intégration parfaite",
-        "description": "S'intègre nativement avec votre système POS AyaPos existant"
+        "title": "Integrim i përsosur",
+        "description": "Përputhet natyrshëm me sistemin tuaj ekzistues POS AyaPos"
       }
     },
     "faq": {
-      "title": "Questions fréquentes",
+      "title": "Pyetje të shpeshta",
       "q1": {
-        "question": "Comment fonctionne l'intégration avec mon POS ?",
-        "answer": "Le système de commande s'intègre automatiquement à votre POS AyaPos. Les commandes en ligne apparaissent instantanément sur votre écran de cuisine, comme les commandes sur place."
+        "question": "Si funksionon integrimi me POS-in tim?",
+        "answer": "Sistemi i porosisë integrowet automatikisht me POS-in tuaj AyaPos. Porositë në internet shfaqen menjëherë në ekranin tuaj të kuzhinës, ashtu si porositë në vend."
       },
       "q2": {
-        "question": "Puis-je changer de forfait plus tard ?",
-        "answer": "Oui, vous pouvez upgrader ou downgrader votre forfait à tout moment. Les changements prennent effet immédiatement."
+        "question": "A mund të ndryshoj paketën më vonë?",
+        "answer": "Po, mund të përmirësoni ose ulni paketën tuaj në çdo kohë. Ndryshimet hynë në fuqi menjëherë."
       },
       "q3": {
-        "question": "Y a-t-il des frais d'installation ?",
-        "answer": "Non, l'installation et la configuration sont incluses dans tous les forfaits. Notre équipe vous accompagne pour la mise en place."
+        "question": "A ka tarifa për instalim?",
+        "answer": "Jo, instalimi dhe konfigurimi janë të përfshira në të gjitha paketat. Ekipi ynë ju ndihmon në vendosjen."
       }
     },
     "cta": {
-      "title": "Prêt à booster vos ventes en ligne ?",
-      "subtitle": "Commencez votre essai gratuit de 14 jours, sans carte bancaire",
-      "button": "Démarrer l'essai gratuit"
+      "title": "Gati për të rritur shitjet tuaja online?",
+      "subtitle": "Filloni provën tuaj falas të 14 ditëve, pa kartë krediti",
+      "button": "Nisi provën falas"
     }
   },
   "deliveryServicePricing": {
@@ -1083,185 +1083,185 @@
   },
   "hardwareDevices": {
     "hero": {
-      "badge": "CATALOGUE MATÉRIEL",
-      "title": "Matériel et Appareils POS",
-      "subtitle": "Tous les équipements et accessoires dont vous avez besoin pour votre entreprise. Matériel professionnel de qualité supérieure."
+      "badge": "KATALOGU I PAFUND",
+      "title": "Pajisje dhe Aparatura POS",
+      "subtitle": "Të gjitha pajisjet dhe aksesorët që ju nevojiten për biznesin tuaj. Pajisje profesionale të cilësisë së lartë."
     },
     "categories": {
-      "all": "Tous",
-      "pos": "Terminaux POS",
-      "kiosk": "Bornes Kiosk",
-      "printers": "Imprimantes",
-      "accessories": "Accessoires"
+      "all": "Të gjitha",
+      "pos": "Terminalet POS",
+      "kiosk": "Kioskët",
+      "printers": "Printerat",
+      "accessories": "Aksesorët"
     },
     "devices": {
-      "sunmiD3Pro": "Écran tactile 15.6 pouces, Android 11, processeur haute performance",
-      "sunmiD3Mini": "Écran tactile 10.1 pouces, compact et puissant",
-      "iMinSwan": "Terminal POS Android premium avec écran tactile capacitif",
-      "iMinD3": "Solution POS complète avec imprimante intégrée",
-      "iMinD2": "Terminal compact idéal pour petits espaces",
-      "iMinD1": "Terminal POS économique avec toutes les fonctionnalités",
-      "wintecAnypos": "Borne self-service verticale 15.6 pouces",
-      "wintecSelfpos10": "Kiosk vertical pour commande rapide",
-      "wintecSelfpos70": "Grand kiosk 32 pouces pour impact visuel maximal",
-      "paxSk800": "Borne kiosk professionnelle 23.8 pouces",
-      "thermalPrinter": "Imprimante Thermique POS",
-      "thermalPrinterDesc": "Impression rapide et silencieuse, compatible tous systèmes",
-      "labelPrinter": "Imprimante Étiquettes Code-Barres",
-      "labelPrinterDesc": "Compacte et facile à utiliser pour étiquettes produits",
-      "scaleLabel": "Balance avec Imprimante Étiquettes",
-      "scaleLabelDesc": "Mesure précise et fiable avec impression code-barres",
-      "barcodeWired": "Lecteur Code-Barres Filaire",
-      "barcodeWiredDesc": "Lecteur de table professionnel pour caisse",
-      "barcodeWireless": "Lecteur Code-Barres Sans Fil",
-      "barcodeWirelessDesc": "Autonomie batterie 30 heures, portée 100m",
-      "cashDrawer": "Tiroir-Caisse Métallique",
-      "cashDrawerDesc": "Construction robuste et durable en métal renforcé",
-      "cardReader": "Lecteur de Cartes RFID",
-      "cardReaderDesc": "Plug & Play, compatible cartes sans contact",
-      "pavoN86": "Terminal de paiement mobile HD avec NFC",
-      "waiterHandheld": "Terminal Serveur Portable",
-      "waiterHandheldDesc": "Écran HD IPS 5 pouces, idéal pour prise de commande mobile",
-      "paxA920Pro": "Terminal mobile professionnel 5.5 pouces"
+      "sunmiD3Pro": "Ekran me prekje 15.6 inç, Android 11, procesor me performancë të lartë",
+      "sunmiD3Mini": "Ekran me prekje 10.1 inç, kompakt dhe i fuqishëm",
+      "iMinSwan": "Terminali POS Android premium me ekran me prekje kapacitive",
+      "iMinD3": "Zgjidhje e plotë POS me printer të integruar",
+      "iMinD2": "Terminal kompakt i përshtatshëm për hapësira të vogla",
+      "iMinD1": "Terminal i përballueshëm POS me të gjitha funksionalitetet",
+      "wintecAnypos": "Kiosk vetë-shërbimi vertikal 15.6 inç",
+      "wintecSelfpos10": "Kiosk vertikal për porosinë e shpejtë",
+      "wintecSelfpos70": "Kiosk i madh 32 inç për ndikim maksimal vizual",
+      "paxSk800": "Kiosk profesional 23.8 inç",
+      "thermalPrinter": "Printer Termik POS",
+      "thermalPrinterDesc": "Printim të shpejtë dhe të qetë, i përshtatshëm për të gjitha sistemet",
+      "labelPrinter": "Printer për Etiketa Kod-Barre",
+      "labelPrinterDesc": "Kompakt dhe e lehtë për t'u përdorur për etiketat e produkteve",
+      "scaleLabel": "Balancë me Printer Etiketash",
+      "scaleLabelDesc": "Matje të sakta dhe të besueshme me printim kod-bar",
+      "barcodeWired": "Lexues Kod-Barre me Tel",
+      "barcodeWiredDesc": "Lexues profesional për tavolinë për regjistrin",
+      "barcodeWireless": "Lexues Kod-Barre Pa Tel",
+      "barcodeWirelessDesc": "Autonomi të akumulatorit 30 orë, distancë 100m",
+      "cashDrawer": "Tiroir-Caisse Metali",
+      "cashDrawerDesc": "Konstruksion i fortë dhe i qëndrueshëm nga metali i forcuar",
+      "cardReader": "Lexues Kartash RFID",
+      "cardReaderDesc": "Plug & Play, i përshtatshëm për karta pa kontakt",
+      "pavoN86": "Terminal pagesash mobil HD me NFC",
+      "waiterHandheld": "Terminal Shërbimi Portativ",
+      "waiterHandheldDesc": "Ekran HD IPS 5 inç, ideal për marrjen e porosive në lëvizje",
+      "paxA920Pro": "Terminal mobil profesional 5.5 inç"
     },
-    "requestQuote": "Demander un devis",
+    "requestQuote": "Kërko një ofertë",
     "features": {
-      "title": "Pourquoi choisir notre matériel ?",
-      "subtitle": "Des équipements professionnels avec service complet",
+      "title": "Pse të zgjidhni pajisjet tona?",
+      "subtitle": "Pajisje profesionale me shërbim të plotë",
       "quality": {
-        "title": "Qualité Premium",
-        "description": "Matériel professionnel de marques reconnues mondialement"
+        "title": "Cilësia Premium",
+        "description": "Pajisje profesionale nga marka të njohura globalisht"
       },
       "warranty": {
-        "title": "Garantie Étendue",
-        "description": "Garantie constructeur de 2 à 5 ans selon les modèles"
+        "title": "Garanci e Zgjeruar",
+        "description": "Garanci nga prodhuesi nga 2 deri në 5 vjet në varësi të modeleve"
       },
       "support": {
-        "title": "Support Technique",
-        "description": "Assistance téléphonique et sur site en cas de besoin"
+        "title": "Mbështetje Teknike",
+        "description": "Asistencë telefonike dhe në vend në rast nevoje"
       },
       "delivery": {
-        "title": "Livraison & Installation",
-        "description": "Livraison rapide et installation par nos techniciens"
+        "title": "Dërgesa & Instalimi",
+        "description": "Dërgesë të shpejtë dhe instalim nga teknikët tanë"
       }
     },
     "cta": {
-      "title": "Besoin de conseils pour votre équipement ?",
-      "subtitle": "Nos experts vous aident à choisir le matériel adapté à vos besoins",
-      "button": "Contactez nos experts"
+      "title": "Keni nevojë për këshilla për pajisjet tuaja?",
+      "subtitle": "Ekspertët tanë ju ndihmojnë të zgjidhni pajisjet e përshtatshme për nevojat tuaja",
+      "button": "Kontaktoni ekspertët tanë"
     }
   },
   "about": {
     "hero": {
-      "title": "À Propos d'AyaPos",
-      "subtitle": "Nous sommes une entreprise innovante dédiée à la transformation numérique de la restauration. Notre mission : simplifier la gestion de votre établissement avec des solutions POS modernes et intuitives."
+      "title": "Rreth AyaPos",
+      "subtitle": "Ne jemi një kompani inovative e cila i dedikohet transformimit digjital të industrisë së restoranteve. Misioni ynë: të thjeshtojmë menaxhimin e subjektit tuaj me zgjidhje moderne dhe intuitive POS."
     },
     "stats": {
-      "clients": "Clients Satisfaits",
-      "years": "Ans d'Expérience",
-      "team": "Experts à votre Service",
-      "satisfaction": "Taux de Satisfaction"
+      "clients": "Klientë të Kënaqur",
+      "years": "Vite Eksperiencë",
+      "team": "Ekspertë në Shërbimin Tuaj",
+      "satisfaction": "Norma e Kënaqësisë"
     },
     "story": {
-      "title": "Notre Histoire",
-      "paragraph1": "Fondée en 2010, AyaPos est née de la volonté de moderniser le secteur de la restauration. Nous avons débuté avec une vision simple : créer des outils technologiques accessibles à tous les restaurateurs, quelle que soit la taille de leur établissement.",
-      "paragraph2": "Au fil des années, nous avons développé une suite complète de solutions POS qui combinent innovation, simplicité d'utilisation et fiabilité. Nos systèmes équipent aujourd'hui plus de 5000 restaurants, cafés, bars et établissements dans toute la France et en Europe.",
-      "paragraph3": "Notre équipe passionnée travaille chaque jour pour améliorer nos produits et accompagner nos clients dans leur réussite. Nous croyons que la technologie doit être au service de l'humain, et non l'inverse."
+      "title": "Historia Jonë",
+      "paragraph1": "E themeluar në vitin 2010, AyaPos lindi nga dëshira për të modernizuar sektorin e restoranteve. Ne filluam me një vizion të thjeshtë: të krijojmë mjete teknologjike të aksesueshme për çdo restaurator, pavarësisht nga madhësia e subjektit të tyre.",
+      "paragraph2": "Gjatë viteve, ne zhvilluam një grup të plotë zgjidhjesh POS që kombinon inovacionin, thjeshtësinë e përdorimit dhe besueshmërinë. Sistemet tona sot pajisin më shumë se 5000 restorante, kafene, bare dhe subjekte në të gjithë Francën dhe Evropën.",
+      "paragraph3": "Ekipi ynë i pasionuar punon çdo ditë për të përmirësuar produktet tona dhe për të ndihmuar klientët tanë në suksesin e tyre. Ne besojmë se teknologjia duhet të shërbejë njeriut, dhe jo e kundërta."
     },
     "valuesSection": {
-      "title": "Nos Valeurs",
-      "subtitle": "Ce qui guide notre action au quotidien"
+      "title": "Vlerat Tona",
+      "subtitle": "Çfarë na udhëheq në veprat tona të përditshme"
     },
     "values": {
       "innovation": {
-        "title": "Innovation",
-        "description": "Nous investissons continuellement dans la R&D pour vous offrir les technologies les plus avancées"
+        "title": "Inovacioni",
+        "description": "Ne investojmë vazhdimisht në R&D për t'ju ofruar teknologjitë më të avancuara"
       },
       "customer": {
-        "title": "Écoute Client",
-        "description": "Vos besoins sont au cœur de nos développements. Nous écoutons et agissons"
+        "title": "Dëgjimi i Klientit",
+        "description": "Nevojat tuaja janë në qendër të zhvillimeve tona. Ne dëgjojmë dhe veprojmë"
       },
       "quality": {
-        "title": "Qualité",
-        "description": "Matériel premium, logiciels robustes et support technique d'excellence"
+        "title": "Cilësia",
+        "description": "Pajisje premium, software të qëndrueshëm dhe mbështetje teknike të shkëlqyer"
       },
       "efficiency": {
-        "title": "Efficacité",
-        "description": "Des solutions pensées pour gagner du temps et augmenter votre rentabilité"
+        "title": "Efikasiteti",
+        "description": "Zgjidhje të menduara për të kursyer kohë dhe për të rritur rentabilitetin tuaj"
       }
     },
     "timeline": {
-      "title": "Notre Parcours",
-      "subtitle": "Les grandes étapes de notre développement",
+      "title": "Rruga Jonë",
+      "subtitle": "Hapat kryesorë të zhvillimit tonë",
       "2010": {
-        "title": "Création d'AyaPos",
-        "description": "Lancement de notre premier système POS pour restaurants avec 50 clients la première année"
+        "title": "Krijimi i AyaPos",
+        "description": "Lansimi i sistemit tonë të parë POS për restorante me 50 klientë në vitin e parë"
       },
       "2015": {
-        "title": "Expansion Nationale",
-        "description": "Ouverture de 5 bureaux régionaux et lancement de l'application mobile pour serveurs"
+        "title": "Zgjerimi Kombëtar",
+        "description": "Hapja e 5 zyrave rajonale dhe lansimi i aplikacionit mobil për shërbim"
       },
       "2020": {
-        "title": "Innovation Cloud",
-        "description": "Migration complète vers le cloud et lancement des bornes self-service nouvelle génération"
+        "title": "Inovacioni Cloud",
+        "description": "Migrimi i plotë në cloud dhe lansimi i kioskëve të vetë-shërbimit të brezit të ri"
       },
       "2024": {
-        "title": "Intelligence Artificielle",
-        "description": "Intégration de l'IA pour les prévisions de ventes et la gestion optimisée des stocks"
+        "title": "Inteligjenca Artificiale",
+        "description": "Integrimi i IA për parashikimet e shitjeve dhe menaxhimin e optimizuar të stokut"
       }
     },
     "mission": {
-      "title": "Notre Mission",
-      "description": "Accompagner les restaurateurs dans leur transformation digitale en leur fournissant des outils simples, puissants et abordables. Nous voulons que chaque établissement, du petit café au grand restaurant, puisse bénéficier des mêmes technologies que les grandes chaînes.",
-      "badge1": "Innovation Continue",
-      "badge2": "Support Dédié",
-      "badge3": "Communauté Active"
+      "title": "Misioni Ynë",
+      "description": "Të shoqërojmë restauratorët në transformimin e tyre dixhital duke u ofruar mjete të thjeshta, të fuqishme dhe të përballueshme. Ne duam që çdo subjekt, nga kafeneja e vogël deri te restoranti i madh, të ketë akses në të njëjtat teknologji si zinxhirët e mëdhenj.",
+      "badge1": "Inovacion i Përtërirë",
+      "badge2": "Mbështetje e Dedikuar",
+      "badge3": "Komunitet Aktiv"
     }
   },
   "blog": {
     "hero": {
       "title": "Blog AyaPos",
-      "subtitle": "Actualités, conseils et tendances de la restauration moderne"
+      "subtitle": "Lajme, këshilla dhe tendenca të restoranteve moderne"
     },
     "categories": {
-      "all": "Tous les articles",
-      "news": "Actualités",
-      "tips": "Conseils",
-      "technology": "Technologie",
-      "success": "Success Stories"
+      "all": "Të gjitha artikujt",
+      "news": "Lajme",
+      "tips": "Këshilla",
+      "technology": "Teknologji",
+      "success": "Histori Sucesi"
     },
-    "readMore": "Lire la suite",
+    "readMore": "Lexo më shumë",
     "articles": {
       "article1": {
-        "title": "AyaPos lance sa nouvelle gamme de bornes self-service",
-        "excerpt": "Découvrez nos nouvelles bornes kiosk avec écran 32 pouces et interface ultra-intuitive. Une révolution pour l'expérience client dans la restauration rapide."
+        "title": "AyaPos lançon gamën e saj të re të kioskeve self-service",
+        "excerpt": "Zbuloni kiosket tona të reja me ekran 32 inç dhe një ndërfaqe ultra-intuitive. Një revolucion për përvojën e klientit në restorantet e shpejta."
       },
       "article2": {
-        "title": "10 Conseils pour optimiser votre service en période de pointe",
-        "excerpt": "Comment gérer l'affluence aux heures de rush ? Nos experts partagent leurs meilleures pratiques pour maintenir un service de qualité même quand c'est bondé."
+        "title": "10 Këshilla për të optimizuar shërbimin tuaj në periudhën e shkarkimit",
+        "excerpt": "Si të menaxhoni fluksin gjatë orëve të zënë? Ekspertët tanë ndajnë praktikat e tyre më të mira për të mbajtur një shërbim cilësor, madje edhe kur është e mbushur."
       },
       "article3": {
-        "title": "L'Intelligence Artificielle au service de la restauration",
-        "excerpt": "Comment l'IA peut vous aider à prévoir vos ventes, optimiser vos stocks et personnaliser l'expérience client. Découvrez les nouvelles fonctionnalités AyaPos."
+        "title": "Inteligjenca Artificiale në shërbim të restoranteve",
+        "excerpt": "Si mund t'ju ndihmojë IA për të parashikuar shitjet tuaja, për të optimizuar stokun dhe për të personalizuar përvojën e klientit. Zbuloni funksionalitetet e reja AyaPos."
       },
       "article4": {
-        "title": "Success Story : Le Bistrot Moderne triple son chiffre d'affaires",
-        "excerpt": "Rencontre avec Jean Dupont qui a transformé son restaurant traditionnel en établissement moderne grâce aux solutions AyaPos. Témoignage inspirant."
+        "title": "Historia e Succesit: Bistrot Moderne trefishon të ardhurat",
+        "excerpt": "Takim me Jean Dupont që transformoi restorantin e tij tradicional në një subjekt modern falë zgjidhjeve AyaPos. Një dëshmi frymëzuese."
       },
       "article5": {
-        "title": "Réduire le gaspillage alimentaire grâce à la technologie",
-        "excerpt": "Notre système de gestion des stocks intelligent vous aide à réduire vos pertes de 40%. Découvrez comment optimiser vos achats et limiter le gaspillage."
+        "title": "Reduktimi i shpërdorimit të ushqimeve falë teknologjisë",
+        "excerpt": "Sistemi ynë inteligjent i menaxhimit të stokut ju ndihmon të reduktoni humbjet tuaja me 40%. Zbuloni si të optimizoni blerjet tuaja dhe të kufizoni shpërdorimin."
       },
       "article6": {
-        "title": "QR Code et commande en ligne : les nouvelles attentes des clients",
-        "excerpt": "Les habitudes de consommation évoluent. 73% des clients préfèrent commander via QR code. Comment s'adapter à ces nouvelles tendances ?"
+        "title": "QR Code dhe porosia në internet: pritjet e reja të klientëve",
+        "excerpt": "Zakonet e konsumit po evoluojnë. 73% e klientëve preferojnë të porosisin përmes kodit QR. Si të përshtateni me këto tendenca të reja?"
       }
     },
     "newsletter": {
-      "title": "Restez Informé",
-      "subtitle": "Recevez nos derniers articles et conseils directement dans votre boîte mail",
-      "placeholder": "Votre adresse email",
-      "button": "S'abonner"
+      "title": "Qëndroni të Informuar",
+      "subtitle": "Merrni artikujt dhe këshillat tona më të fundit drejtpërdrejt në kuti tuaj të postës",
+      "placeholder": "Adresa juaj e emailit",
+      "button": "Abonohu"
     }
   }
 }
