@@ -232,10 +232,10 @@ const Home = () => {
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl mb-6 shadow-lg">
                   <LucideIcons.CreditCard className="h-8 w-8 text-white" />
                 </div>
-                <div className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent mb-3">
+                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent mb-3">
                   5M+
                 </div>
-                <p className="text-gray-600 font-medium">Transactions mensuelles</p>
+                <p className="text-sm md:text-base text-gray-600 font-medium">Transactions mensuelles</p>
               </div>
             </div>
 
