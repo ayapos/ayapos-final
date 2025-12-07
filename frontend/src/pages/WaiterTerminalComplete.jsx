@@ -78,7 +78,7 @@ const WaiterTerminalComplete = () => {
                     <img
                       src={benefit.image || 'https://images.unsplash.com/photo-1563207153-f403bf289096?w=800&q=80'}
                       alt={benefit.title}
-                      className="rounded-2xl shadow-xl w-full h-96 object-cover"
+                      className="rounded-2xl shadow-xl w-full h-96 object-contain bg-gray-100"
                       onError={(e) => {
                         e.target.src = 'https://images.unsplash.com/photo-1563207153-f403bf289096?w=800&q=80';
                       }}
