@@ -585,12 +585,13 @@ const Pricing = () => {
       </section>
 
       {/* Terminaux de Paiement Section */}
+      {console.log('Terminals count:', terminals.length, terminals)}
       {terminals.length > 0 && (
         <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                Terminaux de Paiement
+                Nos Terminaux de Paiement
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Nos terminaux professionnels pour accepter tous les paiements
