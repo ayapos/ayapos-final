@@ -1,9 +1,20 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { ArrowRight, Smartphone, BarChart3, TrendingUp, Clock, Package, DollarSign, Users, Cloud, Settings, Download } from 'lucide-react';
+import { usePageContent } from '../hooks/usePageContent';
 
 const MobileReportsComplete = () => {
   const { t } = useTranslation();
+  const { getContentValue, loading } = usePageContent('mobile-reports');
+  const content = { section_images: {} };
+  
+  // Charger les images dynamiques
+  if (!loading) {
+    const sectionImages = getContentValue('section_images');
+    if (sectionImages) {
+      content.section_images = sectionImages;
+    }
+  }
 
   const mainFeatures = [
     {
