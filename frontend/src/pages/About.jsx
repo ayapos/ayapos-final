@@ -150,13 +150,13 @@ const About = () => {
                 {t('about.story.title')}
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                {t('about.story.paragraph1')}
+                {getContentValue('story') || "AyaPOS est née de la vision d'entrepreneurs ayant 7 ans d'expérience dans les solutions digitales pour la restauration. Fondée officiellement en 2025, notre équipe a déjà accompagné 800+ restaurants dans leur transformation numérique."}
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                {t('about.story.paragraph2')}
+                {getContentValue('mission') || "Notre mission est simple : rendre la technologie accessible à tous les restaurateurs, des petits cafés aux grandes chaînes."}
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                {t('about.story.paragraph3')}
+                {getContentValue('vision') || "Nous croyons que chaque établissement mérite des outils professionnels pour optimiser ses opérations et améliorer l'expérience client."}
               </p>
             </div>
           </div>
