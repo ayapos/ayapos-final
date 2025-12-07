@@ -132,8 +132,13 @@ const ProductsManager = () => {
       description: product.description || '',
       tagline: product.tagline || '',
       price: product.price?.toString() || '',
+      currency: product.currency || 'CHF',
       features: Array.isArray(product.features) ? product.features.join('\n') : '',
       recommended: product.recommended || false,
+      featured: product.featured || false,
+      highlighted: product.highlighted || false,
+      badge: product.badge || '',
+      image: product.image || '',
       discount: product.discount?.toString() || ''
     });
     setShowForm(true);
