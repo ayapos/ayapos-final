@@ -160,12 +160,19 @@ const Navbar = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`text-sm font-medium transition-colors hover:text-blue-600 ${
-                    location.pathname === item.path
+                  className={`text-sm font-medium transition-all ${
+                    item.isPremium
+                      ? 'bg-gradient-to-r from-emerald-600 to-green-400 text-white px-4 py-2 rounded-lg hover:from-emerald-700 hover:to-green-500 shadow-lg hover:shadow-xl scale-105 relative'
+                      : location.pathname === item.path
                       ? 'text-blue-600'
-                      : 'text-gray-700'
+                      : 'text-gray-700 hover:text-blue-600'
                   }`}
                 >
+                  {item.isPremium && (
+                    <span className="absolute -top-2 -right-1 text-[10px] bg-yellow-400 text-emerald-900 px-1.5 py-0.5 rounded-full font-bold shadow-sm">
+                      💎
+                    </span>
+                  )}
                   {item.name}
                 </Link>
               )
