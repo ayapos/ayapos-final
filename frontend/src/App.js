@@ -111,6 +111,7 @@ function App() {
               {/* About & Blog */}
               <Route path="/about" element={<PublicLayout><About /></PublicLayout>} />
               <Route path="/blog" element={<PublicLayout><Blog /></PublicLayout>} />
+              <Route path="/blog/:slug" element={<PublicLayout><BlogPost /></PublicLayout>} />
               <Route path="/blog/post-1" element={<PublicLayout><BlogPost1 /></PublicLayout>} />
               <Route path="/blog/post-2" element={<PublicLayout><BlogPost2 /></PublicLayout>} />
               
