@@ -184,6 +184,8 @@ const ProductsManager = () => {
       tagline: '',
       price: '',
       currency: 'CHF',
+      priceType: 'subscription',
+      billingPeriod: 'monthly',
       features: '',
       recommended: false,
       featured: false,
