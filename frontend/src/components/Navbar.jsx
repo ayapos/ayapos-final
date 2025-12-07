@@ -93,7 +93,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <span className="text-5xl font-black text-[#1e3a8a] tracking-tighter" style={{ fontFamily: 'Arial Black, sans-serif' }}>
-              AyaPos
+              AYAPOS
             </span>
           </Link>
 
