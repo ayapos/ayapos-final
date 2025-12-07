@@ -165,39 +165,6 @@ const RobotWaiterComplete = () => {
         </div>
       </section>
 
-      {/* Benefits Section with Images */}
-      {content?.benefits && content.benefits.length > 0 && (
-        <section className="py-20 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                Avantages du Robot Serveur
-              </h2>
-            </div>
-            
-            <div className="grid md:grid-cols-2 gap-8">
-              {content.benefits.map((benefit, index) => (
-                <div key={index} className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl border border-blue-100 hover:shadow-xl transition-all">
-                  {benefit.image && (
-                    <img
-                      src={benefit.image}
-                      alt={benefit.title}
-                      className="w-full h-64 object-cover rounded-lg mb-6"
-                    />
-                  )}
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                    {benefit.title}
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    {benefit.description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
       {/* Autonomous Navigation Section */}
       <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-50">
         <div className="container mx-auto px-4">
