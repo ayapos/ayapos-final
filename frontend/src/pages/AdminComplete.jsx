@@ -48,6 +48,7 @@ const AdminComplete = () => {
     { slug: 'delivery-service-pricing', name: 'Tarifs Livraison', icon: DollarSign, category: 'Solutions Restaurant' },
     { slug: 'ayapay', name: 'AyaPay Paiement', icon: CreditCard, category: 'Paiement' },
     { slug: 'pos', name: 'Systèmes POS', icon: Monitor, category: 'POS' },
+    { slug: 'pos-packages', name: '📦 Packages POS', icon: Package, category: 'POS', special: true },
     { slug: 'digital', name: 'Solutions Digitales', icon: Smartphone, category: 'Digital' },
     { slug: 'web-portal', name: 'Portail Web', icon: Code, category: 'Outils Gestion' },
     { slug: 'mobile-reports', name: 'Rapports Mobile', icon: BarChart3, category: 'Outils Gestion' },
