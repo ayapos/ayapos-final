@@ -40,6 +40,7 @@ import WaiterTerminalPricing from './pages/WaiterTerminalPricing';
 import HardwareDevices from './pages/HardwareDevicesDynamic';
 import About from './pages/About';
 import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 import BlogPost1 from './pages/blog/BlogPost1';
 import BlogPost2 from './pages/blog/BlogPost2';
 import WaiterTerminalNew from './pages/WaiterTerminalComplete';
