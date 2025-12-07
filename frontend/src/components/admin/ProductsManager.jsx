@@ -26,6 +26,8 @@ const ProductsManager = () => {
     tagline: '',
     price: '',
     currency: 'CHF',
+    priceType: 'subscription', // 'one-time' ou 'subscription'
+    billingPeriod: 'monthly', // 'monthly', 'yearly', 'one-time'
     features: '',
     recommended: false,
     featured: false,
