@@ -69,19 +69,20 @@ const About = () => {
     { number: '99%', label: t('about.stats.satisfaction') }
   ];
 
-  const milestones = [
+  const timelineFromDB = getContentValue('timeline');
+  const milestones = timelineFromDB && timelineFromDB.length > 0 ? timelineFromDB : [
     {
-      year: '2010',
+      year: '2018',
       title: t('about.timeline.2010.title'),
       description: t('about.timeline.2010.description')
     },
     {
-      year: '2015',
+      year: '2022',
       title: t('about.timeline.2015.title'),
       description: t('about.timeline.2015.description')
     },
     {
-      year: '2020',
+      year: '2024',
       title: t('about.timeline.2020.title'),
       description: t('about.timeline.2020.description')
     },
